@@ -106,7 +106,7 @@ Dans Settings → Secrets and variables → Actions du dépôt :
 | `KEY_ALIAS` | Alias de la clé (`miroir`) |
 | `KEY_PASSWORD` | Mot de passe de la clé |
 | `GOOGLE_SERVICES_JSON_B64` | Contenu de `google-services.json.b64` |
-| `WORKER_URL` | URL du Worker (préremplie dans l'appli) |
+| `WORKER_URL` | Facultatif : remplace l'URL du Worker définie dans `gradle.properties` (`miroir.workerUrl`) |
 
 Pour le déploiement automatique du Worker : `CLOUDFLARE_API_TOKEN` (modèle « Edit Cloudflare Workers » + D1 : Edit), `FCM_SERVICE_ACCOUNT` (le JSON du compte de service, tel quel) et, seulement si le jeton donne accès à plusieurs comptes, `CLOUDFLARE_ACCOUNT_ID`.
 

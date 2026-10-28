@@ -114,3 +114,8 @@ jobs:
           echo "URL : $WORKER_URL" >> "$GITHUB_STEP_SUMMARY"
           echo "::notice title=URL du Worker::$WORKER_URL"
           [ "$OK" = "1" ] || echo "::warning::$WORKER_URL/health ne répond pas encore (propagation DNS en cours ?)."
+
+      - name: Test de bout en bout sur la prod
+        if: steps.token.outputs.skip != '1'
+        # Crée une paire de test éphémère, rejoue tous les scénarios, puis la supprime.
+        run: node scripts/smoke.mjs "$WORKER_URL"
