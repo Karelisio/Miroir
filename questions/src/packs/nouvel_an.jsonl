@@ -1,0 +1,30 @@
+{"id":"nouvel_an-001","category":"souvenirs","type":"text","text":"Quel moment de cette année aimerais-tu pouvoir revivre, rien qu'une fois ?","tags":["bilan","souvenirs"]}
+{"id":"nouvel_an-002","category":"futur","type":"text","text":"Quelle résolution prends-tu pour l'année qui vient, même toute petite ?","tags":["résolutions"]}
+{"id":"nouvel_an-003","category":"tu_preferes","type":"choice","text":"Tu préfères fêter le passage à la nouvelle année…","options":["Dans une grande fête qui dure jusqu'à l'aube","Au calme, rien qu'à nous deux","Avec quelques amis autour d'un bon repas","Au lit avant minuit, sans regret"],"tags":["réveillon","ambiance"]}
+{"id":"nouvel_an-004","category":"profond","type":"text","text":"Qu'as-tu appris sur toi cette année ?","tags":["bilan","profond"]}
+{"id":"nouvel_an-005","category":"qui_de_nous","type":"who","text":"Qui de nous deux tiendra ses bonnes résolutions le plus longtemps ?","tags":["résolutions","drôle"]}
+{"id":"nouvel_an-006","category":"nous_deux","type":"text","text":"Quel a été notre plus beau moment à deux cette année ?","tags":["bilan","nous"]}
+{"id":"nouvel_an-007","category":"souvenirs","type":"scale","text":"Quelle note donnerais-tu à l'année qui s'achève ?","minLabel":"À oublier vite","maxLabel":"Un grand cru","tags":["bilan"]}
+{"id":"nouvel_an-008","category":"futur","type":"text","text":"Quel projet aimerais-tu qu'on réalise ensemble l'an prochain ?","tags":["projets","nous"]}
+{"id":"nouvel_an-009","category":"valeurs","type":"text","text":"Quelle personne aimerais-tu remercier pour ce qu'elle t'a apporté cette année ?","tags":["gratitude"]}
+{"id":"nouvel_an-010","category":"fun","type":"choice","text":"À minuit pile, tu es du genre à…","options":["Embrasser tout le monde","Crier le compte à rebours","Faire un vœu les yeux fermés","Dormir déjà sur le canapé"],"tags":["réveillon","drôle"]}
+{"id":"nouvel_an-011","category":"futur","type":"text","text":"Quel mot aimerais-tu choisir comme fil conducteur pour l'année à venir ?","tags":["vœux","intention"]}
+{"id":"nouvel_an-012","category":"souvenirs","type":"text","text":"Quelle a été la plus belle surprise de ton année ?","tags":["bilan","surprise"]}
+{"id":"nouvel_an-013","category":"hypothetique","type":"text","text":"Si tu pouvais effacer une seule chose de l'année écoulée, que choisirais-tu ?","tags":["bilan","hypothèse"]}
+{"id":"nouvel_an-014","category":"gouts","type":"scale","text":"À quel point aimes-tu les grandes soirées de réveillon ?","minLabel":"Très peu pour moi","maxLabel":"Cotillons à volonté","tags":["réveillon","fête"]}
+{"id":"nouvel_an-015","category":"qui_de_nous","type":"who","text":"Qui de nous deux a le plus grandi cette année ?","tags":["bilan","évolution"]}
+{"id":"nouvel_an-016","category":"profond","type":"text","text":"Quelle réussite de cette année mérite d'être célébrée, selon toi ?","tags":["fierté","bilan"]}
+{"id":"nouvel_an-017","category":"futur","type":"choice","text":"Ta résolution type, c'est plutôt…","options":["Prendre soin de ma santé","Apprendre quelque chose de nouveau","Ralentir et profiter","Oser un grand changement"],"tags":["résolutions"]}
+{"id":"nouvel_an-018","category":"nous_deux","type":"text","text":"Que souhaites-tu à notre couple pour l'année qui commence ?","tags":["vœux","nous"]}
+{"id":"nouvel_an-019","category":"fun","type":"text","text":"Quelle prédiction farfelue fais-tu pour nous deux l'an prochain ?","tags":["drôle","futur"]}
+{"id":"nouvel_an-020","category":"quotidien","type":"scale","text":"À quel point crois-tu aux bonnes résolutions ?","minLabel":"Elles durent trois jours","maxLabel":"J'y crois dur comme fer","tags":["résolutions"]}
+{"id":"nouvel_an-021","category":"souvenirs","type":"text","text":"Quel est ton réveillon du Nouvel An le plus mémorable, pour le meilleur ou pour le pire ?","tags":["réveillon","souvenirs"]}
+{"id":"nouvel_an-022","category":"tu_preferes","type":"choice","text":"Tu préfères commencer l'année par…","options":["Une grasse matinée bien méritée","Une baignade glacée pour se réveiller","Une longue balade au grand air","Un brunch interminable"],"tags":["janvier","rituels"]}
+{"id":"nouvel_an-023","category":"valeurs","type":"text","text":"Quelle habitude aimerais-tu laisser derrière toi en changeant d'année ?","tags":["habitudes","changement"]}
+{"id":"nouvel_an-024","category":"futur","type":"text","text":"Quel endroit aimerais-tu qu'on découvre ensemble l'année prochaine ?","tags":["projets","voyage"]}
+{"id":"nouvel_an-025","category":"profond","type":"text","text":"Quelle chose as-tu osé faire cette année, que tu n'aurais pas faite avant ?","tags":["audace","bilan"]}
+{"id":"nouvel_an-026","category":"qui_de_nous","type":"who","text":"Qui de nous deux sera encore debout à 3 h du matin le 1er janvier ?","tags":["réveillon","drôle"]}
+{"id":"nouvel_an-027","category":"gouts","type":"choice","text":"Pour trinquer à minuit, ce sera…","options":["Champagne ou autre pétillant","Un cocktail maison","Un chocolat chaud","Un jus de fruits pressé"],"tags":["réveillon","boissons"]}
+{"id":"nouvel_an-028","category":"futur","type":"scale","text":"À quel point l'année qui arrive t'inspire-t-elle confiance ?","minLabel":"Un peu d'appréhension","maxLabel":"Confiance totale","tags":["futur","confiance"]}
+{"id":"nouvel_an-029","category":"futur","type":"choice","text":"Le petit bonheur que tu veux vivre plus souvent l'an prochain…","options":["Des dîners entre amis","Des week-ends loin de tout","Des matins sans réveil","Des soirées à deux sans écran"],"tags":["bonheur","intention"]}
+{"id":"nouvel_an-030","category":"nous_deux","type":"text","text":"Dans un an, jour pour jour, qu'aimerais-tu qu'on puisse se dire en repensant à cette nouvelle année ?","tags":["futur","nous"]}

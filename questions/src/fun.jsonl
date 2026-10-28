@@ -1,0 +1,160 @@
+{"id":"fun-001","type":"text","text":"Si notre couple était une sitcom, quel en serait le titre ?","tags":["drôle","couple"]}
+{"id":"fun-002","type":"choice","text":"Quel super-pouvoir parfaitement inutile choisirais-tu ?","options":["Parler couramment pigeon","Trouver une place de parking à coup sûr","Ne plus jamais avoir le hoquet","Voler à 30 cm du sol"],"tags":["drôle","rêves"]}
+{"id":"fun-003","type":"text","text":"Quel surnom complètement ridicule pourrais-tu me donner pendant toute une journée ?","tags":["drôle","couple"]}
+{"id":"fun-004","type":"who","text":"Qui de nous deux chante le plus faux, mais avec le plus de conviction ?","tags":["musique","drôle"]}
+{"id":"fun-005","type":"text","text":"Si on ouvrait un food truck ensemble, comment s'appellerait-il et que vendrait-on ?","tags":["nourriture","projets","drôle"]}
+{"id":"fun-006","type":"scale","text":"Quand tu perds à un jeu de société, ta mauvaise foi atteint quel niveau ?","minLabel":"Fair-play total","maxLabel":"Mauvaise foi absolue","tags":["jeux","drôle"]}
+{"id":"fun-007","type":"text","text":"Quelle est la recherche la plus absurde que tu aies déjà tapée sur internet ?","tags":["drôle","léger"]}
+{"id":"fun-008","type":"text","text":"Quel animal ferait la meilleure mascotte pour notre couple, et pourquoi ?","tags":["couple","drôle","nature"]}
+{"id":"fun-009","type":"choice","text":"Dans un film d'horreur, tu serais plutôt en train de… ?","options":["Te cacher au fond du placard","Ouvrir la porte interdite","Demander « Il y a quelqu'un ? »","Tout filmer pour les réseaux"],"tags":["cinéma","drôle"]}
+{"id":"fun-010","type":"text","text":"Invente un jour férié rien que pour nous : comment s'appellerait-il et que ferait-on ce jour-là ?","tags":["couple","créativité"]}
+{"id":"fun-011","type":"text","text":"Avec quels trois émojis me décrirais-tu ?","tags":["drôle","couple"]}
+{"id":"fun-012","type":"scale","text":"À quel point sais-tu garder le secret d'une surprise ?","minLabel":"Je craque en 5 min","maxLabel":"Coffre-fort","tags":["couple","léger"]}
+{"id":"fun-013","type":"text","text":"Quelle célébrité devrait jouer mon rôle dans le film de notre histoire ?","tags":["cinéma","couple"]}
+{"id":"fun-014","type":"text","text":"Quelle est ta danse signature quand personne ne regarde ?","tags":["musique","drôle"]}
+{"id":"fun-015","type":"who","text":"Qui de nous deux survivrait le plus longtemps sur une île déserte ?","tags":["aventure","drôle"]}
+{"id":"fun-016","type":"choice","text":"Quel est ton animal-totem du lundi matin ?","options":["Paresseux au ralenti","Chat grognon","Écureuil sous caféine","Hibou zombie"],"tags":["drôle","habitudes"]}
+{"id":"fun-017","type":"text","text":"Quelle règle absurde imposerais-tu au monde entier pendant 24 heures ?","tags":["drôle","créativité"]}
+{"id":"fun-018","type":"text","text":"Si un objet de ton quotidien pouvait parler, lequel aurait les pires secrets sur toi ?","tags":["drôle","léger"]}
+{"id":"fun-019","type":"text","text":"Quel talent caché pourrais-tu présenter à un concours télé ?","tags":["talents","drôle"]}
+{"id":"fun-020","type":"scale","text":"Quelle est ton envie de faire un karaoké en public, là, ce soir ?","minLabel":"Jamais de la vie","maxLabel":"Micro, vite !","tags":["musique","drôle"]}
+{"id":"fun-021","type":"text","text":"Quel cri de guerre devrait-on pousser avant d'attaquer une corvée ensemble ?","tags":["drôle","couple"]}
+{"id":"fun-022","type":"text","text":"Quel parfum de glace te ressemble le plus, et pourquoi ?","tags":["nourriture","léger"]}
+{"id":"fun-023","type":"choice","text":"Quel déguisement de duo choisirais-tu pour une soirée costumée ?","options":["Pirates","Astronautes","Dinosaures","Agents secrets"],"tags":["couple","drôle"]}
+{"id":"fun-024","type":"text","text":"Quel serait ton nom de scène si tu devenais une star du rap ?","tags":["musique","drôle"]}
+{"id":"fun-025","type":"text","text":"Quelle blague nulle te fait rire à tous les coups ?","tags":["drôle"]}
+{"id":"fun-026","type":"who","text":"Qui de nous deux invente le plus de surnoms ridicules ?","tags":["couple","drôle"]}
+{"id":"fun-027","type":"scale","text":"À quel point ris-tu de tes propres blagues ?","minLabel":"Jamais","maxLabel":"Avant même la chute","tags":["drôle"]}
+{"id":"fun-028","type":"text","text":"Si tu pouvais échanger ta vie avec celle d'un animal pendant une journée, lequel choisirais-tu ?","tags":["nature","drôle"]}
+{"id":"fun-029","type":"choice","text":"Quel talent aimerais-tu maîtriser juste pour frimer ?","options":["Jongler avec des oranges","Siffler avec les doigts","Faire des claquettes","Imiter tous les accents"],"tags":["talents","léger"]}
+{"id":"fun-030","type":"text","text":"Complète : « Notre couple, c'est un peu comme… »","tags":["couple","créativité"]}
+{"id":"fun-031","type":"text","text":"Quel mot aimerais-tu qu'on invente ensemble, et que voudrait-il dire ?","tags":["créativité","couple"]}
+{"id":"fun-032","type":"text","text":"Quel personnage de dessin animé me ressemble le plus ?","tags":["drôle","cinéma"]}
+{"id":"fun-033","type":"choice","text":"Si notre vie était un jeu vidéo, ce serait plutôt… ?","options":["Mario Kart","Les Sims","Animal Crossing","Un jeu de survie"],"tags":["jeux","couple"]}
+{"id":"fun-034","type":"text","text":"Quelle pub te reste en tête depuis des années, sans aucune raison ?","tags":["nostalgie","drôle"]}
+{"id":"fun-035","type":"scale","text":"À quel point aimes-tu les surprises un peu folles ?","minLabel":"Je préfère prévoir","maxLabel":"Surprends-moi !","tags":["surprises","léger"]}
+{"id":"fun-036","type":"text","text":"Quelle devise devrait-on broder sur le blason de notre couple ?","tags":["couple","drôle"]}
+{"id":"fun-037","type":"text","text":"Si on participait à une émission de cuisine en duo, quel plat raté présenterait-on au jury ?","tags":["nourriture","drôle","couple"]}
+{"id":"fun-038","type":"who","text":"Qui de nous deux s'en sortirait le mieux dans une mission d'espionnage ?","tags":["aventure","drôle"]}
+{"id":"fun-039","type":"choice","text":"Si tu gagnais au loto demain, quel serait ton premier achat ridicule ?","options":["Une piscine à balles","Un château gonflable","Un toboggan à la place de l'escalier","Un lama de compagnie"],"tags":["argent","drôle"]}
+{"id":"fun-040","type":"text","text":"Quelle application complètement inutile aimerais-tu inventer ?","tags":["créativité","drôle"]}
+{"id":"fun-041","type":"text","text":"Quelle chanson chantes-tu le plus souvent sous la douche ?","tags":["musique","habitudes"]}
+{"id":"fun-042","type":"scale","text":"Sur une piste de danse, quel est ton niveau de ridicule assumé ?","minLabel":"Je garde les sacs","maxLabel":"Show total","tags":["musique","drôle"]}
+{"id":"fun-043","type":"text","text":"Si ta vie avait un bouton « avance rapide », quel moment sauterais-tu sans regret ?","tags":["drôle","réflexion"]}
+{"id":"fun-044","type":"choice","text":"Quelle voix aimerais-tu entendre dans ton GPS ?","options":["Un pirate","Une grand-mère bienveillante","Un commentateur sportif","Un robot dépressif"],"tags":["drôle"]}
+{"id":"fun-045","type":"text","text":"Quel personnage historique inviterais-tu à notre prochain apéro ?","tags":["amis","drôle"]}
+{"id":"fun-046","type":"text","text":"Quel serait le titre de ton autobiographie écrite à 90 ans ?","tags":["réflexion","drôle"]}
+{"id":"fun-047","type":"who","text":"Qui de nous deux attrape le fou rire au pire moment ?","tags":["drôle"]}
+{"id":"fun-048","type":"text","text":"Si tu pouvais faire disparaître un mot de la langue française, lequel choisirais-tu ?","tags":["léger"]}
+{"id":"fun-049","type":"scale","text":"À quel point crois-tu aux horoscopes, même pour rire ?","minLabel":"Pas du tout","maxLabel":"Je lis tout","tags":["léger"]}
+{"id":"fun-050","type":"text","text":"Quel est le défi le plus absurde que tu relèverais pour un pari ?","tags":["drôle","défis"]}
+{"id":"fun-051","type":"choice","text":"Quel job farfelu testerais-tu pendant une journée ?","options":["Dégustation de glaces","Promenade de chiens","Test de toboggans aquatiques","Nommer les couleurs de peinture"],"tags":["travail","drôle"]}
+{"id":"fun-052","type":"text","text":"Quelle théorie farfelue expliquerait la disparition des chaussettes dans la machine à laver ?","tags":["drôle","maison"]}
+{"id":"fun-053","type":"text","text":"Quel personnage de film aimerais-tu doubler, juste pour le plaisir ?","tags":["cinéma"]}
+{"id":"fun-054","type":"text","text":"Quel serait ton métier dans un monde post-apocalyptique ?","tags":["drôle","travail"]}
+{"id":"fun-055","type":"scale","text":"Quel est ton niveau en dessin, honnêtement ?","minLabel":"Bonhomme bâton","maxLabel":"Digne d'un musée","tags":["créativité"]}
+{"id":"fun-056","type":"choice","text":"Quel attribut animal accepterais-tu de porter pendant une semaine ?","options":["Une queue de chat","Des oreilles de lapin","Une trompe d'éléphant","Des ailes de chauve-souris"],"tags":["nature","drôle"]}
+{"id":"fun-057","type":"text","text":"Sur quelle chanson pourrait-on gagner un concours de karaoké en duo ?","tags":["musique","couple"]}
+{"id":"fun-058","type":"text","text":"Quel est ton record personnel le plus inutile ?","tags":["drôle"]}
+{"id":"fun-059","type":"who","text":"Qui de nous deux triche le plus aux jeux de société ?","tags":["jeux","drôle"]}
+{"id":"fun-060","type":"text","text":"Si tu tenais une boutique, quel produit improbable y vendrais-tu ?","tags":["créativité","drôle"]}
+{"id":"fun-061","type":"text","text":"Comment s'appellerait notre animal de compagnie imaginaire, et quelle espèce serait-il ?","tags":["couple","nature"]}
+{"id":"fun-062","type":"choice","text":"Pendant un film, ta spécialité, c'est… ?","options":["Deviner la fin dès le début","Commenter chaque scène","T'endormir avant la fin","Poser mille questions"],"tags":["cinéma","habitudes"]}
+{"id":"fun-063","type":"text","text":"Quelle personne de ton entourage ferait un personnage de film parfait, et dans quel genre ?","tags":["amis","famille","cinéma"]}
+{"id":"fun-064","type":"scale","text":"À quel point ta mémoire des paroles de chansons est-elle fiable ?","minLabel":"J'invente tout","maxLabel":"Mot pour mot","tags":["musique"]}
+{"id":"fun-065","type":"text","text":"Dans quel décor de jeu vidéo aimerais-tu vivre une semaine ?","tags":["jeux","rêves"]}
+{"id":"fun-066","type":"text","text":"Quel geste ou quelle expression de moi pourrais-tu imiter les yeux fermés ?","tags":["couple","drôle"]}
+{"id":"fun-067","type":"who","text":"Qui de nous deux parle le plus aux animaux comme à des humains ?","tags":["nature","drôle"]}
+{"id":"fun-068","type":"choice","text":"Lequel de ces surnoms ringards pourrais-tu assumer en public ?","options":["Mon chou","Ma puce","Mon cœur d'artichaut","Mon petit pois"],"tags":["couple","tendresse"]}
+{"id":"fun-069","type":"text","text":"Si on formait un duo comique, quel serait notre tout premier sketch ?","tags":["couple","drôle"]}
+{"id":"fun-070","type":"text","text":"Quel aliment refuserais-tu de manger, même pour mille euros ?","tags":["nourriture"]}
+{"id":"fun-071","type":"text","text":"Quelle chanson te donne envie de danser même au rayon surgelés ?","tags":["musique","drôle"]}
+{"id":"fun-072","type":"scale","text":"Face à un buffet à volonté, ta gourmandise monte jusqu'où ?","minLabel":"Raisonnable","maxLabel":"Je dévalise tout","tags":["nourriture"]}
+{"id":"fun-073","type":"text","text":"Si tu pouvais poser une seule question à un extraterrestre, laquelle serait-ce ?","tags":["rêves","drôle"]}
+{"id":"fun-074","type":"text","text":"Quel est le meilleur fou rire que tu aies eu avec moi ?","tags":["couple","nostalgie"]}
+{"id":"fun-075","type":"choice","text":"Quelle spécialité ferais-tu goûter en premier à un touriste venu d'une autre planète ?","options":["Une raclette","Un croissant","Des bonbons qui piquent","Un fromage qui sent fort"],"tags":["nourriture","drôle"]}
+{"id":"fun-076","type":"text","text":"Si tu devais inventer un sport, quelle en serait la règle principale ?","tags":["sport","créativité"]}
+{"id":"fun-077","type":"who","text":"Qui de nous deux mangerait un insecte pour gagner un pari ?","tags":["drôle","défis"]}
+{"id":"fun-078","type":"text","text":"Si ton humeur du jour était une météo, quel temps ferait-il ?","tags":["émotions","léger"]}
+{"id":"fun-079","type":"scale","text":"Combien de temps pourrais-tu garder un accent inventé pendant une soirée ?","minLabel":"5 secondes","maxLabel":"Toute la nuit","tags":["drôle","défis"]}
+{"id":"fun-080","type":"text","text":"Quelle fausse rumeur complètement farfelue aimerais-tu lancer sur nous deux ?","tags":["couple","drôle"]}
+{"id":"fun-081","type":"choice","text":"Si on devait adopter un animal improbable, ce serait… ?","options":["Un lama","Un hérisson","Un perroquet bavard","Un axolotl"],"tags":["nature","couple"]}
+{"id":"fun-082","type":"text","text":"Si tu étais une police d'écriture, laquelle serais-tu ?","tags":["drôle","créativité"]}
+{"id":"fun-083","type":"scale","text":"Quel est ton goût pour l'aventure totalement improvisée ?","minLabel":"Plan A, B et C","maxLabel":"On part sans carte","tags":["aventure"]}
+{"id":"fun-084","type":"text","text":"Quel est le pire jeu de mots que tu connaisses ?","tags":["drôle"]}
+{"id":"fun-085","type":"choice","text":"Quelle époque visiterais-tu juste pour sa mode ?","options":["Les années 70","La Renaissance","Les années 2000","L'an 2300"],"tags":["nostalgie","léger"]}
+{"id":"fun-086","type":"text","text":"Quel défi rigolo pourrait-on se lancer cette semaine, rien que tous les deux ?","tags":["couple","défis"]}
+{"id":"fun-087","type":"who","text":"Qui de nous deux deviendrait célèbre sur internet en premier ?","tags":["drôle"]}
+{"id":"fun-088","type":"text","text":"Si tu étais un sandwich, quels ingrédients te composeraient ?","tags":["nourriture","drôle"]}
+{"id":"fun-089","type":"choice","text":"Quel accessoire porterais-tu pour une journée « en mode star » ?","options":["Lunettes de soleil XXL","Boa à plumes","Cape de super-héros","Couronne en carton"],"tags":["drôle"]}
+{"id":"fun-090","type":"text","text":"Quel livre ou quel film fais-tu semblant de connaître dans les conversations ?","tags":["cinéma","drôle"]}
+{"id":"fun-091","type":"scale","text":"Ton talent pour le mime, il vaut combien ?","minLabel":"Incompréhensible","maxLabel":"Digne d'un pro","tags":["talents","jeux"]}
+{"id":"fun-092","type":"text","text":"Si tu avais un majordome pour une journée, quelle mission farfelue lui confierais-tu ?","tags":["drôle","rêves"]}
+{"id":"fun-093","type":"choice","text":"Quel est le pire endroit pour attraper un fou rire ?","options":["En pleine réunion","Dans une bibliothèque","Pendant un concert classique","Chez le dentiste"],"tags":["drôle"]}
+{"id":"fun-094","type":"text","text":"Quel est l'objet le plus inutile que tu aies jamais acheté ?","tags":["argent","drôle"]}
+{"id":"fun-095","type":"text","text":"Quelle musique d'entrée aimerais-tu entendre chaque fois que tu arrives quelque part ?","tags":["musique","drôle"]}
+{"id":"fun-096","type":"who","text":"Qui de nous deux se ferait berner le plus vite par un magicien de rue ?","tags":["drôle"]}
+{"id":"fun-097","type":"text","text":"Quel est le surnom le plus bizarre qu'on t'ait déjà donné ?","tags":["nostalgie","drôle"]}
+{"id":"fun-098","type":"choice","text":"Quel numéro présenterait-on ensemble dans un spectacle de talents ?","options":["Tour de magie","Duo de danse","Sketch improvisé","Concours de grimaces"],"tags":["couple","talents"]}
+{"id":"fun-099","type":"text","text":"Si tu pouvais jeter un sort inoffensif à quelqu'un, quel serait-il ?","tags":["drôle","rêves"]}
+{"id":"fun-100","type":"scale","text":"À quel point les films nanars sont-ils ton péché mignon ?","minLabel":"Jamais vu un seul","maxLabel":"Ma passion secrète","tags":["cinéma"]}
+{"id":"fun-101","type":"text","text":"Quelle expression de ta famille est incompréhensible pour le reste du monde ?","tags":["famille","drôle"]}
+{"id":"fun-102","type":"text","text":"Quels ingrédients mettrais-tu dans un cocktail qui nous représente ?","tags":["couple","créativité"]}
+{"id":"fun-103","type":"choice","text":"Dans un jeu télé, tu serais plutôt… ?","options":["Imbattable en culture G","Le coup de cœur du public","En fou rire en plein direct","Out dès la première manche"],"tags":["jeux","drôle"]}
+{"id":"fun-104","type":"text","text":"Quel est le moment le plus gênant, mais drôle, que tu aies vécu en public ?","tags":["drôle","nostalgie"]}
+{"id":"fun-105","type":"text","text":"Quel jeu de société réveille ton côté le plus compétitif ?","tags":["jeux"]}
+{"id":"fun-106","type":"who","text":"Qui de nous deux a le plus d'imagination pour trouver des excuses bidon ?","tags":["drôle"]}
+{"id":"fun-107","type":"scale","text":"À quel point aimes-tu grimacer sur les photos ?","minLabel":"Pose sérieuse","maxLabel":"Grimace garantie","tags":["drôle"]}
+{"id":"fun-108","type":"text","text":"Quel super-héros serait le plus nul pour faire la vaisselle, et pourquoi ?","tags":["drôle"]}
+{"id":"fun-109","type":"choice","text":"Si tu devais être un objet pendant une journée, ce serait… ?","options":["Une machine à café","Un canapé moelleux","Une trottinette","Un parapluie"],"tags":["drôle"]}
+{"id":"fun-110","type":"text","text":"Quel plat de dessin animé ou de film aimerais-tu goûter pour de vrai ?","tags":["nourriture","cinéma"]}
+{"id":"fun-111","type":"text","text":"Si tu pouvais avoir un objet magique dans ta poche au quotidien, lequel choisirais-tu ?","tags":["rêves","drôle"]}
+{"id":"fun-112","type":"scale","text":"Quelle est ta patience devant un puzzle de 1000 pièces ?","minLabel":"Je fuis","maxLabel":"Zen absolu","tags":["jeux"]}
+{"id":"fun-113","type":"text","text":"Quel prénom donnerais-tu à une plante verte, réelle ou imaginaire ?","tags":["nature","drôle"]}
+{"id":"fun-114","type":"choice","text":"Quel bruit d'animal imites-tu le mieux ?","options":["Le chat","La poule","Le loup","Le dauphin"],"tags":["drôle","talents"]}
+{"id":"fun-115","type":"text","text":"Quel est le dernier truc qui t'a fait rire aux larmes ?","tags":["drôle","émotions"]}
+{"id":"fun-116","type":"who","text":"Qui de nous deux ferait la meilleure star de télé-réalité ?","tags":["drôle"]}
+{"id":"fun-117","type":"text","text":"Quelle question idiote aimerais-tu poser à un expert très sérieux ?","tags":["drôle"]}
+{"id":"fun-118","type":"text","text":"Si tu étais un meuble suédois en kit, quel nom imprononçable porterais-tu ?","tags":["drôle","maison"]}
+{"id":"fun-119","type":"choice","text":"Quelle catastrophe culinaire te ressemble le plus ?","options":["Un soufflé qui retombe","Des pâtes trop cuites","Une crêpe collée au plafond","Un gâteau oublié au four"],"tags":["nourriture","drôle"]}
+{"id":"fun-120","type":"text","text":"Quel vêtement improbable rêves-tu secrètement d'oser porter ?","tags":["drôle","style"]}
+{"id":"fun-121","type":"text","text":"Si on remplaçait nos prénoms par des noms de légumes, lesquels nous iraient le mieux ?","tags":["drôle","couple"]}
+{"id":"fun-122","type":"scale","text":"Quelles seraient tes chances de tenir jusqu'au bout d'une émission de survie dans la jungle ?","minLabel":"Abandon le 1er jour","maxLabel":"Je règne sur la jungle","tags":["aventure","drôle"]}
+{"id":"fun-123","type":"choice","text":"Pour une soirée à deux complètement décalée, tu votes pour… ?","options":["Un blind test endiablé","Une cabane en couvertures","Un concours de cuisine","Un karaoké sans aucune gêne"],"tags":["couple","léger"]}
+{"id":"fun-124","type":"text","text":"Quelle réplique culte de film ressors-tu à tout bout de champ ?","tags":["cinéma"]}
+{"id":"fun-125","type":"who","text":"Qui de nous deux danse le plus mal, mais le plus fièrement ?","tags":["musique","drôle"]}
+{"id":"fun-126","type":"text","text":"Si tu pouvais téléporter un plat de n'importe où dans le monde, là, maintenant, lequel serait-ce ?","tags":["nourriture","voyages"]}
+{"id":"fun-127","type":"choice","text":"Quelles vacances absurdes te tenteraient le plus ?","options":["Une semaine dans un igloo","Un tour du monde en tandem","Une nuit dans un phare","Un road trip en camping-car rose"],"tags":["voyages","drôle"]}
+{"id":"fun-128","type":"text","text":"Quelle émission de télé ridicule regarderais-tu en boucle si personne ne te jugeait ?","tags":["télé","drôle"]}
+{"id":"fun-129","type":"scale","text":"À quel point es-tu fan des déguisements ?","minLabel":"Très peu pour moi","maxLabel":"Costume déjà prêt","tags":["drôle"]}
+{"id":"fun-130","type":"text","text":"Dans quel film aimerais-tu vivre pendant une semaine ?","tags":["cinéma","rêves"]}
+{"id":"fun-131","type":"text","text":"Quel est ton plaisir coupable le plus inavouable… mais racontable ?","tags":["drôle"]}
+{"id":"fun-132","type":"choice","text":"Une araignée dans la salle de bain : quelle est ta réaction ?","options":["Je l'adopte","Je la sors délicatement","Je hurle","Je déménage"],"tags":["drôle","nature"]}
+{"id":"fun-133","type":"choice","text":"Tu croises ton sosie parfait dans la rue : que fais-tu ?","options":["Je lui propose un selfie","Je fuis discrètement","On échange nos vies une journée","Je vérifie que ce n'est pas un miroir"],"tags":["drôle"]}
+{"id":"fun-134","type":"scale","text":"Quelle est ton énergie pour une soirée improvisée un mardi soir ?","minLabel":"Pyjama obligatoire","maxLabel":"On sort tout de suite","tags":["léger"]}
+{"id":"fun-135","type":"who","text":"Qui de nous deux se perdrait le plus vite dans un labyrinthe de maïs ?","tags":["aventure","drôle"]}
+{"id":"fun-136","type":"text","text":"Quel plat inventerais-tu en mélangeant nos deux aliments préférés ?","tags":["nourriture","couple"]}
+{"id":"fun-137","type":"choice","text":"Quelle compétition ridicule pourrais-tu remporter haut la main ?","options":["Lancer de chaussettes","Concours de bâillements","Course en pantoufles","La sieste la plus longue"],"tags":["drôle","défis"]}
+{"id":"fun-138","type":"text","text":"Que pourrais-tu me dire pour me faire éclater de rire à coup sûr ?","tags":["couple","drôle"]}
+{"id":"fun-139","type":"text","text":"Quelle tradition loufoque aimerais-tu qu'on invente pour notre couple ?","tags":["couple","créativité"]}
+{"id":"fun-140","type":"scale","text":"À quel point aimes-tu qu'on te fasse des farces ?","minLabel":"Pas du tout","maxLabel":"Piège-moi encore !","tags":["drôle"]}
+{"id":"fun-141","type":"choice","text":"Sur des montagnes russes, tu es plutôt… ?","options":["Hurlement de film d'horreur","Fou rire nerveux","Silence absolu, yeux fermés","Bras en l'air, aucune peur"],"tags":["drôle","sensations"]}
+{"id":"fun-142","type":"text","text":"Si tu pouvais changer la couleur du ciel pour une journée, laquelle choisirais-tu ?","tags":["rêves","léger"]}
+{"id":"fun-143","type":"text","text":"Si tu te présentais à une élection, quel serait ton slogan le plus farfelu ?","tags":["drôle"]}
+{"id":"fun-144","type":"who","text":"Qui de nous deux craquerait en premier dans un concours de regards ?","tags":["drôle","défis"]}
+{"id":"fun-145","type":"scale","text":"Sur une échelle de 1 à 10, à quel point ta playlist est-elle avouable ?","minLabel":"Honteuse","maxLabel":"Impeccable","tags":["musique"]}
+{"id":"fun-146","type":"choice","text":"Quel serait le meilleur nom pour un poisson rouge ?","options":["Bubulle","Monsieur Patate","Sushi","Nemo 2"],"tags":["drôle"]}
+{"id":"fun-147","type":"text","text":"Que ferais-tu si tu étais invisible pendant une heure (rien d'illégal) ?","tags":["drôle","rêves"]}
+{"id":"fun-148","type":"text","text":"Quel mot prononces-tu toujours de travers, même en le sachant ?","tags":["drôle","habitudes"]}
+{"id":"fun-149","type":"text","text":"Quel bruit bizarre fais-tu en t'étirant le matin ?","tags":["drôle","habitudes"]}
+{"id":"fun-150","type":"scale","text":"À quel point pourrais-tu devenir une star d'internet ?","minLabel":"Aucune chance","maxLabel":"Déjà en route","tags":["drôle"]}
+{"id":"fun-151","type":"choice","text":"Pendant une invasion de zombies, tu serais plutôt… ?","options":["Aux commandes du plan","En charge des provisions","À la radio, à chercher de l'aide","Déjà en train de pactiser avec eux"],"tags":["aventure","drôle"]}
+{"id":"fun-152","type":"text","text":"Quel serait le titre de la chanson qui raconterait notre rencontre ?","tags":["couple","musique","romantique"]}
+{"id":"fun-153","type":"text","text":"Sur quelle chanson complètement inadaptée aimerais-tu qu'on danse un slow ?","tags":["musique","couple"]}
+{"id":"fun-154","type":"choice","text":"Si tu pouvais bannir un son de la planète pour toujours, lequel serait-ce ?","options":["Les ongles sur un tableau","Le réveil du lundi","Le polystyrène qui grince","La mastication bruyante"],"tags":["drôle"]}
+{"id":"fun-155","type":"scale","text":"À quel point serais-tu capable de garder ton sérieux pendant un fou rire général ?","minLabel":"Je craque direct","maxLabel":"Visage de marbre","tags":["drôle","défis"]}
+{"id":"fun-156","type":"who","text":"Qui de nous deux a les pires idées à 2 h du matin ?","tags":["drôle"]}
+{"id":"fun-157","type":"text","text":"Quel cadeau absurde aimerais-tu recevoir de moi, juste pour rire ?","tags":["couple","drôle"]}
+{"id":"fun-158","type":"choice","text":"Si on tournait un film sur nous, ce serait… ?","options":["Un film d'action","Une comédie romantique","Un film de braquage","Un dessin animé"],"tags":["couple","cinéma"]}
+{"id":"fun-159","type":"scale","text":"À quel point ton rire est-il contagieux, selon toi ?","minLabel":"Très discret","maxLabel":"Toute la salle rit","tags":["drôle"]}
+{"id":"fun-160","type":"text","text":"Si on avait une poignée de main secrète, à quoi ressemblerait-elle ?","tags":["couple","drôle"]}

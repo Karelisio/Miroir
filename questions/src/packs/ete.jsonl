@@ -1,0 +1,60 @@
+{"id":"ete-001","category":"tu_preferes","type":"choice","text":"Cet été, tu préfères…","options":["La plage, le sable et les vagues","La montagne, l'air frais et les sommets"],"tags":["été","goûts"]}
+{"id":"ete-002","category":"enfance","type":"text","text":"Quel souvenir d'été de ton enfance sent encore la crème solaire et la liberté ?","tags":["enfance","nostalgie"]}
+{"id":"ete-003","category":"gouts","type":"text","text":"Quel est ton parfum de glace préféré, et lequel détestes-tu en secret ?","tags":["glace","gourmandise"]}
+{"id":"ete-004","category":"qui_de_nous","type":"who","text":"Qui de nous deux attrape un coup de soleil dès le premier jour ?","tags":["soleil","drôle"]}
+{"id":"ete-005","category":"nous_deux","type":"text","text":"À quoi ressemblerait la soirée d'été idéale qu'on passerait ensemble ?","tags":["soirées","nous"]}
+{"id":"ete-006","category":"gouts","type":"scale","text":"À quel point supportes-tu la canicule ?","minLabel":"Je fonds, je meurs","maxLabel":"Encore, encore !","tags":["chaleur"]}
+{"id":"ete-007","category":"fun","type":"text","text":"Quel est pour toi le tube de l'été absolu, toutes années confondues ?","tags":["musique","fête"]}
+{"id":"ete-008","category":"quotidien","type":"choice","text":"Ton refuge préféré quand il fait trop chaud ?","options":["Une rivière bien fraîche","Une pièce aux volets fermés","L'ombre d'un grand arbre","Le rayon surgelés du supermarché"],"tags":["chaleur","drôle"]}
+{"id":"ete-009","category":"souvenirs","type":"text","text":"Quel été de ta vie aimerais-tu revivre, et pourquoi celui-là ?","tags":["souvenirs","nostalgie"]}
+{"id":"ete-010","category":"hypothetique","type":"text","text":"Si l'été durait toute l'année, qu'est-ce qui te manquerait des autres saisons ?","tags":["saisons","hypothèse"]}
+{"id":"ete-011","category":"fun","type":"text","text":"Quel fruit d'été résume le mieux ta personnalité, et pourquoi ?","tags":["fruits","drôle"]}
+{"id":"ete-012","category":"tu_preferes","type":"choice","text":"Pour la musique en été, tu préfères…","options":["Un grand festival de musique bondé","Un concert intimiste en plein air"],"tags":["festival","musique"]}
+{"id":"ete-013","category":"nous_deux","type":"text","text":"Quelle activité d'été n'avons-nous encore jamais faite ensemble et devrions-nous tester ?","tags":["envies","nous"]}
+{"id":"ete-014","category":"quotidien","type":"scale","text":"Quelle place la sieste tient-elle dans tes journées d'été ?","minLabel":"Perte de temps","maxLabel":"Sacrée, non négociable","tags":["sieste","rythme"]}
+{"id":"ete-015","category":"qui_de_nous","type":"who","text":"Qui de nous deux pourrait passer la journée entière dans l'eau ?","tags":["baignade"]}
+{"id":"ete-016","category":"enfance","type":"text","text":"Quel jeu d'été de ton enfance aimerais-tu qu'on refasse ensemble ?","tags":["enfance","jeux"]}
+{"id":"ete-017","category":"gouts","type":"choice","text":"La glace parfaite, c'est…","options":["En cornet, qui coule sur les doigts","En pot, à la petite cuillère","En bâtonnet, vite avant que ça fonde","Un sorbet maison bien glacé"],"tags":["glace","gourmandise"]}
+{"id":"ete-018","category":"fun","type":"text","text":"Quelle a été ta plus grosse galère estivale : tente envolée, orage, piqûre de méduse… ?","tags":["galères","drôle"]}
+{"id":"ete-019","category":"souvenirs","type":"text","text":"Quel job d'été ou quelle activité estivale a forgé un peu de ta personnalité ?","tags":["souvenirs","travail"]}
+{"id":"ete-020","category":"quotidien","type":"scale","text":"À quel point es-tu du genre à vivre dehors dès qu'il fait beau ?","minLabel":"Intérieur climatisé","maxLabel":"Dehors du matin au soir","tags":["plein air"]}
+{"id":"ete-021","category":"hypothetique","type":"text","text":"Si tu pouvais organiser un festival de rêve, qui serait sur la scène principale ?","tags":["festival","musique"]}
+{"id":"ete-022","category":"gouts","type":"text","text":"Quel plat ou quelle boisson a pour toi le goût de l'été ?","tags":["nourriture","goûts"]}
+{"id":"ete-023","category":"tu_preferes","type":"choice","text":"Tu préfères dormir…","options":["À la belle étoile","Sous la tente","Dans un hamac","Dans un lit, avec un ventilateur"],"tags":["nuit","plein air"]}
+{"id":"ete-024","category":"qui_de_nous","type":"who","text":"Qui de nous deux se fait le plus piquer par les moustiques ?","tags":["moustiques","drôle"]}
+{"id":"ete-025","category":"nous_deux","type":"text","text":"Où aimerais-tu qu'on regarde ensemble une nuit d'étoiles filantes ?","tags":["romantique","étoiles"]}
+{"id":"ete-026","category":"souvenirs","type":"text","text":"Quelle rencontre d'un été, amicale ou autre, a compté dans ta vie ?","tags":["rencontres","souvenirs"]}
+{"id":"ete-027","category":"gouts","type":"scale","text":"À quel point aimes-tu lézarder au soleil ?","minLabel":"Vite, de l'ombre !","maxLabel":"Lézard professionnel","tags":["soleil","détente"]}
+{"id":"ete-028","category":"fun","type":"choice","text":"À la plage, tu es la personne qui…","options":["Construit des châteaux de sable","Lit un roman sous le parasol","Nage jusqu'à la bouée","Organise un tournoi de raquettes"],"tags":["plage","drôle"]}
+{"id":"ete-029","category":"quotidien","type":"text","text":"Quelle petite chose suffit à te donner l'impression que l'été a vraiment commencé ?","tags":["rituels","été"]}
+{"id":"ete-030","category":"futur","type":"text","text":"Quelle compétence aimerais-tu acquérir cet été : nager le crawl, faire du paddle, jouer de la guitare… ?","tags":["apprendre","projets"]}
+{"id":"ete-031","category":"enfance","type":"text","text":"Qu'est-ce qui annonçait le début des grandes vacances quand tu allais à l'école ?","tags":["enfance","école"]}
+{"id":"ete-032","category":"gouts","type":"text","text":"Quel livre aimerais-tu emporter sur ta serviette de plage cet été ?","tags":["lecture","détente"]}
+{"id":"ete-033","category":"qui_de_nous","type":"who","text":"Qui de nous deux danse le plus volontiers à un bal ou à un festival d'été ?","tags":["danse","fête"]}
+{"id":"ete-034","category":"quotidien","type":"scale","text":"À quel point les longues soirées d'été changent-elles ton humeur ?","minLabel":"Pas vraiment","maxLabel":"Je revis complètement","tags":["humeur","soirées"]}
+{"id":"ete-035","category":"tu_preferes","type":"choice","text":"Tu préfères un été…","options":["Rempli de sorties et de fêtes","Lent, calme et sans programme","Un peu des deux, en alternance"],"tags":["rythme","envies"]}
+{"id":"ete-036","category":"nous_deux","type":"text","text":"Quel pique-nique de rêve composerais-tu pour nous deux ?","tags":["pique-nique","nourriture"]}
+{"id":"ete-037","category":"hypothetique","type":"text","text":"Si tu pouvais ajouter une heure de soleil à chaque journée d'été, à quoi la consacrerais-tu ?","tags":["imagination","temps"]}
+{"id":"ete-038","category":"fun","type":"text","text":"Quelle est ta technique imparable pour survivre à une nuit caniculaire ?","tags":["chaleur","astuces"]}
+{"id":"ete-039","category":"souvenirs","type":"text","text":"Quel feu d'artifice, quel bal ou quelle fête d'été garde une place dans tes souvenirs ?","tags":["fête","souvenirs"]}
+{"id":"ete-040","category":"gouts","type":"choice","text":"L'apéro d'été parfait…","options":["Rosé bien frais et chips","Citronnade maison et olives","Spritz en terrasse","Pastèque et eau pétillante"],"tags":["apéro","goûts"]}
+{"id":"ete-041","category":"nous_deux","type":"text","text":"Quel serait le programme de notre dimanche d'été parfait, du réveil au coucher ?","tags":["nous","dimanche"]}
+{"id":"ete-042","category":"gouts","type":"scale","text":"À quel point aimes-tu la foule des festivals ?","minLabel":"Je préfère mon salon","maxLabel":"Bain de foule adoré","tags":["festival","foule"]}
+{"id":"ete-043","category":"tu_preferes","type":"choice","text":"Pour un repas d'été, tu préfères…","options":["Un barbecue entre amis","Un dîner en terrasse au restaurant"],"tags":["repas","été"]}
+{"id":"ete-044","category":"souvenirs","type":"text","text":"Quel lieu de baignade de ton passé reste, pour toi, le plus beau de tous ?","tags":["baignade","souvenirs"]}
+{"id":"ete-045","category":"qui_de_nous","type":"who","text":"Qui de nous deux mangerait une glace à chaque repas si c'était permis ?","tags":["glace","gourmandise"]}
+{"id":"ete-046","category":"hypothetique","type":"text","text":"Si tu devais tenir une petite boutique sur la plage le temps d'un été, que vendrais-tu ?","tags":["imagination","plage"]}
+{"id":"ete-047","category":"gouts","type":"choice","text":"Le son qui, pour toi, signifie l'été…","options":["Le chant des cigales","Le ressac des vagues","Le tintement des glaçons","Les rires en terrasse"],"tags":["sens","ambiance"]}
+{"id":"ete-048","category":"quotidien","type":"scale","text":"À quel point aimes-tu les orages d'été ?","minLabel":"Je file sous la couette","maxLabel":"Spectacle fascinant","tags":["orage","nature"]}
+{"id":"ete-049","category":"nous_deux","type":"text","text":"Quelle escapade d'une journée aimerais-tu qu'on s'offre avant la fin de l'été ?","tags":["escapade","nous"]}
+{"id":"ete-050","category":"fun","type":"choice","text":"Ton look d'été signature…","options":["Chapeau de paille et lunettes","Tongs en toutes circonstances","Chemise à fleurs assumée","Short, t-shirt, rien de plus"],"tags":["style","drôle"]}
+{"id":"ete-051","category":"enfance","type":"text","text":"Quelle colonie, quel camp ou quel séjour chez des proches a marqué tes étés d'enfance ?","tags":["enfance","souvenirs"]}
+{"id":"ete-052","category":"fun","type":"text","text":"Si tu inventais le cocktail officiel de notre été, quel nom lui donnerais-tu, et que mettrais-tu dedans ?","tags":["drôle","imagination"]}
+{"id":"ete-053","category":"tu_preferes","type":"choice","text":"Tu préfères te baigner…","options":["Dans la mer, avec les vagues","Dans un lac ou une rivière","Dans une piscine bien chauffée","Sous une cascade"],"tags":["baignade"]}
+{"id":"ete-054","category":"gouts","type":"scale","text":"À quel point aimes-tu les marchés nocturnes et les fêtes de village ?","minLabel":"Pas mon truc","maxLabel":"J'y passerais l'été","tags":["fête","village"]}
+{"id":"ete-055","category":"souvenirs","type":"text","text":"Quelle a été ta plus belle découverte d'un été passé : un lieu, une musique, une personne ?","tags":["découvertes","souvenirs"]}
+{"id":"ete-056","category":"qui_de_nous","type":"who","text":"Qui de nous deux pourrait regarder la mer pendant des heures sans s'ennuyer ?","tags":["mer","contemplation"]}
+{"id":"ete-057","category":"futur","type":"text","text":"Quelle tradition d'été aimerais-tu qu'on garde chaque année, quoi qu'il arrive ?","tags":["traditions","nous"]}
+{"id":"ete-058","category":"hypothetique","type":"text","text":"Si tu pouvais enfermer un morceau d'été dans un bocal pour l'ouvrir en hiver, que mettrais-tu dedans ?","tags":["imagination","tendresse"]}
+{"id":"ete-059","category":"gouts","type":"scale","text":"À quel point attends-tu l'été avec impatience chaque année ?","minLabel":"Une saison comme une autre","maxLabel":"Je compte les jours","tags":["saisons","envies"]}
+{"id":"ete-060","category":"nous_deux","type":"text","text":"Quel souvenir de cet été aimerais-tu qu'on se raconte encore dans vingt ans ?","tags":["souvenirs","nous"]}

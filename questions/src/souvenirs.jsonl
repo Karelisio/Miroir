@@ -1,0 +1,160 @@
+{"id":"souvenirs-001","type":"text","text":"Qu'est-ce que tu as remarqué en premier chez moi le jour de notre rencontre ?","tags":["rencontre","couple"]}
+{"id":"souvenirs-002","type":"who","text":"Qui de nous deux a fait le premier pas ?","tags":["rencontre","couple"]}
+{"id":"souvenirs-003","type":"text","text":"Si tu devais résumer notre premier rendez-vous en trois mots, lesquels choisirais-tu ?","tags":["rencontre","drôle"]}
+{"id":"souvenirs-004","type":"scale","text":"Quel était ton niveau de trac juste avant notre premier rendez-vous ?","minLabel":"Zen absolu","maxLabel":"Mains moites","tags":["rencontre","émotions"]}
+{"id":"souvenirs-005","type":"choice","text":"Quand as-tu compris que notre histoire comptait vraiment pour toi ?","options":["Dès le premier regard","Après quelques rendez-vous","Au bout de plusieurs mois","Petit à petit, sans déclic"],"tags":["couple","émotions"]}
+{"id":"souvenirs-006","type":"text","text":"Qu'est-ce que je portais le jour de notre rencontre, d'après ta mémoire ?","tags":["rencontre","mémoire"]}
+{"id":"souvenirs-007","type":"text","text":"De quoi riait-on lors de notre tout premier fou rire ensemble ?","tags":["drôle","couple"]}
+{"id":"souvenirs-008","type":"who","text":"Qui de nous deux a dit « je t'aime » en premier ?","tags":["romantique","couple"]}
+{"id":"souvenirs-009","type":"text","text":"Quelle chanson te ramène immédiatement aux débuts de notre histoire ?","tags":["musique","nostalgie"]}
+{"id":"souvenirs-010","type":"scale","text":"Avec le recul, à quel point notre premier baiser était-il réussi ?","minLabel":"Un peu maladroit","maxLabel":"Digne d'un film","tags":["romantique","drôle"]}
+{"id":"souvenirs-011","type":"text","text":"Quel petit détail de nos débuts as-tu gardé en mémoire alors que je l'ai sans doute oublié ?","tags":["tendresse","nostalgie"]}
+{"id":"souvenirs-012","type":"choice","text":"Comment qualifierais-tu le tout premier message qu'on s'est envoyé ?","options":["Drôle","Maladroit","Charmeur","Complètement banal"],"tags":["rencontre","drôle"]}
+{"id":"souvenirs-013","type":"text","text":"Quel endroit associes-tu le plus à nos premiers mois ensemble ?","tags":["lieux","nostalgie"]}
+{"id":"souvenirs-014","type":"text","text":"Quelle a été ta première impression de moi, en toute honnêteté ?","tags":["rencontre","drôle"]}
+{"id":"souvenirs-015","type":"text","text":"Parmi les attentions que je t'ai faites, laquelle reste la plus précieuse à tes yeux ?","tags":["tendresse","cadeaux"]}
+{"id":"souvenirs-016","type":"scale","text":"À quel point te souviens-tu précisément de la date de notre rencontre ?","minLabel":"Aucune idée","maxLabel":"Au jour près","tags":["rencontre","mémoire"]}
+{"id":"souvenirs-017","type":"text","text":"Qu'a-t-on mangé lors de notre premier repas ensemble, selon tes souvenirs ?","tags":["nourriture","rencontre"]}
+{"id":"souvenirs-018","type":"who","text":"Qui de nous deux avait le plus hâte de se revoir après le premier rendez-vous ?","tags":["rencontre","romantique"]}
+{"id":"souvenirs-019","type":"text","text":"S'il fallait revivre un seul moment de notre histoire à l'identique, lequel choisirais-tu ?","tags":["nostalgie","romantique"]}
+{"id":"souvenirs-020","type":"choice","text":"Quelle saison évoque le plus nos débuts pour toi ?","options":["Le printemps","L'été","L'automne","L'hiver"],"tags":["nostalgie","saisons"]}
+{"id":"souvenirs-021","type":"text","text":"Quelle surprise de ma part est restée gravée dans ta mémoire ?","tags":["surprise","tendresse"]}
+{"id":"souvenirs-022","type":"text","text":"D'où vient le tout premier surnom affectueux qu'on s'est donné ?","tags":["tendresse","drôle"]}
+{"id":"souvenirs-023","type":"scale","text":"Aujourd'hui, à quel point notre première dispute te paraît-elle ridicule ?","minLabel":"Toujours justifiée","maxLabel":"Totalement absurde","tags":["drôle","couple"]}
+{"id":"souvenirs-024","type":"text","text":"Quel trajet, quelle rue ou quel quai de gare te rappelle un moment avec moi ?","tags":["lieux","nostalgie"]}
+{"id":"souvenirs-025","type":"choice","text":"Quel souvenir matériel de nous garderais-tu en priorité ?","options":["Une photo","Un message ou une lettre","Un billet ou un ticket","Un objet offert"],"tags":["objets","nostalgie"]}
+{"id":"souvenirs-026","type":"text","text":"Quelle phrase que je t'ai dite un jour t'est restée en tête ?","tags":["émotions","tendresse"]}
+{"id":"souvenirs-027","type":"text","text":"Comment s'est passée, dans ton souvenir, ma première rencontre avec quelqu'un de ton entourage ?","tags":["famille","amis"]}
+{"id":"souvenirs-028","type":"who","text":"Qui de nous deux se souvient le mieux des détails de notre histoire ?","tags":["mémoire","drôle"]}
+{"id":"souvenirs-029","type":"text","text":"Quel fou rire ensemble te fait encore sourire rien que d'y penser ?","tags":["drôle","couple"]}
+{"id":"souvenirs-030","type":"scale","text":"Selon toi, quelle part le hasard a-t-il jouée dans notre rencontre ?","minLabel":"Presque aucune","maxLabel":"Un pur coup de chance","tags":["rencontre","réflexion"]}
+{"id":"souvenirs-031","type":"text","text":"Quelle soirée ensemble mériterait d'être racontée dans un livre ?","tags":["romantique","couple"]}
+{"id":"souvenirs-032","type":"choice","text":"Quelle ambiance avait notre premier rendez-vous, selon toi ?","options":["Romantique","Gênante mais mignonne","Très détendue","Pleine de fous rires"],"tags":["rencontre","émotions"]}
+{"id":"souvenirs-033","type":"text","text":"Quel jour as-tu eu l'impression qu'on formait vraiment une équipe ?","tags":["couple","réflexion"]}
+{"id":"souvenirs-034","type":"text","text":"Vers quel souvenir avec moi te tournes-tu quand la journée est difficile ?","tags":["tendresse","émotions"]}
+{"id":"souvenirs-035","type":"scale","text":"Notre première conversation était-elle plutôt laborieuse ou fluide ?","minLabel":"Silences gênants","maxLabel":"Intarissable","tags":["rencontre","conversation"]}
+{"id":"souvenirs-036","type":"choice","text":"En repensant à nos débuts, lequel de ces mots te vient en premier ?","options":["Évidence","Surprise","Patience","Coup de foudre"],"tags":["couple","émotions"]}
+{"id":"souvenirs-037","type":"text","text":"Quel lieu visité ensemble aimerais-tu absolument retrouver un jour ?","tags":["voyages","lieux"]}
+{"id":"souvenirs-038","type":"who","text":"Qui de nous deux a le plus changé depuis le début de notre histoire ?","tags":["couple","réflexion"]}
+{"id":"souvenirs-039","type":"text","text":"Quelle maladresse de ma part, au début, te fait encore rire ?","tags":["drôle","rencontre"]}
+{"id":"souvenirs-040","type":"text","text":"Si notre rencontre était une scène de film, de quel genre de film s'agirait-il ?","tags":["cinéma","drôle"]}
+{"id":"souvenirs-041","type":"text","text":"Quel souvenir d'avant notre rencontre aimerais-tu que je connaisse mieux ?","tags":["personnel","partage"]}
+{"id":"souvenirs-042","type":"text","text":"Quelle journée de ta vie, avant moi, aimerais-tu me faire vivre de l'intérieur ?","tags":["personnel","réflexion"]}
+{"id":"souvenirs-043","type":"choice","text":"Quel type de souvenir te reste le plus facilement en mémoire ?","options":["Les odeurs","Les musiques","Les images","Les phrases entendues"],"tags":["mémoire","réflexion"]}
+{"id":"souvenirs-044","type":"scale","text":"À quel point as-tu une bonne mémoire des dates importantes ?","minLabel":"Agenda obligatoire","maxLabel":"Mémoire d'éléphant","tags":["mémoire","habitudes"]}
+{"id":"souvenirs-045","type":"text","text":"Quel plat te fait penser à un moment précis passé avec moi ?","tags":["nourriture","nostalgie"]}
+{"id":"souvenirs-046","type":"text","text":"Quelle est la plus belle vue que tu aies admirée à mes côtés ?","tags":["voyages","nature"]}
+{"id":"souvenirs-047","type":"who","text":"Qui de nous deux nous a déjà fait prendre la mauvaise route ?","tags":["drôle","voyages"]}
+{"id":"souvenirs-048","type":"text","text":"Quel imprévu pendant une sortie ensemble est devenu un excellent souvenir ?","tags":["drôle","couple"]}
+{"id":"souvenirs-049","type":"scale","text":"À quel point notre premier week-end ou voyage ensemble s'est-il passé comme prévu ?","minLabel":"Chaos total","maxLabel":"Comme sur des roulettes","tags":["voyages","drôle"]}
+{"id":"souvenirs-050","type":"text","text":"Quelle scène banale de notre quotidien te rend étrangement nostalgique ?","tags":["quotidien","tendresse"]}
+{"id":"souvenirs-051","type":"choice","text":"Lequel de nos premiers moments préférerais-tu revivre ?","options":["Notre rencontre","Notre premier rendez-vous","Notre premier baiser","Notre premier voyage"],"tags":["romantique","nostalgie"]}
+{"id":"souvenirs-052","type":"text","text":"Quelle photo de nous te fait le plus sourire, et pourquoi ?","tags":["photos","tendresse"]}
+{"id":"souvenirs-053","type":"text","text":"De quoi parlait-on pendant nos premières longues conversations ?","tags":["rencontre","conversation"]}
+{"id":"souvenirs-054","type":"who","text":"Qui de nous deux a envoyé le premier message après notre rencontre ?","tags":["rencontre","messages"]}
+{"id":"souvenirs-055","type":"text","text":"Quel souvenir de fête ou de soirée ensemble te fait encore éclater de rire ?","tags":["drôle","amis"]}
+{"id":"souvenirs-056","type":"scale","text":"Au début, à quel point étais-tu à l'aise pour me parler de toi ?","minLabel":"Je ne disais rien","maxLabel":"Livre ouvert","tags":["confiance","rencontre"]}
+{"id":"souvenirs-057","type":"text","text":"Dans quel moment de complicité silencieuse entre nous aimerais-tu replonger ?","tags":["tendresse","complicité"]}
+{"id":"souvenirs-058","type":"text","text":"Quelle petite habitude à nous est née d'un souvenir précis ?","tags":["habitudes","couple"]}
+{"id":"souvenirs-059","type":"choice","text":"Quel genre de soirée ensemble te laisse les meilleurs souvenirs ?","options":["Une soirée improvisée","Un dîner en tête-à-tête","Une fête entre amis","Un film sous un plaid"],"tags":["couple","soirées"]}
+{"id":"souvenirs-060","type":"text","text":"Quelle est la plus grande aventure qu'on ait vécue ensemble jusqu'ici ?","tags":["aventure","couple"]}
+{"id":"souvenirs-061","type":"text","text":"Si quelqu'un ne me connaissait pas, quel souvenir de moi lui raconterais-tu ?","tags":["tendresse","partage"]}
+{"id":"souvenirs-062","type":"scale","text":"À quel point te souviens-tu de nos tout premiers messages ?","minLabel":"Trou noir","maxLabel":"Mot pour mot","tags":["mémoire","messages"]}
+{"id":"souvenirs-063","type":"text","text":"Complète : « J'ai su que je tenais vraiment à toi le jour où… »","tags":["romantique","émotions"]}
+{"id":"souvenirs-064","type":"who","text":"Qui de nous deux a laissé couler ses larmes devant l'autre en premier ?","tags":["émotions","tendresse"]}
+{"id":"souvenirs-065","type":"text","text":"Selon toi, quel moment difficile traversé ensemble a renforcé notre lien ?","tags":["réflexion","couple"]}
+{"id":"souvenirs-066","type":"choice","text":"Dans quel état d'esprit étais-tu au moment de notre rencontre ?","options":["En quête d'amour","Pas du tout dans cette optique","Juste par curiosité","Je ne m'en souviens plus"],"tags":["rencontre","réflexion"]}
+{"id":"souvenirs-067","type":"text","text":"Quelle odeur te ramène instantanément à un moment passé avec moi ?","tags":["sens","nostalgie"]}
+{"id":"souvenirs-068","type":"text","text":"Quel message de ma part as-tu relu plusieurs fois ?","tags":["tendresse","messages"]}
+{"id":"souvenirs-069","type":"scale","text":"Avec le recul, à quelle vitesse notre histoire a-t-elle démarré ?","minLabel":"Tout doucement","maxLabel":"À toute allure","tags":["couple","rencontre"]}
+{"id":"souvenirs-070","type":"text","text":"Quel instant passé ensemble aurais-tu aimé immortaliser en photo, sans en avoir eu le temps ?","tags":["photos","nostalgie"]}
+{"id":"souvenirs-071","type":"text","text":"Quel anniversaire fêté ensemble te tient le plus à cœur, et pour quelle raison ?","tags":["fête","tendresse"]}
+{"id":"souvenirs-072","type":"choice","text":"Lors d'un dîner entre amis, quel souvenir de nous raconterais-tu volontiers ?","options":["Notre rencontre","Une gaffe mémorable","Un voyage","Une déclaration"],"tags":["amis","drôle"]}
+{"id":"souvenirs-073","type":"text","text":"À quel moment as-tu compris que tu pouvais tout me dire ?","tags":["confiance","couple"]}
+{"id":"souvenirs-074","type":"who","text":"Qui de nous deux garde le plus de souvenirs matériels de notre histoire ?","tags":["objets","nostalgie"]}
+{"id":"souvenirs-075","type":"text","text":"Selon toi, sur quel souvenir commun nos deux versions divergent-elles le plus ?","tags":["drôle","mémoire"]}
+{"id":"souvenirs-076","type":"scale","text":"Te plonger dans nos vieilles photos, c'est plutôt rare ou fréquent ?","minLabel":"Rarement","maxLabel":"Dès que possible","tags":["photos","nostalgie"]}
+{"id":"souvenirs-077","type":"text","text":"Quelle première fois vécue avec moi t'a semblé la plus mémorable ?","tags":["découverte","couple"]}
+{"id":"souvenirs-078","type":"text","text":"Quelle activité testée pour la première fois avec moi aimerais-tu refaire ?","tags":["découverte","loisirs"]}
+{"id":"souvenirs-079","type":"choice","text":"Quel moment de la journée domine dans tes souvenirs de nous ?","options":["Les matins","Les après-midi","Les soirées","Les nuits blanches"],"tags":["quotidien","habitudes"]}
+{"id":"souvenirs-080","type":"text","text":"Quelle petite promesse qu'on s'était faite au début a-t-on vraiment tenue ?","tags":["couple","réflexion"]}
+{"id":"souvenirs-081","type":"text","text":"Quel moment de ta vie t'a donné le plus de fierté, avant ou depuis qu'on se connaît ?","tags":["fierté","personnel"]}
+{"id":"souvenirs-082","type":"choice","text":"Si tu pouvais revivre une année de ta vie, laquelle choisirais-tu ?","options":["Une année d'enfance","Une année d'adolescence","Une année de nos débuts","Celle-ci, encore une fois"],"tags":["nostalgie","réflexion"]}
+{"id":"souvenirs-083","type":"text","text":"Quel voyage, avec ou sans moi, a changé ta façon de voir le monde ?","tags":["voyages","personnel"]}
+{"id":"souvenirs-084","type":"scale","text":"À quel point aimes-tu raconter tes souvenirs aux autres ?","minLabel":"Je garde tout","maxLabel":"Je raconte tout","tags":["personnel","partage"]}
+{"id":"souvenirs-085","type":"text","text":"Quelle rencontre, en dehors de la nôtre, a marqué un tournant dans ta vie ?","tags":["personnel","réflexion"]}
+{"id":"souvenirs-086","type":"choice","text":"En pensant à nos voyages ou escapades, qu'est-ce qui te revient en premier ?","options":["Un paysage","Un repas","Une galère","Une rencontre"],"tags":["voyages","couple"]}
+{"id":"souvenirs-087","type":"who","text":"Qui de nous deux a déjà oublié quelque chose d'important avant un départ ?","tags":["voyages","drôle"]}
+{"id":"souvenirs-088","type":"text","text":"Quelle galère de transport vécue ensemble fait aujourd'hui partie de nos meilleures anecdotes ?","tags":["voyages","drôle"]}
+{"id":"souvenirs-089","type":"text","text":"Quel concert, spectacle ou film vu ensemble t'a laissé le souvenir le plus fort ?","tags":["culture","sorties"]}
+{"id":"souvenirs-090","type":"choice","text":"Quel genre de souvenirs avec moi préfères-tu ?","options":["Les grandes occasions","Les petits riens du quotidien","Les aventures imprévues","Les longues discussions"],"tags":["couple","réflexion"]}
+{"id":"souvenirs-091","type":"text","text":"Quel repas raté, préparé ou partagé ensemble, est devenu une anecdote culte ?","tags":["nourriture","drôle"]}
+{"id":"souvenirs-092","type":"scale","text":"Aujourd'hui, notre pire galère commune te fait-elle rire ?","minLabel":"Pas encore","maxLabel":"Aux larmes","tags":["drôle","couple"]}
+{"id":"souvenirs-093","type":"text","text":"Quel lieu de ta vie d'avant aimerais-tu me faire visiter un jour ?","tags":["lieux","partage"]}
+{"id":"souvenirs-094","type":"text","text":"Quel livre, film ou chanson associes-tu à une période importante de ta vie ?","tags":["culture","personnel"]}
+{"id":"souvenirs-095","type":"choice","text":"Quel mot décrit le mieux nos premières vacances ensemble ?","options":["Inoubliables","Mouvementées","Reposantes","Encore à venir !"],"tags":["voyages","vacances"]}
+{"id":"souvenirs-096","type":"who","text":"Qui de nous deux a pris le plus de photos lors de nos sorties ?","tags":["photos","sorties"]}
+{"id":"souvenirs-097","type":"text","text":"Dans la nature, quel instant passé avec moi te revient avec le plus de douceur ?","tags":["nature","tendresse"]}
+{"id":"souvenirs-098","type":"text","text":"Quelle est la plus grosse gaffe que tu aies faite devant moi ?","tags":["drôle","couple"]}
+{"id":"souvenirs-099","type":"scale","text":"Comment noterais-tu l'intensité des premiers mois de notre histoire ?","minLabel":"Tout en douceur","maxLabel":"Montagnes russes","tags":["émotions","couple"]}
+{"id":"souvenirs-100","type":"choice","text":"Quelle émotion domine quand tu repenses à nos débuts ?","options":["De la tendresse","De l'amusement","De la nostalgie","De la fierté"],"tags":["émotions","nostalgie"]}
+{"id":"souvenirs-101","type":"text","text":"Quel compliment de ma part t'est resté en mémoire ?","tags":["tendresse","émotions"]}
+{"id":"souvenirs-102","type":"text","text":"Quel jour de pluie ou de grisaille est devenu un beau souvenir grâce à nous ?","tags":["quotidien","tendresse"]}
+{"id":"souvenirs-103","type":"who","text":"Qui de nous deux a eu l'idée de notre premier vrai projet commun ?","tags":["projets","couple"]}
+{"id":"souvenirs-104","type":"text","text":"Quelle nuit blanche ou très longue soirée ensemble te revient en mémoire ?","tags":["soirées","nostalgie"]}
+{"id":"souvenirs-105","type":"choice","text":"Quelle était notre activité préférée au tout début ?","options":["Marcher sans but","Parler pendant des heures","Sortir manger","Regarder des films"],"tags":["rencontre","loisirs"]}
+{"id":"souvenirs-106","type":"text","text":"Quelle est la chose la plus folle ou la plus spontanée qu'on ait faite ensemble ?","tags":["aventure","drôle"]}
+{"id":"souvenirs-107","type":"scale","text":"À quel point aimerais-tu rejouer notre premier rendez-vous, au même endroit ?","minLabel":"Plutôt pas","maxLabel":"Dès demain","tags":["rencontre","romantique"]}
+{"id":"souvenirs-108","type":"text","text":"Quelle anecdote racontée par tes proches aimerais-tu me transmettre à ton tour ?","tags":["famille","partage"]}
+{"id":"souvenirs-109","type":"choice","text":"Si notre histoire avait une bande-son, quel genre musical dominerait ?","options":["Pop joyeuse","Ballade romantique","Rock énergique","Jazz tranquille"],"tags":["musique","drôle"]}
+{"id":"souvenirs-110","type":"text","text":"Quelle leçon importante as-tu apprise grâce à un souvenir qu'on partage ?","tags":["réflexion","couple"]}
+{"id":"souvenirs-111","type":"text","text":"Quel geste de tendresse inattendu de ma part te touche encore ?","tags":["tendresse","émotions"]}
+{"id":"souvenirs-112","type":"who","text":"Qui de nous deux avait le plus de mal à dire au revoir à la fin de nos premiers rendez-vous ?","tags":["rencontre","tendresse"]}
+{"id":"souvenirs-113","type":"choice","text":"Comment notre histoire a-t-elle commencé, dans ta version ?","options":["Par un regard","Par une conversation","Par un message","Par un hasard total"],"tags":["rencontre","couple"]}
+{"id":"souvenirs-114","type":"text","text":"Quelle promenade ensemble te reste en tête sans que tu saches vraiment pourquoi ?","tags":["nature","balade"]}
+{"id":"souvenirs-115","type":"scale","text":"À quel point notre histoire ressemble-t-elle à celle que tu imaginais plus jeune ?","minLabel":"Rien à voir","maxLabel":"Trait pour trait","tags":["réflexion","rêves"]}
+{"id":"souvenirs-116","type":"text","text":"Quel souvenir de fêtes de fin d'année ou de vacances partagées te réchauffe le cœur ?","tags":["fête","tendresse"]}
+{"id":"souvenirs-117","type":"choice","text":"Où se cache notre meilleur souvenir culinaire, selon toi ?","options":["Dans un restaurant","Dans une cuisine","Lors d'un pique-nique","Sur un marché ou un stand"],"tags":["nourriture","couple"]}
+{"id":"souvenirs-118","type":"text","text":"Quelle anecdote sur nous adores-tu raconter, quitte à l'enjoliver un peu ?","tags":["drôle","amis"]}
+{"id":"souvenirs-119","type":"text","text":"Depuis qu'on se connaît, quel moment as-tu trouvé le plus romantique ?","tags":["romantique","couple"]}
+{"id":"souvenirs-120","type":"choice","text":"Quel cliché romantique a-t-on déjà vécu ensemble ?","options":["Danser sous la pluie","Un dîner aux chandelles","Un coucher de soleil","Aucun, et c'est très bien"],"tags":["romantique","drôle"]}
+{"id":"souvenirs-121","type":"text","text":"Quelle a été la plus belle surprise de ta vie, toutes périodes confondues ?","tags":["surprise","personnel"]}
+{"id":"souvenirs-122","type":"scale","text":"À quel point notre rencontre a-t-elle bouleversé ton quotidien de l'époque ?","minLabel":"À peine","maxLabel":"Du tout au tout","tags":["rencontre","réflexion"]}
+{"id":"souvenirs-123","type":"choice","text":"Où est né notre plus beau fou rire, à ton avis ?","options":["En public, au pire moment","En privé","En voyage","Par messages ou au téléphone"],"tags":["drôle","couple"]}
+{"id":"souvenirs-124","type":"text","text":"Quand ai-je pris soin de toi d'une façon qui te reste en mémoire ?","tags":["tendresse","soin"]}
+{"id":"souvenirs-125","type":"text","text":"Quelle petite victoire commune mérite encore d'être célébrée ?","tags":["fierté","couple"]}
+{"id":"souvenirs-126","type":"who","text":"Qui de nous deux a le plus souvent la nostalgie de nos débuts ?","tags":["nostalgie","couple"]}
+{"id":"souvenirs-127","type":"text","text":"Quelle blague ou référence n'appartient qu'à nous, et d'où vient-elle ?","tags":["complicité","drôle"]}
+{"id":"souvenirs-128","type":"choice","text":"Qu'est-ce qui t'a plu en premier dans nos échanges ?","options":["L'humour","La curiosité mutuelle","La facilité à parler","Les silences confortables"],"tags":["rencontre","conversation"]}
+{"id":"souvenirs-129","type":"text","text":"Quel moment de ta vie, avant moi, a le plus façonné la personne que tu es ?","tags":["personnel","réflexion"]}
+{"id":"souvenirs-130","type":"scale","text":"À quel point nos premiers rendez-vous étaient-ils organisés à l'avance ?","minLabel":"Totale impro","maxLabel":"Planifiés à la minute","tags":["rencontre","habitudes"]}
+{"id":"souvenirs-131","type":"text","text":"Qu'est-ce qui nous a fait rire au point qu'on ne puisse jamais l'expliquer aux autres ?","tags":["drôle","complicité"]}
+{"id":"souvenirs-132","type":"choice","text":"Quel souvenir de saison ensemble te plaît le plus ?","options":["Une journée de neige","Une baignade","Une soirée d'orage","Une terrasse au soleil"],"tags":["saisons","nature"]}
+{"id":"souvenirs-133","type":"text","text":"Quelle nouveauté as-tu découverte grâce à moi : un lieu, un goût, une passion ?","tags":["découverte","couple"]}
+{"id":"souvenirs-134","type":"text","text":"Complète : « Je n'oublierai jamais la fois où on… »","tags":["drôle","nostalgie"]}
+{"id":"souvenirs-135","type":"scale","text":"À quel point te sentais-tu toi-même lors de nos tout premiers rendez-vous ?","minLabel":"Je jouais un rôle","maxLabel":"Totalement moi","tags":["rencontre","émotions"]}
+{"id":"souvenirs-136","type":"choice","text":"Quel type de cadeau de ma part t'a fait le plus plaisir ?","options":["Un objet","Une expérience","Un mot écrit","Une surprise improvisée"],"tags":["cadeaux","tendresse"]}
+{"id":"souvenirs-137","type":"text","text":"Quelle habitude de nos débuts a disparu et te manque un peu ?","tags":["nostalgie","habitudes"]}
+{"id":"souvenirs-138","type":"who","text":"Qui de nous deux a préparé la surprise la plus mémorable ?","tags":["surprise","romantique"]}
+{"id":"souvenirs-139","type":"text","text":"Que dirais-tu de notre histoire à la personne que tu étais il y a dix ans ?","tags":["réflexion","couple"]}
+{"id":"souvenirs-140","type":"scale","text":"Jusqu'ici, à quel point notre histoire est-elle pleine de rebondissements ?","minLabel":"Bien tranquille","maxLabel":"Digne d'une série","tags":["couple","drôle"]}
+{"id":"souvenirs-141","type":"choice","text":"Quelle période de notre histoire préfères-tu jusqu'ici ?","options":["Les tout débuts","La première année","Ces derniers mois","Aujourd'hui, tout simplement"],"tags":["réflexion","couple"]}
+{"id":"souvenirs-142","type":"text","text":"Quelle a été la meilleure décision prise ensemble, selon toi ?","tags":["couple","réflexion"]}
+{"id":"souvenirs-143","type":"text","text":"Quel moment d'entraide entre nous te remplit encore de fierté ?","tags":["couple","soutien"]}
+{"id":"souvenirs-144","type":"choice","text":"Comment préfères-tu revivre nos souvenirs ?","options":["En regardant des photos","En les racontant","En retournant sur place","En réécoutant nos chansons"],"tags":["nostalgie","couple"]}
+{"id":"souvenirs-145","type":"text","text":"Quel moment de nos débuts t'a fait comprendre qu'on avait le même humour ?","tags":["drôle","complicité"]}
+{"id":"souvenirs-146","type":"scale","text":"Notre premier baiser était-il plutôt une surprise ou une évidence ?","minLabel":"Totalement inattendu","maxLabel":"Écrit d'avance","tags":["romantique","drôle"]}
+{"id":"souvenirs-147","type":"text","text":"Quelle fois t'ai-je fait rire au point de ne plus pouvoir t'arrêter ?","tags":["drôle","complicité"]}
+{"id":"souvenirs-148","type":"choice","text":"Quel souvenir de nous mériterait une adaptation au cinéma ?","options":["Notre rencontre","Notre plus grosse galère","Notre plus beau voyage","Une soirée ordinaire"],"tags":["cinéma","drôle"]}
+{"id":"souvenirs-149","type":"text","text":"Quel conseil donnerais-tu au « nous » du tout début, si tu pouvais lui parler ?","tags":["réflexion","couple"]}
+{"id":"souvenirs-150","type":"who","text":"Qui de nous deux a le plus parlé de notre histoire à son entourage au début ?","tags":["amis","rencontre"]}
+{"id":"souvenirs-151","type":"text","text":"Quelle petite manie de ma part as-tu découverte en premier ?","tags":["habitudes","drôle"]}
+{"id":"souvenirs-152","type":"scale","text":"Entre ta première impression de moi et aujourd'hui, à quel point as-tu changé d'avis ?","minLabel":"Pas du tout","maxLabel":"Complètement","tags":["rencontre","réflexion"]}
+{"id":"souvenirs-153","type":"text","text":"Pour fêter notre histoire, quel moment passé ensemble aimerais-tu qu'on recrée ?","tags":["romantique","projets"]}
+{"id":"souvenirs-154","type":"choice","text":"Quelle première fois ensemble te semble la plus importante ?","options":["Le premier « je t'aime »","Le premier voyage","La première rencontre avec mes proches","Le premier grand projet"],"tags":["découverte","couple"]}
+{"id":"souvenirs-155","type":"text","text":"Quelle attention que j'avais au début aimerais-tu que je retrouve ?","tags":["tendresse","couple"]}
+{"id":"souvenirs-156","type":"text","text":"Parmi nos moments récents, lequel mérite déjà d'entrer dans nos meilleurs souvenirs ?","tags":["quotidien","tendresse"]}
+{"id":"souvenirs-157","type":"scale","text":"Dans dix ans, à quel point penses-tu qu'on se souviendra de cette année ?","minLabel":"Vite oubliée","maxLabel":"Gravée à jamais","tags":["réflexion","couple"]}
+{"id":"souvenirs-158","type":"choice","text":"Quand tu racontes notre rencontre, quelle est ta tendance ?","options":["J'enjolive un peu","Je reste fidèle aux faits","Je raccourcis tout","Je te laisse raconter"],"tags":["rencontre","drôle"]}
+{"id":"souvenirs-159","type":"text","text":"Si l'album photo de notre histoire avait un titre, lequel lui donnerais-tu ?","tags":["photos","drôle"]}
+{"id":"souvenirs-160","type":"text","text":"Dans très longtemps, quel souvenir de nous espères-tu raconter encore ?","tags":["tendresse","avenir"]}

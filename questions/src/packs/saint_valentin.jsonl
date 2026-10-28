@@ -1,0 +1,30 @@
+{"id":"saint_valentin-001","category":"nous_deux","type":"text","text":"Quel petit geste de l'autre te réchauffe le cœur à chaque fois ?","tags":["tendresse","nous"]}
+{"id":"saint_valentin-002","category":"souvenirs","type":"text","text":"À quel moment as-tu su que tu tenais vraiment à l'autre ?","tags":["romantique","souvenirs"]}
+{"id":"saint_valentin-003","category":"tu_preferes","type":"choice","text":"Pour la Saint-Valentin, tu préfères…","options":["Un dîner aux chandelles","Un pique-nique improvisé","Une soirée pyjama et film","Ignorer la date, s'aimer tous les jours"],"tags":["saint-valentin","envies"]}
+{"id":"saint_valentin-004","category":"gouts","type":"text","text":"Quelle chanson te fait penser à nous ?","tags":["musique","romantique"]}
+{"id":"saint_valentin-005","category":"qui_de_nous","type":"who","text":"Qui de nous deux a dit je t'aime en premier ?","tags":["souvenirs","romantique"]}
+{"id":"saint_valentin-006","category":"nous_deux","type":"text","text":"Qu'est-ce que tu aimes chez l'autre et qui ne se voit pas au premier regard ?","tags":["tendresse","regard"]}
+{"id":"saint_valentin-007","category":"profond","type":"text","text":"Pour toi, qu'est-ce qu'aimer quelqu'un, en une phrase ?","tags":["amour","valeurs"]}
+{"id":"saint_valentin-008","category":"nous_deux","type":"scale","text":"À quel point as-tu le sentiment que l'autre te comprend ?","minLabel":"Parfois, c'est flou","maxLabel":"Mieux que personne","tags":["complicité"]}
+{"id":"saint_valentin-009","category":"souvenirs","type":"text","text":"Quel détail de notre rencontre te revient le plus souvent ?","tags":["rencontre","souvenirs"]}
+{"id":"saint_valentin-010","category":"fun","type":"choice","text":"Ta déclaration d'amour idéale…","options":["Un mot glissé dans ma poche","Un poème maladroit mais sincère","Criée sur les toits","Un regard, sans un mot"],"tags":["déclaration","drôle"]}
+{"id":"saint_valentin-011","category":"nous_deux","type":"text","text":"Quelle qualité de l'autre aimerais-tu voir briller toute la vie ?","tags":["tendresse","qualités"]}
+{"id":"saint_valentin-012","category":"hypothetique","type":"text","text":"Si on revivait notre premier rendez-vous, que changerais-tu, et que garderais-tu à l'identique ?","tags":["rencontre","hypothèse"]}
+{"id":"saint_valentin-013","category":"gouts","type":"scale","text":"À quel point es-tu fleur bleue ?","minLabel":"Zéro guimauve","maxLabel":"Cœur en guimauve","tags":["romantisme","drôle"]}
+{"id":"saint_valentin-014","category":"qui_de_nous","type":"who","text":"Qui de nous deux craque le plus vite après une dispute ?","tags":["tendresse","réconciliation"]}
+{"id":"saint_valentin-015","category":"valeurs","type":"text","text":"Qu'est-ce qui, selon toi, fait durer l'amour au fil du temps ?","tags":["valeurs","amour"]}
+{"id":"saint_valentin-016","category":"nous_deux","type":"text","text":"Quel surnom tendre aimerais-tu recevoir, ou garder pour toujours ?","tags":["tendresse","surnoms"]}
+{"id":"saint_valentin-017","category":"tu_preferes","type":"choice","text":"Tu préfères recevoir de l'amour sous forme de…","options":["Mots doux","Câlins et gestes tendres","Temps passé ensemble","Petites attentions surprises"],"tags":["amour","attentions"]}
+{"id":"saint_valentin-018","category":"souvenirs","type":"text","text":"Quel moment ordinaire passé ensemble t'a semblé extraordinaire ?","tags":["quotidien","tendresse"]}
+{"id":"saint_valentin-019","category":"futur","type":"text","text":"Quelle aventure rêves-tu de vivre à deux, un jour ?","tags":["rêves","nous"]}
+{"id":"saint_valentin-020","category":"nous_deux","type":"scale","text":"À quel point aimes-tu les surprises romantiques ?","minLabel":"Je préfère prévoir","maxLabel":"Surprends-moi encore !","tags":["surprises","romantique"]}
+{"id":"saint_valentin-021","category":"fun","type":"choice","text":"Si notre histoire était un film, ce serait…","options":["Une comédie romantique","Un film d'aventure","Une saga en plusieurs volets","Un film d'auteur plein de silences"],"tags":["drôle","nous"]}
+{"id":"saint_valentin-022","category":"nous_deux","type":"text","text":"Quelle petite manie de l'autre trouves-tu secrètement adorable ?","tags":["tendresse","drôle"]}
+{"id":"saint_valentin-023","category":"gouts","type":"choice","text":"Le dîner romantique parfait se passe…","options":["Dans un petit bistrot de quartier","À la maison, cuisiné à deux","Sur une terrasse avec vue","Au lit, en mode plateau-repas"],"tags":["dîner","romantique"]}
+{"id":"saint_valentin-024","category":"profond","type":"text","text":"Qu'est-ce que notre relation t'a appris sur toi ?","tags":["profond","nous"]}
+{"id":"saint_valentin-025","category":"qui_de_nous","type":"who","text":"Qui de nous deux écrit les messages les plus tendres ?","tags":["mots doux"]}
+{"id":"saint_valentin-026","category":"nous_deux","type":"text","text":"Quels mots aimerais-tu entendre plus souvent de la bouche de l'autre ?","tags":["mots doux","besoins"]}
+{"id":"saint_valentin-027","category":"tu_preferes","type":"choice","text":"Tu préfères…","options":["Une lettre d'amour écrite à la main","Une playlist composée rien que pour moi"],"tags":["romantique","cadeaux"]}
+{"id":"saint_valentin-028","category":"quotidien","type":"scale","text":"Quelle importance la Saint-Valentin a-t-elle pour toi ?","minLabel":"Une date comme une autre","maxLabel":"Un rendez-vous sacré","tags":["saint-valentin"]}
+{"id":"saint_valentin-029","category":"souvenirs","type":"text","text":"Quel est le plus beau compliment que l'autre t'ait fait ?","tags":["compliments","tendresse"]}
+{"id":"saint_valentin-030","category":"futur","type":"text","text":"Que voudrais-tu qu'on se promette pour la Saint-Valentin de l'an prochain ?","tags":["promesses","futur"]}

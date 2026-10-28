@@ -1,0 +1,160 @@
+{"id":"futur-001","type":"text","text":"Où te vois-tu dans cinq ans, si tout se passe exactement comme tu l'espères ?","tags":["projets","rêves"]}
+{"id":"futur-002","type":"choice","text":"Dans vingt ans, où aimerais-tu qu'on vive ?","options":["En pleine nature","Au cœur d'une grande ville","Au bord de la mer","Dans un autre pays"],"tags":["lieu","rêves"]}
+{"id":"futur-003","type":"scale","text":"À quel point as-tu envie qu'on change radicalement de vie un jour ?","minLabel":"Pas du tout","maxLabel":"Le plus tôt possible","tags":["projets","aventure"]}
+{"id":"futur-004","type":"who","text":"Qui de nous deux aura le plus de cheveux blancs à 70 ans ?","tags":["vieillir","léger"]}
+{"id":"futur-005","type":"text","text":"Quelle aventure aimerais-tu absolument qu'on vive ensemble avant nos 80 ans ?","tags":["bucket list","aventure"]}
+{"id":"futur-006","type":"text","text":"Quel petit rituel d'aujourd'hui aimerais-tu qu'on garde encore dans trente ans ?","tags":["vieillir","rituels"]}
+{"id":"futur-007","type":"choice","text":"Qu'aimerais-tu qu'on apprenne ensemble l'an prochain ?","options":["Une nouvelle langue","Un instrument de musique","Une danse","Un sport à sensations"],"tags":["projets","apprendre"]}
+{"id":"futur-008","type":"text","text":"À quoi ressemble ton dimanche idéal quand on aura 75 ans ?","tags":["vieillir","quotidien"]}
+{"id":"futur-009","type":"scale","text":"À quel point l'idée de vieillir ensemble te rassure-t-elle ?","minLabel":"Elle m'inquiète un peu","maxLabel":"Elle m'apaise totalement","tags":["vieillir","tendresse"]}
+{"id":"futur-010","type":"text","text":"Quel métier ou quelle activité aimerais-tu exercer si l'argent n'était plus un sujet ?","tags":["travail","rêves"]}
+{"id":"futur-011","type":"text","text":"Dans quelle ville du monde aimerais-tu qu'on habite au moins un an, juste pour voir ?","tags":["lieu","voyage"]}
+{"id":"futur-012","type":"who","text":"Qui de nous deux proposera en premier de tout plaquer pour partir à l'aventure ?","tags":["aventure","léger"]}
+{"id":"futur-013","type":"choice","text":"Comment nous imagines-tu à la retraite ?","options":["À voyager sans arrêt","Dans un jardin, au calme","Avec une maison toujours pleine","À nous lancer dans de nouveaux projets"],"tags":["vieillir","retraite"]}
+{"id":"futur-014","type":"text","text":"Quelle est la prochaine grande décision qu'on devra prendre à deux, selon toi ?","tags":["projets","couple"]}
+{"id":"futur-015","type":"text","text":"Quel rêve d'enfance n'as-tu pas encore abandonné ?","tags":["rêves"]}
+{"id":"futur-016","type":"scale","text":"Quelle place l'argent occupe-t-il dans tes projets d'avenir ?","minLabel":"Secondaire","maxLabel":"Centrale","tags":["argent","projets"]}
+{"id":"futur-017","type":"text","text":"Quelle compétence aimerais-tu maîtriser dans dix ans ?","tags":["apprendre","projets"]}
+{"id":"futur-018","type":"text","text":"Si on écrivait aujourd'hui une lettre à ouvrir dans dix ans, que voudrais-tu y mettre ?","tags":["couple","tendresse"]}
+{"id":"futur-019","type":"choice","text":"Quel grand voyage aimerais-tu qu'on fasse dans les trois prochaines années ?","options":["Un road trip au long cours","Un tour du monde","Un trek en montagne","Une île lointaine"],"tags":["voyage","bucket list"]}
+{"id":"futur-020","type":"who","text":"Qui de nous deux versera une larme en revoyant nos photos dans trente ans ?","tags":["vieillir","souvenirs"]}
+{"id":"futur-021","type":"text","text":"Quel projet un peu fou aimerais-tu qu'on réalise, juste pour pouvoir le raconter plus tard ?","tags":["aventure","bucket list"]}
+{"id":"futur-022","type":"text","text":"Qu'est-ce qui te ferait dire, dans vingt ans, que notre vie a été réussie ?","tags":["vieillir","valeurs"]}
+{"id":"futur-023","type":"scale","text":"À quel point envisages-tu de vivre un jour à l'étranger ?","minLabel":"Jamais de la vie","maxLabel":"Dès demain","tags":["lieu","aventure"]}
+{"id":"futur-024","type":"text","text":"Quelle tradition aimerais-tu qu'on invente rien que pour nous deux ?","tags":["rituels","couple"]}
+{"id":"futur-025","type":"choice","text":"Quel genre de voisinage aimerais-tu avoir dans dix ans ?","options":["Un village où tout le monde se connaît","Un quartier vivant et animé","Personne à des kilomètres","Des amis juste à côté"],"tags":["lieu","maison"]}
+{"id":"futur-026","type":"text","text":"Quel aspect de ta vie professionnelle aimerais-tu voir évoluer d'ici un an ?","tags":["travail","court terme"]}
+{"id":"futur-027","type":"text","text":"Quelle expérience gastronomique rêves-tu qu'on vive ensemble un jour ?","tags":["bucket list","gourmand"]}
+{"id":"futur-028","type":"who","text":"Qui de nous deux finira par avoir un potager digne d'un concours ?","tags":["vieillir","léger"]}
+{"id":"futur-029","type":"text","text":"Quel défi aimerais-tu qu'on relève ensemble d'ici cinq ans ?","tags":["projets","défi"]}
+{"id":"futur-030","type":"scale","text":"Quand tu penses à notre avenir, ressens-tu plutôt de l'impatience ou de la sérénité ?","minLabel":"De l'impatience","maxLabel":"De la sérénité","tags":["couple","émotions"]}
+{"id":"futur-031","type":"text","text":"Quel endroit aimerais-tu qu'on retrouve chaque année, comme un rendez-vous immuable ?","tags":["rituels","voyage"]}
+{"id":"futur-032","type":"text","text":"À quoi aimerais-tu consacrer plus de temps dans les prochaines années ?","tags":["projets","équilibre"]}
+{"id":"futur-033","type":"choice","text":"Comment aimerais-tu fêter un jour un grand anniversaire de notre couple ?","options":["Un voyage rien que nous deux","Une grande fête avec nos proches","Un renouvellement de promesses","Une surprise totale"],"tags":["fête","couple"]}
+{"id":"futur-034","type":"text","text":"Quelle chose aimerais-tu avoir enfin osé faire d'ici l'année prochaine ?","tags":["défi","court terme"]}
+{"id":"futur-035","type":"text","text":"Si tu pouvais demander un conseil à la personne que tu seras à 80 ans, que lui demanderais-tu ?","tags":["vieillir","introspection"]}
+{"id":"futur-036","type":"who","text":"Qui de nous deux aura l'idée de notre prochain grand voyage ?","tags":["voyage"]}
+{"id":"futur-037","type":"scale","text":"À quel point aimes-tu planifier l'avenir à l'avance ?","minLabel":"Au jour le jour","maxLabel":"Tout est déjà prévu","tags":["organisation","projets"]}
+{"id":"futur-038","type":"text","text":"Quel objet de notre vie actuelle aimerais-tu qu'on garde toute notre vie ?","tags":["souvenirs","maison"]}
+{"id":"futur-039","type":"text","text":"Quelle langue rêverais-tu de parler couramment un jour, et pourquoi ?","tags":["apprendre","rêves"]}
+{"id":"futur-040","type":"choice","text":"Dans un futur idéal, quel serait ton rythme de travail ?","options":["Plein temps, passionnément","Quatre jours par semaine","Quelques mois par an","Plus de travail du tout"],"tags":["travail","équilibre"]}
+{"id":"futur-041","type":"text","text":"Quelle période de notre vie à venir te donne le plus hâte ?","tags":["couple","avenir"]}
+{"id":"futur-042","type":"choice","text":"Si on gagnait au loto demain, quelle serait ta première envie ?","options":["Partir loin, tout de suite","Acheter un lieu à nous","Aider nos proches","Ne rien changer, ou presque"],"tags":["argent","rêves"]}
+{"id":"futur-043","type":"text","text":"Quel animal aimerais-tu qu'on adopte un jour, même le plus improbable ?","tags":["maison","léger"]}
+{"id":"futur-044","type":"scale","text":"À quel point te sens-tu en paix avec l'idée de vieillir ?","minLabel":"Pas encore","maxLabel":"Complètement","tags":["vieillir","introspection"]}
+{"id":"futur-045","type":"text","text":"Quelle sera, selon toi, notre plus grande fierté commune dans vingt ans ?","tags":["couple","vieillir"]}
+{"id":"futur-046","type":"who","text":"Qui de nous deux voudra encore danser jusqu'au bout de la nuit à 70 ans ?","tags":["vieillir","fête"]}
+{"id":"futur-047","type":"text","text":"Quel sommet, quel désert ou quelle merveille naturelle veux-tu voir de tes yeux un jour ?","tags":["bucket list","nature"]}
+{"id":"futur-048","type":"text","text":"Quelle habitude aimerais-tu adopter dès cette année pour te sentir mieux dans dix ans ?","tags":["santé","projets"]}
+{"id":"futur-049","type":"choice","text":"À quoi ressemblerait notre chez-nous idéal du futur ?","options":["Une maison avec un grand jardin","Un appartement lumineux en ville","Une cabane isolée","Un van pour vivre sur la route"],"tags":["maison","rêves"]}
+{"id":"futur-050","type":"text","text":"Quel rêve personnel aimerais-tu réaliser avec le soutien de notre couple ?","tags":["rêves","soutien"]}
+{"id":"futur-051","type":"scale","text":"Quelle importance accordes-tu à l'idée de laisser une trace après toi ?","minLabel":"Aucune","maxLabel":"Énorme","tags":["valeurs","héritage"]}
+{"id":"futur-052","type":"text","text":"Si on ouvrait un lieu ensemble un jour, quel serait-il : café, librairie, gîte, autre chose ?","tags":["projets","rêves"]}
+{"id":"futur-053","type":"text","text":"Quelle fête de famille ou d'amis aimerais-tu organiser dans les années à venir ?","tags":["famille","amis"]}
+{"id":"futur-054","type":"who","text":"Qui de nous deux se mettra en premier à un sport complètement inattendu ?","tags":["léger","santé"]}
+{"id":"futur-055","type":"text","text":"Quel moment de notre futur aimerais-tu pouvoir aller voir en avance, juste quelques minutes ?","tags":["couple","imaginaire"]}
+{"id":"futur-056","type":"choice","text":"Quelle aventure te tente le plus pour les prochaines années ?","options":["Traverser un pays à vélo","Vivre quelques semaines sur un voilier","Faire du bénévolat à l'étranger","Partir sans billet retour"],"tags":["aventure","voyage"]}
+{"id":"futur-057","type":"text","text":"Qu'aimerais-tu avoir appris de notre couple quand on regardera en arrière ?","tags":["couple","sagesse"]}
+{"id":"futur-058","type":"scale","text":"À quel point aimerais-tu changer de métier dans les dix prochaines années ?","minLabel":"Je reste où je suis","maxLabel":"J'y pense chaque jour","tags":["travail"]}
+{"id":"futur-059","type":"text","text":"Quel hiver de rêve aimerais-tu qu'on passe un jour, et où ?","tags":["voyage","rêves"]}
+{"id":"futur-060","type":"text","text":"Quelle personne âgée de ton entourage t'inspire pour la façon dont tu aimerais vieillir ?","tags":["vieillir","inspiration"]}
+{"id":"futur-061","type":"text","text":"Quelle cause aimerais-tu qu'on soutienne ensemble à l'avenir ?","tags":["valeurs","engagement"]}
+{"id":"futur-062","type":"choice","text":"Comment imagines-tu tes 80 ans ?","options":["Une fête mémorable","Un voyage au bout du monde","Un dîner intime","Un saut en parachute"],"tags":["vieillir","fête"]}
+{"id":"futur-063","type":"who","text":"Qui de nous deux racontera nos anecdotes de jeunesse à qui veut l'entendre ?","tags":["vieillir","souvenirs"]}
+{"id":"futur-064","type":"text","text":"Quelle peur aimerais-tu avoir dépassée d'ici cinq ans ?","tags":["défi","introspection"]}
+{"id":"futur-065","type":"scale","text":"À quel point as-tu besoin de savoir où on va pour te sentir bien dans notre couple ?","minLabel":"Pas besoin de savoir","maxLabel":"Indispensable","tags":["couple","sécurité"]}
+{"id":"futur-066","type":"text","text":"Quel endroit aimerais-tu qu'on revoie un jour pour mesurer le chemin parcouru ?","tags":["souvenirs","voyage"]}
+{"id":"futur-067","type":"text","text":"Quel serait ton projet de reconversion secret, celui que tu n'as jamais vraiment avoué ?","tags":["travail","rêves"]}
+{"id":"futur-068","type":"choice","text":"Quel rythme de vie te fait le plus envie dans cinq ans ?","options":["Plus lent et plus simple","Plus intense et plus aventureux","Plus tourné vers les autres","Comme aujourd'hui, en mieux"],"tags":["quotidien","équilibre"]}
+{"id":"futur-069","type":"text","text":"Quelle chose aimerais-tu qu'on construise de nos propres mains un jour ?","tags":["projets","créativité"]}
+{"id":"futur-070","type":"text","text":"Si tu pouvais garantir une seule chose pour notre avenir, laquelle choisirais-tu ?","tags":["couple","valeurs"]}
+{"id":"futur-071","type":"scale","text":"Quelle place les voyages devraient-ils prendre dans notre vie future ?","minLabel":"Une petite place","maxLabel":"Toute la place","tags":["voyage"]}
+{"id":"futur-072","type":"who","text":"Qui de nous deux insistera pour qu'on fasse une dernière folie à 90 ans ?","tags":["vieillir","aventure"]}
+{"id":"futur-073","type":"text","text":"Quel festival, quel concert ou quel événement rêves-tu qu'on vive au moins une fois ?","tags":["bucket list","culture"]}
+{"id":"futur-074","type":"text","text":"Quelle question aimerais-tu qu'on se pose ensemble à chaque fin d'année ?","tags":["rituels","communication"]}
+{"id":"futur-075","type":"choice","text":"Si on partait vivre à la campagne, quel projet te tenterait le plus ?","options":["Un potager géant","Des chambres d'hôtes","Un atelier d'artisanat","Des animaux, beaucoup d'animaux"],"tags":["maison","rêves"]}
+{"id":"futur-076","type":"text","text":"À quel âge aimerais-tu arrêter de travailler, et pour faire quoi ?","tags":["travail","retraite"]}
+{"id":"futur-077","type":"scale","text":"À quel point te sens-tu capable de repartir de zéro ailleurs ?","minLabel":"Pas du tout","maxLabel":"Sans hésiter","tags":["aventure","lieu"]}
+{"id":"futur-078","type":"text","text":"Quelle nouvelle facette de toi aimerais-tu révéler dans les dix prochaines années ?","tags":["introspection","projets"]}
+{"id":"futur-079","type":"text","text":"Quelle odeur, quelle musique ou quelle saveur voudrais-tu associer à nos vieux jours ?","tags":["vieillir","sens"]}
+{"id":"futur-080","type":"text","text":"Quel nouveau cercle d'amis ou quelle communauté aimerais-tu qu'on rejoigne un jour ?","tags":["amis","projets"]}
+{"id":"futur-081","type":"choice","text":"Quel projet aimerais-tu lancer en priorité dans l'année qui vient ?","options":["Un voyage","Un changement pro","Un projet pour la maison","Une nouvelle passion"],"tags":["projets","court terme"]}
+{"id":"futur-082","type":"text","text":"Quelle question te poses-tu le plus souvent sur notre avenir ?","tags":["couple","communication"]}
+{"id":"futur-083","type":"scale","text":"À quel point imagines-tu notre vie dans dix ans différente d'aujourd'hui ?","minLabel":"Presque identique","maxLabel":"Méconnaissable","tags":["couple","changement"]}
+{"id":"futur-084","type":"text","text":"Si on prenait une année sabbatique ensemble, comment l'occuperais-tu ?","tags":["aventure","rêves"]}
+{"id":"futur-085","type":"choice","text":"Quelle phrase résume le mieux ta vision de notre avenir ?","options":["Une aventure sans fin","Un port d'attache paisible","Une équipe qui construit","Une page blanche à écrire"],"tags":["couple","vision"]}
+{"id":"futur-086","type":"text","text":"Quelle passion aimerais-tu développer quand tu auras plus de temps ?","tags":["loisirs","retraite"]}
+{"id":"futur-087","type":"who","text":"Qui de nous deux finira par cuisiner des plats dignes d'un grand restaurant ?","tags":["léger","gourmand"]}
+{"id":"futur-088","type":"text","text":"À quoi ressemblerait ton week-end parfait dans un an, si tu pouvais tout organiser ?","tags":["court terme","loisirs"]}
+{"id":"futur-089","type":"choice","text":"Près de qui aimerais-tu vivre quand on aura 80 ans ?","options":["Près de la famille","Près de nos amis","Loin de tout, rien que nous deux","Là où il fait toujours beau"],"tags":["vieillir","famille"]}
+{"id":"futur-090","type":"text","text":"Quelle chose matérielle rêves-tu de posséder un jour, même si c'est un peu fou ?","tags":["rêves","argent"]}
+{"id":"futur-091","type":"scale","text":"À quel point aimerais-tu qu'on prenne plus de risques dans nos choix de vie ?","minLabel":"Prudence avant tout","maxLabel":"Fonçons !","tags":["aventure","couple"]}
+{"id":"futur-092","type":"text","text":"Quel engagement mutuel aimerais-tu qu'on prenne pour l'année à venir ?","tags":["couple","court terme"]}
+{"id":"futur-093","type":"text","text":"Quelle destination te fait rêver mais te fait aussi un peu peur ?","tags":["voyage","aventure"]}
+{"id":"futur-094","type":"choice","text":"À la retraite, à quoi aimerais-tu consacrer l'essentiel de ton temps ?","options":["Explorer le monde","Transmettre ce que je sais","Cultiver mon jardin","Reprendre des études"],"tags":["retraite","projets"]}
+{"id":"futur-095","type":"text","text":"Comment aimerais-tu qu'on célèbre le passage à chaque nouvelle décennie ?","tags":["fête","vieillir"]}
+{"id":"futur-096","type":"scale","text":"En ce moment, que t'inspire le futur ?","minLabel":"Il m'inquiète","maxLabel":"Il m'enthousiasme","tags":["émotions","avenir"]}
+{"id":"futur-097","type":"text","text":"Quel nom donnerais-tu à notre future maison, notre bateau ou notre cabane ?","tags":["maison","léger"]}
+{"id":"futur-098","type":"text","text":"Dans quel domaine aimerais-tu devenir une référence un jour ?","tags":["travail","ambition"]}
+{"id":"futur-099","type":"who","text":"Qui de nous deux voudra déménager le plus souvent ?","tags":["lieu","léger"]}
+{"id":"futur-100","type":"choice","text":"Quel défi physique aimerais-tu relever un jour ?","options":["Courir un marathon","Gravir un grand sommet","Une traversée à la nage","Un long chemin de randonnée"],"tags":["défi","sport"]}
+{"id":"futur-101","type":"text","text":"Qu'aimerais-tu transmettre aux générations suivantes, quelles qu'elles soient ?","tags":["valeurs","héritage"]}
+{"id":"futur-102","type":"text","text":"Quel projet commun nous ferait vraiment grandir, selon toi ?","tags":["couple","projets"]}
+{"id":"futur-103","type":"choice","text":"Comment aimerais-tu qu'on gère notre argent dans le futur ?","options":["Tout en commun","Un pot commun et le reste à part","Des comptes bien séparés","On verra le moment venu"],"tags":["argent","couple"]}
+{"id":"futur-104","type":"text","text":"Quelle sensation forte aimerais-tu goûter au moins une fois dans ta vie ?","tags":["bucket list","sensations"]}
+{"id":"futur-105","type":"scale","text":"Un poste de rêve à l'autre bout du monde : à quel point aurais-tu envie d'accepter ?","minLabel":"Aucune envie","maxLabel":"Valises déjà faites","tags":["travail","lieu"]}
+{"id":"futur-106","type":"text","text":"Quel grand achat commun te ferait le plus plaisir dans les prochaines années ?","tags":["argent","projets"]}
+{"id":"futur-107","type":"text","text":"Quel aspect de toi espères-tu ne jamais perdre en vieillissant ?","tags":["vieillir","introspection"]}
+{"id":"futur-108","type":"choice","text":"À 85 ans, comment aimerais-tu qu'on te décrive ?","options":["Une personne toujours curieuse","Une personne pleine d'humour","Une personne généreuse","Une personne indomptable"],"tags":["vieillir","valeurs"]}
+{"id":"futur-109","type":"text","text":"Quelle ambition aimerais-tu qu'on ose porter ensemble, même si elle paraît démesurée ?","tags":["ambition","couple"]}
+{"id":"futur-110","type":"who","text":"Qui de nous deux organisera la fête pour nos 50 ans de couple ?","tags":["fête","vieillir"]}
+{"id":"futur-111","type":"text","text":"Quel coin de la planète aimerais-tu qu'on explore sans aucun plan ?","tags":["voyage","aventure"]}
+{"id":"futur-112","type":"scale","text":"À quel point te vois-tu passer toute ta vie dans la région où l'on vit aujourd'hui ?","minLabel":"Impossible","maxLabel":"Évidemment","tags":["lieu"]}
+{"id":"futur-113","type":"text","text":"Si notre vie dans dix ans tenait sur une carte postale, que verrait-on dessus ?","tags":["imaginaire","léger"]}
+{"id":"futur-114","type":"choice","text":"Quelle décision d'avenir te paraît la plus difficile à prendre ?","options":["Où vivre","Quel travail faire","Comment gérer l'argent","Quels projets prioriser"],"tags":["décisions","couple"]}
+{"id":"futur-115","type":"text","text":"Face à une épreuve future, de quoi aurais-tu le plus besoin de la part de notre couple ?","tags":["soutien","couple"]}
+{"id":"futur-116","type":"text","text":"Quelle chose aimerais-tu qu'on ait réglée ou apaisée d'ici cinq ans ?","tags":["couple","projets"]}
+{"id":"futur-117","type":"scale","text":"Dans le futur, quelle place veux-tu donner aux amis dans notre vie ?","minLabel":"Discrète","maxLabel":"Immense","tags":["amis"]}
+{"id":"futur-118","type":"choice","text":"Quel cadeau aimerais-tu qu'on s'offre pour marquer une grande étape ?","options":["Un voyage","Une œuvre d'art","Un tatouage assorti","Une expérience inédite"],"tags":["fête","couple"]}
+{"id":"futur-119","type":"text","text":"Quel petit projet pourrait-on démarrer dès ce mois-ci pour se rapprocher de nos rêves ?","tags":["court terme","projets"]}
+{"id":"futur-120","type":"choice","text":"Quel mode de vie futur te ressemble le plus ?","options":["Nomade","Avec des racines solides","Un peu des deux","Impossible à dire"],"tags":["lieu","mode de vie"]}
+{"id":"futur-121","type":"text","text":"Quel souvenir aimerais-tu qu'on fabrique ensemble cette année ?","tags":["court terme","souvenirs"]}
+{"id":"futur-122","type":"who","text":"Qui de nous deux saura le mieux s'adapter aux nouvelles technologies dans quarante ans ?","tags":["vieillir","léger"]}
+{"id":"futur-123","type":"choice","text":"Quel genre de vacances aimerais-tu qu'on s'offre plus souvent ?","options":["Farniente total","Exploration culturelle","Sport et grand air","Improvisation complète"],"tags":["voyage","loisirs"]}
+{"id":"futur-124","type":"text","text":"Quel serait pour toi le signe qu'on a construit quelque chose de solide ?","tags":["couple","valeurs"]}
+{"id":"futur-125","type":"scale","text":"À quel point aimerais-tu que notre vie future ressemble à celle du couple qui t'inspire le plus ?","minLabel":"Pas du tout","maxLabel":"Trait pour trait","tags":["couple","modèles"]}
+{"id":"futur-126","type":"text","text":"Quelle mauvaise habitude de couple aimerais-tu qu'on ait laissée derrière nous d'ici un an ?","tags":["couple","court terme"]}
+{"id":"futur-127","type":"text","text":"Quelle région ou quel pays aimerais-tu qu'on découvre en train, de gare en gare ?","tags":["voyage"]}
+{"id":"futur-128","type":"choice","text":"Quelle pièce serait indispensable dans notre lieu de vie idéal ?","options":["Une grande cuisine ouverte","Une bibliothèque","Un atelier","Une terrasse avec vue"],"tags":["maison","rêves"]}
+{"id":"futur-129","type":"text","text":"Quel sport ou quelle activité aimerais-tu pratiquer encore à 70 ans ?","tags":["santé","vieillir"]}
+{"id":"futur-130","type":"text","text":"Quelle innovation du futur as-tu le plus hâte de voir arriver dans notre quotidien ?","tags":["avenir","léger"]}
+{"id":"futur-131","type":"scale","text":"À quel point as-tu envie de te lancer un jour dans une aventure entrepreneuriale ?","minLabel":"Aucune envie","maxLabel":"J'ai déjà le projet","tags":["travail","ambition"]}
+{"id":"futur-132","type":"text","text":"Qu'aimerais-tu qu'on mette de côté chaque mois, en argent ou en temps, pour nos rêves ?","tags":["argent","projets"]}
+{"id":"futur-133","type":"who","text":"Qui de nous deux voudra garder absolument tous nos souvenirs dans des cartons ?","tags":["maison","souvenirs"]}
+{"id":"futur-134","type":"text","text":"Quelle personne aimerais-tu qu'on rencontre ou qu'on revoie absolument dans les années à venir ?","tags":["amis","famille"]}
+{"id":"futur-135","type":"choice","text":"Dans quoi aimerais-tu qu'on investisse en priorité dans les années à venir ?","options":["Les voyages","Un logement","Notre sécurité financière","Des expériences à vivre"],"tags":["argent"]}
+{"id":"futur-136","type":"text","text":"Quel plat aimerais-tu qu'on apprenne à cuisiner jusqu'à en faire notre grand classique ?","tags":["gourmand","rituels"]}
+{"id":"futur-137","type":"text","text":"Quel geste de tendresse espères-tu qu'on s'offrira encore à 90 ans ?","tags":["vieillir","tendresse"]}
+{"id":"futur-138","type":"scale","text":"Quelle importance accordes-tu à la santé dans tes projets d'avenir ?","minLabel":"J'y pense peu","maxLabel":"Priorité absolue","tags":["santé"]}
+{"id":"futur-139","type":"text","text":"Quel savoir-faire ancien aimerais-tu apprendre pour pouvoir le transmettre un jour ?","tags":["apprendre","héritage"]}
+{"id":"futur-140","type":"choice","text":"D'ici cinq ans, quel changement te tente le plus ?","options":["Changer de logement","Changer de métier","Changer de région","Ne rien changer du tout"],"tags":["projets","changement"]}
+{"id":"futur-141","type":"text","text":"Quelle inquiétude au sujet de l'avenir aimerais-tu qu'on prenne le temps d'aborder ensemble ?","tags":["communication","avenir"]}
+{"id":"futur-142","type":"who","text":"Qui de nous deux voudra prendre sa retraite le plus tôt ?","tags":["travail","retraite"]}
+{"id":"futur-143","type":"text","text":"Quel voyage aimerais-tu faire en solo un jour, juste pour toi ?","tags":["voyage","liberté"]}
+{"id":"futur-144","type":"scale","text":"À quel point aimerais-tu qu'on écrive nos objectifs de couple noir sur blanc ?","minLabel":"Quelle idée !","maxLabel":"Dès ce soir","tags":["organisation","couple"]}
+{"id":"futur-145","type":"text","text":"Quelle chanson aimerais-tu entendre à une fête célébrant nos nombreuses années ensemble ?","tags":["musique","fête"]}
+{"id":"futur-146","type":"choice","text":"Si on prenait un risque ensemble cette année, lequel te tenterait ?","options":["Un départ sur un coup de tête","Un projet créatif","Un investissement audacieux","Un grand tri dans nos vies"],"tags":["court terme","aventure"]}
+{"id":"futur-147","type":"text","text":"Comment aimerais-tu qu'on prenne soin de nous deux quand le corps commencera à fatiguer ?","tags":["vieillir","tendresse"]}
+{"id":"futur-148","type":"text","text":"Quel endroit rêverais-tu de faire découvrir à des proches, plus tard ?","tags":["voyage","transmission"]}
+{"id":"futur-149","type":"choice","text":"Quand on aura des cheveux blancs, quel couple aimerais-tu qu'on soit ?","options":["Celui qui voyage encore","Celui qui rit de tout","Celui qui reçoit tout le monde","Celui qui se tient la main"],"tags":["vieillir","couple"]}
+{"id":"futur-150","type":"text","text":"Quelle leçon tirée des couples qui t'entourent aimerais-tu appliquer à notre avenir ?","tags":["couple","sagesse"]}
+{"id":"futur-151","type":"scale","text":"Quelle confiance as-tu en notre capacité à traverser les tempêtes à venir ?","minLabel":"J'ai des doutes","maxLabel":"Une confiance totale","tags":["confiance","couple"]}
+{"id":"futur-152","type":"text","text":"Si tu écrivais un jour tes mémoires, quel serait le titre du chapitre consacré à nous ?","tags":["couple","imaginaire"]}
+{"id":"futur-153","type":"text","text":"De quelle réussite personnelle aimerais-tu pouvoir parler dans dix ans ?","tags":["ambition","projets"]}
+{"id":"futur-154","type":"who","text":"Qui de nous deux voudra adopter le plus d'animaux ?","tags":["maison","léger"]}
+{"id":"futur-155","type":"text","text":"Qu'aimerais-tu qu'on fasse différemment l'an prochain par rapport à cette année ?","tags":["court terme","couple"]}
+{"id":"futur-156","type":"choice","text":"Quel horizon préfères-tu pour rêver ?","options":["L'année qui vient","Les cinq ans à venir","Dans vingt ans et plus","Je préfère l'instant présent"],"tags":["rêves","temps"]}
+{"id":"futur-157","type":"text","text":"Quelle petite folie aimerais-tu qu'on s'autorise une fois par an ?","tags":["rituels","léger"]}
+{"id":"futur-158","type":"scale","text":"À quel point rêves-tu d'un lieu de famille ou d'amis où tout le monde se retrouve ?","minLabel":"Pas mon truc","maxLabel":"Mon rêve absolu","tags":["maison","famille"]}
+{"id":"futur-159","type":"text","text":"Quel rêve aimerais-tu qu'on coche sur notre liste dès l'année prochaine ?","tags":["bucket list","court terme"]}
+{"id":"futur-160","type":"choice","text":"Complète : dans vingt ans, j'espère qu'on…","options":["rira encore autant","se surprendra encore","aura vu le monde","sera toujours aussi complices"],"tags":["couple","vieillir"]}

@@ -1,0 +1,160 @@
+{"id":"voyages-001","type":"text","text":"Quel est le tout premier voyage dont tu te souviens, et quelle image t'en reste aujourd'hui ?","tags":["souvenirs","enfance"]}
+{"id":"voyages-002","type":"choice","text":"Pour partir en vacances, tu fonctionnes plutôt comment ?","options":["Tout est réservé des mois à l'avance","Les grandes lignes, le reste au feeling","Un billet en poche, on verra sur place"],"tags":["organisation","style"]}
+{"id":"voyages-003","type":"text","text":"Si tu pouvais te téléporter ce soir n'importe où dans le monde pour dîner, où irais-tu ?","tags":["rêves","nourriture"]}
+{"id":"voyages-004","type":"scale","text":"À quel point aimes-tu sortir des sentiers battus quand tu voyages ?","minLabel":"Les classiques me vont","maxLabel":"Hors des cartes, toujours","tags":["aventure","style"]}
+{"id":"voyages-005","type":"who","text":"Qui de nous deux ferait sa valise la veille au soir, à minuit passé ?","tags":["valise","drôle"]}
+{"id":"voyages-006","type":"text","text":"Quel pays aimerais-tu absolument qu'on découvre ensemble, et pourquoi celui-là ?","tags":["rêves","nous"]}
+{"id":"voyages-007","type":"text","text":"Quel plat goûté en voyage te fait encore saliver rien que d'y penser ?","tags":["nourriture","souvenirs"]}
+{"id":"voyages-008","type":"choice","text":"Notre voyage idéal, ce serait plutôt…","options":["Une île au bout du monde","Une grande ville qui ne dort jamais","Des montagnes à perte de vue","Un désert sous les étoiles"],"tags":["destinations","rêves"]}
+{"id":"voyages-009","type":"text","text":"Quel est l'objet que tu glisses toujours dans ta valise, même pour un simple week-end ?","tags":["valise","habitudes"]}
+{"id":"voyages-010","type":"text","text":"Quelle galère de voyage est devenue, avec le recul, une de tes meilleures anecdotes ?","tags":["souvenirs","drôle"]}
+{"id":"voyages-011","type":"scale","text":"À quel point les voyages en avion te stressent-ils ?","minLabel":"Je dors au décollage","maxLabel":"Je serre l'accoudoir","tags":["avion","stress"]}
+{"id":"voyages-012","type":"who","text":"Qui de nous deux a le meilleur sens de l'orientation dans une ville inconnue ?","tags":["orientation","ville"]}
+{"id":"voyages-013","type":"text","text":"Dans quelle ville du monde pourrais-tu t'imaginer vivre pendant un an ?","tags":["rêves","ailleurs"]}
+{"id":"voyages-014","type":"choice","text":"En road trip, ton rôle naturel, c'est…","options":["Tenir le volant","Copiloter avec la carte","Dormir sur le siège passager","Gérer la playlist et les snacks"],"tags":["road trip","rôles"]}
+{"id":"voyages-015","type":"text","text":"Quelle chanson devrait absolument figurer dans la playlist de notre prochain road trip ?","tags":["road trip","musique"]}
+{"id":"voyages-016","type":"text","text":"Quel souvenir de vacances d'enfance aimerais-tu qu'on recrée ensemble ?","tags":["enfance","nostalgie"]}
+{"id":"voyages-017","type":"scale","text":"À quel point aimes-tu goûter les spécialités locales les plus étranges ?","minLabel":"Je reste sur du connu","maxLabel":"Je goûte absolument tout","tags":["nourriture","audace"]}
+{"id":"voyages-018","type":"text","text":"Quelle langue étrangère aimerais-tu parler couramment, et dans quel pays irais-tu la pratiquer ?","tags":["langues","rêves"]}
+{"id":"voyages-019","type":"choice","text":"En vacances, le réveil idéal sonne…","options":["Avant l'aube, pour voir le lever du soleil","Vers 9 h, pour profiter de la journée","Jamais : on se réveille quand on se réveille"],"tags":["rythme","vacances"]}
+{"id":"voyages-020","type":"who","text":"Qui de nous deux rapporte le plus de souvenirs inutiles de voyage ?","tags":["souvenirs","drôle"]}
+{"id":"voyages-021","type":"text","text":"Quel lieu visité a laissé en toi l'empreinte la plus forte ?","tags":["souvenirs","émotion"]}
+{"id":"voyages-022","type":"text","text":"Si on partait demain avec un seul sac à dos chacun, quelle serait notre première destination ?","tags":["aventure","spontanéité"]}
+{"id":"voyages-023","type":"scale","text":"Quel est ton besoin de confort quand tu voyages ?","minLabel":"Un hamac me suffit","maxLabel":"Cinq étoiles, merci","tags":["confort","style"]}
+{"id":"voyages-024","type":"text","text":"Quel est le plus beau coucher de soleil que tu aies jamais vu, et où était-ce ?","tags":["souvenirs","nature"]}
+{"id":"voyages-025","type":"choice","text":"Le moyen de transport le plus romantique pour voyager à deux ?","options":["Le train de nuit","Le voilier","Le van aménagé","La moto"],"tags":["transport","romantique"]}
+{"id":"voyages-026","type":"text","text":"Quelle tradition venue d'un autre pays aimerais-tu adopter dans notre couple ?","tags":["culture","nous"]}
+{"id":"voyages-027","type":"who","text":"Qui de nous deux serait capable de se faire des amis dans n'importe quel pays en une soirée ?","tags":["rencontres","sociable"]}
+{"id":"voyages-028","type":"text","text":"Quelle destination te fait rêver depuis l'enfance et attend encore ta visite ?","tags":["rêves","enfance"]}
+{"id":"voyages-029","type":"text","text":"Quel est ton meilleur souvenir de marché ou de cuisine de rue à l'étranger ?","tags":["nourriture","marché"]}
+{"id":"voyages-030","type":"scale","text":"À quel point aimes-tu préparer un voyage dans les moindres détails ?","minLabel":"Zéro plan, zéro souci","maxLabel":"Tableur et code couleur","tags":["organisation"]}
+{"id":"voyages-031","type":"choice","text":"Pour dormir lors de notre prochain voyage, tu choisis…","options":["Une cabane dans les arbres","Une chambre chez l'habitant","Un hôtel avec vue","Une tente sous les étoiles"],"tags":["hébergement","envies"]}
+{"id":"voyages-032","type":"text","text":"Quelle photo de voyage garderais-tu si tu ne pouvais en conserver qu'une seule ?","tags":["photos","souvenirs"]}
+{"id":"voyages-033","type":"text","text":"Qu'est-ce qui, pour toi, rend un voyage vraiment réussi ?","tags":["valeurs","voyage"]}
+{"id":"voyages-034","type":"who","text":"Qui de nous deux demanderait son chemin plutôt que de regarder une carte ?","tags":["orientation","drôle"]}
+{"id":"voyages-035","type":"text","text":"Quel pays ou quelle région t'a donné le plus fort sentiment de dépaysement ?","tags":["dépaysement","souvenirs"]}
+{"id":"voyages-036","type":"scale","text":"À quel point as-tu envie de partir loin, là, maintenant ?","minLabel":"Bien ici, merci","maxLabel":"Valise déjà bouclée","tags":["envie","évasion"]}
+{"id":"voyages-037","type":"text","text":"Quel serait l'itinéraire de notre road trip de rêve, du départ à l'arrivée ?","tags":["road trip","rêves"]}
+{"id":"voyages-038","type":"choice","text":"En vacances, ton péché mignon, c'est…","options":["Le petit-déjeuner à rallonge","La sieste sans culpabilité","L'apéro au coucher du soleil","Les glaces deux fois par jour"],"tags":["vacances","plaisirs"]}
+{"id":"voyages-039","type":"text","text":"Quelle est la chose la plus folle que tu aimerais faire un jour en voyage ?","tags":["aventure","rêves"]}
+{"id":"voyages-040","type":"text","text":"Quel plat d'ailleurs aimerais-tu qu'on apprenne à cuisiner ensemble ?","tags":["nourriture","nous"]}
+{"id":"voyages-041","type":"text","text":"Quel moment de voyage t'a fait éclater de rire au point d'en pleurer ?","tags":["drôle","souvenirs"]}
+{"id":"voyages-042","type":"choice","text":"Pour découvrir une nouvelle ville, tu préfères…","options":["Une visite guidée bien rodée","Errer au hasard des rues","Suivre les conseils des habitants","Louer un vélo et filer"],"tags":["ville","style"]}
+{"id":"voyages-043","type":"scale","text":"Quelle place la nourriture tient-elle dans ton choix d'une destination ?","minLabel":"Accessoire","maxLabel":"C'est l'essentiel","tags":["nourriture","choix"]}
+{"id":"voyages-044","type":"text","text":"Quel voyage referais-tu sans hésiter, exactement de la même façon ?","tags":["souvenirs","coup de cœur"]}
+{"id":"voyages-045","type":"who","text":"Qui de nous deux oublie toujours le chargeur de téléphone ?","tags":["valise","drôle"]}
+{"id":"voyages-046","type":"text","text":"Si on avait une année sabbatique devant nous, comment aimerais-tu qu'on l'emploie ?","tags":["rêves","projets"]}
+{"id":"voyages-047","type":"text","text":"Quelle rencontre faite en voyage te reste en mémoire, même si elle n'a duré qu'un instant ?","tags":["rencontres","souvenirs"]}
+{"id":"voyages-048","type":"choice","text":"Entre ces deux paysages, ton cœur penche pour…","options":["Une crique aux eaux turquoise","Un lac de montagne glacé"],"tags":["nature","destinations"]}
+{"id":"voyages-049","type":"text","text":"Quelle odeur te ramène instantanément à un voyage ou à des vacances ?","tags":["sens","nostalgie"]}
+{"id":"voyages-050","type":"scale","text":"À quel point supportes-tu les longs trajets en voiture ?","minLabel":"Pause toutes les heures","maxLabel":"Dix heures sans pause","tags":["road trip","patience"]}
+{"id":"voyages-051","type":"text","text":"Quel est le souvenir le plus kitsch que tu aies jamais rapporté d'un voyage ?","tags":["souvenirs","drôle"]}
+{"id":"voyages-052","type":"who","text":"Qui de nous deux risque le plus de rater un train ou un avion ?","tags":["retard","drôle"]}
+{"id":"voyages-053","type":"text","text":"Quel coin de ta région d'origine aimerais-tu faire découvrir à l'autre ?","tags":["racines","partage"]}
+{"id":"voyages-054","type":"text","text":"Comment définirais-tu des vacances parfaites, en trois mots ?","tags":["vacances","valeurs"]}
+{"id":"voyages-055","type":"choice","text":"Le pire en voyage, pour toi, c'est…","options":["Les files d'attente interminables","Les nuits mal dormies","Avoir faim sans trouver où manger","Les bagages perdus"],"tags":["galères"]}
+{"id":"voyages-056","type":"text","text":"Quel monument ou quel lieu célèbre rêves-tu de voir de tes propres yeux ?","tags":["rêves","culture"]}
+{"id":"voyages-057","type":"scale","text":"À quel point aimes-tu voyager sans connexion internet ?","minLabel":"Angoisse totale","maxLabel":"Le vrai luxe","tags":["déconnexion"]}
+{"id":"voyages-058","type":"text","text":"Quelle saison choisirais-tu pour notre prochain grand voyage, et pour quelle destination ?","tags":["saisons","projets"]}
+{"id":"voyages-059","type":"who","text":"Qui de nous deux prend le plus de photos en voyage ?","tags":["photos"]}
+{"id":"voyages-060","type":"choice","text":"Dans un voyage, ton moment préféré, c'est…","options":["Les préparatifs et l'impatience","Le jour du départ","Le séjour lui-même","Le retour et les souvenirs"],"tags":["voyage","émotions"]}
+{"id":"voyages-061","type":"text","text":"Qu'est-ce qui te manque le plus de chez toi quand tu pars longtemps ?","tags":["habitudes","maison"]}
+{"id":"voyages-062","type":"text","text":"Quelle spécialité étrangère rapporterais-tu par valises entières si tu le pouvais ?","tags":["nourriture","valise"]}
+{"id":"voyages-063","type":"choice","text":"Pour notre prochain week-end, ce serait plutôt…","options":["Une capitale européenne","Une maison à la campagne","Un village au bord de la mer","Un refuge en altitude"],"tags":["week-end","envies"]}
+{"id":"voyages-064","type":"scale","text":"Quel est ton niveau d'esprit d'aventure en voyage ?","minLabel":"Pantoufles et plaid","maxLabel":"L'inconnu m'appelle","tags":["aventure"]}
+{"id":"voyages-065","type":"text","text":"Quel endroit connu avant notre rencontre aimerais-tu revoir, cette fois à deux ?","tags":["partage","souvenirs"]}
+{"id":"voyages-066","type":"who","text":"Qui de nous deux mettrait le plus de temps à choisir un restaurant en vacances ?","tags":["nourriture","indécision"]}
+{"id":"voyages-067","type":"text","text":"Quelle est la nuit la plus insolite que tu aies passée en voyage ?","tags":["insolite","souvenirs"]}
+{"id":"voyages-068","type":"text","text":"Quel mot résume le mieux notre plus belle escapade à deux, même toute petite ?","tags":["nous","souvenirs"]}
+{"id":"voyages-069","type":"choice","text":"À l'étranger, tu préfères manger…","options":["Là où mangent les habitants","Dans un restaurant bien noté","Sur le pouce, dans la rue","Au marché, au gré des étals"],"tags":["nourriture","style"]}
+{"id":"voyages-070","type":"text","text":"Quel voyage a changé ta façon de voir le monde, même un peu ?","tags":["profond","découverte"]}
+{"id":"voyages-071","type":"scale","text":"À quel point aimes-tu les vacances sportives : randonnée, vélo, kayak… ?","minLabel":"Transat, s'il te plaît","maxLabel":"Dix bornes avant le café","tags":["sport","rythme"]}
+{"id":"voyages-072","type":"text","text":"De quel endroit du monde aimerais-tu recevoir une carte postale de l'autre, et avec quel message ?","tags":["romantique","rêves"]}
+{"id":"voyages-073","type":"who","text":"Qui de nous deux s'adapterait le plus vite à la vie dans un pays lointain ?","tags":["adaptation","ailleurs"]}
+{"id":"voyages-074","type":"text","text":"Quel est le trajet en train, en bus ou en bateau le plus mémorable de ta vie ?","tags":["transport","souvenirs"]}
+{"id":"voyages-075","type":"text","text":"Que fais-tu en premier en arrivant dans un endroit inconnu ?","tags":["habitudes","découverte"]}
+{"id":"voyages-076","type":"choice","text":"Tu gagnes un billet d'avion pour une destination tirée au sort. Ta réaction ?","options":["J'y vais, peu importe où","Je regarde d'abord où c'est","Je l'échange contre un road trip"],"tags":["hasard","aventure"]}
+{"id":"voyages-077","type":"text","text":"Quel pays aimerais-tu visiter avant tout pour sa cuisine ?","tags":["nourriture","rêves"]}
+{"id":"voyages-078","type":"scale","text":"Sur une échelle de 1 à 10, à quel point fais-tu ta valise en avance ?","minLabel":"Le matin du départ","maxLabel":"Une semaine avant","tags":["valise","organisation"]}
+{"id":"voyages-079","type":"text","text":"Quel rituel aimerais-tu qu'on instaure à chaque voyage à deux ?","tags":["rituels","nous"]}
+{"id":"voyages-080","type":"text","text":"Quelle est la plus belle vue que tu aies contemplée, et avec qui étais-tu ?","tags":["souvenirs","paysages"]}
+{"id":"voyages-081","type":"choice","text":"Pour voyager, la compagnie idéale, c'est…","options":["Juste nous deux","Nous deux et une bande d'amis","Avec la famille","Chacun en solo, puis on se retrouve"],"tags":["compagnie","style"]}
+{"id":"voyages-082","type":"text","text":"Quel pays a une culture qui t'intrigue, sans que tu saches vraiment pourquoi ?","tags":["culture","curiosité"]}
+{"id":"voyages-083","type":"text","text":"Quelles vacances de ton enfance avaient le plus le goût du bonheur ?","tags":["enfance","nostalgie"]}
+{"id":"voyages-084","type":"who","text":"Qui de nous deux se lancerait le premier dans une baignade en eau glacée ?","tags":["audace","drôle"]}
+{"id":"voyages-085","type":"scale","text":"Comment te débrouilles-tu dans un pays dont tu ne parles pas un mot ?","minLabel":"Je panique un peu","maxLabel":"Je mime avec talent","tags":["langues","débrouille"]}
+{"id":"voyages-086","type":"text","text":"Quel est le meilleur conseil de voyage qu'on t'ait jamais donné ?","tags":["conseils"]}
+{"id":"voyages-087","type":"choice","text":"Le souvenir parfait à rapporter de voyage, c'est…","options":["Une épice ou une gourmandise","Un objet artisanal","Des photos, rien de plus","Un caillou ou un coquillage"],"tags":["souvenirs","objets"]}
+{"id":"voyages-088","type":"text","text":"Quelle destination choisirais-tu pour fêter un moment important de notre histoire ?","tags":["nous","célébration"]}
+{"id":"voyages-089","type":"text","text":"Y a-t-il un voyage que tu regrettes de ne pas avoir fait quand l'occasion se présentait ?","tags":["regrets","profond"]}
+{"id":"voyages-090","type":"scale","text":"À quel point aimes-tu les grandes villes en voyage ?","minLabel":"Je fuis la foule","maxLabel":"Je vibre en ville","tags":["ville"]}
+{"id":"voyages-091","type":"text","text":"Quelle musique entendue en voyage te transporte encore là-bas ?","tags":["musique","souvenirs"]}
+{"id":"voyages-092","type":"choice","text":"Dans l'avion, tu choisis…","options":["Le hublot, évidemment","Le couloir, pour la liberté","Peu importe, je dors"],"tags":["avion","habitudes"]}
+{"id":"voyages-093","type":"text","text":"Quel endroit insolite aimerais-tu qu'on découvre ensemble : une grotte, un phare, une île déserte… ?","tags":["insolite","rêves"]}
+{"id":"voyages-094","type":"who","text":"Qui de nous deux se lance le plus volontiers dans la langue du pays, même avec trois mots ?","tags":["langues","audace"]}
+{"id":"voyages-095","type":"text","text":"Quel petit plaisir du quotidien emporterais-tu avec toi au bout du monde ?","tags":["habitudes","confort"]}
+{"id":"voyages-096","type":"text","text":"À quoi ressemblerait notre journée parfaite dans une ville inconnue pour nous deux ?","tags":["nous","découverte"]}
+{"id":"voyages-097","type":"scale","text":"À quel point aimes-tu revenir au même endroit, vacances après vacances ?","minLabel":"Toujours du nouveau","maxLabel":"Mon coin pour la vie","tags":["habitudes","fidélité"]}
+{"id":"voyages-098","type":"choice","text":"Si on partait un mois, on irait plutôt…","options":["Sur les routes d'Asie","Le long de la cordillère des Andes","Entre savane et océan, en Afrique","D'île en île dans le Pacifique"],"tags":["destinations","rêves"]}
+{"id":"voyages-099","type":"text","text":"Quelle est la dépense de voyage la plus folle que tu ne regrettes absolument pas ?","tags":["argent","plaisir"]}
+{"id":"voyages-100","type":"text","text":"Quel métier lié au voyage aurais-tu aimé exercer ?","tags":["rêves","métiers"]}
+{"id":"voyages-101","type":"text","text":"Quelle région du monde aimerais-tu explorer à pied, sac sur le dos ?","tags":["randonnée","aventure"]}
+{"id":"voyages-102","type":"choice","text":"Le soir en voyage, ton plan idéal…","options":["Dîner tranquille puis au lit","Découvrir la vie nocturne","Balade sous les étoiles","Jeux de cartes à l'hébergement"],"tags":["soirées","rythme"]}
+{"id":"voyages-103","type":"scale","text":"Sur une échelle de 1 à 10, à quel point les imprévus en voyage t'amusent-ils ?","minLabel":"Ils me gâchent tout","maxLabel":"C'est le sel du voyage","tags":["imprévus","adaptation"]}
+{"id":"voyages-104","type":"text","text":"Quel voyage aimerais-tu faire un jour pour retrouver tes racines ou celles de ta famille ?","tags":["racines","famille"]}
+{"id":"voyages-105","type":"who","text":"Qui de nous deux convaincrait l'autre de prolonger les vacances d'une semaine ?","tags":["persuasion","vacances"]}
+{"id":"voyages-106","type":"text","text":"Quel petit-déjeuner d'ailleurs aimerais-tu retrouver chaque matin ?","tags":["nourriture","matin"]}
+{"id":"voyages-107","type":"text","text":"Quelle ville t'a semblé la plus romantique, ou laquelle imagines-tu ainsi ?","tags":["romantique","ville"]}
+{"id":"voyages-108","type":"choice","text":"Pour te déplacer sur place, tu choisis…","options":["À pied, pour tout voir","À vélo, cheveux au vent","En transports, comme les locaux","En voiture, pour la liberté"],"tags":["transport","style"]}
+{"id":"voyages-109","type":"text","text":"Quel est ton pire souvenir de logement en voyage ?","tags":["galères","drôle"]}
+{"id":"voyages-110","type":"scale","text":"À quel point aimes-tu les musées en voyage ?","minLabel":"Une heure, pas plus","maxLabel":"J'y passerais la journée","tags":["culture","musées"]}
+{"id":"voyages-111","type":"text","text":"Si tu pouvais remonter le temps pour visiter une ville à une autre époque, laquelle choisirais-tu ?","tags":["hypothétique","histoire"]}
+{"id":"voyages-112","type":"text","text":"Quelle leçon un voyage t'a-t-il apprise sur toi-même ?","tags":["profond","découverte"]}
+{"id":"voyages-113","type":"choice","text":"La croisière, pour toi, c'est…","options":["Un rêve de détente","Une prison flottante","Oui, mais sur un voilier"],"tags":["croisière","goûts"]}
+{"id":"voyages-114","type":"text","text":"Quelle destination toute proche, à moins de trois heures, aimerais-tu qu'on explore bientôt ?","tags":["week-end","projets"]}
+{"id":"voyages-115","type":"who","text":"Qui de nous deux mettrait son réveil à 5 h pour admirer un lever de soleil ?","tags":["matin","nature"]}
+{"id":"voyages-116","type":"text","text":"Quel festival ou quelle fête populaire à l'étranger rêves-tu de vivre au moins une fois ?","tags":["fête","culture"]}
+{"id":"voyages-117","type":"scale","text":"À quel point aimes-tu voyager léger ?","minLabel":"Trois valises minimum","maxLabel":"Un sac et basta","tags":["valise","minimalisme"]}
+{"id":"voyages-118","type":"text","text":"Quelle expression étrangère as-tu rapportée d'un voyage et utilises-tu encore ?","tags":["langues","souvenirs"]}
+{"id":"voyages-119","type":"text","text":"Que ressens-tu au moment où l'avion, le train ou la voiture démarre enfin ?","tags":["émotions","départ"]}
+{"id":"voyages-120","type":"choice","text":"Le dernier jour de vacances, ton humeur, c'est…","options":["Nostalgie avant l'heure","Hâte de rentrer chez soi","Déni total : on profite jusqu'au bout"],"tags":["retour","émotions"]}
+{"id":"voyages-121","type":"text","text":"Quel endroit du monde aimerais-tu voir avant qu'il ne change trop ?","tags":["nature","profond"]}
+{"id":"voyages-122","type":"choice","text":"Pour une escapade surprise organisée par l'autre, tu voudrais…","options":["Connaître la destination à l'avance","Savoir seulement quoi mettre dans la valise","Ne rien savoir jusqu'au dernier moment"],"tags":["surprise","nous"]}
+{"id":"voyages-123","type":"text","text":"Quelle est la chose la plus courageuse que tu aies faite en voyage ?","tags":["courage","souvenirs"]}
+{"id":"voyages-124","type":"scale","text":"À quel point aimes-tu le camping ?","minLabel":"Plus jamais","maxLabel":"Mon mode de vie rêvé","tags":["camping","nature"]}
+{"id":"voyages-125","type":"text","text":"Quelle île, réelle ou imaginaire, choisirais-tu pour y passer un mois à deux ?","tags":["île","rêves"]}
+{"id":"voyages-126","type":"choice","text":"Le meilleur repas en voyage, c'est…","options":["Un pique-nique avec vue","Un festin dans une adresse locale","Un sandwich avalé en marchant","Un dîner aux chandelles"],"tags":["nourriture","ambiance"]}
+{"id":"voyages-127","type":"text","text":"Si tu organisais un voyage surprise pour faire plaisir à l'autre, quelle serait la destination ?","tags":["nous","attention"]}
+{"id":"voyages-128","type":"text","text":"Quelle est la dernière chose que tu vérifies avant de fermer la porte et de partir en voyage ?","tags":["départ","habitudes"]}
+{"id":"voyages-129","type":"who","text":"Qui de nous deux connaît le mieux l'histoire des lieux qu'on visite ?","tags":["culture"]}
+{"id":"voyages-130","type":"text","text":"Quel désert, quelle jungle ou quelle banquise aimerais-tu traverser un jour ?","tags":["aventure","nature"]}
+{"id":"voyages-131","type":"text","text":"Qu'est-ce qui te donne le plus le sentiment d'être ailleurs : la langue, la lumière, les odeurs, la cuisine ?","tags":["dépaysement","sens"]}
+{"id":"voyages-132","type":"scale","text":"À quel point la météo peut-elle gâcher tes vacances ?","minLabel":"Pluie ou soleil, peu importe","maxLabel":"Sans soleil, je boude","tags":["météo","humeur"]}
+{"id":"voyages-133","type":"choice","text":"En voyage, notre plus grand risque de dispute ?","options":["Le budget","L'itinéraire","Les horaires","La faim"],"tags":["nous","drôle"]}
+{"id":"voyages-134","type":"text","text":"Quel endroit simple, sans rien de spectaculaire, garde une place spéciale dans ton cœur ?","tags":["souvenirs","tendresse"]}
+{"id":"voyages-135","type":"text","text":"Si un jour on faisait le tour du monde, quelle serait l'étape à ne surtout pas manquer ?","tags":["tour du monde","rêves"]}
+{"id":"voyages-136","type":"choice","text":"La cuisine du monde qui te fait le plus envie en ce moment ?","options":["Indienne, pleine d'épices","Japonaise, fine et précise","Mexicaine, généreuse et colorée","Libanaise, à partager"],"tags":["nourriture","envies"]}
+{"id":"voyages-137","type":"text","text":"Quel voyage raconté par un proche t'a fait rêver, au point de vouloir le faire à ton tour ?","tags":["récits","rêves"]}
+{"id":"voyages-138","type":"scale","text":"Pour un voyage, ton climat idéal penche plutôt vers la chaleur écrasante ou le froid mordant ?","minLabel":"Soleil brûlant","maxLabel":"Froid polaire","tags":["climat","goûts"]}
+{"id":"voyages-139","type":"text","text":"Quel cours aimerais-tu suivre en voyage : cuisine locale, danse, surf, poterie… ?","tags":["apprendre","activités"]}
+{"id":"voyages-140","type":"who","text":"Qui de nous deux aurait le plus de mal à rentrer à la fin des vacances ?","tags":["retour","émotions"]}
+{"id":"voyages-141","type":"text","text":"Quel moment de calme absolu as-tu vécu en voyage ?","tags":["sérénité","souvenirs"]}
+{"id":"voyages-142","type":"choice","text":"On part une semaine. Notre budget irait surtout…","options":["Dans les bonnes tables","Dans un hébergement de rêve","Dans les activités et excursions","Dans le transport, pour aller loin"],"tags":["budget","priorités"]}
+{"id":"voyages-143","type":"text","text":"Que fais-tu en voyage que tu ne fais jamais chez toi ?","tags":["habitudes","liberté"]}
+{"id":"voyages-144","type":"text","text":"Quel serait le nom de notre agence de voyages si on en créait une ensemble ?","tags":["drôle","nous"]}
+{"id":"voyages-145","type":"scale","text":"À quel point te tente la vie en van, avec la route pour seul horizon ?","minLabel":"Trop à l'étroit","maxLabel":"Liberté absolue","tags":["van","road trip"]}
+{"id":"voyages-146","type":"choice","text":"Ta façon de garder la trace d'un voyage…","options":["Un carnet de voyage","Des centaines de photos","Une story par jour","Rien, juste ma mémoire"],"tags":["souvenirs","habitudes"]}
+{"id":"voyages-147","type":"text","text":"Quel voyage aimerais-tu qu'on fasse quand on aura les cheveux blancs ?","tags":["futur","tendresse"]}
+{"id":"voyages-148","type":"text","text":"Quelle découverte culinaire t'a d'abord fait grimacer avant de te conquérir ?","tags":["nourriture","surprise"]}
+{"id":"voyages-149","type":"text","text":"Quelle est la plus belle route que tu aies parcourue, en voiture, à vélo ou à pied ?","tags":["road trip","paysages"]}
+{"id":"voyages-150","type":"choice","text":"Pour traverser l'Europe, tu choisirais…","options":["Le train de nuit, pour l'aventure","Le vol direct, pour gagner du temps","La voiture, pour s'arrêter partout"],"tags":["transport","europe"]}
+{"id":"voyages-151","type":"text","text":"Quelle coutume étrangère t'a fait sourire ou t'a paru surprenante ?","tags":["culture","curiosité"]}
+{"id":"voyages-152","type":"scale","text":"À quel point aimes-tu voyager en solo ?","minLabel":"Jamais sans quelqu'un","maxLabel":"Le solo me ressource","tags":["solo","indépendance"]}
+{"id":"voyages-153","type":"text","text":"Dans quel pays aimerais-tu passer un hiver entier, et pourquoi ?","tags":["hiver","ailleurs"]}
+{"id":"voyages-154","type":"choice","text":"En voyage, à quel moment de la journée es-tu le plus dans ton élément ?","options":["Au café du matin en terrasse","Pendant la flânerie de l'après-midi","À l'heure dorée du coucher de soleil","Au dîner qui s'éternise"],"tags":["rythme","plaisirs"]}
+{"id":"voyages-155","type":"text","text":"Quelle aventure de voyage d'avant notre rencontre aimerais-tu raconter en détail à l'autre ?","tags":["partage","récits"]}
+{"id":"voyages-156","type":"who","text":"Qui de nous deux négocie le mieux les prix au marché ?","tags":["marché","débrouille"]}
+{"id":"voyages-157","type":"text","text":"Quelle merveille naturelle aimerais-tu absolument voir : aurores boréales, volcan, cascade… ?","tags":["nature","rêves"]}
+{"id":"voyages-158","type":"text","text":"Qu'est-ce que voyager à deux t'a appris, ou pourrait t'apprendre ?","tags":["nous","profond"]}
+{"id":"voyages-159","type":"choice","text":"Notre prochain voyage, on le décide comment ?","options":["Chacun propose, puis on vote","On pointe une carte au hasard","C'est toi qui choisis","C'est moi qui choisis"],"tags":["nous","décision"]}
+{"id":"voyages-160","type":"text","text":"Quel serait, pour toi, le plus beau voyage de notre vie si tout était possible ?","tags":["rêves","nous"]}

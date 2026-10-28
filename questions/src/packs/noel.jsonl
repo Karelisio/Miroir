@@ -1,0 +1,40 @@
+{"id":"noel-001","category":"enfance","type":"text","text":"Quel souvenir de Noël de ton enfance brille encore le plus fort ?","tags":["noël","nostalgie"]}
+{"id":"noel-002","category":"gouts","type":"choice","text":"Le sapin idéal, c'est…","options":["Un vrai sapin qui sent la forêt","Un sapin artificiel, ressorti chaque année","Une branche décorée, tout en sobriété","Pas de sapin, des guirlandes partout"],"tags":["déco","noël"]}
+{"id":"noel-003","category":"nous_deux","type":"text","text":"Quelle nouvelle tradition de fin d'année aimerais-tu qu'on crée, rien qu'à nous deux ?","tags":["traditions","nous"]}
+{"id":"noel-004","category":"qui_de_nous","type":"who","text":"Qui de nous deux secoue les paquets pour deviner ce qu'il y a dedans ?","tags":["cadeaux","drôle"]}
+{"id":"noel-005","category":"gouts","type":"text","text":"Quelle douceur ou quel plat de fêtes est, pour toi, absolument indispensable ?","tags":["nourriture","fête"]}
+{"id":"noel-006","category":"gouts","type":"scale","text":"À quel point aimes-tu les chansons de Noël ?","minLabel":"Pitié, coupez le son","maxLabel":"Dès le 1er novembre !","tags":["musique","noël"]}
+{"id":"noel-007","category":"souvenirs","type":"text","text":"Quel est le cadeau le plus mémorable que tu aies reçu, toutes années confondues ?","tags":["cadeaux","souvenirs"]}
+{"id":"noel-008","category":"tu_preferes","type":"choice","text":"Tu préfères un Noël…","options":["Sous la neige, dans un chalet","Au soleil, à l'autre bout du monde","Au chaud, bien à l'abri chez soi"],"tags":["noël","envies"]}
+{"id":"noel-009","category":"enfance","type":"text","text":"Si tu as cru au père Noël, comment as-tu découvert le secret ?","tags":["enfance","drôle"]}
+{"id":"noel-010","category":"valeurs","type":"text","text":"Qu'est-ce qui, pour toi, fait la vraie magie des fêtes de fin d'année ?","tags":["fête","valeurs"]}
+{"id":"noel-011","category":"qui_de_nous","type":"who","text":"Qui de nous deux emballe les cadeaux avec le plus de soin ?","tags":["cadeaux"]}
+{"id":"noel-012","category":"hypothetique","type":"text","text":"Si tu pouvais offrir un seul cadeau au monde entier pour les fêtes, ce serait quoi ?","tags":["rêves","générosité"]}
+{"id":"noel-013","category":"quotidien","type":"scale","text":"À quel point aimes-tu les soirées d'hiver sous un plaid ?","minLabel":"Je préfère sortir","maxLabel":"Mon idéal absolu","tags":["hiver","cocooning"]}
+{"id":"noel-014","category":"gouts","type":"choice","text":"La boisson chaude parfaite d'un soir de décembre ?","options":["Chocolat chaud et chantilly","Vin chaud aux épices","Thé de Noël à la cannelle","Lait d'or au curcuma"],"tags":["hiver","boissons"]}
+{"id":"noel-015","category":"nous_deux","type":"text","text":"Quel cadeau fait main aimerais-tu recevoir de l'autre ?","tags":["cadeaux","tendresse"]}
+{"id":"noel-016","category":"souvenirs","type":"text","text":"Quel est le Noël le plus insolite ou le plus inattendu que tu aies vécu ?","tags":["souvenirs","insolite"]}
+{"id":"noel-017","category":"fun","type":"text","text":"Quel film de fin d'année pourrais-tu regarder chaque décembre sans jamais t'en lasser ?","tags":["films","cocooning"]}
+{"id":"noel-018","category":"gouts","type":"scale","text":"Côté décorations de Noël, tu te situes où ?","minLabel":"Une bougie suffit","maxLabel":"Visible depuis l'espace","tags":["déco","drôle"]}
+{"id":"noel-019","category":"tu_preferes","type":"choice","text":"Tu préfères ouvrir les cadeaux…","options":["Le 24 au soir, avant minuit","Le 25 au matin, en pyjama","Au fil des jours, un par un"],"tags":["cadeaux","traditions"]}
+{"id":"noel-020","category":"enfance","type":"text","text":"Quelle tradition familiale de fin d'année aimerais-tu garder, ou au contraire laisser derrière toi ?","tags":["famille","traditions"]}
+{"id":"noel-021","category":"qui_de_nous","type":"who","text":"Qui de nous deux achète ses cadeaux à la toute dernière minute ?","tags":["cadeaux","drôle"]}
+{"id":"noel-022","category":"valeurs","type":"text","text":"À qui aimerais-tu faire une belle surprise pendant ces fêtes, et laquelle ?","tags":["générosité","proches"]}
+{"id":"noel-023","category":"fun","type":"choice","text":"Ton pull de Noël idéal arbore…","options":["Un renne au nez qui clignote","Quelques flocons très discrets","Un sapin couvert de pompons","Rien : pas de pull moche pour moi !"],"tags":["drôle","hiver"]}
+{"id":"noel-024","category":"nous_deux","type":"text","text":"Quel moment de fin d'année aimerais-tu absolument vivre à deux ?","tags":["nous","envies"]}
+{"id":"noel-025","category":"quotidien","type":"scale","text":"À quel point les fêtes de fin d'année te mettent-elles en joie ?","minLabel":"Vivement janvier","maxLabel":"Je pétille de bonheur","tags":["humeur","fête"]}
+{"id":"noel-026","category":"hypothetique","type":"text","text":"Si tu pouvais réveillonner avec n'importe quel personnage de fiction, qui inviterais-tu ?","tags":["imagination","drôle"]}
+{"id":"noel-027","category":"gouts","type":"text","text":"Quelle odeur évoque le plus l'hiver et les fêtes pour toi ?","tags":["sens","hiver"]}
+{"id":"noel-028","category":"tu_preferes","type":"choice","text":"Tu préfères recevoir…","options":["Un seul cadeau qui me ressemble vraiment","Plein de petites attentions","Une expérience à vivre à deux"],"tags":["cadeaux","goûts"]}
+{"id":"noel-029","category":"enfance","type":"text","text":"Quel jouet rêvais-tu de trouver sous le sapin pendant ton enfance ?","tags":["enfance","cadeaux"]}
+{"id":"noel-030","category":"valeurs","type":"scale","text":"Quel plaisir prends-tu à chercher le cadeau parfait pour quelqu'un ?","minLabel":"Une vraie corvée","maxLabel":"Un pur bonheur","tags":["cadeaux","générosité"]}
+{"id":"noel-031","category":"fun","type":"text","text":"Quel serait le cadeau le plus drôle à offrir à l'autre cette année ?","tags":["cadeaux","drôle"]}
+{"id":"noel-032","category":"futur","type":"text","text":"À quoi ressemblerait notre fin d'année idéale dans dix ans ?","tags":["futur","rêves"]}
+{"id":"noel-033","category":"qui_de_nous","type":"who","text":"Qui de nous deux viderait le calendrier de l'Avent en une seule journée ?","tags":["gourmandise","drôle"]}
+{"id":"noel-034","category":"gouts","type":"choice","text":"Le repas de fête parfait, c'est…","options":["Un grand festin traditionnel","Une raclette ou une fondue","Un buffet de petites bouchées","Un brunch en pyjama"],"tags":["nourriture","fête"]}
+{"id":"noel-035","category":"profond","type":"text","text":"Qu'est-ce que les fêtes réveillent en toi : de la joie, de la nostalgie, un peu des deux ?","tags":["émotions","profond"]}
+{"id":"noel-036","category":"quotidien","type":"text","text":"Quelle activité d'hiver bien cosy aimerais-tu qu'on fasse ensemble ce mois-ci ?","tags":["hiver","nous"]}
+{"id":"noel-037","category":"gouts","type":"scale","text":"À quel point aimes-tu la neige ?","minLabel":"Froid, mouillé, non merci","maxLabel":"Vite, un bonhomme de neige !","tags":["hiver","neige"]}
+{"id":"noel-038","category":"voyages","type":"text","text":"Quelle est la tradition de fin d'année la plus surprenante que tu connaisses, d'ici ou d'ailleurs ?","tags":["traditions","culture"]}
+{"id":"noel-039","category":"tu_preferes","type":"choice","text":"Tu préfères passer le réveillon…","options":["En petit comité, rien qu'à nous deux","Avec une grande tablée bruyante","Entre amis, chacun apporte un plat"],"tags":["fête","ambiance"]}
+{"id":"noel-040","category":"nous_deux","type":"text","text":"Quel vœu écrirais-tu au père Noël pour notre couple ?","tags":["nous","vœux"]}

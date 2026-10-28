@@ -1,0 +1,160 @@
+{"id":"profond-001","type":"text","text":"Quelle émotion as-tu le plus de mal à montrer, même à moi ?","tags":["émotions","vulnérabilité"]}
+{"id":"profond-002","type":"text","text":"À quel moment de ta vie as-tu eu l'impression de devenir vraiment toi ?","tags":["identité","réflexion"]}
+{"id":"profond-003","type":"choice","text":"Quand quelque chose te pèse, de quoi as-tu besoin en premier ?","options":["Qu'on m'écoute sans me conseiller","Un câlin, sans un mot","Un moment rien que pour moi","Des solutions concrètes"],"tags":["besoins","émotions"]}
+{"id":"profond-004","type":"scale","text":"À quel point te sens-tu libre d'être toi-même dans notre couple ?","minLabel":"Je me retiens souvent","maxLabel":"Totalement libre","tags":["couple","liberté","confiance"]}
+{"id":"profond-005","type":"text","text":"Quelle phrase entendue dans ton enfance résonne encore en toi aujourd'hui ?","tags":["enfance","famille","réflexion"]}
+{"id":"profond-006","type":"who","text":"Qui de nous deux garde le plus ses inquiétudes pour soi ?","tags":["communication","émotions"]}
+{"id":"profond-007","type":"text","text":"Quelle peur, même petite, aimerais-tu pouvoir me confier plus facilement ?","tags":["peurs","vulnérabilité","confiance"]}
+{"id":"profond-008","type":"text","text":"D'où te vient l'envie de te lever le matin, ces temps-ci ?","tags":["sens","quotidien"]}
+{"id":"profond-009","type":"choice","text":"Face à un échec, quelle est ta première réaction intérieure ?","options":["Je me critique durement","Je cherche à comprendre","Je passe vite à autre chose","J'ai besoin d'en parler"],"tags":["réflexion","émotions","soi"]}
+{"id":"profond-010","type":"text","text":"Quel trait de ta personnalité as-tu mis du temps à accepter ?","tags":["identité","soi"]}
+{"id":"profond-011","type":"scale","text":"Dans quelle mesure te sens-tu en paix avec ton passé ?","minLabel":"Encore quelques nœuds","maxLabel":"Pleinement en paix","tags":["passé","réflexion"]}
+{"id":"profond-012","type":"text","text":"Quel moment récent t'a donné envie de pleurer, de joie ou de tristesse ?","tags":["émotions","intime"]}
+{"id":"profond-013","type":"text","text":"Qu'aimerais-tu que je comprenne de toi sans que tu aies besoin de l'expliquer ?","tags":["couple","communication","intime"]}
+{"id":"profond-014","type":"choice","text":"Qu'est-ce qui a le plus influencé ta façon d'aimer ?","options":["Ma famille","Mes histoires passées","Mes amitiés","Les livres, films ou chansons"],"tags":["famille","couple","réflexion"]}
+{"id":"profond-015","type":"who","text":"Qui de nous deux a le plus besoin de paroles rassurantes ?","tags":["besoins","tendresse"]}
+{"id":"profond-016","type":"text","text":"Si tu pouvais dire une chose à la personne que tu étais à quinze ans, que lui dirais-tu ?","tags":["passé","soi","tendresse"]}
+{"id":"profond-017","type":"choice","text":"Après une journée difficile, qu'est-ce qui te ressource le plus ?","options":["Le calme et le silence","Parler avec quelqu'un","Bouger, marcher, me dépenser","Me plonger dans un film ou un livre"],"tags":["besoins","quotidien"]}
+{"id":"profond-018","type":"text","text":"Y a-t-il une vieille blessure qui, parfois, colore encore tes réactions ?","tags":["vulnérabilité","passé"]}
+{"id":"profond-019","type":"scale","text":"Avec quelle facilité arrives-tu à demander de l'aide ?","minLabel":"Très difficilement","maxLabel":"Sans hésiter","tags":["vulnérabilité","besoins"]}
+{"id":"profond-020","type":"text","text":"De quelle réussite discrète tires-tu une vraie fierté ?","tags":["soi","réussite"]}
+{"id":"profond-021","type":"text","text":"Que t'a appris l'amour sur toi-même ?","tags":["couple","réflexion"]}
+{"id":"profond-022","type":"choice","text":"Quelle grande question te travaille le plus souvent ?","options":["Pourquoi sommes-nous là ?","Qu'est-ce qu'une vie réussie ?","Que reste-t-il après nous ?","Suis-je sur le bon chemin ?"],"tags":["sens","réflexion"]}
+{"id":"profond-023","type":"choice","text":"Quand on se dispute, qu'est-ce qui t'aide le plus à revenir vers moi ?","options":["Un peu de recul d'abord","Un geste tendre","Une vraie discussion","De l'humour pour détendre"],"tags":["couple","communication"]}
+{"id":"profond-024","type":"who","text":"Qui de nous deux pardonne le plus vite ?","tags":["pardon","couple"]}
+{"id":"profond-025","type":"text","text":"Quel souvenir t'enveloppe encore de douceur quand tu y penses ?","tags":["souvenirs","tendresse"]}
+{"id":"profond-026","type":"scale","text":"À quel point oses-tu te montrer vulnérable avec moi ?","minLabel":"Très rarement","maxLabel":"Sans aucune réserve","tags":["vulnérabilité","confiance","couple"]}
+{"id":"profond-027","type":"scale","text":"Le regard des autres pèse-t-il sur tes choix ?","minLabel":"Pas du tout","maxLabel":"Énormément","tags":["identité","liberté"]}
+{"id":"profond-028","type":"text","text":"Qu'as-tu appris de moi, peut-être sans que je le sache ?","tags":["couple","réflexion"]}
+{"id":"profond-029","type":"text","text":"Quel rêve as-tu mis de côté et qui te fait encore un petit pincement au cœur ?","tags":["rêves","réflexion"]}
+{"id":"profond-030","type":"choice","text":"Qu'est-ce qui te fait le plus peur dans le fait de vieillir ?","options":["Perdre des gens que j'aime","Perdre ma santé","Avoir des regrets","Pas grand-chose, en fait"],"tags":["peurs","temps"]}
+{"id":"profond-031","type":"text","text":"À quoi reconnais-tu que tu vas mal, avant même de le dire ?","tags":["émotions","soi"]}
+{"id":"profond-032","type":"text","text":"Quelle situation banale réveille chez toi une émotion démesurée, et pourquoi selon toi ?","tags":["émotions","réflexion"]}
+{"id":"profond-033","type":"scale","text":"En ce moment, ta vie ressemble-t-elle à celle que tu souhaites ?","minLabel":"Très loin de ça","maxLabel":"Tout à fait","tags":["sens","bonheur"]}
+{"id":"profond-034","type":"text","text":"Quelle croyance sur toi-même aimerais-tu enfin laisser derrière toi ?","tags":["soi","changement"]}
+{"id":"profond-035","type":"who","text":"Qui de nous deux exprime le plus facilement ses émotions ?","tags":["émotions","communication"]}
+{"id":"profond-036","type":"text","text":"Quand as-tu ressenti pour la dernière fois une gratitude profonde ?","tags":["gratitude","émotions"]}
+{"id":"profond-037","type":"choice","text":"Comment vis-tu les moments passés sans personne autour de toi ?","options":["Un besoin vital","Un plaisir de temps en temps","Quelque chose qui m'angoisse","Ça dépend des périodes"],"tags":["solitude","besoins"]}
+{"id":"profond-038","type":"text","text":"À quel moment de notre histoire as-tu ressenti le plus fort que tu comptais pour moi ?","tags":["couple","tendresse"]}
+{"id":"profond-039","type":"text","text":"Que changerais-tu dans ta vie si la peur de décevoir disparaissait ?","tags":["liberté","peurs"]}
+{"id":"profond-040","type":"text","text":"Qu'as-tu reçu de ta famille que tu tiens à garder, et de quoi préfères-tu te détacher ?","tags":["famille","identité"]}
+{"id":"profond-041","type":"text","text":"Quel compliment reçu un jour te fait encore du bien quand tu y repenses ?","tags":["émotions","tendresse"]}
+{"id":"profond-042","type":"text","text":"Dans quels moments ressens-tu le plus intensément la joie d'exister ?","tags":["joie","sens"]}
+{"id":"profond-043","type":"choice","text":"Qu'est-ce qui te blesse le plus facilement ?","options":["Le manque d'attention","Les critiques","L'injustice","Le mensonge"],"tags":["vulnérabilité","émotions"]}
+{"id":"profond-044","type":"scale","text":"À quel point es-tu à l'aise avec le silence entre nous ?","minLabel":"Il me met mal à l'aise","maxLabel":"J'adore ces silences","tags":["couple","communication"]}
+{"id":"profond-045","type":"text","text":"Quelle version de toi-même essaies-tu de devenir en ce moment ?","tags":["identité","changement"]}
+{"id":"profond-046","type":"who","text":"Qui de nous deux rumine le plus après une dispute ?","tags":["couple","émotions"]}
+{"id":"profond-047","type":"text","text":"Y a-t-il une question que tu n'as jamais osé me poser ?","tags":["communication","confiance"]}
+{"id":"profond-048","type":"text","text":"Quelle épreuve t'a appris quelque chose d'essentiel sur toi ?","tags":["réflexion","courage"]}
+{"id":"profond-049","type":"text","text":"Quand tu imagines ta vie dans vingt ans, qu'est-ce qui compte le plus dans ce tableau ?","tags":["avenir","sens"]}
+{"id":"profond-050","type":"choice","text":"Comment exprimes-tu le plus naturellement ton affection ?","options":["Par des mots","Par des gestes tendres","En rendant service","En offrant du temps"],"tags":["tendresse","couple"]}
+{"id":"profond-051","type":"text","text":"Quelle part de ta sensibilité trouves-tu précieuse, même si elle te complique parfois la vie ?","tags":["émotions","soi"]}
+{"id":"profond-052","type":"scale","text":"En général, à quel point te sens-tu à ta place dans le monde ?","minLabel":"Souvent en décalage","maxLabel":"Pleinement à ma place","tags":["identité","sens"]}
+{"id":"profond-053","type":"text","text":"Quel instant de contemplation reste gravé dans ta mémoire ?","tags":["souvenirs","sens"]}
+{"id":"profond-054","type":"text","text":"Comment prends-tu soin de toi quand personne ne regarde ?","tags":["soi","besoins"]}
+{"id":"profond-055","type":"text","text":"Quelle peur a disparu avec le temps, et comment s'en est-elle allée ?","tags":["peurs","changement"]}
+{"id":"profond-056","type":"who","text":"Qui de nous deux a le plus de mal à dire non ?","tags":["limites","communication"]}
+{"id":"profond-057","type":"text","text":"Si tu devais résumer ce que tu cherches dans la vie en trois mots, lesquels choisirais-tu ?","tags":["sens","réflexion"]}
+{"id":"profond-058","type":"choice","text":"Qu'est-ce qui te procure le plus profond sentiment de sécurité ?","options":["Une stabilité matérielle","Des proches sur qui compter","Une routine rassurante","La confiance en moi"],"tags":["besoins","confiance"]}
+{"id":"profond-059","type":"text","text":"Quel regret as-tu fini par transformer en leçon ?","tags":["passé","réflexion"]}
+{"id":"profond-060","type":"scale","text":"À quel point t'est-il facile d'exprimer ta colère ?","minLabel":"Je la garde pour moi","maxLabel":"Je l'exprime aisément","tags":["colère","communication"]}
+{"id":"profond-061","type":"scale","text":"À quel point te laisses-tu émouvoir par un film, un livre ou une chanson ?","minLabel":"Rarement","maxLabel":"Les larmes viennent vite","tags":["émotions","culture"]}
+{"id":"profond-062","type":"text","text":"Quel petit geste de ma part, même anodin, te fait le plus de bien ?","tags":["couple","tendresse"]}
+{"id":"profond-063","type":"text","text":"À quels signes sens-tu qu'on t'écoute vraiment ?","tags":["communication","besoins"]}
+{"id":"profond-064","type":"choice","text":"Comment accueilles-tu en général les grands changements ?","options":["Avec enthousiasme","Avec méfiance au début","Avec anxiété, puis ça passe","Ça dépend du changement"],"tags":["changement"]}
+{"id":"profond-065","type":"choice","text":"Quelle part de ton enfance aimerais-tu retrouver ?","options":["L'insouciance","La curiosité pour tout","Le temps qui semblait infini","Les jeux sans enjeu"],"tags":["enfance","joie"]}
+{"id":"profond-066","type":"who","text":"Qui de nous deux se laisse le plus envahir par le stress ?","tags":["émotions","quotidien"]}
+{"id":"profond-067","type":"text","text":"Quelle a été la décision la plus courageuse de ta vie jusqu'ici ?","tags":["courage","réflexion"]}
+{"id":"profond-068","type":"scale","text":"Quelle importance ont pour toi les mots d'amour dits à voix haute ?","minLabel":"Peu d'importance","maxLabel":"Une importance capitale","tags":["tendresse","communication"]}
+{"id":"profond-069","type":"text","text":"Qu'est-ce qui te fait douter de toi, et qu'est-ce qui t'aide à reprendre confiance ?","tags":["confiance","soi"]}
+{"id":"profond-070","type":"text","text":"Quel moment partagé avec moi aimerais-tu pouvoir revivre exactement ?","tags":["couple","souvenirs"]}
+{"id":"profond-071","type":"choice","text":"Quand tu repenses à ton passé, que ressens-tu le plus souvent ?","options":["De la nostalgie","De la gratitude","Du soulagement que ce soit fini","Un peu de tout"],"tags":["passé","émotions"]}
+{"id":"profond-072","type":"text","text":"Quelle question aimerais-tu que je te pose plus souvent ?","tags":["communication","couple"]}
+{"id":"profond-073","type":"text","text":"Quelle personne sortie de ta vie, d'une façon ou d'une autre, te manque encore ?","tags":["souvenirs","émotions"]}
+{"id":"profond-074","type":"scale","text":"En ce moment, à quel point notre couple est-il un refuge pour toi ?","minLabel":"Pas vraiment","maxLabel":"Un vrai refuge","tags":["couple","confiance"]}
+{"id":"profond-075","type":"choice","text":"Quelle émotion domine chez toi ces derniers temps ?","options":["La sérénité","La fatigue","L'enthousiasme","L'inquiétude"],"tags":["émotions"]}
+{"id":"profond-076","type":"who","text":"Qui de nous deux a le plus besoin de moments en solitude ?","tags":["solitude","besoins"]}
+{"id":"profond-077","type":"text","text":"Quelle limite as-tu appris à poser, et qu'est-ce que ça a changé pour toi ?","tags":["limites","soi"]}
+{"id":"profond-078","type":"choice","text":"Selon toi, d'où vient le sens d'une vie ?","options":["Des liens avec les autres","De ce qu'on accomplit","De ce qu'on apprend","De ce qu'on transmet"],"tags":["sens","réflexion"]}
+{"id":"profond-079","type":"text","text":"Complète : je me sens le plus moi-même quand…","tags":["identité"]}
+{"id":"profond-080","type":"text","text":"Dans notre relation, qu'est-ce qui te fragilise parfois, et comment pourrais-je t'aider ?","tags":["couple","vulnérabilité"]}
+{"id":"profond-081","type":"text","text":"Quelle est la chose la plus importante que tu aies comprise sur les relations humaines ?","tags":["réflexion","autres"]}
+{"id":"profond-082","type":"text","text":"Quel endroit, réel ou imaginaire, t'apaise rien qu'en y pensant ?","tags":["besoins","émotions"]}
+{"id":"profond-083","type":"choice","text":"Dans les périodes compliquées, qu'est-ce qui te rappelle pourquoi on est ensemble ?","options":["Nos fous rires","Nos conversations","Notre tendresse","Nos projets communs"],"tags":["couple","confiance"]}
+{"id":"profond-084","type":"scale","text":"À quel point t'autorises-tu à être triste sans te justifier ?","minLabel":"Je m'en empêche","maxLabel":"Sans aucune gêne","tags":["tristesse","émotions"]}
+{"id":"profond-085","type":"text","text":"Quel rôle joues-tu souvent dans un groupe, et te correspond-il vraiment ?","tags":["identité","amis"]}
+{"id":"profond-086","type":"who","text":"Qui de nous deux cache le mieux sa tristesse ?","tags":["émotions","vulnérabilité"]}
+{"id":"profond-087","type":"text","text":"Quel rituel, même minuscule, te reconnecte à toi-même ?","tags":["soi","quotidien"]}
+{"id":"profond-088","type":"text","text":"Quel aspect de notre couple te remplit le plus de gratitude ?","tags":["couple","gratitude"]}
+{"id":"profond-089","type":"text","text":"Qu'as-tu compris tard, et qu'aurais-tu aimé savoir plus tôt ?","tags":["réflexion","passé"]}
+{"id":"profond-090","type":"choice","text":"Qu'est-ce qui t'aide le plus à traverser une période triste ?","options":["Me confier","Écrire ou créer","Me changer les idées","Laisser passer, patiemment"],"tags":["tristesse","besoins"]}
+{"id":"profond-091","type":"text","text":"Comment ta façon de voir le bonheur a-t-elle évolué depuis l'adolescence ?","tags":["bonheur","changement"]}
+{"id":"profond-092","type":"scale","text":"Te connais-tu vraiment, selon toi ?","minLabel":"Je me découvre encore","maxLabel":"Je me connais par cœur","tags":["soi","identité"]}
+{"id":"profond-093","type":"text","text":"Dans quelles circonstances te sens-tu utile, au sens le plus profond ?","tags":["sens"]}
+{"id":"profond-094","type":"text","text":"Quel moment de ta vie aimerais-tu me faire vivre, si c'était possible ?","tags":["souvenirs","couple"]}
+{"id":"profond-095","type":"text","text":"Que t'a appris une personne avec qui tu n'étais pas d'accord ?","tags":["réflexion","autres"]}
+{"id":"profond-096","type":"who","text":"Qui de nous deux s'excuse le plus facilement ?","tags":["pardon","communication"]}
+{"id":"profond-097","type":"text","text":"Concrètement, que veut dire la tendresse pour toi ?","tags":["tendresse"]}
+{"id":"profond-098","type":"choice","text":"Quand tu ressens de la jalousie, même légère, comment réagis-tu ?","options":["Je le dis tout de suite","Je le garde pour moi","J'en ris pour dédramatiser","Ça m'arrive très rarement"],"tags":["émotions","couple","communication"]}
+{"id":"profond-099","type":"text","text":"Quelle part de toi s'est révélée grâce à notre relation ?","tags":["couple","identité"]}
+{"id":"profond-100","type":"scale","text":"À quel point as-tu besoin de contrôler ce qui va arriver ?","minLabel":"Je lâche prise","maxLabel":"Je veux tout prévoir","tags":["peurs","liberté"]}
+{"id":"profond-101","type":"text","text":"Quelle œuvre (livre, film, chanson) est arrivée dans ta vie au bon moment ?","tags":["culture","souvenirs"]}
+{"id":"profond-102","type":"choice","text":"Où te sens-tu le plus chez toi, au fond ?","options":["Dans un lieu de mon enfance","Dans la nature","Auprès de certaines personnes","En moi-même, partout"],"tags":["identité","sens"]}
+{"id":"profond-103","type":"scale","text":"Changer d'avis sur une chose importante, est-ce facile pour toi ?","minLabel":"Ça m'est difficile","maxLabel":"Très facilement","tags":["liberté","changement"]}
+{"id":"profond-104","type":"choice","text":"Qu'est-ce qui te fait te sentir le plus proche de moi ?","options":["Une conversation profonde","Un fou rire partagé","Un contact tendre","Une aventure à deux"],"tags":["couple","tendresse"]}
+{"id":"profond-105","type":"text","text":"Quelle émotion ressentais-tu souvent, enfant, et qu'on ne t'a pas appris à exprimer ?","tags":["enfance","émotions"]}
+{"id":"profond-106","type":"text","text":"Où trouves-tu du courage quand tu dois affronter quelque chose de difficile ?","tags":["courage"]}
+{"id":"profond-107","type":"scale","text":"Quelle place occupent les petits bonheurs dans ton moral ?","minLabel":"Assez peu","maxLabel":"Une place énorme","tags":["bonheur","quotidien"]}
+{"id":"profond-108","type":"who","text":"Qui de nous deux a le plus tendance à se juger durement ?","tags":["soi","émotions"]}
+{"id":"profond-109","type":"text","text":"Qu'aimerais-tu que les gens retiennent de toi, plus tard ?","tags":["sens","transmission"]}
+{"id":"profond-110","type":"text","text":"De toutes nos conversations, laquelle a compté le plus pour toi ?","tags":["couple","communication","souvenirs"]}
+{"id":"profond-111","type":"text","text":"Quel besoin as-tu longtemps ignoré avant de le reconnaître ?","tags":["besoins","soi"]}
+{"id":"profond-112","type":"choice","text":"Laquelle de ces choses t'émeut le plus ?","options":["La bonté des inconnus","La beauté de la nature","Les retrouvailles","Le courage des autres"],"tags":["émotions"]}
+{"id":"profond-113","type":"text","text":"Quelle injustice, vécue ou observée, a façonné ta vision du monde ?","tags":["réflexion","identité"]}
+{"id":"profond-114","type":"scale","text":"À quel point ressens-tu un lien avec quelque chose de plus grand que toi ?","minLabel":"Pas vraiment","maxLabel":"Profondément","tags":["sens","spiritualité"]}
+{"id":"profond-115","type":"text","text":"Que se passe-t-il en toi juste avant que la colère éclate ?","tags":["colère","émotions"]}
+{"id":"profond-116","type":"text","text":"Y a-t-il une facette de toi que tu montres rarement, même à moi ?","tags":["vulnérabilité","intime"]}
+{"id":"profond-117","type":"choice","text":"Quelle inquiétude aimerais-tu effacer de ta tête pour toujours ?","options":["Le manque d'argent","La santé de mes proches","L'avenir de la planète","Le regard des autres"],"tags":["peurs"]}
+{"id":"profond-118","type":"who","text":"Qui de nous deux se pose le plus de questions sur le sens de la vie ?","tags":["sens","réflexion"]}
+{"id":"profond-119","type":"choice","text":"Selon toi, qu'est-ce qui construit le plus une personne ?","options":["Les épreuves","Les rencontres","L'éducation reçue","Ses propres choix"],"tags":["identité","réflexion"]}
+{"id":"profond-120","type":"text","text":"Qu'est-ce que tu ne t'autorises pas encore, et que tu aimerais t'autoriser ?","tags":["liberté","soi"]}
+{"id":"profond-121","type":"text","text":"Qu'est-ce qui t'a donné confiance en moi, tout au début ?","tags":["couple","confiance","souvenirs"]}
+{"id":"profond-122","type":"text","text":"Quel moment de solitude t'a, étonnamment, fait beaucoup de bien ?","tags":["solitude"]}
+{"id":"profond-123","type":"choice","text":"Qu'est-ce qui rend parfois difficile le fait de t'ouvrir complètement ?","options":["La peur du jugement","La peur de déranger","L'habitude de tout garder","Rien, je m'ouvre facilement"],"tags":["vulnérabilité","confiance"]}
+{"id":"profond-124","type":"scale","text":"La personne que tu es aujourd'hui ressemble-t-elle à celle que tu rêvais d'être ?","minLabel":"Assez peu","maxLabel":"Énormément","tags":["identité","soi"]}
+{"id":"profond-125","type":"text","text":"Quelle peur d'enfant te fait sourire aujourd'hui ?","tags":["enfance","peurs"]}
+{"id":"profond-126","type":"who","text":"Qui de nous deux dit « je t'aime » le plus souvent ?","tags":["tendresse","communication"]}
+{"id":"profond-127","type":"text","text":"Quel moment de ta vie a été un vrai tournant, même si personne ne l'a remarqué ?","tags":["passé","changement"]}
+{"id":"profond-128","type":"text","text":"Sans quelles petites choses ta vie perdrait-elle beaucoup de sa saveur ?","tags":["sens","bonheur"]}
+{"id":"profond-129","type":"text","text":"À quoi sens-tu que tu peux vraiment compter sur moi ?","tags":["couple","confiance"]}
+{"id":"profond-130","type":"choice","text":"Comment vis-tu les adieux et les fins de chapitre ?","options":["Difficilement, je m'accroche","Avec nostalgie, mais sereinement","Souvent avec soulagement","Je tourne vite la page"],"tags":["changement","émotions"]}
+{"id":"profond-131","type":"text","text":"Qu'as-tu appris à aimer chez toi avec les années ?","tags":["soi"]}
+{"id":"profond-132","type":"scale","text":"Quelle place la nostalgie occupe-t-elle dans ton esprit ?","minLabel":"Presque aucune","maxLabel":"Une très grande place","tags":["passé","émotions"]}
+{"id":"profond-133","type":"text","text":"Que ressens-tu quand tu me vois rire aux éclats ?","tags":["couple","joie"]}
+{"id":"profond-134","type":"text","text":"Quel « et si… » te trotte parfois dans la tête ?","tags":["rêves","réflexion"]}
+{"id":"profond-135","type":"text","text":"Si notre couple était une maison, quelle pièce mériterait un peu plus d'attention en ce moment ?","tags":["couple","imaginaire"]}
+{"id":"profond-136","type":"who","text":"Qui de nous deux remarque le plus vite quand l'autre ne va pas bien ?","tags":["couple","attention"]}
+{"id":"profond-137","type":"text","text":"De quoi as-tu besoin pour te sentir en sécurité quand on n'est pas d'accord ?","tags":["couple","communication","besoins"]}
+{"id":"profond-138","type":"choice","text":"Comment vis-tu l'idée que tout est éphémère ?","options":["Ça m'angoisse un peu","Ça me pousse à profiter","Ça m'apaise, étrangement","Je n'y pense presque jamais"],"tags":["sens","temps"]}
+{"id":"profond-139","type":"choice","text":"Quelle phrase te ressemble le plus en ce moment ?","options":["Je cherche encore ma voie","Je construis, pas à pas","Je récolte ce que j'ai semé","Je me réinvente"],"tags":["identité","réflexion"]}
+{"id":"profond-140","type":"scale","text":"À quel point oses-tu me dire quand quelque chose te déplaît entre nous ?","minLabel":"Je me tais souvent","maxLabel":"Je le dis toujours","tags":["communication","couple"]}
+{"id":"profond-141","type":"text","text":"Quelle conviction profonde as-tu abandonnée au fil des années ?","tags":["changement","réflexion"]}
+{"id":"profond-142","type":"text","text":"Quelle déception t'a finalement ouvert une autre porte ?","tags":["passé","changement"]}
+{"id":"profond-143","type":"scale","text":"Avec quelle liberté parles-tu de ton passé ?","minLabel":"Avec beaucoup de pudeur","maxLabel":"Très librement","tags":["passé","communication"]}
+{"id":"profond-144","type":"choice","text":"Quand tu penses à l'avenir, que ressens-tu surtout ?","options":["De l'excitation","De la curiosité","De l'appréhension","De la sérénité"],"tags":["avenir","émotions"]}
+{"id":"profond-145","type":"text","text":"Qu'as-tu appris sur l'amour en observant les couples autour de toi ?","tags":["couple","réflexion"]}
+{"id":"profond-146","type":"who","text":"Qui de nous deux a le plus besoin de câlins dans les moments durs ?","tags":["tendresse","besoins"]}
+{"id":"profond-147","type":"text","text":"Quel moment de vulnérabilité partagée a renforcé notre lien, selon toi ?","tags":["couple","vulnérabilité"]}
+{"id":"profond-148","type":"scale","text":"Comment accueilles-tu tes propres imperfections ?","minLabel":"Avec beaucoup de mal","maxLabel":"Avec douceur","tags":["soi","bienveillance"]}
+{"id":"profond-149","type":"text","text":"Si tu pouvais demander pardon à quelqu'un de ton passé, à qui penserais-tu ?","tags":["pardon","passé"]}
+{"id":"profond-150","type":"text","text":"Quel rêve continue de t'habiter, année après année ?","tags":["rêves"]}
+{"id":"profond-151","type":"choice","text":"Qu'est-ce qui t'aide le plus à te sentir en paix avec une décision difficile ?","options":["En avoir parlé autour de moi","Avoir écouté mon intuition","Avoir pesé le pour et le contre","Avoir respecté mes valeurs"],"tags":["réflexion","confiance"]}
+{"id":"profond-152","type":"text","text":"Que voudrais-tu me dire aujourd'hui que tu n'as encore jamais formulé ?","tags":["communication","intime"]}
+{"id":"profond-153","type":"choice","text":"Quelle émotion aimerais-tu ressentir plus souvent ?","options":["L'émerveillement","La légèreté","La fierté","La gratitude"],"tags":["émotions","bonheur"]}
+{"id":"profond-154","type":"scale","text":"À quel point arrives-tu à vivre pleinement le moment présent ?","minLabel":"Toujours ailleurs","maxLabel":"Ici et maintenant","tags":["temps","bonheur"]}
+{"id":"profond-155","type":"text","text":"Quelle personne t'a fait sentir que tu valais quelque chose, au moment où tu en avais besoin ?","tags":["gratitude","soi"]}
+{"id":"profond-156","type":"text","text":"Selon toi, en quoi notre couple est-il unique ?","tags":["couple"]}
+{"id":"profond-157","type":"who","text":"Qui de nous deux a le plus changé depuis notre rencontre ?","tags":["couple","changement"]}
+{"id":"profond-158","type":"text","text":"Complète : ce qui rend ma vie plus légère en ce moment, c'est…","tags":["bonheur","quotidien"]}
+{"id":"profond-159","type":"choice","text":"Qu'est-ce qui te fait le plus de bien à entendre dans un moment de doute ?","options":["Je crois en toi","Je suis là, quoi qu'il arrive","Tu as le droit de te tromper","On va trouver ensemble"],"tags":["confiance","tendresse"]}
+{"id":"profond-160","type":"text","text":"Où puises-tu, au quotidien, l'envie de continuer à construire notre histoire ?","tags":["couple","engagement"]}

@@ -1,0 +1,160 @@
+{"id":"nous_deux-001","type":"text","text":"Quel petit geste de l'autre te fait fondre à chaque fois ?","tags":["tendresse","attentions"]}
+{"id":"nous_deux-002","type":"choice","text":"Quel langage de l'amour te parle le plus ?","options":["Les mots qui valorisent","Le temps de qualité","Le contact physique","Les services rendus"],"tags":["langages","tendresse"]}
+{"id":"nous_deux-003","type":"scale","text":"En ce moment, à quel point notre couple te fait-il du bien ?","minLabel":"Pas assez","maxLabel":"Énormément","tags":["couple","bien-être"]}
+{"id":"nous_deux-004","type":"who","text":"Qui de nous deux fait le premier pas pour se réconcilier après une dispute ?","tags":["réconciliation"]}
+{"id":"nous_deux-005","type":"text","text":"Quelle qualité de l'autre admires-tu en silence, sans jamais vraiment la nommer ?","tags":["admiration"]}
+{"id":"nous_deux-006","type":"text","text":"Quel rituel de notre couple te fait le plus de bien ?","tags":["rituels"]}
+{"id":"nous_deux-007","type":"text","text":"Qu'est-ce que l'autre t'apporte que personne d'autre ne t'apporte ?","tags":["couple","apport"]}
+{"id":"nous_deux-008","type":"choice","text":"Après une dispute, de quoi as-tu le plus besoin ?","options":["Un câlin, tout de suite","Un peu de temps pour moi","En parler à fond","Passer à autre chose"],"tags":["réconciliation","communication"]}
+{"id":"nous_deux-009","type":"text","text":"Quel surnom ou quel mot doux te touche le plus quand il vient de l'autre ?","tags":["tendresse","mots"]}
+{"id":"nous_deux-010","type":"scale","text":"À quel point arrives-tu à dire à l'autre ce que tu ressens vraiment ?","minLabel":"Avec difficulté","maxLabel":"Très facilement","tags":["communication"]}
+{"id":"nous_deux-011","type":"text","text":"Quel moment récent t'a donné le sentiment d'avoir beaucoup de chance d'être ensemble ?","tags":["gratitude","tendresse"]}
+{"id":"nous_deux-012","type":"text","text":"Quelle blague ou quelle expression n'a de sens que pour nous deux ?","tags":["complicité","humour"]}
+{"id":"nous_deux-013","type":"who","text":"Qui de nous deux pense le plus souvent aux petites attentions ?","tags":["attentions"]}
+{"id":"nous_deux-014","type":"text","text":"Quelle petite attention aimerais-tu recevoir plus souvent ?","tags":["attentions","besoins"]}
+{"id":"nous_deux-015","type":"choice","text":"Quel moment de la journée préfères-tu partager avec l'autre ?","options":["Le petit-déjeuner","Le dîner","La soirée, tranquillement","Juste avant de dormir"],"tags":["quotidien","rituels"]}
+{"id":"nous_deux-016","type":"text","text":"Qu'est-ce que l'autre fait mieux que quiconque pour te remonter le moral ?","tags":["soutien"]}
+{"id":"nous_deux-017","type":"scale","text":"À quel point notre complicité est-elle visible pour les autres, selon toi ?","minLabel":"Discrète","maxLabel":"Évidente","tags":["complicité","amis"]}
+{"id":"nous_deux-018","type":"text","text":"Quel trait de caractère de l'autre équilibre parfaitement l'un des tiens ?","tags":["admiration","complémentarité"]}
+{"id":"nous_deux-019","type":"text","text":"Quelle phrase de l'autre résonne encore en toi ?","tags":["mots","souvenirs"]}
+{"id":"nous_deux-020","type":"choice","text":"Comment préfères-tu qu'on se dise « je t'aime » ?","options":["Avec des mots, souvent","Avec des gestes","Par des actes concrets","Sans rien dire, d'un regard"],"tags":["tendresse","langages"]}
+{"id":"nous_deux-021","type":"text","text":"Dans quelle situation trouves-tu que l'autre brille le plus ?","tags":["admiration"]}
+{"id":"nous_deux-022","type":"text","text":"Quel est ton souvenir préféré d'un fou rire à deux ?","tags":["complicité","humour"]}
+{"id":"nous_deux-023","type":"scale","text":"As-tu l'impression qu'on passe assez de temps rien qu'à deux en ce moment ?","minLabel":"Pas du tout","maxLabel":"Largement","tags":["temps","couple"]}
+{"id":"nous_deux-024","type":"who","text":"Qui de nous deux a le plus besoin de câlins ?","tags":["tendresse"]}
+{"id":"nous_deux-025","type":"text","text":"Qu'est-ce qui te fait te sentir en sécurité dans notre couple ?","tags":["confiance"]}
+{"id":"nous_deux-026","type":"text","text":"Comment devines-tu que l'autre a passé une mauvaise journée, avant même le moindre mot ?","tags":["complicité","attention"]}
+{"id":"nous_deux-027","type":"choice","text":"Quand on se dispute, qu'est-ce qui nous aide le plus à nous retrouver ?","options":["L'humour","Une vraie discussion","Un moment de tendresse","Laisser passer la nuit"],"tags":["réconciliation"]}
+{"id":"nous_deux-028","type":"text","text":"Quelle chose fais-tu discrètement pour l'autre, sans jamais t'en vanter ?","tags":["attentions"]}
+{"id":"nous_deux-029","type":"text","text":"Quel moment ordinaire avec l'autre te semble pourtant extraordinaire ?","tags":["quotidien","tendresse"]}
+{"id":"nous_deux-030","type":"scale","text":"À quel point notre façon de nous réconcilier te convient-elle ?","minLabel":"Pas vraiment","maxLabel":"Parfaitement","tags":["réconciliation"]}
+{"id":"nous_deux-031","type":"text","text":"Quel talent de l'autre t'impressionne le plus ?","tags":["admiration"]}
+{"id":"nous_deux-032","type":"choice","text":"Quel cadeau te touche le plus ?","options":["Un objet choisi avec soin","Une lettre écrite à la main","Une expérience à vivre ensemble","Une surprise toute simple"],"tags":["cadeaux","langages"]}
+{"id":"nous_deux-033","type":"text","text":"Que fait l'autre qui te donne envie de devenir une meilleure personne ?","tags":["admiration","couple"]}
+{"id":"nous_deux-034","type":"text","text":"À quand remonte la dernière fois où tu t'es dit que nous formions une belle équipe ?","tags":["complicité","équipe"]}
+{"id":"nous_deux-035","type":"who","text":"Qui de nous deux devine le mieux l'humeur de l'autre ?","tags":["complicité"]}
+{"id":"nous_deux-036","type":"text","text":"Quelle habitude de l'autre trouves-tu adorable, alors qu'elle pourrait agacer ?","tags":["tendresse","quotidien"]}
+{"id":"nous_deux-037","type":"scale","text":"À quel point aimes-tu les démonstrations d'affection en public ?","minLabel":"Très peu pour moi","maxLabel":"Sans modération","tags":["tendresse","public"]}
+{"id":"nous_deux-038","type":"choice","text":"Quel rendez-vous à deux te ferait le plus plaisir cette semaine ?","options":["Un dîner aux chandelles","Une balade sans téléphone","Une soirée jeux","Une grasse matinée ensemble"],"tags":["romantique","temps"]}
+{"id":"nous_deux-039","type":"text","text":"Quelle musique te fait immédiatement penser à nous ?","tags":["musique","souvenirs"]}
+{"id":"nous_deux-040","type":"text","text":"Qu'as-tu appris sur toi depuis qu'on est ensemble ?","tags":["introspection","couple"]}
+{"id":"nous_deux-041","type":"text","text":"Quel compliment de l'autre te fait le plus d'effet ?","tags":["mots","tendresse"]}
+{"id":"nous_deux-042","type":"who","text":"Qui de nous deux dit « je t'aime » le plus souvent ?","tags":["tendresse"]}
+{"id":"nous_deux-043","type":"choice","text":"Quand l'autre a un coup de mou, quel est ton premier réflexe ?","options":["Un câlin sans un mot","Préparer quelque chose de bon","Écouter sans interrompre","Tout tenter pour faire rire"],"tags":["soutien"]}
+{"id":"nous_deux-044","type":"text","text":"Quelle est la plus belle preuve d'amour que tu aies reçue de l'autre ?","tags":["tendresse","souvenirs"]}
+{"id":"nous_deux-045","type":"scale","text":"À quel point notre couple laisse-t-il de la place à ta liberté ?","minLabel":"Trop peu","maxLabel":"Largement assez","tags":["liberté","équilibre"]}
+{"id":"nous_deux-046","type":"text","text":"Qu'est-ce qui te fait rire chez l'autre, même quand tu essaies de garder ton sérieux ?","tags":["humour","complicité"]}
+{"id":"nous_deux-047","type":"text","text":"Quel petit rituel du matin ou du soir aimerais-tu qu'on crée ?","tags":["rituels"]}
+{"id":"nous_deux-048","type":"choice","text":"Où te sens-tu le plus proche de l'autre ?","options":["Sous la couette, à discuter","En voyage, loin de tout","À table, autour d'un bon repas","Pendant une longue balade"],"tags":["complicité","intime"]}
+{"id":"nous_deux-049","type":"text","text":"Quel aspect de la personnalité de l'autre as-tu appris à aimer avec le temps ?","tags":["admiration","évolution"]}
+{"id":"nous_deux-050","type":"text","text":"Comment sais-tu que l'autre pense à toi, même à distance ?","tags":["attentions","distance"]}
+{"id":"nous_deux-051","type":"scale","text":"À quel point dis-tu merci pour les petites choses du quotidien ?","minLabel":"Presque jamais","maxLabel":"Tout le temps","tags":["gratitude","quotidien"]}
+{"id":"nous_deux-052","type":"text","text":"Quelle dispute passée a finalement renforcé notre couple, selon toi ?","tags":["réconciliation","souvenirs"]}
+{"id":"nous_deux-053","type":"who","text":"Qui de nous deux boude le plus longtemps ?","tags":["réconciliation","léger"]}
+{"id":"nous_deux-054","type":"text","text":"Quel geste tout simple suffit à apaiser une tension entre nous ?","tags":["réconciliation","tendresse"]}
+{"id":"nous_deux-055","type":"choice","text":"Comment préfères-tu recevoir un compliment ?","options":["À voix haute, devant tout le monde","Murmuré à l'oreille","Par écrit, pour le relire","Glissé au détour d'une phrase"],"tags":["mots"]}
+{"id":"nous_deux-056","type":"text","text":"Qu'aimerais-tu que l'autre sache sur ce que tu ressens en ce moment ?","tags":["communication","émotions"]}
+{"id":"nous_deux-057","type":"text","text":"Quel moment de notre semaine attends-tu avec le plus d'impatience ?","tags":["rituels","quotidien"]}
+{"id":"nous_deux-058","type":"scale","text":"À quel point nos sens de l'humour se ressemblent-ils ?","minLabel":"Deux planètes","maxLabel":"Même longueur d'onde","tags":["humour","complicité"]}
+{"id":"nous_deux-059","type":"text","text":"Qu'est-ce que l'autre fait pour toi qui mériterait un grand merci aujourd'hui ?","tags":["gratitude"]}
+{"id":"nous_deux-060","type":"text","text":"Quelle odeur, quel objet ou quel lieu t'évoque immédiatement l'autre ?","tags":["sens","tendresse"]}
+{"id":"nous_deux-061","type":"choice","text":"Quand tu as besoin de réconfort, qu'est-ce qui marche le mieux ?","options":["Des bras qui me serrent","Des mots rassurants","Une aide concrète","Un moment de calme à deux"],"tags":["soutien","langages"]}
+{"id":"nous_deux-062","type":"text","text":"Quelle est ta façon préférée de surprendre l'autre ?","tags":["surprises","attentions"]}
+{"id":"nous_deux-063","type":"who","text":"Qui de nous deux a le plus tendance à vouloir avoir le dernier mot ?","tags":["communication","léger"]}
+{"id":"nous_deux-064","type":"text","text":"Quel défi du quotidien relève-t-on bien mieux ensemble que séparément ?","tags":["complicité","équipe"]}
+{"id":"nous_deux-065","type":"scale","text":"À quel point nos petits rituels de couple comptent-ils pour toi ?","minLabel":"Pas tellement","maxLabel":"Énormément","tags":["rituels"]}
+{"id":"nous_deux-066","type":"text","text":"Quel est ton endroit préféré pour un tête-à-tête ?","tags":["romantique"]}
+{"id":"nous_deux-067","type":"choice","text":"Quel geste tendre préfères-tu ?","options":["Une main dans les cheveux","Un bisou sur le front","Les doigts entrelacés","Un câlin par-derrière"],"tags":["tendresse","intime"]}
+{"id":"nous_deux-068","type":"text","text":"Quelle passion de l'autre as-tu fini par adopter, au moins un peu ?","tags":["complicité","loisirs"]}
+{"id":"nous_deux-069","type":"text","text":"Quel mot décrirait le mieux notre couple aujourd'hui ?","tags":["couple"]}
+{"id":"nous_deux-070","type":"scale","text":"À quel point trouves-tu qu'on s'écoute vraiment ?","minLabel":"Pas assez","maxLabel":"Toujours","tags":["communication","écoute"]}
+{"id":"nous_deux-071","type":"text","text":"Quelle attention de l'autre t'a déjà fait monter les larmes aux yeux ?","tags":["émotions","attentions"]}
+{"id":"nous_deux-072","type":"choice","text":"Quand on se retrouve après une longue journée, qu'est-ce qui te fait le plus de bien ?","options":["Un long câlin","Raconter nos journées","Ne rien dire, juste être là","Sortir prendre l'air"],"tags":["rituels","quotidien"]}
+{"id":"nous_deux-073","type":"text","text":"Quelle force de l'autre t'aide le plus dans les moments difficiles ?","tags":["soutien","admiration"]}
+{"id":"nous_deux-074","type":"who","text":"Qui de nous deux envoie le plus de messages dans la journée ?","tags":["quotidien","léger"]}
+{"id":"nous_deux-075","type":"text","text":"Qu'est-ce qui te donne le sentiment de compter vraiment pour l'autre ?","tags":["tendresse","confiance"]}
+{"id":"nous_deux-076","type":"scale","text":"À quel point les mots doux sont-ils importants pour toi ?","minLabel":"Accessoires","maxLabel":"Vitaux","tags":["mots","langages"]}
+{"id":"nous_deux-077","type":"text","text":"Quel moment de complicité silencieuse préfères-tu entre nous ?","tags":["complicité"]}
+{"id":"nous_deux-078","type":"choice","text":"Quelle surprise te ferait le plus plaisir, là, maintenant ?","options":["Un petit plat préparé avec amour","Un mot doux caché quelque part","Un plan improvisé pour la soirée","Une playlist faite pour moi"],"tags":["surprises"]}
+{"id":"nous_deux-079","type":"text","text":"Quelle activité aimerais-tu qu'on fasse plus souvent, rien que nous deux ?","tags":["temps","complicité"]}
+{"id":"nous_deux-080","type":"text","text":"Quelle petite manie de couple avons-nous développée sans même nous en rendre compte ?","tags":["complicité","quotidien"]}
+{"id":"nous_deux-081","type":"choice","text":"Quelle forme de moment à deux préfères-tu ?","options":["Une conversation profonde","Une activité partagée","Une aventure improvisée","Un moment sans écrans"],"tags":["temps","langages"]}
+{"id":"nous_deux-082","type":"text","text":"Qu'est-ce que l'autre fait sans même s'en rendre compte, et qui te touche beaucoup ?","tags":["tendresse","attentions"]}
+{"id":"nous_deux-083","type":"scale","text":"À quel point oses-tu demander ce dont tu as besoin dans notre couple ?","minLabel":"Rarement","maxLabel":"Sans détour","tags":["communication","besoins"]}
+{"id":"nous_deux-084","type":"text","text":"Quel petit mot aimerais-tu trouver un matin sur ton téléphone ou sous ton oreiller ?","tags":["mots","attentions"]}
+{"id":"nous_deux-085","type":"who","text":"Qui de nous deux se souvient le mieux des dates importantes ?","tags":["attentions","mémoire"]}
+{"id":"nous_deux-086","type":"text","text":"Quelle série, quel jeu ou quel plat est devenu un petit rituel rien qu'à nous ?","tags":["rituels","loisirs"]}
+{"id":"nous_deux-087","type":"text","text":"Quelle phrase aimerais-tu entendre au milieu d'une dispute pour que tout s'apaise ?","tags":["réconciliation","mots"]}
+{"id":"nous_deux-088","type":"choice","text":"Qu'est-ce qui te fait le plus craquer chez l'autre ?","options":["Son regard","Son rire","Sa voix","Sa façon de bouger"],"tags":["séduction","tendresse"]}
+{"id":"nous_deux-089","type":"text","text":"Quelle dispute te fait sourire aujourd'hui, tellement elle était absurde ?","tags":["humour","réconciliation"]}
+{"id":"nous_deux-090","type":"scale","text":"À quel point as-tu l'impression qu'on se connaît par cœur ?","minLabel":"On se découvre encore","maxLabel":"Par cœur","tags":["complicité"]}
+{"id":"nous_deux-091","type":"text","text":"Quelle valeur partageons-nous qui fait notre force, selon toi ?","tags":["valeurs","couple"]}
+{"id":"nous_deux-092","type":"text","text":"À quel moment as-tu senti que l'autre était vraiment de ton côté ?","tags":["soutien","confiance"]}
+{"id":"nous_deux-093","type":"choice","text":"Quelle petite attention du quotidien préfères-tu ?","options":["Un café préparé le matin","Un message en pleine journée","Une couverture posée sur moi","Une main tendue sans rien demander"],"tags":["attentions","quotidien"]}
+{"id":"nous_deux-094","type":"text","text":"Quelle phrase résumerait notre complicité aux yeux de nos proches ?","tags":["complicité","amis"]}
+{"id":"nous_deux-095","type":"who","text":"Qui de nous deux éclate de rire en premier dans un moment solennel ?","tags":["humour","complicité"]}
+{"id":"nous_deux-096","type":"text","text":"Qu'est-ce qui t'est plus facile à dire à l'autre par écrit qu'à voix haute ?","tags":["communication"]}
+{"id":"nous_deux-097","type":"scale","text":"Ces temps-ci, la tendresse a-t-elle assez de place dans notre quotidien ?","minLabel":"Bien trop peu","maxLabel":"Toute la place","tags":["tendresse","quotidien"]}
+{"id":"nous_deux-098","type":"text","text":"Qu'est-ce qui t'emplit de fierté quand tu penses à notre couple ?","tags":["fierté","couple"]}
+{"id":"nous_deux-099","type":"text","text":"Quelle attention de nos débuts aimerais-tu qu'on retrouve ?","tags":["attentions","romantique"]}
+{"id":"nous_deux-100","type":"choice","text":"Quand on n'est pas d'accord, quel est ton style ?","options":["J'en parle tout de suite","J'ai besoin de digérer d'abord","Je cherche le compromis","Je laisse couler"],"tags":["communication","réconciliation"]}
+{"id":"nous_deux-101","type":"text","text":"Quelle question aimerais-tu que l'autre te pose plus souvent ?","tags":["communication","écoute"]}
+{"id":"nous_deux-102","type":"text","text":"Que ressens-tu quand l'autre te regarde sans rien dire ?","tags":["intime","émotions"]}
+{"id":"nous_deux-103","type":"scale","text":"À quel point as-tu besoin de contact physique au quotidien ?","minLabel":"Un peu","maxLabel":"Constamment","tags":["tendresse","langages"]}
+{"id":"nous_deux-104","type":"choice","text":"Quel rituel de couple aimerais-tu instaurer ?","options":["Un rendez-vous fixe chaque semaine","Un bilan tendre chaque mois","Un petit-déjeuner sacré le dimanche","Une soirée sans écrans"],"tags":["rituels"]}
+{"id":"nous_deux-105","type":"text","text":"Quel est ton moment préféré pour un câlin ?","tags":["tendresse"]}
+{"id":"nous_deux-106","type":"who","text":"Qui de nous deux cède le plus souvent quand on n'est pas d'accord ?","tags":["compromis"]}
+{"id":"nous_deux-107","type":"text","text":"Quelle expression du visage de l'autre pourrais-tu reconnaître entre mille ?","tags":["complicité","tendresse"]}
+{"id":"nous_deux-108","type":"text","text":"Comment montres-tu ton amour sans prononcer un seul mot ?","tags":["langages","tendresse"]}
+{"id":"nous_deux-109","type":"scale","text":"À quel point trouves-tu qu'on se fait encore la cour ?","minLabel":"Plus vraiment","maxLabel":"Comme au premier jour","tags":["romantique","séduction"]}
+{"id":"nous_deux-110","type":"text","text":"Dans quelle situation trouves-tu que l'autre a un charme fou ?","tags":["séduction","admiration"]}
+{"id":"nous_deux-111","type":"choice","text":"Quel est notre super-pouvoir de couple ?","options":["Rire de tout","Nous comprendre d'un regard","Traverser les tempêtes","Nous réinventer"],"tags":["complicité","équipe"]}
+{"id":"nous_deux-112","type":"text","text":"Qu'est-ce que l'autre fait qui te donne l'impression d'être à la maison, où que l'on soit ?","tags":["confiance","tendresse"]}
+{"id":"nous_deux-113","type":"text","text":"Quand on passe quelques jours sans se voir, qu'est-ce qui te manque le plus ?","tags":["distance","manque"]}
+{"id":"nous_deux-114","type":"who","text":"Qui de nous deux remarque en premier une nouvelle coupe de cheveux ?","tags":["attentions","léger"]}
+{"id":"nous_deux-115","type":"text","text":"Quel effort de l'autre mériterait davantage de reconnaissance de ta part ?","tags":["gratitude"]}
+{"id":"nous_deux-116","type":"scale","text":"À quel point aimes-tu les surprises dans notre couple ?","minLabel":"Je préfère savoir","maxLabel":"Surprends-moi !","tags":["surprises"]}
+{"id":"nous_deux-117","type":"choice","text":"Quel type de surnom préfères-tu qu'on te donne ?","options":["Un classique tout doux","Un surnom gourmand","Un surnom absurde","Juste mon prénom, bien dit"],"tags":["mots","tendresse"]}
+{"id":"nous_deux-118","type":"text","text":"Quel moment récent avec l'autre aimerais-tu pouvoir revivre ?","tags":["souvenirs","tendresse"]}
+{"id":"nous_deux-119","type":"text","text":"Comment notre façon de nous aimer a-t-elle évolué depuis le début ?","tags":["évolution","couple"]}
+{"id":"nous_deux-120","type":"choice","text":"Quelle façon de passer un dimanche ensemble te comble le plus ?","options":["Ne rien faire du tout","Sortir explorer","Voir des proches","Cuisiner et papoter"],"tags":["temps","loisirs"]}
+{"id":"nous_deux-121","type":"text","text":"Quel plan romantique raté reste pourtant l'un de tes meilleurs souvenirs ?","tags":["romantique","humour"]}
+{"id":"nous_deux-122","type":"choice","text":"Quelle forme de remerciement te touche le plus ?","options":["Un merci sincère, les yeux dans les yeux","Un geste en retour","Un mot écrit","Un sourire complice"],"tags":["gratitude"]}
+{"id":"nous_deux-123","type":"who","text":"Qui de nous deux a le plus de mal à demander de l'aide ?","tags":["communication","soutien"]}
+{"id":"nous_deux-124","type":"text","text":"Quel aspect de notre couple aimerais-tu célébrer aujourd'hui ?","tags":["couple","gratitude"]}
+{"id":"nous_deux-125","type":"scale","text":"À quel point aimes-tu qu'on partage nos passions respectives ?","minLabel":"Jardins secrets","maxLabel":"Tout partager","tags":["loisirs","complicité"]}
+{"id":"nous_deux-126","type":"text","text":"Quelle petite victoire de l'autre as-tu envie de fêter en ce moment ?","tags":["admiration","soutien"]}
+{"id":"nous_deux-127","type":"text","text":"Que pourrait-on faire cette semaine pour se sentir encore plus proches ?","tags":["complicité","temps"]}
+{"id":"nous_deux-128","type":"choice","text":"Quel geste du quotidien te parle le plus d'amour ?","options":["Un repas préparé pour moi","Une corvée faite à ma place","Un petit cadeau inattendu","Un massage improvisé"],"tags":["langages","quotidien"]}
+{"id":"nous_deux-129","type":"choice","text":"Quelle est la meilleure façon de se faire pardonner auprès de toi ?","options":["Des excuses sincères","Un geste tendre","Un effort concret","Une bonne dose d'humour"],"tags":["réconciliation"]}
+{"id":"nous_deux-130","type":"text","text":"Comment sais-tu qu'une dispute est vraiment terminée entre nous ?","tags":["réconciliation","communication"]}
+{"id":"nous_deux-131","type":"scale","text":"À quel point oses-tu être toi-même à cent pour cent avec l'autre ?","minLabel":"Avec retenue","maxLabel":"Totalement","tags":["confiance","authenticité"]}
+{"id":"nous_deux-132","type":"who","text":"Qui de nous deux chante le plus fort sous la douche ou en voiture ?","tags":["léger","complicité"]}
+{"id":"nous_deux-133","type":"text","text":"Qu'admires-tu dans la façon dont l'autre traite les gens ?","tags":["admiration","valeurs"]}
+{"id":"nous_deux-134","type":"text","text":"Quel moment de tendresse inattendu reste gravé dans ta mémoire ?","tags":["tendresse","souvenirs"]}
+{"id":"nous_deux-135","type":"choice","text":"Quelle est la recette de notre complicité ?","options":["Beaucoup d'humour","Une confiance totale","Des passions communes","Un brin de folie"],"tags":["complicité"]}
+{"id":"nous_deux-136","type":"text","text":"Quelle chose simple aimerais-tu que l'autre remarque plus souvent chez toi ?","tags":["attention","besoins"]}
+{"id":"nous_deux-137","type":"scale","text":"À quel point as-tu envie de plus de spontanéité entre nous ?","minLabel":"Ça me va comme ça","maxLabel":"Beaucoup plus !","tags":["spontanéité"]}
+{"id":"nous_deux-138","type":"text","text":"Si notre couple avait une devise, quelle serait-elle ?","tags":["couple","valeurs"]}
+{"id":"nous_deux-139","type":"choice","text":"Où préfères-tu recevoir un baiser ?","options":["Sur le front","Dans le cou","Sur la main","Sur les lèvres, évidemment"],"tags":["tendresse","intime"]}
+{"id":"nous_deux-140","type":"text","text":"Quelle peur as-tu réussi à apprivoiser grâce à l'autre ?","tags":["soutien","confiance"]}
+{"id":"nous_deux-141","type":"who","text":"Qui de nous deux fait le plus rire l'autre ?","tags":["humour"]}
+{"id":"nous_deux-142","type":"text","text":"Quel endroit du quotidien est devenu un peu « le nôtre » ?","tags":["lieux","complicité"]}
+{"id":"nous_deux-143","type":"choice","text":"Comment aimes-tu qu'on se dise bonne nuit ?","options":["Un baiser et un mot doux","Un dernier fou rire","Un message, même à distance","Un câlin qui dure"],"tags":["rituels","tendresse"]}
+{"id":"nous_deux-144","type":"scale","text":"À quel point te reconnais-tu dans la façon dont l'autre te décrit ?","minLabel":"Pas vraiment","maxLabel":"Tout à fait","tags":["regard","couple"]}
+{"id":"nous_deux-145","type":"choice","text":"Quel signe de complicité préfères-tu échanger en public ?","options":["Un regard entendu","Une blague privée","Une main dans le dos","Un clin d'œil discret"],"tags":["complicité","public"]}
+{"id":"nous_deux-146","type":"text","text":"Quel est le plus beau souvenir de réconciliation que tu gardes ?","tags":["réconciliation","souvenirs"]}
+{"id":"nous_deux-147","type":"text","text":"Quelle qualité de l'autre aimerais-tu, toi aussi, développer ?","tags":["admiration","évolution"]}
+{"id":"nous_deux-148","type":"choice","text":"Comment aimerais-tu qu'on célèbre une bonne nouvelle ensemble ?","options":["Un bon restaurant","Une danse improvisée","Un toast à deux","Un cri de joie partagé"],"tags":["fête","complicité"]}
+{"id":"nous_deux-149","type":"text","text":"Quelle petite chose fais-tu exprès, juste pour voir l'autre sourire ?","tags":["attentions","humour"]}
+{"id":"nous_deux-150","type":"who","text":"Qui de nous deux a le plus besoin d'entendre des mots rassurants ?","tags":["confiance","mots"]}
+{"id":"nous_deux-151","type":"scale","text":"À quel point notre couple sait-il aussi s'amuser ?","minLabel":"Trop de sérieux","maxLabel":"Une cour de récré","tags":["humour","légèreté"]}
+{"id":"nous_deux-152","type":"text","text":"Quel est le message le plus doux que tu aies reçu de l'autre ?","tags":["mots","tendresse"]}
+{"id":"nous_deux-153","type":"text","text":"Qu'est-ce qui te fait dire que l'autre te comprend vraiment ?","tags":["communication","complicité"]}
+{"id":"nous_deux-154","type":"choice","text":"Quel cadeau immatériel aimerais-tu qu'on s'offre ?","options":["Une journée sans obligations","Une lettre d'amour","Une soirée de confidences","Un week-end surprise"],"tags":["cadeaux","temps"]}
+{"id":"nous_deux-155","type":"text","text":"Pour quoi ressens-tu le plus de gratitude dans notre relation en ce moment ?","tags":["gratitude"]}
+{"id":"nous_deux-156","type":"scale","text":"À quel point fais-tu confiance à l'autre pour prendre soin de toi ?","minLabel":"C'est encore fragile","maxLabel":"Les yeux fermés","tags":["confiance"]}
+{"id":"nous_deux-157","type":"choice","text":"Complète : ce que j'aime le plus chez nous, c'est…","options":["notre façon de rire de tout","nos silences qui ne pèsent pas","notre manière de nous soutenir","nos petites habitudes à nous"],"tags":["couple","complicité"]}
+{"id":"nous_deux-158","type":"text","text":"Quelle chose aimerais-tu dire à l'autre aujourd'hui, juste parce que c'est vrai ?","tags":["mots","tendresse"]}
+{"id":"nous_deux-159","type":"text","text":"Quel détail chez l'autre remarques-tu, alors que personne d'autre ne semble le voir ?","tags":["attention","tendresse"]}
+{"id":"nous_deux-160","type":"text","text":"Qu'est-ce qui fait que, même les mauvais jours, tu choisis encore notre couple ?","tags":["couple","engagement"]}

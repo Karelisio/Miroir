@@ -1,0 +1,160 @@
+{"id":"enfance-001","type":"text","text":"Quel goûter te faisait courir jusqu'à la cuisine quand tu étais enfant ?","tags":["nourriture","nostalgie"]}
+{"id":"enfance-002","type":"choice","text":"À la récré, à quoi passais-tu le plus de temps ?","options":["Courir et jouer à chat","Discuter dans un coin","Jouer aux billes ou aux cartes","Lire ou rêvasser"],"tags":["école","jeux"]}
+{"id":"enfance-003","type":"text","text":"Quel dessin animé regardais-tu en boucle, au point d'en connaître les répliques par cœur ?","tags":["télé","nostalgie"]}
+{"id":"enfance-004","type":"who","text":"Qui de nous deux faisait le plus de bêtises à l'âge de huit ans ?","tags":["bêtises","drôle"]}
+{"id":"enfance-005","type":"scale","text":"Enfant, à quel point avais-tu peur du noir ?","minLabel":"Pas du tout","maxLabel":"Veilleuse obligatoire","tags":["peurs","léger"]}
+{"id":"enfance-006","type":"text","text":"Quel métier rêvais-tu d'exercer à six ou sept ans ?","tags":["rêves","métiers"]}
+{"id":"enfance-007","type":"text","text":"Quelle odeur te ramène instantanément à ton enfance ?","tags":["nostalgie","sens"]}
+{"id":"enfance-008","type":"choice","text":"Comment allais-tu à l'école la plupart du temps ?","options":["À pied","À vélo ou en trottinette","En bus ou en car","En voiture"],"tags":["école","habitudes"]}
+{"id":"enfance-009","type":"text","text":"Quel héros ou quelle héroïne rêvais-tu d'incarner quand tu étais enfant ?","tags":["héros","rêves"]}
+{"id":"enfance-010","type":"text","text":"Quelle bêtise d'enfance n'as-tu jamais avouée à personne ?","tags":["bêtises","secrets"]}
+{"id":"enfance-011","type":"scale","text":"D'après tes bulletins, à quel point parlais-tu en classe ?","minLabel":"Pas un mot","maxLabel":"Intarissable","tags":["école","drôle"]}
+{"id":"enfance-012","type":"text","text":"Quel jeu de cour d'école pourrais-tu encore expliquer règle par règle ?","tags":["jeux","école"]}
+{"id":"enfance-013","type":"text","text":"Comment s'appelait le doudou ou le jouet qui t'accompagnait partout ?","tags":["jouets","tendresse"]}
+{"id":"enfance-014","type":"choice","text":"Quel était ton moment préféré de la semaine, enfant ?","options":["Le mercredi après-midi","Le samedi matin","Le dimanche","Le vendredi soir"],"tags":["habitudes","nostalgie"]}
+{"id":"enfance-015","type":"text","text":"Quelle comptine ou chanson d'enfance te trotte encore dans la tête ?","tags":["musique","nostalgie"]}
+{"id":"enfance-016","type":"who","text":"Qui de nous deux passait le plus de temps dehors à jouer ?","tags":["jeux","nature"]}
+{"id":"enfance-017","type":"text","text":"Quel livre ou quelle BD relisais-tu sans jamais te lasser ?","tags":["lecture","nostalgie"]}
+{"id":"enfance-018","type":"scale","text":"L'école primaire, pour toi, c'était plutôt calvaire ou paradis ?","minLabel":"Calvaire","maxLabel":"Paradis","tags":["école","émotions"]}
+{"id":"enfance-019","type":"text","text":"Où se trouvait ta cachette imbattable pour jouer à cache-cache ?","tags":["jeux","drôle"]}
+{"id":"enfance-020","type":"text","text":"Quel aliment détestais-tu enfant et manges-tu aujourd'hui avec plaisir ?","tags":["nourriture","drôle"]}
+{"id":"enfance-021","type":"choice","text":"Quel genre d'enfant étais-tu le plus souvent ?","options":["Dans la lune","Toujours en mouvement","Avec mille questions","À faire rire tout le monde"],"tags":["personnalité","drôle"]}
+{"id":"enfance-022","type":"text","text":"Quel personnage de dessin animé ou de conte te faisait un peu peur ?","tags":["peurs","télé"]}
+{"id":"enfance-023","type":"text","text":"Que collectionnais-tu enfant : cartes, autocollants, billes ou tout autre chose ?","tags":["collections","jeux"]}
+{"id":"enfance-024","type":"who","text":"Qui de nous deux avait le plus peur des piqûres chez le médecin ?","tags":["peurs","drôle"]}
+{"id":"enfance-025","type":"scale","text":"Enfant, à quel point ton coin à toi était-il en désordre ?","minLabel":"Impeccable","maxLabel":"Champ de bataille","tags":["maison","drôle"]}
+{"id":"enfance-026","type":"text","text":"Quel plat réclamais-tu sans cesse quand tu étais enfant ?","tags":["nourriture","famille"]}
+{"id":"enfance-027","type":"text","text":"Quelle émission de télé ou de radio ne ratais-tu sous aucun prétexte ?","tags":["télé","habitudes"]}
+{"id":"enfance-028","type":"choice","text":"Pendant les vacances d'été, où passais-tu le plus de temps ?","options":["À la mer ou au lac","À la campagne ou en montagne","En ville, près de chez moi","Chez des proches"],"tags":["vacances","nature"]}
+{"id":"enfance-029","type":"text","text":"Quel surnom affectueux te donnait-on quand tu étais enfant ?","tags":["surnoms","tendresse"]}
+{"id":"enfance-030","type":"text","text":"Quelle règle de la maison te paraissait la plus injuste à l'époque ?","tags":["famille","drôle"]}
+{"id":"enfance-031","type":"scale","text":"Le cours de sport, tu le redoutais ou tu l'attendais ?","minLabel":"Corvée","maxLabel":"Le meilleur moment","tags":["sport","école"]}
+{"id":"enfance-032","type":"text","text":"Quel rêve d'enfant as-tu fini par réaliser, même en version miniature ?","tags":["rêves","réflexion"]}
+{"id":"enfance-033","type":"choice","text":"Quel jeu de société a le plus marqué ton enfance ?","options":["Le Monopoly","Les petits chevaux","Le Uno","Le jeu des 7 familles"],"tags":["jeux","famille"]}
+{"id":"enfance-034","type":"text","text":"Quelle question posais-tu sans arrêt aux adultes de ton entourage ?","tags":["curiosité","drôle"]}
+{"id":"enfance-035","type":"who","text":"Qui de nous deux lisait le plus sous la couette à la lampe de poche ?","tags":["lecture","drôle"]}
+{"id":"enfance-036","type":"text","text":"Quel endroit de ton enfance aimerais-tu me montrer, s'il existe encore ?","tags":["lieux","partage"]}
+{"id":"enfance-037","type":"scale","text":"Quelle place le chocolat occupait-il dans tes goûters d'enfance ?","minLabel":"Jamais invité","maxLabel":"En maître absolu","tags":["nourriture","drôle"]}
+{"id":"enfance-038","type":"text","text":"Quel adulte, hors de ta famille, a été une source d'inspiration pour toi enfant ?","tags":["héros","réflexion"]}
+{"id":"enfance-039","type":"choice","text":"Quel dessert de fête te faisait le plus envie ?","options":["Le gâteau au chocolat","La tarte aux fruits","Les crêpes","La glace"],"tags":["nourriture","fête"]}
+{"id":"enfance-040","type":"text","text":"Avec quel super-pouvoir comptais-tu changer le monde quand tu étais enfant ?","tags":["rêves","imagination"]}
+{"id":"enfance-041","type":"text","text":"De quelle fierté d'enfant parlais-tu à tout le monde ?","tags":["fierté","émotions"]}
+{"id":"enfance-042","type":"who","text":"Qui de nous deux avait le plus d'imagination pour inventer des histoires ?","tags":["imagination","créativité"]}
+{"id":"enfance-043","type":"choice","text":"Pour te déguiser, quel personnage choisissais-tu le plus volontiers ?","options":["Un super-héros","Un animal","Un personnage de conte","Un métier"],"tags":["déguisements","jeux"]}
+{"id":"enfance-044","type":"text","text":"Quel souvenir de carnaval, de spectacle ou de fête d'école te revient en premier ?","tags":["école","fête"]}
+{"id":"enfance-045","type":"scale","text":"À quel point attendais-tu la rentrée des classes avec impatience ?","minLabel":"Pire jour de l'année","maxLabel":"Cartable prêt en juillet","tags":["école","drôle"]}
+{"id":"enfance-046","type":"text","text":"Quelle fourniture scolaire te faisait rêver dans les rayons à la rentrée ?","tags":["école","nostalgie"]}
+{"id":"enfance-047","type":"text","text":"À quoi jouais-tu les jours de pluie, quand il fallait rester à l'intérieur ?","tags":["jeux","maison"]}
+{"id":"enfance-048","type":"choice","text":"Quel animal rêvais-tu d'avoir quand tu étais enfant ?","options":["Un chien","Un chat","Un cheval","Un animal exotique"],"tags":["animaux","rêves"]}
+{"id":"enfance-049","type":"text","text":"Quel animal, à toi ou à quelqu'un d'autre, a compté dans ton enfance ?","tags":["animaux","tendresse"]}
+{"id":"enfance-050","type":"text","text":"Quelle était ta meilleure excuse pour retarder l'heure du coucher ?","tags":["drôle","habitudes"]}
+{"id":"enfance-051","type":"who","text":"Qui de nous deux se faisait le plus souvent gronder ?","tags":["bêtises","drôle"]}
+{"id":"enfance-052","type":"scale","text":"À quel point croyais-tu aux monstres cachés sous le lit ?","minLabel":"Jamais","maxLabel":"Je vérifiais chaque soir","tags":["peurs","imagination"]}
+{"id":"enfance-053","type":"text","text":"Quelle superstition ou croyance d'enfant te fait sourire aujourd'hui ?","tags":["croyances","drôle"]}
+{"id":"enfance-054","type":"text","text":"À quoi ressemblait ta cabane, ton coin secret ou ton repaire d'enfant ?","tags":["jeux","imagination"]}
+{"id":"enfance-055","type":"choice","text":"Quelle matière préférais-tu à l'école ?","options":["Le français","Les maths","Les arts plastiques","L'histoire-géo"],"tags":["école","goûts"]}
+{"id":"enfance-056","type":"text","text":"Quel professeur ou quelle professeure a laissé une trace dans ta scolarité ?","tags":["école","réflexion"]}
+{"id":"enfance-057","type":"text","text":"Que dessinais-tu le plus souvent quand on te donnait une feuille blanche ?","tags":["créativité","dessin"]}
+{"id":"enfance-058","type":"scale","text":"Avec le recul, quel est ton verdict sur la cantine ?","minLabel":"Plateau intact","maxLabel":"Je reprenais deux fois","tags":["école","nourriture"]}
+{"id":"enfance-059","type":"text","text":"Quel plat préparé par quelqu'un qui comptait pour toi aimerais-tu goûter de nouveau ?","tags":["nourriture","nostalgie"]}
+{"id":"enfance-060","type":"who","text":"Qui de nous deux grimpait le plus aux arbres ?","tags":["nature","jeux"]}
+{"id":"enfance-061","type":"text","text":"Quel souvenir de neige, d'orage ou de grand soleil te ramène à ton enfance ?","tags":["nature","saisons"]}
+{"id":"enfance-062","type":"choice","text":"Dans la classe, où préférais-tu t'asseoir ?","options":["Au premier rang","Près du radiateur","Au fond, près de la fenêtre","Là où on me plaçait"],"tags":["école","drôle"]}
+{"id":"enfance-063","type":"text","text":"Quel vêtement d'enfance adorais-tu au point de vouloir le porter tous les jours ?","tags":["mode","nostalgie"]}
+{"id":"enfance-064","type":"text","text":"Quelle peur d'enfant as-tu complètement dépassée aujourd'hui ?","tags":["peurs","réflexion"]}
+{"id":"enfance-065","type":"scale","text":"Les grandes vacances te semblaient-elles courtes ou interminables ?","minLabel":"Trop courtes","maxLabel":"Une éternité","tags":["vacances","nostalgie"]}
+{"id":"enfance-066","type":"text","text":"Quel film t'a fait pleurer ou rêver quand tu étais enfant ?","tags":["cinéma","émotions"]}
+{"id":"enfance-067","type":"choice","text":"Quelle friandise achetais-tu en priorité avec ta petite monnaie ?","options":["Des bonbons au détail","Une barre chocolatée","Un pain au chocolat","Des chewing-gums"],"tags":["nourriture","nostalgie"]}
+{"id":"enfance-068","type":"text","text":"Quel jeu inventé de toutes pièces, avec ses propres règles, t'amusait le plus ?","tags":["jeux","imagination"]}
+{"id":"enfance-069","type":"who","text":"Qui de nous deux pleurait le plus devant les dessins animés tristes ?","tags":["émotions","télé"]}
+{"id":"enfance-070","type":"text","text":"Quelle phrase qu'un adulte répétait souvent dans ton enfance te fait sourire aujourd'hui ?","tags":["famille","nostalgie"]}
+{"id":"enfance-071","type":"scale","text":"Quelle place la lecture tenait-elle dans tes journées d'enfant ?","minLabel":"Jamais de moi-même","maxLabel":"Un livre par jour","tags":["lecture","habitudes"]}
+{"id":"enfance-072","type":"text","text":"Quelle excursion d'enfance te semblait être la plus grande aventure du monde ?","tags":["voyages","aventure"]}
+{"id":"enfance-073","type":"choice","text":"Quel instrument de musique t'attirait le plus enfant ?","options":["Le piano","La guitare","La batterie","La flûte à bec"],"tags":["musique","rêves"]}
+{"id":"enfance-074","type":"text","text":"Quelle était ta tactique pour obtenir ce que tu voulais des adultes ?","tags":["drôle","famille"]}
+{"id":"enfance-075","type":"text","text":"Quel moment gênant à l'école te fait rire aujourd'hui avec le recul ?","tags":["école","drôle"]}
+{"id":"enfance-076","type":"choice","text":"Quel type de jeu te captivait le plus enfant ?","options":["Les jeux vidéo","Les jeux de construction","Les jeux d'imitation","Les jeux de plein air"],"tags":["jeux","goûts"]}
+{"id":"enfance-077","type":"text","text":"Quel cadeau d'enfance as-tu espéré pendant des mois ?","tags":["cadeaux","rêves"]}
+{"id":"enfance-078","type":"scale","text":"Enfant, à quel point les manèges à sensations te terrifiaient-ils ?","minLabel":"Toujours devant","maxLabel":"Jamais de la vie","tags":["peurs","sorties"]}
+{"id":"enfance-079","type":"text","text":"Quel son typique de ton enfance reconnaîtrais-tu les yeux fermés ?","tags":["sens","nostalgie"]}
+{"id":"enfance-080","type":"text","text":"Que faisais-tu avec ton meilleur ami ou ta meilleure amie de primaire ?","tags":["amis","école"]}
+{"id":"enfance-081","type":"text","text":"Quelle récompense te motivait le plus après une bonne note ou une bonne action ?","tags":["école","famille"]}
+{"id":"enfance-082","type":"choice","text":"À quel âge as-tu cessé de croire à la petite souris ou au père Noël ?","options":["Avant 6 ans","Entre 6 et 8 ans","Après 8 ans","Je n'y ai jamais cru"],"tags":["croyances","léger"]}
+{"id":"enfance-083","type":"text","text":"Quel était ton petit-déjeuner idéal un jour sans école ?","tags":["nourriture","habitudes"]}
+{"id":"enfance-084","type":"who","text":"Qui de nous deux était le plus souvent dans la lune en classe ?","tags":["école","drôle"]}
+{"id":"enfance-085","type":"text","text":"Quel personnage de livre ou de conte aurais-tu aimé avoir à tes côtés ?","tags":["lecture","imagination"]}
+{"id":"enfance-086","type":"scale","text":"À quel point ressembles-tu encore à l'enfant que tu étais ?","minLabel":"Plus rien à voir","maxLabel":"Comme deux gouttes d'eau","tags":["réflexion","personnalité"]}
+{"id":"enfance-087","type":"choice","text":"Après une bêtise, quelle était ta stratégie ?","options":["Avouer tout de suite","Nier en bloc","Accuser quelqu'un d'autre","Disparaître discrètement"],"tags":["bêtises","drôle"]}
+{"id":"enfance-088","type":"text","text":"Quel générique de dessin animé pourrais-tu chanter sans hésiter, là, tout de suite ?","tags":["télé","musique"]}
+{"id":"enfance-089","type":"text","text":"Quel exploit sportif ou physique d'enfance racontes-tu encore avec fierté ?","tags":["sport","fierté"]}
+{"id":"enfance-090","type":"choice","text":"Quel rôle tenais-tu le plus souvent dans les jeux de la cour ?","options":["Mener les jeux","Faire rire les autres","Observer de loin","Arbitrer les disputes"],"tags":["école","personnalité"]}
+{"id":"enfance-091","type":"text","text":"Quelle activité après l'école attendais-tu le plus dans la semaine ?","tags":["loisirs","habitudes"]}
+{"id":"enfance-092","type":"text","text":"Quel mot inventé ou quelle expression bizarre utilisais-tu enfant ?","tags":["langage","drôle"]}
+{"id":"enfance-093","type":"scale","text":"Les sorties scolaires, c'était plutôt une épreuve ou une fête pour toi ?","minLabel":"Mal des transports","maxLabel":"Excitation totale","tags":["école","sorties"]}
+{"id":"enfance-094","type":"who","text":"Qui de nous deux a eu la coupe de cheveux la plus discutable enfant ?","tags":["drôle","look"]}
+{"id":"enfance-095","type":"text","text":"Quelle mode d'adolescence regrettes-tu le plus d'avoir suivie ?","tags":["mode","adolescence"]}
+{"id":"enfance-096","type":"choice","text":"Ado, avec quoi décorais-tu les murs de ton coin à toi ?","options":["Des posters","Des photos","Des dessins","Rien du tout"],"tags":["adolescence","maison"]}
+{"id":"enfance-097","type":"text","text":"Quel artiste ou groupe écoutais-tu en boucle à l'adolescence ?","tags":["musique","adolescence"]}
+{"id":"enfance-098","type":"text","text":"Qu'est-ce qui te paraissait le plus « cool » du monde à douze ans ?","tags":["adolescence","drôle"]}
+{"id":"enfance-099","type":"scale","text":"À quel point étais-tu rebelle à l'adolescence ?","minLabel":"Sage comme une image","maxLabel":"Tempête permanente","tags":["adolescence","personnalité"]}
+{"id":"enfance-100","type":"choice","text":"À l'adolescence, où passais-tu la plupart de ton temps libre ?","options":["Dehors avec des amis","Au téléphone ou en ligne","Dans mon coin","Au sport ou en activité"],"tags":["adolescence","amis"]}
+{"id":"enfance-101","type":"text","text":"Quelle star a été ton tout premier coup de cœur d'ado ?","tags":["adolescence","idoles"]}
+{"id":"enfance-102","type":"text","text":"Quel rêve d'adolescence a complètement changé en grandissant ?","tags":["rêves","adolescence"]}
+{"id":"enfance-103","type":"who","text":"Qui de nous deux passait le plus de temps au téléphone à l'adolescence ?","tags":["adolescence","habitudes"]}
+{"id":"enfance-104","type":"text","text":"Qu'aurais-tu écrit dans ton journal intime à quatorze ans, en une phrase ?","tags":["adolescence","secrets"]}
+{"id":"enfance-105","type":"choice","text":"Quelle activité de vacances attendais-tu le plus ?","options":["Les baignades","Les balades à vélo","Les jeux entre enfants","Les grasses matinées"],"tags":["vacances","loisirs"]}
+{"id":"enfance-106","type":"text","text":"Quel paysage de ton enfance reste gravé dans ta mémoire ?","tags":["nature","vacances"]}
+{"id":"enfance-107","type":"text","text":"Quel objet de ton enfance as-tu gardé jusqu'à aujourd'hui ?","tags":["objets","nostalgie"]}
+{"id":"enfance-108","type":"scale","text":"Les fêtes d'anniversaire entre enfants, ça te stressait ou ça te mettait en joie ?","minLabel":"Gros stress","maxLabel":"Le meilleur jour","tags":["fête","amis"]}
+{"id":"enfance-109","type":"choice","text":"Quel était ton passe-temps préféré quand tu jouais sans personne ?","options":["Dessiner","Lire","Construire des choses","Rêvasser"],"tags":["loisirs","imagination"]}
+{"id":"enfance-110","type":"text","text":"Quelle dispute pour un jouet ou un jeu te fait encore sourire aujourd'hui ?","tags":["jeux","drôle"]}
+{"id":"enfance-111","type":"text","text":"Quel rituel du soir, avant de dormir, t'apaisait quand tu étais enfant ?","tags":["habitudes","tendresse"]}
+{"id":"enfance-112","type":"who","text":"Qui de nous deux mangeait le plus de bonbons en cachette ?","tags":["nourriture","bêtises"]}
+{"id":"enfance-113","type":"choice","text":"Quelle période de ton enfance aimerais-tu revivre le temps d'une journée ?","options":["Avant 6 ans","Entre 6 et 10 ans","Entre 10 et 14 ans","Plus tard, à l'adolescence"],"tags":["nostalgie","réflexion"]}
+{"id":"enfance-114","type":"text","text":"Quel talent d'enfant as-tu perdu en grandissant ?","tags":["talents","réflexion"]}
+{"id":"enfance-115","type":"text","text":"Quel dessin ou bricolage d'enfance mériterait d'être exposé dans un musée ?","tags":["créativité","drôle"]}
+{"id":"enfance-116","type":"scale","text":"Après avoir joué dehors, dans quel état rentrais-tu ?","minLabel":"Toujours impeccable","maxLabel":"Boue jusqu'aux oreilles","tags":["jeux","nature"]}
+{"id":"enfance-117","type":"choice","text":"Quand tu étais enfant, quel moment de la journée préférais-tu ?","options":["Le réveil","La récré","Le goûter","L'histoire du soir"],"tags":["habitudes","nostalgie"]}
+{"id":"enfance-118","type":"text","text":"Quel mensonge d'enfant as-tu tenu le plus longtemps ?","tags":["bêtises","drôle"]}
+{"id":"enfance-119","type":"text","text":"Quelle chose interdite dans ton enfance fais-tu aujourd'hui avec délice ?","tags":["drôle","liberté"]}
+{"id":"enfance-120","type":"choice","text":"Quelle sortie te faisait le plus rêver enfant ?","options":["Le cirque","Le zoo","La fête foraine","Le cinéma"],"tags":["sorties","rêves"]}
+{"id":"enfance-121","type":"text","text":"Quel record d'enfance pensais-tu sincèrement détenir ?","tags":["drôle","fierté"]}
+{"id":"enfance-122","type":"scale","text":"Faire tes devoirs, c'était plutôt une torture ou un plaisir secret ?","minLabel":"Torture","maxLabel":"Plaisir secret","tags":["école","habitudes"]}
+{"id":"enfance-123","type":"choice","text":"Quel était ton terrain de jeu favori ?","options":["La rue ou le quartier","Un parc ou un jardin","La plage","Chez des amis"],"tags":["jeux","lieux"]}
+{"id":"enfance-124","type":"text","text":"Quelle personne âgée de ton entourage d'enfance t'a transmis quelque chose d'important ?","tags":["famille","transmission"]}
+{"id":"enfance-125","type":"who","text":"Qui de nous deux a eu le plus de mal à apprendre à faire du vélo ?","tags":["sport","drôle"]}
+{"id":"enfance-126","type":"text","text":"Comment te consolais-tu après une mauvaise journée d'école ?","tags":["école","émotions"]}
+{"id":"enfance-127","type":"text","text":"Quel compliment reçu enfant te revient encore en mémoire ?","tags":["émotions","tendresse"]}
+{"id":"enfance-128","type":"choice","text":"Comment occupais-tu les longs trajets en voiture ou en train ?","options":["En regardant le paysage","En dormant","En jouant à des jeux","En demandant « on arrive ? »"],"tags":["voyages","drôle"]}
+{"id":"enfance-129","type":"text","text":"Quelle construction d'enfance, en sable, en neige ou en briques, mérite ta médaille d'or ?","tags":["jeux","créativité"]}
+{"id":"enfance-130","type":"scale","text":"À quel point les grands t'impressionnaient-ils en arrivant au collège ?","minLabel":"Pas du tout","maxLabel":"Terreur absolue","tags":["école","peurs"]}
+{"id":"enfance-131","type":"text","text":"Quel fou rire en classe t'a valu les gros yeux d'un adulte ?","tags":["école","drôle"]}
+{"id":"enfance-132","type":"who","text":"Qui de nous deux regardait le plus la télé le samedi matin ?","tags":["télé","habitudes"]}
+{"id":"enfance-133","type":"text","text":"Quel métier exercé par un adulte de ton entourage te fascinait enfant ?","tags":["métiers","curiosité"]}
+{"id":"enfance-134","type":"choice","text":"À quoi ressemblait ton cartable idéal ?","options":["Avec un personnage de dessin animé","Le plus sobre possible","Couvert de badges et de dessins","Celui à la mode, forcément"],"tags":["école","mode"]}
+{"id":"enfance-135","type":"text","text":"Que faisais-tu de tes premières pièces ou de ton argent de poche ?","tags":["argent","drôle"]}
+{"id":"enfance-136","type":"text","text":"Quel geste ou quelle expression tiens-tu d'une personne de ton enfance ?","tags":["famille","transmission"]}
+{"id":"enfance-137","type":"scale","text":"À quel point étais-tu libre de jouer dehors sans adulte ?","minLabel":"Jamais sans adulte","maxLabel":"Libre comme l'air","tags":["liberté","jeux"]}
+{"id":"enfance-138","type":"choice","text":"Quelle épreuve d'enfance te paraissait la plus héroïque ?","options":["Perdre une dent","Le premier plongeon","Dormir hors de chez moi","Parler devant la classe"],"tags":["drôle","courage"]}
+{"id":"enfance-139","type":"text","text":"Qu'imaginais-tu que les adultes faisaient une fois les enfants couchés ?","tags":["imagination","drôle"]}
+{"id":"enfance-140","type":"text","text":"Quel détail de ta cour d'école te revient avec une précision étonnante ?","tags":["école","nostalgie"]}
+{"id":"enfance-141","type":"who","text":"Qui de nous deux a le plus souvent perdu ses affaires à l'école ?","tags":["école","drôle"]}
+{"id":"enfance-142","type":"text","text":"Quelle tradition de ton enfance, petite ou grande, aimerais-tu perpétuer ?","tags":["traditions","réflexion"]}
+{"id":"enfance-143","type":"scale","text":"Le week-end, à quel point aimais-tu traîner en pyjama ?","minLabel":"Pyjama ? Jamais","maxLabel":"Jusqu'au soir","tags":["habitudes","drôle"]}
+{"id":"enfance-144","type":"choice","text":"Quelle tâche à la maison te plaisait le moins ?","options":["Mettre la table","Ranger mes affaires","Faire la vaisselle","Sortir les poubelles"],"tags":["maison","habitudes"]}
+{"id":"enfance-145","type":"text","text":"Quel jeu ou jouet te fait dire « c'était mieux avant » ?","tags":["jeux","nostalgie"]}
+{"id":"enfance-146","type":"text","text":"Quelles aventures imaginaires faisais-tu vivre à tes jouets ?","tags":["imagination","jouets"]}
+{"id":"enfance-147","type":"choice","text":"Enfant, à quel âge pensais-tu qu'on devenait adulte ?","options":["À 10 ans","À 15 ans","À 18 ans","À 30 ans"],"tags":["drôle","réflexion"]}
+{"id":"enfance-148","type":"text","text":"Quel goût de bonbon, de sirop ou de glace te replonge aussitôt en enfance ?","tags":["nourriture","sens"]}
+{"id":"enfance-149","type":"scale","text":"Les dimanches de ton enfance te paraissaient-ils interminables ou merveilleux ?","minLabel":"Trop longs","maxLabel":"Les meilleurs jours","tags":["habitudes","nostalgie"]}
+{"id":"enfance-150","type":"who","text":"Qui de nous deux avait les cahiers les mieux tenus ?","tags":["école","habitudes"]}
+{"id":"enfance-151","type":"text","text":"Quel était ton plan pour devenir riche, célèbre ou invincible à neuf ans ?","tags":["rêves","drôle"]}
+{"id":"enfance-152","type":"text","text":"Quel moment de ton enfance aurais-tu aimé partager avec moi ?","tags":["partage","tendresse"]}
+{"id":"enfance-153","type":"choice","text":"Quelle catégorie de bêtises était ta spécialité ?","options":["Grimper où il ne fallait pas","Chiper des friandises","Faire des farces","Désobéir pour rester dehors"],"tags":["bêtises","drôle"]}
+{"id":"enfance-154","type":"text","text":"Quel trait de ton caractère d'aujourd'hui était déjà là quand tu étais enfant ?","tags":["personnalité","réflexion"]}
+{"id":"enfance-155","type":"scale","text":"À quel point ta vie d'aujourd'hui plairait-elle à l'enfant que tu étais ?","minLabel":"Grosse déception","maxLabel":"Rêve devenu réalité","tags":["réflexion","rêves"]}
+{"id":"enfance-156","type":"text","text":"Quel conseil donnerais-tu à l'enfant que tu étais, la veille de sa rentrée ?","tags":["réflexion","tendresse"]}
+{"id":"enfance-157","type":"who","text":"Qui de nous deux aurait entraîné l'autre dans des bêtises si on avait grandi dans la même rue ?","tags":["drôle","imagination"]}
+{"id":"enfance-158","type":"choice","text":"Si on avait été dans la même classe, à quoi aurait ressemblé notre lien ?","options":["Inséparables","En compétition permanente","Complices de bêtises","Sans jamais se parler"],"tags":["imagination","couple"]}
+{"id":"enfance-159","type":"text","text":"Quel souvenir d'enfance aimerais-tu qu'on recrée ensemble un jour ?","tags":["partage","couple"]}
+{"id":"enfance-160","type":"text","text":"Quelle part de l'enfant que tu étais veux-tu garder toute ta vie ?","tags":["réflexion","tendresse"]}

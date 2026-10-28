@@ -1,0 +1,160 @@
+{"id":"hypothetique-001","type":"text","text":"Si tu pouvais avoir un super-pouvoir pendant une seule journée, lequel choisirais-tu et qu'en ferais-tu ?","tags":["pouvoirs"]}
+{"id":"hypothetique-002","type":"choice","text":"Si tu avais une machine à voyager dans le temps pour un seul voyage, où irais-tu ?","options":["Voir les dinosaures","Un grand moment de l'Histoire","Le futur, dans 500 ans"],"tags":["temps","voyage"]}
+{"id":"hypothetique-003","type":"scale","text":"Si tu gagnais au loto demain, à quel point ta vie changerait-elle ?","minLabel":"Presque pas","maxLabel":"Du tout au tout","tags":["argent","réflexion"]}
+{"id":"hypothetique-004","type":"who","text":"Sur une île déserte, qui de nous deux trouverait de quoi manger en premier ?","tags":["survie","drôle"]}
+{"id":"hypothetique-005","type":"text","text":"Si tu gagnais un million d'euros, quelle serait la toute première chose que tu t'offrirais ?","tags":["argent","rêves"]}
+{"id":"hypothetique-006","type":"text","text":"Et si on échangeait nos vies pendant une journée : qu'est-ce que tu ferais en premier ?","tags":["couple","drôle"]}
+{"id":"hypothetique-007","type":"text","text":"Si tu pouvais vivre à n'importe quelle époque, laquelle choisirais-tu et pourquoi ?","tags":["temps","rêves"]}
+{"id":"hypothetique-008","type":"text","text":"Si tu partais sur une île déserte, quels sont les trois objets que tu emporterais ?","tags":["survie","voyage"]}
+{"id":"hypothetique-009","type":"choice","text":"Si tu pouvais maîtriser un élément, lequel choisirais-tu ?","options":["Le feu","L'eau","L'air","La terre"],"tags":["pouvoirs"]}
+{"id":"hypothetique-010","type":"text","text":"Si tu devenais invisible pendant une journée, quelle petite bêtise ferais-tu ?","tags":["pouvoirs","drôle"]}
+{"id":"hypothetique-011","type":"scale","text":"Si on partait vivre un an sur un voilier, combien de temps tiendrais-tu avant de vouloir rentrer ?","minLabel":"Une semaine","maxLabel":"Toute l'année, facile","tags":["voyage","couple"]}
+{"id":"hypothetique-012","type":"text","text":"Si tu pouvais dîner avec n'importe quelle personnalité, réelle ou de fiction, qui inviterais-tu ?","tags":["rêves"]}
+{"id":"hypothetique-013","type":"text","text":"Imagine que tu te réveilles demain dans la peau d'un chat : comment occupes-tu ta journée ?","tags":["absurde","drôle"]}
+{"id":"hypothetique-014","type":"who","text":"Si on était dans un film d'horreur, qui de nous deux ouvrirait la porte qu'il ne fallait surtout pas ouvrir ?","tags":["cinéma","drôle"]}
+{"id":"hypothetique-015","type":"text","text":"Si tu pouvais changer une seule règle de la société, laquelle changerais-tu ?","tags":["réflexion"]}
+{"id":"hypothetique-016","type":"text","text":"Si tu pouvais maîtriser une compétence du jour au lendemain, laquelle choisirais-tu ?","tags":["talents","rêves"]}
+{"id":"hypothetique-017","type":"choice","text":"Si tu devais partir vivre un an sur un autre continent, lequel choisirais-tu ?","options":["L'Asie","L'Amérique du Sud","L'Afrique","L'Océanie"],"tags":["voyage"]}
+{"id":"hypothetique-018","type":"text","text":"Si tu ouvrais un restaurant, quel serait son nom et son plat signature ?","tags":["nourriture","rêves"]}
+{"id":"hypothetique-019","type":"scale","text":"Si tu pouvais lire dans les pensées de ta moitié pendant une journée, à quel point en aurais-tu envie ?","minLabel":"Surtout pas !","maxLabel":"Tout de suite !","tags":["couple","pouvoirs"]}
+{"id":"hypothetique-020","type":"text","text":"Si tu pouvais revivre une journée de ta vie, laquelle choisirais-tu ?","tags":["souvenirs","réflexion"]}
+{"id":"hypothetique-021","type":"text","text":"Si notre couple était un film, quel en serait le titre ?","tags":["couple","drôle"]}
+{"id":"hypothetique-022","type":"text","text":"Si un génie t'accordait trois vœux, mais aucun pour toi-même, que souhaiterais-tu ?","tags":["valeurs","rêves"]}
+{"id":"hypothetique-023","type":"choice","text":"Si tu avais un jet privé pour un week-end, où partirais-tu ?","options":["Une plage paradisiaque","Une grande capitale","Un chalet en montagne","Un festival géant"],"tags":["voyage","argent"]}
+{"id":"hypothetique-024","type":"text","text":"Si tu étais un personnage de dessin animé, lequel serais-tu ?","tags":["imaginaire","drôle"]}
+{"id":"hypothetique-025","type":"who","text":"Si on gagnait au loto, qui de nous deux aurait tout dépensé au bout d'un mois ?","tags":["argent","drôle"]}
+{"id":"hypothetique-026","type":"text","text":"Si tu pouvais parler couramment une nouvelle langue du jour au lendemain, laquelle choisirais-tu ?","tags":["apprentissage","voyage"]}
+{"id":"hypothetique-027","type":"text","text":"Si tu pouvais assister au concert de tes rêves, avec n'importe quel artiste de n'importe quelle époque, lequel serait-ce ?","tags":["musique","rêves"]}
+{"id":"hypothetique-028","type":"scale","text":"Si tu pouvais tout plaquer pour ouvrir une petite librairie-café, à quel point ça te tenterait ?","minLabel":"Pas du tout","maxLabel":"Je signe demain","tags":["travail","rêves"]}
+{"id":"hypothetique-029","type":"text","text":"Si tu inventais une fête nationale, qu'est-ce qu'on y célébrerait et comment ?","tags":["absurde","créativité"]}
+{"id":"hypothetique-030","type":"text","text":"Si tu pouvais créer un métier qui n'existe pas encore, quel serait-il ?","tags":["travail","créativité"]}
+{"id":"hypothetique-031","type":"choice","text":"Si tu pouvais habiter dans un lieu insolite, lequel choisirais-tu ?","options":["Un phare","Une péniche","Un moulin","Une yourte"],"tags":["maison","rêves"]}
+{"id":"hypothetique-032","type":"choice","text":"Si tu pouvais effacer une invention de l'histoire, laquelle choisirais-tu ?","options":["Le réveil-matin","Les réseaux sociaux","La télé-réalité","Les notifications"],"tags":["réflexion","drôle"]}
+{"id":"hypothetique-033","type":"text","text":"Avec une machine à remonter le temps, que dirais-tu à ton toi de 15 ans ?","tags":["temps","réflexion"]}
+{"id":"hypothetique-034","type":"scale","text":"Si tu devais survivre une semaine en pleine nature, à quel point te sentirais-tu à l'aise ?","minLabel":"Panique totale","maxLabel":"Dans mon élément","tags":["nature","survie"]}
+{"id":"hypothetique-035","type":"text","text":"Si tu pouvais rendre gratuite une seule chose dans le monde, laquelle serait-ce ?","tags":["valeurs","réflexion"]}
+{"id":"hypothetique-036","type":"who","text":"Si on participait à une émission de télé-réalité, qui de nous deux craquerait en premier ?","tags":["drôle"]}
+{"id":"hypothetique-037","type":"text","text":"Si tu ne pouvais emporter qu'un seul souvenir de notre couple sur une autre planète, lequel serait-ce ?","tags":["couple","romantique"]}
+{"id":"hypothetique-038","type":"text","text":"Si tu étais à la tête du pays pendant une semaine, quelle serait ta toute première décision ?","tags":["réflexion","drôle"]}
+{"id":"hypothetique-039","type":"choice","text":"Si tu pouvais voyager dans le temps, mais seulement dans ta propre vie, où irais-tu ?","options":["Dans mon enfance","Au jour de notre rencontre","Dans 10 ans","Dans 40 ans"],"tags":["temps","couple"]}
+{"id":"hypothetique-040","type":"text","text":"Si tu pouvais inventer un gadget pour te simplifier la vie, que ferait-il ?","tags":["quotidien","créativité"]}
+{"id":"hypothetique-041","type":"text","text":"Si on pouvait partir demain n'importe où pendant un mois, où aimerais-tu qu'on aille ?","tags":["voyage","couple"]}
+{"id":"hypothetique-042","type":"scale","text":"Si quelqu'un pouvait te prédire ton avenir, à quel point aurais-tu envie de l'écouter ?","minLabel":"Jamais de la vie","maxLabel":"Raconte-moi tout !","tags":["futur","réflexion"]}
+{"id":"hypothetique-043","type":"text","text":"Si tu pouvais te dédoubler, que ferait ton double pendant que tu te reposes ?","tags":["pouvoirs","drôle"]}
+{"id":"hypothetique-044","type":"text","text":"Si tu devais changer de prénom pendant un an, lequel choisirais-tu ?","tags":["drôle","identité"]}
+{"id":"hypothetique-045","type":"choice","text":"Si tu héritais d'un vieux château, qu'en ferais-tu ?","options":["Y vivre","En faire un hôtel","Y organiser des fêtes","Le revendre aussitôt"],"tags":["argent","rêves"]}
+{"id":"hypothetique-046","type":"text","text":"Si les animaux pouvaient voter, lequel se présenterait en premier et quel serait son programme ?","tags":["absurde","animaux"]}
+{"id":"hypothetique-047","type":"who","text":"Si on se perdait en pleine forêt, qui de nous deux retrouverait le chemin ?","tags":["nature","couple"]}
+{"id":"hypothetique-048","type":"text","text":"Si tu pouvais goûter un plat de n'importe quelle époque, lequel voudrais-tu goûter ?","tags":["nourriture","temps"]}
+{"id":"hypothetique-049","type":"text","text":"Si tu croisais ton toi du futur pendant cinq minutes, quelle question lui poserais-tu ?","tags":["futur","réflexion"]}
+{"id":"hypothetique-050","type":"scale","text":"Si on te proposait un voyage touristique sur la Lune, à quel point aurais-tu envie de signer ?","minLabel":"Les pieds sur Terre !","maxLabel":"Je pars demain","tags":["espace","aventure"]}
+{"id":"hypothetique-051","type":"text","text":"Si tu pouvais rendre magique un objet du quotidien, lequel choisirais-tu et quel serait son pouvoir ?","tags":["absurde","imaginaire"]}
+{"id":"hypothetique-052","type":"text","text":"Si tu écrivais ton autobiographie, quel en serait le titre ?","tags":["réflexion","drôle"]}
+{"id":"hypothetique-053","type":"choice","text":"Si tu pouvais recevoir un don artistique du jour au lendemain, lequel choisirais-tu ?","options":["Le chant","La peinture","La danse","L'écriture"],"tags":["talents"]}
+{"id":"hypothetique-054","type":"text","text":"Si on ouvrait une boutique ensemble, qu'est-ce qu'on y vendrait ?","tags":["couple","travail"]}
+{"id":"hypothetique-055","type":"text","text":"Si tu pouvais vivre une journée dans la peau de quelqu'un de célèbre, qui choisirais-tu ?","tags":["rêves","drôle"]}
+{"id":"hypothetique-056","type":"scale","text":"Si on devait passer un mois sur une île déserte, à quel point notre couple s'en sortirait-il ?","minLabel":"Naufrage assuré","maxLabel":"Le paradis à deux","tags":["couple","survie"]}
+{"id":"hypothetique-057","type":"text","text":"Si on ajoutait un huitième jour à la semaine, comment s'appellerait-il et à quoi servirait-il ?","tags":["absurde","quotidien"]}
+{"id":"hypothetique-058","type":"text","text":"Si tu pouvais passer une nuit dans n'importe quel musée du monde, lequel choisirais-tu ?","tags":["culture","voyage"]}
+{"id":"hypothetique-059","type":"who","text":"Si des extraterrestres débarquaient demain, qui de nous deux irait les saluer en premier ?","tags":["absurde","drôle"]}
+{"id":"hypothetique-060","type":"text","text":"Si tu pouvais revivre le jour de notre rencontre, qu'est-ce que tu ferais différemment ?","tags":["couple","souvenirs"]}
+{"id":"hypothetique-061","type":"choice","text":"Si tu pouvais avoir l'un de tes sens décuplé, lequel choisirais-tu ?","options":["La vue","L'ouïe","L'odorat","Le goût"],"tags":["pouvoirs","sens"]}
+{"id":"hypothetique-062","type":"text","text":"Si tu devais vivre sans téléphone pendant un mois, qu'est-ce qui te manquerait le plus ?","tags":["quotidien","réflexion"]}
+{"id":"hypothetique-063","type":"text","text":"Si tu pouvais créer une nouvelle saveur de glace, quels ingrédients y mettrais-tu ?","tags":["nourriture","créativité"]}
+{"id":"hypothetique-064","type":"scale","text":"Si tu pouvais savoir tout ce que les gens pensent de toi, à quel point voudrais-tu le savoir ?","minLabel":"Je préfère ignorer","maxLabel":"Je veux tout savoir","tags":["réflexion"]}
+{"id":"hypothetique-065","type":"text","text":"Si la gravité disparaissait une heure par jour, que ferais-tu pendant cette heure-là ?","tags":["absurde"]}
+{"id":"hypothetique-066","type":"text","text":"Si tu pouvais offrir un super-pouvoir à quelqu'un que tu aimes, lequel lui donnerais-tu ?","tags":["pouvoirs","tendre"]}
+{"id":"hypothetique-067","type":"who","text":"Si on partait faire le tour du monde, qui de nous deux voudrait rentrer en premier ?","tags":["voyage","couple"]}
+{"id":"hypothetique-068","type":"text","text":"Si tu étais un plat, lequel serais-tu et pourquoi ?","tags":["nourriture","drôle"]}
+{"id":"hypothetique-069","type":"choice","text":"Si tu pouvais te téléporter pour le petit-déjeuner demain matin, où irais-tu ?","options":["Un café à Paris","Un marché à Bangkok","Une terrasse à Rome","Un bagel à New York"],"tags":["nourriture","voyage"]}
+{"id":"hypothetique-070","type":"text","text":"Si tu avais un terrain immense, qu'est-ce que tu y construirais ?","tags":["rêves","maison"]}
+{"id":"hypothetique-071","type":"text","text":"Si tu pouvais détenir le record du monde dans un domaine totalement inutile, lequel choisirais-tu ?","tags":["absurde","drôle"]}
+{"id":"hypothetique-072","type":"scale","text":"Si on partait six mois à l'autre bout du monde, à quel point ça te ferait envie ?","minLabel":"Pas vraiment","maxLabel":"Valises déjà prêtes","tags":["voyage","couple"]}
+{"id":"hypothetique-073","type":"text","text":"Si ta vie avait une bande originale, quelle chanson jouerait au générique de début ?","tags":["musique"]}
+{"id":"hypothetique-074","type":"text","text":"Si tu avais un an de congé payé, comment l'utiliserais-tu ?","tags":["travail","rêves"]}
+{"id":"hypothetique-075","type":"text","text":"Si tu pouvais passer une journée dans la tête de quelqu'un de ton entourage, qui choisirais-tu ?","tags":["drôle","réflexion"]}
+{"id":"hypothetique-076","type":"choice","text":"Si tu pouvais vivre dans une ville imaginaire, où serait-elle ?","options":["Sous la mer","Dans les nuages","Dans une forêt géante","Sur Mars"],"tags":["imaginaire"]}
+{"id":"hypothetique-077","type":"choice","text":"Si tu étais une couleur aujourd'hui, laquelle serais-tu ?","options":["Rouge passion","Bleu calme","Jaune soleil","Vert nature"],"tags":["léger"]}
+{"id":"hypothetique-078","type":"who","text":"Dans une course-poursuite digne d'un film d'action, qui de nous deux serait au volant ?","tags":["drôle","cinéma"]}
+{"id":"hypothetique-079","type":"text","text":"Si tu pouvais faire un cadeau à toute l'humanité, que lui offrirais-tu ?","tags":["valeurs"]}
+{"id":"hypothetique-080","type":"scale","text":"Si on t'offrait une grosse somme pour renoncer à internet pendant un an, à quel point ce serait facile d'accepter ?","minLabel":"Impossible","maxLabel":"Sans hésiter","tags":["argent","quotidien"]}
+{"id":"hypothetique-081","type":"text","text":"Si tu devais séduire ta moitié à nouveau, comme au tout premier jour, quelle serait ta technique ?","tags":["couple","romantique"]}
+{"id":"hypothetique-082","type":"text","text":"Si tu participais à une émission de cuisine, quel plat présenterais-tu pour gagner ?","tags":["nourriture"]}
+{"id":"hypothetique-083","type":"text","text":"Si un oracle qui ne se trompe jamais acceptait de répondre à une seule question, que lui demanderais-tu ?","tags":["réflexion"]}
+{"id":"hypothetique-084","type":"choice","text":"Si tu avais des super-pouvoirs, quel serait ton point faible ?","options":["Le chocolat","Les chatons","Les lundis matin","Les chansons ringardes"],"tags":["drôle","pouvoirs"]}
+{"id":"hypothetique-085","type":"text","text":"Si on créait un musée consacré à notre couple, quelle en serait la pièce maîtresse ?","tags":["couple","souvenirs"]}
+{"id":"hypothetique-086","type":"text","text":"Si tu pouvais connaître la vérité sur un grand mystère, lequel choisirais-tu ?","tags":["réflexion","mystère"]}
+{"id":"hypothetique-087","type":"scale","text":"Si tu gagnais au loto, à quel point continuerais-tu à travailler ?","minLabel":"Démission immédiate","maxLabel":"Rien ne change","tags":["argent","travail"]}
+{"id":"hypothetique-088","type":"text","text":"Si tu pouvais faire apparaître un lieu de ton enfance juste à côté de chez toi, lequel serait-ce ?","tags":["enfance","souvenirs"]}
+{"id":"hypothetique-089","type":"who","text":"Si on devait mener une mission d'espionnage, qui de nous deux se ferait repérer en premier ?","tags":["drôle","couple"]}
+{"id":"hypothetique-090","type":"text","text":"Si tu pouvais figer un seul instant de notre histoire pour toujours, lequel choisirais-tu ?","tags":["couple","romantique"]}
+{"id":"hypothetique-091","type":"choice","text":"Si tu étais un objet de la maison, lequel serais-tu ?","options":["Le canapé","La lampe de chevet","La bouilloire","Le frigo"],"tags":["absurde","drôle"]}
+{"id":"hypothetique-092","type":"choice","text":"Si tu devais t'habiller comme à une seule époque pour toujours, laquelle choisirais-tu ?","options":["Les années 20","Les années 60","Les années 80","Les années 2000"],"tags":["mode","temps"]}
+{"id":"hypothetique-093","type":"text","text":"Si tu pouvais organiser la fête parfaite sans limite de budget, à quoi ressemblerait-elle ?","tags":["fête","rêves"]}
+{"id":"hypothetique-094","type":"choice","text":"Si tu pouvais te téléporter n'importe où pour la prochaine heure, où irais-tu ?","options":["Une plage déserte","Un sommet enneigé","Une ville trépidante","Une forêt silencieuse"],"tags":["voyage","pouvoirs"]}
+{"id":"hypothetique-095","type":"scale","text":"Si tu croisais ton sosie parfait dans la rue, à quel point ça te ferait flipper ?","minLabel":"Trop drôle !","maxLabel":"Terrifiant","tags":["absurde"]}
+{"id":"hypothetique-096","type":"text","text":"Si on écrivait un livre à quatre mains, quel en serait le sujet ?","tags":["couple","créativité"]}
+{"id":"hypothetique-097","type":"text","text":"Si tu pouvais réaliser un vrai tour de magie, lequel ferais-tu en premier ?","tags":["pouvoirs","drôle"]}
+{"id":"hypothetique-098","type":"who","text":"Si on gardait un perroquet pendant une semaine, qui de nous deux lui apprendrait des bêtises ?","tags":["drôle","animaux"]}
+{"id":"hypothetique-099","type":"text","text":"Si un extraterrestre te demandait de lui expliquer l'amour en trois phrases, que lui dirais-tu ?","tags":["réflexion","romantique"]}
+{"id":"hypothetique-100","type":"text","text":"Si notre couple avait un hymne officiel, quelle chanson serait-ce ?","tags":["couple","musique"]}
+{"id":"hypothetique-101","type":"choice","text":"Si tu ne pouvais te déplacer que d'une seule façon originale, laquelle choisirais-tu ?","options":["Tapis volant","Trottinette à réaction","Dos de dragon","Toboggan géant"],"tags":["absurde","pouvoirs"]}
+{"id":"hypothetique-102","type":"text","text":"Si tu lançais ta chaîne de vidéos en ligne, de quoi parlerait-elle ?","tags":["créativité","travail"]}
+{"id":"hypothetique-103","type":"scale","text":"Si demain tu pouvais changer complètement de métier, à quel point en aurais-tu envie ?","minLabel":"Je garde le mien","maxLabel":"Je change demain","tags":["travail"]}
+{"id":"hypothetique-104","type":"text","text":"Si tu pouvais retrouver un objet perdu de ta vie, lequel voudrais-tu récupérer ?","tags":["souvenirs"]}
+{"id":"hypothetique-105","type":"text","text":"Si on participait à un quiz télévisé en duo, sur quel thème serions-nous imbattables ?","tags":["couple","drôle"]}
+{"id":"hypothetique-106","type":"choice","text":"Si tu pouvais adopter une tradition d'un autre pays, laquelle choisirais-tu ?","options":["La sieste espagnole","Le fika suédois","Le hygge danois","Le bain onsen japonais"],"tags":["voyage","culture"]}
+{"id":"hypothetique-107","type":"who","text":"Si on devait cuisiner pour vingt personnes au pied levé, qui de nous deux paniquerait en premier ?","tags":["nourriture","drôle"]}
+{"id":"hypothetique-108","type":"text","text":"Si tu pouvais avoir une conversation avec la planète Terre, que lui dirais-tu ?","tags":["nature","réflexion"]}
+{"id":"hypothetique-109","type":"choice","text":"Si tu devenais milliardaire, quelle serait ta plus grande folie ?","options":["Une île privée","Un voyage dans l'espace","Un club de foot","Un parc d'attractions"],"tags":["argent","rêves"]}
+{"id":"hypothetique-110","type":"text","text":"Si tu pouvais faire pousser n'importe quoi sur un arbre, que choisirais-tu ?","tags":["absurde","nature"]}
+{"id":"hypothetique-111","type":"text","text":"Si tu décidais des menus de toutes les cantines du pays, que servirais-tu le vendredi ?","tags":["nourriture","drôle"]}
+{"id":"hypothetique-112","type":"scale","text":"Si une machine pouvait enregistrer tes rêves pour que tu les revoies au réveil, à quel point l'utiliserais-tu ?","minLabel":"Jamais","maxLabel":"Toutes les nuits","tags":["rêves"]}
+{"id":"hypothetique-113","type":"text","text":"Si tu pouvais renommer une ville, laquelle choisirais-tu et quel nom lui donnerais-tu ?","tags":["absurde","drôle"]}
+{"id":"hypothetique-114","type":"text","text":"Si on avait une maison de vacances rien qu'à nous, où serait-elle et à quoi ressemblerait-elle ?","tags":["couple","rêves"]}
+{"id":"hypothetique-115","type":"text","text":"Si tu rencontrais une version de toi qui a fait d'autres choix de vie, que lui demanderais-tu ?","tags":["réflexion"]}
+{"id":"hypothetique-116","type":"choice","text":"Si tu pouvais partir en expédition, laquelle choisirais-tu ?","options":["L'Antarctique","La forêt amazonienne","Le désert de Gobi","Les abysses"],"tags":["aventure","voyage"]}
+{"id":"hypothetique-117","type":"text","text":"Si tu pouvais créer un jour férié rien que pour nous deux, comment le célébrerait-on ?","tags":["couple","romantique"]}
+{"id":"hypothetique-118","type":"who","text":"Si on vivait un film d'aventure, qui de nous deux tomberait dans tous les pièges ?","tags":["drôle","cinéma"]}
+{"id":"hypothetique-119","type":"text","text":"Si tu pouvais rendre visite à tes grands-parents quand ils avaient ton âge, que leur demanderais-tu ?","tags":["famille","temps"]}
+{"id":"hypothetique-120","type":"scale","text":"Si on te proposait de vivre 200 ans en bonne santé, à quel point cette idée te plairait-elle ?","minLabel":"Non merci","maxLabel":"Avec plaisir","tags":["réflexion","futur"]}
+{"id":"hypothetique-121","type":"scale","text":"Si tu pouvais te passer de sommeil sans jamais ressentir de fatigue, à quel point en rêverais-tu ?","minLabel":"J'adore trop dormir","maxLabel":"Enfin du temps libre !","tags":["pouvoirs","quotidien"]}
+{"id":"hypothetique-122","type":"text","text":"Si on se rencontrait aujourd'hui pour la première fois, où aimerais-tu que ça se passe ?","tags":["couple","romantique"]}
+{"id":"hypothetique-123","type":"choice","text":"Si tu gagnais un séjour de rêve, lequel choisirais-tu ?","options":["Safari au Kenya","Croisière en Norvège","Ryokan au Japon","Road trip aux États-Unis"],"tags":["voyage","rêves"]}
+{"id":"hypothetique-124","type":"choice","text":"Si ton humeur du jour était une météo, quelle serait-elle ?","options":["Grand soleil","Ciel nuageux","Orage","Arc-en-ciel"],"tags":["léger"]}
+{"id":"hypothetique-125","type":"text","text":"Si tu pouvais transmettre une seule leçon de vie à la génération suivante, laquelle choisirais-tu ?","tags":["valeurs","réflexion"]}
+{"id":"hypothetique-126","type":"scale","text":"Si on t'offrait une semaine sans aucun planning ni obligation, à quel point serais-tu à l'aise ?","minLabel":"Grosse angoisse","maxLabel":"Le paradis","tags":["quotidien"]}
+{"id":"hypothetique-127","type":"text","text":"Si tu pouvais changer la fin d'un film ou d'un livre, lequel choisirais-tu ?","tags":["cinéma","imaginaire"]}
+{"id":"hypothetique-128","type":"who","text":"Si on devait survivre dans la jungle, qui de nous deux allumerait le feu ?","tags":["survie","couple"]}
+{"id":"hypothetique-129","type":"text","text":"Si tu pouvais vivre une semaine dans une série télé, laquelle choisirais-tu ?","tags":["séries","imaginaire"]}
+{"id":"hypothetique-130","type":"text","text":"Si notre couple était un plat, lequel serait-il ?","tags":["couple","nourriture"]}
+{"id":"hypothetique-131","type":"choice","text":"Si tu avais un super-pouvoir au travail, lequel choisirais-tu ?","options":["Tout finir en une heure","Écourter les réunions","Répondre aux mails d'un regard","Café à volonté"],"tags":["travail","pouvoirs"]}
+{"id":"hypothetique-132","type":"choice","text":"Si tu pouvais faire revivre une espèce disparue, laquelle choisirais-tu ?","options":["Le mammouth","Le dodo","Le tigre de Tasmanie","Le diplodocus"],"tags":["nature","animaux"]}
+{"id":"hypothetique-133","type":"choice","text":"Si tu étais une saison, laquelle serais-tu ?","options":["Le printemps","L'été","L'automne","L'hiver"],"tags":["léger","saisons"]}
+{"id":"hypothetique-134","type":"scale","text":"Si on partait en vacances sans téléphone ni carte, à quel point s'en sortirait-on ?","minLabel":"On se perd direct","maxLabel":"Comme des pros","tags":["voyage","couple"]}
+{"id":"hypothetique-135","type":"text","text":"Si tu te présentais à une élection farfelue, quel serait ton slogan ?","tags":["drôle"]}
+{"id":"hypothetique-136","type":"text","text":"Si tout était gratuit pendant une journée entière, que ferais-tu ?","tags":["argent","drôle"]}
+{"id":"hypothetique-137","type":"who","text":"Si on visitait une maison hantée, qui de nous deux crierait le plus fort ?","tags":["drôle","peur"]}
+{"id":"hypothetique-138","type":"text","text":"Si tu pouvais inventer un nouveau sport, quelles en seraient les règles ?","tags":["absurde","créativité"]}
+{"id":"hypothetique-139","type":"choice","text":"Si tu étais un instrument de musique, lequel serais-tu ?","options":["Le piano","La guitare","La batterie","Le violon"],"tags":["musique","drôle"]}
+{"id":"hypothetique-140","type":"text","text":"Si tu pouvais passer une nuit dans l'espace, que ferais-tu en regardant la Terre ?","tags":["espace","rêves"]}
+{"id":"hypothetique-141","type":"scale","text":"Si on passait une semaine en tête-à-tête sans voir personne d'autre, à quel point ça te plairait ?","minLabel":"Vite, du monde !","maxLabel":"Rien de mieux","tags":["couple"]}
+{"id":"hypothetique-142","type":"scale","text":"Si on te proposait de devenir célèbre du jour au lendemain, à quel point dirais-tu oui ?","minLabel":"Plutôt l'anonymat","maxLabel":"Tapis rouge !","tags":["rêves","réflexion"]}
+{"id":"hypothetique-143","type":"choice","text":"Si tu pouvais rendre une émotion contagieuse dans le monde entier, laquelle choisirais-tu ?","options":["La joie","La sérénité","La curiosité","La gratitude"],"tags":["valeurs","réflexion"]}
+{"id":"hypothetique-144","type":"text","text":"Si notre couple était un duo de dessin animé, quels seraient nos super-pouvoirs ?","tags":["couple","pouvoirs"]}
+{"id":"hypothetique-145","type":"choice","text":"Si tu pouvais passer un an dans un endroit hors du commun, lequel choisirais-tu ?","options":["Une station polaire","Une station spatiale","Un village de montagne","Une île minuscule"],"tags":["aventure"]}
+{"id":"hypothetique-146","type":"choice","text":"Si tu pouvais emporter une seule odeur partout avec toi, laquelle choisirais-tu ?","options":["Le pain chaud","L'herbe coupée","L'air marin","Le linge propre"],"tags":["sens","souvenirs"]}
+{"id":"hypothetique-147","type":"text","text":"Si tu devais vivre sur une autre planète, qu'est-ce qui te manquerait le plus de la Terre ?","tags":["espace","réflexion"]}
+{"id":"hypothetique-148","type":"who","text":"Si on devait monter un meuble en kit sans notice, qui de nous deux garderait son calme ?","tags":["quotidien","drôle"]}
+{"id":"hypothetique-149","type":"text","text":"Si on avait une journée entière sans aucune obligation, comment aimerais-tu qu'on la passe ?","tags":["couple","quotidien"]}
+{"id":"hypothetique-150","type":"scale","text":"Si un robot pouvait prendre toutes tes décisions du quotidien, à quel point lui ferais-tu confiance ?","minLabel":"Aucune confiance","maxLabel":"Je lui confie tout","tags":["futur","quotidien"]}
+{"id":"hypothetique-151","type":"scale","text":"Si on gagnait un voyage surprise sans connaître la destination, à quel point ça t'enthousiasmerait ?","minLabel":"Trop stressant","maxLabel":"Génial, on part !","tags":["voyage","couple"]}
+{"id":"hypothetique-152","type":"text","text":"Si tu pouvais composer le menu de ton dîner idéal, de l'entrée au dessert, que choisirais-tu ?","tags":["nourriture"]}
+{"id":"hypothetique-153","type":"choice","text":"Si tu pouvais assister à la naissance d'une invention, laquelle choisirais-tu ?","options":["L'imprimerie","L'électricité","Le cinéma","Internet"],"tags":["temps","culture"]}
+{"id":"hypothetique-154","type":"text","text":"Si tu pouvais vivre une aventure extrême sans le moindre risque, laquelle choisirais-tu ?","tags":["aventure"]}
+{"id":"hypothetique-155","type":"text","text":"Si tu écrivais une lettre qui ne serait lue que dans 100 ans, que dirais-tu ?","tags":["réflexion","futur"]}
+{"id":"hypothetique-156","type":"scale","text":"Si tu pouvais voir notre couple dans dix ans, à quel point voudrais-tu jeter un œil ?","minLabel":"Je garde la surprise","maxLabel":"Montre-moi tout !","tags":["couple","futur"]}
+{"id":"hypothetique-157","type":"text","text":"Si tu avais une journée pour faire une chose que tu n'as jamais osé faire, ce serait quoi ?","tags":["rêves","audace"]}
+{"id":"hypothetique-158","type":"who","text":"Si on montait un spectacle de talents, qui de nous deux volerait la vedette ?","tags":["drôle","couple"]}
+{"id":"hypothetique-159","type":"choice","text":"Si tu pouvais vivre une vie parallèle, laquelle choisirais-tu ?","options":["Artiste dans une grande ville","Vie à la ferme","Nomade autour du monde","Scientifique au bout du monde"],"tags":["réflexion","rêves"]}
+{"id":"hypothetique-160","type":"text","text":"Si tu pouvais offrir n'importe quelle expérience à notre couple, laquelle choisirais-tu ?","tags":["couple","rêves"]}

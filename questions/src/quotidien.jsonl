@@ -1,0 +1,160 @@
+{"id":"quotidien-001","type":"text","text":"Quel petit rituel du matin te met de bonne humeur pour la journée ?","tags":["habitudes","matin"]}
+{"id":"quotidien-002","type":"choice","text":"Au réveil, quel est ton tout premier réflexe ?","options":["Attraper mon téléphone","Ouvrir les volets","Lancer le café","Négocier 5 minutes de plus"],"tags":["habitudes","matin"]}
+{"id":"quotidien-003","type":"text","text":"Quelle petite manie as-tu que presque personne ne remarque ?","tags":["habitudes","manies"]}
+{"id":"quotidien-004","type":"scale","text":"À quel point es-tu du matin ?","minLabel":"Zombie jusqu'à midi","maxLabel":"Debout avec le soleil","tags":["matin","habitudes"]}
+{"id":"quotidien-005","type":"text","text":"À quoi ressemble ton dimanche matin idéal, heure par heure ?","tags":["dimanche","détente"]}
+{"id":"quotidien-006","type":"who","text":"Qui de nous deux s'endort en premier devant un film ?","tags":["soirée","habitudes"]}
+{"id":"quotidien-007","type":"text","text":"Quel petit bruit du quotidien t'agace plus que de raison ?","tags":["irritations"]}
+{"id":"quotidien-008","type":"text","text":"Quelle odeur du quotidien te met instantanément de bonne humeur ?","tags":["sens","bonheur"]}
+{"id":"quotidien-009","type":"choice","text":"Le papier toilette, tu l'installes comment ?","options":["Feuille devant","Feuille contre le mur","Posé à côté, ça ira bien"],"tags":["maison","débat"]}
+{"id":"quotidien-010","type":"text","text":"Quel plat réconfortant te prépares-tu après une journée épuisante ?","tags":["nourriture","réconfort"]}
+{"id":"quotidien-011","type":"text","text":"Quelle corvée détestes-tu le plus, et pourquoi celle-là ?","tags":["maison","corvées"]}
+{"id":"quotidien-012","type":"scale","text":"Quel est le niveau d'ordre chez toi en ce moment ?","minLabel":"Joyeux bazar","maxLabel":"Tout est aligné","tags":["maison","rangement"]}
+{"id":"quotidien-013","type":"text","text":"Quelle tâche ménagère trouves-tu étrangement apaisante ?","tags":["maison","détente"]}
+{"id":"quotidien-014","type":"text","text":"Que manges-tu quand personne ne te regarde ?","tags":["nourriture","drôle"]}
+{"id":"quotidien-015","type":"choice","text":"Les courses, pour toi, c'est plutôt… ?","options":["Liste précise, rayon par rayon","Improvisation totale","Livraison, merci internet","Le ventre vide, hélas"],"tags":["courses","habitudes"]}
+{"id":"quotidien-016","type":"text","text":"Quel est le dernier petit bonheur qui a illuminé ta journée ?","tags":["bonheur","émotions"]}
+{"id":"quotidien-017","type":"text","text":"Comment prépares-tu exactement ta boisson chaude préférée ?","tags":["boissons","habitudes"]}
+{"id":"quotidien-018","type":"who","text":"Qui de nous deux oublie le plus souvent ses clés ?","tags":["habitudes","drôle"]}
+{"id":"quotidien-019","type":"text","text":"Quelle chanson lances-tu pour te motiver à faire le ménage ?","tags":["musique","maison"]}
+{"id":"quotidien-020","type":"scale","text":"À quel point tiens-tu à tes routines ?","minLabel":"Je vis au jour le jour","maxLabel":"Rituels sacrés","tags":["habitudes"]}
+{"id":"quotidien-021","type":"text","text":"Quelle est la première chose que tu fais en rentrant chez toi ?","tags":["habitudes","maison"]}
+{"id":"quotidien-022","type":"text","text":"Que vérifies-tu toujours avant de sortir de chez toi ?","tags":["habitudes","manies"]}
+{"id":"quotidien-023","type":"choice","text":"Quelle est ta technique pour manger une pizza ?","options":["Par la pointe","Par la croûte","Couteau et fourchette","Pliée en deux"],"tags":["nourriture","débat"]}
+{"id":"quotidien-024","type":"text","text":"Quelle habitude de moi as-tu fini par adopter sans t'en rendre compte ?","tags":["couple","habitudes"]}
+{"id":"quotidien-025","type":"text","text":"Quelle petite attention de ma part te touche le plus au quotidien ?","tags":["couple","tendresse"]}
+{"id":"quotidien-026","type":"scale","text":"Ta dépendance au café (ou au thé), elle en est où ?","minLabel":"Je peux m'en passer","maxLabel":"Perfusion requise","tags":["boissons"]}
+{"id":"quotidien-027","type":"text","text":"Qu'est-ce qui transforme une journée banale en bonne journée pour toi ?","tags":["bonheur","réflexion"]}
+{"id":"quotidien-028","type":"who","text":"Qui de nous deux met le plus de temps à se préparer avant de sortir ?","tags":["habitudes","drôle"]}
+{"id":"quotidien-029","type":"choice","text":"La vaisselle, tu la fais quand ?","options":["Juste après le repas","Le lendemain matin","Quand il n'y a plus d'assiettes","Jamais : lave-vaisselle"],"tags":["maison","corvées"]}
+{"id":"quotidien-030","type":"text","text":"Comment occupes-tu tes trajets du quotidien ?","tags":["trajets","habitudes"]}
+{"id":"quotidien-031","type":"text","text":"Que grignotes-tu en fin d'après-midi quand la faim te prend ?","tags":["nourriture"]}
+{"id":"quotidien-032","type":"text","text":"Quelle routine rêves-tu d'adopter sans jamais réussir à la tenir ?","tags":["habitudes","projets"]}
+{"id":"quotidien-033","type":"scale","text":"À quel point la vaisselle sale qui traîne te dérange-t-elle ?","minLabel":"Je ne la vois pas","maxLabel":"Insupportable","tags":["maison","irritations"]}
+{"id":"quotidien-034","type":"choice","text":"Ton petit-déjeuner, c'est plutôt… ?","options":["Salé","Sucré","Juste un café","Je le saute"],"tags":["nourriture","matin"]}
+{"id":"quotidien-035","type":"text","text":"Quel moment de ta journée préfères-tu, en général, et pourquoi ?","tags":["habitudes","réflexion"]}
+{"id":"quotidien-036","type":"who","text":"Qui de nous deux a le plus de mal à sortir du lit le matin ?","tags":["matin","sommeil"]}
+{"id":"quotidien-037","type":"text","text":"Combien de fois repousses-tu ton réveil le matin, honnêtement ?","tags":["matin","sommeil"]}
+{"id":"quotidien-038","type":"text","text":"Sans quel ustensile de cuisine ne pourrais-tu pas vivre ?","tags":["cuisine","maison"]}
+{"id":"quotidien-039","type":"choice","text":"Ton lit, le matin, il ressemble à quoi ?","options":["Fait au carré","Couette vaguement tirée","Je le laisse respirer","Faire son lit ? Jamais entendu parler"],"tags":["maison","matin"]}
+{"id":"quotidien-040","type":"scale","text":"À quel point aimes-tu cuisiner au quotidien ?","minLabel":"Une corvée","maxLabel":"Un pur plaisir","tags":["cuisine"]}
+{"id":"quotidien-041","type":"text","text":"Quelle est ta recette « frigo vide » préférée ?","tags":["nourriture","cuisine"]}
+{"id":"quotidien-042","type":"choice","text":"Ta douche idéale, elle est comment ?","options":["Brûlante","Tiède","Froide pour se réveiller","Un bain, évidemment"],"tags":["habitudes","détente"]}
+{"id":"quotidien-043","type":"text","text":"Quel plat pourrais-tu manger chaque semaine sans jamais t'en lasser ?","tags":["nourriture"]}
+{"id":"quotidien-044","type":"who","text":"Qui de nous deux grignote le plus entre les repas ?","tags":["nourriture","habitudes"]}
+{"id":"quotidien-045","type":"text","text":"Quelle petite irritation du quotidien as-tu appris à accepter avec le temps ?","tags":["irritations","réflexion"]}
+{"id":"quotidien-046","type":"scale","text":"Quel est ton degré de frilosité ?","minLabel":"T-shirt en hiver","maxLabel":"Trois pulls en été","tags":["habitudes","saisons"]}
+{"id":"quotidien-047","type":"text","text":"Où aimes-tu le plus rêvasser ou ne rien faire du tout ?","tags":["détente"]}
+{"id":"quotidien-048","type":"text","text":"À quoi ressemble ta soirée parfaite un mardi ordinaire ?","tags":["soirée","détente"]}
+{"id":"quotidien-049","type":"choice","text":"Si un robot pouvait faire une corvée à ta place, laquelle lui confierais-tu ?","options":["Le repassage","Les courses","La vaisselle","Le ménage de la salle de bain"],"tags":["maison","corvées"]}
+{"id":"quotidien-050","type":"text","text":"Comment t'installes-tu idéalement pour regarder un film ?","tags":["soirée","cinéma"]}
+{"id":"quotidien-051","type":"text","text":"Quelle routine du soir t'aide à décompresser après une journée chargée ?","tags":["soirée","détente"]}
+{"id":"quotidien-052","type":"who","text":"Qui de nous deux laisse traîner le plus de tasses à moitié pleines ?","tags":["maison","drôle"]}
+{"id":"quotidien-053","type":"text","text":"Quel petit luxe du quotidien t'offres-tu sans culpabiliser ?","tags":["bonheur","argent"]}
+{"id":"quotidien-054","type":"scale","text":"Comment évalues-tu ta ponctualité au quotidien ?","minLabel":"Toujours en retard","maxLabel":"Toujours en avance","tags":["habitudes"]}
+{"id":"quotidien-055","type":"text","text":"Quelle habitude alimentaire bizarre assumes-tu complètement ?","tags":["nourriture","drôle"]}
+{"id":"quotidien-056","type":"choice","text":"Un bol de céréales, tu le prépares comment ?","options":["Le lait d'abord","Les céréales d'abord","À sec, à la main","Pas de céréales pour moi"],"tags":["nourriture","débat"]}
+{"id":"quotidien-057","type":"text","text":"Quel petit geste écologique fais-tu tous les jours sans même y penser ?","tags":["habitudes","nature"]}
+{"id":"quotidien-058","type":"text","text":"Quelle appli ouvres-tu le plus souvent dans une journée, et pour quoi faire ?","tags":["habitudes","écrans"]}
+{"id":"quotidien-059","type":"text","text":"Quel objet passes-tu le plus de temps à chercher dans ta semaine ?","tags":["habitudes","drôle"]}
+{"id":"quotidien-060","type":"scale","text":"À quel point aimes-tu traîner au lit le week-end ?","minLabel":"Debout à 7 h","maxLabel":"Jusqu'à midi passé","tags":["sommeil","week-end"]}
+{"id":"quotidien-061","type":"who","text":"Qui de nous deux râle le plus le lundi matin ?","tags":["matin","humeur"]}
+{"id":"quotidien-062","type":"text","text":"Quel son du quotidien trouves-tu étrangement réconfortant ?","tags":["sens","réconfort"]}
+{"id":"quotidien-063","type":"choice","text":"Le linge propre finit le plus souvent… ?","options":["Plié et rangé aussitôt","Sur « la » chaise","Dans le panier, à piocher","En tas mystérieux"],"tags":["maison","rangement"]}
+{"id":"quotidien-064","type":"text","text":"Comment se passe ta pause déjeuner idéale ?","tags":["travail","nourriture"]}
+{"id":"quotidien-065","type":"text","text":"Qu'est-ce qui te fait procrastiner le plus facilement ?","tags":["habitudes","travail"]}
+{"id":"quotidien-066","type":"text","text":"Quelle petite chose aimerais-tu qu'on fasse plus souvent ensemble au quotidien ?","tags":["couple","projets"]}
+{"id":"quotidien-067","type":"scale","text":"Face à une tablette de chocolat entamée, ta résistance tient combien de temps ?","minLabel":"Un carré et basta","maxLabel":"Plus de tablette","tags":["nourriture","gourmandise"]}
+{"id":"quotidien-068","type":"choice","text":"Chez toi, où préfères-tu te poser ?","options":["Le canapé","La cuisine","Le lit","Près d'une fenêtre"],"tags":["maison","détente"]}
+{"id":"quotidien-069","type":"text","text":"Quel est ton rituel réconfort quand tu tombes malade ?","tags":["réconfort","habitudes"]}
+{"id":"quotidien-070","type":"text","text":"Quelle tasse choisis-tu toujours en premier, et pourquoi elle ?","tags":["maison","boissons"]}
+{"id":"quotidien-071","type":"who","text":"Qui de nous deux a le plus de mal à choisir quoi manger ?","tags":["nourriture","décisions"]}
+{"id":"quotidien-072","type":"text","text":"Comment adoucis-tu le dimanche soir pour mieux affronter le lundi ?","tags":["dimanche","détente"]}
+{"id":"quotidien-073","type":"scale","text":"À quel point les imprévus dans ta journée te déstabilisent-ils ?","minLabel":"Aucunement","maxLabel":"Gros stress","tags":["émotions","habitudes"]}
+{"id":"quotidien-074","type":"choice","text":"Pour dormir, la fenêtre reste… ?","options":["Grande ouverte","Entrouverte","Fermée","Selon la saison"],"tags":["sommeil","maison"]}
+{"id":"quotidien-075","type":"text","text":"Quel geste du quotidien fais-tu toujours exactement dans le même ordre ?","tags":["habitudes","manies"]}
+{"id":"quotidien-076","type":"text","text":"Comment te prépares-tu la veille d'une journée chargée ?","tags":["organisation","habitudes"]}
+{"id":"quotidien-077","type":"choice","text":"Le pain, tu le préfères… ?","options":["Bien cuit","Pas trop cuit","Juste la mie","Le croûton avant tout"],"tags":["nourriture"]}
+{"id":"quotidien-078","type":"text","text":"Quelle manie de moi te fait sourire en secret ?","tags":["couple","tendresse"]}
+{"id":"quotidien-079","type":"text","text":"Quel légume bannirais-tu de ton assiette pour toujours ?","tags":["nourriture"]}
+{"id":"quotidien-080","type":"text","text":"Quel plat cuisines-tu mieux que personne ?","tags":["cuisine"]}
+{"id":"quotidien-081","type":"text","text":"Quelle habitude de ton enfance as-tu gardée dans ton quotidien d'aujourd'hui ?","tags":["enfance","habitudes"]}
+{"id":"quotidien-082","type":"choice","text":"Les notifications de ton téléphone, c'est plutôt… ?","options":["Zéro, tout est lu","Quelques pastilles rouges","999+ sans aucun stress","Mode silencieux à vie"],"tags":["écrans","habitudes"]}
+{"id":"quotidien-083","type":"scale","text":"Comment dors-tu, la plupart des nuits ?","minLabel":"Insomnies fréquentes","maxLabel":"Comme une marmotte","tags":["sommeil"]}
+{"id":"quotidien-084","type":"text","text":"Quel petit détail rend ton lit parfait ?","tags":["sommeil","confort"]}
+{"id":"quotidien-085","type":"who","text":"Qui de nous deux prend les plus longues douches ?","tags":["habitudes"]}
+{"id":"quotidien-086","type":"text","text":"Quelle est la chose la plus étrange dans ton frigo en ce moment ?","tags":["nourriture","drôle"]}
+{"id":"quotidien-087","type":"choice","text":"Ta tenue idéale pour une journée sans sortir ?","options":["Pyjama toute la journée","Jogging douillet","La même tenue que dehors","Le plaid en guise de cape"],"tags":["confort","maison"]}
+{"id":"quotidien-088","type":"text","text":"Quelle petite victoire du quotidien as-tu savourée récemment ?","tags":["bonheur","émotions"]}
+{"id":"quotidien-089","type":"text","text":"Quelle habitude des autres t'agace… alors que tu l'as aussi ?","tags":["irritations","drôle"]}
+{"id":"quotidien-090","type":"scale","text":"À quel point les bruits de mastication t'agacent-ils ?","minLabel":"Je n'entends rien","maxLabel":"Ça m'horripile","tags":["irritations"]}
+{"id":"quotidien-091","type":"text","text":"Quelle astuce utilises-tu pour ne pas oublier les anniversaires et les rendez-vous ?","tags":["organisation"]}
+{"id":"quotidien-092","type":"text","text":"Qu'est-ce qui t'a fait râler aujourd'hui, même un tout petit peu ?","tags":["irritations","émotions"]}
+{"id":"quotidien-093","type":"choice","text":"En cuisine, ta méthode, c'est… ?","options":["Recette suivie à la lettre","Au pif, avec panache","Tutoriel vidéo en boucle","Le numéro du livreur"],"tags":["cuisine"]}
+{"id":"quotidien-094","type":"text","text":"Que fais-tu, sans pouvoir t'en empêcher, quand tu attends quelque chose ?","tags":["manies","habitudes"]}
+{"id":"quotidien-095","type":"who","text":"Qui de nous deux pense à racheter ce qui manque avant que ça manque ?","tags":["courses","organisation"]}
+{"id":"quotidien-096","type":"text","text":"À quel moment de la journée as-tu le plus besoin d'un câlin ?","tags":["tendresse","couple"]}
+{"id":"quotidien-097","type":"scale","text":"À quel point fais-tu attention à ce que tu manges ?","minLabel":"Je mange ce qui vient","maxLabel":"Tout est calculé","tags":["nourriture","santé"]}
+{"id":"quotidien-098","type":"text","text":"Quel petit message aimerais-tu recevoir de moi en plein milieu de ta journée ?","tags":["couple","tendresse"]}
+{"id":"quotidien-099","type":"choice","text":"Les œufs, tu les aimes comment ?","options":["Brouillés","Au plat","À la coque","Mollets"],"tags":["nourriture"]}
+{"id":"quotidien-100","type":"text","text":"Que fais-tu des dix minutes qui te restent avant de partir le matin ?","tags":["matin","habitudes"]}
+{"id":"quotidien-101","type":"text","text":"Quel détail te fait te sentir chez toi n'importe où ?","tags":["maison","réconfort"]}
+{"id":"quotidien-102","type":"scale","text":"À quel point ton téléphone te suit-il partout ?","minLabel":"Je l'oublie partout","maxLabel":"Greffé à ma main","tags":["écrans"]}
+{"id":"quotidien-103","type":"choice","text":"Ta sieste idéale, c'est… ?","options":["20 minutes chrono","Deux heures minimum","Impossible pour moi","Devant un film, forcément"],"tags":["sommeil","détente"]}
+{"id":"quotidien-104","type":"text","text":"Comment te récompenses-tu après une corvée bien faite ?","tags":["corvées","bonheur"]}
+{"id":"quotidien-105","type":"who","text":"Qui de nous deux regarde le plus son téléphone pendant les repas ?","tags":["écrans","habitudes"]}
+{"id":"quotidien-106","type":"text","text":"Comment te détends-tu en dix minutes chrono ?","tags":["détente"]}
+{"id":"quotidien-107","type":"text","text":"Quel repas de la semaine attends-tu avec le plus d'impatience ?","tags":["nourriture"]}
+{"id":"quotidien-108","type":"choice","text":"Avec les plantes vertes, tu es plutôt… ?","options":["Main verte assumée","Je les oublie souvent","Plantes en plastique","Je leur parle"],"tags":["nature","maison"]}
+{"id":"quotidien-109","type":"scale","text":"Faire les courses, pour toi, ça se situe où ?","minLabel":"Corvée absolue","maxLabel":"Mon moment détente","tags":["courses"]}
+{"id":"quotidien-110","type":"text","text":"Quel vêtement porterais-tu tous les jours si personne ne disait rien ?","tags":["style","habitudes"]}
+{"id":"quotidien-111","type":"choice","text":"Sous la douche, tu es plutôt du genre à… ?","options":["Chanter à tue-tête","Réfléchir au sens de la vie","Refaire des débats gagnés d'avance","Faire vite, c'est tout"],"tags":["habitudes","drôle"]}
+{"id":"quotidien-112","type":"text","text":"Quelle habitude de sommeil as-tu que personne ne comprend ?","tags":["sommeil","manies"]}
+{"id":"quotidien-113","type":"choice","text":"Au supermarché, comment choisis-tu ta caisse ?","options":["Au hasard","La file la plus courte","Caisse automatique, toujours","Celle qui n'avance jamais"],"tags":["courses","drôle"]}
+{"id":"quotidien-114","type":"text","text":"Quel aliment as-tu toujours en réserve, au cas où ?","tags":["nourriture","habitudes"]}
+{"id":"quotidien-115","type":"scale","text":"À quel point as-tu besoin de musique en fond pendant tes tâches ?","minLabel":"Silence total","maxLabel":"Toujours à fond","tags":["musique","maison"]}
+{"id":"quotidien-116","type":"who","text":"Qui de nous deux a le plus de manies de rangement ?","tags":["rangement","manies"]}
+{"id":"quotidien-117","type":"text","text":"Que fais-tu quand il pleut tout un dimanche ?","tags":["dimanche","détente"]}
+{"id":"quotidien-118","type":"choice","text":"Quel est ton accessoire indispensable pour sortir ?","options":["Mes écouteurs","Ma gourde","Mes lunettes de soleil","Un en-cas de secours"],"tags":["habitudes"]}
+{"id":"quotidien-119","type":"scale","text":"À quel point ton espace à toi compte-t-il au quotidien ?","minLabel":"Pas besoin","maxLabel":"Vital","tags":["couple","habitudes"]}
+{"id":"quotidien-120","type":"text","text":"Quelle petite chose aimerais-tu changer dans ta routine dès la semaine prochaine ?","tags":["habitudes","projets"]}
+{"id":"quotidien-121","type":"text","text":"Quelle phrase dis-tu tous les jours sans même t'en rendre compte ?","tags":["habitudes","drôle"]}
+{"id":"quotidien-122","type":"choice","text":"Le chauffage en hiver, tu le règles comment ?","options":["Ambiance tropicale","19 °C, pas un degré de plus","Pull et plaid plutôt","Fenêtre ouverte quand même"],"tags":["maison","saisons"]}
+{"id":"quotidien-123","type":"text","text":"Quel plat de ton enfance aimerais-tu remanger cette semaine ?","tags":["nourriture","enfance","nostalgie"]}
+{"id":"quotidien-124","type":"scale","text":"Quelle est ton envie de discuter dès le réveil ?","minLabel":"Pas un mot avant 9 h","maxLabel":"Bavardage dès l'aube","tags":["matin"]}
+{"id":"quotidien-125","type":"who","text":"Qui de nous deux chante le plus en faisant le ménage ?","tags":["musique","maison"]}
+{"id":"quotidien-126","type":"text","text":"Comment décides-tu de ce que tu vas manger le soir ?","tags":["nourriture","décisions"]}
+{"id":"quotidien-127","type":"text","text":"Quel est ton rapport aux listes de choses à faire ?","tags":["organisation"]}
+{"id":"quotidien-128","type":"choice","text":"Les chaussettes dépareillées, pour toi, c'est… ?","options":["Inacceptable","Un style assumé","Je ne remarque même pas"],"tags":["style","drôle"]}
+{"id":"quotidien-129","type":"text","text":"Quel moment de la journée te semble toujours trop long ?","tags":["habitudes","travail"]}
+{"id":"quotidien-130","type":"text","text":"Quel petit geste fais-tu régulièrement juste pour prendre soin de toi ?","tags":["bien-être"]}
+{"id":"quotidien-131","type":"choice","text":"Le soir, avant de dormir, tu préfères… ?","options":["Lire quelques pages","Scroller jusqu'au bout","Écouter un podcast","T'écrouler direct"],"tags":["sommeil","soirée"]}
+{"id":"quotidien-132","type":"text","text":"Quel est ton petit plaisir préféré quand tu as du temps rien qu'à toi ?","tags":["détente","bien-être"]}
+{"id":"quotidien-133","type":"scale","text":"À quel point les petits rituels à deux comptent-ils pour toi ?","minLabel":"Accessoires","maxLabel":"Essentiels","tags":["couple","tendresse"]}
+{"id":"quotidien-134","type":"text","text":"Quelle tâche du quotidien pourrait-on transformer en petit moment à deux ?","tags":["couple","corvées"]}
+{"id":"quotidien-135","type":"choice","text":"Les restes du dîner finissent plutôt… ?","options":["Au déjeuner du lendemain","Oubliés au fond du frigo","Mangés froids à minuit","Nulle part : je cuisine pile ce qu'il faut"],"tags":["nourriture"]}
+{"id":"quotidien-136","type":"who","text":"Qui de nous deux a la meilleure technique pour remplir un lave-vaisselle ?","tags":["maison","drôle"]}
+{"id":"quotidien-137","type":"text","text":"Quel objet de ton logement ne pourrais-tu jamais te résoudre à jeter ?","tags":["maison","nostalgie"]}
+{"id":"quotidien-138","type":"text","text":"Quelle boisson accompagne le mieux un repas tout simple, selon toi ?","tags":["boissons","nourriture"]}
+{"id":"quotidien-139","type":"choice","text":"Le tube de dentifrice, tu le presses comment ?","options":["Par le bas, méthodiquement","Au milieu, sans remords","Roulé avec soin"],"tags":["habitudes","débat"]}
+{"id":"quotidien-140","type":"scale","text":"Quel est ton niveau de patience dans une file d'attente ?","minLabel":"Je bous","maxLabel":"Zen absolu","tags":["patience","irritations"]}
+{"id":"quotidien-141","type":"text","text":"Quelle chanson te ferait sortir du lit de bonne humeur à coup sûr ?","tags":["musique","matin"]}
+{"id":"quotidien-142","type":"text","text":"Quel petit rituel de ta famille ou de tes amis aimerais-tu adopter au quotidien ?","tags":["famille","amis","habitudes"]}
+{"id":"quotidien-143","type":"choice","text":"Ton rythme idéal un samedi ?","options":["Lever tôt, tout faire","Grasse mat' puis balade","Rien de prévu, au feeling","Programme minuté entre amis"],"tags":["week-end"]}
+{"id":"quotidien-144","type":"text","text":"Quel petit-déjeuner de rêve te préparerais-tu si tu avais une heure devant toi ?","tags":["nourriture","matin"]}
+{"id":"quotidien-145","type":"scale","text":"Jusqu'où va ton attachement à ton oreiller ?","minLabel":"N'importe lequel","maxLabel":"Je voyage avec","tags":["sommeil","confort"]}
+{"id":"quotidien-146","type":"text","text":"Comment choisis-tu ce qu'on regarde quand on se fait une soirée film ?","tags":["couple","cinéma","soirée"]}
+{"id":"quotidien-147","type":"who","text":"Qui de nous deux remarque en premier quand un objet a changé de place ?","tags":["maison","manies"]}
+{"id":"quotidien-148","type":"text","text":"Quelle habitude prise récemment te fait vraiment du bien ?","tags":["habitudes","bien-être"]}
+{"id":"quotidien-149","type":"choice","text":"Ton thé ou ton café, tu le bois… ?","options":["Brûlant, tout de suite","Tiède, oublié sur la table","Glacé, même en hiver","Ni thé ni café"],"tags":["boissons"]}
+{"id":"quotidien-150","type":"text","text":"Quel endroit de ton quartier fait partie de ta routine, et pourquoi lui ?","tags":["quartier","habitudes"]}
+{"id":"quotidien-151","type":"text","text":"Si tu pouvais ajouter une heure à ta journée, à quoi la passerais-tu ?","tags":["rêves","habitudes"]}
+{"id":"quotidien-152","type":"scale","text":"Un dimanche sans aucun programme, ça te fait quel effet ?","minLabel":"Je m'ennuie vite","maxLabel":"Le paradis","tags":["dimanche","détente"]}
+{"id":"quotidien-153","type":"choice","text":"Quand le temps presse le matin, tu sacrifies… ?","options":["Le petit-déjeuner","Le coiffage","Le café","La douche (chut)"],"tags":["matin","drôle"]}
+{"id":"quotidien-154","type":"text","text":"Pour quelle petite chose du quotidien ressens-tu de la gratitude aujourd'hui ?","tags":["gratitude","émotions"]}
+{"id":"quotidien-155","type":"who","text":"Qui de nous deux laisse le plus de lumières allumées derrière soi ?","tags":["maison","habitudes"]}
+{"id":"quotidien-156","type":"text","text":"Quel petit rituel marque vraiment le début du week-end pour toi ?","tags":["week-end","habitudes"]}
+{"id":"quotidien-157","type":"scale","text":"À quel point as-tu besoin de silence pour te concentrer ?","minLabel":"Le bruit me va","maxLabel":"Silence absolu","tags":["concentration","habitudes"]}
+{"id":"quotidien-158","type":"choice","text":"Quand tu ranges tes courses, tu… ?","options":["Ranges tout par catégorie","Fourres tout là où il y a de la place","Laisses les sacs jusqu'au soir","Grignotes en rangeant"],"tags":["courses","habitudes"]}
+{"id":"quotidien-159","type":"text","text":"Quelle saison change le plus tes habitudes, et de quelle façon ?","tags":["saisons","habitudes"]}
+{"id":"quotidien-160","type":"text","text":"Quelle petite habitude de notre couple te fait le plus de bien ?","tags":["couple","tendresse"]}

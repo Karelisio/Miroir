@@ -1,0 +1,30 @@
+{"id":"anniversaire-001","category":"souvenirs","type":"text","text":"Quel a été le plus beau moment de l'année écoulée pour {prenom} ?","tags":["anniversaire","bilan"]}
+{"id":"anniversaire-002","category":"profond","type":"text","text":"Quel mot décrit le mieux {prenom} cette année ?","tags":["portrait","bilan"]}
+{"id":"anniversaire-003","category":"gouts","type":"choice","text":"La fête d'anniversaire idéale pour {prenom}, ce serait…","options":["Une grande fête surprise","Un dîner en tête-à-tête","Une journée d'aventure","Une journée cocooning sans obligation"],"tags":["fête","envies"]}
+{"id":"anniversaire-004","category":"futur","type":"text","text":"Quel vœu formes-tu pour {prenom} aujourd'hui ?","tags":["vœux","futur"]}
+{"id":"anniversaire-005","category":"qui_de_nous","type":"who","text":"Qui de nous deux a le plus hâte de manger le gâteau aujourd'hui ?","tags":["gâteau","drôle"]}
+{"id":"anniversaire-006","category":"fun","type":"text","text":"Quelle chanson devrait passer en boucle aujourd'hui pour fêter {prenom} ?","tags":["musique","fête"]}
+{"id":"anniversaire-007","category":"souvenirs","type":"scale","text":"À quel point cette année a-t-elle été belle pour {prenom} ?","minLabel":"Année compliquée","maxLabel":"Année lumineuse","tags":["bilan"]}
+{"id":"anniversaire-008","category":"hypothetique","type":"text","text":"Si tu pouvais offrir n'importe quoi à {prenom}, sans limite de budget, que choisirais-tu ?","tags":["cadeaux","rêves"]}
+{"id":"anniversaire-009","category":"nous_deux","type":"text","text":"Quelle qualité de {prenom} mérite d'être célébrée aujourd'hui ?","tags":["qualités","tendresse"]}
+{"id":"anniversaire-010","category":"gouts","type":"choice","text":"Pour cet anniversaire, {prenom} préférerait…","options":["Une surprise totale","Un programme choisi ensemble","Ne rien faire de spécial"],"tags":["surprise","envies"]}
+{"id":"anniversaire-011","category":"enfance","type":"text","text":"Selon toi, à quoi ressemblaient les anniversaires d'enfance de {prenom} ?","tags":["enfance","imagination"]}
+{"id":"anniversaire-012","category":"futur","type":"text","text":"Quelle aventure souhaites-tu à {prenom} de vivre avant son prochain anniversaire ?","tags":["aventure","futur"]}
+{"id":"anniversaire-013","category":"qui_de_nous","type":"who","text":"Qui de nous deux se souvient le mieux des anniversaires de nos proches ?","tags":["mémoire","proches"]}
+{"id":"anniversaire-014","category":"souvenirs","type":"text","text":"Quel moment de cette année a montré {prenom} sous son meilleur jour ?","tags":["souvenirs","tendresse"]}
+{"id":"anniversaire-015","category":"gouts","type":"choice","text":"Le cadeau qui ferait le plus plaisir à {prenom} cette année ?","options":["Un objet convoité depuis longtemps","Une expérience à vivre","Un cadeau fait main","Une journée entière de temps libre"],"tags":["cadeaux"]}
+{"id":"anniversaire-016","category":"profond","type":"text","text":"Qu'est-ce que {prenom} a appris cette année, selon toi ?","tags":["bilan","évolution"]}
+{"id":"anniversaire-017","category":"fun","type":"text","text":"Si {prenom} était un plat, lequel serait-ce, et pourquoi ?","tags":["drôle","portrait"]}
+{"id":"anniversaire-018","category":"gouts","type":"scale","text":"De 1 à 10, quel degré d'impatience ce jour d'anniversaire provoque-t-il chez {prenom} ?","minLabel":"Un jour comme un autre","maxLabel":"Comme un enfant à Noël","tags":["anniversaire","humeur"]}
+{"id":"anniversaire-019","category":"futur","type":"text","text":"Quel rêve de {prenom} aimerais-tu voir se réaliser cette année ?","tags":["rêves","soutien"]}
+{"id":"anniversaire-020","category":"souvenirs","type":"text","text":"Quel est le plus bel anniversaire de {prenom} dont tu te souviennes ?","tags":["souvenirs","fête"]}
+{"id":"anniversaire-021","category":"valeurs","type":"text","text":"Qu'est-ce que {prenom} apporte aux personnes qui l'entourent ?","tags":["portrait","gratitude"]}
+{"id":"anniversaire-022","category":"tu_preferes","type":"choice","text":"Pour souffler les bougies de {prenom}, tu préfères…","options":["Un gâteau maison, même raté","Une belle pâtisserie de chef","Une montagne de crêpes","Pas de gâteau, des bonbons !"],"tags":["gâteau","gourmandise"]}
+{"id":"anniversaire-023","category":"nous_deux","type":"text","text":"Quelle petite habitude de {prenom} trouves-tu attachante ?","tags":["tendresse","habitudes"]}
+{"id":"anniversaire-024","category":"fun","type":"choice","text":"Le super-pouvoir de {prenom} cette année, c'était…","options":["Faire rire tout le monde","Garder son calme en toute situation","Remonter le moral des autres","Transformer les galères en aventures"],"tags":["drôle","portrait"]}
+{"id":"anniversaire-025","category":"qui_de_nous","type":"who","text":"Qui de nous deux garde le mieux le secret d'un cadeau ?","tags":["secret","cadeaux"]}
+{"id":"anniversaire-026","category":"futur","type":"scale","text":"À quel point l'année qui commence s'annonce-t-elle prometteuse pour {prenom} ?","minLabel":"Mystère total","maxLabel":"Que du bon en vue","tags":["futur","envies"]}
+{"id":"anniversaire-027","category":"gouts","type":"choice","text":"La journée d'anniversaire parfaite de {prenom} commence par…","options":["Un petit-déjeuner au lit","Une grasse matinée sans fin","Une balade au lever du soleil","Une pluie de messages tendres"],"tags":["rituels","tendresse"]}
+{"id":"anniversaire-028","category":"profond","type":"text","text":"Quel conseil donnerais-tu à {prenom} pour cette nouvelle année de vie ?","tags":["conseils","futur"]}
+{"id":"anniversaire-029","category":"fun","type":"scale","text":"Quelle note donnerais-tu à l'humour de {prenom} cette année ?","minLabel":"Plutôt discret","maxLabel":"Inépuisable","tags":["humour","drôle"]}
+{"id":"anniversaire-030","category":"nous_deux","type":"text","text":"Quel message aimerais-tu que {prenom} garde en tête toute l'année ?","tags":["tendresse","vœux"]}

@@ -1,0 +1,160 @@
+{"id":"valeurs-001","type":"text","text":"Sur quelle valeur refuserais-tu de transiger, quoi qu'il arrive ?","tags":["principes","éthique"]}
+{"id":"valeurs-002","type":"choice","text":"Quelqu'un de proche te demande de mentir pour le couvrir. Que fais-tu ?","options":["Je mens, la loyauté d'abord","Je refuse, gentiment mais fermement","Ça dépend de la gravité","Je cherche une autre solution"],"tags":["amitié","honnêteté","loyauté"]}
+{"id":"valeurs-003","type":"scale","text":"À quel point l'argent compte-t-il dans ta définition d'une vie réussie ?","minLabel":"Pas du tout","maxLabel":"Énormément","tags":["argent","réussite"]}
+{"id":"valeurs-004","type":"text","text":"Quel principe transmis par ta famille guide encore tes choix aujourd'hui ?","tags":["famille","transmission"]}
+{"id":"valeurs-005","type":"text","text":"Quel petit mensonge du quotidien trouves-tu acceptable, et lequel te dérange ?","tags":["honnêteté","éthique"]}
+{"id":"valeurs-006","type":"who","text":"Qui de nous deux est le plus économe ?","tags":["argent"]}
+{"id":"valeurs-007","type":"text","text":"Selon toi, qu'est-ce qu'un travail qui a du sens ?","tags":["travail","sens"]}
+{"id":"valeurs-008","type":"choice","text":"Si tu gagnais une grosse somme demain, quelle serait ta priorité ?","options":["Mettre mes proches à l'abri","Arrêter de travailler","Voyager, vivre des expériences","Soutenir des causes qui comptent"],"tags":["argent","priorités"]}
+{"id":"valeurs-009","type":"text","text":"À quoi reconnais-tu une vraie amitié ?","tags":["amitié"]}
+{"id":"valeurs-010","type":"scale","text":"Au quotidien, fais-tu des efforts concrets pour l'environnement ?","minLabel":"Presque aucun","maxLabel":"Beaucoup d'efforts","tags":["écologie","quotidien"]}
+{"id":"valeurs-011","type":"text","text":"Dans quelle situation trouves-tu juste de désobéir à une règle ?","tags":["éthique","liberté"]}
+{"id":"valeurs-012","type":"text","text":"Quelle place veux-tu que le travail occupe dans ta vie ?","tags":["travail","priorités"]}
+{"id":"valeurs-013","type":"choice","text":"Que pardonnerais-tu le plus difficilement à quelqu'un de proche ?","options":["Une trahison de confiance","Un mensonge répété","Une absence quand j'en avais besoin","Une moquerie en public"],"tags":["amitié","loyauté","pardon"]}
+{"id":"valeurs-014","type":"text","text":"Quel comportement te fait perdre immédiatement ton estime pour quelqu'un ?","tags":["éthique","respect"]}
+{"id":"valeurs-015","type":"who","text":"Qui de nous deux dit le plus franchement le fond de sa pensée ?","tags":["honnêteté","communication"]}
+{"id":"valeurs-016","type":"text","text":"Quelle cause te tient suffisamment à cœur pour lui consacrer du temps ?","tags":["engagement","société"]}
+{"id":"valeurs-017","type":"text","text":"Comment définirais-tu la loyauté, avec tes propres mots ?","tags":["loyauté"]}
+{"id":"valeurs-018","type":"scale","text":"Toute vérité est-elle bonne à dire, selon toi ?","minLabel":"Pas toujours, loin de là","maxLabel":"Oui, toujours","tags":["honnêteté"]}
+{"id":"valeurs-019","type":"text","text":"À tes yeux, où passe la frontière entre une dépense utile et une dépense inutile ?","tags":["argent","consommation"]}
+{"id":"valeurs-020","type":"choice","text":"Qu'est-ce qui compte le plus pour toi dans un emploi ?","options":["Le salaire","Le sens de la mission","L'ambiance et les collègues","La liberté d'organisation"],"tags":["travail","priorités"]}
+{"id":"valeurs-021","type":"text","text":"Quelle règle de politesse te semble essentielle, et laquelle te paraît dépassée ?","tags":["respect","société"]}
+{"id":"valeurs-022","type":"text","text":"Que signifie être libre, pour toi, au quotidien ?","tags":["liberté"]}
+{"id":"valeurs-023","type":"who","text":"Qui de nous deux trie le plus consciencieusement ses déchets ?","tags":["écologie","quotidien"]}
+{"id":"valeurs-024","type":"text","text":"Quelle est ta priorité numéro un dans la vie en ce moment, et pourquoi ?","tags":["priorités"]}
+{"id":"valeurs-025","type":"scale","text":"Quelle importance a la réussite professionnelle pour toi ?","minLabel":"Très secondaire","maxLabel":"Primordiale","tags":["travail","ambition"]}
+{"id":"valeurs-026","type":"text","text":"Quelle injustice du monde actuel te révolte le plus ?","tags":["justice","société"]}
+{"id":"valeurs-027","type":"choice","text":"Que penses-tu du fait de prêter de l'argent à un proche ?","options":["Normal, ça se fait","Possible, avec des limites","À éviter pour préserver le lien","Je préfère donner que prêter"],"tags":["argent","famille","amitié"]}
+{"id":"valeurs-028","type":"text","text":"Quel geste de générosité, reçu ou observé, reste pour toi un modèle ?","tags":["générosité"]}
+{"id":"valeurs-029","type":"text","text":"Quelle place les amis doivent-ils avoir dans la vie d'un couple, selon toi ?","tags":["amitié","couple"]}
+{"id":"valeurs-030","type":"who","text":"Qui de nous deux a le plus de mal à jeter les choses ?","tags":["consommation","quotidien"]}
+{"id":"valeurs-031","type":"text","text":"À quel moment as-tu dû choisir entre ton intérêt et tes principes ?","tags":["éthique","réflexion"]}
+{"id":"valeurs-032","type":"scale","text":"Quelle importance accordes-tu aux traditions dans ta vie ?","minLabel":"Aucune","maxLabel":"Une très grande","tags":["famille","transmission"]}
+{"id":"valeurs-033","type":"text","text":"Si l'on retire l'argent et le statut, que veut dire réussir, pour toi ?","tags":["réussite","sens"]}
+{"id":"valeurs-034","type":"choice","text":"Tu trouves un portefeuille avec 200 € et une pièce d'identité. Que fais-tu ?","options":["Je le rapporte tel quel","Je le dépose au commissariat","Je cherche son propriétaire en ligne","Je garde l'argent, je rends le reste"],"tags":["honnêteté","éthique"]}
+{"id":"valeurs-035","type":"text","text":"Quelle valeur aimerais-tu que notre couple incarne aux yeux des autres ?","tags":["couple","principes"]}
+{"id":"valeurs-036","type":"text","text":"Selon toi, que doit-on à sa famille, et que ne lui doit-on pas ?","tags":["famille","liberté"]}
+{"id":"valeurs-037","type":"scale","text":"Jusqu'où accepterais-tu de réduire ton confort pour l'écologie ?","minLabel":"Très peu","maxLabel":"Très loin","tags":["écologie","consommation"]}
+{"id":"valeurs-038","type":"text","text":"Quelle personne admires-tu pour sa droiture, et pourquoi ?","tags":["éthique","admiration"]}
+{"id":"valeurs-039","type":"choice","text":"Au travail, si tu découvres une tricherie, que fais-tu ?","options":["J'en parle à la personne concernée","Je préviens un responsable","Je ne m'en mêle pas","Ça dépend des conséquences"],"tags":["travail","éthique"]}
+{"id":"valeurs-040","type":"choice","text":"Comment vois-tu le temps libre ?","options":["Un droit fondamental","Une récompense méritée","Un luxe rare","Une priorité absolue"],"tags":["liberté","travail"]}
+{"id":"valeurs-041","type":"choice","text":"Dans un désaccord, qu'est-ce qui compte le plus pour toi ?","options":["Avoir raison","Préserver la paix","Comprendre l'autre","Ça dépend de l'enjeu"],"tags":["principes","communication"]}
+{"id":"valeurs-042","type":"text","text":"Quel métier admires-tu le plus, et pour quelles raisons ?","tags":["travail","admiration"]}
+{"id":"valeurs-043","type":"text","text":"Quel achat as-tu regretté, et qu'est-ce qu'il t'a appris ?","tags":["argent","consommation"]}
+{"id":"valeurs-044","type":"scale","text":"Dans un couple, est-il important de parler d'argent ouvertement ?","minLabel":"Sujet à éviter","maxLabel":"Indispensable","tags":["argent","couple","communication"]}
+{"id":"valeurs-045","type":"text","text":"Quand as-tu choisi de dire une vérité difficile, et comment ça s'est passé ?","tags":["honnêteté","courage"]}
+{"id":"valeurs-046","type":"who","text":"Qui de nous deux défend le plus ardemment ses convictions ?","tags":["principes"]}
+{"id":"valeurs-047","type":"text","text":"La gentillesse est-elle une force ou une faiblesse, à tes yeux ?","tags":["éthique"]}
+{"id":"valeurs-048","type":"choice","text":"Si quelqu'un que tu aimes agit mal, que fais-tu en priorité ?","options":["Je reste à ses côtés, quoi qu'il arrive","Je lui dis ce que j'en pense","Je prends mes distances","J'essaie d'abord de comprendre"],"tags":["loyauté","honnêteté"]}
+{"id":"valeurs-049","type":"text","text":"Quelle tradition familiale aimerais-tu conserver, et laquelle abandonnerais-tu volontiers ?","tags":["famille","transmission"]}
+{"id":"valeurs-050","type":"text","text":"Quelle place l'écologie doit-elle avoir dans nos choix de couple ?","tags":["écologie","couple"]}
+{"id":"valeurs-051","type":"scale","text":"Spontanément, fais-tu confiance aux gens que tu ne connais pas ?","minLabel":"Méfiance d'abord","maxLabel":"Confiance spontanée","tags":["confiance","société"]}
+{"id":"valeurs-052","type":"text","text":"Où places-tu la limite entre ambition et égoïsme ?","tags":["ambition","éthique"]}
+{"id":"valeurs-053","type":"text","text":"Que ferais-tu de ton temps si l'argent n'était plus un problème ?","tags":["travail","liberté","rêves"]}
+{"id":"valeurs-054","type":"choice","text":"Qu'est-ce qui guide le plus tes grandes décisions ?","options":["La raison","L'intuition","L'avis de mes proches","Mes valeurs, avant tout"],"tags":["priorités","réflexion"]}
+{"id":"valeurs-055","type":"text","text":"Comment contribues-tu, à ta manière, à la vie de ton quartier ou de ta ville ?","tags":["société","engagement"]}
+{"id":"valeurs-056","type":"who","text":"Qui de nous deux donne le plus facilement de son temps aux autres ?","tags":["générosité"]}
+{"id":"valeurs-057","type":"text","text":"Quel compromis professionnel refuserais-tu absolument ?","tags":["travail","principes"]}
+{"id":"valeurs-058","type":"scale","text":"Se faire porter pâle sans être vraiment malade, est-ce acceptable selon toi ?","minLabel":"Jamais acceptable","maxLabel":"Tout à fait acceptable","tags":["travail","honnêteté"]}
+{"id":"valeurs-059","type":"text","text":"Qu'est-ce qu'une famille, pour toi, au-delà des liens du sang ?","tags":["famille"]}
+{"id":"valeurs-060","type":"choice","text":"Comment aimerais-tu qu'on gère l'argent dans notre couple ?","options":["Tout en commun","Un pot commun, le reste à chacun","Chacun ses comptes","Au prorata des revenus"],"tags":["argent","couple"]}
+{"id":"valeurs-061","type":"text","text":"Quelle règle personnelle suis-tu sans jamais y déroger ?","tags":["principes"]}
+{"id":"valeurs-062","type":"text","text":"Quelle opinion as-tu changée en grandissant, et qu'est-ce qui t'a fait changer d'avis ?","tags":["changement","réflexion"]}
+{"id":"valeurs-063","type":"scale","text":"Quelle place occupent les dons et la solidarité dans ta vie ?","minLabel":"Une petite place","maxLabel":"Une place centrale","tags":["générosité","société"]}
+{"id":"valeurs-064","type":"text","text":"Qu'est-ce qui te donne confiance en quelqu'un dès les premiers échanges ?","tags":["confiance"]}
+{"id":"valeurs-065","type":"who","text":"Qui de nous deux a le plus le goût du risque avec l'argent ?","tags":["argent","risque"]}
+{"id":"valeurs-066","type":"choice","text":"Quel rapport aimerais-tu avoir avec les objets ?","options":["Peu, mais de qualité","Beaucoup, j'aime la variété","De la seconde main avant tout","Je n'y pense pas vraiment"],"tags":["consommation","écologie"]}
+{"id":"valeurs-067","type":"choice","text":"Laquelle de ces libertés te semble la plus précieuse ?","options":["Penser et parler librement","Choisir qui j'aime","Disposer de mon temps","Me déplacer où je veux"],"tags":["liberté"]}
+{"id":"valeurs-068","type":"text","text":"Comment réagis-tu quand quelqu'un exprime une opinion qui heurte tes valeurs ?","tags":["respect","communication"]}
+{"id":"valeurs-069","type":"text","text":"Que penses-tu de l'idée de travailler moins, gagner moins, mais vivre plus ?","tags":["travail","argent","priorités"]}
+{"id":"valeurs-070","type":"scale","text":"Respectes-tu les règles même quand personne ne regarde ?","minLabel":"Je les arrange souvent","maxLabel":"Toujours, à la lettre","tags":["éthique","honnêteté"]}
+{"id":"valeurs-071","type":"text","text":"Quelle qualité morale aimerais-tu développer davantage ?","tags":["éthique","soi"]}
+{"id":"valeurs-072","type":"choice","text":"Quelle qualité recherches-tu avant tout chez tes amis ?","options":["La fidélité","L'humour","La franchise","La disponibilité"],"tags":["amitié"]}
+{"id":"valeurs-073","type":"text","text":"Faut-il tout se dire dans un couple, ou est-il sain de garder un jardin secret ?","tags":["honnêteté","couple","liberté"]}
+{"id":"valeurs-074","type":"text","text":"Quel rapport as-tu à ton alimentation, du point de vue de l'éthique ou de l'écologie ?","tags":["écologie","consommation"]}
+{"id":"valeurs-075","type":"who","text":"Qui de nous deux tient le plus scrupuleusement parole ?","tags":["engagement","honnêteté"]}
+{"id":"valeurs-076","type":"scale","text":"Entre stabilité et aventure, vers quoi penches-tu ?","minLabel":"L'aventure avant tout","maxLabel":"La stabilité avant tout","tags":["priorités","liberté"]}
+{"id":"valeurs-077","type":"text","text":"Quel conseil sur l'argent as-tu reçu et suis-tu encore aujourd'hui ?","tags":["argent","transmission"]}
+{"id":"valeurs-078","type":"choice","text":"Sur quoi accepterais-tu le moins de faire des économies ?","options":["La nourriture","Les vacances","La santé","Les cadeaux pour les proches"],"tags":["argent","priorités"]}
+{"id":"valeurs-079","type":"text","text":"Comment fais-tu la différence entre tolérance et indifférence ?","tags":["respect","éthique"]}
+{"id":"valeurs-080","type":"text","text":"Quelle valeur commune nous relie le plus, selon toi ?","tags":["couple","principes"]}
+{"id":"valeurs-081","type":"text","text":"Quelle différence fais-tu entre politesse et respect ?","tags":["respect"]}
+{"id":"valeurs-082","type":"text","text":"Que ne ferais-tu jamais, même pour beaucoup d'argent ?","tags":["argent","principes"]}
+{"id":"valeurs-083","type":"choice","text":"Dans un couple, que signifie d'abord l'honnêteté ?","options":["Ne jamais mentir","Partager ses doutes","Tenir ses promesses","Dire les choses qui fâchent"],"tags":["honnêteté","couple"]}
+{"id":"valeurs-084","type":"scale","text":"Ton travail ou tes activités reflètent-ils tes valeurs ?","minLabel":"Pas du tout","maxLabel":"Parfaitement","tags":["travail","sens"]}
+{"id":"valeurs-085","type":"text","text":"Quel rôle aimerais-tu jouer auprès de ta famille dans les années à venir ?","tags":["famille","avenir"]}
+{"id":"valeurs-086","type":"who","text":"Qui de nous deux a le plus le sens de la famille ?","tags":["famille"]}
+{"id":"valeurs-087","type":"text","text":"Qu'est-ce qui justifie, selon toi, de mettre fin à une amitié ?","tags":["amitié","limites"]}
+{"id":"valeurs-088","type":"text","text":"Comment concilies-tu ton besoin de liberté et tes engagements envers les autres ?","tags":["liberté","engagement"]}
+{"id":"valeurs-089","type":"text","text":"Quel héritage, matériel ou non, aimerais-tu laisser derrière toi ?","tags":["transmission","sens"]}
+{"id":"valeurs-090","type":"choice","text":"Qu'est-ce qui te pousse le plus à faire un effort pour la planète ?","options":["L'inquiétude pour l'avenir","Le sens des responsabilités","Le plaisir de vivre simplement","Un peu la pression sociale"],"tags":["écologie"]}
+{"id":"valeurs-091","type":"text","text":"Comment sais-tu que tu as fait le bon choix, moralement ?","tags":["éthique","réflexion"]}
+{"id":"valeurs-092","type":"scale","text":"À quel point acceptes-tu que je pense différemment de toi sur un sujet important ?","minLabel":"Ça me dérange","maxLabel":"J'adore nos désaccords","tags":["respect","couple"]}
+{"id":"valeurs-093","type":"text","text":"Quelle limite ne laisserais-tu jamais personne franchir ?","tags":["limites","respect"]}
+{"id":"valeurs-094","type":"choice","text":"Faut-il rendre service dès qu'on le peut ?","options":["Oui, c'est essentiel","Oui, sauf si ça m'épuise","Surtout à mes proches","On a aussi le droit de dire non"],"tags":["générosité","limites"]}
+{"id":"valeurs-095","type":"text","text":"À quoi reconnais-tu quelqu'un qui dirige une équipe avec justesse ?","tags":["travail","justice"]}
+{"id":"valeurs-096","type":"who","text":"Qui de nous deux a le plus de mal à mentir, même pour une broutille ?","tags":["honnêteté"]}
+{"id":"valeurs-097","type":"text","text":"Quelle est la plus belle preuve de loyauté dont tu aies été témoin ?","tags":["loyauté"]}
+{"id":"valeurs-098","type":"choice","text":"Comment réagis-tu face à quelqu'un qui jette un déchet par terre ?","options":["Je le lui fais remarquer","Je ramasse, discrètement","Je râle intérieurement","Je laisse couler"],"tags":["écologie","civisme"]}
+{"id":"valeurs-099","type":"text","text":"Quel rapport aimerais-tu avoir avec les écrans et les réseaux sociaux ?","tags":["liberté","quotidien"]}
+{"id":"valeurs-100","type":"scale","text":"Quand le travail et la vie personnelle se disputent ton temps, qui l'emporte le plus souvent ?","minLabel":"Le travail","maxLabel":"La vie personnelle","tags":["travail","priorités"]}
+{"id":"valeurs-101","type":"text","text":"Quelle injustice as-tu déjà dénoncée, ou aurais-tu aimé dénoncer ?","tags":["justice","courage"]}
+{"id":"valeurs-102","type":"text","text":"Qu'est-ce qui rend une promesse sacrée à tes yeux ?","tags":["engagement","honnêteté"]}
+{"id":"valeurs-103","type":"text","text":"Que penses-tu de la notion de mérite : chacun obtient-il ce qu'il mérite ?","tags":["justice","société"]}
+{"id":"valeurs-104","type":"choice","text":"Si tu devais renoncer à l'une de ces choses, laquelle te coûterait le moins ?","options":["La voiture","L'avion","Les vêtements neufs","Les livraisons à domicile"],"tags":["écologie","consommation"]}
+{"id":"valeurs-105","type":"text","text":"Quel comportement trouves-tu impoli, alors que d'autres le trouvent normal ?","tags":["respect","société"]}
+{"id":"valeurs-106","type":"text","text":"Comment aimerais-tu qu'on se soutienne dans nos ambitions respectives ?","tags":["couple","ambition"]}
+{"id":"valeurs-107","type":"scale","text":"La sécurité financière influence-t-elle beaucoup tes choix ?","minLabel":"Très peu","maxLabel":"Énormément","tags":["argent","priorités"]}
+{"id":"valeurs-108","type":"who","text":"Qui de nous deux se mobiliserait le plus vite pour une cause ?","tags":["engagement","société"]}
+{"id":"valeurs-109","type":"text","text":"Qu'as-tu appris de ta famille sur le rapport au travail ?","tags":["travail","famille"]}
+{"id":"valeurs-110","type":"scale","text":"Dans ta vie, la balance penche-t-elle plutôt vers le devoir ou vers le plaisir ?","minLabel":"Le devoir","maxLabel":"Le plaisir","tags":["priorités","quotidien"]}
+{"id":"valeurs-111","type":"choice","text":"Que te semble-t-il le plus important de transmettre aux générations futures ?","options":["Le respect des autres","La curiosité","Le goût de l'effort","Le soin de la planète"],"tags":["transmission"]}
+{"id":"valeurs-112","type":"text","text":"Que fais-tu quand tes valeurs entrent en conflit avec celles d'un proche ?","tags":["respect","famille","amitié"]}
+{"id":"valeurs-113","type":"choice","text":"Le pardon est-il toujours une bonne chose, selon toi ?","options":["Oui, il libère","Pas toujours","Seulement s'il est demandé","Ça dépend de la blessure"],"tags":["pardon","éthique"]}
+{"id":"valeurs-114","type":"scale","text":"Acheter local ou éthique, est-ce important pour toi ?","minLabel":"Pas prioritaire","maxLabel":"Essentiel","tags":["consommation","écologie"]}
+{"id":"valeurs-115","type":"text","text":"Quelle phrase ou quelle devise résume le mieux ta façon de vivre ?","tags":["principes"]}
+{"id":"valeurs-116","type":"text","text":"Où commence le gaspillage, pour toi, et qu'est-ce qui n'en est pas ?","tags":["consommation","écologie"]}
+{"id":"valeurs-117","type":"who","text":"Qui de nous deux accorde le plus d'importance aux traditions ?","tags":["famille","transmission"]}
+{"id":"valeurs-118","type":"choice","text":"Face à une grosse décision financière, comment préfères-tu qu'on procède ?","options":["On décide ensemble, toujours","La personne la plus calée tranche","On prend le temps d'y réfléchir","On demande conseil à quelqu'un"],"tags":["argent","couple","communication"]}
+{"id":"valeurs-119","type":"text","text":"Que signifie pour toi « être là » pour quelqu'un ?","tags":["amitié","loyauté"]}
+{"id":"valeurs-120","type":"text","text":"Quelle question morale te divise intérieurement, sans réponse évidente ?","tags":["éthique","réflexion"]}
+{"id":"valeurs-121","type":"text","text":"Quel métier ou quelle vie aurais-tu choisi si personne ne t'avait rien conseillé ?","tags":["travail","liberté"]}
+{"id":"valeurs-122","type":"text","text":"Quel partage des efforts te semble juste dans un couple ?","tags":["couple","justice"]}
+{"id":"valeurs-123","type":"choice","text":"Que penses-tu de la fraude dans les transports en commun ?","options":["C'est du vol, tout simplement","Ça dépend de la situation","Ça ne me regarde pas"],"tags":["éthique","société"]}
+{"id":"valeurs-124","type":"scale","text":"Rester proche de ta famille, est-ce important pour toi ?","minLabel":"Peu important","maxLabel":"Essentiel","tags":["famille"]}
+{"id":"valeurs-125","type":"text","text":"Quel principe d'éducation te paraît essentiel, qu'il s'agisse d'enfants ou d'adultes ?","tags":["éducation","transmission"]}
+{"id":"valeurs-126","type":"who","text":"Qui de nous deux prend le plus le temps d'appeler sa famille ou ses amis ?","tags":["famille","amitié"]}
+{"id":"valeurs-127","type":"text","text":"À partir de quand considères-tu qu'on a « assez » d'argent ?","tags":["argent"]}
+{"id":"valeurs-128","type":"text","text":"Quel livre, film ou personnage a façonné ton sens de la justice ?","tags":["culture","justice"]}
+{"id":"valeurs-129","type":"text","text":"Comment réagirais-tu si j'avais une opinion politique très différente de la tienne ?","tags":["respect","couple","société"]}
+{"id":"valeurs-130","type":"choice","text":"Quelle évolution du monde du travail te semble la plus souhaitable ?","options":["La semaine de quatre jours","Plus de télétravail","Des salaires plus justes","Plus de sens, moins de réunions"],"tags":["travail","société"]}
+{"id":"valeurs-131","type":"text","text":"À tes yeux, à quoi ressemble un acte de courage ordinaire, dans la vie de tous les jours ?","tags":["courage","éthique"]}
+{"id":"valeurs-132","type":"scale","text":"Aimes-tu planifier ton budget ?","minLabel":"Je déteste ça","maxLabel":"J'adore les tableaux","tags":["argent","quotidien"]}
+{"id":"valeurs-133","type":"text","text":"Quel sujet de société aimerais-tu qu'on aborde plus souvent ensemble ?","tags":["société","communication"]}
+{"id":"valeurs-134","type":"choice","text":"Avant un achat non indispensable, que fais-tu le plus souvent ?","options":["J'achète sur un coup de cœur","J'attends quelques jours","Je compare longuement","Je finis souvent par renoncer"],"tags":["consommation","argent"]}
+{"id":"valeurs-135","type":"text","text":"Quelle part d'indépendance te paraît indispensable dans un couple ?","tags":["liberté","couple"]}
+{"id":"valeurs-136","type":"who","text":"Qui de nous deux serait le plus capable de tout plaquer pour une vie plus simple ?","tags":["liberté","priorités"]}
+{"id":"valeurs-137","type":"text","text":"Que penses-tu de l'expression « la fin justifie les moyens » ?","tags":["éthique"]}
+{"id":"valeurs-138","type":"choice","text":"Qu'est-ce qui rendrait la société plus juste, selon toi ?","options":["Une meilleure éducation pour tous","Moins d'écarts de richesse","Plus d'entraide locale","Des lois mieux appliquées"],"tags":["justice","société"]}
+{"id":"valeurs-139","type":"text","text":"Quel plaisir t'autorises-tu sans culpabilité, même s'il n'est pas raisonnable ?","tags":["liberté","plaisir"]}
+{"id":"valeurs-140","type":"scale","text":"La ponctualité est-elle une question de respect, pour toi ?","minLabel":"Pas vraiment","maxLabel":"Absolument","tags":["respect","quotidien"]}
+{"id":"valeurs-141","type":"text","text":"Que t'apporte l'amitié que l'amour ne remplace pas ?","tags":["amitié"]}
+{"id":"valeurs-142","type":"text","text":"Quelle dépense aimerais-tu qu'on s'autorise plus souvent ensemble ?","tags":["argent","couple","plaisir"]}
+{"id":"valeurs-143","type":"text","text":"Comment voudrais-tu qu'on soutienne nos proches âgés ou fragiles, le moment venu ?","tags":["famille","solidarité"]}
+{"id":"valeurs-144","type":"choice","text":"Laquelle de ces valeurs passe avant les autres pour toi ?","options":["La liberté","La justice","La bienveillance","La loyauté"],"tags":["priorités","principes"]}
+{"id":"valeurs-145","type":"text","text":"Dans quelle situation as-tu choisi la justice plutôt que la popularité ?","tags":["justice","courage"]}
+{"id":"valeurs-146","type":"who","text":"Qui de nous deux reste le plus fidèle à ses principes sous la pression ?","tags":["principes"]}
+{"id":"valeurs-147","type":"choice","text":"Quel lien avec la nature aimerais-tu renforcer ?","options":["Cultiver des plantes ou un potager","Marcher plus souvent dehors","Réduire mes déchets","Vivre plus près des grands espaces"],"tags":["nature","écologie"]}
+{"id":"valeurs-148","type":"scale","text":"Oublier une date importante pour l'autre, est-ce grave à tes yeux ?","minLabel":"Pas grave du tout","maxLabel":"Vraiment blessant","tags":["respect","attention"]}
+{"id":"valeurs-149","type":"text","text":"Que représente pour toi le fait de rendre ce qu'on a reçu ?","tags":["gratitude","générosité"]}
+{"id":"valeurs-150","type":"text","text":"Si tu devais créer une entreprise ou une association, quelle serait sa mission ?","tags":["travail","engagement"]}
+{"id":"valeurs-151","type":"choice","text":"Face à une entreprise aux pratiques douteuses, que fais-tu ?","options":["Je la boycotte","J'achète quand même si c'est pratique","Je me renseigne d'abord","Je n'y prête pas attention"],"tags":["consommation","éthique"]}
+{"id":"valeurs-152","type":"text","text":"Quelle règle de notre couple, même non dite, te semble la plus importante ?","tags":["couple","principes"]}
+{"id":"valeurs-153","type":"scale","text":"La façon dont quelqu'un traite les serveurs t'en dit-elle long sur cette personne ?","minLabel":"Pas grand-chose","maxLabel":"Absolument tout","tags":["respect"]}
+{"id":"valeurs-154","type":"scale","text":"À quel point est-il important pour toi de laisser le monde un peu meilleur ?","minLabel":"Ce n'est pas mon rôle","maxLabel":"C'est ma boussole","tags":["sens","engagement"]}
+{"id":"valeurs-155","type":"text","text":"Quel sacrifice accepterais-tu de faire pour quelqu'un que tu aimes ?","tags":["loyauté","amour"]}
+{"id":"valeurs-156","type":"text","text":"Qu'est-ce qui te donne le sentiment du travail bien fait, dans ton métier ou ailleurs ?","tags":["travail"]}
+{"id":"valeurs-157","type":"who","text":"Qui de nous deux a le plus de mal à accepter un cadeau coûteux ?","tags":["argent","générosité"]}
+{"id":"valeurs-158","type":"choice","text":"Qu'est-ce qui te fait le plus douter de quelqu'un ?","options":["Les promesses non tenues","Les petits mensonges","Le décalage entre paroles et actes","Les commérages sur les absents"],"tags":["confiance"]}
+{"id":"valeurs-159","type":"text","text":"Complète : une vie bien vécue, pour moi, c'est une vie où…","tags":["sens","principes"]}
+{"id":"valeurs-160","type":"text","text":"Quelle valeur aimerais-tu qu'on cultive davantage, toi et moi, dans les années à venir ?","tags":["couple","avenir"]}

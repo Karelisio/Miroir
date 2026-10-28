@@ -1,0 +1,160 @@
+{"id":"gouts-001","type":"text","text":"Quel plat pourrais-tu manger toute ta vie sans jamais t'en lasser ?","tags":["nourriture"]}
+{"id":"gouts-002","type":"choice","text":"Pour un petit-déjeuner idéal, que choisis-tu ?","options":["Sucré : viennoiseries et confiture","Salé : œufs et fromage","Fruits et yaourt","Juste un café"],"tags":["nourriture","matin"]}
+{"id":"gouts-003","type":"scale","text":"À quel point aimes-tu la nourriture épicée ?","minLabel":"Pas du tout","maxLabel":"Plus c'est fort, mieux c'est","tags":["nourriture"]}
+{"id":"gouts-004","type":"text","text":"Quelle chanson te met de bonne humeur à coup sûr ?","tags":["musique"]}
+{"id":"gouts-005","type":"who","text":"Qui de nous deux a les goûts musicaux les plus éclectiques ?","tags":["musique"]}
+{"id":"gouts-006","type":"text","text":"Quel film pourrais-tu revoir dix fois de suite ?","tags":["cinéma"]}
+{"id":"gouts-007","type":"choice","text":"Quelle saison te ressemble le plus ?","options":["Le printemps","L'été","L'automne","L'hiver"],"tags":["saisons"]}
+{"id":"gouts-008","type":"text","text":"Quelle odeur te fait du bien instantanément ?","tags":["odeurs"]}
+{"id":"gouts-009","type":"choice","text":"Au cinéma, que prends-tu à grignoter ?","options":["Pop-corn sucré","Pop-corn salé","Des bonbons","Rien, je regarde le film"],"tags":["cinéma","nourriture"]}
+{"id":"gouts-010","type":"text","text":"Quelle est ta couleur préférée, et pourquoi celle-là ?","tags":["couleurs"]}
+{"id":"gouts-011","type":"scale","text":"À quel point aimes-tu les films d'horreur ?","minLabel":"Jamais de la vie","maxLabel":"J'en redemande","tags":["cinéma"]}
+{"id":"gouts-012","type":"text","text":"Quel livre as-tu le plus envie de faire lire autour de toi ?","tags":["livres"]}
+{"id":"gouts-013","type":"choice","text":"Quelle serait ta soirée idéale un samedi soir ?","options":["Dîner au restaurant","Concert ou spectacle","Plaid, série et plateau-repas","Soirée entre amis"],"tags":["sorties"]}
+{"id":"gouts-014","type":"text","text":"Quelle série pourrais-tu regarder en boucle ?","tags":["séries"]}
+{"id":"gouts-015","type":"text","text":"Quel dessert te fait craquer à tous les coups ?","tags":["nourriture"]}
+{"id":"gouts-016","type":"who","text":"Qui de nous deux mange le plus de fromage ?","tags":["nourriture","drôle"]}
+{"id":"gouts-017","type":"choice","text":"Café ou thé ?","options":["Café, toujours","Thé, sans hésiter","Les deux, selon l'humeur","Ni l'un ni l'autre"],"tags":["boissons"]}
+{"id":"gouts-018","type":"text","text":"Quel artiste ou quel groupe écoutes-tu depuis le plus longtemps ?","tags":["musique"]}
+{"id":"gouts-019","type":"scale","text":"Quelle place la musique occupe-t-elle dans tes journées ?","minLabel":"Presque aucune","maxLabel":"Elle ne s'arrête jamais","tags":["musique"]}
+{"id":"gouts-020","type":"text","text":"Quelle odeur te ramène directement en enfance ?","tags":["odeurs","enfance"]}
+{"id":"gouts-021","type":"choice","text":"Pour des vacances, que préfères-tu ?","options":["La mer","La montagne","La campagne","Une grande ville"],"tags":["voyage"]}
+{"id":"gouts-022","type":"text","text":"Quel fruit pourrais-tu manger par kilos ?","tags":["nourriture"]}
+{"id":"gouts-023","type":"text","text":"Quel style de musique ne supportes-tu pas ?","tags":["musique"]}
+{"id":"gouts-024","type":"choice","text":"Comment préfères-tu les œufs ?","options":["Au plat","Brouillés","À la coque","Je n'aime pas les œufs"],"tags":["nourriture"]}
+{"id":"gouts-025","type":"scale","text":"À quel point aimes-tu cuisiner ?","minLabel":"Corvée absolue","maxLabel":"Mon moment préféré","tags":["cuisine"]}
+{"id":"gouts-026","type":"text","text":"Quel jeu de société sortirais-tu en premier pour une soirée ?","tags":["jeux"]}
+{"id":"gouts-027","type":"who","text":"Qui de nous deux a le meilleur goût en matière de déco ?","tags":["déco"]}
+{"id":"gouts-028","type":"text","text":"Quel vêtement porterais-tu tous les jours si tu le pouvais ?","tags":["mode"]}
+{"id":"gouts-029","type":"choice","text":"Quel genre de film choisis-tu pour une soirée à deux ?","options":["Comédie","Thriller","Film romantique","Science-fiction"],"tags":["cinéma"]}
+{"id":"gouts-030","type":"text","text":"Quelle cuisine du monde préfères-tu ?","tags":["nourriture","voyage"]}
+{"id":"gouts-031","type":"text","text":"Quel est le meilleur concert ou spectacle que tu aies vu ?","tags":["musique","sorties"]}
+{"id":"gouts-032","type":"choice","text":"Quelle est ta pizza idéale ?","options":["Margherita, la base","Quatre fromages","Garnie de tout","Avec de l'ananas, évidemment"],"tags":["nourriture","drôle"]}
+{"id":"gouts-033","type":"scale","text":"À quel point la décoration d'un lieu compte-t-elle pour toi ?","minLabel":"Peu importe","maxLabel":"Ça change tout","tags":["déco"]}
+{"id":"gouts-034","type":"text","text":"Quelle fleur ou quelle plante aimes-tu le plus ?","tags":["nature"]}
+{"id":"gouts-035","type":"text","text":"Quel sport aimes-tu regarder ou pratiquer ?","tags":["sport"]}
+{"id":"gouts-036","type":"choice","text":"Quel est ton moment préféré de la journée ?","options":["Le lever du soleil","Le milieu de journée","La fin d'après-midi","Tard dans la nuit"],"tags":["habitudes"]}
+{"id":"gouts-037","type":"text","text":"Quel aliment détestes-tu au point de le trier dans ton assiette ?","tags":["nourriture","drôle"]}
+{"id":"gouts-038","type":"who","text":"Qui de nous deux pourrait vivre sans dessert ?","tags":["nourriture"]}
+{"id":"gouts-039","type":"text","text":"Avec quel personnage de fiction aimerais-tu passer une soirée ?","tags":["livres","cinéma"]}
+{"id":"gouts-040","type":"choice","text":"Avec quoi aimes-tu trinquer ?","options":["Un bon vin","Une bière","Un cocktail","Un jus ou un soft"],"tags":["boissons"]}
+{"id":"gouts-041","type":"text","text":"Quel film a changé ta façon de voir les choses ?","tags":["cinéma"]}
+{"id":"gouts-042","type":"choice","text":"Comment préfères-tu lire ?","options":["Un roman papier","Sur liseuse","En livre audio","En BD ou en manga"],"tags":["livres"]}
+{"id":"gouts-043","type":"scale","text":"À quel point aimes-tu faire du shopping ?","minLabel":"Un vrai cauchemar","maxLabel":"Mon passe-temps favori","tags":["mode","sorties"]}
+{"id":"gouts-044","type":"text","text":"Quelle est ta friandise préférée ?","tags":["nourriture"]}
+{"id":"gouts-045","type":"text","text":"Quel album pourrais-tu écouter du début à la fin sans passer une chanson ?","tags":["musique"]}
+{"id":"gouts-046","type":"choice","text":"En voyage, que préfères-tu faire ?","options":["Musées et monuments","Plage et farniente","Randonnée et nature","Flâner sans programme"],"tags":["voyage"]}
+{"id":"gouts-047","type":"who","text":"Qui de nous deux a le dernier mot pour choisir le film ?","tags":["cinéma"]}
+{"id":"gouts-048","type":"text","text":"Quel livre aurais-tu aimé écrire ?","tags":["livres"]}
+{"id":"gouts-049","type":"choice","text":"Quelle pâtisserie choisis-tu ?","options":["Éclair au chocolat","Tarte au citron meringuée","Mille-feuille","Paris-Brest"],"tags":["nourriture"]}
+{"id":"gouts-050","type":"text","text":"Quelle tenue te donne confiance en toi ?","tags":["mode"]}
+{"id":"gouts-051","type":"scale","text":"Le week-end, à quel point as-tu envie de sortir ?","minLabel":"Rester sous la couette","maxLabel":"Dehors du matin au soir","tags":["sorties"]}
+{"id":"gouts-052","type":"text","text":"Quel parfum de glace choisis-tu à chaque fois ?","tags":["nourriture","été"]}
+{"id":"gouts-053","type":"text","text":"Quelle série as-tu abandonnée en cours de route, et pourquoi ?","tags":["séries"]}
+{"id":"gouts-054","type":"choice","text":"Quel art te touche le plus ?","options":["La peinture","La photographie","La sculpture","Le street art"],"tags":["art"]}
+{"id":"gouts-055","type":"text","text":"Quel est ton plat réconfortant des jours de pluie ?","tags":["nourriture"]}
+{"id":"gouts-056","type":"text","text":"Quel musée ou quelle exposition t'a vraiment plu ?","tags":["art","sorties"]}
+{"id":"gouts-057","type":"choice","text":"Plutôt chien ou chat ?","options":["Chien","Chat","Les deux","Ni l'un ni l'autre"],"tags":["animaux"]}
+{"id":"gouts-058","type":"scale","text":"À quel point aimes-tu danser ?","minLabel":"Jamais sur une piste","maxLabel":"Dès la première note","tags":["musique","sorties"]}
+{"id":"gouts-059","type":"text","text":"Quelle chanson as-tu un peu honte d'adorer ?","tags":["musique","drôle"]}
+{"id":"gouts-060","type":"who","text":"Qui de nous deux regarde le plus de séries ?","tags":["séries"]}
+{"id":"gouts-061","type":"choice","text":"Pour t'habiller, qu'est-ce qui compte le plus ?","options":["Le confort avant tout","L'élégance","La couleur et l'originalité","La sobriété"],"tags":["mode"]}
+{"id":"gouts-062","type":"text","text":"Quel jeu de ton enfance te rend nostalgique ?","tags":["jeux","enfance"]}
+{"id":"gouts-063","type":"text","text":"Si tu ne devais garder qu'un seul fromage, lequel serait-ce ?","tags":["nourriture"]}
+{"id":"gouts-064","type":"choice","text":"Où préfères-tu regarder un film ?","options":["Au cinéma, sur grand écran","Chez soi, sous un plaid","En plein air, l'été"],"tags":["cinéma"]}
+{"id":"gouts-065","type":"text","text":"Quelle ville du monde rêves-tu de découvrir ?","tags":["voyage"]}
+{"id":"gouts-066","type":"scale","text":"À quel point aimes-tu les légumes ?","minLabel":"Le strict minimum","maxLabel":"J'en mettrais partout","tags":["nourriture"]}
+{"id":"gouts-067","type":"text","text":"Quel acteur ou quelle actrice regarderais-tu dans n'importe quel film ?","tags":["cinéma"]}
+{"id":"gouts-068","type":"choice","text":"Pour un repas de fête, que choisis-tu ?","options":["Des fruits de mer","Une belle pièce de viande","Un plat végétarien","Plein de petites bouchées"],"tags":["nourriture","fête"]}
+{"id":"gouts-069","type":"text","text":"Quel livre t'a fait pleurer ou rire aux éclats ?","tags":["livres"]}
+{"id":"gouts-070","type":"who","text":"Qui de nous deux s'habille avec le plus de style ?","tags":["mode"]}
+{"id":"gouts-071","type":"choice","text":"À quoi ressemble ton dimanche matin idéal ?","options":["Grasse matinée","Marché et croissants","Sport au grand air","Brunch entre amis"],"tags":["habitudes","week-end"]}
+{"id":"gouts-072","type":"text","text":"Quel restaurant voudrais-tu faire découvrir à tout le monde ?","tags":["nourriture","sorties"]}
+{"id":"gouts-073","type":"text","text":"Quelle couleur ne porterais-tu jamais ?","tags":["mode","couleurs"]}
+{"id":"gouts-074","type":"scale","text":"À quel point aimes-tu les grosses chaleurs de l'été ?","minLabel":"Je fonds, au secours","maxLabel":"Jamais trop chaud","tags":["saisons"]}
+{"id":"gouts-075","type":"text","text":"De quel instrument de musique aimerais-tu savoir jouer ?","tags":["musique"]}
+{"id":"gouts-076","type":"choice","text":"Quel style de déco te plaît le plus ?","options":["Scandinave et épuré","Bohème avec plein de plantes","Vintage et chiné","Industriel et brut"],"tags":["déco","maison"]}
+{"id":"gouts-077","type":"text","text":"Quel podcast ou quelle émission écoutes-tu avec plaisir ?","tags":["podcasts"]}
+{"id":"gouts-078","type":"choice","text":"Le chocolat, tu le préfères comment ?","options":["Noir","Au lait","Blanc","Pas fan de chocolat"],"tags":["nourriture"]}
+{"id":"gouts-079","type":"text","text":"Quel endroit de ta ville ou de ta région préfères-tu ?","tags":["sorties","lieux"]}
+{"id":"gouts-080","type":"who","text":"Qui de nous deux supporte le mieux les plats très épicés ?","tags":["nourriture"]}
+{"id":"gouts-081","type":"choice","text":"Quel son t'apaise le plus ?","options":["La pluie sur les vitres","Un feu qui crépite","Les vagues","Le silence total"],"tags":["nature","ambiance"]}
+{"id":"gouts-082","type":"text","text":"Quel goûter de ton enfance mangerais-tu encore aujourd'hui ?","tags":["nourriture","enfance"]}
+{"id":"gouts-083","type":"scale","text":"À quel point aimes-tu les comédies romantiques ?","minLabel":"Très peu pour moi","maxLabel":"Je les connais par cœur","tags":["cinéma"]}
+{"id":"gouts-084","type":"text","text":"Quelle série recommanderais-tu à quelqu'un qui n'en regarde jamais ?","tags":["séries"]}
+{"id":"gouts-085","type":"choice","text":"Pour une soirée jeux, que sors-tu ?","options":["Un jeu de cartes","Un jeu de plateau","Un jeu vidéo","Un quiz ou un jeu d'ambiance"],"tags":["jeux"]}
+{"id":"gouts-086","type":"text","text":"Quel concert rêverais-tu de voir, toutes époques confondues ?","tags":["musique"]}
+{"id":"gouts-087","type":"who","text":"Qui de nous deux lit le plus ?","tags":["livres"]}
+{"id":"gouts-088","type":"choice","text":"Quand tu te fais livrer un repas, c'est plutôt quoi ?","options":["Pizza","Sushis","Burger","Cuisine indienne ou thaïe"],"tags":["nourriture"]}
+{"id":"gouts-089","type":"text","text":"Quel objet de déco rêves-tu d'avoir chez toi ?","tags":["déco"]}
+{"id":"gouts-090","type":"scale","text":"À quel point aimes-tu flâner dans les musées ?","minLabel":"Je m'y ennuie vite","maxLabel":"J'y passerais la journée","tags":["art","sorties"]}
+{"id":"gouts-091","type":"text","text":"Quel personnage de série ou de film te ressemble le plus ?","tags":["cinéma","séries"]}
+{"id":"gouts-092","type":"choice","text":"Quelle ambiance préfères-tu pour un dîner ?","options":["Petit bistrot animé","Restaurant gastronomique","Pique-nique au soleil","Chandelles à la maison"],"tags":["sorties","nourriture"]}
+{"id":"gouts-093","type":"text","text":"Quelle odeur ne supportes-tu pas ?","tags":["odeurs"]}
+{"id":"gouts-094","type":"choice","text":"Quelles chaussures portes-tu le plus volontiers ?","options":["Baskets","Bottes","Sandales","Pieds nus, toujours"],"tags":["mode"]}
+{"id":"gouts-095","type":"text","text":"Quel sport aimerais-tu essayer au moins une fois ?","tags":["sport"]}
+{"id":"gouts-096","type":"scale","text":"À quel point aimes-tu la randonnée ?","minLabel":"Le canapé, merci","maxLabel":"Dès qu'il y a un sentier","tags":["nature","sport"]}
+{"id":"gouts-097","type":"text","text":"Pour quelle époque as-tu un faible, côté musique ou mode ?","tags":["musique","mode"]}
+{"id":"gouts-098","type":"choice","text":"Qu'écoutes-tu pour te concentrer ?","options":["De la musique classique","Du lo-fi ou de l'électro douce","Ma playlist habituelle","Rien, le silence"],"tags":["musique"]}
+{"id":"gouts-099","type":"text","text":"Quel aliment as-tu toujours en réserve ?","tags":["nourriture"]}
+{"id":"gouts-100","type":"who","text":"Qui de nous deux a les goûts les plus aventureux en cuisine ?","tags":["nourriture"]}
+{"id":"gouts-101","type":"choice","text":"Quelles couleurs te plaisent le plus ?","options":["Les couleurs vives","Les tons pastel","Noir, blanc et gris","Les tons terreux"],"tags":["couleurs","mode"]}
+{"id":"gouts-102","type":"text","text":"Quel est ton petit plaisir gourmand inavouable ?","tags":["nourriture","drôle"]}
+{"id":"gouts-103","type":"text","text":"Quel film d'animation te touche encore aujourd'hui ?","tags":["cinéma"]}
+{"id":"gouts-104","type":"scale","text":"À quel point la mode t'intéresse-t-elle ?","minLabel":"Pas le moins du monde","maxLabel":"Je suis les tendances","tags":["mode"]}
+{"id":"gouts-105","type":"choice","text":"Comment aimes-tu organiser tes vacances ?","options":["Tout planifier à l'avance","Un peu de programme","L'improvisation totale"],"tags":["voyage"]}
+{"id":"gouts-106","type":"text","text":"Quel auteur ou quelle autrice lirais-tu les yeux fermés ?","tags":["livres"]}
+{"id":"gouts-107","type":"text","text":"Quel plat découvert en voyage te fait encore saliver ?","tags":["nourriture","voyage"]}
+{"id":"gouts-108","type":"choice","text":"Pour un rendez-vous parfait, que choisirais-tu ?","options":["Un musée puis un café","Une balade en nature","Un bon restaurant","Un concert"],"tags":["sorties","tendresse"]}
+{"id":"gouts-109","type":"scale","text":"À quel point aimes-tu les jeux de société ?","minLabel":"Je m'en passe","maxLabel":"Une partie, vite !","tags":["jeux"]}
+{"id":"gouts-110","type":"text","text":"Quelle célébrité inviterais-tu à dîner ?","tags":["drôle"]}
+{"id":"gouts-111","type":"choice","text":"Comment regardes-tu tes séries ?","options":["Un épisode par jour","En marathon le week-end","Je décroche au bout de trois","Je préfère les films"],"tags":["séries"]}
+{"id":"gouts-112","type":"who","text":"Qui de nous deux a le plus de vêtements ?","tags":["mode"]}
+{"id":"gouts-113","type":"text","text":"Quel moment de l'année attends-tu avec le plus d'impatience ?","tags":["saisons"]}
+{"id":"gouts-114","type":"choice","text":"Quelles pâtes choisis-tu ?","options":["Carbonara","Bolognaise","Au pesto","Beurre et parmesan"],"tags":["nourriture"]}
+{"id":"gouts-115","type":"text","text":"Quelle activité te fait perdre la notion du temps ?","tags":["loisirs"]}
+{"id":"gouts-116","type":"scale","text":"À quel point aimes-tu la pluie ?","minLabel":"Ça me déprime","maxLabel":"J'adore son ambiance","tags":["saisons","nature"]}
+{"id":"gouts-117","type":"text","text":"Quel petit cadeau te fait toujours plaisir ?","tags":["cadeaux"]}
+{"id":"gouts-118","type":"choice","text":"Quel est ton apéro idéal ?","options":["Chips et cacahuètes","Planche fromage-charcuterie","Légumes et houmous","Petits fours maison"],"tags":["nourriture"]}
+{"id":"gouts-119","type":"text","text":"Quel art aimerais-tu pratiquer si tu en avais le temps ?","tags":["art"]}
+{"id":"gouts-120","type":"who","text":"Qui de nous deux craque le plus pour les gadgets ?","tags":["technologie"]}
+{"id":"gouts-121","type":"choice","text":"Le matin, qu'écoutes-tu ?","options":["Une playlist entraînante","La radio","Un podcast","Rien, le calme"],"tags":["musique","matin"]}
+{"id":"gouts-122","type":"text","text":"Quel plat aimerais-tu apprendre à cuisiner ?","tags":["cuisine"]}
+{"id":"gouts-123","type":"scale","text":"À quel point aimes-tu les longues balades sans but ?","minLabel":"Ça m'ennuie","maxLabel":"Mon activité préférée","tags":["sorties","nature"]}
+{"id":"gouts-124","type":"choice","text":"Quel genre de livre préfères-tu ?","options":["Polar ou thriller","Fantasy ou science-fiction","Récit ou biographie","Roman d'amour"],"tags":["livres"]}
+{"id":"gouts-125","type":"text","text":"Quelle est, selon toi, la plus belle chanson d'amour ?","tags":["musique","tendresse"]}
+{"id":"gouts-126","type":"who","text":"Qui de nous deux met la musique le plus fort ?","tags":["musique","drôle"]}
+{"id":"gouts-127","type":"choice","text":"Quel est ton repas préféré de la journée ?","options":["Le petit-déjeuner","Le déjeuner","Le goûter","Le dîner"],"tags":["nourriture"]}
+{"id":"gouts-128","type":"text","text":"Quel paysage te donne le plus de frissons ?","tags":["nature","voyage"]}
+{"id":"gouts-129","type":"scale","text":"À quel point aimes-tu chanter ?","minLabel":"Pas une note","maxLabel":"Du matin au soir","tags":["musique"]}
+{"id":"gouts-130","type":"choice","text":"Au restaurant, à quoi ne résistes-tu jamais ?","options":["L'entrée","Le dessert","Le pain et le beurre","Le café gourmand"],"tags":["nourriture","sorties"]}
+{"id":"gouts-131","type":"text","text":"Quelle chanson te rappelle un été en particulier ?","tags":["musique","souvenirs"]}
+{"id":"gouts-132","type":"choice","text":"Quel humour te fait le plus rire ?","options":["L'absurde","Le pince-sans-rire","L'ironie et la satire","Les jeux de mots"],"tags":["humour"]}
+{"id":"gouts-133","type":"text","text":"Quel film, sketch ou spectacle te fait rire aux larmes ?","tags":["humour","cinéma"]}
+{"id":"gouts-134","type":"scale","text":"À quel point aimes-tu chiner dans les brocantes ?","minLabel":"Aucun intérêt","maxLabel":"Dès que je peux","tags":["sorties","déco"]}
+{"id":"gouts-135","type":"choice","text":"Quel accompagnement préfères-tu ?","options":["Des frites","De la purée","Du riz","Des légumes rôtis"],"tags":["nourriture"]}
+{"id":"gouts-136","type":"text","text":"Quelle pièce d'une maison préfères-tu, et comment la décorerais-tu ?","tags":["déco","maison"]}
+{"id":"gouts-137","type":"who","text":"Qui de nous deux préfère les soirées calmes aux grandes fêtes ?","tags":["sorties"]}
+{"id":"gouts-138","type":"choice","text":"Quel serait ton hiver idéal ?","options":["Au ski","Au coin du feu","Au soleil, loin du froid","En ville, entre illuminations et vin chaud"],"tags":["saisons"]}
+{"id":"gouts-139","type":"who","text":"Qui de nous deux a les goûts les plus faciles à deviner ?","tags":["drôle","couple"]}
+{"id":"gouts-140","type":"scale","text":"Sucré ou salé : où te situes-tu ?","minLabel":"Salé, toujours","maxLabel":"Sucré, toujours","tags":["nourriture"]}
+{"id":"gouts-141","type":"choice","text":"Quelle est ta tenue du dimanche ?","options":["Pyjama toute la journée","Jogging confortable","Jean et pull","Tenue soignée"],"tags":["mode","drôle"]}
+{"id":"gouts-142","type":"text","text":"Quel est ton en-cas indispensable en voyage ?","tags":["nourriture","voyage"]}
+{"id":"gouts-143","type":"choice","text":"Au cinéma, quelle version choisis-tu ?","options":["Version originale","Version française","Ça dépend du film"],"tags":["cinéma"]}
+{"id":"gouts-144","type":"text","text":"Quel style vestimentaire te plaît le plus chez les autres ?","tags":["mode"]}
+{"id":"gouts-145","type":"scale","text":"À quel point aimes-tu les festivals de musique ?","minLabel":"Trop de monde","maxLabel":"Je campe sur place","tags":["musique","sorties"]}
+{"id":"gouts-146","type":"choice","text":"En vacances, où préfères-tu dormir ?","options":["Hôtel tout confort","Camping ou van","Location au calme","Chez l'habitant"],"tags":["voyage"]}
+{"id":"gouts-147","type":"text","text":"Quelle chanson aimerais-tu qu'on garde comme « notre chanson » ?","tags":["musique","tendresse"]}
+{"id":"gouts-148","type":"choice","text":"Quel genre de série préfères-tu ?","options":["Policier ou thriller","Comédie","Drame","Fantastique ou SF"],"tags":["séries"]}
+{"id":"gouts-149","type":"text","text":"Quel parfum de bougie ou d'intérieur aimes-tu le plus ?","tags":["odeurs","maison"]}
+{"id":"gouts-150","type":"scale","text":"À quel point aimes-tu tester de nouveaux restaurants ?","minLabel":"Mes adresses habituelles","maxLabel":"Toujours du nouveau","tags":["nourriture","sorties"]}
+{"id":"gouts-151","type":"who","text":"Qui de nous deux se met à danser dès qu'une chanson passe ?","tags":["musique","drôle"]}
+{"id":"gouts-152","type":"choice","text":"Quelle sortie te tente le plus ?","options":["Un brunch","Un verre après le travail","Un dîner tardif","Une soirée jusqu'à l'aube"],"tags":["sorties"]}
+{"id":"gouts-153","type":"text","text":"À quel jeu (vidéo, de cartes ou de société) es-tu imbattable ?","tags":["jeux"]}
+{"id":"gouts-154","type":"scale","text":"À quel point aimes-tu le théâtre ?","minLabel":"Pas pour moi","maxLabel":"J'y vais dès que possible","tags":["sorties","art"]}
+{"id":"gouts-155","type":"text","text":"Quelle saveur associes-tu au bonheur ?","tags":["nourriture"]}
+{"id":"gouts-156","type":"choice","text":"Pour ton anniversaire, que préfères-tu ?","options":["Une grande fête","Un dîner en petit comité","Une sortie surprise","Que personne n'en parle"],"tags":["fête"]}
+{"id":"gouts-157","type":"scale","text":"À quel point aimes-tu découvrir de nouveaux artistes ?","minLabel":"Mes vieux classiques","maxLabel":"Toujours en exploration","tags":["musique"]}
+{"id":"gouts-158","type":"text","text":"Quel film aimerais-tu qu'on regarde ensemble ce week-end ?","tags":["cinéma","tendresse"]}
+{"id":"gouts-159","type":"choice","text":"Quand il fait beau, que préfères-tu faire ?","options":["Une terrasse en ville","Un pique-nique","Une baignade","Une balade à vélo"],"tags":["sorties","nature"]}
+{"id":"gouts-160","type":"text","text":"Quelle découverte récente (livre, série, musique…) as-tu adorée ?","tags":["découvertes"]}
