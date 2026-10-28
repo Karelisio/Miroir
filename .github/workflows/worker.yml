@@ -1,55 +1,116 @@
 name: Déploiement du Worker
 
-# Optionnel : déploie le Worker Cloudflare quand worker/ change sur main (ou à la demande).
-# Secrets requis : CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, D1_DATABASE_ID.
-# Secret optionnel : FCM_SERVICE_ACCOUNT (JSON du compte de service Firebase).
+# Déploie le Worker Cloudflare à chaque modification de worker/ (ou à la demande).
+# Secret obligatoire : CLOUDFLARE_API_TOKEN (modèle « Edit Cloudflare Workers » + D1 : Edit).
+# Secrets facultatifs : CLOUDFLARE_ACCOUNT_ID (si le jeton voit plusieurs comptes),
+#   FCM_SERVICE_ACCOUNT (JSON du compte de service Firebase, pour les notifications push).
+# Le compte, la base D1 « miroir » et le sous-domaine workers.dev sont détectés ou créés automatiquement.
 on:
   push:
-    branches: [main]
-    paths: ["worker/**"]
+    paths: ["worker/**", ".github/workflows/worker.yml"]
   workflow_dispatch:
+
+concurrency:
+  group: worker-deploy
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: worker
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      WRANGLER_SEND_METRICS: "false"
+      CF_API: https://api.cloudflare.com/client/v4
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version: "22"
-      - name: Vérifier la configuration
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+
+      - name: Jeton Cloudflare
+        id: token
         run: |
-          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$D1_DATABASE_ID" ]; then
-            echo "::notice::Secrets Cloudflare absents : déploiement ignoré."
-            echo "SKIP=1" >> "$GITHUB_ENV"
-            exit 0
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::notice::Secret CLOUDFLARE_API_TOKEN absent : déploiement ignoré."
+            echo "skip=1" >> "$GITHUB_OUTPUT"
           fi
-          sed -i "s/REMPLACER_PAR_VOTRE_DATABASE_ID/$D1_DATABASE_ID/" wrangler.toml
+
+      - name: Compte, base D1 et sous-domaine
+        if: steps.token.outputs.skip != '1'
+        run: |
+          cf() { curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" "$@"; }
+
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            ACCOUNTS=$(cf "$CF_API/accounts?per_page=50")
+            COUNT=$(echo "$ACCOUNTS" | jq '.result | length')
+            if [ "$COUNT" != "1" ]; then
+              echo "$ACCOUNTS" | jq -c '{success, errors, comptes: [.result[]?.name]}'
+              echo "::error::Le jeton voit $COUNT compte(s) : ajoute le secret CLOUDFLARE_ACCOUNT_ID."
+              exit 1
+            fi
+            CLOUDFLARE_ACCOUNT_ID=$(echo "$ACCOUNTS" | jq -r '.result[0].id')
+            echo "CLOUDFLARE_ACCOUNT_ID=$CLOUDFLARE_ACCOUNT_ID" >> "$GITHUB_ENV"
+          fi
+          ACC="$CF_API/accounts/$CLOUDFLARE_ACCOUNT_ID"
+
+          # Base D1 « miroir » : réutilisée si elle existe, sinon créée.
+          DB_ID=$(cf "$ACC/d1/database?name=miroir" | jq -r '[.result[]? | select(.name == "miroir")][0].uuid // empty')
+          if [ -z "$DB_ID" ]; then
+            CREATED=$(cf -X POST "$ACC/d1/database" -d '{"name":"miroir"}')
+            DB_ID=$(echo "$CREATED" | jq -r '.result.uuid // empty')
+            [ -n "$DB_ID" ] || { echo "$CREATED" | jq -c '.errors'; echo "::error::Création de la base D1 impossible (droit D1 : Edit ?)"; exit 1; }
+            echo "Base D1 créée : $DB_ID"
+          else
+            echo "Base D1 existante : $DB_ID"
+          fi
+          sed -i "s/REMPLACER_PAR_VOTRE_DATABASE_ID/$DB_ID/" wrangler.toml
+
+          # Sous-domaine workers.dev : créé au premier déploiement si le compte n'en a pas.
+          SUB=$(cf "$ACC/workers/subdomain" | jq -r '.result.subdomain // empty')
+          if [ -z "$SUB" ]; then
+            WANT="miroir-${CLOUDFLARE_ACCOUNT_ID:0:6}"
+            SUB=$(cf -X PUT "$ACC/workers/subdomain" -d "{\"subdomain\":\"$WANT\"}" | jq -r '.result.subdomain // empty')
+            [ -n "$SUB" ] || { echo "::error::Sous-domaine workers.dev introuvable : ouvre une fois « Workers & Pages » dans le tableau de bord Cloudflare."; exit 1; }
+            echo "Sous-domaine créé : $SUB.workers.dev"
+          fi
+          echo "WORKER_URL=https://miroir.$SUB.workers.dev" >> "$GITHUB_ENV"
+
       - run: npm ci
-        if: env.SKIP != '1'
+        if: steps.token.outputs.skip != '1'
+
       - name: Migrations D1
-        if: env.SKIP != '1'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        if: steps.token.outputs.skip != '1'
         run: npx wrangler d1 migrations apply miroir --remote
+
+      - name: Déploiement
+        if: steps.token.outputs.skip != '1'
+        run: npx wrangler deploy
+
       - name: Secret FCM
-        if: env.SKIP != '1'
+        if: steps.token.outputs.skip != '1'
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
         run: |
-          if [ -n "$FCM_SERVICE_ACCOUNT" ]; then printf '%s' "$FCM_SERVICE_ACCOUNT" | npx wrangler secret put FCM_SERVICE_ACCOUNT; fi
-      - name: Déploiement
-        if: env.SKIP != '1'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler deploy
+          if [ -n "$FCM_SERVICE_ACCOUNT" ]; then
+            printf '%s' "$FCM_SERVICE_ACCOUNT" | npx wrangler secret put FCM_SERVICE_ACCOUNT
+          else
+            echo "::warning::Secret FCM_SERVICE_ACCOUNT absent : le Worker fonctionne, mais sans notifications push."
+          fi
+
+      - name: Vérification
+        if: steps.token.outputs.skip != '1'
+        run: |
+          # Un nouveau sous-domaine peut mettre une minute à répondre.
+          for i in $(seq 1 18); do
+            if curl -fsS "$WORKER_URL/health"; then echo; OK=1; break; fi
+            sleep 10
+          done
+          echo "### Worker Miroir déployé" >> "$GITHUB_STEP_SUMMARY"
+          echo "URL : $WORKER_URL" >> "$GITHUB_STEP_SUMMARY"
+          echo "::notice title=URL du Worker::$WORKER_URL"
+          [ "$OK" = "1" ] || echo "::warning::$WORKER_URL/health ne répond pas encore (propagation DNS en cours ?)."

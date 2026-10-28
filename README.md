@@ -63,7 +63,13 @@ Sans Firebase, l'appli fonctionne quand même : elle se synchronise à l'ouvertu
 
 ### 2. Worker Cloudflare
 
-Il faut Node.js 20 ou plus et un compte Cloudflare (l'offre gratuite suffit).
+**Option automatique (recommandée)** : le workflow « Déploiement du Worker » crée la base D1, applique les migrations, déploie et vérifie `/health`.
+
+1. Sur [dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens) : « Créer un jeton » → modèle **Modifier Cloudflare Workers** (Edit Cloudflare Workers), ajoutez la permission **Compte → D1 → Modifier**, puis créez le jeton.
+2. Ajoutez-le dans les secrets GitHub sous le nom `CLOUDFLARE_API_TOKEN` (et `FCM_SERVICE_ACCOUNT` avec le JSON du compte de service Firebase).
+3. Lancez le workflow (Actions → Déploiement du Worker → Run workflow) ou poussez une modification de `worker/`. L'URL du Worker s'affiche dans le résumé de l'exécution.
+
+**Option manuelle**, avec Node.js 20 ou plus :
 
 ```bash
 cd worker
@@ -102,7 +108,7 @@ Dans Settings → Secrets and variables → Actions du dépôt :
 | `GOOGLE_SERVICES_JSON_B64` | Contenu de `google-services.json.b64` |
 | `WORKER_URL` | URL du Worker (préremplie dans l'appli) |
 
-Pour le déploiement automatique du Worker (facultatif) : `CLOUDFLARE_API_TOKEN` (modèle « Edit Cloudflare Workers » + droit D1), `CLOUDFLARE_ACCOUNT_ID`, `D1_DATABASE_ID` et `FCM_SERVICE_ACCOUNT` (le JSON du compte de service, tel quel).
+Pour le déploiement automatique du Worker : `CLOUDFLARE_API_TOKEN` (modèle « Edit Cloudflare Workers » + D1 : Edit), `FCM_SERVICE_ACCOUNT` (le JSON du compte de service, tel quel) et, seulement si le jeton donne accès à plusieurs comptes, `CLOUDFLARE_ACCOUNT_ID`.
 
 Aucun de ces fichiers n'est commité : `google-services.json`, `*.jks` et `keystore.properties` sont ignorés par git.
 
