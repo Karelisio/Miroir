@@ -18,8 +18,7 @@
         android:scaleX="-1">
         <path
             android:pathData="M35,35 H39 A10,10 0 0 1 49,45 V52 A10,10 0 0 1 39,62 H34 L26.5,70 L27.6,58.6 Q25,56 25,52 V45 A10,10 0 0 1 35,35 Z"
-            android:strokeWidth="3.2"
-            android:strokeColor="#FFFFFFFF"
-            android:strokeLineJoin="round" />
+            android:fillAlpha="0.55"
+            android:fillColor="#FFFFFFFF" />
     </group>
 </vector>

@@ -21,7 +21,7 @@ enum class Category(val key: String, val label: String, val emoji: String) {
     NOUS_DEUX("nous_deux", "Nous deux", "💞"),
     TU_PREFERES("tu_preferes", "Tu préfères", "⚖️"),
     QUI_DE_NOUS("qui_de_nous", "Qui de nous deux", "👀"),
-    HYPOTHETIQUE("hypothetique", "Hypothétique", "🪄"),
+    HYPOTHETIQUE("hypothetique", "Hypothétique", "🔮"),
     VALEURS("valeurs", "Valeurs", "🧭"),
     GOUTS("gouts", "Goûts", "🍓"),
     ENFANCE("enfance", "Enfance", "🧸"),

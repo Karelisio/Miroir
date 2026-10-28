@@ -51,6 +51,7 @@ import com.karelisio.miroir.data.model.Question
 import com.karelisio.miroir.data.model.QuestionType
 import com.karelisio.miroir.ui.components.ShapeAvatar
 import com.karelisio.miroir.ui.components.rememberHaptics
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.PI
 import kotlin.math.sin
@@ -87,10 +88,12 @@ fun MirrorReveal(
         haptics.confirm()
         launch { sheen.animateTo(1f, tween(1500, easing = LinearOutSlowInEasing)) }
         launch { burst.animateTo(1f, tween(2200, easing = LinearOutSlowInEasing)) }
-        open.animateTo(1f, spring(dampingRatio = 0.55f, stiffness = 140f))
+        val unfold = launch { open.animateTo(1f, spring(dampingRatio = 0.55f, stiffness = 140f)) }
+        delay(380)
         haptics.tick()
-        content.animateTo(1f, tween(360))
+        content.animateTo(1f, tween(420))
         badge.animateTo(1f, spring(dampingRatio = 0.4f, stiffness = Spring.StiffnessMediumLow))
+        unfold.join()
         onPlayed()
     }
 

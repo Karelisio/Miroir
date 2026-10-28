@@ -30,13 +30,18 @@ class AppContainer(context: Context) {
     val updates = UpdateManager(context, http, prefs)
 }
 
-class MiroirApp : Application() {
+open class MiroirApp : Application() {
     lateinit var container: AppContainer
         private set
 
     override fun onCreate() {
         super.onCreate()
         container = AppContainer(this)
+        startBackgroundWork()
+    }
+
+    /** Canaux, travail périodique et rappel (surchargé par l'application de test). */
+    protected open fun startBackgroundWork() {
         Notifier.createChannels(this)
         SyncScheduler.schedulePeriodic(this)
         // Replanifie le rappel à chaque changement d'heure ou d'appairage.

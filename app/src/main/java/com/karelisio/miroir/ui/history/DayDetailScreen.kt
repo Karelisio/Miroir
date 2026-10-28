@@ -2,6 +2,7 @@ package com.karelisio.miroir.ui.history
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -85,8 +86,10 @@ fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit) {
             ) {
                 Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
                     val category = Category.of(e.category)
-                    CategoryChip("${category.emoji} ${category.label}")
-                    Pack.of(e.pack)?.let { CategoryChip("${it.emoji} ${it.label}", highlight = true) }
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        CategoryChip("${category.emoji} ${category.label}")
+                        Pack.of(e.pack)?.let { CategoryChip("${it.emoji} ${it.label}", highlight = true) }
+                    }
                     Text(e.questionText, style = MaterialTheme.typography.headlineMedium, modifier = Modifier.sharedItem("q-$day"))
                 }
             }

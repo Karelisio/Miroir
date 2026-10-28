@@ -15,7 +15,9 @@ import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.core.animation.doOnEnd
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -88,6 +90,13 @@ class MainActivity : ComponentActivity() {
                     MiroirNavHost(container, nav, start, snackbar)
                     UpdateSheet(appVm.updates)
 
+                    // Dissociation (depuis l'autre téléphone ou le serveur) : retour à l'appairage.
+                    var wasPaired by remember { mutableStateOf(p.paired) }
+                    LaunchedEffect(p.paired) {
+                        if (wasPaired && !p.paired) nav.navigate(PairingRoute()) { popUpTo(nav.graph.id) { inclusive = true } }
+                        wasPaired = p.paired
+                    }
+
                     val incoming by pendingIntent.collectAsStateWithLifecycle()
                     LaunchedEffect(incoming) {
                         val i = incoming ?: return@LaunchedEffect
@@ -95,9 +104,9 @@ class MainActivity : ComponentActivity() {
                         if (!p.paired) return@LaunchedEffect
                         when (i.getStringExtra(Notifier.EXTRA_DESTINATION)) {
                             "day" -> i.getStringExtra(Notifier.EXTRA_DAY)?.let { nav.navigate(DayRoute(it)) }
-                            "custom" -> nav.navigate(MainRoute(Tabs.QUESTIONS)) { popUpTo(0) { inclusive = true } }
+                            "custom" -> nav.navigate(MainRoute(Tabs.QUESTIONS)) { popUpTo(nav.graph.id) { inclusive = true } }
                             "update" -> appVm.updates.check(manual = true)
-                            "today" -> nav.navigate(MainRoute(Tabs.TODAY)) { popUpTo(0) { inclusive = true } }
+                            "today" -> nav.navigate(MainRoute(Tabs.TODAY)) { popUpTo(nav.graph.id) { inclusive = true } }
                         }
                     }
                 }

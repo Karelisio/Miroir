@@ -37,10 +37,8 @@
                     <path
                         android:name="rightPath"
                         android:pathData="M35,35 H39 A10,10 0 0 1 49,45 V52 A10,10 0 0 1 39,62 H34 L26.5,70 L27.6,58.6 Q25,56 25,52 V45 A10,10 0 0 1 35,35 Z"
-                        android:strokeAlpha="0"
-                        android:strokeColor="#FF7C4DFF"
-                        android:strokeLineJoin="round"
-                        android:strokeWidth="3.2" />
+                        android:fillAlpha="0"
+                        android:fillColor="#FF7C4DFF" />
                 </group>
             </group>
         </vector>
@@ -92,10 +90,10 @@
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:duration="420"
-                android:propertyName="strokeAlpha"
+                android:propertyName="fillAlpha"
                 android:startOffset="160"
                 android:valueFrom="0"
-                android:valueTo="1" />
+                android:valueTo="0.7" />
         </aapt:attr>
     </target>
 </animated-vector>

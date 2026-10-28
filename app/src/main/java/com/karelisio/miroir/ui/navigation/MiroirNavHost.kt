@@ -116,7 +116,7 @@ fun MiroirNavHost(
                         showInvite = route.showInvite,
                         onPaired = {
                             if (!navController.popBackStack(MainRoute(), inclusive = false)) {
-                                navController.navigate(MainRoute()) { popUpTo(0) { inclusive = true } }
+                                navController.navigate(MainRoute()) { popUpTo(navController.graph.id) { inclusive = true } }
                             }
                         },
                         onBack = if (route.showInvite) ({ navController.popBackStack() }) else null,
@@ -220,7 +220,7 @@ private fun MainScaffold(
                         onOpenCategories = { navController.navigate(CategoriesRoute) },
                         onOpenPermissions = { navController.navigate(PermissionsRoute) },
                         onShowInvite = { navController.navigate(PairingRoute(showInvite = true)) },
-                        onUnpaired = { navController.navigate(PairingRoute()) { popUpTo(0) { inclusive = true } } },
+                        onUnpaired = { navController.navigate(PairingRoute()) { popUpTo(navController.graph.id) { inclusive = true } } },
                         onMessage = onMessage,
                     )
                 }

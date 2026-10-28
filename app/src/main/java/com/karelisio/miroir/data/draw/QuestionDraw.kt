@@ -41,11 +41,10 @@ object QuestionDraw {
 
         // 1. Packs saisonniers et événements, par ordre de priorité.
         if (input.packsEnabled) {
+            // Pack épuisé : on retombe sur la banque générale plutôt que de répéter.
             for (pack in activePacks(input, rng)) {
-                val pool = input.bank.filter { it.pack == pack.key && it.id !in input.exclude }
-                val fresh = pool.filter { it.id !in blocked }
-                val pick = fresh.ifEmpty { pool.filter { it.id !in input.recent } }
-                if (pick.isNotEmpty()) return pick[rng.nextInt(pick.size)]
+                val fresh = input.bank.filter { it.pack == pack.key && it.id !in blocked }.sortedBy { it.id }
+                if (fresh.isNotEmpty()) return fresh[rng.nextInt(fresh.size)]
             }
         }
 
@@ -69,7 +68,7 @@ object QuestionDraw {
 
         val byCategory = pool.groupBy { it.category }.toSortedMap()
         val categories = byCategory.keys.toList()
-        val chosen = byCategory.getValue(categories[rng.nextInt(categories.size)])
+        val chosen = byCategory.getValue(categories[rng.nextInt(categories.size)]).sortedBy { it.id }
         return chosen[rng.nextInt(chosen.size)]
     }
 

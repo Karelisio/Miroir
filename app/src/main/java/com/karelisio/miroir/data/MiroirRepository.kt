@@ -136,6 +136,8 @@ class MiroirRepository(
             partnerJoined = false
             fcmTokenSent = true
         }
+        // Pousse tout de suite les réglages partagés (fuseau du couple).
+        SyncScheduler.enqueueSend(context)
         return inviteFor(creds)
     }
 

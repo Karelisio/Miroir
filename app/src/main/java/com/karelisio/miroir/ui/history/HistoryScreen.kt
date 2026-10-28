@@ -59,6 +59,17 @@ private val itemDate = DateTimeFormatter.ofPattern("EEE d MMM yyyy", Locale.FREN
 @Composable
 fun HistoryScreen(vm: HistoryViewModel, contentPadding: PaddingValues, onOpenDay: (String) -> Unit) {
     val ui by vm.state.collectAsStateWithLifecycle()
+    HistoryContent(ui, contentPadding, vm::setQuery, vm::setCategory, onOpenDay)
+}
+
+@Composable
+fun HistoryContent(
+    ui: HistoryUi,
+    contentPadding: PaddingValues,
+    onQuery: (String) -> Unit,
+    onCategory: (String?) -> Unit,
+    onOpenDay: (String) -> Unit,
+) {
     val haptics = rememberHaptics()
 
     LazyColumn(
@@ -86,12 +97,12 @@ fun HistoryScreen(vm: HistoryViewModel, contentPadding: PaddingValues, onOpenDay
         item(key = "search") {
             TextField(
                 value = ui.query,
-                onValueChange = vm::setQuery,
+                onValueChange = onQuery,
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp).staggeredAppear(2, "h-search"),
-                placeholder = { Text("Rechercher une question, une réponse…") },
+                placeholder = { Text("Rechercher dans vos réponses", maxLines = 1) },
                 leadingIcon = { Icon(Icons.Rounded.Search, null) },
                 trailingIcon = {
-                    if (ui.query.isNotEmpty()) IconButton(onClick = { vm.setQuery("") }) { Icon(Icons.Rounded.Close, "Effacer") }
+                    if (ui.query.isNotEmpty()) IconButton(onClick = { onQuery("") }) { Icon(Icons.Rounded.Close, "Effacer") }
                 },
                 singleLine = true,
                 shape = CircleShape,
@@ -110,13 +121,13 @@ fun HistoryScreen(vm: HistoryViewModel, contentPadding: PaddingValues, onOpenDay
                 modifier = Modifier.staggeredAppear(3, "h-filters"),
             ) {
                 item {
-                    FilterChip(selected = ui.category == null, onClick = { haptics.tick(); vm.setCategory(null) }, label = { Text("Tout") })
+                    FilterChip(selected = ui.category == null, onClick = { haptics.tick(); onCategory(null) }, label = { Text("Tout") })
                 }
                 items(Category.entries, key = { it.key }) { c ->
                     val selected = ui.category == c.key
                     FilterChip(
                         selected = selected,
-                        onClick = { haptics.tick(); vm.setCategory(if (selected) null else c.key) },
+                        onClick = { haptics.tick(); onCategory(if (selected) null else c.key) },
                         label = { Text("${c.emoji} ${c.label}") },
                         colors = FilterChipDefaults.filterChipColors(selectedContainerColor = MaterialTheme.colorScheme.primaryContainer),
                     )

@@ -23,6 +23,8 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -83,6 +85,7 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.karelisio.miroir.data.model.AnswerPayload
 import com.karelisio.miroir.data.model.Category
 import com.karelisio.miroir.data.model.Pack
 import com.karelisio.miroir.data.model.Question
@@ -97,7 +100,7 @@ import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
-val REACTIONS = listOf("💜", "😂", "🥹", "😮", "🔥", "🤔", "👏", "🙈")
+val REACTIONS = listOf("💜", "😂", "🥰", "😮", "🔥", "🤔", "👏", "🙈")
 
 private val dateFormat = DateTimeFormatter.ofPattern("EEEE d MMMM", Locale.FRENCH)
 
@@ -113,8 +116,39 @@ fun TodayScreen(
     val refreshing by vm.refreshing.collectAsState()
     val skipping by vm.skipping.collectAsState()
     LaunchedEffect(Unit) { vm.events.collect { if (it is TodayMessage.Text) onMessage(it.text) } }
+    TodayContent(
+        ui = ui,
+        refreshing = refreshing,
+        skipping = skipping,
+        contentPadding = contentPadding,
+        actions = TodayActions(
+            refresh = { vm.refresh() },
+            submit = vm::submit,
+            skip = vm::skip,
+            react = vm::react,
+            revealSeen = vm::markRevealSeen,
+            dismissPermissionReminder = vm::dismissPermissionReminder,
+            showInvite = onShowInvite,
+            openPermissions = onOpenPermissions,
+        ),
+    )
+}
 
-    PullToRefreshBox(isRefreshing = refreshing, onRefresh = { vm.refresh() }, modifier = Modifier.fillMaxSize()) {
+/** Actions de l'écran du jour (séparées pour garder un contenu sans état, prévisualisable et testable). */
+class TodayActions(
+    val refresh: () -> Unit = {},
+    val submit: (AnswerPayload) -> Unit = {},
+    val skip: () -> Unit = {},
+    val react: (String?, String?) -> Unit = { _, _ -> },
+    val revealSeen: () -> Unit = {},
+    val dismissPermissionReminder: () -> Unit = {},
+    val showInvite: () -> Unit = {},
+    val openPermissions: () -> Unit = {},
+)
+
+@Composable
+fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPadding: PaddingValues, actions: TodayActions) {
+    PullToRefreshBox(isRefreshing = refreshing, onRefresh = actions.refresh, modifier = Modifier.fillMaxSize()) {
         Column(
             Modifier
                 .fillMaxSize()
@@ -127,7 +161,7 @@ fun TodayScreen(
             Header(ui, Modifier.staggeredAppear(0, "header"))
 
             if (!ui.partnerJoined) {
-                PairingPendingCard(onShowInvite, Modifier.staggeredAppear(1, "pending"))
+                PairingPendingCard(actions.showInvite, Modifier.staggeredAppear(1, "pending"))
                 return@Column
             }
 
@@ -143,13 +177,13 @@ fun TodayScreen(
                 modifier = Modifier.staggeredAppear(2, "phase"),
             ) { phase ->
                 when (phase) {
-                    Phase.ANSWER -> AnswerSection(ui, skipping, onSubmit = vm::submit, onSkip = vm::skip)
+                    Phase.ANSWER -> AnswerSection(ui, skipping, onSubmit = actions.submit, onSkip = actions.skip)
                     Phase.WAITING -> WaitingSection(ui)
-                    else -> RevealSection(ui, onPlayed = vm::markRevealSeen, onReact = vm::react)
+                    else -> RevealSection(ui, onPlayed = actions.revealSeen, onReact = actions.react)
                 }
             }
 
-            PermissionReminder(ui, onOpenPermissions, vm::dismissPermissionReminder)
+            PermissionReminder(ui, actions.openPermissions, actions.dismissPermissionReminder)
             Spacer(Modifier.height(24.dp))
         }
     }
@@ -209,9 +243,9 @@ private fun QuestionCard(ui: TodayUi, modifier: Modifier) {
             MorphingBlob(
                 modifier = Modifier
                     .align(Alignment.TopEnd)
-                    .padding(top = 8.dp, end = 8.dp)
-                    .size(120.dp)
-                    .graphicsLayer { alpha = 0.16f },
+                    .offset(x = 44.dp, y = (-44).dp)
+                    .size(150.dp)
+                    .graphicsLayer { alpha = 0.12f },
                 color = colors.primary,
             )
             AnimatedContent(
@@ -224,7 +258,7 @@ private fun QuestionCard(ui: TodayUi, modifier: Modifier) {
                 Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
                     val pack = Pack.of(ui.entity?.pack)
                     val category = Category.of(ui.entity?.category)
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         CategoryChip("${category.emoji} ${category.label}")
                         if (pack != null) CategoryChip("${pack.emoji} ${pack.label}", highlight = true)
                     }
@@ -246,12 +280,12 @@ fun CategoryChip(label: String, highlight: Boolean = false) {
         color = if (highlight) MaterialTheme.colorScheme.tertiaryContainer else MaterialTheme.colorScheme.secondaryContainer,
         contentColor = if (highlight) MaterialTheme.colorScheme.onTertiaryContainer else MaterialTheme.colorScheme.onSecondaryContainer,
     ) {
-        Text(label, style = MaterialTheme.typography.labelLarge, modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp))
+        Text(label, style = MaterialTheme.typography.labelLarge, maxLines = 1, modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp))
     }
 }
 
 @Composable
-private fun AnswerSection(ui: TodayUi, skipping: Boolean, onSubmit: (com.karelisio.miroir.data.model.AnswerPayload) -> Unit, onSkip: () -> Unit) {
+private fun AnswerSection(ui: TodayUi, skipping: Boolean, onSubmit: (AnswerPayload) -> Unit, onSkip: () -> Unit) {
     var confirmSkip by remember { mutableStateOf(false) }
     val question: Question = ui.question ?: return
     Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
