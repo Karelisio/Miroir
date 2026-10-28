@@ -160,6 +160,13 @@ class Prefs(private val context: Context) {
         var profileDirty: Boolean by bool(K.profileDirty)
         var fcmTokenSent: Boolean by bool(K.fcmTokenSent)
 
+        // Lectures dans la même transaction que l'écriture (pas de mise à jour perdue).
+        val myName: String get() = p[K.myName] ?: ""
+        val myBirthday: String? get() = p[K.myBirthday]
+        val sharedVersion: Int get() = p[K.sharedVersion] ?: 0
+        val shared: SharedSettings
+            get() = p[K.shared]?.let { runCatching { json.decodeFromString<SharedSettings>(it) }.getOrNull() } ?: SharedSettings()
+
         fun myProfile(name: String, birthday: String?) {
             p[K.myName] = name
             if (birthday != null) p[K.myBirthday] = birthday else p.remove(K.myBirthday)

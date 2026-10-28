@@ -98,7 +98,7 @@ class UpdateManager(private val context: Context, private val http: OkHttpClient
 
     /** [manual] : depuis les réglages, on ignore "ignorer cette version" et on affiche "à jour". */
     suspend fun check(manual: Boolean = false): UpdateInfo? {
-        if (_state.value is UpdateState.Downloading || _state.value is UpdateState.Installing) return null
+        if (_state.value is UpdateState.Downloading) return null
         _state.value = UpdateState.Checking
         return try {
             val info = fetchLatest()
@@ -121,7 +121,7 @@ class UpdateManager(private val context: Context, private val http: OkHttpClient
     }
 
     fun dismiss() {
-        if (_state.value !is UpdateState.Downloading && _state.value !is UpdateState.Installing) _state.value = UpdateState.Idle
+        if (_state.value !is UpdateState.Downloading) _state.value = UpdateState.Idle
     }
 
     suspend fun downloadAndInstall(info: UpdateInfo) {
@@ -244,8 +244,12 @@ class InstallResultReceiver : BroadcastReceiver() {
                 intent.getParcelableExtra(Intent.EXTRA_INTENT, Intent::class.java)
             } else {
                 intent.getParcelableExtra(Intent.EXTRA_INTENT)
-            }
-            confirm?.let { context.startActivity(it.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+            } ?: return
+            confirm.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            // Au premier plan, l'écran de confirmation s'ouvre directement ; sinon (lancement
+            // d'activité bloqué en arrière-plan) une notification permet de le rouvrir.
+            val started = runCatching { context.startActivity(confirm) }.isSuccess
+            if (!started || !Notifier.isAppInForeground()) Notifier.showInstallConfirmation(context, confirm)
             return
         }
         context.container.updates.onInstallResult(status, intent.getStringExtra(PackageInstaller.EXTRA_STATUS_MESSAGE))

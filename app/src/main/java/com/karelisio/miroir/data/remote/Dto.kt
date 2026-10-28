@@ -63,7 +63,14 @@ data class CustomQuestionDto(
 data class AnswerRequest(val day: String, val tag: String, val ref: String, val payload: String)
 
 @Serializable
-data class SkipRequest(val day: String, val expectedSkips: Int, val tag: String, val ref: String)
+data class SkipRequest(
+    val day: String,
+    val expectedSkips: Int,
+    val tag: String,
+    val ref: String,
+    val currentTag: String? = null,
+    val currentRef: String? = null,
+)
 
 @Serializable
 data class ReactRequest(val day: String, val payload: String)

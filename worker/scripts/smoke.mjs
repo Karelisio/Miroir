@@ -50,11 +50,20 @@ assert.equal((await call("POST", "/answer", "B", { day, tag: "tag3", ref: "cmVmM
 r = await call("POST", "/react", "A", { day, payload: "cmVh" });
 assert.equal(r.body.day.reactions.A.payload, "cmVh");
 
+// Passer un jour non verrouillé : le client fournit sa question courante.
+const day2 = new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
+r = await call("POST", "/skip", "A", { day: day2, expectedSkips: 0, tag: "n2", ref: "bjI", currentTag: "n1", currentRef: "bjE" });
+assert.equal(r.body.day.tag, "n2");
+assert.equal(r.body.day.skippedRef, "bjE");
+
 // Synchro incrémentale.
 const rev = (await call("POST", "/state", "B", { since: 0 })).body.rev;
 await call("POST", "/custom-question", "A", { id: rnd(16), payload: "Y3E" });
 r = await call("POST", "/state", "B", { since: rev });
 assert.equal(r.body.days.length, 0);
+r = await call("POST", "/state", "B", { since: 0 });
+assert.equal(r.body.days.length, 2);
+assert.equal(r.body.days.find((d) => d.day === day).answers.B.payload, "YW5zQg");
 assert.equal(r.body.customQuestions.length, 1);
 
 // Réglages : version optimiste.

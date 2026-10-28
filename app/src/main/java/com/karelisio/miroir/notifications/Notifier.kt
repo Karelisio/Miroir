@@ -71,6 +71,16 @@ object Notifier {
         nm.createNotificationChannels(channels)
     }
 
+    fun isAppInForeground(): Boolean = appInForeground()
+
+    fun showInstallConfirmation(context: Context, confirm: Intent) = post(
+        context, ID_UPDATE,
+        base(context, CH_UPDATES).setContentTitle("Installer la mise à jour")
+            .setContentText("Touche pour confirmer l'installation de Miroir.")
+            .setContentIntent(PendingIntent.getActivity(context, ID_UPDATE + 300, confirm, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT))
+            .build(),
+    )
+
     private fun appInForeground(): Boolean =
         runCatching { ProcessLifecycleOwner.get().lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED) }.getOrDefault(false)
 

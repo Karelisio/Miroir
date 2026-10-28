@@ -157,13 +157,22 @@ interface DayRow {
   rev: number;
 }
 
-async function loadDays(env: Env, auth: Auth, rows: DayRow[]) {
+/** Sélection des jours : par révision (synchro) ou un jour précis. Sous-requête plutôt qu'une liste
+ * de paramètres, D1 limitant le nombre de valeurs liées par requête. */
+type DaySelector = { since: number } | { day: string };
+
+function dayFilter(sel: DaySelector): [string, unknown] {
+  return "since" in sel
+    ? ["day IN (SELECT day FROM days WHERE pair_id = ?1 AND rev > ?2)", sel.since]
+    : ["day = ?2", sel.day];
+}
+
+async function loadDays(env: Env, auth: Auth, rows: DayRow[], sel: DaySelector) {
   if (rows.length === 0) return [];
-  const days = rows.map((r) => r.day);
-  const placeholders = days.map((_, i) => `?${i + 2}`).join(",");
+  const [filter, value] = dayFilter(sel);
   const [answers, reactions] = await env.DB.batch([
-    env.DB.prepare(`SELECT day, member, tag, payload, created_at FROM answers WHERE pair_id = ?1 AND day IN (${placeholders})`).bind(auth.pairId, ...days),
-    env.DB.prepare(`SELECT day, member, payload, updated_at FROM reactions WHERE pair_id = ?1 AND day IN (${placeholders})`).bind(auth.pairId, ...days),
+    env.DB.prepare(`SELECT day, member, tag, payload, created_at FROM answers WHERE pair_id = ?1 AND ${filter}`).bind(auth.pairId, value),
+    env.DB.prepare(`SELECT day, member, payload, updated_at FROM reactions WHERE pair_id = ?1 AND ${filter}`).bind(auth.pairId, value),
   ]);
   type A = { day: string; member: Member; tag: string; payload: string; created_at: number };
   type R = { day: string; member: Member; payload: string; updated_at: number };
@@ -201,7 +210,7 @@ async function dayDto(env: Env, auth: Auth, day: string) {
     .bind(auth.pairId, day)
     .first<DayRow>();
   if (!row) return null;
-  return (await loadDays(env, auth, [row]))[0] ?? null;
+  return (await loadDays(env, auth, [row], { day }))[0] ?? null;
 }
 
 async function ensureDay(env: Env, auth: Auth, day: string, tag: string, ref: string) {
@@ -310,7 +319,7 @@ async function handleState(req: Request, env: Env): Promise<Response> {
     me: auth.member,
     members: ((members?.results ?? []) as M[]).map((m) => ({ member: m.member, profile: m.profile, joinedAt: m.joined_at })),
     settings: { payload: p.settings, version: p.settings_version },
-    days: await loadDays(env, auth, (days?.results ?? []) as DayRow[]),
+    days: await loadDays(env, auth, (days?.results ?? []) as DayRow[], { since }),
     customQuestions: ((customs?.results ?? []) as C[]).map((c) => ({
       id: c.id,
       author: c.author,
@@ -331,19 +340,23 @@ async function handleAnswer(req: Request, env: Env, ctx: ExecutionContext): Prom
   const payload = cipher(body.payload, "payload")!;
 
   await ensureDay(env, auth, day, tag, ref);
-  const row = await env.DB.prepare("SELECT tag FROM days WHERE pair_id = ? AND day = ?").bind(auth.pairId, day).first<{ tag: string }>();
-  if (!row || row.tag !== tag) {
-    throw new HttpError(409, "question_changed", { day: await dayDto(env, auth, day) });
-  }
-
+  // Vérification du tag et écriture dans la même instruction : un "passer" concurrent ne peut pas
+  // laisser une réponse attachée à l'ancienne question.
   const [, insert] = await env.DB.batch([
     bumpRev(env, auth.pairId),
     env.DB.prepare(
-      "INSERT OR IGNORE INTO answers (pair_id, day, member, tag, payload, created_at) VALUES (?, ?, ?, ?, ?, ?)",
+      `INSERT INTO answers (pair_id, day, member, tag, payload, created_at)
+       SELECT ?1, ?2, ?3, ?4, ?5, ?6 WHERE EXISTS (SELECT 1 FROM days WHERE pair_id = ?1 AND day = ?2 AND tag = ?4)
+       ON CONFLICT (pair_id, day, member) DO UPDATE SET tag = excluded.tag, payload = excluded.payload, created_at = excluded.created_at
+       WHERE answers.tag <> excluded.tag`,
     ).bind(auth.pairId, day, auth.member, tag, payload, Date.now()),
     env.DB.prepare(`UPDATE days SET rev = ${REV} WHERE pair_id = ?1 AND day = ?2`).bind(auth.pairId, day),
   ]);
   const inserted = (insert?.meta.changes ?? 0) > 0;
+  if (!inserted) {
+    const current = await env.DB.prepare("SELECT tag FROM days WHERE pair_id = ? AND day = ?").bind(auth.pairId, day).first<{ tag: string }>();
+    if (!current || current.tag !== tag) throw new HttpError(409, "question_changed", { day: await dayDto(env, auth, day) });
+  }
   const count = await env.DB.prepare("SELECT COUNT(*) AS n FROM answers WHERE pair_id = ? AND day = ? AND tag = ?")
     .bind(auth.pairId, day, tag)
     .first<{ n: number }>();
@@ -362,6 +375,9 @@ async function handleSkip(req: Request, env: Env, ctx: ExecutionContext): Promis
   const tag = str(body.tag, "tag", B64_RE);
   const ref = cipher(body.ref, "ref")!;
   const expected = typeof body.expectedSkips === "number" ? body.expectedSkips : -1;
+  if (typeof body.currentTag === "string" && body.currentRef !== undefined) {
+    await ensureDay(env, auth, day, str(body.currentTag, "currentTag", B64_RE), cipher(body.currentRef, "currentRef")!);
+  }
 
   const row = await env.DB.prepare("SELECT skips FROM days WHERE pair_id = ? AND day = ?").bind(auth.pairId, day).first<{ skips: number }>();
   if (!row) throw new HttpError(404, "day_not_found");

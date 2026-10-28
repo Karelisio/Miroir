@@ -193,7 +193,7 @@ fun SettingsScreen(
             text = { Text("L'historique, les réponses et les questions perso seront effacés du serveur et de ce téléphone. Cette action est définitive.") },
             confirmButton = {
                 Button(
-                    onClick = { confirmUnpair = false; vm.unpair(onUnpaired) },
+                    onClick = { confirmUnpair = false; vm.unpair(onUnpaired, onMessage) },
                     colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error),
                     shapes = ButtonDefaults.shapes(),
                 ) { Text("Dissocier") }

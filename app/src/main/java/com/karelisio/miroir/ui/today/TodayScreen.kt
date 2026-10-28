@@ -130,6 +130,7 @@ fun TodayScreen(
             dismissPermissionReminder = vm::dismissPermissionReminder,
             showInvite = onShowInvite,
             openPermissions = onOpenPermissions,
+            checkUpdate = vm::checkUpdate,
         ),
     )
 }
@@ -144,6 +145,7 @@ class TodayActions(
     val dismissPermissionReminder: () -> Unit = {},
     val showInvite: () -> Unit = {},
     val openPermissions: () -> Unit = {},
+    val checkUpdate: () -> Unit = {},
 )
 
 @Composable
@@ -165,6 +167,10 @@ fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPad
                 return@Column
             }
 
+            if (ui.entity != null && ui.question == null && ui.entity.locked) {
+                UnknownQuestionCard(actions.checkUpdate, Modifier.staggeredAppear(1, "unknown"))
+                return@Column
+            }
             QuestionCard(ui, Modifier.staggeredAppear(1, "question"))
 
             val motion = MaterialTheme.motionScheme
@@ -465,6 +471,23 @@ fun ReactionsSection(mine: ReactionPayload?, theirs: ReactionPayload?, partnerNa
                 ) { Icon(Icons.AutoMirrored.Rounded.Send, contentDescription = "Envoyer") }
             },
         )
+    }
+}
+
+@Composable
+private fun UnknownQuestionCard(onUpdate: () -> Unit, modifier: Modifier) {
+    Card(modifier.fillMaxWidth(), shape = MaterialTheme.shapes.extraLarge) {
+        Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("🧩", style = MaterialTheme.typography.displaySmall)
+            Text("Une nouvelle question vous attend", style = MaterialTheme.typography.headlineSmall, textAlign = TextAlign.Center)
+            Text(
+                "Elle vient d'une version plus récente de Miroir. Mets l'appli à jour pour la découvrir.",
+                style = MaterialTheme.typography.bodyMedium,
+                textAlign = TextAlign.Center,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Button(onClick = onUpdate, shapes = ButtonDefaults.shapes()) { Text("Rechercher une mise à jour") }
+        }
     }
 }
 

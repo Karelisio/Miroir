@@ -66,10 +66,9 @@ class SettingsViewModel(private val c: AppContainer) : ViewModel() {
         }
     }
 
-    fun unpair(onDone: () -> Unit) {
+    fun unpair(onDone: () -> Unit, onError: (String) -> Unit) {
         viewModelScope.launch {
-            c.repository.unpair()
-            onDone()
+            if (c.repository.unpair()) onDone() else onError("Connexion nécessaire pour dissocier vos miroirs.")
         }
     }
 

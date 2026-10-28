@@ -80,7 +80,7 @@ fun UpdateSheet(updates: UpdateManager) {
     val scope = rememberCoroutineScope()
     val haptics = rememberHaptics()
     val context = LocalContext.current
-    val busy = state is UpdateState.Downloading || state is UpdateState.Installing
+    val busy = state is UpdateState.Downloading
 
     // Retour des réglages "installer des applis inconnues" : on reprend l'installation automatiquement.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {

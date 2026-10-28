@@ -132,9 +132,12 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), TodayUi())
 
     init {
+        // À chaque changement de jour (minuit, fuseau), on crée l'entrée du jour et on synchronise.
         viewModelScope.launch {
-            repo.ensureToday()
-            refresh(silent = true)
+            repo.todayFlow.collect {
+                repo.ensureToday()
+                refresh(silent = true)
+            }
         }
     }
 
@@ -155,7 +158,13 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
 
     fun submit(answer: AnswerPayload) {
         val day = state.value.entity?.day ?: return
-        viewModelScope.launch { repo.submitAnswer(day, answer) }
+        viewModelScope.launch {
+            if (!repo.submitAnswer(day, answer)) messages.send(TodayMessage.Text("La question vient de changer : découvre la nouvelle !"))
+        }
+    }
+
+    fun checkUpdate() {
+        viewModelScope.launch { c.updates.check(manual = true) }
     }
 
     fun skip() {
@@ -167,6 +176,7 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
                 SkipResult.AlreadyUsed -> "Le joker du jour a déjà été utilisé."
                 SkipResult.AlreadyAnswered -> "Quelqu'un a déjà répondu : impossible de passer."
                 SkipResult.Offline -> "Connexion nécessaire pour passer la question."
+                SkipResult.Retry -> "Le serveur n'a pas encore cette journée : réessaie dans un instant."
             }
             skipping.value = false
             text?.let { messages.send(TodayMessage.Text(it)) }

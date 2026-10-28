@@ -73,6 +73,7 @@ sealed interface SkipResult {
     data object AlreadyUsed : SkipResult
     data object AlreadyAnswered : SkipResult
     data object Offline : SkipResult
+    data object Retry : SkipResult
 }
 
 class MiroirRepository(
@@ -173,10 +174,23 @@ class MiroirRepository(
         runCatching { sync() }
     }
 
-    suspend fun unpair() {
-        prefs.credentials()?.let { c -> runCatching { api.unpair(c) } }
+    /** Renvoie false hors ligne : la paire doit être supprimée côté serveur, sinon l'autre répondrait dans le vide. */
+    suspend fun unpair(): Boolean {
+        val c = prefs.credentials()
+        if (c != null) {
+            try {
+                api.unpair(c)
+            } catch (e: ApiException) {
+                if (e.status != 401) return false // 401 : déjà supprimée sur le serveur
+            } catch (e: IOException) {
+                return false
+            }
+        }
         forgetPairing()
+        return true
     }
+
+    suspend fun currentPairId(): String? = prefs.credentials()?.pairId
 
     suspend fun forgetPairing() {
         resetLocal()
@@ -277,14 +291,17 @@ class MiroirRepository(
 
     // ---------------------------------------------------------------- actions
 
-    suspend fun submitAnswer(day: String, answer: AnswerPayload) {
+    /** Renvoie false si la question a changé entre-temps (l'autre l'a passée). */
+    suspend fun submitAnswer(day: String, answer: AnswerPayload): Boolean {
         writeMutex.withLock {
-            val e = dao.day(day) ?: return
-            if (e.myAnswer != null) return
+            val e = dao.day(day) ?: return false
+            if (e.questionId != answer.questionId) return false
+            if (e.myAnswer != null) return true
             dao.upsertDay(e.copy(myAnswer = json.encodeToString(AnswerPayload.serializer(), answer), myAnsweredAt = answer.at, mySynced = false))
         }
         SyncScheduler.enqueueSend(context)
         MiroirWidget.refresh(context)
+        return true
     }
 
     suspend fun react(day: String, emoji: String?, comment: String?) {
@@ -305,19 +322,38 @@ class MiroirRepository(
         val c = prefs.credentials() ?: return SkipResult.Offline
         val crypto = crypto(c)
         val day = today()
-        val current = ensureToday() ?: return SkipResult.Offline
+        var current = ensureToday() ?: return SkipResult.Offline
+        if (!current.locked) {
+            // Jour pas encore verrouillé : une synchro récupère d'abord l'état serveur.
+            runCatching { sync() }
+            current = dao.day(day.toString()) ?: current
+        }
         if (current.myAnswer != null || current.partnerAnswered) return SkipResult.AlreadyAnswered
         if (current.skips >= 1) return SkipResult.AlreadyUsed
         val next = drawFor(c, day, current.skips + 1, setOf(current.questionId))
         return try {
-            val res = api.skip(c, SkipRequest(day.toString(), current.skips, crypto.tag(next.id), crypto.encrypt(next.id, "ref:$day")))
+            val res = api.skip(
+                c,
+                SkipRequest(
+                    day = day.toString(),
+                    expectedSkips = current.skips,
+                    tag = crypto.tag(next.id),
+                    ref = crypto.encrypt(next.id, "ref:$day"),
+                    currentTag = current.tag,
+                    currentRef = crypto.encrypt(current.questionId, "ref:$day"),
+                ),
+            )
+            // Pas de mise à jour de la révision locale ici : seule sync() l'avance.
             res.day?.let { mergeDays(c, listOf(it)) }
-            prefs.update { rev(maxOf(res.rev, 0)) }
             MiroirWidget.refresh(context)
             SkipResult.Done
         } catch (e: ApiException) {
             e.error.day?.let { mergeDays(c, listOf(it)) }
-            if (e.error.error == "already_answered") SkipResult.AlreadyAnswered else SkipResult.AlreadyUsed
+            when (e.error.error) {
+                "already_answered" -> SkipResult.AlreadyAnswered
+                "skip_used" -> SkipResult.AlreadyUsed
+                else -> SkipResult.Retry
+            }
         } catch (e: IOException) {
             SkipResult.Offline
         }
@@ -352,8 +388,7 @@ class MiroirRepository(
     }
 
     suspend fun updateShared(transform: (SharedSettings) -> SharedSettings) {
-        val p = prefs.current()
-        prefs.update { shared(transform(p.shared), p.sharedVersion); sharedDirty = true }
+        prefs.update { shared(transform(shared), sharedVersion); sharedDirty = true }
         SyncScheduler.enqueueSend(context)
     }
 
@@ -374,14 +409,18 @@ class MiroirRepository(
             var p = prefs.current()
             if (p.profileDirty) {
                 api.profile(c, ProfileRequest(profilePayload(crypto, me, p)))
-                prefs.update { profileDirty = false }
+                val sent = p
+                // Modifié pendant l'envoi : on laisse le drapeau pour un nouvel envoi.
+                prefs.update { if (myName == sent.myName && myBirthday == sent.myBirthday) profileDirty = false }
             }
             p = prefs.current()
             if (p.sharedDirty) pushShared(c, crypto, p)
 
             for (q in dao.pendingCustom()) {
                 api.customQuestion(c, CustomQuestionRequest(q.id, crypto.encrypt(q.payload, "custom:${q.id}"), q.deleted))
-                dao.upsertCustom(q.copy(synced = true))
+                writeMutex.withLock {
+                    dao.customById(q.id)?.let { now -> if (now.payload == q.payload && now.deleted == q.deleted) dao.upsertCustom(now.copy(synced = true)) }
+                }
             }
             for (e in dao.pendingAnswers()) {
                 val answer = e.myAnswer ?: continue
@@ -402,12 +441,12 @@ class MiroirRepository(
             for (e in dao.pendingReactions()) {
                 val reaction = e.myReaction ?: continue
                 try {
-                    val res = api.react(c, ReactRequest(e.day, crypto.encrypt(reaction, "reaction:${e.day}:${me.key}")))
-                    res.day?.let { mergeDays(c, listOf(it)) }
+                    api.react(c, ReactRequest(e.day, crypto.encrypt(reaction, "reaction:${e.day}:${me.key}")))
                 } catch (ex: ApiException) {
                     if (ex.status !in 400..499) throw ex
                 }
-                writeMutex.withLock { dao.day(e.day)?.let { dao.upsertDay(it.copy(myReactionSynced = true)) } }
+                // Une nouvelle réaction tapée pendant l'envoi reste en attente.
+                writeMutex.withLock { dao.day(e.day)?.let { if (it.myReaction == reaction) dao.upsertDay(it.copy(myReactionSynced = true)) } }
             }
             return true
         } catch (e: ApiException) {
@@ -427,7 +466,11 @@ class MiroirRepository(
             val payload = crypto.encrypt(json.encodeToString(SharedSettings.serializer(), p.shared), "settings")
             try {
                 val res = api.settings(c, SettingsRequest(payload, base))
-                prefs.update { shared(p.shared, res.settings.version); sharedDirty = false }
+                prefs.update {
+                    val changed = shared != p.shared
+                    shared(shared, res.settings.version)
+                    sharedDirty = changed
+                }
                 return
             } catch (e: ApiException) {
                 // Conflit : la dernière écriture l'emporte, on rejoue sur la version serveur.
@@ -502,11 +545,14 @@ class MiroirRepository(
     private suspend fun mergeDays(c: PairCredentials, days: List<DayDto>): List<SyncEvent> = writeMutex.withLock {
         val crypto = crypto(c)
         val me = c.memberEnum
+        val today = today().toString()
         val events = mutableListOf<SyncEvent>()
         for (d in days) {
+            val existing = dao.day(d.day)
+            // Réponse /state plus ancienne qu'un état déjà fusionné (skip ou réponse concurrents) : ignorée.
+            if (existing != null && existing.locked && d.rev < existing.serverRev) continue
             val questionId = crypto.decryptOrNull(d.ref, "ref:${d.day}") ?: continue
             val question = resolveQuestion(questionId)
-            val existing = dao.day(d.day)
             val sameQuestion = existing?.tag == d.tag
 
             val mine = d.answers[me.key]
@@ -526,9 +572,10 @@ class MiroirRepository(
                 day = d.day,
                 questionId = questionId,
                 tag = d.tag,
-                questionText = question?.let { renderText(it, day) } ?: existing?.questionText.orEmpty(),
-                category = question?.category ?: existing?.category ?: Category.PERSO.key,
-                pack = question?.pack,
+                // Question inconnue (banque plus récente chez l'autre) : texte vide, l'écran propose une mise à jour.
+                questionText = question?.let { renderText(it, day) } ?: existing?.questionText?.takeIf { sameQuestion }.orEmpty(),
+                category = question?.category ?: existing?.category?.takeIf { sameQuestion } ?: Category.PERSO.key,
+                pack = question?.pack ?: existing?.pack?.takeIf { sameQuestion },
                 skips = d.skips,
                 skippedQuestionId = crypto.decryptOrNull(d.skippedRef, "ref:${d.day}"),
                 locked = true,
@@ -546,8 +593,8 @@ class MiroirRepository(
             )
             dao.upsertDay(updated)
 
-            if (theirs != null && existing?.partnerAnswered != true) events += SyncEvent.PartnerAnswered(d.day, myAnswer != null)
-            if (partnerAnswer != null && existing != null && existing.partnerAnswer == null && existing.myAnswer != null && existing.mySynced) {
+            if (theirs != null && existing?.partnerAnswered != true && d.day == today) events += SyncEvent.PartnerAnswered(d.day, myAnswer != null)
+            if (partnerAnswer != null && existing != null && existing.partnerAnswer == null && existing.myAnswer != null) {
                 events += SyncEvent.Revealed(d.day)
             }
             if (partnerReaction != null && partnerReaction != existing?.partnerReaction) {

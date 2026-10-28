@@ -16,8 +16,11 @@ class MiroirMessagingService : FirebaseMessagingService() {
         val c = applicationContext.container
         when (message.data["type"]) {
             "unpaired" -> runBlocking {
-                c.repository.forgetPairing()
-                Notifier.showUnpaired(applicationContext)
+                // Un vieux push d'une paire précédente ne doit pas effacer la paire actuelle.
+                if (message.data["pairId"] == c.repository.currentPairId()) {
+                    c.repository.forgetPairing()
+                    Notifier.showUnpaired(applicationContext)
+                }
             }
             else -> SyncScheduler.enqueueSync(applicationContext)
         }
