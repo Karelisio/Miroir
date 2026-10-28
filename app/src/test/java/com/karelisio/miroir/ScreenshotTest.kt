@@ -37,6 +37,7 @@ import com.karelisio.miroir.ui.pairing.QrCode
 import com.karelisio.miroir.ui.settings.PermissionsScreen
 import com.karelisio.miroir.ui.settings.SettingsScreen
 import com.karelisio.miroir.ui.settings.SettingsViewModel
+import com.karelisio.miroir.ui.theme.MiroirRoot
 import com.karelisio.miroir.ui.theme.MiroirTheme
 import com.karelisio.miroir.ui.today.MirrorReveal
 import com.karelisio.miroir.ui.today.Phase
@@ -78,9 +79,7 @@ class ScreenshotTest {
 
     private fun shot(name: String, dark: Boolean = false, content: @Composable () -> Unit) {
         compose.setContent {
-            MiroirTheme(darkTheme = dark, dynamicColor = false) {
-                Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.surface) { content() }
-            }
+            MiroirRoot(darkTheme = dark, dynamicColor = false) { content() }
         }
         compose.mainClock.advanceTimeBy(1500)
         compose.onRoot().captureRoboImage("screenshots/$name.png")
@@ -158,6 +157,11 @@ class ScreenshotTest {
     @Test fun onboarding() {
         val c = ApplicationProvider.getApplicationContext<Context>().container
         shot("10_onboarding") { OnboardingScreen(c) {} }
+    }
+
+    @Test fun onboarding_dark() {
+        val c = ApplicationProvider.getApplicationContext<Context>().container
+        shot("10a_onboarding_dark", dark = true) { OnboardingScreen(c) {} }
     }
 
     @Test fun onboarding_permission() {

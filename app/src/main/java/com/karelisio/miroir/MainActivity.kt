@@ -37,7 +37,7 @@ import com.karelisio.miroir.ui.navigation.MiroirNavHost
 import com.karelisio.miroir.ui.navigation.OnboardingRoute
 import com.karelisio.miroir.ui.navigation.PairingRoute
 import com.karelisio.miroir.ui.navigation.Tabs
-import com.karelisio.miroir.ui.theme.MiroirTheme
+import com.karelisio.miroir.ui.theme.MiroirRoot
 import com.karelisio.miroir.ui.update.UpdateSheet
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
@@ -87,7 +87,7 @@ class MainActivity : ComponentActivity() {
                     else -> MainRoute()
                 }
             }
-            MiroirTheme {
+            MiroirRoot {
                 CompositionLocalProvider(LocalHapticsEnabled provides p.haptics) {
                     val nav = rememberNavController()
                     val snackbar = remember { SnackbarHostState() }

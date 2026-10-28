@@ -209,7 +209,7 @@ private fun PageDots(pager: PagerState, total: Int, modifier: Modifier) {
 @Composable
 private fun PageText(title: String, body: String) {
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(horizontal = 32.dp)) {
-        Text(title, style = MaterialTheme.typography.headlineLarge, textAlign = TextAlign.Center)
+        Text(title, style = MaterialTheme.typography.headlineLarge, textAlign = TextAlign.Center, color = MaterialTheme.colorScheme.onSurface)
         Spacer(Modifier.height(12.dp))
         Text(body, style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }

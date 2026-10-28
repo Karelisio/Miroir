@@ -2,6 +2,11 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [1.0.1]
+
+- Mode sombre : les titres de l'introduction étaient invisibles (texte noir sur fond sombre).
+- Mode immersif : barres d'état et de navigation masquées.
+
 ## [1.0.0]
 
 - Une question par jour pour vous deux, révélée seulement quand les deux ont répondu, avec une animation « miroir ».
