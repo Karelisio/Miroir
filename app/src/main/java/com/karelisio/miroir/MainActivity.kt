@@ -70,7 +70,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.auto(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
         )
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) window.isNavigationBarContrastEnforced = false
-        hideStatusBar()
+        hideSystemBars()
         handleFullScreen(intent)
         pendingIntent.value = intent
 
@@ -122,18 +122,18 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    /** Mode immersif : pas de barre d'état ; un glissement depuis le haut l'affiche temporairement. */
-    private fun hideStatusBar() {
+    /** Mode immersif : ni barre d'état ni barre de navigation ; un glissement depuis un bord les affiche temporairement. */
+    private fun hideSystemBars() {
         WindowCompat.getInsetsController(window, window.decorView).apply {
             systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-            hide(WindowInsetsCompat.Type.statusBars())
+            hide(WindowInsetsCompat.Type.systemBars())
         }
     }
 
-    // Les dialogues, les réglages système ou certains constructeurs la réaffichent : on la remasque.
+    // Les dialogues, les réglages système ou certains constructeurs les réaffichent : on les remasque.
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
-        if (hasFocus) hideStatusBar()
+        if (hasFocus) hideSystemBars()
     }
 
     override fun onNewIntent(intent: Intent) {

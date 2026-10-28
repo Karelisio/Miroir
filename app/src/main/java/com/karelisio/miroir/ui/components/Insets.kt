@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.union
 import androidx.compose.runtime.Composable
 
 /**
- * Marges sûres en mode immersif : la barre d'état est masquée, il faut donc éviter
- * nous-mêmes l'encoche de la caméra en plus des barres restantes.
+ * Marges sûres en mode immersif : les barres système sont masquées (marges nulles),
+ * il faut donc éviter nous-mêmes l'encoche de la caméra.
  */
 val WindowInsets.Companion.miroirSafe: WindowInsets
     @Composable get() = WindowInsets.systemBars.union(WindowInsets.displayCutout)
