@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash : les deux bulles glissent l'une vers l'autre pendant que la ligne du miroir se trace. -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="240dp"
+            android:height="240dp"
+            android:viewportWidth="108"
+            android:viewportHeight="108">
+            <group
+                android:name="line"
+                android:pivotX="54"
+                android:pivotY="54"
+                android:scaleY="0">
+                <path
+                    android:pathData="M54,31 V77"
+                    android:strokeWidth="2.4"
+                    android:strokeColor="#FFC2185B"
+                    android:strokeLineCap="round" />
+            </group>
+            <group
+                android:name="left"
+                android:translateX="-14">
+                <path
+                    android:name="leftPath"
+                    android:fillAlpha="0"
+                    android:fillColor="#FFE8467C"
+                    android:pathData="M35,35 H39 A10,10 0 0 1 49,45 V52 A10,10 0 0 1 39,62 H34 L26.5,70 L27.6,58.6 Q25,56 25,52 V45 A10,10 0 0 1 35,35 Z" />
+            </group>
+            <group
+                android:name="right"
+                android:translateX="14">
+                <group
+                    android:pivotX="54"
+                    android:scaleX="-1">
+                    <path
+                        android:name="rightPath"
+                        android:pathData="M35,35 H39 A10,10 0 0 1 49,45 V52 A10,10 0 0 1 39,62 H34 L26.5,70 L27.6,58.6 Q25,56 25,52 V45 A10,10 0 0 1 35,35 Z"
+                        android:strokeAlpha="0"
+                        android:strokeColor="#FF7C4DFF"
+                        android:strokeLineJoin="round"
+                        android:strokeWidth="3.2" />
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="line">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="520"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                android:propertyName="scaleY"
+                android:startOffset="80"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="left">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="760"
+                android:interpolator="@android:interpolator/overshoot"
+                android:propertyName="translateX"
+                android:startOffset="160"
+                android:valueFrom="-14"
+                android:valueTo="0" />
+        </aapt:attr>
+    </target>
+    <target android:name="right">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="760"
+                android:interpolator="@android:interpolator/overshoot"
+                android:propertyName="translateX"
+                android:startOffset="160"
+                android:valueFrom="14"
+                android:valueTo="0" />
+        </aapt:attr>
+    </target>
+    <target android:name="leftPath">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="420"
+                android:propertyName="fillAlpha"
+                android:startOffset="160"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="rightPath">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="420"
+                android:propertyName="strokeAlpha"
+                android:startOffset="160"
+                android:valueFrom="0"
+                android:valueTo="1" />
+        </aapt:attr>
+    </target>
+</animated-vector>

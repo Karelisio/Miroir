@@ -1,0 +1,18 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.idea/
+.kotlin/
+
+# Secrets : jamais commités
+app/google-services.json
+*.jks
+*.keystore
+keystore.properties
+*.p12
+service-account*.json

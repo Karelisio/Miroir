@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="miroir_primary">#A23B67</color>
+    <color name="miroir_violet">#6B4FA0</color>
+    <color name="splash_background">#FFF8F9</color>
+    <color name="icon_background_start">#E8467C</color>
+    <color name="icon_background_end">#7C4DFF</color>
+</resources>

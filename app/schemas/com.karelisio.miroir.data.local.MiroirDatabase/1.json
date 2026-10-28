@@ -1,0 +1,191 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "684fcd3e59faac26bf41285e0538f16b",
+    "entities": [
+      {
+        "tableName": "days",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`day` TEXT NOT NULL, `questionId` TEXT NOT NULL, `tag` TEXT NOT NULL, `questionText` TEXT NOT NULL, `category` TEXT NOT NULL, `pack` TEXT, `skips` INTEGER NOT NULL, `skippedQuestionId` TEXT, `locked` INTEGER NOT NULL, `myAnswer` TEXT, `myAnsweredAt` INTEGER, `mySynced` INTEGER NOT NULL, `partnerAnswered` INTEGER NOT NULL, `partnerAnswer` TEXT, `partnerAnsweredAt` INTEGER, `myReaction` TEXT, `myReactionSynced` INTEGER NOT NULL, `partnerReaction` TEXT, `revealSeen` INTEGER NOT NULL, `serverRev` INTEGER NOT NULL, PRIMARY KEY(`day`))",
+        "fields": [
+          {
+            "fieldPath": "day",
+            "columnName": "day",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionId",
+            "columnName": "questionId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tag",
+            "columnName": "tag",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionText",
+            "columnName": "questionText",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pack",
+            "columnName": "pack",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "skips",
+            "columnName": "skips",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "skippedQuestionId",
+            "columnName": "skippedQuestionId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "locked",
+            "columnName": "locked",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "myAnswer",
+            "columnName": "myAnswer",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "myAnsweredAt",
+            "columnName": "myAnsweredAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "mySynced",
+            "columnName": "mySynced",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "partnerAnswered",
+            "columnName": "partnerAnswered",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "partnerAnswer",
+            "columnName": "partnerAnswer",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "partnerAnsweredAt",
+            "columnName": "partnerAnsweredAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "myReaction",
+            "columnName": "myReaction",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "myReactionSynced",
+            "columnName": "myReactionSynced",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "partnerReaction",
+            "columnName": "partnerReaction",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "revealSeen",
+            "columnName": "revealSeen",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "serverRev",
+            "columnName": "serverRev",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "day"
+          ]
+        }
+      },
+      {
+        "tableName": "custom_questions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `author` TEXT NOT NULL, `payload` TEXT NOT NULL, `createdDay` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `deleted` INTEGER NOT NULL, `synced` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "author",
+            "columnName": "author",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "payload",
+            "columnName": "payload",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdDay",
+            "columnName": "createdDay",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deleted",
+            "columnName": "deleted",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "synced",
+            "columnName": "synced",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '684fcd3e59faac26bf41285e0538f16b')"
+    ]
+  }
+}

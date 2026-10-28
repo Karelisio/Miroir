@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miroir</string>
+    <string name="widget_name">Question du jour</string>
+    <string name="widget_description">La question du jour et l\'état de vos réponses</string>
+</resources>
