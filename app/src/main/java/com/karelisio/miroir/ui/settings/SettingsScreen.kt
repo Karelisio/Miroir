@@ -23,6 +23,7 @@ import androidx.compose.material.icons.rounded.Fullscreen
 import androidx.compose.material.icons.rounded.LinkOff
 import androidx.compose.material.icons.rounded.Lock
 import androidx.compose.material.icons.rounded.NotificationsActive
+import androidx.compose.material.icons.rounded.PhonelinkSetup
 import androidx.compose.material.icons.rounded.QrCode2
 import androidx.compose.material.icons.rounded.Schedule
 import androidx.compose.material.icons.rounded.Shield
@@ -86,6 +87,7 @@ fun SettingsScreen(
     onShowInvite: () -> Unit,
     onUnpaired: () -> Unit,
     onMessage: (String) -> Unit,
+    onShowRecovery: () -> Unit = {},
 ) {
     val p by vm.prefs.collectAsStateWithLifecycle()
     val checking by vm.checking.collectAsState()
@@ -122,6 +124,7 @@ fun SettingsScreen(
                 link(Icons.Rounded.Cake, "Mon anniversaire", p.myBirthday.pretty() ?: "Pour un pack spécial ce jour-là") { pickBirthday = true }
                 link(Icons.Rounded.Favorite, "Notre anniversaire", p.shared.anniversary.pretty() ?: "La date de votre rencontre") { pickAnniversary = true }
                 if (p.member.key == "A" && !p.partnerJoined) link(Icons.Rounded.QrCode2, "Afficher le QR code", "Pour relier l'autre téléphone", onClick = onShowInvite)
+                if (p.partnerJoined) link(Icons.Rounded.PhonelinkSetup, "Relier un nouveau téléphone", "Si celui de ${p.partnerDisplayName} est perdu ou réinitialisé", onClick = onShowRecovery)
             }
         }
         item(key = "questions") {

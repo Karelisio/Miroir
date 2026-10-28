@@ -1,5 +1,14 @@
 package com.karelisio.miroir.ui.history
 
+import kotlin.math.roundToInt
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.Spring
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -59,7 +68,7 @@ private val itemDate = DateTimeFormatter.ofPattern("EEE d MMM yyyy", Locale.FREN
 @Composable
 fun HistoryScreen(vm: HistoryViewModel, contentPadding: PaddingValues, onOpenDay: (String) -> Unit) {
     val ui by vm.state.collectAsStateWithLifecycle()
-    HistoryContent(ui, contentPadding, vm::setQuery, vm::setCategory, onOpenDay)
+    HistoryContent(ui, contentPadding, vm::setQuery, vm::setCategory, onOpenDay, vm::setFavoritesOnly)
 }
 
 @Composable
@@ -69,6 +78,7 @@ fun HistoryContent(
     onQuery: (String) -> Unit,
     onCategory: (String?) -> Unit,
     onOpenDay: (String) -> Unit,
+    onFavoritesOnly: (Boolean) -> Unit = {},
 ) {
     val haptics = rememberHaptics()
 
@@ -93,6 +103,9 @@ fun HistoryContent(
                 StatTile("série", ui.streak, "🔥", Modifier.weight(1f))
                 StatTile("record", ui.best, "🏆", Modifier.weight(1f))
             }
+        }
+        if (ui.agreements.isNotEmpty()) {
+            item(key = "agreements") { AgreementsCard(ui.agreements, Modifier.padding(horizontal = 20.dp).staggeredAppear(2, "h-agree")) }
         }
         item(key = "search") {
             TextField(
@@ -121,7 +134,15 @@ fun HistoryContent(
                 modifier = Modifier.staggeredAppear(3, "h-filters"),
             ) {
                 item {
-                    FilterChip(selected = ui.category == null, onClick = { haptics.tick(); onCategory(null) }, label = { Text("Tout") })
+                    FilterChip(selected = ui.category == null && !ui.favoritesOnly, onClick = { haptics.tick(); onCategory(null); onFavoritesOnly(false) }, label = { Text("Tout") })
+                }
+                item {
+                    FilterChip(
+                        selected = ui.favoritesOnly,
+                        onClick = { haptics.tick(); onFavoritesOnly(!ui.favoritesOnly) },
+                        label = { Text("⭐ Favoris") },
+                        colors = FilterChipDefaults.filterChipColors(selectedContainerColor = MaterialTheme.colorScheme.tertiaryContainer),
+                    )
                 }
                 items(Category.entries, key = { it.key }) { c ->
                     val selected = ui.category == c.key
@@ -146,6 +167,40 @@ fun HistoryContent(
                     .staggeredAppear(index + 4, item.day),
                 onClick = { haptics.press(); onOpenDay(item.day) },
             )
+        }
+    }
+}
+
+/** Taux d'accord : barres qui se remplissent en ressort, pourcentage animé. */
+@Composable
+private fun AgreementsCard(agreements: List<Agreement>, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    Surface(shape = MaterialTheme.shapes.extraLarge, color = colors.surfaceContainer, modifier = modifier.fillMaxWidth()) {
+        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+            Text("Vos accords", style = MaterialTheme.typography.titleMedium)
+            agreements.forEach { a ->
+                var shown by remember { mutableStateOf(false) }
+                LaunchedEffect(Unit) { shown = true }
+                val progress by animateFloatAsState(
+                    if (shown) a.percent / 100f else 0f,
+                    spring(dampingRatio = 0.7f, stiffness = Spring.StiffnessVeryLow),
+                    label = "agree",
+                )
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text("${a.emoji}  ${a.label}", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                        AnimatedCounter((progress * 100).roundToInt(), MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold), color = colors.primary)
+                        Text(" %", style = MaterialTheme.typography.titleMedium, color = colors.primary)
+                    }
+                    LinearProgressIndicator(
+                        progress = { progress },
+                        modifier = Modifier.fillMaxWidth().height(8.dp),
+                        trackColor = colors.surfaceContainerHighest,
+                        drawStopIndicator = {},
+                    )
+                    Text("sur ${a.total} question${if (a.total > 1) "s" else ""}", style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
+                }
+            }
         }
     }
 }
@@ -185,7 +240,7 @@ private fun HistoryCard(item: HistoryItem, modifier: Modifier, onClick: () -> Un
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
                 Text(
-                    item.date.format(itemDate).replaceFirstChar { it.titlecase(Locale.FRENCH) },
+                    item.date.format(itemDate).replaceFirstChar { it.titlecase(Locale.FRENCH) } + if (item.favorite) "  ⭐" else "",
                     style = MaterialTheme.typography.labelMedium,
                     color = colors.primary,
                 )

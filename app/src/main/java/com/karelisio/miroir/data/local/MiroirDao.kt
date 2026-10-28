@@ -25,6 +25,9 @@ interface MiroirDao {
     @Query("SELECT * FROM days WHERE myReaction IS NOT NULL AND myReactionSynced = 0")
     suspend fun pendingReactions(): List<DayEntity>
 
+    @Query("UPDATE days SET favorite = :favorite WHERE day = :day")
+    suspend fun setFavorite(day: String, favorite: Boolean)
+
     @Upsert
     suspend fun upsertDay(day: DayEntity)
 

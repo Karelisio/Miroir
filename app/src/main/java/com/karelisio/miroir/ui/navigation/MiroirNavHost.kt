@@ -117,12 +117,13 @@ fun MiroirNavHost(
                     PairingScreen(
                         container = container,
                         showInvite = route.showInvite,
+                        recovery = route.recovery,
                         onPaired = {
                             if (!navController.popBackStack(MainRoute(), inclusive = false)) {
                                 navController.navigate(MainRoute()) { popUpTo(navController.graph.id) { inclusive = true } }
                             }
                         },
-                        onBack = if (route.showInvite) ({ navController.popBackStack() }) else null,
+                        onBack = if (route.showInvite || route.recovery) ({ navController.popBackStack() }) else null,
                         onMessage = message,
                     )
                 }
@@ -140,7 +141,7 @@ fun MiroirNavHost(
                 composable<DayRoute> { entry ->
                     CompositionLocalProvider(LocalNavAnimatedScope provides this) {
                         val vm: HistoryViewModel = viewModel { HistoryViewModel(container) }
-                        DayDetailScreen(vm, entry.toRoute<DayRoute>().day, onBack = { navController.popBackStack() })
+                        DayDetailScreen(vm, entry.toRoute<DayRoute>().day, onBack = { navController.popBackStack() }, onMessage = message)
                     }
                 }
                 composable<CategoriesRoute> {
@@ -216,6 +217,7 @@ private fun MainScaffold(
                         onShowInvite = { navController.navigate(PairingRoute(showInvite = true)) },
                         onOpenPermissions = { navController.navigate(PermissionsRoute) },
                         onMessage = onMessage,
+                        onOpenDay = { navController.navigate(DayRoute(it)) },
                     )
                     Tabs.HISTORY -> HistoryScreen(historyVm, padding, onOpenDay = { navController.navigate(DayRoute(it)) })
                     Tabs.QUESTIONS -> CustomQuestionsScreen(customVm, padding, onMessage)
@@ -226,6 +228,7 @@ private fun MainScaffold(
                         onOpenPermissions = { navController.navigate(PermissionsRoute) },
                         onShowInvite = { navController.navigate(PairingRoute(showInvite = true)) },
                         onUnpaired = { navController.navigate(PairingRoute()) { popUpTo(navController.graph.id) { inclusive = true } } },
+                        onShowRecovery = { navController.navigate(PairingRoute(recovery = true)) },
                         onMessage = onMessage,
                     )
                 }

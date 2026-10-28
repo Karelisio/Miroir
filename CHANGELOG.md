@@ -2,6 +2,14 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [1.1.0]
+
+- Coucou 💜 : pendant l'attente, un bouton envoie une petite notification à l'autre (une fois toutes les 30 min).
+- Rattrapage : la question d'hier reste ouverte jusqu'à minuit si tu ne l'as pas faite.
+- Favoris ⭐ : marque une question depuis son détail et filtre l'historique dessus.
+- Vos accords : taux d'accord sur les « qui de nous deux », les choix et les échelles, dans l'historique.
+- Nouveau téléphone : Réglages › « Relier un nouveau téléphone » affiche un QR de secours qui reconnecte l'autre au même miroir, sans perdre l'historique.
+
 ## [1.0.1]
 
 - Mode sombre : les titres de l'introduction étaient invisibles (texte noir sur fond sombre).

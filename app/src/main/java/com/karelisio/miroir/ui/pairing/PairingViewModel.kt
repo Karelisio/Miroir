@@ -21,10 +21,12 @@ data class PairingUi(
     val name: String = "",
     val serverUrl: String = BuildConfig.WORKER_URL,
     val invite: String? = null,
+    val recovery: Boolean = false,
+    val partnerName: String = "",
     val error: String? = null,
 )
 
-class PairingViewModel(private val c: AppContainer, showInvite: Boolean) : ViewModel() {
+class PairingViewModel(private val c: AppContainer, showInvite: Boolean, recovery: Boolean = false) : ViewModel() {
     private val repo = c.repository
     private val _state = MutableStateFlow(PairingUi())
     val state = _state.asStateFlow()
@@ -33,10 +35,16 @@ class PairingViewModel(private val c: AppContainer, showInvite: Boolean) : ViewM
     init {
         viewModelScope.launch {
             val p = c.prefs.current()
-            val invite = if (showInvite || (p.paired && !p.partnerJoined)) repo.currentInvite()?.uri else null
+            val invite = when {
+                recovery -> repo.recoveryInvite()?.uri
+                showInvite || (p.paired && !p.partnerJoined) -> repo.currentInvite()?.uri
+                else -> null
+            }
             _state.update {
                 it.copy(
                     name = p.myName,
+                    recovery = recovery,
+                    partnerName = p.partnerDisplayName,
                     step = when {
                         invite != null -> PairStep.SHOW_QR
                         p.myName.isBlank() -> PairStep.NAME
@@ -45,7 +53,7 @@ class PairingViewModel(private val c: AppContainer, showInvite: Boolean) : ViewM
                     invite = invite,
                 )
             }
-            if (invite != null) waitForPartner()
+            if (invite != null && !recovery) waitForPartner()
         }
     }
 
@@ -92,19 +100,19 @@ class PairingViewModel(private val c: AppContainer, showInvite: Boolean) : ViewM
     fun scan() = _state.update { it.copy(step = PairStep.SCAN, error = null) }
 
     fun onScanned(raw: String) {
-        val creds = repo.parseInvite(raw)
-        if (creds == null) {
+        val invite = repo.parseInvite(raw)
+        if (invite == null) {
             _state.update { it.copy(error = "Ce QR code n'est pas un QR Miroir.") }
             return
         }
-        if (creds.serverUrl.isBlank()) {
+        if (invite.creds.serverUrl.isBlank()) {
             _state.update { it.copy(error = "Adresse du serveur absente du QR code.") }
             return
         }
         viewModelScope.launch {
             _state.update { it.copy(step = PairStep.WORKING, error = null) }
             try {
-                repo.joinPair(creds)
+                repo.joinPair(invite)
                 _state.update { it.copy(step = PairStep.DONE) }
             } catch (e: Exception) {
                 _state.update { it.copy(step = PairStep.SCAN, error = errorText(e)) }
@@ -131,6 +139,7 @@ class PairingViewModel(private val c: AppContainer, showInvite: Boolean) : ViewM
     private fun errorText(e: Exception): String = when (e) {
         is ApiException -> when (e.error.error) {
             "pair_not_found" -> "Ce miroir n'existe plus. Demande un nouveau QR code."
+            "member_not_found" -> "Ce QR de secours ne correspond à aucun téléphone relié."
             "unauthorized" -> "QR code invalide."
             else -> "Le serveur a refusé la demande (${e.status})."
         }

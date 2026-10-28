@@ -3,6 +3,7 @@ package com.karelisio.miroir.ui.today
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.karelisio.miroir.AppContainer
+import com.karelisio.miroir.data.MiroirRepository
 import com.karelisio.miroir.data.SkipResult
 import com.karelisio.miroir.data.local.DayEntity
 import com.karelisio.miroir.data.model.AnswerPayload
@@ -50,6 +51,9 @@ data class TodayUi(
     val partnerName: String = "",
     val skippedPermissions: Set<String> = emptySet(),
     val permissionReminderDismissedAt: Long = 0,
+    /** Question d'hier sans ma réponse : rattrapable jusqu'à ce soir minuit. */
+    val catchUp: DayEntity? = null,
+    val nudgeSent: Boolean = false,
 )
 
 sealed interface TodayMessage {
@@ -95,7 +99,9 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
 
     private val dayWithEntity = repo.todayFlow.flatMapLatest { d -> repo.dao.observeDay(d.toString()).map { d to it } }
 
-    val state: StateFlow<TodayUi> = combine(dayWithEntity, repo.dao.observeDays(), c.prefs.data) { (day, entity), days, prefs ->
+    private val nudgeSent = MutableStateFlow(false)
+
+    val state: StateFlow<TodayUi> = combine(dayWithEntity, repo.dao.observeDays(), c.prefs.data, nudgeSent) { (day, entity), days, prefs, nudged ->
         val question = entity?.let { repo.resolveQuestion(it.questionId) }
         val mine = entity?.myAnswerPayload()
         val theirs = entity?.partnerAnswerPayload()
@@ -128,6 +134,8 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
             partnerName = prefs.partnerDisplayName,
             skippedPermissions = prefs.skippedPermissions,
             permissionReminderDismissedAt = prefs.permissionReminderDismissedAt,
+            catchUp = days.firstOrNull { it.day == day.minusDays(1).toString() && it.myAnswer == null && it.questionText.isNotBlank() },
+            nudgeSent = nudged,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), TodayUi())
 
@@ -135,6 +143,7 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
         // À chaque changement de jour (minuit, fuseau), on crée l'entrée du jour et on synchronise.
         viewModelScope.launch {
             repo.todayFlow.collect {
+                nudgeSent.value = false
                 repo.ensureToday()
                 refresh(silent = true)
             }
@@ -160,6 +169,17 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
         val day = state.value.entity?.day ?: return
         viewModelScope.launch {
             if (!repo.submitAnswer(day, answer)) messages.send(TodayMessage.Text("La question vient de changer : découvre la nouvelle !"))
+        }
+    }
+
+    fun nudge() {
+        viewModelScope.launch {
+            val text = when (repo.nudge()) {
+                MiroirRepository.NudgeResult.Sent -> { nudgeSent.value = true; "Coucou envoyé à ${state.value.partnerName} 💜" }
+                MiroirRepository.NudgeResult.TooSoon -> { nudgeSent.value = true; "Tu as déjà envoyé un coucou il y a peu." }
+                MiroirRepository.NudgeResult.Offline -> "Connexion nécessaire pour envoyer un coucou."
+            }
+            messages.send(TodayMessage.Text(text))
         }
     }
 

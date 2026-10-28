@@ -144,33 +144,53 @@ class MiroirRepository(
 
     suspend fun currentInvite(): Invite? = prefs.credentials()?.takeIf { it.memberEnum == Member.A }?.let { inviteFor(it) }
 
-    private fun inviteFor(c: PairCredentials): Invite {
+    /**
+     * QR de secours : permet à un nouveau téléphone de reprendre l'emplacement de l'autre
+     * (téléphone perdu ou réinitialisé), avec tout l'historique.
+     */
+    suspend fun recoveryInvite(): Invite? = prefs.credentials()?.let { inviteFor(it, forMember = it.memberEnum.other, rejoin = true) }
+
+    private fun inviteFor(c: PairCredentials, forMember: Member = Member.B, rejoin: Boolean = false): Invite {
         val uri = Uri.Builder().scheme("miroir").authority("pair")
             .appendQueryParameter("v", "1")
             .appendQueryParameter("id", c.pairId)
             .appendQueryParameter("s", c.secret)
             .appendQueryParameter("k", c.key)
             .appendQueryParameter("u", c.serverUrl)
+            .apply { if (rejoin) appendQueryParameter("m", forMember.key).appendQueryParameter("r", "1") }
             .build().toString()
         return Invite(uri)
     }
 
-    fun parseInvite(raw: String): PairCredentials? = runCatching {
+    /** Invitation lue dans un QR : [rejoin] = reprise de l'emplacement d'un membre existant. */
+    data class JoinInvite(val creds: PairCredentials, val rejoin: Boolean)
+
+    fun parseInvite(raw: String): JoinInvite? = runCatching {
         val uri = Uri.parse(raw.trim())
         if (uri.scheme != "miroir" || uri.authority != "pair" || uri.getQueryParameter("v") != "1") return null
         val id = uri.getQueryParameter("id")!!
         val s = uri.getQueryParameter("s")!!
         val k = uri.getQueryParameter("k")!!
         require(PairCrypto.unb64(k).size == 32 && s.length >= 32 && id.length >= 16)
-        PairCredentials(id, s, k, Member.B.key, uri.getQueryParameter("u").orEmpty().ifBlank { BuildConfig.WORKER_URL })
+        val rejoin = uri.getQueryParameter("r") == "1"
+        val member = if (rejoin) Member.of(uri.getQueryParameter("m")) ?: return null else Member.B
+        JoinInvite(PairCredentials(id, s, k, member.key, uri.getQueryParameter("u").orEmpty().ifBlank { BuildConfig.WORKER_URL }), rejoin)
     }.getOrNull()
 
-    suspend fun joinPair(creds: PairCredentials) {
+    suspend fun joinPair(invite: JoinInvite) {
+        val creds = invite.creds
         val p = prefs.current()
-        api.pair(creds, PairRequest("join", profilePayload(crypto(creds), Member.B, p), fcmTokenOrNull()))
+        val action = if (invite.rejoin) "rejoin" else "join"
+        api.pair(creds, PairRequest(action, profilePayload(crypto(creds), creds.memberEnum, p).takeIf { !invite.rejoin }, fcmTokenOrNull()))
         resetLocal()
         prefs.saveCredentials(creds)
-        prefs.update { partnerJoined = true; fcmTokenSent = true; profileDirty = false }
+        prefs.update {
+            partnerJoined = true
+            fcmTokenSent = true
+            profileDirty = false
+            // Reprise : le profil, les réglages et l'historique reviennent du serveur.
+            if (invite.rejoin) myProfile("", null)
+        }
         runCatching { sync() }
     }
 
@@ -312,6 +332,27 @@ class MiroirRepository(
         }
         SyncScheduler.enqueueSend(context)
     }
+
+    sealed interface NudgeResult {
+        data object Sent : NudgeResult
+        data object TooSoon : NudgeResult
+        data object Offline : NudgeResult
+    }
+
+    /** « Coucou 💜 » : rappelle gentiment à l'autre de répondre (au plus toutes les 30 min). */
+    suspend fun nudge(): NudgeResult {
+        val c = prefs.credentials() ?: return NudgeResult.Offline
+        return try {
+            api.nudge(c)
+            NudgeResult.Sent
+        } catch (e: ApiException) {
+            if (e.status == 429) NudgeResult.TooSoon else NudgeResult.Offline
+        } catch (e: IOException) {
+            NudgeResult.Offline
+        }
+    }
+
+    suspend fun setFavorite(day: String, favorite: Boolean) = writeMutex.withLock { dao.setFavorite(day, favorite) }
 
     suspend fun markRevealSeen(day: String) = writeMutex.withLock {
         dao.day(day)?.let { if (!it.revealSeen) dao.upsertDay(it.copy(revealSeen = true)) }
@@ -590,6 +631,7 @@ class MiroirRepository(
                 partnerReaction = partnerReaction,
                 revealSeen = (existing?.revealSeen ?: false) && sameQuestion,
                 serverRev = d.rev,
+                favorite = existing?.favorite ?: false,
             )
             dao.upsertDay(updated)
 

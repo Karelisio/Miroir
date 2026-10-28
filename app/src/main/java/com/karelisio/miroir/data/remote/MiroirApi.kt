@@ -31,6 +31,7 @@ class MiroirApi(private val http: OkHttpClient) {
     suspend fun settings(c: PairCredentials, body: SettingsRequest) = post(c, "/settings", body, SettingsRequest.serializer(), SettingsResponse.serializer())
     suspend fun profile(c: PairCredentials, body: ProfileRequest) = post(c, "/profile", body, ProfileRequest.serializer(), RevResponse.serializer())
     suspend fun token(c: PairCredentials, body: TokenRequest) = post(c, "/token/update", body, TokenRequest.serializer(), RevResponse.serializer())
+    suspend fun nudge(c: PairCredentials) = call(c, "/nudge", "POST", null, RevResponse.serializer())
 
     private suspend fun <I, O> post(c: PairCredentials, path: String, body: I, inS: KSerializer<I>, outS: KSerializer<O>): O =
         call(c, path, "POST", json.encodeToString(inS, body), outS)

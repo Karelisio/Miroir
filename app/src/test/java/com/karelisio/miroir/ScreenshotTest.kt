@@ -28,6 +28,7 @@ import com.karelisio.miroir.data.model.Member
 import com.karelisio.miroir.data.model.Question
 import com.karelisio.miroir.data.model.QuestionType
 import com.karelisio.miroir.data.model.ReactionPayload
+import com.karelisio.miroir.ui.history.Agreement
 import com.karelisio.miroir.ui.history.HistoryContent
 import com.karelisio.miroir.ui.history.HistoryItem
 import com.karelisio.miroir.ui.history.HistoryUi
@@ -102,6 +103,18 @@ class ScreenshotTest {
         TodayContent(ui(text, Phase.WAITING, mine = AnswerPayload(text.id, QuestionType.TEXT, text = "Notre fou rire dans le train de nuit pour Venise.", at = 0)), false, false, padding, TodayActions())
     }
 
+    @Test fun today_catch_up() = shot("04a_today_catch_up") {
+        val yesterday = entity(who).copy(day = day.minusDays(1).toString(), questionText = who.text, partnerAnswered = true)
+        TodayContent(ui(choice, Phase.ANSWER).copy(catchUp = yesterday), false, false, padding, TodayActions())
+    }
+
+    @Test fun today_nudge_sent() = shot("04b_today_nudge_sent", dark = true) {
+        TodayContent(
+            ui(text, Phase.WAITING, mine = AnswerPayload(text.id, QuestionType.TEXT, text = "Le pique-nique sous l'orage.", at = 0)).copy(nudgeSent = true),
+            false, false, padding, TodayActions(),
+        )
+    }
+
     @Test fun today_ready() = shot("05_today_ready") {
         TodayContent(
             ui(who, Phase.READY_TO_REVEAL, AnswerPayload(who.id, QuestionType.WHO, who = "A", at = 0), AnswerPayload(who.id, QuestionType.WHO, who = "A", at = 0)),
@@ -144,10 +157,11 @@ class ScreenshotTest {
             HistoryItem(
                 day.minusDays(i.toLong()).toString(), day.minusDays(i.toLong()), q.text, Category.of(q.category),
                 revealed = i != 1, status = if (i != 1) "Révélé 💜" else "En attente de Sam",
-                reactions = if (i % 2 == 0) listOf("😂", "💜") else emptyList(), searchText = "",
+                reactions = if (i % 2 == 0) listOf("😂", "💜") else emptyList(), searchText = "", favorite = i == 2,
             )
         }
-        HistoryContent(HistoryUi(items, together = 42, streak = 12, best = 21), padding, {}, {}, {})
+        val agreements = listOf(Agreement("Qui de nous deux", "👀", 72, 18), Agreement("Choix", "⚖️", 58, 12), Agreement("Échelles (à 1 près)", "📏", 81, 16))
+        HistoryContent(HistoryUi(items, together = 42, streak = 12, best = 21, agreements = agreements), padding, {}, {}, {})
     }
 
     @Test fun qr() = shot("09_qr") {

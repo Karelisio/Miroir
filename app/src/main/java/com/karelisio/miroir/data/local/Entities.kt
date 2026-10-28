@@ -28,6 +28,8 @@ data class DayEntity(
     /** La cérémonie de révélation a été vue sur ce téléphone. */
     val revealSeen: Boolean = false,
     val serverRev: Long = 0,
+    /** Favori ⭐ (local à ce téléphone). */
+    val favorite: Boolean = false,
 ) {
     val bothAnswered: Boolean get() = myAnswer != null && partnerAnswer != null
 }

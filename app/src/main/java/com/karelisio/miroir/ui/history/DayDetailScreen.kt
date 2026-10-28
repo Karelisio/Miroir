@@ -1,5 +1,18 @@
 package com.karelisio.miroir.ui.history
 
+import com.karelisio.miroir.ui.today.AnswerInput
+import com.karelisio.miroir.ui.components.rememberHaptics
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.material3.LocalContentColor
+import androidx.compose.material.icons.rounded.StarBorder
+import androidx.compose.material.icons.rounded.Star
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.Spring
 import com.karelisio.miroir.ui.components.miroirTopBar
 import com.karelisio.miroir.ui.components.miroirSafe
 import androidx.compose.foundation.layout.WindowInsets
@@ -53,10 +66,14 @@ import java.util.Locale
 private val detailDate = DateTimeFormatter.ofPattern("EEEE d MMMM yyyy", Locale.FRENCH)
 
 @Composable
-fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit) {
+fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit, onMessage: (String) -> Unit = {}) {
     val flow = remember(day) { vm.day(day) }
     val ui by flow.collectAsState(initial = null)
     val scroll = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
+    val haptics = rememberHaptics()
+    LaunchedEffect(Unit) { vm.events.collect(onMessage) }
+    // La révélation joue si elle n'a jamais été vue sur ce téléphone (ex. question rattrapée).
+    var play by rememberSaveable(day) { mutableStateOf<Boolean?>(null) }
 
     Scaffold(
         contentWindowInsets = WindowInsets.miroirSafe,
@@ -66,6 +83,18 @@ fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit) {
                 windowInsets = WindowInsets.miroirTopBar,
                 title = { Text(LocalDate.parse(day).format(detailDate).replaceFirstChar { it.titlecase(Locale.FRENCH) }) },
                 navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Rounded.ArrowBack, "Retour") } },
+                actions = {
+                    val favorite = ui?.entity?.favorite == true
+                    val scale by animateFloatAsState(if (favorite) 1.2f else 1f, spring(dampingRatio = 0.35f, stiffness = Spring.StiffnessMedium), label = "star")
+                    IconButton(onClick = { haptics.toggle(!favorite); vm.toggleFavorite(day, !favorite) }, enabled = ui != null) {
+                        Icon(
+                            if (favorite) Icons.Rounded.Star else Icons.Rounded.StarBorder,
+                            contentDescription = if (favorite) "Retirer des favoris" else "Ajouter aux favoris",
+                            tint = if (favorite) MaterialTheme.colorScheme.tertiary else LocalContentColor.current,
+                            modifier = Modifier.graphicsLayer { scaleX = scale; scaleY = scale; rotationZ = (scale - 1f) * 72f },
+                        )
+                    }
+                },
                 scrollBehavior = scroll,
             )
         },
@@ -100,15 +129,32 @@ fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit) {
             }
             when {
                 mine != null && theirs != null -> {
-                    MirrorReveal(d.question, mine, theirs, p.member, p.myName, p.partnerDisplayName, play = false, onPlayed = {}, modifier = Modifier.staggeredAppear(1, "d-reveal"))
+                    if (play == null) play = !e.revealSeen
+                    MirrorReveal(
+                        d.question, mine, theirs, p.member, p.myName, p.partnerDisplayName,
+                        play = play == true,
+                        onPlayed = { vm.markRevealSeen(day) },
+                        modifier = Modifier.staggeredAppear(1, "d-reveal"),
+                    )
                     ReactionsSection(e.myReactionPayload(), e.partnerReactionPayload(), p.partnerDisplayName) { emoji, comment ->
                         vm.react(day, emoji, comment)
                     }
                 }
                 mine != null -> Text(
-                    "Ta réponse : ${mine.display(d.question, nameOf)}\n\n${p.partnerDisplayName} n'a pas répondu ce jour-là.",
+                    "Ta réponse : ${mine.display(d.question, nameOf)}\n\n" +
+                        if (d.isYesterday) "En attente de ${p.partnerDisplayName}, qui peut encore répondre jusqu'à minuit." else "${p.partnerDisplayName} n'a pas répondu ce jour-là.",
                     style = MaterialTheme.typography.bodyLarge,
                 )
+                d.canCatchUp && d.question != null -> {
+                    if (play == null) play = true
+                    Text(
+                        if (e.partnerAnswered) "${p.partnerDisplayName} a répondu. Rattrape la question avant minuit pour garder votre série 🔥"
+                        else "Encore jusqu'à minuit pour répondre et garder votre série 🔥",
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    AnswerInput(d.question, p.member, p.myName, p.partnerDisplayName) { vm.answer(day, it) }
+                }
                 e.partnerAnswered -> Text("${p.partnerDisplayName} a répondu, mais pas toi : sa réponse reste secrète.", style = MaterialTheme.typography.bodyLarge)
                 else -> Text("Personne n'a répondu ce jour-là.", style = MaterialTheme.typography.bodyLarge)
             }

@@ -3,7 +3,7 @@ package com.karelisio.miroir.ui.navigation
 import kotlinx.serialization.Serializable
 
 @Serializable data object OnboardingRoute
-@Serializable data class PairingRoute(val showInvite: Boolean = false)
+@Serializable data class PairingRoute(val showInvite: Boolean = false, val recovery: Boolean = false)
 @Serializable data class MainRoute(val tab: Int = 0)
 @Serializable data class DayRoute(val day: String)
 @Serializable data object CategoriesRoute

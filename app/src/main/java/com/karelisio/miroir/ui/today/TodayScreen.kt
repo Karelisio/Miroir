@@ -40,6 +40,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.rounded.Send
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.CloudOff
@@ -111,6 +112,7 @@ fun TodayScreen(
     onShowInvite: () -> Unit,
     onOpenPermissions: () -> Unit,
     onMessage: (String) -> Unit,
+    onOpenDay: (String) -> Unit = {},
 ) {
     val ui by vm.state.collectAsStateWithLifecycle()
     val refreshing by vm.refreshing.collectAsState()
@@ -131,6 +133,8 @@ fun TodayScreen(
             showInvite = onShowInvite,
             openPermissions = onOpenPermissions,
             checkUpdate = vm::checkUpdate,
+            nudge = vm::nudge,
+            openDay = onOpenDay,
         ),
     )
 }
@@ -146,6 +150,8 @@ class TodayActions(
     val showInvite: () -> Unit = {},
     val openPermissions: () -> Unit = {},
     val checkUpdate: () -> Unit = {},
+    val nudge: () -> Unit = {},
+    val openDay: (String) -> Unit = {},
 )
 
 @Composable
@@ -185,11 +191,12 @@ fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPad
             ) { phase ->
                 when (phase) {
                     Phase.ANSWER -> AnswerSection(ui, skipping, onSubmit = actions.submit, onSkip = actions.skip)
-                    Phase.WAITING -> WaitingSection(ui)
+                    Phase.WAITING -> WaitingSection(ui, actions.nudge)
                     else -> RevealSection(ui, onPlayed = actions.revealSeen, onReact = actions.react)
                 }
             }
 
+            ui.catchUp?.let { CatchUpCard(it, ui.partnerName) { actions.openDay(it.day) } }
             PermissionReminder(ui, actions.openPermissions, actions.dismissPermissionReminder)
             Spacer(Modifier.height(24.dp))
         }
@@ -327,7 +334,7 @@ private fun AnswerSection(ui: TodayUi, skipping: Boolean, onSubmit: (AnswerPaylo
 }
 
 @Composable
-private fun WaitingSection(ui: TodayUi) {
+private fun WaitingSection(ui: TodayUi, onNudge: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(16.dp), modifier = Modifier.fillMaxWidth()) {
         ContainedLoadingIndicator(Modifier.size(84.dp))
@@ -353,6 +360,37 @@ private fun WaitingSection(ui: TodayUi) {
                 label = { Text("Envoi dès le retour du réseau") },
                 leadingIcon = { Icon(Icons.Rounded.CloudOff, null, Modifier.size(AssistChipDefaults.IconSize)) },
             )
+        }
+        val haptics = rememberHaptics()
+        AnimatedContent(ui.nudgeSent, label = "nudge") { sent ->
+            if (sent) {
+                Text("Coucou envoyé 💜", style = MaterialTheme.typography.titleSmall, color = colors.primary)
+            } else {
+                FilledTonalButton(onClick = { haptics.confirm(); onNudge() }, shapes = ButtonDefaults.shapes(), enabled = ui.mySynced) {
+                    Text("Envoyer un coucou à ${ui.partnerName} 💜")
+                }
+            }
+        }
+    }
+}
+
+/** Rattrapage : la question d'hier reste ouverte jusqu'à ce soir minuit, pour garder la série. */
+@Composable
+private fun CatchUpCard(day: com.karelisio.miroir.data.local.DayEntity, partnerName: String, onOpen: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Surface(onClick = onOpen, shape = MaterialTheme.shapes.extraLarge, color = colors.tertiaryContainer, contentColor = colors.onTertiaryContainer) {
+        Row(Modifier.padding(18.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text("⏳", style = MaterialTheme.typography.headlineSmall)
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Text("La question d'hier t'attend", style = MaterialTheme.typography.titleMedium)
+                Text(
+                    if (day.partnerAnswered) "$partnerName a répondu. Réponds avant minuit pour garder votre série 🔥"
+                    else "Réponds avant minuit pour garder votre série 🔥",
+                    style = MaterialTheme.typography.bodySmall,
+                )
+            }
+            Icon(Icons.AutoMirrored.Rounded.KeyboardArrowRight, null)
         }
     }
 }

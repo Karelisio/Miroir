@@ -22,6 +22,7 @@ class MiroirMessagingService : FirebaseMessagingService() {
                     Notifier.showUnpaired(applicationContext)
                 }
             }
+            "nudge" -> runBlocking { Notifier.showNudge(applicationContext, c.prefs.current()) }
             else -> SyncScheduler.enqueueSync(applicationContext)
         }
     }

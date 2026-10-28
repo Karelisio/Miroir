@@ -90,11 +90,12 @@ import kotlinx.coroutines.delay
 fun PairingScreen(
     container: AppContainer,
     showInvite: Boolean,
+    recovery: Boolean = false,
     onPaired: () -> Unit,
     onBack: (() -> Unit)?,
     onMessage: (String) -> Unit,
 ) {
-    val vm: PairingViewModel = viewModel { PairingViewModel(container, showInvite) }
+    val vm: PairingViewModel = viewModel { PairingViewModel(container, showInvite, recovery) }
     val ui by vm.state.collectAsStateWithLifecycle()
     val haptics = rememberHaptics()
 
@@ -146,7 +147,7 @@ fun PairingScreen(
                         LoadingIndicator(Modifier.size(96.dp))
                         Text("Connexion de vos miroirs…", style = MaterialTheme.typography.titleLarge)
                     }
-                    PairStep.SHOW_QR -> InviteStep(ui.invite.orEmpty())
+                    PairStep.SHOW_QR -> if (ui.recovery) RecoveryStep(ui.invite.orEmpty(), ui.partnerName, onBack) else InviteStep(ui.invite.orEmpty())
                     PairStep.SCAN -> ScanStep(vm::onScanned)
                     PairStep.DONE -> {
                         MirrorBubbles()
@@ -264,6 +265,34 @@ private fun InviteStep(invite: String) {
         textAlign = TextAlign.Center,
         color = colors.onSurfaceVariant,
     )
+}
+
+/** QR de secours : un nouveau téléphone reprend l'emplacement de l'autre, avec l'historique. */
+@Composable
+private fun RecoveryStep(invite: String, partnerName: String, onDone: (() -> Unit)?) {
+    val colors = MaterialTheme.colorScheme
+    Text("QR de secours", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+    Text(
+        "Si le téléphone de $partnerName a été perdu ou réinitialisé : sur le nouveau, installe Miroir puis choisis « Scanner le QR de l'autre ». Tout votre historique sera restauré.",
+        style = MaterialTheme.typography.bodyLarge,
+        textAlign = TextAlign.Center,
+        color = colors.onSurfaceVariant,
+    )
+    Box(contentAlignment = Alignment.Center, modifier = Modifier.fillMaxWidth()) {
+        MorphingBlob(Modifier.fillMaxWidth().aspectRatio(1f).graphicsLayer { alpha = 0.35f }, colors.tertiary, periodMs = 8000)
+        Surface(shape = MaterialTheme.shapes.extraLarge, color = Color.White, shadowElevation = 6.dp, modifier = Modifier.fillMaxWidth(0.78f)) {
+            QrCode(invite, Modifier.padding(22.dp))
+        }
+    }
+    Text(
+        "Ce code donne accès à votre miroir et à vos réponses : ne le montre qu'au nouveau téléphone de $partnerName.",
+        style = MaterialTheme.typography.bodyMedium,
+        textAlign = TextAlign.Center,
+        color = colors.error,
+    )
+    if (onDone != null) {
+        Button(onClick = onDone, shapes = ButtonDefaults.shapes(), modifier = Modifier.fillMaxWidth().height(56.dp)) { Text("Terminé") }
+    }
 }
 
 @Composable

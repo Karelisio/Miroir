@@ -262,6 +262,16 @@ async function handlePair(req: Request, env: Env, ctx: ExecutionContext): Promis
       ).bind(pairId, profile, fcmToken, now, now),
     ]);
     ctx.waitUntil(notify(env, pairId, "A", "paired"));
+  } else if (action === "rejoin") {
+    // QR de secours : un nouveau téléphone reprend l'emplacement d'un membre déjà relié.
+    if (!existing || !safeEqual(existing.secret_hash, hash)) throw new HttpError(404, "pair_not_found");
+    const slot = await env.DB.prepare("SELECT 1 AS ok FROM members WHERE pair_id = ? AND member = ?").bind(pairId, member).first();
+    if (!slot) throw new HttpError(404, "member_not_found");
+    await env.DB.batch([
+      bumpRev(env, pairId),
+      env.DB.prepare("UPDATE members SET fcm_token = ?, updated_at = ? WHERE pair_id = ? AND member = ?").bind(fcmToken, now, pairId, member),
+    ]);
+    ctx.waitUntil(notify(env, pairId, other(member), "sync"));
   } else {
     throw new HttpError(400, "invalid_action");
   }
@@ -498,6 +508,21 @@ async function handleToken(req: Request, env: Env): Promise<Response> {
   return json({ ok: true });
 }
 
+const NUDGE_INTERVAL_MS = 30 * 60_000;
+
+async function handleNudge(req: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+  const auth = await authenticate(req, env);
+  const now = Date.now();
+  const res = await env.DB.prepare(
+    "UPDATE members SET last_nudge_at = ?1 WHERE pair_id = ?2 AND member = ?3 AND (last_nudge_at IS NULL OR last_nudge_at < ?4)",
+  )
+    .bind(now, auth.pairId, auth.member, now - NUDGE_INTERVAL_MS)
+    .run();
+  if ((res.meta.changes ?? 0) === 0) throw new HttpError(429, "nudge_too_soon");
+  ctx.waitUntil(notify(env, auth.pairId, other(auth.member), "nudge"));
+  return json({ ok: true });
+}
+
 // ---------- routage ----------
 
 type Handler = (req: Request, env: Env, ctx: ExecutionContext) => Promise<Response>;
@@ -513,6 +538,7 @@ const routes: Record<string, Handler> = {
   "POST /settings": handleSettings,
   "POST /profile": handleProfile,
   "POST /token/update": handleToken,
+  "POST /nudge": handleNudge,
 };
 
 export default {

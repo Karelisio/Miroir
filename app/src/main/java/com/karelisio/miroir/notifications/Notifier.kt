@@ -36,6 +36,7 @@ object Notifier {
     const val ID_PAIRING = 6
     const val ID_UPDATE = 7
     const val ID_SYNC = 8
+    const val ID_NUDGE = 9
 
     const val EXTRA_DESTINATION = "miroir.destination"
     const val EXTRA_DAY = "miroir.day"
@@ -179,6 +180,18 @@ object Notifier {
                     .setContentIntent(openAppIntent(context, "today", requestCode = ID_PARTNER + 200)).build(),
             )
         }
+    }
+
+    fun showNudge(context: Context, prefs: AppPrefs) {
+        if (!prefs.notifyPartner) return
+        post(
+            context, ID_NUDGE,
+            base(context, channel(context, CH_PARTNER, prefs))
+                .setContentTitle("${prefs.partnerDisplayName} pense à toi 💜")
+                .setContentText("Ta réponse débloquera le miroir du jour.")
+                .setCategory(NotificationCompat.CATEGORY_SOCIAL)
+                .setContentIntent(openAppIntent(context, "today", requestCode = ID_NUDGE)).build(),
+        )
     }
 
     fun showUnpaired(context: Context) = post(

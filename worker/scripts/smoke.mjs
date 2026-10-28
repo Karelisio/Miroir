@@ -70,6 +70,17 @@ assert.equal(r.body.customQuestions.length, 1);
 assert.equal((await call("POST", "/settings", "A", { payload: "c2V0", baseVersion: 0 })).body.settings.version, 1);
 assert.equal((await call("POST", "/settings", "B", { payload: "c2V0Mg", baseVersion: 0 })).status, 409);
 
+// Coucou : un seul toutes les 30 minutes.
+assert.equal((await call("POST", "/nudge", "A")).status, 200);
+assert.equal((await call("POST", "/nudge", "A")).status, 429);
+assert.equal((await call("POST", "/nudge", "B")).status, 200);
+
+// QR de secours : un nouveau téléphone reprend l'emplacement de B ; un emplacement inconnu est refusé.
+r = await call("POST", "/pair", "B", { action: "rejoin", fcmToken: "nouveau" });
+assert.equal(r.status, 200);
+assert.equal(r.body.partnerJoined, true);
+assert.equal((await call("POST", "/pair", "B", { action: "rejoin" }, rnd(32))).status, 404);
+
 // Authentification et dissociation.
 assert.equal((await call("POST", "/state", "A", { since: 0 }, rnd(32))).status, 401);
 assert.equal((await call("POST", "/token/update", "B", { fcmToken: "abc" })).status, 200);
