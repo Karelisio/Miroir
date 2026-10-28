@@ -101,7 +101,7 @@ Dans Settings → Secrets and variables → Actions du dépôt :
 
 | Secret | Valeur |
 | --- | --- |
-| `KEYSTORE_B64` | Contenu de `miroir.jks.b64` |
+| `KEYSTORE_B64` (ou `KEYSTORE_BASE64`) | Contenu de `miroir.jks.b64` |
 | `KEYSTORE_PASSWORD` | Mot de passe du keystore |
 | `KEY_ALIAS` | Alias de la clé (`miroir`) |
 | `KEY_PASSWORD` | Mot de passe de la clé |
