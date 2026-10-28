@@ -26,6 +26,7 @@ import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.WbSunny
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.MotionScheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.ShortNavigationBar
 import androidx.compose.material3.ShortNavigationBarItem
@@ -65,21 +66,20 @@ import com.karelisio.miroir.ui.today.TodayScreen
 import com.karelisio.miroir.ui.today.TodayViewModel
 import kotlinx.coroutines.launch
 
-private val pushSpring = spring<androidx.compose.ui.unit.IntOffset>(dampingRatio = 0.9f, stiffness = Spring.StiffnessMediumLow)
+// Transitions "shared axis" pilotées par le MotionScheme expressif de M3.
+private fun AnimatedContentTransitionScope<NavBackStackEntry>.enter(m: MotionScheme): EnterTransition =
+    slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Start, m.defaultSpatialSpec()) { it / 4 } + fadeIn(m.defaultEffectsSpec())
 
-private fun AnimatedContentTransitionScope<NavBackStackEntry>.enter(): EnterTransition =
-    slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Start, pushSpring) { it / 4 } + fadeIn(tween(220, 60))
+private fun AnimatedContentTransitionScope<NavBackStackEntry>.exit(m: MotionScheme): ExitTransition =
+    slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Start, m.defaultSpatialSpec()) { it / 8 } + fadeOut(m.fastEffectsSpec())
 
-private fun AnimatedContentTransitionScope<NavBackStackEntry>.exit(): ExitTransition =
-    slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Start, pushSpring) { it / 8 } + fadeOut(tween(160))
+private fun AnimatedContentTransitionScope<NavBackStackEntry>.popEnter(m: MotionScheme): EnterTransition =
+    slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, m.defaultSpatialSpec()) { it / 8 } + fadeIn(m.defaultEffectsSpec())
 
-private fun AnimatedContentTransitionScope<NavBackStackEntry>.popEnter(): EnterTransition =
-    slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, pushSpring) { it / 8 } + fadeIn(tween(220))
-
-private fun AnimatedContentTransitionScope<NavBackStackEntry>.popExit(): ExitTransition =
+private fun AnimatedContentTransitionScope<NavBackStackEntry>.popExit(m: MotionScheme): ExitTransition =
     // Retour prédictif : l'écran rétrécit légèrement en suivant le geste.
-    scaleOut(targetScale = 0.9f) + fadeOut(tween(200)) +
-        slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, pushSpring) { it / 4 }
+    scaleOut(m.defaultSpatialSpec(), targetScale = 0.9f) + fadeOut(m.fastEffectsSpec()) +
+        slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, m.defaultSpatialSpec()) { it / 4 }
 
 @Composable
 fun MiroirNavHost(
@@ -90,16 +90,17 @@ fun MiroirNavHost(
 ) {
     val scope = rememberCoroutineScope()
     val message: (String) -> Unit = { text -> scope.launch { snackbar.showSnackbar(text) } }
+    val motion = MaterialTheme.motionScheme
 
     SharedTransitionLayout {
         CompositionLocalProvider(LocalSharedTransitionScope provides this) {
             NavHost(
                 navController = navController,
                 startDestination = startDestination,
-                enterTransition = { enter() },
-                exitTransition = { exit() },
-                popEnterTransition = { popEnter() },
-                popExitTransition = { popExit() },
+                enterTransition = { enter(motion) },
+                exitTransition = { exit(motion) },
+                popEnterTransition = { popEnter(motion) },
+                popExitTransition = { popExit(motion) },
             ) {
                 composable<OnboardingRoute> {
                     OnboardingScreen(
@@ -171,6 +172,7 @@ private fun MainScaffold(
     var tab by rememberSaveable { mutableIntStateOf(initialTab) }
     LaunchedEffect(initialTab) { tab = initialTab }
     val haptics = rememberHaptics()
+    val motion = MaterialTheme.motionScheme
     val todayVm: TodayViewModel = viewModel { TodayViewModel(container) }
     val historyVm: HistoryViewModel = viewModel { HistoryViewModel(container) }
     val customVm: CustomQuestionsViewModel = viewModel { CustomQuestionsViewModel(container) }
@@ -198,8 +200,8 @@ private fun MainScaffold(
             targetState = tab,
             transitionSpec = {
                 // "Fade through" Material : disparition rapide, apparition avec léger zoom.
-                (fadeIn(tween(220, 90)) + scaleIn(spring(dampingRatio = 0.85f, stiffness = Spring.StiffnessMediumLow), initialScale = 0.96f)) togetherWith
-                    fadeOut(tween(90))
+                (fadeIn(motion.defaultEffectsSpec()) + scaleIn(motion.fastSpatialSpec(), initialScale = 0.96f)) togetherWith
+                    fadeOut(motion.fastEffectsSpec())
             },
             label = "tabs",
         ) { current ->

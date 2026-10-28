@@ -167,11 +167,12 @@ fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPad
 
             QuestionCard(ui, Modifier.staggeredAppear(1, "question"))
 
+            val motion = MaterialTheme.motionScheme
             AnimatedContent(
                 targetState = if (ui.phase == Phase.READY_TO_REVEAL || ui.phase == Phase.REVEALED) Phase.REVEALED else ui.phase,
                 transitionSpec = {
-                    (fadeIn(tween(260)) + slideInVertically(spring(dampingRatio = 0.8f, stiffness = Spring.StiffnessLow)) { it / 6 }) togetherWith
-                        (fadeOut(tween(160)) + slideOutVertically { -it / 8 })
+                    (fadeIn(motion.defaultEffectsSpec()) + slideInVertically(motion.slowSpatialSpec()) { it / 6 }) togetherWith
+                        (fadeOut(motion.fastEffectsSpec()) + slideOutVertically(motion.fastSpatialSpec()) { -it / 8 })
                 },
                 label = "phase",
                 modifier = Modifier.staggeredAppear(2, "phase"),

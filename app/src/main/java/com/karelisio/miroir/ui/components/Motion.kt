@@ -105,10 +105,11 @@ private fun Modifier.graphicsLayerPress(interactionSource: InteractionSource, pr
 fun Modifier.staggeredAppear(index: Int, key: Any? = index, baseDelayMs: Int = 45): Modifier = composed {
     var played by rememberSaveable(key) { mutableStateOf(false) }
     val progress = remember(key) { Animatable(if (played) 1f else 0f) }
+    val spec = MaterialTheme.motionScheme.slowSpatialSpec<Float>()
     LaunchedEffect(key) {
         if (!played) {
             delay((index.coerceAtMost(12) * baseDelayMs).toLong())
-            progress.animateTo(1f, spring(dampingRatio = 0.8f, stiffness = Spring.StiffnessLow))
+            progress.animateTo(1f, spec)
             played = true
         }
     }
