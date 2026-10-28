@@ -101,11 +101,15 @@ class MainActivity : ComponentActivity() {
                     LaunchedEffect(incoming) {
                         val i = incoming ?: return@LaunchedEffect
                         pendingIntent.value = null
-                        if (!p.paired) return@LaunchedEffect
-                        when (i.getStringExtra(Notifier.EXTRA_DESTINATION)) {
+                        val destination = i.getStringExtra(Notifier.EXTRA_DESTINATION)
+                        if (destination == "update") {
+                            appVm.updates.check(manual = true)
+                            return@LaunchedEffect
+                        }
+                        if (!p.paired || !p.partnerJoined) return@LaunchedEffect
+                        when (destination) {
                             "day" -> i.getStringExtra(Notifier.EXTRA_DAY)?.let { nav.navigate(DayRoute(it)) }
                             "custom" -> nav.navigate(MainRoute(Tabs.QUESTIONS)) { popUpTo(nav.graph.id) { inclusive = true } }
-                            "update" -> appVm.updates.check(manual = true)
                             "today" -> nav.navigate(MainRoute(Tabs.TODAY)) { popUpTo(nav.graph.id) { inclusive = true } }
                         }
                     }

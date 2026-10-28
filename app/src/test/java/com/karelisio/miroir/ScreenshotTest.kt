@@ -32,6 +32,7 @@ import com.karelisio.miroir.ui.history.HistoryContent
 import com.karelisio.miroir.ui.history.HistoryItem
 import com.karelisio.miroir.ui.history.HistoryUi
 import com.karelisio.miroir.ui.onboarding.OnboardingScreen
+import com.karelisio.miroir.ui.pairing.PairingScreen
 import com.karelisio.miroir.ui.pairing.QrCode
 import com.karelisio.miroir.ui.settings.PermissionsScreen
 import com.karelisio.miroir.ui.settings.SettingsScreen
@@ -159,6 +160,17 @@ class ScreenshotTest {
         shot("10_onboarding") { OnboardingScreen(c) {} }
     }
 
+    @Test fun onboarding_permission() {
+        val c = ApplicationProvider.getApplicationContext<Context>().container
+        shot("10b_onboarding_permission") { OnboardingScreen(c, initialPage = 4) {} }
+    }
+
+    @Test fun pairing_choose() {
+        val c = ApplicationProvider.getApplicationContext<Context>().container
+        runBlocking { c.prefs.update { myProfile("Léa", null) } }
+        shot("10c_pairing") { PairingScreen(c, showInvite = false, onPaired = {}, onBack = null, onMessage = {}) }
+    }
+
     @Test fun settings() {
         val c = ApplicationProvider.getApplicationContext<Context>().container
         runBlocking {
@@ -197,8 +209,8 @@ class ScreenshotTest {
                 drawPath(Path().apply { addCircle(size / 2f, size / 2f, size / 3f, Path.Direction.CW) }, Paint(Paint.ANTI_ALIAS_FLAG))
                 drawBitmap(bmp, 0f, 0f, Paint().apply { xfermode = PorterDuffXfermode(PorterDuff.Mode.SRC_IN) })
             }
-            File("screenshots").mkdirs()
-            File("screenshots/$name.png").outputStream().use { masked.compress(Bitmap.CompressFormat.PNG, 100, it) }
+            val dir = File("build/outputs/roborazzi/screenshots").apply { mkdirs() }
+            File(dir, "$name.png").outputStream().use { masked.compress(Bitmap.CompressFormat.PNG, 100, it) }
         }
         render("13_icon", listOf(R.drawable.ic_launcher_background, R.drawable.ic_launcher_foreground))
         render("14_icon_monochrome", listOf(R.drawable.ic_launcher_monochrome), tint = 0xFFF2DDE2.toInt())

@@ -83,10 +83,10 @@ private val intros = listOf(
 )
 
 @Composable
-fun OnboardingScreen(container: AppContainer, onFinished: () -> Unit) {
+fun OnboardingScreen(container: AppContainer, initialPage: Int = 0, onFinished: () -> Unit) {
     val permissions = remember { AppPermission.all }
     val total = intros.size + permissions.size + 1
-    val pager = rememberPagerState { total }
+    val pager = rememberPagerState(initialPage) { total }
     val scope = rememberCoroutineScope()
     val haptics = rememberHaptics()
     val states = rememberPermissionStates()
