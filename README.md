@@ -120,6 +120,8 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
+Ou sans terminal : Actions → **Release** → *Run workflow* → version `1.0.0` (le tag est créé automatiquement).
+
 Le workflow **Release** lance les tests, construit l'APK signé (`versionName` = tag, `versionCode` = numéro d'exécution), vérifie qu'il n'est pas signé en debug et publie une GitHub Release avec l'APK et le changelog. L'APK est aussi disponible en artefact.
 
 La vérification des mises à jour interroge `https://api.github.com/repos/karelisio/miroir/releases/latest` sans authentification : le dépôt (ou au moins ses releases) doit être public.

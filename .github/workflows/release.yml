@@ -1,16 +1,18 @@
 name: Release
 
-# Publie une GitHub Release (APK signé + changelog) à chaque tag vX.Y.Z.
-# versionCode = numéro d'exécution du workflow, versionName = tag sans le « v ».
+# Publie une GitHub Release (APK signé + changelog) :
+#  - en poussant un tag vX.Y.Z,
+#  - ou depuis Actions → Release → Run workflow (le tag vX.Y.Z est alors créé sur le commit choisi).
+# versionCode = numéro d'exécution du workflow, versionName = version sans le « v ».
 on:
   push:
     tags: ["v*.*.*"]
   workflow_dispatch:
     inputs:
       version:
-        description: "Version (X.Y.Z) pour un build manuel, sans publication"
+        description: "Version à publier (X.Y.Z)"
         required: true
-        default: "0.0.0"
+        default: "1.0.0"
 
 permissions:
   contents: write
@@ -45,6 +47,10 @@ jobs:
       - name: Version
         run: |
           if [ "${GITHUB_REF_TYPE}" = "tag" ]; then VERSION="${GITHUB_REF_NAME#v}"; else VERSION="${{ inputs.version }}"; fi
+          if ! echo "$VERSION" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then echo "::error::Version invalide : $VERSION (attendu X.Y.Z)"; exit 1; fi
+          if [ "${GITHUB_REF_TYPE}" != "tag" ] && git rev-parse -q --verify "refs/tags/v$VERSION" > /dev/null; then
+            echo "::error::Le tag v$VERSION existe déjà"; exit 1
+          fi
           echo "VERSION_NAME=$VERSION" >> "$GITHUB_ENV"
           echo "VERSION_CODE=${{ github.run_number }}" >> "$GITHUB_ENV"
           echo "Miroir $VERSION (code ${{ github.run_number }})"
@@ -109,9 +115,11 @@ jobs:
           if-no-files-found: error
 
       - name: GitHub Release
-        if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v2
         with:
+          # Lancement manuel : le tag est créé ici sur le commit construit.
+          tag_name: v${{ env.VERSION_NAME }}
+          target_commitish: ${{ github.sha }}
           name: Miroir ${{ env.VERSION_NAME }}
           body_path: notes.md
           files: dist/*.apk
