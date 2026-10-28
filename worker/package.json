@@ -7,6 +7,7 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "typecheck": "tsc --noEmit",
+    "smoke": "node scripts/smoke.mjs",
     "db:migrate:local": "wrangler d1 migrations apply miroir --local",
     "db:migrate:remote": "wrangler d1 migrations apply miroir --remote"
   },

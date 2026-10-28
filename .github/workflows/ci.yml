@@ -52,3 +52,9 @@ jobs:
           node-version: "22"
       - run: npm ci
       - run: npx tsc --noEmit
+      - name: Test de bout en bout (wrangler dev + D1 local)
+        run: |
+          npx wrangler d1 migrations apply miroir --local
+          npx wrangler dev --local --port 8787 > wrangler.log 2>&1 &
+          for i in $(seq 1 60); do curl -sf localhost:8787/health > /dev/null && break; sleep 1; done
+          node scripts/smoke.mjs
