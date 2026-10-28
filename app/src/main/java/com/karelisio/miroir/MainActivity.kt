@@ -1,5 +1,8 @@
 package com.karelisio.miroir
 
+import androidx.core.view.WindowInsetsControllerCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowCompat
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.content.Intent
@@ -67,6 +70,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.auto(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT),
         )
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) window.isNavigationBarContrastEnforced = false
+        hideStatusBar()
         handleFullScreen(intent)
         pendingIntent.value = intent
 
@@ -116,6 +120,20 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    /** Mode immersif : pas de barre d'état ; un glissement depuis le haut l'affiche temporairement. */
+    private fun hideStatusBar() {
+        WindowCompat.getInsetsController(window, window.decorView).apply {
+            systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            hide(WindowInsetsCompat.Type.statusBars())
+        }
+    }
+
+    // Les dialogues, les réglages système ou certains constructeurs la réaffichent : on la remasque.
+    override fun onWindowFocusChanged(hasFocus: Boolean) {
+        super.onWindowFocusChanged(hasFocus)
+        if (hasFocus) hideStatusBar()
     }
 
     override fun onNewIntent(intent: Intent) {

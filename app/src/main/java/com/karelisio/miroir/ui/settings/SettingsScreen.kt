@@ -107,7 +107,7 @@ fun SettingsScreen(
     LazyColumn(
         contentPadding = PaddingValues(
             start = 16.dp, end = 16.dp,
-            top = contentPadding.calculateTopPadding() + 12.dp,
+            top = contentPadding.calculateTopPadding() + 20.dp,
             bottom = contentPadding.calculateBottomPadding() + 32.dp,
         ),
         verticalArrangement = Arrangement.spacedBy(20.dp),

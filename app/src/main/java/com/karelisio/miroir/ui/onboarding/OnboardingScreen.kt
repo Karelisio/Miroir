@@ -1,5 +1,8 @@
 package com.karelisio.miroir.ui.onboarding
 
+import com.karelisio.miroir.ui.components.miroirSafe
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.RepeatMode
@@ -27,7 +30,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PagerState
@@ -121,7 +123,7 @@ fun OnboardingScreen(container: AppContainer, initialPage: Int = 0, onFinished: 
         }
     }
 
-    Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.surface).systemBarsPadding()) {
+    Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.surface).windowInsetsPadding(WindowInsets.miroirSafe)) {
         val progress by animateFloatAsState((page + 1f) / total, spring(stiffness = Spring.StiffnessLow), label = "progress")
         Row(Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 12.dp), verticalAlignment = Alignment.CenterVertically) {
             LinearWavyProgressIndicator(progress = { progress }, modifier = Modifier.weight(1f))

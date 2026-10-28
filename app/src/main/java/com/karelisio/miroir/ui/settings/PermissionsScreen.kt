@@ -1,5 +1,8 @@
 package com.karelisio.miroir.ui.settings
 
+import com.karelisio.miroir.ui.components.miroirTopBar
+import com.karelisio.miroir.ui.components.miroirSafe
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -51,9 +54,11 @@ fun PermissionsScreen(@Suppress("UNUSED_PARAMETER") container: AppContainer, onB
     val granted = states.count { it.value }
 
     Scaffold(
+        contentWindowInsets = WindowInsets.miroirSafe,
         modifier = Modifier.nestedScroll(scroll.nestedScrollConnection),
         topBar = {
             LargeFlexibleTopAppBar(
+                windowInsets = WindowInsets.miroirTopBar,
                 title = { Text("Autorisations") },
                 subtitle = { Text("$granted sur ${states.size} accordées") },
                 navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Rounded.ArrowBack, "Retour") } },

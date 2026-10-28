@@ -87,7 +87,7 @@ fun CustomQuestionsScreen(vm: CustomQuestionsViewModel, contentPadding: PaddingV
         LazyColumn(
             contentPadding = PaddingValues(
                 start = 20.dp, end = 20.dp,
-                top = contentPadding.calculateTopPadding() + 12.dp,
+                top = contentPadding.calculateTopPadding() + 20.dp,
                 bottom = contentPadding.calculateBottomPadding() + 96.dp,
             ),
             verticalArrangement = Arrangement.spacedBy(12.dp),

@@ -1,5 +1,8 @@
 package com.karelisio.miroir.ui.pairing
 
+import com.karelisio.miroir.ui.components.miroirTopBar
+import com.karelisio.miroir.ui.components.miroirSafe
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
@@ -107,8 +110,10 @@ fun PairingScreen(
     BackHandler(enabled = canGoBack) { vm.back() }
 
     Scaffold(
+        contentWindowInsets = WindowInsets.miroirSafe,
         topBar = {
             TopAppBar(
+                windowInsets = WindowInsets.miroirTopBar,
                 title = {},
                 navigationIcon = {
                     if (canGoBack || onBack != null) {

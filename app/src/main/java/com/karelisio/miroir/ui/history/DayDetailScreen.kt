@@ -1,5 +1,8 @@
 package com.karelisio.miroir.ui.history
 
+import com.karelisio.miroir.ui.components.miroirTopBar
+import com.karelisio.miroir.ui.components.miroirSafe
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.FlowRow
@@ -56,9 +59,11 @@ fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit) {
     val scroll = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
 
     Scaffold(
+        contentWindowInsets = WindowInsets.miroirSafe,
         modifier = Modifier.nestedScroll(scroll.nestedScrollConnection),
         topBar = {
             LargeFlexibleTopAppBar(
+                windowInsets = WindowInsets.miroirTopBar,
                 title = { Text(LocalDate.parse(day).format(detailDate).replaceFirstChar { it.titlecase(Locale.FRENCH) }) },
                 navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Rounded.ArrowBack, "Retour") } },
                 scrollBehavior = scroll,

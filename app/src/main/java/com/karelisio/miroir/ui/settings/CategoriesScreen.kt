@@ -1,5 +1,8 @@
 package com.karelisio.miroir.ui.settings
 
+import com.karelisio.miroir.ui.components.miroirTopBar
+import com.karelisio.miroir.ui.components.miroirSafe
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -52,10 +55,12 @@ fun CategoriesScreen(container: AppContainer, onBack: () -> Unit) {
     val scroll = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
 
     Scaffold(
+        contentWindowInsets = WindowInsets.miroirSafe,
         modifier = Modifier.nestedScroll(scroll.nestedScrollConnection),
         snackbarHost = { SnackbarHost(snackbar) },
         topBar = {
             LargeFlexibleTopAppBar(
+                windowInsets = WindowInsets.miroirTopBar,
                 title = { Text("Catégories") },
                 subtitle = { Text("${counts.values.sum()} questions dans la banque") },
                 navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Rounded.ArrowBack, "Retour") } },

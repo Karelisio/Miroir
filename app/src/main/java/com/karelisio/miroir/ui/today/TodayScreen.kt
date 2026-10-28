@@ -157,7 +157,7 @@ fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPad
                 .verticalScroll(rememberScrollState())
                 .padding(contentPadding)
                 .imePadding()
-                .padding(horizontal = 20.dp, vertical = 12.dp),
+                .padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 12.dp),
             verticalArrangement = Arrangement.spacedBy(20.dp),
         ) {
             Header(ui, Modifier.staggeredAppear(0, "header"))

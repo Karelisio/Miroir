@@ -1,5 +1,7 @@
 package com.karelisio.miroir.ui.navigation
 
+import com.karelisio.miroir.ui.components.miroirSafe
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.EnterTransition
@@ -179,6 +181,7 @@ private fun MainScaffold(
     val settingsVm: SettingsViewModel = viewModel { SettingsViewModel(container) }
 
     Scaffold(
+        contentWindowInsets = WindowInsets.miroirSafe,
         snackbarHost = { SnackbarHost(snackbar) },
         bottomBar = {
             ShortNavigationBar {

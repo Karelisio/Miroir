@@ -75,7 +75,7 @@ fun HistoryContent(
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(
-            top = contentPadding.calculateTopPadding() + 12.dp,
+            top = contentPadding.calculateTopPadding() + 20.dp,
             bottom = contentPadding.calculateBottomPadding() + 24.dp,
         ),
         verticalArrangement = Arrangement.spacedBy(12.dp),
