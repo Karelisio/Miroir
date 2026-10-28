@@ -1,0 +1,14 @@
+name = "miroir"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+# Créez la base avec `npx wrangler d1 create miroir` puis collez l'id renvoyé ci-dessous.
+[[d1_databases]]
+binding = "DB"
+database_name = "miroir"
+database_id = "REMPLACER_PAR_VOTRE_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Secret à définir (jamais commité) :
+#   npx wrangler secret put FCM_SERVICE_ACCOUNT   < compte-de-service-firebase.json
