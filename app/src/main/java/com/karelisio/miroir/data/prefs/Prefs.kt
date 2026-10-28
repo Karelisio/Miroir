@@ -58,6 +58,12 @@ data class AppPrefs(
     val permissionReminderDismissedAt: Long = 0,
     val ignoredVersion: String? = null,
     val lastUpdateCheck: Long = 0,
+    /** Relance vers 22 h si la question du jour n'a pas de réponse. */
+    val eveningReminder: Boolean = true,
+    /** Verrouillage par empreinte ou code du téléphone. */
+    val appLock: Boolean = false,
+    /** Dernier récap mensuel vu ("2026-10"). */
+    val lastRecapSeen: String? = null,
 ) {
     val partnerDisplayName: String get() = partnerName?.takeIf { it.isNotBlank() } ?: "l'autre"
 }
@@ -90,6 +96,9 @@ class Prefs(private val context: Context) {
         val lastUpdateCheck = longPreferencesKey("last_update_check")
         val fcmToken = stringPreferencesKey("fcm_token")
         val fcmTokenSent = booleanPreferencesKey("fcm_token_sent")
+        val eveningReminder = booleanPreferencesKey("evening_reminder")
+        val appLock = booleanPreferencesKey("app_lock")
+        val lastRecapSeen = stringPreferencesKey("last_recap_seen")
     }
 
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
@@ -120,6 +129,9 @@ class Prefs(private val context: Context) {
             permissionReminderDismissedAt = p[K.permReminder] ?: 0,
             ignoredVersion = p[K.ignoredVersion],
             lastUpdateCheck = p[K.lastUpdateCheck] ?: 0,
+            eveningReminder = p[K.eveningReminder] ?: true,
+            appLock = p[K.appLock] ?: false,
+            lastRecapSeen = p[K.lastRecapSeen],
         )
     }
 
@@ -159,6 +171,8 @@ class Prefs(private val context: Context) {
         var sharedDirty: Boolean by bool(K.sharedDirty)
         var profileDirty: Boolean by bool(K.profileDirty)
         var fcmTokenSent: Boolean by bool(K.fcmTokenSent)
+        var eveningReminder: Boolean by bool(K.eveningReminder, true)
+        var appLock: Boolean by bool(K.appLock)
 
         // Lectures dans la même transaction que l'écriture (pas de mise à jour perdue).
         val myName: String get() = p[K.myName] ?: ""
@@ -189,6 +203,7 @@ class Prefs(private val context: Context) {
         fun ignoredVersion(v: String?) { if (v != null) p[K.ignoredVersion] = v else p.remove(K.ignoredVersion) }
         fun lastUpdateCheck(at: Long) { p[K.lastUpdateCheck] = at }
         fun fcmToken(token: String) { p[K.fcmToken] = token }
+        fun lastRecapSeen(month: String) { p[K.lastRecapSeen] = month }
 
         private fun bool(key: Preferences.Key<Boolean>, default: Boolean = false) =
             object : kotlin.properties.ReadWriteProperty<Any?, Boolean> {

@@ -60,6 +60,8 @@ import com.karelisio.miroir.ui.history.HistoryScreen
 import com.karelisio.miroir.ui.history.HistoryViewModel
 import com.karelisio.miroir.ui.onboarding.OnboardingScreen
 import com.karelisio.miroir.ui.pairing.PairingScreen
+import com.karelisio.miroir.ui.recap.RecapScreen
+import com.karelisio.miroir.ui.recap.RecapViewModel
 import com.karelisio.miroir.ui.settings.CategoriesScreen
 import com.karelisio.miroir.ui.settings.PermissionsScreen
 import com.karelisio.miroir.ui.settings.SettingsScreen
@@ -144,6 +146,11 @@ fun MiroirNavHost(
                         DayDetailScreen(vm, entry.toRoute<DayRoute>().day, onBack = { navController.popBackStack() }, onMessage = message)
                     }
                 }
+                composable<RecapRoute> { entry ->
+                    val month = entry.toRoute<RecapRoute>().month
+                    val vm: RecapViewModel = viewModel { RecapViewModel(container, month.takeIf { it.isNotBlank() }?.let { java.time.YearMonth.parse(it) }) }
+                    RecapScreen(vm, onBack = { navController.popBackStack() })
+                }
                 composable<CategoriesRoute> {
                     CategoriesScreen(container, onBack = { navController.popBackStack() })
                 }
@@ -218,8 +225,13 @@ private fun MainScaffold(
                         onOpenPermissions = { navController.navigate(PermissionsRoute) },
                         onMessage = onMessage,
                         onOpenDay = { navController.navigate(DayRoute(it)) },
+                        onOpenRecap = { navController.navigate(RecapRoute(it)) },
                     )
-                    Tabs.HISTORY -> HistoryScreen(historyVm, padding, onOpenDay = { navController.navigate(DayRoute(it)) })
+                    Tabs.HISTORY -> HistoryScreen(
+                        historyVm, padding,
+                        onOpenDay = { navController.navigate(DayRoute(it)) },
+                        onOpenRecap = { navController.navigate(RecapRoute()) },
+                    )
                     Tabs.QUESTIONS -> CustomQuestionsScreen(customVm, padding, onMessage)
                     else -> SettingsScreen(
                         vm = settingsVm,

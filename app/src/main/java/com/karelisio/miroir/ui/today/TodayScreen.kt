@@ -97,13 +97,17 @@ import com.karelisio.miroir.ui.components.MorphingBlob
 import com.karelisio.miroir.ui.components.rememberHaptics
 import com.karelisio.miroir.ui.components.springPress
 import com.karelisio.miroir.ui.components.staggeredAppear
+import java.time.LocalDate
 import java.time.LocalTime
+import java.time.YearMonth
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
 val REACTIONS = listOf("💜", "😂", "🥰", "😮", "🔥", "🤔", "👏", "🙈")
 
 private val dateFormat = DateTimeFormatter.ofPattern("EEEE d MMMM", Locale.FRENCH)
+private val longDate = DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.FRENCH)
+private val monthName = DateTimeFormatter.ofPattern("MMMM", Locale.FRENCH)
 
 @Composable
 fun TodayScreen(
@@ -113,6 +117,7 @@ fun TodayScreen(
     onOpenPermissions: () -> Unit,
     onMessage: (String) -> Unit,
     onOpenDay: (String) -> Unit = {},
+    onOpenRecap: (String) -> Unit = {},
 ) {
     val ui by vm.state.collectAsStateWithLifecycle()
     val refreshing by vm.refreshing.collectAsState()
@@ -135,6 +140,8 @@ fun TodayScreen(
             checkUpdate = vm::checkUpdate,
             nudge = vm::nudge,
             openDay = onOpenDay,
+            openRecap = { month -> vm.markRecapSeen(month); onOpenRecap(month) },
+            dismissRecap = vm::markRecapSeen,
         ),
     )
 }
@@ -152,6 +159,8 @@ class TodayActions(
     val checkUpdate: () -> Unit = {},
     val nudge: () -> Unit = {},
     val openDay: (String) -> Unit = {},
+    val openRecap: (String) -> Unit = {},
+    val dismissRecap: (String) -> Unit = {},
 )
 
 @Composable
@@ -177,6 +186,7 @@ fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPad
                 UnknownQuestionCard(actions.checkUpdate, Modifier.staggeredAppear(1, "unknown"))
                 return@Column
             }
+            milestoneOf(ui.together, ui.day)?.let { MilestoneCard(it, ui.together!!, Modifier.staggeredAppear(1, "milestone")) }
             QuestionCard(ui, Modifier.staggeredAppear(1, "question"))
 
             val motion = MaterialTheme.motionScheme
@@ -197,6 +207,9 @@ fun TodayContent(ui: TodayUi, refreshing: Boolean, skipping: Boolean, contentPad
             }
 
             ui.catchUp?.let { CatchUpCard(it, ui.partnerName) { actions.openDay(it.day) } }
+            ui.recapMonth?.let { month ->
+                RecapCard(month, onOpen = { actions.openRecap(month.toString()) }, onDismiss = { actions.dismissRecap(month.toString()) })
+            }
             PermissionReminder(ui, actions.openPermissions, actions.dismissPermissionReminder)
             Spacer(Modifier.height(24.dp))
         }
@@ -222,6 +235,17 @@ private fun Header(ui: TodayUi, modifier: Modifier) {
                 if (ui.myName.isNotBlank()) "$hello ${ui.myName}" else hello,
                 style = MaterialTheme.typography.headlineLarge,
             )
+            daysTogether(ui.together, ui.day)?.takeIf { it > 0 }?.let { days ->
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 2.dp)) {
+                    Text("💞 ", style = MaterialTheme.typography.labelLarge)
+                    AnimatedCounter(days.toInt(), MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Bold), color = MaterialTheme.colorScheme.tertiary)
+                    Text(
+                        if (days > 1) " jours ensemble" else " jour ensemble",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.tertiary,
+                    )
+                }
+            }
         }
         StreakChip(ui.streak)
     }
@@ -370,6 +394,51 @@ private fun WaitingSection(ui: TodayUi, onNudge: () -> Unit) {
                     Text("Envoyer un coucou à ${ui.partnerName} 💜")
                 }
             }
+        }
+    }
+}
+
+/** Palier du couple (100 jours, anniversaire…) : forme qui respire et petits cœurs. */
+@Composable
+private fun MilestoneCard(m: Milestone, since: LocalDate, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    val burst = remember { androidx.compose.animation.core.Animatable(0f) }
+    LaunchedEffect(Unit) { burst.animateTo(1f, tween(2600)) }
+    Surface(shape = MaterialTheme.shapes.extraLarge, color = colors.tertiaryContainer, contentColor = colors.onTertiaryContainer, modifier = modifier.fillMaxWidth()) {
+        Box {
+            Row(Modifier.padding(20.dp), verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.size(64.dp), contentAlignment = Alignment.Center) {
+                    MorphingBlob(Modifier.fillMaxSize(), colors.tertiary.copy(alpha = 0.35f), periodMs = 2600)
+                    Text(m.emoji, style = MaterialTheme.typography.headlineMedium)
+                }
+                Spacer(Modifier.width(16.dp))
+                Column {
+                    Text(m.title, style = MaterialTheme.typography.titleLarge)
+                    Text("Depuis le ${since.format(longDate)} 💜", style = MaterialTheme.typography.bodyMedium)
+                }
+            }
+            if (burst.value < 1f) HeartBurst(burst.value, listOf(colors.primary, colors.tertiary, colors.secondary), Modifier.matchParentSize())
+        }
+    }
+}
+
+/** Récap du mois précédent, proposé la première semaine du mois. */
+@Composable
+private fun RecapCard(month: YearMonth, onOpen: () -> Unit, onDismiss: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Surface(onClick = onOpen, shape = MaterialTheme.shapes.extraLarge, color = colors.primaryContainer, contentColor = colors.onPrimaryContainer) {
+        Row(Modifier.padding(start = 18.dp, top = 12.dp, bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+            Box(Modifier.size(52.dp), contentAlignment = Alignment.Center) {
+                MorphingBlob(Modifier.fillMaxSize(), colors.primary.copy(alpha = 0.3f), periodMs = 3200)
+                Text("✨", style = MaterialTheme.typography.headlineSmall)
+            }
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                val name = month.format(monthName)
+                Text("Votre mois ${if (name.first() in "aeiouâéo") "d'" else "de "}$name en miroir", style = MaterialTheme.typography.titleMedium)
+                Text("Vos chiffres, vos réactions, un souvenir", style = MaterialTheme.typography.bodySmall)
+            }
+            IconButton(onClick = onDismiss) { Icon(Icons.Rounded.Close, "Plus tard") }
         }
     }
 }

@@ -6,6 +6,8 @@ import kotlinx.serialization.Serializable
 @Serializable data class PairingRoute(val showInvite: Boolean = false, val recovery: Boolean = false)
 @Serializable data class MainRoute(val tab: Int = 0)
 @Serializable data class DayRoute(val day: String)
+/** [month] au format "2026-10", vide pour le dernier mois avec des souvenirs. */
+@Serializable data class RecapRoute(val month: String = "")
 @Serializable data object CategoriesRoute
 @Serializable data object PermissionsRoute
 

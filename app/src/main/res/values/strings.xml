@@ -3,4 +3,9 @@
     <string name="app_name">Miroir</string>
     <string name="widget_name">Question du jour</string>
     <string name="widget_description">La question du jour et l\'état de vos réponses</string>
+    <string name="shortcut_answer">Répondre</string>
+    <string name="shortcut_answer_long">Répondre à la question du jour</string>
+    <string name="shortcut_history">Historique</string>
+    <string name="shortcut_history_long">Notre histoire</string>
+    <string name="tile_label">Miroir</string>
 </resources>

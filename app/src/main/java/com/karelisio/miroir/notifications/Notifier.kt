@@ -129,6 +129,20 @@ object Notifier {
         post(context, ID_DAILY, n)
     }
 
+    /** Relance du soir : remplace la notification du jour si elle est encore là. */
+    fun showEvening(context: Context, prefs: AppPrefs, question: String, partnerAnswered: Boolean) {
+        val text = if (partnerAnswered) "${prefs.partnerDisplayName} a répondu : ta réponse débloquera le miroir." else question
+        val n = base(context, channel(context, CH_DAILY, prefs))
+            .setContentTitle("Encore un peu de temps avant minuit ⏳")
+            .setContentText(text)
+            .setStyle(NotificationCompat.BigTextStyle().bigText(text))
+            .setCategory(NotificationCompat.CATEGORY_REMINDER)
+            .setContentIntent(openAppIntent(context, "today", requestCode = ID_DAILY))
+            .addAction(0, "Répondre", openAppIntent(context, "today", requestCode = ID_DAILY + 100))
+            .build()
+        post(context, ID_DAILY, n)
+    }
+
     fun onSyncEvents(context: Context, events: List<SyncEvent>, prefs: AppPrefs) {
         if (appInForeground()) return
         val name = prefs.partnerDisplayName

@@ -47,7 +47,7 @@ open class MiroirApp : Application() {
         // Replanifie le rappel à chaque changement d'heure ou d'appairage.
         container.scope.launch {
             container.prefs.data
-                .map { Triple(it.reminderEnabled && it.paired, it.reminderHour, it.reminderMinute) }
+                .map { listOf(it.reminderEnabled && it.paired, it.reminderHour, it.reminderMinute, it.eveningReminder) }
                 .distinctUntilChanged()
                 .collect { DailyReminder.schedule(this@MiroirApp, container.prefs.current()) }
         }

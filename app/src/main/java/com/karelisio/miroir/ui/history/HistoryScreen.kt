@@ -29,7 +29,9 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.Search
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
@@ -66,9 +68,9 @@ import java.util.Locale
 private val itemDate = DateTimeFormatter.ofPattern("EEE d MMM yyyy", Locale.FRENCH)
 
 @Composable
-fun HistoryScreen(vm: HistoryViewModel, contentPadding: PaddingValues, onOpenDay: (String) -> Unit) {
+fun HistoryScreen(vm: HistoryViewModel, contentPadding: PaddingValues, onOpenDay: (String) -> Unit, onOpenRecap: () -> Unit = {}) {
     val ui by vm.state.collectAsStateWithLifecycle()
-    HistoryContent(ui, contentPadding, vm::setQuery, vm::setCategory, onOpenDay, vm::setFavoritesOnly)
+    HistoryContent(ui, contentPadding, vm::setQuery, vm::setCategory, onOpenDay, vm::setFavoritesOnly, onOpenRecap)
 }
 
 @Composable
@@ -79,6 +81,7 @@ fun HistoryContent(
     onCategory: (String?) -> Unit,
     onOpenDay: (String) -> Unit,
     onFavoritesOnly: (Boolean) -> Unit = {},
+    onOpenRecap: () -> Unit = {},
 ) {
     val haptics = rememberHaptics()
 
@@ -91,11 +94,12 @@ fun HistoryContent(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item(key = "title") {
-            Text(
-                "Notre histoire",
-                style = MaterialTheme.typography.displaySmall,
-                modifier = Modifier.padding(horizontal = 20.dp).staggeredAppear(0, "h-title"),
-            )
+            Row(Modifier.padding(horizontal = 20.dp).staggeredAppear(0, "h-title"), verticalAlignment = Alignment.CenterVertically) {
+                Text("Notre histoire", style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f))
+                if (ui.together > 0) {
+                    FilledTonalButton(onClick = { haptics.press(); onOpenRecap() }, shapes = ButtonDefaults.shapes()) { Text("✨ Récap") }
+                }
+            }
         }
         item(key = "stats") {
             Row(Modifier.padding(horizontal = 20.dp).staggeredAppear(1, "h-stats"), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -105,7 +109,12 @@ fun HistoryContent(
             }
         }
         if (ui.agreements.isNotEmpty()) {
-            item(key = "agreements") { AgreementsCard(ui.agreements, Modifier.padding(horizontal = 20.dp).staggeredAppear(2, "h-agree")) }
+            item(key = "agreements") { AgreementsCard("Vos accords", ui.agreements, Modifier.padding(horizontal = 20.dp).staggeredAppear(2, "h-agree")) }
+        }
+        if (ui.guesses.isNotEmpty()) {
+            item(key = "guesses") {
+                AgreementsCard("On se connaît à ${ui.guesses.overall()} %", ui.guesses, Modifier.padding(horizontal = 20.dp).staggeredAppear(2, "h-guess"))
+            }
         }
         item(key = "search") {
             TextField(
@@ -173,11 +182,11 @@ fun HistoryContent(
 
 /** Taux d'accord : barres qui se remplissent en ressort, pourcentage animé. */
 @Composable
-private fun AgreementsCard(agreements: List<Agreement>, modifier: Modifier) {
+fun AgreementsCard(title: String, agreements: List<Agreement>, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Surface(shape = MaterialTheme.shapes.extraLarge, color = colors.surfaceContainer, modifier = modifier.fillMaxWidth()) {
         Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            Text("Vos accords", style = MaterialTheme.typography.titleMedium)
+            Text(title, style = MaterialTheme.typography.titleMedium)
             agreements.forEach { a ->
                 var shown by remember { mutableStateOf(false) }
                 LaunchedEffect(Unit) { shown = true }
@@ -188,7 +197,7 @@ private fun AgreementsCard(agreements: List<Agreement>, modifier: Modifier) {
                 )
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text("${a.emoji}  ${a.label}", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                        Text("${a.emoji}  ${a.label}", style = MaterialTheme.typography.bodyMedium, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
                         AnimatedCounter((progress * 100).roundToInt(), MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold), color = colors.primary)
                         Text(" %", style = MaterialTheme.typography.titleMedium, color = colors.primary)
                     }

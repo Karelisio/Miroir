@@ -146,8 +146,43 @@ fun MirrorReveal(
                     Text(verdict, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(horizontal = 20.dp, vertical = 10.dp))
                 }
             }
+            val guesses = listOfNotNull(
+                myAnswer.guess?.let { g -> g.matches(partnerAnswer)?.let { Triple(myName.ifBlank { "Toi" }, g, it) } },
+                partnerAnswer.guess?.let { g -> g.matches(myAnswer)?.let { Triple(partnerName, g, it) } },
+            )
+            if (guesses.isNotEmpty()) {
+                Spacer(Modifier.height(12.dp))
+                Column(
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                    modifier = Modifier.fillMaxWidth().graphicsLayer {
+                        val s = badge.value
+                        alpha = s.coerceIn(0f, 1f); translationY = (1f - s) * 24f * density
+                    },
+                ) {
+                    guesses.forEach { (name, g, right) -> GuessResult(name, g.display(question, nameOf), right) }
+                }
+            }
         }
         if (play && burst.value < 1f) HeartBurst(burst.value, listOf(colors.primary, colors.tertiary, colors.secondary), Modifier.matchParentSize())
+    }
+}
+
+@Composable
+private fun GuessResult(name: String, guess: String, right: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    Surface(
+        shape = MaterialTheme.shapes.large,
+        color = if (right) colors.tertiaryContainer else colors.surfaceContainerHigh,
+        contentColor = if (right) colors.onTertiaryContainer else colors.onSurface,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Row(Modifier.padding(horizontal = 16.dp, vertical = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text("🔮", style = MaterialTheme.typography.titleMedium)
+            Spacer(Modifier.width(12.dp))
+            Text("$name avait deviné « $guess »", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+            Spacer(Modifier.width(8.dp))
+            Text(if (right) "Bien vu ✓" else "Raté", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
+        }
     }
 }
 
@@ -271,7 +306,7 @@ private fun ScaleDots(value: Int, accent: Color, modifier: Modifier) {
 
 /** Petits cœurs (MaterialShapes.Heart) qui s'élèvent et s'évanouissent. */
 @Composable
-private fun HeartBurst(progress: Float, palette: List<Color>, modifier: Modifier) {
+internal fun HeartBurst(progress: Float, palette: List<Color>, modifier: Modifier) {
     val heart = MaterialShapes.Heart.toPath()
     val particles = remember {
         val r = Random(7)

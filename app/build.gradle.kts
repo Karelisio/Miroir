@@ -114,6 +114,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.process)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.fragment)
+    implementation(libs.androidx.biometric)
     implementation(libs.androidx.splashscreen)
     implementation(libs.androidx.datastore)
     implementation(libs.androidx.work)

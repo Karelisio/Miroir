@@ -25,6 +25,7 @@ import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
 import java.io.IOException
 import java.time.LocalDate
+import java.time.YearMonth
 
 enum class Phase { ANSWER, WAITING, READY_TO_REVEAL, REVEALED }
 
@@ -54,6 +55,10 @@ data class TodayUi(
     /** Question d'hier sans ma réponse : rattrapable jusqu'à ce soir minuit. */
     val catchUp: DayEntity? = null,
     val nudgeSent: Boolean = false,
+    /** Date de votre anniversaire de couple (compteur « ensemble depuis »). */
+    val together: LocalDate? = null,
+    /** Mois précédent à récapituler (première semaine du mois, tant qu'il n'a pas été vu). */
+    val recapMonth: YearMonth? = null,
 )
 
 sealed interface TodayMessage {
@@ -136,6 +141,11 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
             permissionReminderDismissedAt = prefs.permissionReminderDismissedAt,
             catchUp = days.firstOrNull { it.day == day.minusDays(1).toString() && it.myAnswer == null && it.questionText.isNotBlank() },
             nudgeSent = nudged,
+            together = prefs.shared.anniversary?.let { runCatching { LocalDate.parse(it) }.getOrNull() },
+            recapMonth = YearMonth.from(day).minusMonths(1).takeIf { prev ->
+                day.dayOfMonth <= 7 && prefs.lastRecapSeen != prev.toString() &&
+                    days.any { it.day.startsWith(prev.toString()) && it.myAnswer != null && it.partnerAnswered }
+            },
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), TodayUi())
 
@@ -211,6 +221,10 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
     fun markRevealSeen() {
         val day = state.value.entity?.day ?: return
         viewModelScope.launch { repo.markRevealSeen(day) }
+    }
+
+    fun markRecapSeen(month: String) {
+        viewModelScope.launch { c.prefs.update { lastRecapSeen(month) } }
     }
 
     fun dismissPermissionReminder() {

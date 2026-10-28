@@ -54,6 +54,8 @@ data class HistoryUi(
     val streak: Int = 0,
     val best: Int = 0,
     val agreements: List<Agreement> = emptyList(),
+    /** Pronostics réussis, dans chaque sens. */
+    val guesses: List<Agreement> = emptyList(),
 )
 
 data class DayDetailUi(
@@ -87,6 +89,27 @@ fun agreementsOf(days: List<DayEntity>): List<Agreement> {
     )
 }
 
+/** Qui devine le mieux l'autre (pronostics « Et selon toi ? »). */
+fun guessScoresOf(days: List<DayEntity>, myName: String, partnerName: String): List<Agreement> {
+    val mine = mutableListOf<Boolean>()
+    val theirs = mutableListOf<Boolean>()
+    days.forEach { d ->
+        val a = d.myAnswerPayload() ?: return@forEach
+        val b = d.partnerAnswerPayload() ?: return@forEach
+        a.guess?.matches(b)?.let(mine::add)
+        b.guess?.matches(a)?.let(theirs::add)
+    }
+    fun stat(label: String, results: List<Boolean>) =
+        results.takeIf { it.isNotEmpty() }?.let { Agreement(label, "🔮", (100.0 * it.count { ok -> ok } / it.size).roundToInt(), it.size) }
+    return listOfNotNull(stat("$myName devine $partnerName", mine), stat("$partnerName devine $myName", theirs))
+}
+
+/** Moyenne pondérée d'une liste de taux (ex. « On se connaît à 68 % »). */
+fun List<Agreement>.overall(): Int? {
+    val total = sumOf { it.total }
+    return if (total == 0) null else (sumOf { it.percent * it.total }.toDouble() / total).roundToInt()
+}
+
 private data class Filters(val query: String, val category: String?, val favoritesOnly: Boolean)
 
 class HistoryViewModel(private val c: AppContainer) : ViewModel() {
@@ -98,12 +121,12 @@ class HistoryViewModel(private val c: AppContainer) : ViewModel() {
     val events = messages.receiveAsFlow()
 
     private val allItems = combine(repo.dao.observeDays(), c.prefs.data) { days, prefs ->
-        days to days.map { it.toItem(prefs) }
+        Triple(days, days.map { it.toItem(prefs) }, prefs)
     }
 
     private val filters = combine(query, category, favoritesOnly) { q, cat, fav -> Filters(q, cat, fav) }
 
-    val state: StateFlow<HistoryUi> = combine(allItems, filters, repo.todayFlow) { (days, items), f, today ->
+    val state: StateFlow<HistoryUi> = combine(allItems, filters, repo.todayFlow) { (days, items, prefs), f, today ->
         val needle = f.query.normalized()
         HistoryUi(
             items = items.filter {
@@ -118,6 +141,7 @@ class HistoryViewModel(private val c: AppContainer) : ViewModel() {
             streak = streakOf(days, today),
             best = bestStreakOf(days),
             agreements = agreementsOf(days),
+            guesses = guessScoresOf(days, prefs.myName.ifBlank { "Toi" }, prefs.partnerDisplayName),
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), HistoryUi())
 

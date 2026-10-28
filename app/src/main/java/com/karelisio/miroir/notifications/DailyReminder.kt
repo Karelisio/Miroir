@@ -17,24 +17,35 @@ import kotlinx.coroutines.withTimeoutOrNull
 import java.time.LocalDateTime
 import java.time.ZoneId
 
-/** Rappel quotidien à heure fixe, en alarme exacte quand l'autorisation est accordée. */
+/** Rappel quotidien à heure fixe (et relance du soir), en alarme exacte quand l'autorisation est accordée. */
 object DailyReminder {
-    private fun pendingIntent(context: Context) = PendingIntent.getBroadcast(
-        context, 0, Intent(context, DailyReminderReceiver::class.java),
+    const val EVENING_HOUR = 22
+    const val EXTRA_EVENING = "miroir.evening"
+
+    private fun pendingIntent(context: Context, evening: Boolean) = PendingIntent.getBroadcast(
+        context, if (evening) 1 else 0, Intent(context, DailyReminderReceiver::class.java).putExtra(EXTRA_EVENING, evening),
         PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
     )
+
+    /** Inutile si le rappel principal tombe déjà à 21 h ou plus tard. */
+    fun eveningUseful(prefs: AppPrefs): Boolean = !prefs.reminderEnabled || prefs.reminderHour < EVENING_HOUR - 1
 
     fun canScheduleExact(context: Context): Boolean =
         Build.VERSION.SDK_INT < Build.VERSION_CODES.S || context.getSystemService(AlarmManager::class.java).canScheduleExactAlarms()
 
     fun schedule(context: Context, prefs: AppPrefs) {
+        scheduleOne(context, evening = false, enabled = prefs.reminderEnabled && prefs.paired, prefs.reminderHour, prefs.reminderMinute)
+        scheduleOne(context, evening = true, enabled = prefs.eveningReminder && prefs.paired && eveningUseful(prefs), EVENING_HOUR, 0)
+    }
+
+    private fun scheduleOne(context: Context, evening: Boolean, enabled: Boolean, hour: Int, minute: Int) {
         val am = context.getSystemService(AlarmManager::class.java)
-        val pi = pendingIntent(context)
+        val pi = pendingIntent(context, evening)
         am.cancel(pi)
-        if (!prefs.reminderEnabled || !prefs.paired) return
+        if (!enabled) return
         val zone = ZoneId.systemDefault()
         val now = LocalDateTime.now(zone)
-        var next = now.toLocalDate().atTime(prefs.reminderHour, prefs.reminderMinute)
+        var next = now.toLocalDate().atTime(hour, minute)
         if (!next.isAfter(now)) next = next.plusDays(1)
         val at = next.atZone(zone).toInstant().toEpochMilli()
         if (canScheduleExact(context)) {
@@ -58,7 +69,11 @@ class DailyReminderReceiver : BroadcastReceiver() {
                 val prefs = repo.prefs.current()
                 val today = repo.ensureToday()
                 if (today != null && today.myAnswer == null && prefs.partnerJoined) {
-                    Notifier.showDaily(app, prefs, today.questionText, today.partnerAnswered)
+                    if (intent.getBooleanExtra(DailyReminder.EXTRA_EVENING, false)) {
+                        Notifier.showEvening(app, prefs, today.questionText, today.partnerAnswered)
+                    } else {
+                        Notifier.showDaily(app, prefs, today.questionText, today.partnerAnswered)
+                    }
                 }
                 DailyReminder.schedule(app, prefs)
             } finally {

@@ -12,9 +12,14 @@ Application Android native (Kotlin, Jetpack Compose, Material 3 Expressive). La 
 - **2 289 questions** en français (`questions/src`) : fun, souvenirs, profond, futur, nous deux, tu préfères, qui de nous deux, hypothétique, valeurs, goûts, enfance, voyages, petites choses du quotidien. Quatre formats : texte libre, choix multiple, échelle de 1 à 10, « qui de nous deux ».
 - **Packs saisonniers** proposés automatiquement : Noël (20-26 déc.), nouvel an (30 déc.-2 janv.), Saint-Valentin (12-14 fév.), été (1 jour sur 3 environ, du 21 juin au 22 sept.), anniversaire de couple et anniversaires de chacun.
 - Aucune répétition tant que la banque n'est pas épuisée, catégories activables, questions perso partagées et intégrées au tirage, joker « passer » une fois par jour.
-- Révélation animée « effet miroir », réactions emoji et commentaire, série de jours 🔥, historique avec recherche et filtres.
-- Rappel quotidien à heure fixe (alarme exacte), notification quand l'autre répond, révélation en plein écran optionnelle.
-- Widget Glance aux couleurs dynamiques : question du jour et état (« À toi ! », « En attente de sa réponse », « Révélé 💜 »).
+- Révélation animée « effet miroir », réactions emoji et commentaire, série de jours 🔥, historique avec recherche, filtres et favoris ⭐.
+- « Et selon toi ? » : on devine la réponse de l'autre (choix, échelles, qui de nous deux), dévoilé à la révélation ; score « On se connaît à X % » et taux d'accord dans l'historique.
+- Récap du mois animé (proposé la première semaine du mois), compteur « ensemble depuis » et paliers fêtés (100 jours, anniversaires).
+- Rattrapage de la question d'hier jusqu'à minuit, bouton « coucou 💜 » pendant l'attente.
+- Rappel quotidien à heure fixe (alarme exacte) et relance vers 22 h, notification quand l'autre répond, révélation en plein écran optionnelle.
+- Widget Glance aux couleurs dynamiques : question du jour, état (« À toi ! », « En attente de sa réponse », « Révélé 💜 ») et réponse directe aux « qui de nous deux » et petits choix (taille 3×2 ou plus).
+- Raccourcis (appui long sur l'icône) et tuile des réglages rapides.
+- Verrouillage par empreinte, visage ou code du téléphone ; export PDF « livre souvenir » ; QR de secours pour relier un nouveau téléphone.
 - Hors ligne : les réponses partent dès le retour du réseau (WorkManager).
 - Mises à jour in-app depuis les GitHub Releases (vérification au lancement et toutes les 6 h).
 

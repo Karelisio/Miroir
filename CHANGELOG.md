@@ -2,6 +2,17 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [1.2.0]
+
+- Et selon toi ? 🔮 : après avoir répondu, devine la réponse de l'autre. Le verdict tombe à la révélation, et l'historique affiche « On se connaît à X % ».
+- Récap du mois ✨ : vos chiffres, vos réactions préférées, votre thème et un souvenir, proposé la première semaine du mois (et depuis l'historique).
+- Ensemble depuis 💞 : le nombre de jours depuis votre anniversaire de couple, avec une petite fête aux paliers (100, 200… jours, chaque année).
+- Relance du soir : une notification vers 22 h si tu n'as pas encore répondu (désactivable).
+- Verrouillage : empreinte, visage ou code du téléphone à l'ouverture (Réglages › Confidentialité).
+- Raccourcis sur l'icône (Répondre, Historique) et tuile Miroir dans les réglages rapides.
+- Widget : réponds aux « qui de nous deux » et aux petits choix sans ouvrir l'appli.
+- Export PDF de vos souvenirs (Réglages › Nous deux).
+
 ## [1.1.0]
 
 - Coucou 💜 : pendant l'attente, un bouton envoie une petite notification à l'autre (une fois toutes les 30 min).

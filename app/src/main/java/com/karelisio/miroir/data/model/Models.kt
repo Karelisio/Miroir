@@ -82,7 +82,21 @@ data class AnswerPayload(
     val scale: Int? = null,
     val who: String? = null,
     val at: Long,
+    /** Ce que je pense que l'autre va répondre (facultatif, révélé avec la réponse). */
+    val guess: Guess? = null,
 )
+
+/** Pronostic sur la réponse de l'autre ([who] absolu, comme dans [AnswerPayload]). */
+@Serializable
+data class Guess(val choice: Int? = null, val scale: Int? = null, val who: String? = null) {
+    /** Bon pronostic ? (échelles : à un point près). Null si non comparable. */
+    fun matches(answer: AnswerPayload): Boolean? = when (answer.type) {
+        QuestionType.CHOICE -> choice?.let { it == answer.choice }
+        QuestionType.SCALE -> scale?.let { s -> answer.scale?.let { kotlin.math.abs(it - s) <= 1 } }
+        QuestionType.WHO -> who?.let { it == answer.who }
+        QuestionType.TEXT -> null
+    }
+}
 
 @Serializable
 data class ReactionPayload(val emoji: String? = null, val comment: String? = null, val at: Long)

@@ -28,7 +28,16 @@ import com.karelisio.miroir.data.model.Member
 import com.karelisio.miroir.data.model.Question
 import com.karelisio.miroir.data.model.QuestionType
 import com.karelisio.miroir.data.model.ReactionPayload
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performClick
+import com.karelisio.miroir.data.model.Guess
 import com.karelisio.miroir.ui.history.Agreement
+import com.karelisio.miroir.ui.lock.LockScreen
+import com.karelisio.miroir.ui.recap.Highlight
+import com.karelisio.miroir.ui.recap.Recap
+import com.karelisio.miroir.ui.recap.RecapContent
+import java.time.YearMonth
 import com.karelisio.miroir.ui.history.HistoryContent
 import com.karelisio.miroir.ui.history.HistoryItem
 import com.karelisio.miroir.ui.history.HistoryUi
@@ -93,6 +102,26 @@ class ScreenshotTest {
 
     @Test fun today_choice() = shot("01_today_choice") { TodayContent(ui(choice, Phase.ANSWER), false, false, padding, TodayActions()) }
 
+    /** Réponse choisie : le pronostic « Et selon toi ? » apparaît. */
+    @Test fun today_guess() {
+        compose.setContent {
+            MiroirRoot(dynamicColor = false) { TodayContent(ui(choice, Phase.ANSWER), false, false, padding, TodayActions()) }
+        }
+        compose.onNodeWithText(choice.options[0]).performClick()
+        compose.mainClock.advanceTimeBy(800)
+        compose.onAllNodesWithText(choice.options[1])[1].performClick()
+        compose.mainClock.advanceTimeBy(1500)
+        compose.onRoot().captureRoboImage("screenshots/01a_today_guess.png")
+    }
+
+    @Test fun today_together() = shot("01b_today_together") {
+        TodayContent(
+            ui(text, Phase.WAITING, mine = AnswerPayload(text.id, QuestionType.TEXT, text = "Le pique-nique sous l'orage.", at = 0))
+                .copy(together = day.minusDays(1000), recapMonth = YearMonth.of(2026, 9)),
+            false, false, padding, TodayActions(),
+        )
+    }
+
     @Test fun today_scale_dark() = shot("02_today_scale_dark", dark = true) {
         TodayContent(ui(scale, Phase.ANSWER, partnerAnswered = true), false, false, padding, TodayActions())
     }
@@ -124,7 +153,11 @@ class ScreenshotTest {
 
     @Test fun today_revealed() = shot("06_today_revealed") {
         TodayContent(
-            ui(scale, Phase.REVEALED, AnswerPayload(scale.id, QuestionType.SCALE, scale = 8, at = 0), AnswerPayload(scale.id, QuestionType.SCALE, scale = 7, at = 0)),
+            ui(
+                scale, Phase.REVEALED,
+                AnswerPayload(scale.id, QuestionType.SCALE, scale = 8, at = 0, guess = Guess(scale = 7)),
+                AnswerPayload(scale.id, QuestionType.SCALE, scale = 7, at = 0, guess = Guess(scale = 5)),
+            ),
             false, false, padding, TodayActions(),
         )
     }
@@ -161,8 +194,21 @@ class ScreenshotTest {
             )
         }
         val agreements = listOf(Agreement("Qui de nous deux", "👀", 72, 18), Agreement("Choix", "⚖️", 58, 12), Agreement("Échelles (à 1 près)", "📏", 81, 16))
-        HistoryContent(HistoryUi(items, together = 42, streak = 12, best = 21, agreements = agreements), padding, {}, {}, {})
+        val guesses = listOf(Agreement("Léa devine Sam", "🔮", 70, 20), Agreement("Sam devine Léa", "🔮", 62, 21))
+        HistoryContent(HistoryUi(items, together = 42, streak = 12, best = 21, agreements = agreements, guesses = guesses), padding, {}, {}, {})
     }
+
+    @Test fun recap() = shot("08a_recap") {
+        val recap = Recap(
+            month = YearMonth.of(2026, 9), days = 29, together = 26, bestStreak = 14,
+            reactions = listOf("😂" to 9, "💜" to 7, "🥰" to 4), comments = 11, agreement = 64, guess = 71,
+            topCategory = com.karelisio.miroir.data.model.Category.SOUVENIRS,
+            highlight = Highlight("2026-09-12", "Quel est le meilleur fou rire qu'on ait eu ensemble ?", "Léa : Le train de nuit pour Venise", "Sam : La crêpe tombée au plafond", favorite = true),
+        )
+        RecapContent(recap to listOf(YearMonth.of(2026, 8), YearMonth.of(2026, 9), YearMonth.of(2026, 10)), {}, {})
+    }
+
+    @Test fun lock() = shot("08b_lock", dark = true) { LockScreen {} }
 
     @Test fun qr() = shot("09_qr") {
         QrCode("miroir://pair?v=1&id=MB_ZOoxuPXw_DIApG3oAFg&s=" + "a".repeat(43) + "&k=" + "b".repeat(43) + "&u=https%3A%2F%2Fmiroir.exemple.workers.dev", Modifier.padding(40.dp))
@@ -204,6 +250,42 @@ class ScreenshotTest {
     @Test fun permissions() {
         val c = ApplicationProvider.getApplicationContext<Context>().container
         shot("12_permissions") { PermissionsScreen(c) {} }
+    }
+
+    /** Pages du livre souvenir PDF, dessinées sur une image (même code que l'export). */
+    @Test
+    fun pdf() {
+        val ctx = ApplicationProvider.getApplicationContext<Context>()
+        val json = kotlinx.serialization.json.Json { encodeDefaults = false; explicitNulls = false }
+        fun enc(a: AnswerPayload) = json.encodeToString(AnswerPayload.serializer(), a)
+        val qs = listOf(text, choice, who, scale)
+        val entries = (0 until 7).map { i ->
+            val q = qs[i % qs.size]
+            val (a, b) = when (q.type) {
+                QuestionType.TEXT -> AnswerPayload(q.id, q.type, text = "Ton rire dans la file d'attente du cinéma, et ce pull jaune.", at = 0) to
+                    AnswerPayload(q.id, q.type, text = "Tes yeux qui cherchaient la sortie : tu étais aussi timide que moi.", at = 0)
+                QuestionType.CHOICE -> AnswerPayload(q.id, q.type, choice = 0, at = 0) to AnswerPayload(q.id, q.type, choice = 1, at = 0)
+                QuestionType.WHO -> AnswerPayload(q.id, q.type, who = "A", at = 0) to AnswerPayload(q.id, q.type, who = "A", at = 0)
+                QuestionType.SCALE -> AnswerPayload(q.id, q.type, scale = 8, at = 0) to AnswerPayload(q.id, q.type, scale = 6, at = 0)
+            }
+            com.karelisio.miroir.export.MemoriesPdf.Entry(
+                DayEntity(
+                    day = day.minusDays(7L - i).toString(), questionId = q.id, tag = "t", questionText = q.text, category = q.category,
+                    myAnswer = enc(a), partnerAnswered = true, partnerAnswer = enc(b), favorite = i == 2,
+                    partnerReaction = if (i % 2 == 0) json.encodeToString(ReactionPayload.serializer(), ReactionPayload("😂", "Je le savais !", 0)) else null,
+                ),
+                q,
+            )
+        }
+        val prefs = com.karelisio.miroir.data.prefs.AppPrefs(myName = "Léa", partnerName = "Sam")
+        val pages = com.karelisio.miroir.export.MemoriesPdf.pages(ctx, prefs, entries, day)
+        val dir = File("build/outputs/roborazzi/screenshots").apply { mkdirs() }
+        pages.take(2).forEachIndexed { i, draw ->
+            val bmp = Bitmap.createBitmap(595 * 2, 842 * 2, Bitmap.Config.ARGB_8888)
+            Canvas(bmp).apply { scale(2f, 2f); draw(this) }
+            File(dir, "15_pdf_${i + 1}.png").outputStream().use { bmp.compress(Bitmap.CompressFormat.PNG, 100, it) }
+        }
+        org.junit.Assert.assertEquals(7, com.karelisio.miroir.export.MemoriesPdf.revealed(entries).size)
     }
 
     /** Icône adaptative (masque circulaire) et version monochrome. */

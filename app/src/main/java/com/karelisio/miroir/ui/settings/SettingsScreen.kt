@@ -14,11 +14,25 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.KeyboardArrowRight
+import androidx.compose.material.icons.rounded.Bedtime
 import androidx.compose.material.icons.rounded.Cake
 import androidx.compose.material.icons.rounded.Category
 import androidx.compose.material.icons.rounded.Celebration
 import androidx.compose.material.icons.rounded.DoNotDisturbOn
+import android.app.StatusBarManager
+import android.content.Context
+import android.graphics.drawable.Icon as SystemIcon
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.annotation.RequiresApi
+import androidx.core.content.ContextCompat
 import androidx.compose.material.icons.rounded.Favorite
+import androidx.compose.material.icons.rounded.PictureAsPdf
+import androidx.compose.material.icons.rounded.Widgets
+import com.karelisio.miroir.R
+import com.karelisio.miroir.widget.MiroirTileService
+import androidx.compose.material.icons.rounded.Fingerprint
 import androidx.compose.material.icons.rounded.Fullscreen
 import androidx.compose.material.icons.rounded.LinkOff
 import androidx.compose.material.icons.rounded.Lock
@@ -52,6 +66,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -65,6 +80,8 @@ import com.karelisio.miroir.data.model.Category
 import com.karelisio.miroir.data.prefs.AppPrefs
 import com.karelisio.miroir.notifications.DailyReminder
 import com.karelisio.miroir.permissions.AppPermission
+import com.karelisio.miroir.security.AppLock
+import com.karelisio.miroir.security.findActivity
 import com.karelisio.miroir.ui.components.ShapeAvatar
 import com.karelisio.miroir.ui.components.rememberHaptics
 import com.karelisio.miroir.ui.components.staggeredAppear
@@ -105,6 +122,11 @@ fun SettingsScreen(
     val errorColor = MaterialTheme.colorScheme.error
     val enabledCategories = Category.drawable.count { it.key !in p.shared.disabledCategories }
     val missingPermissions = permissions.count { (perm, granted) -> !granted && !perm.optional }
+    val lockAvailable = remember { AppLock.available(context) }
+    val exporting by vm.exporting.collectAsState()
+    val exportLauncher = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/pdf")) { uri ->
+        uri?.let { vm.exportPdf(context.applicationContext, it, onMessage) }
+    }
 
     LazyColumn(
         contentPadding = PaddingValues(
@@ -124,6 +146,13 @@ fun SettingsScreen(
                 link(Icons.Rounded.Cake, "Mon anniversaire", p.myBirthday.pretty() ?: "Pour un pack spécial ce jour-là") { pickBirthday = true }
                 link(Icons.Rounded.Favorite, "Notre anniversaire", p.shared.anniversary.pretty() ?: "La date de votre rencontre") { pickAnniversary = true }
                 if (p.member.key == "A" && !p.partnerJoined) link(Icons.Rounded.QrCode2, "Afficher le QR code", "Pour relier l'autre téléphone", onClick = onShowInvite)
+                if (p.partnerJoined) link(
+                    Icons.Rounded.PictureAsPdf, "Exporter nos souvenirs", "Un joli PDF de vos questions et réponses",
+                    trailing = { if (exporting) LoadingIndicator(Modifier.size(28.dp)) else Icon(Icons.AutoMirrored.Rounded.KeyboardArrowRight, null) },
+                ) {
+                    haptics.press()
+                    exportLauncher.launch("Miroir-souvenirs-${LocalDate.now()}.pdf")
+                }
                 if (p.partnerJoined) link(Icons.Rounded.PhonelinkSetup, "Relier un nouveau téléphone", "Si celui de ${p.partnerDisplayName} est perdu ou réinitialisé", onClick = onShowRecovery)
             }
         }
@@ -139,6 +168,11 @@ fun SettingsScreen(
             Group("Notifications", 4) {
                 toggle(Icons.Rounded.Schedule, "Rappel quotidien", if (p.reminderEnabled) "Chaque jour à %02d:%02d".format(p.reminderHour, p.reminderMinute) else "Désactivé", p.reminderEnabled, onClick = { pickTime = true }) {
                     haptics.toggle(it); vm.setReminderEnabled(it)
+                }
+                if (DailyReminder.eveningUseful(p)) {
+                    toggle(Icons.Rounded.Bedtime, "Relance du soir", "Vers 22 h si tu n'as pas encore répondu", p.eveningReminder) {
+                        haptics.toggle(it); vm.setEveningReminder(it)
+                    }
                 }
                 toggle(Icons.Rounded.NotificationsActive, "Quand ${p.partnerDisplayName} répond", "Réponses, réactions, révélations", p.notifyPartner) {
                     haptics.toggle(it); vm.setNotifyPartner(it)
@@ -159,6 +193,11 @@ fun SettingsScreen(
         item(key = "app") {
             Group("Application", 5) {
                 link(Icons.Rounded.Shield, "Autorisations", if (missingPermissions == 0) "Tout est accordé ✓" else "$missingPermissions à revoir", onClick = onOpenPermissions)
+                if (Build.VERSION.SDK_INT >= 33) {
+                    link(Icons.Rounded.Widgets, "Ajouter la tuile Miroir", "Dans les réglages rapides, l'état du jour d'un coup d'œil") {
+                        requestAddTile(context, onMessage)
+                    }
+                }
                 toggle(Icons.Rounded.Vibration, "Retours haptiques", "Vibrations subtiles pendant les animations", p.haptics) {
                     haptics.toggle(it); vm.setHaptics(it)
                 }
@@ -176,6 +215,19 @@ fun SettingsScreen(
         }
         item(key = "privacy") {
             Group("Confidentialité", 6) {
+                toggle(
+                    Icons.Rounded.Fingerprint, "Verrouiller Miroir",
+                    if (lockAvailable) "Empreinte, visage ou code à l'ouverture" else "Configure d'abord un verrouillage d'écran",
+                    p.appLock,
+                ) { on ->
+                    val activity = context.findActivity()
+                    when {
+                        !on -> { haptics.toggle(false); vm.setAppLock(false) }
+                        !lockAvailable || activity == null -> onMessage("Configure d'abord un verrouillage d'écran sur ton téléphone.")
+                        // On vérifie que l'authentification marche avant d'activer le verrou.
+                        else -> AppLock.authenticate(activity, "Activer le verrouillage") { ok -> if (ok) { haptics.toggle(true); vm.setAppLock(true) } }
+                    }
+                }
                 link(Icons.Rounded.Lock, "Chiffrement de bout en bout", "Réponses et questions perso sont chiffrées (AES-256-GCM) sur vos téléphones. Le serveur ne voit que du chiffré.", onClick = null)
                 link(Icons.Rounded.LinkOff, "Dissocier nos miroirs", "Efface le couple sur le serveur et sur ce téléphone", tint = errorColor) { confirmUnpair = true }
             }
@@ -203,6 +255,21 @@ fun SettingsScreen(
             },
             dismissButton = { TextButton(onClick = { confirmUnpair = false }) { Text("Annuler") } },
         )
+    }
+}
+
+@RequiresApi(33)
+private fun requestAddTile(context: Context, onMessage: (String) -> Unit) {
+    context.getSystemService(StatusBarManager::class.java).requestAddTileService(
+        MiroirTileService.component(context),
+        context.getString(R.string.tile_label),
+        SystemIcon.createWithResource(context, R.drawable.ic_stat_miroir),
+        ContextCompat.getMainExecutor(context),
+    ) { result ->
+        when (result) {
+            StatusBarManager.TILE_ADD_REQUEST_RESULT_TILE_ADDED -> onMessage("Tuile ajoutée ✨")
+            StatusBarManager.TILE_ADD_REQUEST_RESULT_TILE_ALREADY_ADDED -> onMessage("La tuile est déjà dans tes réglages rapides.")
+        }
     }
 }
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Appui long sur l'icône : accès direct à la question du jour et à l'historique. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_answer"
+        android:shortcutId="answer"
+        android:shortcutLongLabel="@string/shortcut_answer_long"
+        android:shortcutShortLabel="@string/shortcut_answer">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.karelisio.miroir.MainActivity"
+            android:targetPackage="com.karelisio.miroir">
+            <extra
+                android:name="miroir.destination"
+                android:value="today" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_history"
+        android:shortcutId="history"
+        android:shortcutLongLabel="@string/shortcut_history_long"
+        android:shortcutShortLabel="@string/shortcut_history">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.karelisio.miroir.MainActivity"
+            android:targetPackage="com.karelisio.miroir">
+            <extra
+                android:name="miroir.destination"
+                android:value="history" />
+        </intent>
+    </shortcut>
+</shortcuts>

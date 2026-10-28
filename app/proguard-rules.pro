@@ -13,3 +13,6 @@
 -dontwarn org.conscrypt.**
 -dontwarn org.bouncycastle.**
 -dontwarn org.openjsse.**
+
+# Actions du widget instanciées par réflexion (Glance) : garder le constructeur sans argument.
+-keepclassmembers class * extends androidx.glance.appwidget.action.ActionCallback { <init>(); }

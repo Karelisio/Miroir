@@ -10,8 +10,14 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnticipateInterpolator
-import androidx.activity.ComponentActivity
+import android.os.SystemClock
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleOut
+import androidx.fragment.app.FragmentActivity
 import androidx.activity.SystemBarStyle
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.SnackbarHostState
@@ -29,6 +35,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.rememberNavController
 import com.karelisio.miroir.notifications.Notifier
 import com.karelisio.miroir.permissions.SpecialPermissionLauncher
+import com.karelisio.miroir.security.AppLock
+import com.karelisio.miroir.ui.lock.LockScreen
 import com.karelisio.miroir.ui.AppViewModel
 import com.karelisio.miroir.ui.components.LocalHapticsEnabled
 import com.karelisio.miroir.ui.navigation.DayRoute
@@ -42,14 +50,26 @@ import com.karelisio.miroir.ui.update.UpdateSheet
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 
-class MainActivity : ComponentActivity() {
+// FragmentActivity (et non ComponentActivity) : requis par BiometricPrompt pour le verrouillage.
+class MainActivity : FragmentActivity() {
 
     private val pendingIntent = MutableStateFlow<Intent?>(null)
     private var ready = false
 
+    /** Verrou demandé (démarrage, retour après [AppLock.TIMEOUT_MS] en arrière-plan) ; effectif si activé. */
+    private val lockRequested = MutableStateFlow(true)
+    @Volatile private var lockEnabled = false
+    private var stoppedAt = 0L
+
     override fun onCreate(savedInstanceState: Bundle?) {
         val splash = installSplashScreen()
         super.onCreate(savedInstanceState)
+        // Recréation (rotation, mort du processus) : on garde l'état, sauf si l'appli est restée trop longtemps en arrière-plan.
+        savedInstanceState?.let {
+            stoppedAt = it.getLong(KEY_STOPPED_AT)
+            val tooLong = stoppedAt > 0 && SystemClock.elapsedRealtime() - stoppedAt > AppLock.TIMEOUT_MS
+            lockRequested.value = it.getBoolean(KEY_LOCKED, true) || tooLong
+        }
         splash.setKeepOnScreenCondition { !ready }
         splash.setOnExitAnimationListener { provider ->
             // Sortie du splash : l'icône s'envole en grandissant pendant que le fond s'efface.
@@ -94,6 +114,21 @@ class MainActivity : ComponentActivity() {
                     MiroirNavHost(container, nav, start, snackbar)
                     UpdateSheet(appVm.updates)
 
+                    LaunchedEffect(p.appLock) {
+                        lockEnabled = p.appLock
+                        if (!p.appLock) lockRequested.value = false
+                        // Pas d'aperçu du contenu dans les applis récentes quand Miroir est verrouillable.
+                        if (Build.VERSION.SDK_INT >= 33) setRecentsScreenshotEnabled(!p.appLock)
+                    }
+                    val lockAsked by lockRequested.collectAsStateWithLifecycle()
+                    AnimatedVisibility(p.appLock && lockAsked, enter = fadeIn(), exit = fadeOut() + scaleOut(targetScale = 1.08f)) {
+                        val unlock = { AppLock.authenticate(this@MainActivity, "Déverrouiller Miroir") { ok -> if (ok) lockRequested.value = false } }
+                        LaunchedEffect(Unit) { unlock() }
+                        // Retour : on quitte sans naviguer dans l'appli cachée derrière.
+                        BackHandler { moveTaskToBack(true) }
+                        LockScreen(onUnlock = unlock)
+                    }
+
                     // Dissociation (depuis l'autre téléphone ou le serveur) : retour à l'appairage.
                     var wasPaired by remember { mutableStateOf(p.paired) }
                     LaunchedEffect(p.paired) {
@@ -115,6 +150,7 @@ class MainActivity : ComponentActivity() {
                             "day" -> i.getStringExtra(Notifier.EXTRA_DAY)?.let { nav.navigate(DayRoute(it)) }
                             "custom" -> nav.navigate(MainRoute(Tabs.QUESTIONS)) { popUpTo(nav.graph.id) { inclusive = true } }
                             "today" -> nav.navigate(MainRoute(Tabs.TODAY)) { popUpTo(nav.graph.id) { inclusive = true } }
+                            "history" -> nav.navigate(MainRoute(Tabs.HISTORY)) { popUpTo(nav.graph.id) { inclusive = true } }
                         }
                     }
                 }
@@ -142,12 +178,33 @@ class MainActivity : ComponentActivity() {
         pendingIntent.value = intent
     }
 
+    override fun onStart() {
+        super.onStart()
+        if (lockEnabled && stoppedAt > 0 && SystemClock.elapsedRealtime() - stoppedAt > AppLock.TIMEOUT_MS) lockRequested.value = true
+    }
+
+    override fun onStop() {
+        super.onStop()
+        stoppedAt = SystemClock.elapsedRealtime()
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putBoolean(KEY_LOCKED, lockRequested.value)
+        outState.putLong(KEY_STOPPED_AT, stoppedAt)
+    }
+
     override fun onResume() {
         super.onResume()
         SpecialPermissionLauncher.stopWatching()
         // Les canaux "prioritaires" n'existent qu'une fois l'accès Ne pas déranger accordé.
         Notifier.createChannels(this)
         lifecycleScope.launch { runCatching { container.repository.sync() } }
+    }
+
+    private companion object {
+        const val KEY_LOCKED = "miroir.locked"
+        const val KEY_STOPPED_AT = "miroir.stopped_at"
     }
 
     /** Révélation en plein écran : s'affiche par-dessus l'écran verrouillé. */

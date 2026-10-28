@@ -1,6 +1,10 @@
 package com.karelisio.miroir.ui.today
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
@@ -9,6 +13,13 @@ import androidx.compose.animation.core.spring
 import androidx.compose.animation.scaleIn
 import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.FilterChip
+import androidx.compose.ui.draw.clip
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -54,6 +65,7 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.karelisio.miroir.data.model.AnswerPayload
+import com.karelisio.miroir.data.model.Guess
 import com.karelisio.miroir.data.model.Member
 import com.karelisio.miroir.data.model.Question
 import com.karelisio.miroir.data.model.QuestionType
@@ -74,6 +86,16 @@ fun AnswerInput(question: Question, me: Member, myName: String, partnerName: Str
     var scale by rememberSaveable(question.id) { mutableFloatStateOf(5f) }
     var scaleTouched by rememberSaveable(question.id) { mutableStateOf(false) }
     var who by rememberSaveable(question.id) { mutableStateOf<String?>(null) }
+    // Pronostic facultatif sur la réponse de l'autre.
+    var guessChoice by rememberSaveable(question.id) { mutableIntStateOf(-1) }
+    var guessScale by rememberSaveable(question.id) { mutableIntStateOf(0) }
+    var guessWho by rememberSaveable(question.id) { mutableStateOf<String?>(null) }
+    val guess = when (question.type) {
+        QuestionType.CHOICE -> guessChoice.takeIf { it >= 0 }?.let { Guess(choice = it) }
+        QuestionType.SCALE -> guessScale.takeIf { it > 0 }?.let { Guess(scale = it) }
+        QuestionType.WHO -> guessWho?.let { Guess(who = it) }
+        QuestionType.TEXT -> null
+    }
 
     Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
         when (question.type) {
@@ -123,6 +145,14 @@ fun AnswerInput(question: Question, me: Member, myName: String, partnerName: Str
             QuestionType.SCALE -> scaleTouched
             QuestionType.WHO -> who != null
         }
+        AnimatedVisibility(ready && question.type != QuestionType.TEXT, enter = expandVertically() + fadeIn(), exit = shrinkVertically() + fadeOut()) {
+            GuessSection(question, me, myName, partnerName, guess) { g ->
+                haptics.tick()
+                guessChoice = g?.choice ?: -1
+                guessScale = g?.scale ?: 0
+                guessWho = g?.who
+            }
+        }
         val interaction = remember { MutableInteractionSource() }
         Button(
             onClick = {
@@ -136,6 +166,7 @@ fun AnswerInput(question: Question, me: Member, myName: String, partnerName: Str
                         scale = scale.roundToInt().takeIf { question.type == QuestionType.SCALE },
                         who = who.takeIf { question.type == QuestionType.WHO },
                         at = System.currentTimeMillis(),
+                        guess = guess,
                     ),
                 )
             },
@@ -156,6 +187,68 @@ fun AnswerInput(question: Question, me: Member, myName: String, partnerName: Str
             modifier = Modifier.fillMaxWidth(),
         )
     }
+}
+
+/** « Et selon toi ? » : on devine la réponse de l'autre, révélée en même temps que les vôtres. */
+@Composable
+private fun GuessSection(question: Question, me: Member, myName: String, partnerName: String, guess: Guess?, onGuess: (Guess?) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Surface(shape = MaterialTheme.shapes.extraLarge, color = colors.tertiaryContainer, contentColor = colors.onTertiaryContainer, modifier = Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text("🔮", style = MaterialTheme.typography.titleLarge)
+                Spacer(Modifier.width(12.dp))
+                Column {
+                    Text(
+                        if (question.type == QuestionType.WHO) "Et selon toi, qui $partnerName va désigner ?" else "Et selon toi, $partnerName va répondre…",
+                        style = MaterialTheme.typography.titleSmall,
+                    )
+                    Text("Facultatif · dévoilé avec vos réponses", style = MaterialTheme.typography.labelSmall)
+                }
+            }
+            when (question.type) {
+                QuestionType.CHOICE -> FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    question.options.forEachIndexed { i, option ->
+                        val selected = guess?.choice == i
+                        FilterChip(selected = selected, onClick = { onGuess(if (selected) null else Guess(choice = i)) }, label = { Text(option, maxLines = 2) })
+                    }
+                }
+                QuestionType.WHO -> Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    listOf(me.key to myName.ifBlank { "Moi" }, me.other.key to partnerName).forEach { (key, name) ->
+                        val selected = guess?.who == key
+                        FilterChip(selected = selected, onClick = { onGuess(if (selected) null else Guess(who = key)) }, label = { Text(name, maxLines = 1) })
+                    }
+                }
+                QuestionType.SCALE -> Row(horizontalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.fillMaxWidth()) {
+                    for (n in 1..10) {
+                        val selected = guess?.scale == n
+                        val scale by animateFloatAsState(if (selected) 1.15f else 1f, spring(dampingRatio = 0.4f, stiffness = Spring.StiffnessMedium), label = "g")
+                        Box(
+                            Modifier
+                                .weight(1f)
+                                .aspectRatio(1f)
+                                .graphicsLayer { scaleX = scale; scaleY = scale }
+                                .clip(if (selected) MaterialShapes.Cookie6Sided.toShape() else CircleShape)
+                                .background(if (selected) colors.tertiary else colors.surfaceContainerLowest.copy(alpha = 0.6f))
+                                .clickable { onGuess(if (selected) null else Guess(scale = n)) },
+                            contentAlignment = Alignment.Center,
+                        ) {
+                            Text("$n", style = MaterialTheme.typography.labelLarge, color = if (selected) colors.onTertiary else colors.onSurface)
+                        }
+                    }
+                }
+                QuestionType.TEXT -> Unit
+            }
+        }
+    }
+}
+
+/** Texte d'un pronostic, pour l'affichage après révélation. */
+fun Guess.display(question: Question?, nameOf: (String) -> String): String = when {
+    who != null -> nameOf(who)
+    choice != null -> question?.options?.getOrNull(choice) ?: "—"
+    scale != null -> "$scale / 10"
+    else -> "—"
 }
 
 @Composable
