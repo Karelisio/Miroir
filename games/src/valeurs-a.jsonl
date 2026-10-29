@@ -821,7 +821,7 @@
 {"id":"val-a-0821","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour dire merci à une personne amie, tu préfères…","options":["Un mot écrit à la main","Un repas préparé avec soin"]}
 {"id":"val-a-0822","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères qu'une personne amie te confie…","options":["Un secret lourd à porter","Une joie énorme à garder pour toi un moment"]}
 {"id":"val-a-0823","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour une soirée entre amis, tu préfères…","options":["Un jeu de société qui dure des heures","Une conversation qui s'étire jusqu'à l'aube"]}
-{"id":"val-a-0824","category":"valeurs","mode":"preferes","intensity":1,"text":"Après des mois sans nouvelles, tu préfères recevoir…","options":["Un long message plein de détails","Une invitation pour se voir très vite"]}
+{"id":"val-a-0824","category":"valeurs","mode":"preferes","intensity":1,"text":"Après des mois sans nouvelles, tu préfères recevoir…","options":["Une longue lettre pleine de nouvelles","Une invitation pour se voir très vite"]}
 {"id":"val-a-0825","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour tes amis, tu préfères avoir le don de…","options":["Les faire rire quand tout va mal","Les écouter quand tout va mal"]}
 {"id":"val-a-0826","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères une relation fondée sur…","options":["Une franchise totale, quitte à piquer","Une délicatesse qui choisit ses mots"]}
 {"id":"val-a-0827","category":"valeurs","mode":"preferes","intensity":1,"text":"Face à une vérité douloureuse, tu préfères l'apprendre…","options":["Tout de suite, sans détour","Au bon moment, avec des précautions"]}
@@ -898,3 +898,153 @@
 {"id":"val-a-0898","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères nettoyer…","options":["Une plage un dimanche matin","Un sentier de montagne un samedi"]}
 {"id":"val-a-0899","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères respirer…","options":["L'air pur de la montagne","L'air salé de la mer"]}
 {"id":"val-a-0900","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour te rafraîchir en été, tu préfères…","options":["Un lac ou une rivière","L'ombre d'une grande forêt"]}
+{"id":"val-a-0901","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans ton jardin, tu préfères…","options":["Une nature sauvage, laissée libre","Un espace ordonné et bien tondu"]}
+{"id":"val-a-0902","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour te chauffer, tu préfères…","options":["Un poêle à bois qui crépite","Un chauffage discret et propre"]}
+{"id":"val-a-0903","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour suivre le rythme du soleil, tu préfères…","options":["Te lever avec lui","Te coucher avec lui"]}
+{"id":"val-a-0904","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour te débarrasser d'un objet, tu préfères…","options":["Le donner à une association","Le vendre pour financer autre chose"]}
+{"id":"val-a-0905","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères boycotter…","options":["Les produits qui voyagent trop","Les produits qui sont trop emballés"]}
+{"id":"val-a-0906","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour te ressourcer, tu préfères…","options":["Une soirée au calme chez toi","Une sortie entre amis"]}
+{"id":"val-a-0907","category":"valeurs","mode":"preferes","intensity":1,"text":"Quand tu as besoin d'espace, tu préfères…","options":["Le dire clairement avec des mots","Te mettre un peu à l'écart sans rien expliquer"]}
+{"id":"val-a-0908","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ta vie privée en ligne, tu préfères…","options":["Un compte public, ouvert à tous","Aucun compte, aucune trace"]}
+{"id":"val-a-0909","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans le train, tu préfères voisiner avec…","options":["Quelqu'un qui engage la conversation","Quelqu'un qui lit en silence"]}
+{"id":"val-a-0910","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour les surprises, tu préfères…","options":["Qu'on te prévienne de tout","Qu'on te surprenne sans prévenir"]}
+{"id":"val-a-0911","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que ta porte reste…","options":["Ouverte à tout moment pour tes proches","Fermée, sauf sur invitation"]}
+{"id":"val-a-0912","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères garder privés…","options":["Tes soucis de santé","Tes soucis d'argent"]}
+{"id":"val-a-0913","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour un conseil important, tu préfères demander à…","options":["Une personne qui te connaît par cœur","Une personne neutre, sans lien affectif"]}
+{"id":"val-a-0914","category":"valeurs","mode":"preferes","intensity":1,"text":"Tes photos d'enfance, tu préfères qu'elles…","options":["Restent dans l'intimité","Circulent librement dans la famille"]}
+{"id":"val-a-0915","category":"valeurs","mode":"preferes","intensity":1,"text":"Face à un compliment, tu préfères…","options":["Un merci simple","Une pirouette humoristique"]}
+{"id":"val-a-0916","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour refuser une invitation, tu préfères…","options":["Une réponse claire et rapide","Une réponse polie après réflexion"]}
+{"id":"val-a-0917","category":"valeurs","mode":"preferes","intensity":2,"text":"Si tu dois refuser quelque chose à l'autre, tu préfères…","options":["Un non net et bienveillant","Un non nuancé avec une alternative"]}
+{"id":"val-a-0918","category":"valeurs","mode":"preferes","intensity":2,"text":"Une limite posée dans un couple, tu préfères qu'elle soit…","options":["Discutée ensemble dès le départ","Découverte au fil des situations"]}
+{"id":"val-a-0919","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour l'intimité de la maison, tu préfères…","options":["Des portes toujours ouvertes","Un coin rien qu'à chacun"]}
+{"id":"val-a-0920","category":"valeurs","mode":"preferes","intensity":1,"text":"Face à une question trop personnelle, tu préfères…","options":["Répondre avec humour","Dire que tu n'en parleras pas"]}
+{"id":"val-a-0921","category":"valeurs","mode":"preferes","intensity":2,"text":"Tu préfères que tes limites soient…","options":["Écrites noir sur blanc","Comprises sans avoir à les dire"]}
+{"id":"val-a-0922","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour organiser tes journées, tu préfères…","options":["Un rythme réglé comme du papier à musique","Aucun cadre, à chaque jour sa surprise"]}
+{"id":"val-a-0923","category":"valeurs","mode":"preferes","intensity":1,"text":"Quand on veut t'aider sans que tu l'aies demandé, tu préfères…","options":["Accepter avec reconnaissance","Remercier et décliner"]}
+{"id":"val-a-0924","category":"valeurs","mode":"preferes","intensity":1,"text":"Le soir, tu préfères que ton téléphone reste…","options":["Posé dans une autre pièce","À portée de main, au cas où"]}
+{"id":"val-a-0925","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour recevoir des nouvelles, tu préfères…","options":["Un message court et direct","Un long message plein de détails"]}
+{"id":"val-a-0926","category":"valeurs","mode":"preferes","intensity":1,"text":"En société, tu préfères…","options":["Parler peu et écouter beaucoup","Parler beaucoup et écouter un peu"]}
+{"id":"val-a-0927","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour une conversation sérieuse, tu préfères…","options":["Un café en terrasse","Une marche côte à côte"]}
+{"id":"val-a-0928","category":"valeurs","mode":"preferes","intensity":2,"text":"Face à une demande d'aide trop lourde, tu préfères…","options":["Poser tes limites franchement","Aider un peu, puis passer le relais"]}
+{"id":"val-a-0929","category":"valeurs","mode":"preferes","intensity":1,"text":"Quand tu as besoin de calme chez toi, tu préfères…","options":["Un casque et ta musique","Une pièce fermée, juste le silence"]}
+{"id":"val-a-0930","category":"valeurs","mode":"preferes","intensity":1,"text":"Face aux gens envahissants, tu préfères…","options":["Un humour désarmant","Une froideur polie"]}
+{"id":"val-a-0931","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour changer le monde, tu préfères…","options":["Agir près de chez toi","Soutenir de grandes causes lointaines"]}
+{"id":"val-a-0932","category":"valeurs","mode":"preferes","intensity":2,"text":"Tu préfères une société où…","options":["Tout le monde gagne un peu moins, mais à égalité","Chacun peut réussir très haut, malgré les inégalités"]}
+{"id":"val-a-0933","category":"valeurs","mode":"preferes","intensity":1,"text":"En politique, tu préfères un projet…","options":["Ambitieux et risqué","Prudent et progressif"]}
+{"id":"val-a-0934","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour t'informer, tu préfères…","options":["Un long article de fond","Un résumé de cinq minutes"]}
+{"id":"val-a-0935","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans un débat, tu préfères…","options":["Convaincre","Comprendre"]}
+{"id":"val-a-0936","category":"valeurs","mode":"preferes","intensity":2,"text":"Face à une injustice, tu préfères…","options":["Agir tout de suite, quitte à te tromper","Attendre d'avoir tous les éléments"]}
+{"id":"val-a-0937","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour soutenir une cause, tu préfères…","options":["Signer, partager, relayer","Mettre les mains dans le cambouis sur le terrain"]}
+{"id":"val-a-0938","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères croire que…","options":["Tout arrive pour une raison","Le hasard fait bien les choses"]}
+{"id":"val-a-0939","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères une vie guidée par…","options":["Des principes qui ne bougent pas","Des valeurs qui évoluent avec l'expérience"]}
+{"id":"val-a-0940","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour méditer sur la vie, tu préfères…","options":["Une longue marche en silence","Un moment d'écriture dans un carnet"]}
+{"id":"val-a-0941","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que la spiritualité soit…","options":["Un cadre commun, avec des rites","Une quête personnelle et libre"]}
+{"id":"val-a-0942","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour trouver la paix intérieure, tu préfères…","options":["Un lieu sacré chargé d'histoire","Un coin de nature sauvage"]}
+{"id":"val-a-0943","category":"valeurs","mode":"preferes","intensity":2,"text":"Tu préfères connaître la réponse à…","options":["« Y a-t-il de la vie ailleurs ? »","« Y a-t-il quelque chose après la mort ? »"]}
+{"id":"val-a-0944","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères qu'on retienne de toi…","options":["Ce que tu as dit","Ce que tu as fait"]}
+{"id":"val-a-0945","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères offrir 1 000 € à…","options":["Une personne dans le besoin, anonymement","Une cause qui aidera des centaines de gens"]}
+{"id":"val-a-0946","category":"valeurs","mode":"preferes","intensity":2,"text":"Tu préfères une justice…","options":["Sévère mais juste","Indulgente et tournée vers la réinsertion"]}
+{"id":"val-a-0947","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour éduquer, tu préfères transmettre…","options":["La curiosité","La persévérance"]}
+{"id":"val-a-0948","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères une démocratie où…","options":["On vote sur tout, tout le temps","On délègue à des personnes compétentes"]}
+{"id":"val-a-0949","category":"valeurs","mode":"preferes","intensity":2,"text":"Entre deux libertés, tu préfères…","options":["Dire tout ce que tu penses","Vivre à l'abri des propos blessants"]}
+{"id":"val-a-0950","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que les musées soient…","options":["Gratuits pour tout le monde","Payants, mais mieux financés"]}
+{"id":"val-a-0951","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ton voisinage, tu préfères…","options":["Organiser une fête de quartier","Offrir un coup de main discret"]}
+{"id":"val-a-0952","category":"valeurs","mode":"preferes","intensity":2,"text":"Comme grand principe de vie, tu préfères…","options":["Ne jamais nuire","Toujours aider"]}
+{"id":"val-a-0953","category":"valeurs","mode":"preferes","intensity":1,"text":"Entre deux qualités, tu préfères cultiver…","options":["L'indulgence","L'exigence"]}
+{"id":"val-a-0954","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour tes lectures, tu préfères…","options":["Des livres qui bousculent tes idées","Des livres qui les confirment"]}
+{"id":"val-a-0955","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour faire entendre ta voix, tu préfères…","options":["Un bulletin dans l'urne","Une pancarte dans la rue"]}
+{"id":"val-a-0956","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que l'argent public finance…","options":["Plus de culture","Plus de sport"]}
+{"id":"val-a-0957","category":"valeurs","mode":"preferes","intensity":2,"text":"Côté technologie, tu préfères des machines…","options":["Qui nous libèrent du travail","Qui nous laissent le travail qui a du sens"]}
+{"id":"val-a-0958","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans la vie, tu préfères suivre…","options":["Ton cœur","Ta raison"]}
+{"id":"val-a-0959","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que tes valeurs se voient…","options":["Dans tes paroles","Dans tes actes"]}
+{"id":"val-a-0960","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour juger quelqu'un, tu préfères observer…","options":["Ses gestes quand personne ne regarde","Ses paroles quand tout va bien"]}
+{"id":"val-a-0961","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour vieillir, tu préfères…","options":["Une maison de plain-pied à la campagne","Un appartement en ville avec ascenseur"]}
+{"id":"val-a-0962","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères vivre…","options":["À la montagne","Au bord de la mer"]}
+{"id":"val-a-0963","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères avoir le temps de…","options":["Tout essayer","Maîtriser une seule chose"]}
+{"id":"val-a-0964","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères un rythme de vie…","options":["Lent, rempli de petits plaisirs","Rapide, rempli d'aventures"]}
+{"id":"val-a-0965","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour dormir, tu préfères…","options":["Peu, pour profiter des soirées","Beaucoup, pour des matins en pleine forme"]}
+{"id":"val-a-0966","category":"valeurs","mode":"preferes","intensity":2,"text":"Côté risque, tu préfères…","options":["Tenter et regretter parfois","Renoncer et te demander ce qui aurait pu être"]}
+{"id":"val-a-0967","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères une vie…","options":["Pleine de voyages, avec peu d'objets","Pleine d'objets, avec peu de voyages"]}
+{"id":"val-a-0968","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que ta vie ressemble à…","options":["Un long fleuve tranquille","Des montagnes russes"]}
+{"id":"val-a-0969","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ta santé, tu préfères…","options":["Le sport régulier, quitte à te forcer","Les plaisirs de la table, en y pensant plus tard"]}
+{"id":"val-a-0970","category":"valeurs","mode":"preferes","intensity":1,"text":"À soixante-dix ans, tu préfères…","options":["Courir un marathon","Écrire un roman"]}
+{"id":"val-a-0971","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères une vie qui…","options":["Se planifie à cinq ans","S'improvise à la semaine"]}
+{"id":"val-a-0972","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères habiter une ville qui a…","options":["Cinéma, théâtre et musées","Marché, parc et rivière"]}
+{"id":"val-a-0973","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères passer ta vie à…","options":["Te faire de nouveaux souvenirs","Garder précieusement les anciens"]}
+{"id":"val-a-0974","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour tes loisirs, tu préfères…","options":["Un seul passe-temps où tu progresses","Plein d'activités différentes"]}
+{"id":"val-a-0975","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ton logement idéal, tu préfères…","options":["Une péniche amarrée","Une cabane perchée dans les arbres"]}
+{"id":"val-a-0976","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ta vie sociale, tu préfères…","options":["Un grand dîner par semaine","Plusieurs petits cafés"]}
+{"id":"val-a-0977","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que tes journées commencent…","options":["Par une grasse matinée","Par un lever aux aurores"]}
+{"id":"val-a-0978","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères renoncer à…","options":["Tous les réseaux sociaux","Toutes les plateformes de séries"]}
+{"id":"val-a-0979","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères maîtriser…","options":["Le dessin","La cuisine"]}
+{"id":"val-a-0980","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour progresser, tu préfères…","options":["Un cours structuré avec une personne experte","L'autoformation à ton rythme"]}
+{"id":"val-a-0981","category":"valeurs","mode":"preferes","intensity":1,"text":"Avec ton temps libre, tu préfères…","options":["Créer quelque chose de tes mains","Découvrir quelque chose de nouveau"]}
+{"id":"val-a-0982","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères voir le monde…","options":["En voyageant sans cesse","En l'accueillant chez toi"]}
+{"id":"val-a-0983","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères qu'on te remarque pour…","options":["Ton calme","Ton énergie"]}
+{"id":"val-a-0984","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères vivre une vie…","options":["Brève et intense","Longue et tranquille"]}
+{"id":"val-a-0985","category":"valeurs","mode":"preferes","intensity":1,"text":"Avec une année devant toi, tu préfères…","options":["Écrire ton livre","Parcourir le monde"]}
+{"id":"val-a-0986","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour voyager, tu préfères…","options":["Léger, avec un sac de cabine","Avec une valise pleine au cas où"]}
+{"id":"val-a-0987","category":"valeurs","mode":"preferes","intensity":2,"text":"Pour la durée de ta vie, tu préfères vivre…","options":["120 ans en vieillissant normalement","80 ans en pleine forme jusqu'au bout"]}
+{"id":"val-a-0988","category":"valeurs","mode":"preferes","intensity":2,"text":"Si tu ne pouvais réussir qu'une des deux, tu préfères…","options":["Ta vie professionnelle","Ta vie personnelle"]}
+{"id":"val-a-0989","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ta maison idéale, tu préfères…","options":["Une grande cuisine ouverte","Un grand salon cosy"]}
+{"id":"val-a-0990","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour décider, tu préfères…","options":["Peser longuement le pour et le contre","Suivre ton premier élan"]}
+{"id":"val-a-0991","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères vivre un grand changement…","options":["Brutalement, d'un coup","Progressivement, par petites touches"]}
+{"id":"val-a-0992","category":"valeurs","mode":"preferes","intensity":2,"text":"Dans ta vie, tu préfères que la place du couple soit…","options":["Centrale, au cœur de tout","Importante, mais entourée d'autres belles choses"]}
+{"id":"val-a-0993","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que ton chez-toi soit…","options":["Un cocon où l'on reste","Une base d'où l'on part"]}
+{"id":"val-a-0994","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ton bien-être, tu préfères…","options":["Un massage d'une heure","Une sieste d'une heure"]}
+{"id":"val-a-0995","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères habiter un pays où il fait…","options":["Chaud toute l'année","Quatre saisons bien marquées"]}
+{"id":"val-a-0996","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères vivre dans une ville…","options":["Où tout le monde te connaît","Où personne ne te connaît"]}
+{"id":"val-a-0997","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour apprendre de tes erreurs, tu préfères…","options":["Les analyser à froid","En rire d'abord"]}
+{"id":"val-a-0998","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour fêter une réussite, tu préfères…","options":["Une grande fête","Un moment calme pour savourer"]}
+{"id":"val-a-0999","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères habiter près de…","options":["Ta famille","Tes amis"]}
+{"id":"val-a-1000","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères changer de vie pour…","options":["Un grand projet fou","Un quotidien plus doux"]}
+{"id":"val-a-1001","category":"valeurs","mode":"preferes","intensity":1,"text":"Au restaurant, tu préfères…","options":["Partager ton plat avec tout le monde","Garder ton assiette pour toi"]}
+{"id":"val-a-1002","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ranger, tu préfères…","options":["Tout trier d'un coup un dimanche","Un petit peu chaque jour"]}
+{"id":"val-a-1003","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans les transports bondés, tu préfères…","options":["Rester debout près de la porte","Attendre le suivant pour avoir une place assise"]}
+{"id":"val-a-1004","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères trouver au réveil…","options":["Un café déjà prêt","Un petit mot sur l'oreiller"]}
+{"id":"val-a-1005","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans une longue file d'attente, tu préfères…","options":["Rêvasser tranquillement","Occuper le temps avec ton téléphone"]}
+{"id":"val-a-1006","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour te réveiller, tu préfères…","options":["Une sonnerie douce et progressive","Une alarme franche qui te lève d'un coup"]}
+{"id":"val-a-1007","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour un dimanche pluvieux, tu préfères…","options":["Un marathon de films","Un grand ménage de printemps"]}
+{"id":"val-a-1008","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour les repas de la semaine, tu préfères…","options":["Tout préparer à l'avance","Improviser chaque soir"]}
+{"id":"val-a-1009","category":"valeurs","mode":"preferes","intensity":1,"text":"Quand tu as du retard, tu préfères…","options":["Prévenir tout de suite","Courir en espérant arriver à l'heure"]}
+{"id":"val-a-1010","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour tes dîners, tu préfères…","options":["Un menu fixe qui rassure","Une surprise chaque soir"]}
+{"id":"val-a-1011","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans ta boîte aux lettres, tu préfères trouver…","options":["De vraies lettres écrites à la main","Des colis surprises"]}
+{"id":"val-a-1012","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour te réveiller en douceur, tu préfères entendre…","options":["La pluie sur le toit","Les oiseaux dehors"]}
+{"id":"val-a-1013","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que la maison sente…","options":["Le pain chaud","Le café fraîchement moulu"]}
+{"id":"val-a-1014","category":"valeurs","mode":"preferes","intensity":1,"text":"Quand tu reçois, tu préfères que les invités arrivent…","options":["À l'heure pile","Avec une demi-heure de retard"]}
+{"id":"val-a-1015","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans un magasin, tu préfères…","options":["Qu'on te conseille","Qu'on te laisse regarder tranquillement"]}
+{"id":"val-a-1016","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères avoir toujours sur toi…","options":["Un carnet et un stylo","Un petit en-cas"]}
+{"id":"val-a-1017","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères perdre…","options":["Ton téléphone pour une semaine","Tes clés pour une journée"]}
+{"id":"val-a-1018","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères rater…","options":["Ton train de justesse","Ton café du matin"]}
+{"id":"val-a-1019","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour démarrer la journée, tu préfères une playlist…","options":["Énergique","Douce"]}
+{"id":"val-a-1020","category":"valeurs","mode":"preferes","intensity":1,"text":"Quand on t'aborde dans la rue pour un sondage, tu préfères…","options":["Prendre le temps de répondre","Accélérer le pas poliment"]}
+{"id":"val-a-1021","category":"valeurs","mode":"preferes","intensity":1,"text":"Au volant, tu préfères…","options":["Un embouteillage avec ta musique","Une route vide sans radio"]}
+{"id":"val-a-1022","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères patienter dans une queue…","options":["Chez le boulanger, pour l'odeur du pain chaud","À la poste, avec un bon livre à la main"]}
+{"id":"val-a-1023","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour les petites réparations, tu préfères…","options":["Bricoler toi-même avec un tutoriel","Appeler une personne experte"]}
+{"id":"val-a-1024","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères une maison…","options":["Rangée au carré","Vivante, avec un joyeux désordre"]}
+{"id":"val-a-1025","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour un trajet en voiture, tu préfères…","options":["Conduire","Naviguer et choisir la musique"]}
+{"id":"val-a-1026","category":"valeurs","mode":"preferes","intensity":1,"text":"Au petit-déjeuner, tu préfères…","options":["Du salé","Du sucré"]}
+{"id":"val-a-1027","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour tes affaires, tu préfères…","options":["Une poche pour chaque objet","Un grand sac fourre-tout"]}
+{"id":"val-a-1028","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour un repas ordinaire, tu préfères…","options":["Un vrai repas à table","Un plateau sur le canapé"]}
+{"id":"val-a-1029","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour une soirée à la maison, tu préfères…","options":["Cuisiner longuement","Commander en dix minutes"]}
+{"id":"val-a-1030","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour ton appartement, tu préfères…","options":["Beaucoup de lumière, mais des voisins en face","Peu de lumière, mais une tranquillité totale"]}
+{"id":"val-a-1031","category":"valeurs","mode":"preferes","intensity":1,"text":"À travers le mur, tu préfères entendre…","options":["Un piano un peu faux","Une fête qui finit à minuit"]}
+{"id":"val-a-1032","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour un lundi matin difficile, tu préfères…","options":["Un petit-déjeuner de roi","Dix minutes de sommeil en plus"]}
+{"id":"val-a-1033","category":"valeurs","mode":"preferes","intensity":1,"text":"Dans un couple, tu préfères que chacun…","options":["Garde des activités en solo","Partage presque tout"]}
+{"id":"val-a-1034","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour les grands choix de couple, tu préfères…","options":["Décider à deux, même si ça prend du temps","Se répartir les décisions selon les domaines"]}
+{"id":"val-a-1035","category":"valeurs","mode":"preferes","intensity":2,"text":"Tu préfères un couple qui…","options":["Se dispute souvent mais se réconcilie vite","Se dispute rarement mais garde des rancœurs"]}
+{"id":"val-a-1036","category":"valeurs","mode":"preferes","intensity":2,"text":"Pour que la relation dure, tu préfères…","options":["Se surprendre sans cesse","Se rassurer sans cesse"]}
+{"id":"val-a-1037","category":"valeurs","mode":"preferes","intensity":2,"text":"Tu préfères vieillir avec une personne qui…","options":["Te fait rire jusqu'au bout","Te comprend sans un mot"]}
+{"id":"val-a-1038","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour les tâches du quotidien, tu préfères…","options":["Se spécialiser chacun dans ses domaines","Tout faire à tour de rôle"]}
+{"id":"val-a-1039","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que notre couple soit…","options":["Un cocon rien qu'à nous","Une maison toujours ouverte aux autres"]}
+{"id":"val-a-1040","category":"valeurs","mode":"preferes","intensity":2,"text":"Face à un désaccord de fond, tu préfères…","options":["Chercher un compromis","Accepter que chacun garde son avis"]}
+{"id":"val-a-1041","category":"valeurs","mode":"preferes","intensity":2,"text":"Pour une grande décision de vie, tu préfères…","options":["Prendre l'avis de tes proches","Décider à deux, en toute discrétion"]}
+{"id":"val-a-1042","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour progresser en couple, tu préfères…","options":["Un week-end de discussion franche","De petits ajustements au quotidien"]}
+{"id":"val-a-1043","category":"valeurs","mode":"preferes","intensity":2,"text":"Dans un couple, tu préfères qu'on se dise…","options":["Tout ce qu'on ressent, en temps réel","Seulement ce qui peut aider l'autre"]}
+{"id":"val-a-1044","category":"valeurs","mode":"preferes","intensity":2,"text":"Entre liberté et sécurité, tu préfères…","options":["Beaucoup de liberté, un peu d'incertitude","Beaucoup de sécurité, un peu de routine"]}
+{"id":"val-a-1045","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères un engagement…","options":["Officialisé, avec une fête et des promesses","Silencieux, vécu au quotidien"]}
+{"id":"val-a-1046","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour cultiver la complicité, tu préfères…","options":["Des rituels toujours identiques","Des découvertes régulières"]}
+{"id":"val-a-1047","category":"valeurs","mode":"preferes","intensity":2,"text":"Quand notre couple traverse une période dure, tu préfères…","options":["Se serrer encore plus fort","Laisser à chacun de l'air pour respirer"]}
+{"id":"val-a-1048","category":"valeurs","mode":"preferes","intensity":1,"text":"Pour nos valeurs communes, tu préfères…","options":["Être d'accord sur l'essentiel","Se contredire pour mieux se comprendre"]}
+{"id":"val-a-1049","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères garder, en vieillissant…","options":["Nos différences, qui nous nourrissent","Nos ressemblances, qui nous rassurent"]}
+{"id":"val-a-1050","category":"valeurs","mode":"preferes","intensity":1,"text":"Tu préfères que notre histoire soit un jour racontée comme…","options":["Une aventure folle","Une belle histoire tranquille"]}

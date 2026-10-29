@@ -25,7 +25,7 @@ const GENDERED = [
   // Les pronoms (il, elle, -le, -la) désignent souvent des choses : ils sont relus à la main, pas bloqués.
   [/\b(pour|de|à|sans)\s+(le|la)\s+(rejoindre|embrasser|regarder|caresser|serrer|surprendre|toucher|câliner|enlacer|déshabiller|masser)\b/i, "pronom le/la"],
   [/\b(es|suis|être|sois|serais|serait|êtes|sommes)\s+(prêt|prête)s?\b/i, "mot genré"],
-  [/\b(jaloux|jalouse|amoureux|amoureuse|heureux|heureuse|fier|fière|gêné|gênée|excité|excitée|chéri|chérie|copain|copine|mari|femme|homme|garçon|fille|petit ami|petite amie)\b/i, "mot genré"],
+  [/\b(jaloux|jalouse|amoureux|amoureuse|heureux|heureuse|(?<!(?:te|se|me|nous|vous) )fier|fière|gêné|gênée|excité|excitée|chéri|chérie|copain|copine|mari|femme|homme|garçon|fille|petit ami|petite amie)\b/i, "mot genré"],
 ];
 
 export function validateFile(file) {
