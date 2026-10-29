@@ -53,7 +53,6 @@ import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.rememberCoroutineScope
@@ -219,8 +218,9 @@ private fun MainScaffold(
     navController: NavHostController,
     onMessage: (String) -> Unit,
 ) {
+    // Chaque ouverture ciblée (raccourci, notification) crée une nouvelle entrée MainRoute : l'onglet
+    // initial ne sert qu'à sa création. Au retour d'un écran (partie, jour…), l'onglet mémorisé reste.
     var tab by rememberSaveable { mutableIntStateOf(initialTab) }
-    LaunchedEffect(initialTab) { tab = initialTab }
     val haptics = rememberHaptics()
     val motion = MaterialTheme.motionScheme
     val todayVm: TodayViewModel = viewModel { TodayViewModel(container) }

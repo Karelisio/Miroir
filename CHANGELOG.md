@@ -2,6 +2,10 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [2.0.1]
+
+- Retour depuis une partie, un jour de l'historique ou un écran des jeux : on revient sur l'onglet d'où l'on venait, plus sur Aujourd'hui.
+
 ## [2.0.0]
 
 - **De l'autre côté** 🪞 : un nouvel onglet Jeux pour vous deux, où l'on entre en traversant le miroir.
