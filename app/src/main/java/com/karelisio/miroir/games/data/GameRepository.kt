@@ -376,16 +376,7 @@ class GameRepository(
         val set = matches.toSet()
         val found = mutableMapOf<String, MatchKind>()
         for (w in dao.wishes()) {
-            if (w.answer == Wish.NO) continue
-            val kind = when (w.answer) {
-                Wish.YES -> when {
-                    crypto.wishTag("oo:${w.itemId}") in set -> MatchKind.MATCH
-                    crypto.wishTag(cross(me, yes = true) + ":${w.itemId}") in set -> MatchKind.DISCUSS
-                    else -> null
-                }
-                else -> MatchKind.DISCUSS.takeIf { crypto.wishTag(cross(me, yes = false) + ":${w.itemId}") in set }
-            } ?: continue
-            found[w.itemId] = kind
+            matchOf(crypto, me, w.itemId, w.answer, set)?.let { found[w.itemId] = it }
         }
         val existing = dao.matches().associateBy { it.itemId }
         val now = System.currentTimeMillis()
@@ -416,6 +407,17 @@ class GameRepository(
             Wish.YES -> crypto.wishTag("oo:$itemId") to crypto.wishTag(cross(me, yes = true) + ":$itemId")
             Wish.MAYBE -> crypto.wishTag(cross(me, yes = false) + ":$itemId") to randomTag()
             else -> randomTag() to randomTag()
+        }
+
+        /** Ce que révèlent les étiquettes communes pour une de mes envies (rien pour un « non »). */
+        fun matchOf(crypto: PairCrypto, me: Member, itemId: String, answer: Int, common: Set<String>): MatchKind? = when (answer) {
+            Wish.YES -> when {
+                crypto.wishTag("oo:$itemId") in common -> MatchKind.MATCH
+                crypto.wishTag(cross(me, yes = true) + ":$itemId") in common -> MatchKind.DISCUSS
+                else -> null
+            }
+            Wish.MAYBE -> MatchKind.DISCUSS.takeIf { crypto.wishTag(cross(me, yes = false) + ":$itemId") in common }
+            else -> null
         }
 
         /** Étiquette croisée : mon oui rencontre son peut-être, ou mon peut-être rencontre son oui. */

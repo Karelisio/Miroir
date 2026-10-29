@@ -198,27 +198,30 @@ fun RevealPair(
     BoxWithConstraints(modifier.fillMaxWidth()) {
         val w = constraints.maxWidth.toFloat()
         val half = w / 2f
-        // Départ hors du centre, puis rapprochement ; fusion (match) ou rebond vers l'extérieur.
-        val gap = when (match) {
-            true -> (1f - merge.value) * 0.12f
-            else -> 0.04f + 0.06f * merge.value
+        // Départ hors du centre, puis rapprochement ; fusion (match) ou choc puis rebond vers les bords.
+        // Au repos, les bulles restent dans l'écran (pas de texte coupé).
+        val m = merge.value
+        val inward = when (match) {
+            true -> half * 0.5f * m
+            else -> w * 0.06f * (1f - m)
         }
         val enter = 1f - approach.value
+        val fade = if (match == true) (1f - m).coerceIn(0f, 1f) else 1f
         Box(Modifier.fillMaxWidth().heightIn(min = 150.dp), contentAlignment = Alignment.Center) {
             AnswerBubble(
                 leftName, left, colors.primaryContainer, colors.onPrimaryContainer,
-                Modifier.fillMaxWidth(0.5f).align(Alignment.CenterStart).graphicsLayer {
-                    translationX = -half * enter + half * (if (match == true) merge.value * 0.5f else 0f) - w * gap
-                    alpha = if (match == true) 1f - merge.value * 0.65f else 1f
-                    rotationZ = if (match == false) -6f * merge.value else 0f
+                Modifier.fillMaxWidth(0.48f).align(Alignment.CenterStart).graphicsLayer {
+                    translationX = -half * enter + inward
+                    alpha = fade
+                    rotationZ = if (match == false) -4f * m else 0f
                 },
             )
             AnswerBubble(
                 rightName, right, colors.secondaryContainer, colors.onSecondaryContainer,
-                Modifier.fillMaxWidth(0.5f).align(Alignment.CenterEnd).graphicsLayer {
-                    translationX = half * enter - half * (if (match == true) merge.value * 0.5f else 0f) + w * gap
-                    alpha = if (match == true) 1f - merge.value * 0.65f else 1f
-                    rotationZ = if (match == false) 6f * merge.value else 0f
+                Modifier.fillMaxWidth(0.48f).align(Alignment.CenterEnd).graphicsLayer {
+                    translationX = half * enter - inward
+                    alpha = fade
+                    rotationZ = if (match == false) 4f * m else 0f
                 },
             )
             if (match == true) {
@@ -229,7 +232,7 @@ fun RevealPair(
                     contentColor = colors.onTertiaryContainer,
                     modifier = Modifier.size(150.dp).graphicsLayer {
                         val s = merge.value
-                        scaleX = 0.4f + 0.6f * s; scaleY = 0.4f + 0.6f * s; alpha = s
+                        scaleX = 0.4f + 0.6f * s; scaleY = 0.4f + 0.6f * s; alpha = s.coerceIn(0f, 1f)
                     },
                 ) {
                     Column(Modifier.padding(18.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
