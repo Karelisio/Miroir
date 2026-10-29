@@ -3,6 +3,7 @@ package com.karelisio.miroir.sync
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import com.karelisio.miroir.container
+import com.karelisio.miroir.games.notifications.GameNotifications
 import com.karelisio.miroir.notifications.Notifier
 import kotlinx.coroutines.runBlocking
 
@@ -23,6 +24,11 @@ class MiroirMessagingService : FirebaseMessagingService() {
                 }
             }
             "nudge" -> runBlocking { Notifier.showNudge(applicationContext, c.prefs.current()) }
+            // Jeux : notification toujours neutre (jamais le contenu), puis synchro des jeux.
+            "game" -> {
+                runBlocking { GameNotifications.show(applicationContext, c.prefs.current(), message.data["event"], message.data["session"]) }
+                SyncScheduler.enqueueSync(applicationContext)
+            }
             else -> SyncScheduler.enqueueSync(applicationContext)
         }
     }

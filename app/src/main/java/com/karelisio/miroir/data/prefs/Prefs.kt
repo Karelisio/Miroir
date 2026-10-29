@@ -13,6 +13,7 @@ import androidx.datastore.preferences.preferencesDataStore
 import com.karelisio.miroir.data.crypto.KeystoreBox
 import com.karelisio.miroir.data.model.Member
 import com.karelisio.miroir.data.model.SharedSettings
+import com.karelisio.miroir.games.model.GameSettings
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
@@ -64,7 +65,26 @@ data class AppPrefs(
     val appLock: Boolean = false,
     /** Dernier récap mensuel vu ("2026-10"). */
     val lastRecapSeen: String? = null,
+    // De l'autre côté (jeux)
+    val gamesOnboardingDone: Boolean = false,
+    val gamesSettings: GameSettings = GameSettings(),
+    /** Réglages de l'autre (null tant qu'il n'a pas ouvert la section : intensité 1 par prudence). */
+    val partnerGamesSettings: GameSettings? = null,
+    val gamesSettingsDirty: Boolean = false,
+    val gamesRev: Long = 0,
+    val gamesWishesRev: Long = 0,
+    /** Verrou biométrique pour Osé et Intime. */
+    val gamesLockSpicy: Boolean = false,
+    /** Chrono du mode canapé, en secondes (0 = sans). */
+    val gamesTimer: Int = 0,
+    val gamesBadges: Set<String> = emptySet(),
 ) {
+    /** Le jeu n'utilise jamais une intensité supérieure au minimum des deux réglages. */
+    val gamesIntensity: Int get() = minOf(gamesSettings.intensity, partnerGamesSettings?.intensity ?: 1).coerceIn(1, 3)
+
+    /** Union des catégories exclues par chacun. */
+    val gamesExcluded: Set<String> get() = gamesSettings.excluded + (partnerGamesSettings?.excluded ?: emptySet())
+
     val partnerDisplayName: String get() = partnerName?.takeIf { it.isNotBlank() } ?: "l'autre"
 }
 
@@ -99,6 +119,15 @@ class Prefs(private val context: Context) {
         val eveningReminder = booleanPreferencesKey("evening_reminder")
         val appLock = booleanPreferencesKey("app_lock")
         val lastRecapSeen = stringPreferencesKey("last_recap_seen")
+        val gamesOnboarding = booleanPreferencesKey("games_onboarding_done")
+        val gamesSettings = stringPreferencesKey("games_settings")
+        val partnerGamesSettings = stringPreferencesKey("games_partner_settings")
+        val gamesSettingsDirty = booleanPreferencesKey("games_settings_dirty")
+        val gamesRev = longPreferencesKey("games_rev")
+        val gamesWishesRev = longPreferencesKey("games_wishes_rev")
+        val gamesLockSpicy = booleanPreferencesKey("games_lock_spicy")
+        val gamesTimer = intPreferencesKey("games_timer")
+        val gamesBadges = stringSetPreferencesKey("games_badges")
     }
 
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
@@ -132,6 +161,15 @@ class Prefs(private val context: Context) {
             eveningReminder = p[K.eveningReminder] ?: true,
             appLock = p[K.appLock] ?: false,
             lastRecapSeen = p[K.lastRecapSeen],
+            gamesOnboardingDone = p[K.gamesOnboarding] ?: false,
+            gamesSettings = p[K.gamesSettings]?.let { runCatching { json.decodeFromString<GameSettings>(it) }.getOrNull() } ?: GameSettings(),
+            partnerGamesSettings = p[K.partnerGamesSettings]?.let { runCatching { json.decodeFromString<GameSettings>(it) }.getOrNull() },
+            gamesSettingsDirty = p[K.gamesSettingsDirty] ?: false,
+            gamesRev = p[K.gamesRev] ?: 0,
+            gamesWishesRev = p[K.gamesWishesRev] ?: 0,
+            gamesLockSpicy = p[K.gamesLockSpicy] ?: false,
+            gamesTimer = p[K.gamesTimer] ?: 0,
+            gamesBadges = p[K.gamesBadges] ?: emptySet(),
         )
     }
 
@@ -152,7 +190,10 @@ class Prefs(private val context: Context) {
 
     /** Dissociation : on oublie tout ce qui concerne le couple, on garde les préférences locales. */
     suspend fun clearPairing() = context.dataStore.edit {
-        listOf(K.creds, K.member, K.partnerJoined, K.partnerName, K.partnerBirthday, K.shared, K.sharedVersion, K.sharedDirty, K.rev, K.fcmTokenSent)
+        listOf(
+            K.creds, K.member, K.partnerJoined, K.partnerName, K.partnerBirthday, K.shared, K.sharedVersion, K.sharedDirty, K.rev, K.fcmTokenSent,
+            K.partnerGamesSettings, K.gamesRev, K.gamesWishesRev, K.gamesBadges,
+        )
             .forEach { k -> it.remove(k) }
     }
 
@@ -173,6 +214,11 @@ class Prefs(private val context: Context) {
         var fcmTokenSent: Boolean by bool(K.fcmTokenSent)
         var eveningReminder: Boolean by bool(K.eveningReminder, true)
         var appLock: Boolean by bool(K.appLock)
+        var gamesOnboardingDone: Boolean by bool(K.gamesOnboarding)
+        var gamesSettingsDirty: Boolean by bool(K.gamesSettingsDirty)
+        var gamesLockSpicy: Boolean by bool(K.gamesLockSpicy)
+        val gamesSettings: GameSettings
+            get() = p[K.gamesSettings]?.let { runCatching { json.decodeFromString<GameSettings>(it) }.getOrNull() } ?: GameSettings()
 
         // Lectures dans la même transaction que l'écriture (pas de mise à jour perdue).
         val myName: String get() = p[K.myName] ?: ""
@@ -204,6 +250,14 @@ class Prefs(private val context: Context) {
         fun lastUpdateCheck(at: Long) { p[K.lastUpdateCheck] = at }
         fun fcmToken(token: String) { p[K.fcmToken] = token }
         fun lastRecapSeen(month: String) { p[K.lastRecapSeen] = month }
+        fun gamesSettings(s: GameSettings) { p[K.gamesSettings] = json.encodeToString(GameSettings.serializer(), s) }
+        fun partnerGamesSettings(s: GameSettings?) {
+            if (s != null) p[K.partnerGamesSettings] = json.encodeToString(GameSettings.serializer(), s) else p.remove(K.partnerGamesSettings)
+        }
+        fun gamesRev(rev: Long) { p[K.gamesRev] = rev }
+        fun gamesWishesRev(rev: Long) { p[K.gamesWishesRev] = rev }
+        fun gamesTimer(seconds: Int) { p[K.gamesTimer] = seconds }
+        fun gamesBadges(ids: Set<String>) { p[K.gamesBadges] = ids }
 
         private fun bool(key: Preferences.Key<Boolean>, default: Boolean = false) =
             object : kotlin.properties.ReadWriteProperty<Any?, Boolean> {

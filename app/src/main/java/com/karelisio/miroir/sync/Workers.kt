@@ -9,6 +9,7 @@ import androidx.work.WorkerParameters
 import com.karelisio.miroir.container
 import com.karelisio.miroir.data.remote.ApiException
 import com.karelisio.miroir.diagnostics.Diagnostics
+import com.karelisio.miroir.games.notifications.GameNotifications
 import com.karelisio.miroir.notifications.Notifier
 import java.io.IOException
 
@@ -16,12 +17,16 @@ import java.io.IOException
 class SendWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {
     override suspend fun doWork(): Result {
         val repo = applicationContext.container.repository
-        if (!repo.flushPending()) {
+        val games = applicationContext.container.games
+        // Les jeux d'abord : leurs envois n'attendent pas ceux de la question du jour.
+        val gamesSent = games.flushPending()
+        if (!repo.flushPending() || !gamesSent) {
             Diagnostics.record("envoi", "file hors ligne non vidée, nouvel essai plus tard")
             return Result.retry()
         }
         return try {
             repo.sync()
+            games.sync()
             Result.success()
         } catch (e: ApiException) {
             Diagnostics.record("synchro", "erreur serveur ${e.status}", e)
@@ -41,9 +46,12 @@ class SendWorker(context: Context, params: WorkerParameters) : CoroutineWorker(c
 class SyncWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {
     override suspend fun doWork(): Result {
         val repo = applicationContext.container.repository
+        val games = applicationContext.container.games
         return try {
             repo.flushPending()
+            games.flushPending()
             repo.sync()
+            GameNotifications.onSync(applicationContext, games.sync())
             Result.success()
         } catch (e: ApiException) {
             Diagnostics.record("synchro", "erreur serveur ${e.status}", e)

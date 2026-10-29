@@ -108,7 +108,10 @@ class MiroirRepository(
         }
     }.distinctUntilChanged()
 
-    private suspend fun crypto(c: PairCredentials): PairCrypto {
+    /** Nettoyages supplémentaires à la dissociation (ex. jeux). */
+    val resetHooks = mutableListOf<suspend () -> Unit>()
+
+    internal suspend fun crypto(c: PairCredentials): PairCrypto {
         cryptoCache?.let { (id, crypto) -> if (id == c.pairId + c.key) return crypto }
         return PairCrypto(PairCrypto.unb64(c.key), c.pairId).also { cryptoCache = (c.pairId + c.key) to it }
     }
@@ -222,6 +225,7 @@ class MiroirRepository(
     private suspend fun resetLocal() {
         dao.clearDays()
         dao.clearCustom()
+        resetHooks.forEach { it() }
     }
 
     private fun profilePayload(crypto: PairCrypto, member: Member, p: AppPrefs): String =

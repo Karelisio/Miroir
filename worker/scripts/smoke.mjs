@@ -75,6 +75,73 @@ assert.equal((await call("POST", "/nudge", "A")).status, 200);
 assert.equal((await call("POST", "/nudge", "A")).status, 429);
 assert.equal((await call("POST", "/nudge", "B")).status, 200);
 
+// ---------- De l'autre côté (jeux) ----------
+const game = rnd(16);
+const done = "$done";
+r = await call("POST", "/games/session", "A", { id: game, kind: "duel", reveal: "all", payload: "cGFydGll", notify: true });
+assert.equal(r.status, 200);
+assert.equal(r.body.created, true);
+r = await call("POST", "/games/session", "B", { id: game, kind: "duel", reveal: "all", payload: "YXV0cmU" });
+assert.equal(r.body.created, false, "création idempotente : la première partie l'emporte");
+assert.equal(r.body.session.payload, "cGFydGll");
+assert.equal((await call("POST", "/games/session", "A", { id: rnd(16), kind: "poker", reveal: "all", payload: "eA" })).status, 400);
+
+// Duel (révélation « all ») : rien ne fuite tant que les deux n'ont pas fini.
+await call("POST", "/games/answer", "A", { session: game, item: "q0", payload: "QTA" });
+await call("POST", "/games/answer", "A", { session: game, item: done, payload: "ZA", notify: true });
+await call("POST", "/games/answer", "B", { session: game, item: "q0", payload: "QjA" });
+r = await call("POST", "/games/state", "B", { since: 0 });
+let s = r.body.sessions.find((x) => x.id === game);
+assert.equal(s.answers.find((a) => a.member === "A" && a.item === "q0").payload, null, "réponse de A cachée avant la fin de B");
+assert.equal(s.answers.find((a) => a.member === "A" && a.item === done).payload, "ZA", "l'état « terminé » est visible");
+assert.equal((await call("POST", "/games/answer", "A", { session: game, item: "q0", payload: "Q09SUklHRQ" })).body.session.answers.find((a) => a.member === "A" && a.item === "q0").payload, "QTA", "une réponse donnée ne change plus");
+r = await call("POST", "/games/answer", "B", { session: game, item: done, payload: "ZA", notify: true });
+s = r.body.session;
+assert.equal(s.answers.find((a) => a.member === "A" && a.item === "q0").payload, "QTA", "révélation une fois les deux terminés");
+
+// Devine-moi (révélation « item ») : la réponse de l'autre n'apparaît qu'après avoir répondu au même élément.
+const devine = rnd(16);
+await call("POST", "/games/session", "A", { id: devine, kind: "devine", reveal: "item", payload: "ZGV2" });
+await call("POST", "/games/answer", "A", { session: devine, item: "q0", payload: "UkVQ" });
+r = await call("POST", "/games/state", "B", { since: 0 });
+assert.equal(r.body.sessions.find((x) => x.id === devine).answers[0].payload, null);
+r = await call("POST", "/games/answer", "B", { session: devine, item: "q0", payload: "R1VFU1M" });
+assert.equal(r.body.session.answers.find((a) => a.member === "A").payload, "UkVQ");
+await call("POST", "/games/answer", "A", { session: devine, item: "~judge0", payload: "b2s" });
+
+// Synchro incrémentale et statut.
+const grev = (await call("POST", "/games/state", "A", { since: 0 })).body.rev;
+assert.equal((await call("POST", "/games/state", "A", { since: grev })).body.sessions.length, 0);
+assert.equal((await call("POST", "/games/session/status", "B", { id: devine, status: "done" })).body.session.status, "done");
+assert.equal((await call("POST", "/games/state", "A", { since: grev })).body.sessions.length, 1);
+
+// Réglages de jeu, questions perso.
+assert.equal((await call("POST", "/games/settings", "A", { payload: "aW50ZW5zaXRl" })).status, 200);
+assert.equal((await call("POST", "/games/settings", "B", { payload: "aW50Qg" })).status, 200);
+r = await call("POST", "/games/state", "A", { since: 0 });
+assert.equal(r.body.settings.length, 2);
+const gq = rnd(16);
+assert.equal((await call("POST", "/games/custom", "A", { id: gq, payload: "cXVlc3Rpb24" })).status, 200);
+assert.equal((await call("POST", "/games/custom", "B", { id: gq, payload: "aGFjaw" })).status, 403);
+
+// Envies : seules les étiquettes communes sont renvoyées, jamais celles de l'autre.
+const tag = () => rnd(24);
+const [oo, ayBm, byAm, x1, x2, x3] = [tag(), tag(), tag(), tag(), tag(), tag()];
+r = await call("POST", "/games/wishes", "A", { entries: [
+  { slot: tag(), t1: oo, t2: ayBm, mine: "b3Vp" },       // oui
+  { slot: tag(), t1: x1, t2: x2, mine: "bm9u" },        // non (étiquettes aléatoires)
+] });
+assert.deepEqual(r.body.matches, []);
+r = await call("POST", "/games/wishes", "B", { entries: [
+  { slot: tag(), t1: oo, t2: byAm, mine: "b3Vp" },       // oui → match avec le oui de A
+  { slot: tag(), t1: x3, t2: tag(), mine: "bm9u" },
+] });
+assert.deepEqual(r.body.matches, [oo]);
+r = await call("POST", "/games/state", "A", { since: 0, wishesSince: 0 });
+assert.deepEqual(r.body.wishes.matches, [oo]);
+assert.equal(r.body.wishes.mine.length, 2, "chacun ne relit que ses propres envies");
+assert.ok(!JSON.stringify(r.body).includes(x3), "les étiquettes de l'autre ne fuient jamais");
+
 // QR de secours : un nouveau téléphone reprend l'emplacement de B ; un emplacement inconnu est refusé.
 r = await call("POST", "/pair", "B", { action: "rejoin", fcmToken: "nouveau" });
 assert.equal(r.status, 200);

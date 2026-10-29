@@ -18,6 +18,7 @@ import com.karelisio.miroir.MainActivity
 import com.karelisio.miroir.R
 import com.karelisio.miroir.data.SyncEvent
 import com.karelisio.miroir.data.prefs.AppPrefs
+import com.karelisio.miroir.games.notifications.GameNotifications
 
 object Notifier {
     const val CH_DAILY = "daily"
@@ -41,6 +42,7 @@ object Notifier {
     const val EXTRA_DESTINATION = "miroir.destination"
     const val EXTRA_DAY = "miroir.day"
     const val EXTRA_FULL_SCREEN = "miroir.full_screen"
+    const val EXTRA_SESSION = "miroir.session"
 
     fun createChannels(context: Context) {
         val nm = context.getSystemService(NotificationManager::class.java)
@@ -57,6 +59,7 @@ object Notifier {
             })
             add(NotificationChannel(CH_UPDATES, "Mises à jour", NotificationManager.IMPORTANCE_DEFAULT))
             add(NotificationChannel(CH_SYNC, "Synchronisation", NotificationManager.IMPORTANCE_MIN).apply { setShowBadge(false) })
+            add(GameNotifications.channel())
             // setBypassDnd n'est pris en compte qu'à la création, et seulement avec l'accès "Ne pas déranger".
             if (canBypass) {
                 add(NotificationChannel(CH_DAILY_PRIORITY, "Question du jour (prioritaire)", NotificationManager.IMPORTANCE_HIGH).apply {
@@ -96,23 +99,31 @@ object Notifier {
         return if (nm.getNotificationChannel(prio) != null) prio else base
     }
 
-    fun openAppIntent(context: Context, destination: String, day: String? = null, fullScreen: Boolean = false, requestCode: Int = 0): PendingIntent {
+    fun openAppIntent(
+        context: Context,
+        destination: String,
+        day: String? = null,
+        fullScreen: Boolean = false,
+        requestCode: Int = 0,
+        session: String? = null,
+    ): PendingIntent {
         val intent = Intent(context, MainActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
             putExtra(EXTRA_DESTINATION, destination)
             day?.let { putExtra(EXTRA_DAY, it) }
+            session?.let { putExtra(EXTRA_SESSION, it) }
             putExtra(EXTRA_FULL_SCREEN, fullScreen)
         }
         return PendingIntent.getActivity(context, requestCode, intent, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
     }
 
-    private fun base(context: Context, channel: String) = NotificationCompat.Builder(context, channel)
+    internal fun base(context: Context, channel: String) = NotificationCompat.Builder(context, channel)
         .setSmallIcon(R.drawable.ic_stat_miroir)
         .setColor(ContextCompat.getColor(context, R.color.miroir_primary))
         .setAutoCancel(true)
 
     @Suppress("MissingPermission")
-    private fun post(context: Context, id: Int, n: Notification) {
+    internal fun post(context: Context, id: Int, n: Notification) {
         if (canNotify(context)) NotificationManagerCompat.from(context).notify(id, n)
     }
 

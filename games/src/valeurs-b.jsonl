@@ -1,0 +1,680 @@
+{"id":"val-b-0001","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu gagnais une grosse somme demain, quelle serait ta toute première dépense ?"}
+{"id":"val-b-0002","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle leçon sur l'argent tes parents t'ont transmise sans même le vouloir ?"}
+{"id":"val-b-0003","category":"valeurs","mode":"verite","intensity":1,"text":"Quel achat regrettes-tu encore aujourd'hui, et pourquoi ?"}
+{"id":"val-b-0004","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui représente un vrai luxe pour toi dans la vie de tous les jours ?"}
+{"id":"val-b-0005","category":"valeurs","mode":"verite","intensity":1,"text":"Prêterais-tu une grosse somme à quelqu'un de ta famille sans rien faire signer ?"}
+{"id":"val-b-0006","category":"valeurs","mode":"verite","intensity":1,"text":"Pour toi, un compte commun dans un couple, c'est une preuve de confiance ou juste un truc pratique ?"}
+{"id":"val-b-0007","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle dépense de {autre} te fait secrètement sourire ?"}
+{"id":"val-b-0008","category":"valeurs","mode":"verite","intensity":1,"text":"Jusqu'où irais-tu pour économiser sur un voyage : auberge, bus de nuit, camping sauvage ?"}
+{"id":"val-b-0009","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui est le plus difficile à dire pour toi : « je n'ai pas les moyens » ou « je n'en ai pas envie » ?"}
+{"id":"val-b-0010","category":"valeurs","mode":"verite","intensity":2,"text":"Est-ce qu'on parle assez d'argent, toi et moi ? Qu'est-ce qu'on évite de se dire ?"}
+{"id":"val-b-0011","category":"valeurs","mode":"verite","intensity":1,"text":"Quel métier aurais-tu choisi si l'argent n'existait pas ?"}
+{"id":"val-b-0012","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui donne vraiment du sens à une journée de travail pour toi ?"}
+{"id":"val-b-0013","category":"valeurs","mode":"verite","intensity":1,"text":"Accepterais-tu un poste deux fois mieux payé mais qui te plairait deux fois moins ?"}
+{"id":"val-b-0014","category":"valeurs","mode":"verite","intensity":1,"text":"Quel conseil professionnel te revient encore souvent en tête ?"}
+{"id":"val-b-0015","category":"valeurs","mode":"verite","intensity":1,"text":"Pour toi, réussir sa vie professionnelle, ça ressemble à quoi concrètement ?"}
+{"id":"val-b-0016","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu refuserais de faire au travail, même sous pression ?"}
+{"id":"val-b-0017","category":"valeurs","mode":"verite","intensity":1,"text":"Entre stabilité et passion au travail, de quel côté penches-tu en ce moment ?"}
+{"id":"val-b-0018","category":"valeurs","mode":"verite","intensity":1,"text":"À quel âge aimerais-tu arrêter de travailler, et pour faire quoi de tes journées ?"}
+{"id":"val-b-0019","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle tradition familiale voudrais-tu absolument garder ?"}
+{"id":"val-b-0020","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle règle de ton enfance trouves-tu aujourd'hui complètement absurde ?"}
+{"id":"val-b-0021","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle qualité tiens-tu directement de ta famille ?"}
+{"id":"val-b-0022","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce que tu ne reproduirais surtout pas de l'éducation que tu as reçue ?"}
+{"id":"val-b-0023","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle place devrait prendre la famille dans notre agenda, d'après toi ?"}
+{"id":"val-b-0024","category":"valeurs","mode":"verite","intensity":1,"text":"Jusqu'où irais-tu pour aider quelqu'un de ta famille en difficulté ?"}
+{"id":"val-b-0025","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui fait une vraie amitié, en une seule phrase ?"}
+{"id":"val-b-0026","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle amitié perdue regrettes-tu le plus ?"}
+{"id":"val-b-0027","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà défendu quelqu'un de proche tout en pensant que cette personne avait tort ?"}
+{"id":"val-b-0028","category":"valeurs","mode":"verite","intensity":1,"text":"Combien de temps une amitié peut survivre sans nouvelles, d'après toi ?"}
+{"id":"val-b-0029","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce qui pourrait te faire mettre fin à une amitié de longue date ?"}
+{"id":"val-b-0030","category":"valeurs","mode":"verite","intensity":1,"text":"Quel est le plus petit mensonge que tu racontes régulièrement ?"}
+{"id":"val-b-0031","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà fait semblant d'adorer un cadeau de {autre} ? Lequel ?"}
+{"id":"val-b-0032","category":"valeurs","mode":"verite","intensity":1,"text":"Un mensonge dit pour protéger quelqu'un, ça reste un mensonge pour toi ?"}
+{"id":"val-b-0033","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle vérité as-tu mis le plus de temps à avouer à quelqu'un ?"}
+{"id":"val-b-0034","category":"valeurs","mode":"verite","intensity":1,"text":"Voudrais-tu que {autre} te dise toujours toute la vérité, même quand ça pique ?"}
+{"id":"val-b-0035","category":"valeurs","mode":"verite","intensity":1,"text":"Ta définition de la fidélité, sans réfléchir plus de cinq secondes ?"}
+{"id":"val-b-0036","category":"valeurs","mode":"verite","intensity":2,"text":"Selon toi, peut-on rester proche d'un ex quand on est en couple ?"}
+{"id":"val-b-0037","category":"valeurs","mode":"verite","intensity":2,"text":"Quel petit geste de quelqu'un d'autre envers {autre} pourrait réveiller ta jalousie ?"}
+{"id":"val-b-0038","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce qui compte comme une trahison dans un couple, pour toi ?"}
+{"id":"val-b-0039","category":"valeurs","mode":"verite","intensity":1,"text":"Lirais-tu les messages de {autre} si son téléphone restait déverrouillé devant toi ?"}
+{"id":"val-b-0040","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'as-tu déjà pardonné alors que tu pensais que c'était impardonnable ?"}
+{"id":"val-b-0041","category":"valeurs","mode":"verite","intensity":1,"text":"Combien de temps mets-tu en moyenne à digérer une dispute ?"}
+{"id":"val-b-0042","category":"valeurs","mode":"verite","intensity":1,"text":"Peut-on pardonner sans oublier, d'après toi ?"}
+{"id":"val-b-0043","category":"valeurs","mode":"verite","intensity":1,"text":"Quelles excuses ont été les plus difficiles à présenter dans ta vie ?"}
+{"id":"val-b-0044","category":"valeurs","mode":"verite","intensity":1,"text":"Pour te faire pardonner, tu choisis plutôt les mots ou les gestes ?"}
+{"id":"val-b-0045","category":"valeurs","mode":"verite","intensity":1,"text":"Quel geste écolo fais-tu sans même y penser ?"}
+{"id":"val-b-0046","category":"valeurs","mode":"verite","intensity":1,"text":"Quel geste écolo t'agace ou te semble inutile, en toute honnêteté ?"}
+{"id":"val-b-0047","category":"valeurs","mode":"verite","intensity":1,"text":"À quel confort refuserais-tu de renoncer, même pour la planète ?"}
+{"id":"val-b-0048","category":"valeurs","mode":"verite","intensity":1,"text":"Prendre l'avion pour un simple week-end : ça te pose question ou pas du tout ?"}
+{"id":"val-b-0049","category":"valeurs","mode":"verite","intensity":1,"text":"Acheter d'occasion, pour toi, c'est une économie, un geste pour la planète ou le plaisir de chiner ?"}
+{"id":"val-b-0050","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle matière scolaire t'a appris le plus de choses vraiment utiles ?"}
+{"id":"val-b-0051","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que l'école aurait dû t'apprendre et ne t'a jamais appris ?"}
+{"id":"val-b-0052","category":"valeurs","mode":"verite","intensity":1,"text":"Quel enseignant ou quelle enseignante a compté pour toi, et pourquoi ?"}
+{"id":"val-b-0053","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu aimerais encore apprendre avant tes 80 ans ?"}
+{"id":"val-b-0054","category":"valeurs","mode":"verite","intensity":1,"text":"Crois-tu au destin, au hasard, ou à un drôle de mélange des deux ?"}
+{"id":"val-b-0055","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui t'apaise au fond de toi quand tout va de travers ?"}
+{"id":"val-b-0056","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu un petit rituel personnel qui t'aide à te recentrer ?"}
+{"id":"val-b-0057","category":"valeurs","mode":"verite","intensity":2,"text":"Selon toi, qu'est-ce qui nous attend après la mort ?"}
+{"id":"val-b-0058","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle question sur le sens de la vie te trotte le plus dans la tête ?"}
+{"id":"val-b-0059","category":"valeurs","mode":"verite","intensity":1,"text":"Quel endroit te donne l'impression de toucher quelque chose de plus grand que toi ?"}
+{"id":"val-b-0060","category":"valeurs","mode":"verite","intensity":1,"text":"À quoi dis-tu non le plus facilement du monde ?"}
+{"id":"val-b-0061","category":"valeurs","mode":"verite","intensity":1,"text":"À quoi as-tu du mal à dire non, même quand tu n'en as aucune envie ?"}
+{"id":"val-b-0062","category":"valeurs","mode":"verite","intensity":1,"text":"De combien de temps rien qu'à toi as-tu besoin chaque semaine pour te sentir bien ?"}
+{"id":"val-b-0063","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle limite personnelle as-tu mis le plus longtemps à poser ?"}
+{"id":"val-b-0064","category":"valeurs","mode":"verite","intensity":1,"text":"Quel sujet préfères-tu ne jamais aborder pendant un repas de famille ?"}
+{"id":"val-b-0065","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que {autre} fait qui respecte parfaitement tes limites ?"}
+{"id":"val-b-0066","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu ne pouvais garder que trois choses dans ta vie, lesquelles choisirais-tu ?"}
+{"id":"val-b-0067","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui compte beaucoup pour toi aujourd'hui et qui comptait peu avant ?"}
+{"id":"val-b-0068","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle réussite personnelle te réchauffe encore le cœur quand tu y repenses ?"}
+{"id":"val-b-0069","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle valeur aimerais-tu qu'on associe à ton prénom ?"}
+{"id":"val-b-0070","category":"valeurs","mode":"verite","intensity":2,"text":"Sur quoi ne transigerais-tu jamais, même par amour ?"}
+{"id":"val-b-0071","category":"valeurs","mode":"verite","intensity":1,"text":"Tu trouves un portefeuille avec 200 euros et une adresse dedans : que fais-tu, vraiment ?"}
+{"id":"val-b-0072","category":"valeurs","mode":"verite","intensity":1,"text":"La caisse te rend 20 euros de trop : tu reviens sur tes pas ou tu files ?"}
+{"id":"val-b-0073","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà doublé tout le monde dans une file d'attente ? Raconte sans rougir."}
+{"id":"val-b-0074","category":"valeurs","mode":"verite","intensity":1,"text":"Mentirais-tu pour couvrir la bêtise de quelqu'un que tu aimes ?"}
+{"id":"val-b-0075","category":"valeurs","mode":"verite","intensity":1,"text":"Quel petit arrangement avec la morale assumes-tu complètement ?"}
+{"id":"val-b-0076","category":"valeurs","mode":"verite","intensity":2,"text":"Si tu voyais quelqu'un voler de quoi manger dans un supermarché, que ferais-tu ?"}
+{"id":"val-b-0077","category":"valeurs","mode":"verite","intensity":1,"text":"Entre une vérité qui fait mal et un silence qui protège, que choisis-tu le plus souvent ?"}
+{"id":"val-b-0078","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle injustice ordinaire te met le plus en colère ?"}
+{"id":"val-b-0079","category":"valeurs","mode":"verite","intensity":1,"text":"Pour quelle cause donnerais-tu une journée entière de ton temps sans hésiter ?"}
+{"id":"val-b-0080","category":"valeurs","mode":"verite","intensity":1,"text":"La générosité, concrètement, ça veut dire quoi pour toi ?"}
+{"id":"val-b-0081","category":"valeurs","mode":"verite","intensity":2,"text":"Le partage des tâches chez nous te semble juste ? Réponds sans détour."}
+{"id":"val-b-0082","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle tâche ménagère accepterais-tu de faire pour toujours si ça t'évitait toutes les autres ?"}
+{"id":"val-b-0083","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait respecter quelqu'un immédiatement ?"}
+{"id":"val-b-0084","category":"valeurs","mode":"verite","intensity":1,"text":"Quel comportement te fait perdre tout respect pour quelqu'un ?"}
+{"id":"val-b-0085","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle qualité de {autre} aimerais-tu avoir un peu plus ?"}
+{"id":"val-b-0086","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle valeur avons-nous vraiment en commun, toi et moi ?"}
+{"id":"val-b-0087","category":"valeurs","mode":"verite","intensity":2,"text":"Sur quelle valeur nos avis s'éloignent le plus, selon toi ?"}
+{"id":"val-b-0088","category":"valeurs","mode":"verite","intensity":1,"text":"Une vie simple et calme ou une vie intense et imprévisible : laquelle te ressemble ?"}
+{"id":"val-b-0089","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle promesse faite à toi-même as-tu réussi à tenir ?"}
+{"id":"val-b-0090","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu ferais autrement si personne ne pouvait te juger ?"}
+{"id":"val-b-0091","category":"valeurs","mode":"verite","intensity":1,"text":"L'avis de qui t'importe encore un peu trop ?"}
+{"id":"val-b-0092","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que ta plus grosse erreur t'a appris ?"}
+{"id":"val-b-0093","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu refuses de montrer de notre couple sur les réseaux sociaux ?"}
+{"id":"val-b-0094","category":"valeurs","mode":"verite","intensity":1,"text":"À partir de combien d'heures d'écran par jour, c'est trop pour toi ?"}
+{"id":"val-b-0095","category":"valeurs","mode":"verite","intensity":1,"text":"Comment ton rapport à la viande a évolué ces dernières années ?"}
+{"id":"val-b-0096","category":"valeurs","mode":"verite","intensity":1,"text":"Que ferais-tu d'un héritage complètement inattendu ?"}
+{"id":"val-b-0097","category":"valeurs","mode":"verite","intensity":1,"text":"Donnes-tu de l'argent aux personnes qui en demandent dans la rue ? Pourquoi ?"}
+{"id":"val-b-0098","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle injustice de ton enfance te reste encore en travers de la gorge ?"}
+{"id":"val-b-0099","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te donne envie de te lever le matin, en ce moment ?"}
+{"id":"val-b-0100","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle cause aimerais-tu que {autre} ne cesse jamais de défendre ?"}
+{"id":"val-b-0101","category":"valeurs","mode":"verite","intensity":1,"text":"À partir de quelle somme sur ton compte te sentirais-tu vraiment tranquille ?"}
+{"id":"val-b-0102","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu achètes sans jamais regarder le prix ?"}
+{"id":"val-b-0103","category":"valeurs","mode":"verite","intensity":1,"text":"Sur quoi refuses-tu catégoriquement de faire des économies ?"}
+{"id":"val-b-0104","category":"valeurs","mode":"verite","intensity":1,"text":"Les pourboires : tu en laisses toujours, parfois ou jamais ? Pourquoi ?"}
+{"id":"val-b-0105","category":"valeurs","mode":"verite","intensity":2,"text":"Comment partager les frais d'un couple quand les deux salaires sont très inégaux, selon toi ?"}
+{"id":"val-b-0106","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que ton tout premier salaire t'a appris ?"}
+{"id":"val-b-0107","category":"valeurs","mode":"verite","intensity":1,"text":"Négocier un prix en brocante : plaisir, gêne ou véritable épreuve ?"}
+{"id":"val-b-0108","category":"valeurs","mode":"verite","intensity":1,"text":"Quel objet cher t'a apporté le plus de bonheur par euro dépensé ?"}
+{"id":"val-b-0109","category":"valeurs","mode":"verite","intensity":1,"text":"Pourrais-tu vivre un an avec la moitié de ton budget actuel ? Qu'est-ce qui sauterait en premier ?"}
+{"id":"val-b-0110","category":"valeurs","mode":"verite","intensity":1,"text":"Pour toi, un beau cadeau, c'est un objet cher, utile ou fait main ?"}
+{"id":"val-b-0111","category":"valeurs","mode":"verite","intensity":1,"text":"Ton rapport aux dettes : sujet tabou, simple outil ou vrai cauchemar ?"}
+{"id":"val-b-0112","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui t'a donné envie de travailler dur pour la première fois ?"}
+{"id":"val-b-0113","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle attitude au travail admires-tu le plus chez les autres ?"}
+{"id":"val-b-0114","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà quitté un travail par principe ? Raconte-moi."}
+{"id":"val-b-0115","category":"valeurs","mode":"verite","intensity":1,"text":"Le télétravail à plein temps : liberté rêvée ou solitude qui guette ?"}
+{"id":"val-b-0116","category":"valeurs","mode":"verite","intensity":1,"text":"Aimer son métier, pour toi, c'est indispensable ou juste un bonus ?"}
+{"id":"val-b-0117","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle est la chose la plus courageuse que tu aies faite dans ta vie professionnelle ?"}
+{"id":"val-b-0118","category":"valeurs","mode":"verite","intensity":1,"text":"Que dirais-tu à la version de toi qui avait 18 ans à propos du travail ?"}
+{"id":"val-b-0119","category":"valeurs","mode":"verite","intensity":2,"text":"Si {autre} voulait tout plaquer pour un métier passion bien moins payé, comment réagirais-tu ?"}
+{"id":"val-b-0120","category":"valeurs","mode":"verite","intensity":1,"text":"Le dimanche soir, qu'est-ce qui te serre le ventre ou te met en joie à l'idée de la semaine ?"}
+{"id":"val-b-0121","category":"valeurs","mode":"verite","intensity":1,"text":"La reconnaissance ou l'utilité : qu'est-ce qui te motive le plus au travail ?"}
+{"id":"val-b-0122","category":"valeurs","mode":"verite","intensity":1,"text":"Pendant ton enfance, quel rôle jouais-tu dans ta famille ?"}
+{"id":"val-b-0123","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle conversation aimerais-tu avoir un jour avec tes parents, sans aucun tabou ?"}
+{"id":"val-b-0124","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle valeur de ta famille as-tu choisi de laisser derrière toi ?"}
+{"id":"val-b-0125","category":"valeurs","mode":"verite","intensity":1,"text":"Les repas de famille obligatoires, tu en penses quoi au fond ?"}
+{"id":"val-b-0126","category":"valeurs","mode":"verite","intensity":2,"text":"Si quelqu'un de ta famille te confiait un secret énorme, en parlerais-tu à {autre} ?"}
+{"id":"val-b-0127","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu admires dans la famille de {autre} ?"}
+{"id":"val-b-0128","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle fête de famille préfères-tu, et laquelle redoutes-tu un peu ?"}
+{"id":"val-b-0129","category":"valeurs","mode":"verite","intensity":2,"text":"Si tes parents avaient besoin de vivre avec nous un jour, comment l'envisagerais-tu ?"}
+{"id":"val-b-0130","category":"valeurs","mode":"verite","intensity":1,"text":"Une famille, pour toi, c'est le sang, le choix, ou un peu des deux ?"}
+{"id":"val-b-0131","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle recette de famille mérite d'être transmise coûte que coûte ?"}
+{"id":"val-b-0132","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle amitié t'a le plus fait grandir ?"}
+{"id":"val-b-0133","category":"valeurs","mode":"verite","intensity":1,"text":"Dans tes amitiés, c'est plutôt toi qui appelles ou toi qui attends qu'on t'appelle ?"}
+{"id":"val-b-0134","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle est la chose la plus folle que tu ferais pour sauver une amitié ?"}
+{"id":"val-b-0135","category":"valeurs","mode":"verite","intensity":1,"text":"Peut-on rester en amitié avec quelqu'un dont on ne partage pas du tout les valeurs ?"}
+{"id":"val-b-0136","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà été la personne qui s'éloigne dans une amitié ? Pourquoi ?"}
+{"id":"val-b-0137","category":"valeurs","mode":"verite","intensity":2,"text":"Quel secret confié par quelqu'un de proche garderais-tu même face à {autre} ?"}
+{"id":"val-b-0138","category":"valeurs","mode":"verite","intensity":1,"text":"Combien de vraies amitiés peut-on entretenir à la fois, d'après toi ?"}
+{"id":"val-b-0139","category":"valeurs","mode":"verite","intensity":1,"text":"Que penses-tu des amitiés qui ne vivent plus que par messages ?"}
+{"id":"val-b-0140","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu apprécies le plus dans l'entourage de {autre} ?"}
+{"id":"val-b-0141","category":"valeurs","mode":"verite","intensity":1,"text":"Quel mensonge d'enfance te fait encore rire aujourd'hui ?"}
+{"id":"val-b-0142","category":"valeurs","mode":"verite","intensity":1,"text":"Dis-tu « ça va » même quand ça ne va pas du tout ? À qui surtout ?"}
+{"id":"val-b-0143","category":"valeurs","mode":"verite","intensity":1,"text":"Quand tu complimentes quelqu'un, c'est toujours sincère ?"}
+{"id":"val-b-0144","category":"valeurs","mode":"verite","intensity":1,"text":"Préfères-tu découvrir qu'on t'a menti ou ne jamais l'apprendre ?"}
+{"id":"val-b-0145","category":"valeurs","mode":"verite","intensity":1,"text":"Quel est le mensonge le plus utile que tu aies jamais raconté ?"}
+{"id":"val-b-0146","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà menti sur ton âge, ton métier ou tes goûts pour plaire à quelqu'un ?"}
+{"id":"val-b-0147","category":"valeurs","mode":"verite","intensity":1,"text":"Jusqu'où irais-tu dans le secret pour préparer une surprise à {autre} ?"}
+{"id":"val-b-0148","category":"valeurs","mode":"verite","intensity":1,"text":"Avouerais-tu avoir cassé un verre chez des amis, même sans aucun témoin ?"}
+{"id":"val-b-0149","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle vérité sur toi aimerais-tu que tout le monde connaisse enfin ?"}
+{"id":"val-b-0150","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle opinion n'oses-tu pas défendre à voix haute pendant un dîner ?"}
+{"id":"val-b-0151","category":"valeurs","mode":"verite","intensity":2,"text":"La fidélité, pour toi, c'est surtout une affaire de corps, de cœur ou de confiance ?"}
+{"id":"val-b-0152","category":"valeurs","mode":"verite","intensity":2,"text":"Un flirt par messages avec quelqu'un d'autre, c'est déjà tromper, selon toi ?"}
+{"id":"val-b-0153","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce que la jalousie t'a appris sur toi-même ?"}
+{"id":"val-b-0154","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te rassure le plus dans notre couple quand le doute pointe le bout de son nez ?"}
+{"id":"val-b-0155","category":"valeurs","mode":"verite","intensity":1,"text":"Les applis de rencontre gardées « juste pour voir » quand on est en couple, tu en penses quoi ?"}
+{"id":"val-b-0156","category":"valeurs","mode":"verite","intensity":1,"text":"Que ferais-tu si quelqu'un draguait {autre} juste sous tes yeux ?"}
+{"id":"val-b-0157","category":"valeurs","mode":"verite","intensity":1,"text":"Peut-on rester fidèle à quelqu'un et à ses propres rêves en même temps ?"}
+{"id":"val-b-0158","category":"valeurs","mode":"verite","intensity":1,"text":"La confiance, chez toi, ça se donne d'emblée ou ça se gagne ?"}
+{"id":"val-b-0159","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui t'aide à pardonner plus vite ?"}
+{"id":"val-b-0160","category":"valeurs","mode":"verite","intensity":2,"text":"As-tu déjà pardonné à quelqu'un qui ne t'a jamais présenté d'excuses ?"}
+{"id":"val-b-0161","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle rancune traînes-tu encore, même toute petite ?"}
+{"id":"val-b-0162","category":"valeurs","mode":"verite","intensity":1,"text":"Une deuxième chance, ça se mérite comment ?"}
+{"id":"val-b-0163","category":"valeurs","mode":"verite","intensity":1,"text":"Quel pardon de {autre} t'a fait le plus de bien ?"}
+{"id":"val-b-0164","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle phrase d'excuse marche le mieux sur toi ?"}
+{"id":"val-b-0165","category":"valeurs","mode":"verite","intensity":1,"text":"« Ne jamais s'endormir sur une dispute » : règle d'or ou mission impossible ?"}
+{"id":"val-b-0166","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te pousse à t'excuser même quand tu penses avoir raison ?"}
+{"id":"val-b-0167","category":"valeurs","mode":"verite","intensity":1,"text":"Quel effort pour la planète aimerais-tu qu'on fasse ensemble ?"}
+{"id":"val-b-0168","category":"valeurs","mode":"verite","intensity":1,"text":"Les fraises en plein hiver : plaisir assumé ou petite culpabilité ?"}
+{"id":"val-b-0169","category":"valeurs","mode":"verite","intensity":1,"text":"Réparer plutôt que racheter : tu le fais vraiment ou tu en rêves seulement ?"}
+{"id":"val-b-0170","category":"valeurs","mode":"verite","intensity":1,"text":"Quel souvenir dans la nature t'a donné envie de la protéger ?"}
+{"id":"val-b-0171","category":"valeurs","mode":"verite","intensity":1,"text":"L'écologie, pour toi, c'est d'abord une affaire de petits gestes ou de grands choix collectifs ?"}
+{"id":"val-b-0172","category":"valeurs","mode":"verite","intensity":1,"text":"La voiture dans ta vie : nécessité, plaisir ou mal nécessaire ?"}
+{"id":"val-b-0173","category":"valeurs","mode":"verite","intensity":1,"text":"Le zéro déchet absolu, tu tiendrais combien de jours ?"}
+{"id":"val-b-0174","category":"valeurs","mode":"verite","intensity":1,"text":"À l'école, quel genre d'élève étais-tu vraiment ?"}
+{"id":"val-b-0175","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle punition reçue pendant l'enfance te semble encore injuste ?"}
+{"id":"val-b-0176","category":"valeurs","mode":"verite","intensity":1,"text":"Quel livre a changé ta façon de voir le monde ?"}
+{"id":"val-b-0177","category":"valeurs","mode":"verite","intensity":1,"text":"Les diplômes, ça compte trop dans la vie, d'après toi ?"}
+{"id":"val-b-0178","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle compétence as-tu apprise en autodidacte, sans aucun cours ?"}
+{"id":"val-b-0179","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle valeur aimerais-tu transmettre aux plus jeunes de ton entourage ?"}
+{"id":"val-b-0180","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'as-tu appris ce mois-ci qui t'a fait plaisir ?"}
+{"id":"val-b-0181","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu une foi, une croyance ou une intuition qui te guide ?"}
+{"id":"val-b-0182","category":"valeurs","mode":"verite","intensity":1,"text":"Les signes du destin : simple coïncidence ou vrai message ?"}
+{"id":"val-b-0183","category":"valeurs","mode":"verite","intensity":1,"text":"Quelles petites superstitions gardes-tu malgré toi ?"}
+{"id":"val-b-0184","category":"valeurs","mode":"verite","intensity":1,"text":"Quel rituel religieux ou familial t'émeut, même si tu n'y crois pas forcément ?"}
+{"id":"val-b-0185","category":"valeurs","mode":"verite","intensity":1,"text":"Prier, méditer, marcher… qu'est-ce qui t'aide à trouver la paix intérieure ?"}
+{"id":"val-b-0186","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'aimerais-tu qu'on dise de toi à la toute fin de ta vie ?"}
+{"id":"val-b-0187","category":"valeurs","mode":"verite","intensity":1,"text":"Crois-tu que tout arrive pour une raison ?"}
+{"id":"val-b-0188","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle place aimerais-tu donner à la spiritualité dans notre couple ?"}
+{"id":"val-b-0189","category":"valeurs","mode":"verite","intensity":1,"text":"À quel signe peut-on voir que tu as besoin d'espace, même quand tu ne dis rien ?"}
+{"id":"val-b-0190","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce que {autre} pourrait faire qui franchirait une de tes limites sans s'en rendre compte ?"}
+{"id":"val-b-0191","category":"valeurs","mode":"verite","intensity":1,"text":"Comment accueilles-tu le « non » des autres ?"}
+{"id":"val-b-0192","category":"valeurs","mode":"verite","intensity":1,"text":"Prêter ta voiture, ton lit, ta brosse à dents : où se trouve ta limite ?"}
+{"id":"val-b-0193","category":"valeurs","mode":"verite","intensity":1,"text":"Quel sujet de discussion t'épuise au bout de deux minutes ?"}
+{"id":"val-b-0194","category":"valeurs","mode":"verite","intensity":1,"text":"Que fais-tu quand quelqu'un insiste après ton refus ?"}
+{"id":"val-b-0195","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui est non négociable pour toi dans un logement partagé ?"}
+{"id":"val-b-0196","category":"valeurs","mode":"verite","intensity":2,"text":"Quel moment de ta vie t'a fait comprendre ce qui comptait vraiment ?"}
+{"id":"val-b-0197","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu avais une heure de plus par jour, à quoi la donnerais-tu ?"}
+{"id":"val-b-0198","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tout le monde poursuit et qui te paraît complètement surestimé ?"}
+{"id":"val-b-0199","category":"valeurs","mode":"verite","intensity":1,"text":"Quel petit bonheur quotidien ne te lasse jamais ?"}
+{"id":"val-b-0200","category":"valeurs","mode":"verite","intensity":1,"text":"Le temps ou l'argent : lequel te manque le plus en ce moment ?"}
+{"id":"val-b-0201","category":"valeurs","mode":"verite","intensity":1,"text":"Quelqu'un fait tomber un billet sans s'en apercevoir : tu cours derrière ou tu hésites une seconde ?"}
+{"id":"val-b-0202","category":"valeurs","mode":"verite","intensity":1,"text":"Rapporterais-tu un sac oublié dans un train aux objets trouvés, même si ça te met en retard ?"}
+{"id":"val-b-0203","category":"valeurs","mode":"verite","intensity":1,"text":"Au cinéma, personne ne contrôle la salle d'à côté : tu enchaînes une deuxième séance gratuite ?"}
+{"id":"val-b-0204","category":"valeurs","mode":"verite","intensity":1,"text":"Te garerais-tu sur une place réservée « juste deux minutes » ?"}
+{"id":"val-b-0205","category":"valeurs","mode":"verite","intensity":1,"text":"Répondrais-tu franchement à quelqu'un qui te demande si sa nouvelle coupe lui va ?"}
+{"id":"val-b-0206","category":"valeurs","mode":"verite","intensity":2,"text":"Dirais-tu à quelqu'un de proche que sa nouvelle relation ne t'inspire aucune confiance ?"}
+{"id":"val-b-0207","category":"valeurs","mode":"verite","intensity":2,"text":"Si tu découvrais un secret lourd sur le couple de quelqu'un de proche, en parlerais-tu ?"}
+{"id":"val-b-0208","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà triché à un examen ? Tu le regrettes ou pas du tout ?"}
+{"id":"val-b-0209","category":"valeurs","mode":"verite","intensity":1,"text":"Tricher à un jeu de société en famille : péché mignon ou crime impardonnable ?"}
+{"id":"val-b-0210","category":"valeurs","mode":"verite","intensity":1,"text":"Revendrais-tu un cadeau reçu ? À qui ne l'avouerais-tu jamais ?"}
+{"id":"val-b-0211","category":"valeurs","mode":"verite","intensity":1,"text":"Au restaurant, ton plat est raté : tu le signales ou tu te tais poliment ?"}
+{"id":"val-b-0212","category":"valeurs","mode":"verite","intensity":1,"text":"Un faux jour de maladie pour souffler, ça t'est déjà arrivé ?"}
+{"id":"val-b-0213","category":"valeurs","mode":"verite","intensity":1,"text":"Ramènes-tu toujours ton chariot de courses à sa place, même sous la pluie ?"}
+{"id":"val-b-0214","category":"valeurs","mode":"verite","intensity":2,"text":"Que fais-tu quand tu vois quelqu'un se faire embêter dans les transports ?"}
+{"id":"val-b-0215","category":"valeurs","mode":"verite","intensity":1,"text":"Révéler la fin d'une série à quelqu'un, c'est une blague ou un crime ?"}
+{"id":"val-b-0216","category":"valeurs","mode":"verite","intensity":1,"text":"Jusqu'où va ta politesse avec des inconnus franchement désagréables ?"}
+{"id":"val-b-0217","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle règle de savoir-vivre trouves-tu complètement dépassée ?"}
+{"id":"val-b-0218","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle règle de politesse tiens-tu absolument à respecter ?"}
+{"id":"val-b-0219","category":"valeurs","mode":"verite","intensity":1,"text":"Peut-on rire de tout, avec tout le monde, d'après toi ?"}
+{"id":"val-b-0220","category":"valeurs","mode":"verite","intensity":1,"text":"Quel genre de blague te met mal à l'aise, même quand tout le monde rit ?"}
+{"id":"val-b-0221","category":"valeurs","mode":"verite","intensity":1,"text":"Connaître ses voisins par leur prénom, c'est important pour toi ?"}
+{"id":"val-b-0222","category":"valeurs","mode":"verite","intensity":1,"text":"Quel bruit de voisinage pourrait te pousser à déménager ?"}
+{"id":"val-b-0223","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà fait du bénévolat ? Qu'est-ce que ça t'a apporté ?"}
+{"id":"val-b-0224","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu devais donner 10 % de tes revenus à une cause, laquelle choisirais-tu ?"}
+{"id":"val-b-0225","category":"valeurs","mode":"verite","intensity":2,"text":"Le don du sang ou d'organes, tu en penses quoi, pour toi personnellement ?"}
+{"id":"val-b-0226","category":"valeurs","mode":"verite","intensity":1,"text":"Adopter un animal : engagement pour toute une vie ou simple coup de cœur ?"}
+{"id":"val-b-0227","category":"valeurs","mode":"verite","intensity":1,"text":"Jusqu'où irais-tu pour soigner un animal de compagnie ?"}
+{"id":"val-b-0228","category":"valeurs","mode":"verite","intensity":1,"text":"Les zoos, tu en penses quoi aujourd'hui ?"}
+{"id":"val-b-0229","category":"valeurs","mode":"verite","intensity":1,"text":"Que montres-tu de ta vie privée sur internet, et que gardes-tu jalousement ?"}
+{"id":"val-b-0230","category":"valeurs","mode":"verite","intensity":1,"text":"Accepterais-tu de partager ta localisation en permanence avec {autre} ?"}
+{"id":"val-b-0231","category":"valeurs","mode":"verite","intensity":1,"text":"Un téléphone posé sur la table pendant le repas, ça te dérange ?"}
+{"id":"val-b-0232","category":"valeurs","mode":"verite","intensity":1,"text":"Que penses-tu des photos d'enfants publiées sur les réseaux ?"}
+{"id":"val-b-0233","category":"valeurs","mode":"verite","intensity":1,"text":"La ponctualité, pour toi, c'est une politesse ou une option ?"}
+{"id":"val-b-0234","category":"valeurs","mode":"verite","intensity":1,"text":"Combien de minutes de retard tolères-tu avant de t'agacer ?"}
+{"id":"val-b-0235","category":"valeurs","mode":"verite","intensity":1,"text":"Une promesse faite à la légère, ça engage autant qu'une vraie ?"}
+{"id":"val-b-0236","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle promesse non tenue te reste encore en mémoire ?"}
+{"id":"val-b-0237","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà pris la défense de quelqu'un alors que ça te coûtait ? Raconte."}
+{"id":"val-b-0238","category":"valeurs","mode":"verite","intensity":1,"text":"Quel risque regrettes-tu de ne pas avoir pris ?"}
+{"id":"val-b-0239","category":"valeurs","mode":"verite","intensity":1,"text":"Sécurité ou aventure : qu'est-ce qui guide tes grands choix ?"}
+{"id":"val-b-0240","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait le plus peur dans l'idée de changer de vie ?"}
+{"id":"val-b-0241","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle liberté ne voudrais-tu jamais perdre, même en couple ?"}
+{"id":"val-b-0242","category":"valeurs","mode":"verite","intensity":1,"text":"Ville ou campagne : laquelle colle le mieux à tes valeurs ?"}
+{"id":"val-b-0243","category":"valeurs","mode":"verite","intensity":1,"text":"Être propriétaire, c'est important pour toi, ou louer te va très bien ?"}
+{"id":"val-b-0244","category":"valeurs","mode":"verite","intensity":1,"text":"Combien d'objets possèdes-tu dont tu pourrais te passer dès demain ?"}
+{"id":"val-b-0245","category":"valeurs","mode":"verite","intensity":1,"text":"Le minimalisme, ça t'attire ou ça te donne des sueurs froides ?"}
+{"id":"val-b-0246","category":"valeurs","mode":"verite","intensity":1,"text":"Quel vêtement gardes-tu depuis des années par principe ou par attachement ?"}
+{"id":"val-b-0247","category":"valeurs","mode":"verite","intensity":1,"text":"La mode, pour toi, c'est une façon de s'exprimer ou du gaspillage ?"}
+{"id":"val-b-0248","category":"valeurs","mode":"verite","intensity":1,"text":"Prendre soin de ta santé, c'est une discipline ou un plaisir ?"}
+{"id":"val-b-0249","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle habitude de santé tiens-tu à garder toute ta vie ?"}
+{"id":"val-b-0250","category":"valeurs","mode":"verite","intensity":2,"text":"La chirurgie esthétique, tu en penses quoi, pour toi et en général ?"}
+{"id":"val-b-0251","category":"valeurs","mode":"verite","intensity":1,"text":"Accepter de vieillir, ça t'inspire quoi ?"}
+{"id":"val-b-0252","category":"valeurs","mode":"verite","intensity":1,"text":"Quel aspect du grand âge t'inquiète, et lequel te réjouit d'avance ?"}
+{"id":"val-b-0253","category":"valeurs","mode":"verite","intensity":2,"text":"Comment aimerais-tu qu'on prenne soin de toi si un jour tu dépendais des autres ?"}
+{"id":"val-b-0254","category":"valeurs","mode":"verite","intensity":2,"text":"Parler de la mort ouvertement entre nous, ça te fait peur ou ça te soulage ?"}
+{"id":"val-b-0255","category":"valeurs","mode":"verite","intensity":2,"text":"Comment aimerais-tu qu'on célèbre ta vie, le moment venu ?"}
+{"id":"val-b-0256","category":"valeurs","mode":"verite","intensity":1,"text":"Envers qui ressens-tu le plus de gratitude aujourd'hui ?"}
+{"id":"val-b-0257","category":"valeurs","mode":"verite","intensity":1,"text":"Dis-tu assez merci, selon toi ? À qui oublies-tu de le dire ?"}
+{"id":"val-b-0258","category":"valeurs","mode":"verite","intensity":1,"text":"À qui devrais-tu une lettre de remerciement que tu n'as jamais écrite ?"}
+{"id":"val-b-0259","category":"valeurs","mode":"verite","intensity":2,"text":"Dans notre couple, qui décide de quoi, et est-ce que ça te convient vraiment ?"}
+{"id":"val-b-0260","category":"valeurs","mode":"verite","intensity":2,"text":"Quel compromis fait pour notre couple t'a coûté, même un tout petit peu ?"}
+{"id":"val-b-0261","category":"valeurs","mode":"verite","intensity":1,"text":"Dans un couple, est-ce qu'on doit tout partager, même ses mots de passe ?"}
+{"id":"val-b-0262","category":"valeurs","mode":"verite","intensity":1,"text":"L'égalité dans le couple, ça se joue où au quotidien, selon toi ?"}
+{"id":"val-b-0263","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qu'on fait bien ensemble quand on n'est pas d'accord ?"}
+{"id":"val-b-0264","category":"valeurs","mode":"verite","intensity":1,"text":"Quel désaccord entre nous trouves-tu, au fond, plutôt enrichissant ?"}
+{"id":"val-b-0265","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle décision importante voudrais-tu toujours prendre à deux ?"}
+{"id":"val-b-0266","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce qui te paraît sacré dans une relation ?"}
+{"id":"val-b-0267","category":"valeurs","mode":"verite","intensity":1,"text":"Combien de soirées en solo par semaine restent saines pour un couple, selon toi ?"}
+{"id":"val-b-0268","category":"valeurs","mode":"verite","intensity":1,"text":"Des vacances chacun de son côté, une bonne idée ou un signal d'alarme ?"}
+{"id":"val-b-0269","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle valeur de {autre} t'a fait craquer au tout début ?"}
+{"id":"val-b-0270","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle conviction de {autre} admires-tu, même si tu ne la partages pas ?"}
+{"id":"val-b-0271","category":"valeurs","mode":"verite","intensity":1,"text":"Sur quel sujet {autre} a fini par te convaincre ?"}
+{"id":"val-b-0272","category":"valeurs","mode":"verite","intensity":1,"text":"La compétition, ça te motive ou ça te bloque ?"}
+{"id":"val-b-0273","category":"valeurs","mode":"verite","intensity":1,"text":"Perdre à un jeu, tu le vis comment, au fond ?"}
+{"id":"val-b-0274","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle est ta définition d'une ambition saine ?"}
+{"id":"val-b-0275","category":"valeurs","mode":"verite","intensity":1,"text":"La célébrité te ferait envie, même un tout petit peu ?"}
+{"id":"val-b-0276","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu pouvais créer une loi demain matin, laquelle serait-ce ?"}
+{"id":"val-b-0277","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle cause à l'autre bout du monde te touche comme une affaire personnelle ?"}
+{"id":"val-b-0278","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te redonne foi en l'humanité ?"}
+{"id":"val-b-0279","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle gentillesse d'une personne inconnue reste gravée dans ta mémoire ?"}
+{"id":"val-b-0280","category":"valeurs","mode":"verite","intensity":1,"text":"Que fais-tu quand quelqu'un a besoin d'aide dans la rue et que le temps te manque ?"}
+{"id":"val-b-0281","category":"valeurs","mode":"verite","intensity":1,"text":"Tenir parole même quand ça te désavantage : tu le fais vraiment ?"}
+{"id":"val-b-0282","category":"valeurs","mode":"verite","intensity":1,"text":"Accepterais-tu un cadeau très cher de la part d'une personne que tu connais à peine ?"}
+{"id":"val-b-0283","category":"valeurs","mode":"verite","intensity":1,"text":"Les traditions, c'est fait pour être respecté ou réinventé ?"}
+{"id":"val-b-0284","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle coutume de mariage te fait lever les yeux au ciel ?"}
+{"id":"val-b-0285","category":"valeurs","mode":"verite","intensity":2,"text":"Le mariage, pour toi, c'est une promesse, une fête, un papier, ou rien de tout ça ?"}
+{"id":"val-b-0286","category":"valeurs","mode":"verite","intensity":1,"text":"Garder son nom ou en changer en se mariant : tu en penses quoi ?"}
+{"id":"val-b-0287","category":"valeurs","mode":"verite","intensity":2,"text":"Avoir des enfants ou non : qu'est-ce qui guide ta réflexion, au fond ?"}
+{"id":"val-b-0288","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle règle d'éducation te semblerait essentielle avec des enfants ?"}
+{"id":"val-b-0289","category":"valeurs","mode":"verite","intensity":1,"text":"Les écrans pour les enfants : à partir de quel âge, selon toi ?"}
+{"id":"val-b-0290","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle phrase entendue pendant ton enfance ne voudrais-tu jamais répéter à un enfant ?"}
+{"id":"val-b-0291","category":"valeurs","mode":"verite","intensity":1,"text":"L'autorité, ça se gagne comment, selon toi ?"}
+{"id":"val-b-0292","category":"valeurs","mode":"verite","intensity":1,"text":"Dans la réussite, quelle part revient au hasard, d'après toi ?"}
+{"id":"val-b-0293","category":"valeurs","mode":"verite","intensity":1,"text":"Le travail finit toujours par payer : vérité ou joli mythe ?"}
+{"id":"val-b-0294","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu devais résumer ta philosophie de vie en un proverbe, lequel choisirais-tu ?"}
+{"id":"val-b-0295","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle citation t'accompagne depuis longtemps ?"}
+{"id":"val-b-0296","category":"valeurs","mode":"verite","intensity":1,"text":"Quel personnage de fiction incarne le mieux tes valeurs ?"}
+{"id":"val-b-0297","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle valeur as-tu découverte grâce à {autre} ?"}
+{"id":"val-b-0298","category":"valeurs","mode":"verite","intensity":1,"text":"Sur quel sujet as-tu changé d'avis ces dernières années ?"}
+{"id":"val-b-0299","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle conviction défendrais-tu même face à une salle entière qui pense le contraire ?"}
+{"id":"val-b-0300","category":"valeurs","mode":"verite","intensity":1,"text":"Quel petit changement rendrait ta vie plus fidèle à tes valeurs dès demain ?"}
+{"id":"val-b-0301","category":"valeurs","mode":"verite","intensity":1,"text":"Demander de l'aide, c'est facile pour toi ou un vrai effort ?"}
+{"id":"val-b-0302","category":"valeurs","mode":"verite","intensity":1,"text":"Pleurer devant les autres, ça te gêne ou ça te paraît sain ?"}
+{"id":"val-b-0303","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle émotion as-tu appris à cacher et aimerais-tu montrer davantage ?"}
+{"id":"val-b-0304","category":"valeurs","mode":"verite","intensity":2,"text":"Le succès de quelqu'un de proche, ça te réjouit toujours sans arrière-pensée ?"}
+{"id":"val-b-0305","category":"valeurs","mode":"verite","intensity":1,"text":"Te compares-tu souvent aux autres ? Sur quoi surtout ?"}
+{"id":"val-b-0306","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle vie d'une autre personne t'a déjà fait envie en secret ?"}
+{"id":"val-b-0307","category":"valeurs","mode":"verite","intensity":1,"text":"Ne rien faire de tout un dimanche : luxe nécessaire ou culpabilité assurée ?"}
+{"id":"val-b-0308","category":"valeurs","mode":"verite","intensity":1,"text":"L'ennui, pour toi, c'est un ennemi ou une source d'idées ?"}
+{"id":"val-b-0309","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle passion as-tu sacrifiée faute de temps, et aimerais-tu reprendre ?"}
+{"id":"val-b-0310","category":"valeurs","mode":"verite","intensity":1,"text":"Combien d'heures de sommeil considères-tu comme sacrées ?"}
+{"id":"val-b-0311","category":"valeurs","mode":"verite","intensity":1,"text":"Que penses-tu du tourisme de masse dans les endroits fragiles ?"}
+{"id":"val-b-0312","category":"valeurs","mode":"verite","intensity":1,"text":"En voyage, quelle règle de respect envers le pays d'accueil t'importe le plus ?"}
+{"id":"val-b-0313","category":"valeurs","mode":"verite","intensity":1,"text":"Quel film, livre ou chanson a bousculé tes certitudes ?"}
+{"id":"val-b-0314","category":"valeurs","mode":"verite","intensity":1,"text":"La culture, c'est un luxe ou un besoin vital ?"}
+{"id":"val-b-0315","category":"valeurs","mode":"verite","intensity":1,"text":"Payer pour un album ou un livre plutôt que le trouver gratuitement : tu y tiens ?"}
+{"id":"val-b-0316","category":"valeurs","mode":"verite","intensity":1,"text":"Que penses-tu du gaspillage alimentaire chez nous ?"}
+{"id":"val-b-0317","category":"valeurs","mode":"verite","intensity":1,"text":"Finir son assiette : règle d'enfance que tu appliques encore ?"}
+{"id":"val-b-0318","category":"valeurs","mode":"verite","intensity":1,"text":"Le bio et le local : conviction, effet de mode ou question de budget ?"}
+{"id":"val-b-0319","category":"valeurs","mode":"verite","intensity":1,"text":"Quelqu'un t'a cuisiné un plat immangeable avec amour : tu le dis ou tu finis l'assiette ?"}
+{"id":"val-b-0320","category":"valeurs","mode":"verite","intensity":2,"text":"Si un héritage déclenchait une dispute dans ta famille, quel rôle prendrais-tu ?"}
+{"id":"val-b-0321","category":"valeurs","mode":"verite","intensity":1,"text":"Combien dépenserais-tu au maximum pour un cadeau d'anniversaire à {autre} ?"}
+{"id":"val-b-0322","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que le sport ou le jeu en équipe t'a appris sur toi ?"}
+{"id":"val-b-0323","category":"valeurs","mode":"verite","intensity":2,"text":"Mentir à une personne en fin de vie pour l'apaiser, tu pourrais ?"}
+{"id":"val-b-0324","category":"valeurs","mode":"verite","intensity":2,"text":"Sur quel sujet as-tu encore du mal à être honnête avec toi-même ?"}
+{"id":"val-b-0325","category":"valeurs","mode":"verite","intensity":1,"text":"Quel regret as-tu réussi à transformer en force ?"}
+{"id":"val-b-0326","category":"valeurs","mode":"verite","intensity":1,"text":"As-tu déjà changé complètement de cap dans ta vie ? Qu'est-ce qui a déclenché ta décision ?"}
+{"id":"val-b-0327","category":"valeurs","mode":"verite","intensity":1,"text":"Quel conseil de vie ignorais-tu et trouves-tu juste aujourd'hui ?"}
+{"id":"val-b-0328","category":"valeurs","mode":"verite","intensity":1,"text":"À qui demandes-tu conseil avant les grandes décisions ?"}
+{"id":"val-b-0329","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle décision as-tu prise avec ton cœur, contre ta raison ?"}
+{"id":"val-b-0330","category":"valeurs","mode":"verite","intensity":1,"text":"Pour les choix importants, tu fais confiance à ton intuition ou à tes listes de pour et contre ?"}
+{"id":"val-b-0331","category":"valeurs","mode":"verite","intensity":1,"text":"Quel plaisir coupable assumes-tu entièrement ?"}
+{"id":"val-b-0332","category":"valeurs","mode":"verite","intensity":1,"text":"Selon toi, le bonheur se trouve ou se construit ?"}
+{"id":"val-b-0333","category":"valeurs","mode":"verite","intensity":1,"text":"Ta définition du bonheur en trois mots ?"}
+{"id":"val-b-0334","category":"valeurs","mode":"verite","intensity":2,"text":"Le bonheur des autres ou le tien : lequel fais-tu passer en premier, d'habitude ?"}
+{"id":"val-b-0335","category":"valeurs","mode":"verite","intensity":2,"text":"Qu'est-ce qui pourrait te faire tout quitter du jour au lendemain ?"}
+{"id":"val-b-0336","category":"valeurs","mode":"verite","intensity":1,"text":"Quel serait ton testament moral en une phrase ?"}
+{"id":"val-b-0337","category":"valeurs","mode":"verite","intensity":1,"text":"Si tu pouvais demander une seule chose à l'univers, ce serait quoi ?"}
+{"id":"val-b-0338","category":"valeurs","mode":"verite","intensity":1,"text":"Quel lieu de culte ou de silence t'a déjà fait quelque chose de fort ?"}
+{"id":"val-b-0339","category":"valeurs","mode":"verite","intensity":1,"text":"Peut-on vivre pleinement sans croire en rien, d'après toi ?"}
+{"id":"val-b-0340","category":"valeurs","mode":"verite","intensity":2,"text":"Transmettre une foi ou une croyance à des enfants, tu en penses quoi ?"}
+{"id":"val-b-0341","category":"valeurs","mode":"verite","intensity":1,"text":"La gratitude, tu la pratiques consciemment ou ça vient tout seul ?"}
+{"id":"val-b-0342","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te donne le sentiment d'être utile ?"}
+{"id":"val-b-0343","category":"valeurs","mode":"verite","intensity":1,"text":"L'altruisme pur, ça existe d'après toi ?"}
+{"id":"val-b-0344","category":"valeurs","mode":"verite","intensity":1,"text":"Quel service rendrais-tu sans hésiter à n'importe qui ?"}
+{"id":"val-b-0345","category":"valeurs","mode":"verite","intensity":2,"text":"Héberger quelqu'un dans le besoin pendant un mois chez nous, tu pourrais ?"}
+{"id":"val-b-0346","category":"valeurs","mode":"verite","intensity":1,"text":"Entre amis, l'argent avancé se réclame ou s'oublie ?"}
+{"id":"val-b-0347","category":"valeurs","mode":"verite","intensity":1,"text":"Partager l'addition au centime près ou à parts égales : tu es de quelle école ?"}
+{"id":"val-b-0348","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle dépense de couple te semble sacrée ?"}
+{"id":"val-b-0349","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu détesterais devoir à quelqu'un ?"}
+{"id":"val-b-0350","category":"valeurs","mode":"verite","intensity":1,"text":"Quand tu as tort, tu l'admets vite ou après une longue résistance ?"}
+{"id":"val-b-0351","category":"valeurs","mode":"verite","intensity":1,"text":"Quel défaut assumes-tu avec le sourire ?"}
+{"id":"val-b-0352","category":"valeurs","mode":"verite","intensity":1,"text":"Quel trait de caractère essaies-tu de corriger depuis longtemps ?"}
+{"id":"val-b-0353","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle meilleure version de toi aimerais-tu que {autre} t'aide à faire grandir ?"}
+{"id":"val-b-0354","category":"valeurs","mode":"verite","intensity":1,"text":"La patience, c'est ta force ou ton chantier ?"}
+{"id":"val-b-0355","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle habitude de {autre} t'a appris quelque chose sur la vie ?"}
+{"id":"val-b-0356","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle colère te paraît parfaitement légitime ?"}
+{"id":"val-b-0357","category":"valeurs","mode":"verite","intensity":1,"text":"Comment exprimes-tu ton désaccord avec quelqu'un que tu respectes ?"}
+{"id":"val-b-0358","category":"valeurs","mode":"verite","intensity":1,"text":"Les débats animés à table, ça te stimule ou ça t'épuise ?"}
+{"id":"val-b-0359","category":"valeurs","mode":"verite","intensity":1,"text":"Oserais-tu prévenir quelqu'un de proche d'un petit souci d'haleine ?"}
+{"id":"val-b-0360","category":"valeurs","mode":"verite","intensity":2,"text":"Quelle vérité sur notre couple n'as-tu jamais osé dire à voix haute ?"}
+{"id":"val-b-0361","category":"valeurs","mode":"verite","intensity":2,"text":"Quand on se dispute, qu'est-ce que tu aimerais que je fasse autrement ?"}
+{"id":"val-b-0362","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qu'une excuse sincère doit contenir, pour toi ?"}
+{"id":"val-b-0363","category":"valeurs","mode":"verite","intensity":1,"text":"Dire « je t'aime » très souvent, ça l'use ou ça le nourrit ?"}
+{"id":"val-b-0364","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle preuve d'amour compte le plus pour toi au quotidien ?"}
+{"id":"val-b-0365","category":"valeurs","mode":"verite","intensity":2,"text":"Accepterais-tu de déménager loin pour la carrière de {autre} ?"}
+{"id":"val-b-0366","category":"valeurs","mode":"verite","intensity":1,"text":"L'amour suffit à tout surmonter, ou c'est un joli conte ?"}
+{"id":"val-b-0367","category":"valeurs","mode":"verite","intensity":1,"text":"Quel serait ton rêve si personne ne dépendait de toi ?"}
+{"id":"val-b-0368","category":"valeurs","mode":"verite","intensity":1,"text":"Que ferais-tu de ta vie si la peur de l'échec disparaissait d'un coup ?"}
+{"id":"val-b-0369","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle rencontre a fait tomber un de tes préjugés ?"}
+{"id":"val-b-0370","category":"valeurs","mode":"verite","intensity":2,"text":"Quel préjugé gardes-tu encore, en toute honnêteté ?"}
+{"id":"val-b-0371","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu ne jugerais jamais chez les autres ?"}
+{"id":"val-b-0372","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui rend quelqu'un digne de confiance à tes yeux ?"}
+{"id":"val-b-0373","category":"valeurs","mode":"verite","intensity":1,"text":"Entre loyauté et vérité, laquelle l'emporterait chez toi ?"}
+{"id":"val-b-0374","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle est la chose la plus précieuse que l'argent ne peut pas acheter ?"}
+{"id":"val-b-0375","category":"valeurs","mode":"verite","intensity":1,"text":"Quel objet sans valeur ne vendrais-tu pour rien au monde ?"}
+{"id":"val-b-0376","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle odeur, quel lieu ou quel son te rappelle ce qui compte vraiment ?"}
+{"id":"val-b-0377","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu veux absolument vivre un jour, en dehors des voyages ?"}
+{"id":"val-b-0378","category":"valeurs","mode":"verite","intensity":1,"text":"Quelle valeur voudrais-tu qu'on cultive ensemble ces prochaines années ?"}
+{"id":"val-b-0379","category":"valeurs","mode":"verite","intensity":2,"text":"À quand remonte la dernière fois où tu as agi contre tes valeurs ?"}
+{"id":"val-b-0380","category":"valeurs","mode":"verite","intensity":1,"text":"Qu'est-ce qui, chez {autre}, te donne envie de devenir une meilleure personne ?"}
+{"id":"val-b-0381","category":"valeurs","mode":"action","intensity":1,"text":"Cite à {autre}, en dix secondes chrono, trois choses que tu ferais avec 1 000 euros tombés du ciel.","remote":false}
+{"id":"val-b-0382","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal de 30 secondes qui explique ta définition de la loyauté.","remote":true}
+{"id":"val-b-0383","category":"valeurs","mode":"action","intensity":1,"text":"Mime à {autre} ton métier de rêve, sans un mot, jusqu'à ce que ça soit deviné.","remote":false}
+{"id":"val-b-0384","category":"valeurs","mode":"action","intensity":1,"text":"Classe à voix haute, devant {autre}, du plus au moins important : liberté, sécurité, famille, aventure.","remote":false}
+{"id":"val-b-0385","category":"valeurs","mode":"action","intensity":1,"text":"Écris une promesse sincère sur un bout de papier et glisse ce papier dans la poche de {autre}.","remote":false}
+{"id":"val-b-0386","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet que tu ne vendrais pour rien au monde, avec son histoire en une phrase.","remote":true}
+{"id":"val-b-0387","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre}, en une minute, la plus belle leçon que tes parents t'ont donnée.","remote":false}
+{"id":"val-b-0388","category":"valeurs","mode":"action","intensity":1,"text":"Fais le tour de la pièce et désigne à {autre} l'objet le plus inutile qu'on possède.","remote":false}
+{"id":"val-b-0389","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} un message qui commence par « Ce que j'admire chez toi, c'est… ».","remote":true}
+{"id":"val-b-0390","category":"valeurs","mode":"action","intensity":1,"text":"Pendant une minute, défends devant {autre} une opinion que tu ne partages pas du tout.","remote":false}
+{"id":"val-b-0391","category":"valeurs","mode":"action","intensity":1,"text":"Improvise avec {autre} la scène d'une caisse qui rend trop de monnaie : à toi de jouer la personne honnête.","remote":false}
+{"id":"val-b-0392","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et dis-lui en trois phrases ce qui compte le plus pour toi en ce moment.","remote":true}
+{"id":"val-b-0393","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} le dernier achat que tu regrettes, ou décris cet achat avec une mauvaise foi totale.","remote":false}
+{"id":"val-b-0394","category":"valeurs","mode":"action","intensity":1,"text":"Donne à {autre} trois conseils pour économiser, avec le ton solennel d'un documentaire animalier.","remote":false}
+{"id":"val-b-0395","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un emoji pour chacune de tes trois valeurs principales, sans explication, et attends ses hypothèses.","remote":true}
+{"id":"val-b-0396","category":"valeurs","mode":"action","intensity":1,"text":"Remercie {autre} à voix haute pour un geste que tu n'as encore jamais souligné.","remote":false}
+{"id":"val-b-0397","category":"valeurs","mode":"action","intensity":2,"text":"Avoue à {autre} une petite vérité que tu gardais pour toi depuis des semaines, rien de grave.","remote":false}
+{"id":"val-b-0398","category":"valeurs","mode":"action","intensity":1,"text":"Choisis un objet de la maison et fais-en, en une phrase, le symbole de notre couple.","remote":false}
+{"id":"val-b-0399","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} la liste des cinq choses qui comptent le plus dans ta vie, dans l'ordre.","remote":true}
+{"id":"val-b-0400","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} un serment solennel et ridicule, main sur le cœur, au sujet des tâches ménagères.","remote":false}
+{"id":"val-b-0401","category":"valeurs","mode":"action","intensity":2,"text":"Regarde {autre} dans les yeux et annonce une chose que tu lui pardonnes officiellement aujourd'hui.","remote":false}
+{"id":"val-b-0402","category":"valeurs","mode":"action","intensity":1,"text":"Propose à {autre} un pacte écolo pour la semaine et scellez ce pacte d'une poignée de main.","remote":false}
+{"id":"val-b-0403","category":"valeurs","mode":"action","intensity":1,"text":"Enregistre pour {autre} un vocal où tu imites ta famille à table pendant un débat animé.","remote":true}
+{"id":"val-b-0404","category":"valeurs","mode":"action","intensity":1,"text":"Donne une note sur 10 à notre équilibre entre travail et vie perso, puis justifie ta note devant {autre}.","remote":false}
+{"id":"val-b-0405","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} un dilemme vécu cette année et demande-lui quel aurait été son choix.","remote":false}
+{"id":"val-b-0406","category":"valeurs","mode":"action","intensity":1,"text":"Prends en photo ton endroit préféré pour réfléchir et envoie cette photo à {autre}.","remote":true}
+{"id":"val-b-0407","category":"valeurs","mode":"action","intensity":1,"text":"Choisis avec {autre} une cause à soutenir et faites ensemble un petit don, même symbolique, tout de suite.","remote":false}
+{"id":"val-b-0408","category":"valeurs","mode":"action","intensity":1,"text":"Dessine ta vie idéale en une minute et présente ton chef-d'œuvre à {autre}.","remote":false}
+{"id":"val-b-0409","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} un message d'excuse exagérément théâtral pour une bêtise minuscule.","remote":true}
+{"id":"val-b-0410","category":"valeurs","mode":"action","intensity":2,"text":"Écris à {autre} trois choses que tu ne feras jamais, même pour tout l'or du monde.","remote":true}
+{"id":"val-b-0411","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} une fois où tu as dit non et où tu as eu bien raison.","remote":false}
+{"id":"val-b-0412","category":"valeurs","mode":"action","intensity":2,"text":"Invente avec {autre} un mot de code qui voudra dire « j'ai besoin d'espace, sans drame ».","remote":false}
+{"id":"val-b-0413","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une citation qui te guide, avec une phrase pour dire pourquoi.","remote":true}
+{"id":"val-b-0414","category":"valeurs","mode":"action","intensity":1,"text":"Mime à {autre} ta réaction si tu trouvais un portefeuille bourré de billets.","remote":false}
+{"id":"val-b-0415","category":"valeurs","mode":"action","intensity":1,"text":"Explique à {autre} ta vision de l'argent en utilisant uniquement des métaphores de cuisine.","remote":false}
+{"id":"val-b-0416","category":"valeurs","mode":"action","intensity":1,"text":"Prononce devant {autre} un petit discours solennel sur une valeur de notre couple, verre d'eau à la main.","remote":false}
+{"id":"val-b-0417","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} le meilleur conseil que tu donnerais à quelqu'un qui débute dans la vie d'adulte.","remote":true}
+{"id":"val-b-0418","category":"valeurs","mode":"action","intensity":1,"text":"Cite à {autre} une qualité de chaque membre de sa famille que tu connais.","remote":false}
+{"id":"val-b-0419","category":"valeurs","mode":"action","intensity":2,"text":"Confie à {autre}, avec douceur, une limite que tu n'as jamais formulée clairement.","remote":false}
+{"id":"val-b-0420","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} pour lui raconter une bonne action dont tu as été témoin récemment.","remote":true}
+{"id":"val-b-0421","category":"valeurs","mode":"action","intensity":1,"text":"Choisis trois objets de la pièce pour représenter ton passé, ton présent et ton avenir, et présente-les à {autre}.","remote":false}
+{"id":"val-b-0422","category":"valeurs","mode":"action","intensity":2,"text":"Pose ton téléphone déverrouillé devant {autre} pendant deux minutes et raconte ce que ça te fait.","remote":false}
+{"id":"val-b-0423","category":"valeurs","mode":"action","intensity":1,"text":"Invente avec {autre} une devise pour notre couple, en latin très approximatif.","remote":false}
+{"id":"val-b-0424","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'une chose que tu as réparée ou que tu voudrais réparer plutôt que jeter.","remote":true}
+{"id":"val-b-0425","category":"valeurs","mode":"action","intensity":1,"text":"Fais deviner à {autre} une de tes convictions en ne répondant que par oui ou par non.","remote":false}
+{"id":"val-b-0426","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} ton plus gros fou rire avec quelqu'un de ta famille.","remote":false}
+{"id":"val-b-0427","category":"valeurs","mode":"action","intensity":2,"text":"Prends la main de {autre} et dis-lui ce que tu ferais si on perdait tout demain.","remote":false}
+{"id":"val-b-0428","category":"valeurs","mode":"action","intensity":1,"text":"Lis à {autre} nos dépenses de la semaine avec le ton dramatique d'un journal télévisé.","remote":false}
+{"id":"val-b-0429","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui décrit ta journée parfaite sans dépenser un centime.","remote":true}
+{"id":"val-b-0430","category":"valeurs","mode":"action","intensity":1,"text":"Expose à {autre} une petite faute de ta semaine et laisse-lui fixer une peine adorable.","remote":false}
+{"id":"val-b-0431","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} les noms de trois personnes qui t'inspirent, sans prendre le temps de réfléchir.","remote":true}
+{"id":"val-b-0432","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} trois mots qui décrivent ce que tu veux transmettre un jour.","remote":true}
+{"id":"val-b-0433","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} la liste de tes petites superstitions, avec démonstration si possible.","remote":false}
+{"id":"val-b-0434","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} ce qu'une personne âgée de ton entourage t'a appris.","remote":false}
+{"id":"val-b-0435","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} une phrase de tes parents que tu te surprends à répéter.","remote":true}
+{"id":"val-b-0436","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une chanson qui parle de valeurs qui te ressemblent.","remote":true}
+{"id":"val-b-0437","category":"valeurs","mode":"action","intensity":1,"text":"Imite à {autre} ta réaction quand quelqu'un te double dans une file d'attente.","remote":false}
+{"id":"val-b-0438","category":"valeurs","mode":"action","intensity":1,"text":"Pose à {autre} la question qui te semble la plus importante dans un couple, puis réponds à ton tour.","remote":false}
+{"id":"val-b-0439","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} ton vêtement le plus ancien et raconte pourquoi tu le gardes encore.","remote":false}
+{"id":"val-b-0440","category":"valeurs","mode":"action","intensity":2,"text":"Envoie à {autre} un message pour lui dire une chose que tu lui dois et que tu n'as jamais dite.","remote":true}
+{"id":"val-b-0441","category":"valeurs","mode":"action","intensity":1,"text":"Choisis une tâche ménagère que tu offres à {autre} cette semaine, sans contrepartie, et annonce-la solennellement.","remote":false}
+{"id":"val-b-0442","category":"valeurs","mode":"action","intensity":1,"text":"Fais un compliment sincère à {autre} sur sa façon de traiter les autres.","remote":false}
+{"id":"val-b-0443","category":"valeurs","mode":"action","intensity":2,"text":"Raconte à {autre} un moment où tu as eu honte de toi, et ce que tu en as tiré.","remote":false}
+{"id":"val-b-0444","category":"valeurs","mode":"action","intensity":1,"text":"Propose trois règles de vie pour notre maison et laisse {autre} en barrer une.","remote":false}
+{"id":"val-b-0445","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo du ciel, maintenant, avec une pensée sur ce qui te dépasse.","remote":true}
+{"id":"val-b-0446","category":"valeurs","mode":"action","intensity":2,"text":"Donne à {autre} ton avis honnête sur notre façon de gérer l'argent, en commençant par un point positif.","remote":false}
+{"id":"val-b-0447","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} une mini-conférence de 30 secondes sur un sujet qui te tient à cœur.","remote":false}
+{"id":"val-b-0448","category":"valeurs","mode":"action","intensity":1,"text":"Écris de mémoire à {autre} une recette de famille, avec toutes ses approximations.","remote":true}
+{"id":"val-b-0449","category":"valeurs","mode":"action","intensity":1,"text":"Mets-toi d'accord avec {autre} sur une phrase à se dire après une dispute pour se retrouver.","remote":false}
+{"id":"val-b-0450","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} une fois où on t'a fait confiance et où ça t'a donné des ailes.","remote":false}
+{"id":"val-b-0451","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et décris-lui le métier que tu exercerais dans une autre vie.","remote":true}
+{"id":"val-b-0452","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} un geste d'enfance que tu fais encore par habitude ou par superstition.","remote":false}
+{"id":"val-b-0453","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la liste de cinq petits luxes que tu t'accordes sans culpabiliser.","remote":true}
+{"id":"val-b-0454","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet hérité ou offert qui compte pour toi.","remote":true}
+{"id":"val-b-0455","category":"valeurs","mode":"action","intensity":1,"text":"Dis à {autre} quel trait de sa personnalité tu défendrais face à n'importe qui.","remote":false}
+{"id":"val-b-0456","category":"valeurs","mode":"action","intensity":1,"text":"Négocie avec {autre} le dernier carré de chocolat comme dans un sommet international.","remote":false}
+{"id":"val-b-0457","category":"valeurs","mode":"action","intensity":2,"text":"Confie à {autre} une chose que tu aimerais changer dans ta vie et que tu n'as jamais dite.","remote":false}
+{"id":"val-b-0458","category":"valeurs","mode":"action","intensity":1,"text":"Choisis un pays et explique à {autre} quelle valeur tu aimerais lui emprunter.","remote":false}
+{"id":"val-b-0459","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} un message de remerciement pour trois choses très précises de cette semaine.","remote":true}
+{"id":"val-b-0460","category":"valeurs","mode":"action","intensity":1,"text":"Raconte par vocal à {autre} ta toute première paie et ce que tu en as fait.","remote":true}
+{"id":"val-b-0461","category":"valeurs","mode":"action","intensity":1,"text":"Vide tes poches sur la table et raconte à {autre} l'histoire de chaque objet.","remote":false}
+{"id":"val-b-0462","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} l'appli ou le carnet où tu notes tes dépenses, ou avoue que tu n'en as pas.","remote":false}
+{"id":"val-b-0463","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un message avec ta règle d'or pour les amitiés qui durent.","remote":true}
+{"id":"val-b-0464","category":"valeurs","mode":"action","intensity":1,"text":"Fais une révérence à {autre} et présente tes excuses pour ta pire mauvaise foi récente.","remote":false}
+{"id":"val-b-0465","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} par message un moment où tu as aidé quelqu'un en toute discrétion.","remote":true}
+{"id":"val-b-0466","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} trois choses que tu trouves sacrées : une sérieuse, une tendre et une absurde.","remote":true}
+{"id":"val-b-0467","category":"valeurs","mode":"action","intensity":1,"text":"Enregistre pour {autre} un vocal où tu lis un passage de livre qui t'a fait réfléchir.","remote":true}
+{"id":"val-b-0468","category":"valeurs","mode":"action","intensity":1,"text":"Écris sur un papier combien on dépense en cafés par mois selon toi, fais faire pareil à {autre}, puis comparez.","remote":false}
+{"id":"val-b-0469","category":"valeurs","mode":"action","intensity":1,"text":"Regarde {autre} et dis-lui ce que tu admires dans sa façon d'aimer les gens.","remote":false}
+{"id":"val-b-0470","category":"valeurs","mode":"action","intensity":1,"text":"Propose à {autre} trois objets de la maison à donner et laisse-lui le dernier mot.","remote":false}
+{"id":"val-b-0471","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ton espace de travail avec une légende sur ce qui t'y motive.","remote":true}
+{"id":"val-b-0472","category":"valeurs","mode":"action","intensity":1,"text":"Imite pour {autre} ta tête quand on te demande un service à la dernière minute.","remote":false}
+{"id":"val-b-0473","category":"valeurs","mode":"action","intensity":1,"text":"Dis à {autre} quel rôle tu aimerais jouer dans sa famille.","remote":false}
+{"id":"val-b-0474","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} ce que tu ferais si on t'offrait une année sabbatique demain.","remote":true}
+{"id":"val-b-0475","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} cinq choses gratuites qui te font du bien.","remote":true}
+{"id":"val-b-0476","category":"valeurs","mode":"action","intensity":2,"text":"Prends {autre} dans tes bras et dis-lui une chose de nous deux que tu ne veux jamais perdre.","remote":false}
+{"id":"val-b-0477","category":"valeurs","mode":"action","intensity":1,"text":"Mime à {autre} une valeur de ton choix jusqu'à ce que le mot soit trouvé.","remote":false}
+{"id":"val-b-0478","category":"valeurs","mode":"action","intensity":2,"text":"Envoie à {autre} les prénoms de trois personnes à qui tu aimerais dire pardon ou merci.","remote":true}
+{"id":"val-b-0479","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} la règle de ta famille qui te faisait le plus rire.","remote":false}
+{"id":"val-b-0480","category":"valeurs","mode":"action","intensity":2,"text":"Dis à {autre}, avec tendresse, un de ses défauts que tu as appris à aimer.","remote":false}
+{"id":"val-b-0481","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} le pitch d'une minute d'une association imaginaire qui défend une cause absurde mais touchante.","remote":false}
+{"id":"val-b-0482","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal chanté, sur l'air de ton choix, qui célèbre sa plus belle qualité.","remote":true}
+{"id":"val-b-0483","category":"valeurs","mode":"action","intensity":1,"text":"Videz un tiroir avec {autre} et décidez ensemble de ce qui part au don.","remote":false}
+{"id":"val-b-0484","category":"valeurs","mode":"action","intensity":1,"text":"Écris cinq valeurs sur des papiers, tires-en une avec {autre} et racontez tour à tour un souvenir lié.","remote":false}
+{"id":"val-b-0485","category":"valeurs","mode":"action","intensity":1,"text":"Dis « non » à {autre} trois fois, sur trois tons : ferme, tendre puis complètement théâtral.","remote":false}
+{"id":"val-b-0486","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre}, en une phrase, ce que la confiance t'apporte au quotidien.","remote":true}
+{"id":"val-b-0487","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} trois photos de ton téléphone qui résument ce qui compte pour toi.","remote":false}
+{"id":"val-b-0488","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ton dernier repas et demande-lui une note écolo sur 10.","remote":true}
+{"id":"val-b-0489","category":"valeurs","mode":"action","intensity":1,"text":"Joue devant {autre} la scène où tu refuses poliment une invitation qui ne te dit rien.","remote":false}
+{"id":"val-b-0490","category":"valeurs","mode":"action","intensity":1,"text":"Lis avec {autre} l'étiquette d'un vêtement et imaginez le voyage qu'a fait ce vêtement.","remote":false}
+{"id":"val-b-0491","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et raconte-lui la décision la plus courageuse que tu aies prise.","remote":true}
+{"id":"val-b-0492","category":"valeurs","mode":"action","intensity":1,"text":"Dressez avec {autre} la liste de trois gestes écolos qu'on fait déjà sans s'en rendre compte.","remote":false}
+{"id":"val-b-0493","category":"valeurs","mode":"action","intensity":1,"text":"Pose tes mains sur les épaules de {autre} et complète trois fois « Je te fais confiance pour… ».","remote":false}
+{"id":"val-b-0494","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la couverture de ton livre préféré avec la phrase que tu en retiens.","remote":true}
+{"id":"val-b-0495","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} un discours électoral d'une minute avec trois promesses pour notre foyer.","remote":false}
+{"id":"val-b-0496","category":"valeurs","mode":"action","intensity":1,"text":"Donne à {autre} un objet de ta poche ou de ton sac en gage d'un service à venir.","remote":false}
+{"id":"val-b-0497","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} une tradition de ta famille que personne ne comprend en dehors.","remote":false}
+{"id":"val-b-0498","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu donnes, d'une voix grave, un conseil de vie totalement absurde.","remote":true}
+{"id":"val-b-0499","category":"valeurs","mode":"action","intensity":2,"text":"Écris sur un papier une rancune que tu veux lâcher, lis ce mot à {autre}, puis déchirez ce papier ensemble.","remote":false}
+{"id":"val-b-0500","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} un câlin de trente secondes en silence, en pensant à ce qui compte vraiment.","remote":false}
+{"id":"val-b-0501","category":"valeurs","mode":"action","intensity":2,"text":"Écris à {autre} un message à relire le jour où on aura une grosse dispute.","remote":true}
+{"id":"val-b-0502","category":"valeurs","mode":"action","intensity":1,"text":"Pile ou face avec {autre} : pile, tu racontes ta dépense la plus inutile ; face, ta meilleure économie.","remote":false}
+{"id":"val-b-0503","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} ta posture officielle « je ne suis pas d'accord, mais je t'écoute ».","remote":false}
+{"id":"val-b-0504","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un message pour dire quelle personne de sa famille te fait le plus rire, et pourquoi.","remote":true}
+{"id":"val-b-0505","category":"valeurs","mode":"action","intensity":1,"text":"Prépare une boisson chaude à {autre} en lui expliquant ta conception de la générosité.","remote":false}
+{"id":"val-b-0506","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} ta meilleure et ta pire note d'école, circonstances atténuantes comprises.","remote":false}
+{"id":"val-b-0507","category":"valeurs","mode":"action","intensity":1,"text":"Cherche avec {autre} un objet de la maison à réparer cette semaine plutôt qu'à remplacer.","remote":false}
+{"id":"val-b-0508","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et parle-lui pendant une minute d'une injustice qui te révolte.","remote":true}
+{"id":"val-b-0509","category":"valeurs","mode":"action","intensity":2,"text":"Souffle à l'oreille de {autre} une petite jalousie ressentie récemment.","remote":false}
+{"id":"val-b-0510","category":"valeurs","mode":"action","intensity":1,"text":"Trinque avec {autre} à une valeur que vous partagez, en la nommant à voix haute.","remote":false}
+{"id":"val-b-0511","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo de l'endroit de ta ville qui te ressemble le plus.","remote":true}
+{"id":"val-b-0512","category":"valeurs","mode":"action","intensity":1,"text":"Choisis avec {autre} un mot à bannir définitivement de nos disputes.","remote":false}
+{"id":"val-b-0513","category":"valeurs","mode":"action","intensity":2,"text":"Lis à {autre} tes trois dernières notifications et commente-les en toute honnêteté.","remote":false}
+{"id":"val-b-0514","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} une prédiction sur ce qui comptera le plus pour toi dans vingt ans.","remote":false}
+{"id":"val-b-0515","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} un petit mot, comme si tu étais sa bonne conscience, pour la journée de demain.","remote":true}
+{"id":"val-b-0516","category":"valeurs","mode":"action","intensity":1,"text":"Dis merci à {autre} dans trois langues différentes, avec l'accent qui va avec.","remote":false}
+{"id":"val-b-0517","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} une fois où un argument imparable t'a fait changer d'avis.","remote":false}
+{"id":"val-b-0518","category":"valeurs","mode":"action","intensity":1,"text":"Dessine du bout du doigt, dans la main de {autre}, le symbole d'une valeur qui nous unit.","remote":false}
+{"id":"val-b-0519","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une note vocale qui raconte ce que tu as fait aujourd'hui pour quelqu'un d'autre.","remote":true}
+{"id":"val-b-0520","category":"valeurs","mode":"action","intensity":1,"text":"Fais un inventaire express du frigo avec {autre} et décidez d'un repas anti-gaspi.","remote":false}
+{"id":"val-b-0521","category":"valeurs","mode":"action","intensity":1,"text":"Annonce à {autre} le prix maximum que tu mettrais dans une paire de chaussures, et défends ton chiffre.","remote":false}
+{"id":"val-b-0522","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} trois promesses réalistes pour le mois à venir.","remote":true}
+{"id":"val-b-0523","category":"valeurs","mode":"action","intensity":1,"text":"Prends une pose de statue intitulée « La Sagesse » et laisse {autre} commenter ton œuvre.","remote":false}
+{"id":"val-b-0524","category":"valeurs","mode":"action","intensity":1,"text":"Explique à {autre} ton monde idéal en trois règles seulement.","remote":false}
+{"id":"val-b-0525","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'une chose belle et gratuite croisée aujourd'hui.","remote":true}
+{"id":"val-b-0526","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} la tâche ménagère que tu détestes en mimant ta souffrance avec beaucoup de drame.","remote":false}
+{"id":"val-b-0527","category":"valeurs","mode":"action","intensity":1,"text":"Avoue à {autre} une petite règle que tu enfreins en cachette.","remote":false}
+{"id":"val-b-0528","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre}, demande-lui de quoi sa journée aurait eu besoin, puis écoute sans donner de conseil.","remote":true}
+{"id":"val-b-0529","category":"valeurs","mode":"action","intensity":1,"text":"Établis avec {autre} le top 3 de nos plus belles réussites de couple.","remote":false}
+{"id":"val-b-0530","category":"valeurs","mode":"action","intensity":2,"text":"Raconte à {autre} un pardon qui a allégé ton cœur.","remote":false}
+{"id":"val-b-0531","category":"valeurs","mode":"action","intensity":1,"text":"Écris un texto à {autre} pour proposer une heure de calme absolu ce soir, sans écran.","remote":true}
+{"id":"val-b-0532","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} un serment de petite honnêteté : un sujet sur lequel tu ne mentiras plus.","remote":false}
+{"id":"val-b-0533","category":"valeurs","mode":"action","intensity":2,"text":"Accorde à {autre} la permission officielle de te dire non pour une chose précise.","remote":false}
+{"id":"val-b-0534","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet de seconde main que tu possèdes, avec sa petite histoire.","remote":true}
+{"id":"val-b-0535","category":"valeurs","mode":"action","intensity":1,"text":"Organise avec {autre} un mini-débat de deux minutes : chats contre chiens, au nom de la morale.","remote":false}
+{"id":"val-b-0536","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} un geste de solidarité qui t'a mis les larmes aux yeux.","remote":false}
+{"id":"val-b-0537","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} la plus vieille photo de famille de ton téléphone et raconte qui y figure.","remote":false}
+{"id":"val-b-0538","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui explique ce que tu ferais si tu étais maire de ta ville pour une journée.","remote":true}
+{"id":"val-b-0539","category":"valeurs","mode":"action","intensity":1,"text":"Répartis dix pièces ou boutons devant {autre} entre travail, couple et toi, puis explique ton choix.","remote":false}
+{"id":"val-b-0540","category":"valeurs","mode":"action","intensity":1,"text":"Avoue à {autre} quel cadeau reçu tu as déjà offert à ton tour, ou rêves de refiler.","remote":false}
+{"id":"val-b-0541","category":"valeurs","mode":"action","intensity":2,"text":"Écris à {autre} ce qu'une de nos disputes t'a appris.","remote":true}
+{"id":"val-b-0542","category":"valeurs","mode":"action","intensity":1,"text":"Révèle à {autre} une chose que tu fais uniquement pour lui faire plaisir, et que tu continueras.","remote":false}
+{"id":"val-b-0543","category":"valeurs","mode":"action","intensity":1,"text":"Demande à {autre} son plus grand rêve et écoute une minute entière sans interrompre.","remote":false}
+{"id":"val-b-0544","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de toi en plein geste écolo, même minuscule.","remote":true}
+{"id":"val-b-0545","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} trois sujets sur lesquels tu aimerais qu'on débatte un soir.","remote":true}
+{"id":"val-b-0546","category":"valeurs","mode":"action","intensity":1,"text":"Imite pour {autre} un ou une prof de ton enfance en train de faire la morale.","remote":false}
+{"id":"val-b-0547","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la description de ta journée type à 70 ans, si tout se passe selon tes valeurs.","remote":true}
+{"id":"val-b-0548","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} la position dans laquelle tu médites, pries ou rêvasses.","remote":false}
+{"id":"val-b-0549","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} pour lui lire une phrase qui t'a fait du bien aujourd'hui.","remote":true}
+{"id":"val-b-0550","category":"valeurs","mode":"action","intensity":2,"text":"Propose à {autre} un changement concret dans notre répartition des tâches.","remote":false}
+{"id":"val-b-0551","category":"valeurs","mode":"action","intensity":2,"text":"Écris à {autre} un merci pour une de tes limites respectée sans même que tu aies besoin de la dire.","remote":true}
+{"id":"val-b-0552","category":"valeurs","mode":"action","intensity":1,"text":"Choisis avec {autre} une phrase à afficher sur le frigo comme devise de la semaine.","remote":false}
+{"id":"val-b-0553","category":"valeurs","mode":"action","intensity":1,"text":"Raconte par message à {autre} ton tout premier achat avec ton propre argent.","remote":true}
+{"id":"val-b-0554","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} les prénoms de trois personnes de ton entourage dont tu admires la générosité.","remote":true}
+{"id":"val-b-0555","category":"valeurs","mode":"action","intensity":1,"text":"Joue au tribunal et inflige à {autre} une amende ridicule pour une mauvaise habitude.","remote":false}
+{"id":"val-b-0556","category":"valeurs","mode":"action","intensity":1,"text":"Récite à {autre} un proverbe, puis invente une suite qui le contredit totalement.","remote":false}
+{"id":"val-b-0557","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} le titre du livre de ta vie et ses trois chapitres.","remote":true}
+{"id":"val-b-0558","category":"valeurs","mode":"action","intensity":1,"text":"Fais un pacte avec {autre} : la prochaine personne qui a tort prépare le café.","remote":false}
+{"id":"val-b-0559","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} une fois où une amitié t'a sauvé la mise.","remote":false}
+{"id":"val-b-0560","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un lieu où tu aimerais faire du bénévolat un jour.","remote":true}
+{"id":"val-b-0561","category":"valeurs","mode":"action","intensity":2,"text":"Dis à {autre} une chose que tu lui envies, gentiment.","remote":false}
+{"id":"val-b-0562","category":"valeurs","mode":"action","intensity":2,"text":"Regarde {autre} et raconte ce que tu aurais fait à sa place dans sa dernière difficulté.","remote":false}
+{"id":"val-b-0563","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} ce que tu ferais d'un jour de congé surprise avec dix euros en poche.","remote":true}
+{"id":"val-b-0564","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} le geste que tu feras désormais quand tu as besoin d'un câlin.","remote":false}
+{"id":"val-b-0565","category":"valeurs","mode":"action","intensity":2,"text":"Écris à {autre} les cinq personnes que tu appellerais en cas de coup dur.","remote":true}
+{"id":"val-b-0566","category":"valeurs","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui commence par « Ce que je n'ose pas te demander, c'est… ».","remote":true}
+{"id":"val-b-0567","category":"valeurs","mode":"action","intensity":2,"text":"Chuchote à {autre} un besoin que tu n'oses pas toujours exprimer.","remote":false}
+{"id":"val-b-0568","category":"valeurs","mode":"action","intensity":1,"text":"Demande à {autre} de t'enseigner en deux minutes un savoir-faire qui te manque.","remote":false}
+{"id":"val-b-0569","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et partage une bonne nouvelle du monde entendue récemment.","remote":true}
+{"id":"val-b-0570","category":"valeurs","mode":"action","intensity":1,"text":"Établis devant {autre} le top 3 des qualités que tu recherches chez tes amis.","remote":false}
+{"id":"val-b-0571","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} ta plus grosse bêtise d'enfance, celle que personne n'a jamais découverte.","remote":false}
+{"id":"val-b-0572","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} trois achats qu'on pourrait éviter le mois prochain.","remote":true}
+{"id":"val-b-0573","category":"valeurs","mode":"action","intensity":1,"text":"Désigne à {autre} l'objet qu'on possède depuis le plus longtemps et raconte sa valeur sentimentale.","remote":false}
+{"id":"val-b-0574","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui dit, en une phrase, ce qui fait de nous une équipe.","remote":true}
+{"id":"val-b-0575","category":"valeurs","mode":"action","intensity":1,"text":"Mime à {autre} ton état d'esprit quand quelqu'un te critique injustement.","remote":false}
+{"id":"val-b-0576","category":"valeurs","mode":"action","intensity":1,"text":"Regarde une photo de famille avec {autre} et associe une valeur à chaque visage.","remote":false}
+{"id":"val-b-0577","category":"valeurs","mode":"action","intensity":2,"text":"Avoue à {autre} un principe que tu défends mais que tu ne respectes pas toujours.","remote":false}
+{"id":"val-b-0578","category":"valeurs","mode":"action","intensity":1,"text":"Écris un mot de gratitude pour quelqu'un de ton entourage et lis ce mot à {autre} avant de l'envoyer.","remote":false}
+{"id":"val-b-0579","category":"valeurs","mode":"action","intensity":1,"text":"Annonce à {autre} une future soirée débat et son thème, avec l'enthousiasme d'un grand show télévisé.","remote":false}
+{"id":"val-b-0580","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta main sur ton cœur avec une promesse en légende.","remote":true}
+{"id":"val-b-0581","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ton trousseau et raconte l'histoire de chaque clé.","remote":true}
+{"id":"val-b-0582","category":"valeurs","mode":"action","intensity":1,"text":"Assieds-toi face à {autre} et, à trois, dites en même temps la valeur la plus importante dans un couple.","remote":false}
+{"id":"val-b-0583","category":"valeurs","mode":"action","intensity":2,"text":"Écris à {autre} ce que tes parents t'ont appris sur l'amour, en bien comme en moins bien.","remote":true}
+{"id":"val-b-0584","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} la démonstration de ta meilleure technique pour dire non sans vexer personne.","remote":false}
+{"id":"val-b-0585","category":"valeurs","mode":"action","intensity":1,"text":"Regarde par la fenêtre avec {autre} et inventez la vie d'une personne qui passe, en lui prêtant de grandes valeurs.","remote":false}
+{"id":"val-b-0586","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et confie-lui une inquiétude que tu as pour l'avenir de la planète.","remote":true}
+{"id":"val-b-0587","category":"valeurs","mode":"action","intensity":1,"text":"Va chercher l'objet que tu sauverais en premier d'un incendie et pose cet objet devant {autre}.","remote":false}
+{"id":"val-b-0588","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} trois habitudes de ta famille que tu veux garder pour nous.","remote":true}
+{"id":"val-b-0589","category":"valeurs","mode":"action","intensity":1,"text":"Parle pendant une minute à {autre} de ton héros ou de ton héroïne du quotidien.","remote":false}
+{"id":"val-b-0590","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un dessin rapide de ce que représente la réussite pour toi.","remote":true}
+{"id":"val-b-0591","category":"valeurs","mode":"action","intensity":2,"text":"Fais à {autre} une confidence sur un moment où le courage t'a manqué.","remote":false}
+{"id":"val-b-0592","category":"valeurs","mode":"action","intensity":1,"text":"Invente avec {autre} une petite cérémonie pour fêter nos réconciliations.","remote":false}
+{"id":"val-b-0593","category":"valeurs","mode":"action","intensity":2,"text":"Envoie à {autre} le récit de la dernière fois où ton honnêteté t'a coûté quelque chose.","remote":true}
+{"id":"val-b-0594","category":"valeurs","mode":"action","intensity":1,"text":"Offre à {autre} un bon pour vingt minutes d'écoute attentive, à utiliser quand ça lui chante.","remote":false}
+{"id":"val-b-0595","category":"valeurs","mode":"action","intensity":1,"text":"Présente à {autre} ton top 3 des gestes de politesse qui te touchent le plus.","remote":false}
+{"id":"val-b-0596","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} une phrase que tu aimerais qu'on se répète dans les moments difficiles.","remote":true}
+{"id":"val-b-0597","category":"valeurs","mode":"action","intensity":1,"text":"Joue avec {autre} une mini-scène où tu annonces une mauvaise nouvelle avec honnêteté et douceur.","remote":false}
+{"id":"val-b-0598","category":"valeurs","mode":"action","intensity":2,"text":"Raconte à {autre} un moment où tu as choisi ton cœur plutôt que l'argent.","remote":false}
+{"id":"val-b-0599","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui explique pourquoi la gentillesse est sous-estimée, ou surestimée.","remote":true}
+{"id":"val-b-0600","category":"valeurs","mode":"action","intensity":2,"text":"Pose ta main sur le cœur de {autre} et fais-lui une promesse sur ta façon de l'écouter.","remote":false}
+{"id":"val-b-0601","category":"valeurs","mode":"action","intensity":1,"text":"Montre à {autre} un compte que tu suis parce que sa cause te parle vraiment.","remote":false}
+{"id":"val-b-0602","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} trois choses que tu aimerais apprendre ensemble.","remote":true}
+{"id":"val-b-0603","category":"valeurs","mode":"action","intensity":1,"text":"Fais deviner à {autre} un dilemme moral en mimant uniquement avec tes sourcils.","remote":false}
+{"id":"val-b-0604","category":"valeurs","mode":"action","intensity":1,"text":"Révèle à {autre} le montant de ton tout premier argent de poche, et ce que tu en faisais.","remote":false}
+{"id":"val-b-0605","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et décris-lui la maison de tes rêves, version écolo.","remote":true}
+{"id":"val-b-0606","category":"valeurs","mode":"action","intensity":1,"text":"Dis à {autre} quelle valeur tu sens grandir en toi depuis qu'on est ensemble.","remote":false}
+{"id":"val-b-0607","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} trois choses que tu as faites cette semaine juste pour toi.","remote":true}
+{"id":"val-b-0608","category":"valeurs","mode":"action","intensity":1,"text":"Ouvre un livre de la maison au hasard, lis une phrase à {autre} et tires-en une leçon de vie.","remote":false}
+{"id":"val-b-0609","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} ce que tu aimerais qu'on dise de notre couple dans trente ans.","remote":true}
+{"id":"val-b-0610","category":"valeurs","mode":"action","intensity":1,"text":"Échange avec {autre} un objet du quotidien pour 24 heures, en signe de confiance.","remote":false}
+{"id":"val-b-0611","category":"valeurs","mode":"action","intensity":2,"text":"Avoue à {autre} une fois où tu as mal jugé quelqu'un.","remote":false}
+{"id":"val-b-0612","category":"valeurs","mode":"action","intensity":1,"text":"Rends devant {autre} un hommage d'une minute à une personne qui t'a appris quelque chose d'essentiel.","remote":false}
+{"id":"val-b-0613","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet du quotidien qui te rend la vie plus douce.","remote":true}
+{"id":"val-b-0614","category":"valeurs","mode":"action","intensity":1,"text":"Prends la main de {autre} et fais trois pas en disant, à chaque pas, un merci à la vie.","remote":false}
+{"id":"val-b-0615","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} ton petit manifeste personnel en trois lignes.","remote":true}
+{"id":"val-b-0616","category":"valeurs","mode":"action","intensity":1,"text":"Fixe avec {autre} un petit budget plaisir pour la semaine, montant compris.","remote":false}
+{"id":"val-b-0617","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} la fois où tu as tenu une promesse envers et contre tout.","remote":false}
+{"id":"val-b-0618","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} le titre d'un film qui t'a fait réfléchir à ta façon de vivre.","remote":true}
+{"id":"val-b-0619","category":"valeurs","mode":"action","intensity":1,"text":"Demande pardon à {autre} pour un oubli récent, avec un geste en prime.","remote":false}
+{"id":"val-b-0620","category":"valeurs","mode":"action","intensity":1,"text":"Énumère à {autre} cinq choses que tu ne regretteras jamais d'avoir faites.","remote":false}
+{"id":"val-b-0621","category":"valeurs","mode":"action","intensity":1,"text":"Appelle {autre} et raconte-lui ce qui t'a donné de l'espoir aujourd'hui.","remote":true}
+{"id":"val-b-0622","category":"valeurs","mode":"action","intensity":1,"text":"Donne à {autre} ta définition du mot « chez-soi », avec un objet de la pièce pour l'illustrer.","remote":false}
+{"id":"val-b-0623","category":"valeurs","mode":"action","intensity":1,"text":"Écris à {autre} la règle de vie que tu aimerais souffler à la version de toi qui avait dix ans.","remote":true}
+{"id":"val-b-0624","category":"valeurs","mode":"action","intensity":1,"text":"Raconte à {autre} une fois où tu as osé dire ce que tu pensais vraiment.","remote":false}
+{"id":"val-b-0625","category":"valeurs","mode":"action","intensity":1,"text":"Laisse {autre} te faire un compliment et accueille-le sans protester ni te justifier.","remote":false}
+{"id":"val-b-0626","category":"valeurs","mode":"action","intensity":1,"text":"Envoie à {autre} un message pour souligner une fois où sa façon d'agir t'a paru profondément juste.","remote":true}
+{"id":"val-b-0627","category":"valeurs","mode":"action","intensity":2,"text":"Confie à {autre} ce dont tu as besoin pour sentir du respect dans notre couple.","remote":false}
+{"id":"val-b-0628","category":"valeurs","mode":"action","intensity":1,"text":"Écris avec {autre} nos trois valeurs communes sur un papier et accrochez ce papier quelque part.","remote":false}
+{"id":"val-b-0629","category":"valeurs","mode":"action","intensity":1,"text":"Fais à {autre} le récit d'un acte de générosité dont tu as bénéficié.","remote":false}
+{"id":"val-b-0630","category":"valeurs","mode":"action","intensity":2,"text":"Regarde {autre} dans les yeux et dis-lui ce que tu ferais pour nous sans hésiter une seconde.","remote":false}
+{"id":"val-b-0631","category":"valeurs","mode":"envie","intensity":1,"text":"Faire du bénévolat ensemble un samedi par mois"}
+{"id":"val-b-0632","category":"valeurs","mode":"envie","intensity":1,"text":"Tenir un budget commun sur un carnet, juste pour voir"}
+{"id":"val-b-0633","category":"valeurs","mode":"envie","intensity":1,"text":"Passer une journée entière sans rien acheter"}
+{"id":"val-b-0634","category":"valeurs","mode":"envie","intensity":1,"text":"Adopter un animal dans un refuge"}
+{"id":"val-b-0635","category":"valeurs","mode":"envie","intensity":1,"text":"Planter un arbre ensemble et suivre sa croissance au fil des années"}
+{"id":"val-b-0636","category":"valeurs","mode":"envie","intensity":1,"text":"Faire un grand tri de la maison et tout donner à une association"}
+{"id":"val-b-0637","category":"valeurs","mode":"envie","intensity":1,"text":"Apprendre ensemble une langue parlée dans l'une de nos familles"}
+{"id":"val-b-0638","category":"valeurs","mode":"envie","intensity":1,"text":"Écrire ensemble une charte de couple avec nos valeurs"}
+{"id":"val-b-0639","category":"valeurs","mode":"envie","intensity":1,"text":"Un week-end en autonomie dans une cabane sans électricité"}
+{"id":"val-b-0640","category":"valeurs","mode":"envie","intensity":1,"text":"Ouvrir un compte épargne pour un projet commun"}
+{"id":"val-b-0641","category":"valeurs","mode":"envie","intensity":1,"text":"Cuisiner végétarien pendant une semaine entière"}
+{"id":"val-b-0642","category":"valeurs","mode":"envie","intensity":1,"text":"Faire un grand voyage en train plutôt qu'en avion"}
+{"id":"val-b-0643","category":"valeurs","mode":"envie","intensity":1,"text":"Organiser un repas avec nos deux familles réunies"}
+{"id":"val-b-0644","category":"valeurs","mode":"envie","intensity":2,"text":"Une soirée entière à se raconter nos convictions les plus profondes"}
+{"id":"val-b-0645","category":"valeurs","mode":"envie","intensity":1,"text":"Participer à une collecte de vêtements ou de nourriture"}
+{"id":"val-b-0646","category":"valeurs","mode":"envie","intensity":1,"text":"Créer un petit potager sur le balcon ou au jardin"}
+{"id":"val-b-0647","category":"valeurs","mode":"envie","intensity":1,"text":"Visiter un lieu de culte d'une autre tradition, avec une curiosité respectueuse"}
+{"id":"val-b-0648","category":"valeurs","mode":"envie","intensity":2,"text":"Faire une retraite silencieuse de quelques jours"}
+{"id":"val-b-0649","category":"valeurs","mode":"envie","intensity":2,"text":"Nous écrire une lettre à ouvrir dans dix ans"}
+{"id":"val-b-0650","category":"valeurs","mode":"envie","intensity":1,"text":"Soutenir ensemble une association à l'autre bout du monde"}
+{"id":"val-b-0651","category":"valeurs","mode":"envie","intensity":1,"text":"Retaper un vieux meuble au lieu d'en racheter un neuf"}
+{"id":"val-b-0652","category":"valeurs","mode":"envie","intensity":1,"text":"Un mois sans réseaux sociaux, à deux"}
+{"id":"val-b-0653","category":"valeurs","mode":"envie","intensity":2,"text":"Faire un point argent tous les trois mois, sans tabou"}
+{"id":"val-b-0654","category":"valeurs","mode":"envie","intensity":1,"text":"Aller donner notre sang ensemble"}
+{"id":"val-b-0655","category":"valeurs","mode":"envie","intensity":1,"text":"Se former aux premiers secours à deux"}
+{"id":"val-b-0656","category":"valeurs","mode":"envie","intensity":1,"text":"Participer à un atelier de méditation"}
+{"id":"val-b-0657","category":"valeurs","mode":"envie","intensity":1,"text":"Apprendre à faire notre pain nous-mêmes"}
+{"id":"val-b-0658","category":"valeurs","mode":"envie","intensity":1,"text":"Prendre une année sabbatique un jour"}
+{"id":"val-b-0659","category":"valeurs","mode":"envie","intensity":1,"text":"Inviter tout le voisinage à prendre un verre"}
+{"id":"val-b-0660","category":"valeurs","mode":"envie","intensity":1,"text":"N'acheter que de la seconde main pendant un an"}
+{"id":"val-b-0661","category":"valeurs","mode":"envie","intensity":1,"text":"Dresser la liste de nos rêves de vie et en réaliser un chaque année"}
+{"id":"val-b-0662","category":"valeurs","mode":"envie","intensity":1,"text":"Rendre visite plus souvent aux plus âgés de nos familles"}
+{"id":"val-b-0663","category":"valeurs","mode":"envie","intensity":1,"text":"Organiser une fête où chaque invité apporte un livre à échanger"}
+{"id":"val-b-0664","category":"valeurs","mode":"envie","intensity":1,"text":"Vivre une semaine avec le strict minimum"}
+{"id":"val-b-0665","category":"valeurs","mode":"envie","intensity":2,"text":"Écrire nos limites respectives noir sur blanc, pour mieux les respecter"}
+{"id":"val-b-0666","category":"valeurs","mode":"envie","intensity":1,"text":"Monter un petit projet solidaire dans notre quartier"}
+{"id":"val-b-0667","category":"valeurs","mode":"envie","intensity":1,"text":"Partir en voyage sans rien réserver, juste avec un sac à dos"}
+{"id":"val-b-0668","category":"valeurs","mode":"envie","intensity":1,"text":"Tenir un carnet de gratitude à deux"}
+{"id":"val-b-0669","category":"valeurs","mode":"envie","intensity":1,"text":"Proposer du covoiturage pour nos trajets réguliers"}
+{"id":"val-b-0670","category":"valeurs","mode":"envie","intensity":1,"text":"S'inscrire ensemble à un cours du soir"}
+{"id":"val-b-0671","category":"valeurs","mode":"envie","intensity":1,"text":"Fabriquer nos produits ménagers maison"}
+{"id":"val-b-0672","category":"valeurs","mode":"envie","intensity":1,"text":"Nettoyer une plage ou une berge un dimanche matin"}
+{"id":"val-b-0673","category":"valeurs","mode":"envie","intensity":1,"text":"Rencontrer à la ferme les personnes qui produisent ce qu'on mange"}
+{"id":"val-b-0674","category":"valeurs","mode":"envie","intensity":2,"text":"Parler de nos croyances avec nos familles, sans chercher à débattre"}
+{"id":"val-b-0675","category":"valeurs","mode":"envie","intensity":1,"text":"Instaurer un dîner du dimanche sacré, sans aucun écran"}
+{"id":"val-b-0676","category":"valeurs","mode":"envie","intensity":1,"text":"Accueillir quelques semaines chez nous une personne arrivée de l'étranger"}
+{"id":"val-b-0677","category":"valeurs","mode":"envie","intensity":1,"text":"Faire le point sur nos rêves professionnels autour d'un bon repas"}
+{"id":"val-b-0678","category":"valeurs","mode":"envie","intensity":2,"text":"Préparer ensemble nos papiers importants, testament compris, pour être tranquilles"}
+{"id":"val-b-0679","category":"valeurs","mode":"envie","intensity":1,"text":"Cuisiner pour une maraude ou une épicerie solidaire"}
+{"id":"val-b-0680","category":"valeurs","mode":"envie","intensity":1,"text":"Changer de banque pour une banque plus éthique"}

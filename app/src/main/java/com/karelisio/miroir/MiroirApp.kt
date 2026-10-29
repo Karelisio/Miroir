@@ -8,6 +8,7 @@ import com.karelisio.miroir.data.prefs.Prefs
 import com.karelisio.miroir.data.questions.QuestionBank
 import com.karelisio.miroir.data.remote.MiroirApi
 import com.karelisio.miroir.diagnostics.Diagnostics
+import com.karelisio.miroir.games.data.GameRepository
 import com.karelisio.miroir.notifications.DailyReminder
 import com.karelisio.miroir.notifications.Notifier
 import com.karelisio.miroir.sync.SyncScheduler
@@ -28,6 +29,7 @@ class AppContainer(context: Context) {
     val bank = QuestionBank(context)
     val api = MiroirApi(http)
     val repository = MiroirRepository(context, database.dao(), prefs, api, bank)
+    val games = GameRepository(context, database.games(), prefs, api, repository)
     val updates = UpdateManager(context, http, prefs)
 }
 

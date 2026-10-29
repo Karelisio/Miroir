@@ -1,0 +1,630 @@
+{"id":"ose-b-0001","category":"ose","mode":"verite","intensity":1,"text":"Quel est le tout premier détail de {autre} qui a attiré ton regard ?"}
+{"id":"ose-b-0002","category":"ose","mode":"verite","intensity":1,"text":"À quel moment de la journée trouves-tu {autre} le plus irrésistible ?"}
+{"id":"ose-b-0003","category":"ose","mode":"verite","intensity":1,"text":"Quelle tenue de {autre} te fait tourner la tête à chaque fois ?"}
+{"id":"ose-b-0004","category":"ose","mode":"verite","intensity":1,"text":"Quel compliment de {autre} sur ton apparence t'a le plus fait rougir ?"}
+{"id":"ose-b-0005","category":"ose","mode":"verite","intensity":1,"text":"Quel sourire de {autre} te désarme le plus vite ?"}
+{"id":"ose-b-0006","category":"ose","mode":"verite","intensity":1,"text":"Si tu devais décrire le charme de {autre} en trois mots, lesquels choisirais-tu ?"}
+{"id":"ose-b-0007","category":"ose","mode":"verite","intensity":1,"text":"Quelle odeur de {autre} pourrais-tu reconnaître les yeux fermés ?"}
+{"id":"ose-b-0008","category":"ose","mode":"verite","intensity":1,"text":"Quel geste anodin de {autre} trouves-tu étrangement séduisant ?"}
+{"id":"ose-b-0009","category":"ose","mode":"verite","intensity":1,"text":"Te souviens-tu du moment où tu as eu envie d'embrasser {autre} pour la première fois ?"}
+{"id":"ose-b-0010","category":"ose","mode":"verite","intensity":1,"text":"Quelle couleur aimerais-tu que {autre} porte plus souvent ?"}
+{"id":"ose-b-0011","category":"ose","mode":"verite","intensity":1,"text":"Quelle partie du visage de {autre} pourrais-tu contempler pendant des heures ?"}
+{"id":"ose-b-0012","category":"ose","mode":"verite","intensity":1,"text":"À quel moment banal du quotidien aimerais-tu recevoir un baiser surprise ?"}
+{"id":"ose-b-0013","category":"ose","mode":"verite","intensity":1,"text":"Quelle chanson te donne immédiatement envie de te rapprocher de {autre} ?"}
+{"id":"ose-b-0014","category":"ose","mode":"verite","intensity":1,"text":"Quel baiser de {autre} te revient encore en mémoire dans les moindres détails ?"}
+{"id":"ose-b-0015","category":"ose","mode":"verite","intensity":1,"text":"Combien de secondes peux-tu soutenir le regard de {autre} sans sourire ?"}
+{"id":"ose-b-0016","category":"ose","mode":"verite","intensity":1,"text":"Quelle habitude de {autre} au réveil te fait craquer ?"}
+{"id":"ose-b-0017","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait le plus d'effet : la voix de {autre} ou son regard ?"}
+{"id":"ose-b-0018","category":"ose","mode":"verite","intensity":1,"text":"Quel accessoire porté par {autre} te plaît tout particulièrement ?"}
+{"id":"ose-b-0019","category":"ose","mode":"verite","intensity":1,"text":"Quel compliment sur son physique n'oses-tu jamais faire à {autre} ?"}
+{"id":"ose-b-0020","category":"ose","mode":"verite","intensity":1,"text":"Quel message de {autre} t'a déjà fait sourire bêtement en public ?"}
+{"id":"ose-b-0021","category":"ose","mode":"verite","intensity":1,"text":"Préfères-tu les baisers lents ou les baisers volés ? Pourquoi ?"}
+{"id":"ose-b-0022","category":"ose","mode":"verite","intensity":1,"text":"Quelle coiffure de {autre} te plaît le plus ?"}
+{"id":"ose-b-0023","category":"ose","mode":"verite","intensity":1,"text":"À quoi as-tu pensé la première fois que vos mains se sont frôlées ?"}
+{"id":"ose-b-0024","category":"ose","mode":"verite","intensity":1,"text":"Quel moment récent t'a rappelé à quel point {autre} a du charme ?"}
+{"id":"ose-b-0025","category":"ose","mode":"verite","intensity":1,"text":"En soirée, quelle attitude de {autre} capte tout de suite ton attention ?"}
+{"id":"ose-b-0026","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te plaît dans la façon dont {autre} rit ?"}
+{"id":"ose-b-0027","category":"ose","mode":"verite","intensity":1,"text":"Tu préfères séduire avec des mots, des regards ou des gestes ?"}
+{"id":"ose-b-0028","category":"ose","mode":"verite","intensity":1,"text":"Quel vêtement de {autre} aimes-tu porter pour garder son odeur sur toi ?"}
+{"id":"ose-b-0029","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton atout séduction numéro un, d'après toi ?"}
+{"id":"ose-b-0030","category":"ose","mode":"verite","intensity":1,"text":"Quel endroit de notre ville te donne envie de voler un baiser à {autre} ?"}
+{"id":"ose-b-0031","category":"ose","mode":"verite","intensity":1,"text":"Quelle est la chose la plus mignonne que {autre} fait pour te séduire ?"}
+{"id":"ose-b-0032","category":"ose","mode":"verite","intensity":1,"text":"Quand {autre} entre dans une pièce, que regardes-tu en premier ?"}
+{"id":"ose-b-0033","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la pensée la plus coquine que tu as eue à propos de {autre} aujourd'hui ?"}
+{"id":"ose-b-0034","category":"ose","mode":"verite","intensity":2,"text":"Quel vêtement de {autre} rêves-tu secrètement de lui retirer ?"}
+{"id":"ose-b-0035","category":"ose","mode":"verite","intensity":2,"text":"Quel endroit du cou ou de la nuque de {autre} préfères-tu embrasser ?"}
+{"id":"ose-b-0036","category":"ose","mode":"verite","intensity":2,"text":"Quel message de {autre} a déjà fait monter ta température en pleine journée ?"}
+{"id":"ose-b-0037","category":"ose","mode":"verite","intensity":2,"text":"Quelle est ta technique secrète pour faire comprendre à {autre} que tu as envie de plus ?"}
+{"id":"ose-b-0038","category":"ose","mode":"verite","intensity":2,"text":"Quelle couleur de sous-vêtements aimerais-tu découvrir sur {autre} ce soir ?"}
+{"id":"ose-b-0039","category":"ose","mode":"verite","intensity":2,"text":"Quel regard de {autre} veut clairement dire « viens par ici » ?"}
+{"id":"ose-b-0040","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que {autre} fait sans le savoir et qui te donne des idées ?"}
+{"id":"ose-b-0041","category":"ose","mode":"verite","intensity":2,"text":"As-tu déjà eu du mal à te concentrer à cause d'une pensée sur {autre} ? Raconte."}
+{"id":"ose-b-0042","category":"ose","mode":"verite","intensity":2,"text":"Quel est le baiser le plus enflammé que vous avez partagé, et où était-ce ?"}
+{"id":"ose-b-0043","category":"ose","mode":"verite","intensity":2,"text":"Quel mot chuchoté à ton oreille te ferait fondre immédiatement ?"}
+{"id":"ose-b-0044","category":"ose","mode":"verite","intensity":2,"text":"Quelle partie du corps de {autre} as-tu le plus envie de couvrir de baisers ?"}
+{"id":"ose-b-0045","category":"ose","mode":"verite","intensity":2,"text":"Quelle tenue rêverais-tu que {autre} porte juste pour toi, à la maison ?"}
+{"id":"ose-b-0046","category":"ose","mode":"verite","intensity":2,"text":"Tu craques davantage pour {autre} quand son attention est ailleurs ou quand ses yeux sont rivés sur toi ?"}
+{"id":"ose-b-0047","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton souvenir le plus coquin d'un baiser dans un lieu inattendu ?"}
+{"id":"ose-b-0048","category":"ose","mode":"verite","intensity":2,"text":"Quel geste de {autre} pendant un baiser te fait perdre le fil ?"}
+{"id":"ose-b-0049","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la dernière fois où {autre} t'a fait de l'effet sans même te toucher ?"}
+{"id":"ose-b-0050","category":"ose","mode":"verite","intensity":2,"text":"Quel vêtement enfiles-tu quand tu veux faire passer un message sans un mot ?"}
+{"id":"ose-b-0051","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus audacieuse que tu aies faite pour attirer l'attention de {autre} ?"}
+{"id":"ose-b-0052","category":"ose","mode":"verite","intensity":2,"text":"Quel sous-entendu de {autre} t'a déjà fait rougir devant d'autres personnes ?"}
+{"id":"ose-b-0053","category":"ose","mode":"verite","intensity":2,"text":"Préfères-tu que {autre} te séduise lentement ou qu'on passe directement aux baisers ?"}
+{"id":"ose-b-0054","category":"ose","mode":"verite","intensity":2,"text":"Quel moment de la semaine choisirais-tu pour une séance de baisers sans fin ?"}
+{"id":"ose-b-0055","category":"ose","mode":"verite","intensity":2,"text":"Quel parfum aimerais-tu que {autre} porte pour un rendez-vous coquin ?"}
+{"id":"ose-b-0056","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus sexy que {autre} fait en cuisine ?"}
+{"id":"ose-b-0057","category":"ose","mode":"verite","intensity":2,"text":"Quel est le texto le plus osé que tu as eu envie d'envoyer à {autre} sans jamais te lancer ?"}
+{"id":"ose-b-0058","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît quand {autre} te regarde te préparer ?"}
+{"id":"ose-b-0059","category":"ose","mode":"verite","intensity":2,"text":"Sur quelle chanson aimerais-tu danser tout contre {autre}, très lentement ?"}
+{"id":"ose-b-0060","category":"ose","mode":"verite","intensity":2,"text":"Quel vêtement à toi semble faire perdre ses moyens à {autre} ?"}
+{"id":"ose-b-0061","category":"ose","mode":"verite","intensity":2,"text":"Sur quelle partie de toi aimes-tu sentir le regard de {autre} s'attarder ?"}
+{"id":"ose-b-0062","category":"ose","mode":"verite","intensity":2,"text":"Quel moment d'attente avant un baiser t'a paru délicieusement long ?"}
+{"id":"ose-b-0063","category":"ose","mode":"verite","intensity":2,"text":"Quelle phrase de {autre} pourrait te faire annuler tous tes plans de la soirée ?"}
+{"id":"ose-b-0064","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la plus jolie façon dont {autre} t'a dit « j'ai envie de toi » sans prononcer ces mots ?"}
+{"id":"ose-b-0065","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton endroit préféré pour recevoir un baiser, à part la bouche ?"}
+{"id":"ose-b-0066","category":"ose","mode":"verite","intensity":2,"text":"Que ressens-tu quand {autre} mordille sa lèvre en te regardant ?"}
+{"id":"ose-b-0067","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton souvenir préféré de {autre} sortant de la douche ?"}
+{"id":"ose-b-0068","category":"ose","mode":"verite","intensity":2,"text":"Qu'aimerais-tu que {autre} ose plus souvent pour te séduire ?"}
+{"id":"ose-b-0069","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton jeu de regards préféré avec {autre} au milieu d'une foule ?"}
+{"id":"ose-b-0070","category":"ose","mode":"verite","intensity":2,"text":"Quel détail d'une tenue de {autre} a déjà accaparé toute ton attention ?"}
+{"id":"ose-b-0071","category":"ose","mode":"verite","intensity":2,"text":"Si tu pouvais rejouer une soirée de séduction avec {autre}, laquelle choisirais-tu ?"}
+{"id":"ose-b-0072","category":"ose","mode":"verite","intensity":2,"text":"Quel jeu de société pourrait devenir beaucoup plus coquin avec de nouvelles règles ?"}
+{"id":"ose-b-0073","category":"ose","mode":"verite","intensity":2,"text":"As-tu une préférence entre être la personne qui séduit ou celle qu'on séduit ?"}
+{"id":"ose-b-0074","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus coquine qu'on pourrait te murmurer dans un ascenseur ?"}
+{"id":"ose-b-0075","category":"ose","mode":"verite","intensity":2,"text":"Quel souvenir de vacances avec {autre} te donne encore des frissons ?"}
+{"id":"ose-b-0076","category":"ose","mode":"verite","intensity":2,"text":"Quelle est l'arme de séduction absolue de {autre}, d'après toi ?"}
+{"id":"ose-b-0077","category":"ose","mode":"verite","intensity":2,"text":"Quel compliment sur ton corps aimerais-tu entendre plus souvent de la bouche de {autre} ?"}
+{"id":"ose-b-0078","category":"ose","mode":"verite","intensity":2,"text":"Quel baiser aimerais-tu recevoir quand tu rentres ce soir ?"}
+{"id":"ose-b-0079","category":"ose","mode":"verite","intensity":2,"text":"Quelle est ta façon préférée de réveiller {autre} quand tu as des idées en tête ?"}
+{"id":"ose-b-0080","category":"ose","mode":"verite","intensity":2,"text":"Quel signal discret pourrions-nous inventer pour dire « rentrons vite » ?"}
+{"id":"ose-b-0081","category":"ose","mode":"verite","intensity":2,"text":"Quelle tenue de soirée de {autre} te donne envie de quitter la fête plus tôt ?"}
+{"id":"ose-b-0082","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus sensuelle que {autre} t'ait faite avec un simple regard ?"}
+{"id":"ose-b-0083","category":"ose","mode":"verite","intensity":3,"text":"Quel est le moment où tu as eu le plus envie de {autre}, au point d'avoir du mal à attendre ?"}
+{"id":"ose-b-0084","category":"ose","mode":"verite","intensity":3,"text":"À quoi penses-tu quand tu imagines une nuit blanche avec {autre}, et pas pour discuter ?"}
+{"id":"ose-b-0085","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait basculer d'un câlin tendre à une envie brûlante ?"}
+{"id":"ose-b-0086","category":"ose","mode":"verite","intensity":3,"text":"Sur quelle musique aimerais-tu que {autre} t'offre un effeuillage rien que pour toi ?"}
+{"id":"ose-b-0087","category":"ose","mode":"verite","intensity":3,"text":"Quel endroit inattendu de la maison te donne des idées pas très sages quand {autre} s'y trouve ?"}
+{"id":"ose-b-0088","category":"ose","mode":"verite","intensity":3,"text":"Quel baiser de {autre} te fait comprendre que la soirée va très vite déraper ?"}
+{"id":"ose-b-0089","category":"ose","mode":"verite","intensity":3,"text":"Combien de temps pourrais-tu résister si {autre} te provoquait avec des baisers lents ?"}
+{"id":"ose-b-0090","category":"ose","mode":"verite","intensity":3,"text":"Quelle est la plus forte tension que tu as ressentie avec {autre} dans un lieu où rien n'était possible ?"}
+{"id":"ose-b-0091","category":"ose","mode":"verite","intensity":3,"text":"Quel détail de {autre} te donne envie de tout lâcher pour l'emmener dans la chambre ?"}
+{"id":"ose-b-0092","category":"ose","mode":"verite","intensity":3,"text":"Préfères-tu qu'on se déshabille lentement ou dans la précipitation ?"}
+{"id":"ose-b-0093","category":"ose","mode":"verite","intensity":3,"text":"Quelle est la promesse la plus audacieuse que tu aimerais murmurer à {autre} ce soir ?"}
+{"id":"ose-b-0094","category":"ose","mode":"verite","intensity":3,"text":"Quel geste de {autre} fait monter ton désir en quelques secondes ?"}
+{"id":"ose-b-0095","category":"ose","mode":"verite","intensity":3,"text":"Quelle envie brûlante as-tu gardée pour toi lors de notre dernier baiser ?"}
+{"id":"ose-b-0096","category":"ose","mode":"verite","intensity":3,"text":"Quand as-tu senti pour la dernière fois que {autre} te dévorait des yeux ?"}
+{"id":"ose-b-0097","category":"ose","mode":"verite","intensity":3,"text":"Quand tu as très envie de {autre}, à quel signe de ton corps le sens-tu en premier ?"}
+{"id":"ose-b-0098","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce que tu ressens quand {autre} te désire et ne le cache pas ?"}
+{"id":"ose-b-0099","category":"ose","mode":"verite","intensity":3,"text":"Quelle est la scène de séduction la plus torride dont tu rêves avec {autre} ?"}
+{"id":"ose-b-0100","category":"ose","mode":"verite","intensity":3,"text":"Quel soupir de {autre} te fait instantanément perdre la tête ?"}
+{"id":"ose-b-0101","category":"ose","mode":"verite","intensity":1,"text":"Quelle intonation de {autre} te fait sourire dès le premier mot ?"}
+{"id":"ose-b-0102","category":"ose","mode":"verite","intensity":1,"text":"Quel surnom que {autre} te donne te fait fondre à tous les coups ?"}
+{"id":"ose-b-0103","category":"ose","mode":"verite","intensity":1,"text":"Te souviens-tu de la première fois où tu as trouvé {autre} terriblement sexy ?"}
+{"id":"ose-b-0104","category":"ose","mode":"verite","intensity":1,"text":"Quel lieu de vacances te semble le plus propice à la séduction ?"}
+{"id":"ose-b-0105","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te plaît chez {autre} quand ses cheveux sont en bataille ?"}
+{"id":"ose-b-0106","category":"ose","mode":"verite","intensity":1,"text":"Quelle est ta façon préférée de montrer à {autre} que son charme opère ?"}
+{"id":"ose-b-0107","category":"ose","mode":"verite","intensity":1,"text":"Est-ce que tu flirtes davantage par messages ou en face à face ?"}
+{"id":"ose-b-0108","category":"ose","mode":"verite","intensity":1,"text":"Quel détail des mains de {autre} trouves-tu le plus joli ?"}
+{"id":"ose-b-0109","category":"ose","mode":"verite","intensity":1,"text":"Quelle saison met le plus en valeur le charme de {autre} ?"}
+{"id":"ose-b-0110","category":"ose","mode":"verite","intensity":1,"text":"Si notre histoire était un film, quelle scène de séduction serait la plus réussie ?"}
+{"id":"ose-b-0111","category":"ose","mode":"verite","intensity":1,"text":"Quel mot de {autre} te donne des papillons dans le ventre ?"}
+{"id":"ose-b-0112","category":"ose","mode":"verite","intensity":1,"text":"Quelle expression du visage de {autre} te fait craquer à tous les coups ?"}
+{"id":"ose-b-0113","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton souvenir préféré d'un regard échangé avec {autre} à l'autre bout d'une pièce ?"}
+{"id":"ose-b-0114","category":"ose","mode":"verite","intensity":1,"text":"Quel baiser de cinéma aimerais-tu rejouer avec {autre} ?"}
+{"id":"ose-b-0115","category":"ose","mode":"verite","intensity":1,"text":"Quel moment de complicité avec {autre} s'est transformé en flirt sans prévenir ?"}
+{"id":"ose-b-0116","category":"ose","mode":"verite","intensity":1,"text":"Préfères-tu un baiser sur le front, dans le cou ou sur la main ?"}
+{"id":"ose-b-0117","category":"ose","mode":"verite","intensity":1,"text":"Quelle tenue de {autre} te rappelle nos débuts ?"}
+{"id":"ose-b-0118","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait rougir le plus vite quand {autre} te regarde ?"}
+{"id":"ose-b-0119","category":"ose","mode":"verite","intensity":1,"text":"Quelle activité banale devient sensuelle dès que tu la partages avec {autre} ?"}
+{"id":"ose-b-0120","category":"ose","mode":"verite","intensity":1,"text":"Quel est le premier compliment que tu as fait à {autre}, si tu t'en souviens ?"}
+{"id":"ose-b-0121","category":"ose","mode":"verite","intensity":1,"text":"Quel geste de {autre} te donne envie de lui sauter au cou ?"}
+{"id":"ose-b-0122","category":"ose","mode":"verite","intensity":1,"text":"Le parfum de {autre} : tu préfères le sentir le matin ou le soir ?"}
+{"id":"ose-b-0123","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton plus beau souvenir de danse avec {autre} ?"}
+{"id":"ose-b-0124","category":"ose","mode":"verite","intensity":1,"text":"Quel trait de caractère de {autre} rend son charme encore plus fort ?"}
+{"id":"ose-b-0125","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton « type » idéal, et en quoi {autre} y correspond ?"}
+{"id":"ose-b-0126","category":"ose","mode":"verite","intensity":1,"text":"Quelle petite attention de {autre} te fait l'effet d'un flirt ?"}
+{"id":"ose-b-0127","category":"ose","mode":"verite","intensity":1,"text":"Quelle image de {autre} te vient en tête quand cette personne te manque ?"}
+{"id":"ose-b-0128","category":"ose","mode":"verite","intensity":1,"text":"Quel est le baiser le plus maladroit et le plus mignon qu'on ait échangé ?"}
+{"id":"ose-b-0129","category":"ose","mode":"verite","intensity":2,"text":"Quel est le message le plus coquin que tu aies reçu de {autre} ?"}
+{"id":"ose-b-0130","category":"ose","mode":"verite","intensity":2,"text":"Quel mot doux un peu osé aimerais-tu que {autre} t'écrive en pleine réunion ?"}
+{"id":"ose-b-0131","category":"ose","mode":"verite","intensity":2,"text":"Quelle voix prend {autre} quand l'envie s'en mêle, et qu'est-ce que ça te fait ?"}
+{"id":"ose-b-0132","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît le plus quand {autre} te chuchote quelque chose à l'oreille ?"}
+{"id":"ose-b-0133","category":"ose","mode":"verite","intensity":2,"text":"Quel jeu de rôle de séduction te tente : deux inconnus qui se croisent, un premier rendez-vous ou autre chose ?"}
+{"id":"ose-b-0134","category":"ose","mode":"verite","intensity":2,"text":"Si on se rencontrait aujourd'hui pour la première fois, quelle phrase de drague utiliserais-tu ?"}
+{"id":"ose-b-0135","category":"ose","mode":"verite","intensity":2,"text":"Quelle partie de ton corps adores-tu que {autre} masse ?"}
+{"id":"ose-b-0136","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui rend un massage de {autre} irrésistible pour toi ?"}
+{"id":"ose-b-0137","category":"ose","mode":"verite","intensity":2,"text":"Quel est l'endroit le plus improbable où tu as eu envie d'embrasser {autre} ?"}
+{"id":"ose-b-0138","category":"ose","mode":"verite","intensity":2,"text":"Selon toi, quel vêtement à toi {autre} préfère te voir porter ?"}
+{"id":"ose-b-0139","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la tenue la plus audacieuse que tu oserais porter pour un dîner avec {autre} ?"}
+{"id":"ose-b-0140","category":"ose","mode":"verite","intensity":2,"text":"As-tu déjà choisi une tenue uniquement pour voir la réaction de {autre} ? Laquelle ?"}
+{"id":"ose-b-0141","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît dans le fait de faire attendre {autre} ?"}
+{"id":"ose-b-0142","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton moment préféré pour flirter par messages avec {autre} ?"}
+{"id":"ose-b-0143","category":"ose","mode":"verite","intensity":2,"text":"Quelle émoticône résume le mieux ton humeur quand tu penses à {autre} le soir ?"}
+{"id":"ose-b-0144","category":"ose","mode":"verite","intensity":2,"text":"Quel est le geste le plus sensuel qu'on puisse faire en dansant, selon toi ?"}
+{"id":"ose-b-0145","category":"ose","mode":"verite","intensity":2,"text":"Quelle chanson mettrais-tu pour une soirée de séduction à la maison ?"}
+{"id":"ose-b-0146","category":"ose","mode":"verite","intensity":2,"text":"Quelle zone du dos de {autre} préfères-tu effleurer du bout des doigts ?"}
+{"id":"ose-b-0147","category":"ose","mode":"verite","intensity":2,"text":"Quelle proposition coquine aimerais-tu que {autre} te fasse un dimanche matin ?"}
+{"id":"ose-b-0148","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu trouves le plus sexy : quand {autre} prend l'initiative ou quand cette personne te laisse mener ?"}
+{"id":"ose-b-0149","category":"ose","mode":"verite","intensity":2,"text":"Quel baiser échangé en public, en toute discrétion, t'a fait le plus d'effet ?"}
+{"id":"ose-b-0150","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus sexy que {autre} t'ait dite au téléphone ?"}
+{"id":"ose-b-0151","category":"ose","mode":"verite","intensity":2,"text":"Quelle tenue de nuit de {autre} chasse instantanément ta fatigue ?"}
+{"id":"ose-b-0152","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui réveille ton envie de séduire {autre} comme au premier jour ?"}
+{"id":"ose-b-0153","category":"ose","mode":"verite","intensity":2,"text":"Dans quelle pièce de la maison aimes-tu le plus qu'on se cherche ?"}
+{"id":"ose-b-0154","category":"ose","mode":"verite","intensity":2,"text":"Quelle est ta réaction secrète quand {autre} porte quelque chose de très ajusté ?"}
+{"id":"ose-b-0155","category":"ose","mode":"verite","intensity":2,"text":"Quel est le plus long baiser dont tu te souviens avec {autre} ?"}
+{"id":"ose-b-0156","category":"ose","mode":"verite","intensity":2,"text":"Quel ingrédient rend un baiser de {autre} absolument parfait ?"}
+{"id":"ose-b-0157","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu remarques chez {autre} quand cette personne essaie de te séduire ?"}
+{"id":"ose-b-0158","category":"ose","mode":"verite","intensity":2,"text":"Si tu devais séduire {autre} sans dire un mot, que ferais-tu ?"}
+{"id":"ose-b-0159","category":"ose","mode":"verite","intensity":2,"text":"Quel comportement te fait dire « là, {autre} me cherche » ?"}
+{"id":"ose-b-0160","category":"ose","mode":"verite","intensity":2,"text":"Quel sous-entendu aimes-tu glisser dans une conversation banale avec {autre} ?"}
+{"id":"ose-b-0161","category":"ose","mode":"verite","intensity":2,"text":"Quel est le meilleur moment pour un regard appuyé : au dîner, en voiture ou en promenade ?"}
+{"id":"ose-b-0162","category":"ose","mode":"verite","intensity":2,"text":"Quelle photo de {autre} regardes-tu quand cette personne te manque un peu trop ?"}
+{"id":"ose-b-0163","category":"ose","mode":"verite","intensity":2,"text":"As-tu déjà rougi en repensant à une soirée avec {autre} au pire moment ? Raconte."}
+{"id":"ose-b-0164","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton plus grand talent de séduction caché ?"}
+{"id":"ose-b-0165","category":"ose","mode":"verite","intensity":2,"text":"Que ferais-tu si {autre} t'attendait à la maison avec des bougies et une musique douce ?"}
+{"id":"ose-b-0166","category":"ose","mode":"verite","intensity":2,"text":"Quel moment des préparatifs d'une soirée à deux est le plus troublant pour toi ?"}
+{"id":"ose-b-0167","category":"ose","mode":"verite","intensity":2,"text":"Quel petit rituel de séduction aimerais-tu créer avec {autre} ?"}
+{"id":"ose-b-0168","category":"ose","mode":"verite","intensity":2,"text":"Que ressens-tu quand {autre} te frôle sans prévenir ?"}
+{"id":"ose-b-0169","category":"ose","mode":"verite","intensity":2,"text":"Quel est le baiser le plus inattendu que {autre} t'a donné ?"}
+{"id":"ose-b-0170","category":"ose","mode":"verite","intensity":2,"text":"Est-ce que tu fais exprès de porter certaines choses pour provoquer {autre} ? Lesquelles ?"}
+{"id":"ose-b-0171","category":"ose","mode":"verite","intensity":2,"text":"Qu'aimerais-tu entendre de {autre} juste avant d'éteindre la lumière ?"}
+{"id":"ose-b-0172","category":"ose","mode":"verite","intensity":2,"text":"Quel jeu de séduction à distance aimerais-tu tester avec {autre} ?"}
+{"id":"ose-b-0173","category":"ose","mode":"verite","intensity":2,"text":"Quel détail te fait comprendre que {autre} a envie de toi ?"}
+{"id":"ose-b-0174","category":"ose","mode":"verite","intensity":2,"text":"Quelle tenue de sport de {autre} te déconcentre le plus ?"}
+{"id":"ose-b-0175","category":"ose","mode":"verite","intensity":2,"text":"Si {autre} te lançait un regard complice maintenant, qu'en comprendrais-tu ?"}
+{"id":"ose-b-0176","category":"ose","mode":"verite","intensity":3,"text":"Quelle est la pensée la plus brûlante que tu as eue sur {autre} en public ?"}
+{"id":"ose-b-0177","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui, chez {autre}, te donne envie de faire l'amour sur-le-champ ?"}
+{"id":"ose-b-0178","category":"ose","mode":"verite","intensity":3,"text":"Dans quel endroit de la maison rêverais-tu d'un baiser fougueux contre un mur ?"}
+{"id":"ose-b-0179","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce que {autre} pourrait faire pour te faire perdre toute retenue ?"}
+{"id":"ose-b-0180","category":"ose","mode":"verite","intensity":3,"text":"Quelle est la chose la plus audacieuse que tu aimerais vivre avec {autre} dans une chambre d'hôtel ?"}
+{"id":"ose-b-0181","category":"ose","mode":"verite","intensity":3,"text":"Quel souvenir intime avec {autre} te fait encore monter le rouge aux joues ?"}
+{"id":"ose-b-0182","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît le plus dans le fait de languir avant de céder à {autre} ?"}
+{"id":"ose-b-0183","category":"ose","mode":"verite","intensity":3,"text":"Quel endroit de ton corps aimerais-tu que {autre} découvre lentement, du bout des lèvres ?"}
+{"id":"ose-b-0184","category":"ose","mode":"verite","intensity":3,"text":"Quelle phrase brûlante aimerais-tu trouver écrite sur un post-it de {autre} ?"}
+{"id":"ose-b-0185","category":"ose","mode":"verite","intensity":3,"text":"As-tu déjà fait un rêve brûlant avec {autre} ? Que peux-tu en raconter ?"}
+{"id":"ose-b-0186","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît le plus quand {autre} prend les commandes pour la soirée ?"}
+{"id":"ose-b-0187","category":"ose","mode":"verite","intensity":3,"text":"Préfères-tu une nuit passionnée improvisée ou une soirée de séduction préparée dans les moindres détails ?"}
+{"id":"ose-b-0188","category":"ose","mode":"verite","intensity":3,"text":"En un seul mot, qu'aimerais-tu que {autre} te fasse ce soir ?"}
+{"id":"ose-b-0189","category":"ose","mode":"verite","intensity":3,"text":"Quel geste de {autre} sous la couette te fait perdre la notion du temps ?"}
+{"id":"ose-b-0190","category":"ose","mode":"verite","intensity":3,"text":"Sans aucune pudeur, qu'est-ce qui t'attire le plus physiquement chez {autre} ?"}
+{"id":"ose-b-0191","category":"ose","mode":"verite","intensity":3,"text":"Quelle douche à deux te reste en mémoire, et pourquoi ?"}
+{"id":"ose-b-0192","category":"ose","mode":"verite","intensity":3,"text":"Quel est ton fantasme de séduction le plus avouable avec {autre} ?"}
+{"id":"ose-b-0193","category":"ose","mode":"verite","intensity":3,"text":"Si {autre} te bandait les yeux, quelle sensation aimerais-tu découvrir en premier ?"}
+{"id":"ose-b-0194","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait le plus craquer quand {autre} prend son temps pour te déshabiller ?"}
+{"id":"ose-b-0195","category":"ose","mode":"verite","intensity":3,"text":"Quelle partie du corps de {autre} réveille ton désir rien qu'en la regardant ?"}
+{"id":"ose-b-0196","category":"ose","mode":"verite","intensity":3,"text":"Quelle envie inavouée aimerais-tu enfin confier à {autre} ce soir ?"}
+{"id":"ose-b-0197","category":"ose","mode":"verite","intensity":3,"text":"Quelle limite aimes-tu frôler dans nos jeux de séduction, sans jamais la dépasser ?"}
+{"id":"ose-b-0198","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui t'aide à oser davantage dans nos moments brûlants ?"}
+{"id":"ose-b-0199","category":"ose","mode":"verite","intensity":3,"text":"Quel est le compliment le plus brûlant qu'on puisse te faire au réveil ?"}
+{"id":"ose-b-0200","category":"ose","mode":"verite","intensity":3,"text":"Si tu pouvais rendre {autre} accro à un seul de tes gestes, lequel choisirais-tu ?"}
+{"id":"ose-b-0201","category":"ose","mode":"verite","intensity":1,"text":"Quel grain de beauté ou petit détail de la peau de {autre} connais-tu par cœur ?"}
+{"id":"ose-b-0202","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton souvenir le plus mignon d'un flirt avec {autre} au tout début ?"}
+{"id":"ose-b-0203","category":"ose","mode":"verite","intensity":1,"text":"Sous la pluie, sous la neige ou au soleil : où rêves-tu d'embrasser {autre} ?"}
+{"id":"ose-b-0204","category":"ose","mode":"verite","intensity":1,"text":"Quel pyjama de {autre} trouves-tu le plus attendrissant ?"}
+{"id":"ose-b-0205","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te plaît le plus quand {autre} porte une de tes affaires ?"}
+{"id":"ose-b-0206","category":"ose","mode":"verite","intensity":1,"text":"Quel est le compliment que tu fais le plus souvent à {autre} ?"}
+{"id":"ose-b-0207","category":"ose","mode":"verite","intensity":1,"text":"Quel trait du visage de {autre} aimerais-tu dessiner du bout du doigt ?"}
+{"id":"ose-b-0208","category":"ose","mode":"verite","intensity":1,"text":"Tu préfères flirter avec {autre} en chuchotant ou en riant ?"}
+{"id":"ose-b-0209","category":"ose","mode":"verite","intensity":1,"text":"Quelle senteur de bougie évoque pour toi une soirée de séduction ?"}
+{"id":"ose-b-0210","category":"ose","mode":"verite","intensity":1,"text":"Quel regard de {autre} t'a fait comprendre, au début, que l'attirance était réciproque ?"}
+{"id":"ose-b-0211","category":"ose","mode":"verite","intensity":1,"text":"Quelle est ta manière préférée d'accueillir {autre} quand on se retrouve le soir ?"}
+{"id":"ose-b-0212","category":"ose","mode":"verite","intensity":1,"text":"Quel geste de {autre} te fait craquer quand cette personne est concentrée ?"}
+{"id":"ose-b-0213","category":"ose","mode":"verite","intensity":1,"text":"Si tu devais choisir une photo de {autre} pour un fond d'écran secret, laquelle prendrais-tu ?"}
+{"id":"ose-b-0214","category":"ose","mode":"verite","intensity":1,"text":"Quelle tenue décontractée de {autre} trouves-tu plus séduisante qu'une tenue de soirée ?"}
+{"id":"ose-b-0215","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton mot préféré pour décrire la voix de {autre} ?"}
+{"id":"ose-b-0216","category":"ose","mode":"verite","intensity":1,"text":"Quelle est la première chose que tu as trouvée irrésistible dans la personnalité de {autre} ?"}
+{"id":"ose-b-0217","category":"ose","mode":"verite","intensity":1,"text":"Quel est le baiser le plus doux que tu te rappelles ?"}
+{"id":"ose-b-0218","category":"ose","mode":"verite","intensity":1,"text":"Combien de fois par jour penses-tu à embrasser {autre}, à peu près ?"}
+{"id":"ose-b-0219","category":"ose","mode":"verite","intensity":1,"text":"Quel détail de {autre} remarques-tu alors que personne d'autre ne le voit ?"}
+{"id":"ose-b-0220","category":"ose","mode":"verite","intensity":1,"text":"Dans quel restaurant aurais-tu adoré faire du pied à {autre} sous la table ?"}
+{"id":"ose-b-0221","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait sourire quand {autre} essaie de cacher son trouble ?"}
+{"id":"ose-b-0222","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton moment préféré pour observer {autre} en douce ?"}
+{"id":"ose-b-0223","category":"ose","mode":"verite","intensity":1,"text":"Quel vêtement rêverais-tu d'offrir à {autre}, pour le plaisir des yeux ?"}
+{"id":"ose-b-0224","category":"ose","mode":"verite","intensity":1,"text":"Quel est le flirt le plus discret que vous ayez réussi pendant un repas de famille ?"}
+{"id":"ose-b-0225","category":"ose","mode":"verite","intensity":1,"text":"Quel film vous a déjà donné envie de vous rapprocher sur le canapé ?"}
+{"id":"ose-b-0226","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fascine dans les yeux de {autre} ?"}
+{"id":"ose-b-0227","category":"ose","mode":"verite","intensity":1,"text":"Quel petit défaut de {autre} trouves-tu finalement plein de charme ?"}
+{"id":"ose-b-0228","category":"ose","mode":"verite","intensity":1,"text":"Quand {autre} rit aux éclats, qu'as-tu envie de faire ?"}
+{"id":"ose-b-0229","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton look préféré chez {autre} : naturel, élégant ou décontracté ?"}
+{"id":"ose-b-0230","category":"ose","mode":"verite","intensity":1,"text":"Entre amis, quelle qualité de {autre} te donne envie de lui voler un baiser ?"}
+{"id":"ose-b-0231","category":"ose","mode":"verite","intensity":2,"text":"Quelle partie de toi {autre} effleure le plus souvent sans même y penser ?"}
+{"id":"ose-b-0232","category":"ose","mode":"verite","intensity":2,"text":"Que ressens-tu quand {autre} pose sa main dans le creux de ton dos ?"}
+{"id":"ose-b-0233","category":"ose","mode":"verite","intensity":2,"text":"Quel tatouage, grain de beauté ou détail caché de {autre} aimes-tu embrasser ?"}
+{"id":"ose-b-0234","category":"ose","mode":"verite","intensity":2,"text":"Quel haut de {autre} aimes-tu enfiler pour provoquer un peu ?"}
+{"id":"ose-b-0235","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton meilleur souvenir de flirt en voiture avec {autre} ?"}
+{"id":"ose-b-0236","category":"ose","mode":"verite","intensity":2,"text":"À quel jeu de séduction préfères-tu jouer en vacances ?"}
+{"id":"ose-b-0237","category":"ose","mode":"verite","intensity":2,"text":"Sur la plage, qu'est-ce qui te fait le plus d'effet chez {autre} ?"}
+{"id":"ose-b-0238","category":"ose","mode":"verite","intensity":2,"text":"Quelle phrase de drague ratée te ferait quand même craquer venant de {autre} ?"}
+{"id":"ose-b-0239","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui t'émoustille le plus : l'attente, la surprise ou la provocation ?"}
+{"id":"ose-b-0240","category":"ose","mode":"verite","intensity":2,"text":"Quel est le dernier moment où tu as eu envie de {autre} en pleine conversation sérieuse ?"}
+{"id":"ose-b-0241","category":"ose","mode":"verite","intensity":2,"text":"Quel aliment trouves-tu le plus sensuel à partager à deux ?"}
+{"id":"ose-b-0242","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu ressens quand {autre} te regarde sortir de la salle de bain ?"}
+{"id":"ose-b-0243","category":"ose","mode":"verite","intensity":2,"text":"Selon toi, quelle tenue toute simple te rend irrésistible aux yeux de {autre} ?"}
+{"id":"ose-b-0244","category":"ose","mode":"verite","intensity":2,"text":"Si tu devais écrire un message coquin à {autre} en cinq mots, lesquels choisirais-tu ?"}
+{"id":"ose-b-0245","category":"ose","mode":"verite","intensity":2,"text":"Quand {autre} montre de l'assurance, qu'est-ce que ça réveille chez toi ?"}
+{"id":"ose-b-0246","category":"ose","mode":"verite","intensity":2,"text":"Te souviens-tu d'un fou rire qui s'est transformé en baiser passionné ?"}
+{"id":"ose-b-0247","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton endroit préféré pour un câlin un peu trop long ?"}
+{"id":"ose-b-0248","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus coquine que tu as faite pour fêter une occasion avec {autre} ?"}
+{"id":"ose-b-0249","category":"ose","mode":"verite","intensity":2,"text":"Quel geste de {autre} te fait frissonner jusque dans la nuque ?"}
+{"id":"ose-b-0250","category":"ose","mode":"verite","intensity":2,"text":"Quel est le vêtement le plus sexy que tu possèdes, selon toi ?"}
+{"id":"ose-b-0251","category":"ose","mode":"verite","intensity":2,"text":"Quel scénario de rendez-vous secret aimerais-tu organiser avec {autre} ?"}
+{"id":"ose-b-0252","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te donne envie de jouer avec le feu quand {autre} est à côté de toi ?"}
+{"id":"ose-b-0253","category":"ose","mode":"verite","intensity":2,"text":"Quel genre de messages préfères-tu recevoir : tendres, taquins ou carrément osés ?"}
+{"id":"ose-b-0254","category":"ose","mode":"verite","intensity":2,"text":"Comment aimerais-tu que {autre} t'aborde si on ne se connaissait pas ?"}
+{"id":"ose-b-0255","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu trouves sexy dans la façon dont {autre} conduit, cuisine ou travaille ?"}
+{"id":"ose-b-0256","category":"ose","mode":"verite","intensity":2,"text":"Quel contact très léger de {autre} te fait le plus d'effet ?"}
+{"id":"ose-b-0257","category":"ose","mode":"verite","intensity":2,"text":"Quelle partie de toi est la plus sensible aux chatouilles de {autre}, et à ses baisers ?"}
+{"id":"ose-b-0258","category":"ose","mode":"verite","intensity":2,"text":"Quels dessous trouves-tu les plus séduisants : élégants, colorés ou tout simples ?"}
+{"id":"ose-b-0259","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu adores qu'on fasse juste avant de s'endormir, quand l'envie est là ?"}
+{"id":"ose-b-0260","category":"ose","mode":"verite","intensity":2,"text":"Quel baiser pourrais-tu donner à {autre} pour qu'on oublie le reste du monde ?"}
+{"id":"ose-b-0261","category":"ose","mode":"verite","intensity":2,"text":"Si tu pouvais lire dans les pensées coquines de {autre} pendant une minute, que voudrais-tu découvrir ?"}
+{"id":"ose-b-0262","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la plus grande tentation que représente {autre} pour toi le matin ?"}
+{"id":"ose-b-0263","category":"ose","mode":"verite","intensity":2,"text":"Quelle activité sportive à deux pourrait devenir terriblement séduisante ?"}
+{"id":"ose-b-0264","category":"ose","mode":"verite","intensity":2,"text":"Quelle remarque coquine de {autre} t'a le plus fait rire ?"}
+{"id":"ose-b-0265","category":"ose","mode":"verite","intensity":2,"text":"Que ferais-tu si tu trouvais un mot coquin de {autre} dans ta poche ?"}
+{"id":"ose-b-0266","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te fait craquer chez {autre} après une longue journée ?"}
+{"id":"ose-b-0267","category":"ose","mode":"verite","intensity":2,"text":"As-tu déjà eu envie de {autre} rien qu'en observant ses mains ? Raconte."}
+{"id":"ose-b-0268","category":"ose","mode":"verite","intensity":2,"text":"Quel serait ton déguisement le plus séduisant pour une soirée à thème ?"}
+{"id":"ose-b-0269","category":"ose","mode":"verite","intensity":2,"text":"Quel gage coquin aimerais-tu que {autre} te donne lors d'un jeu ?"}
+{"id":"ose-b-0270","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu ressens quand {autre} t'enlace par derrière ?"}
+{"id":"ose-b-0271","category":"ose","mode":"verite","intensity":2,"text":"Quel moment de complicité en cuisine a déjà failli faire brûler le dîner ?"}
+{"id":"ose-b-0272","category":"ose","mode":"verite","intensity":2,"text":"Quel coin de ta peau aimerais-tu que {autre} explore davantage ?"}
+{"id":"ose-b-0273","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui rend un « bonne nuit » de {autre} beaucoup moins innocent ?"}
+{"id":"ose-b-0274","category":"ose","mode":"verite","intensity":2,"text":"Quelle question coquine n'as-tu encore jamais posée à {autre} ?"}
+{"id":"ose-b-0275","category":"ose","mode":"verite","intensity":2,"text":"Te souviens-tu d'un moment où le charme de {autre} t'a littéralement coupé le souffle ?"}
+{"id":"ose-b-0276","category":"ose","mode":"verite","intensity":2,"text":"Quel est le plus beau compliment qu'on puisse faire à tes lèvres ?"}
+{"id":"ose-b-0277","category":"ose","mode":"verite","intensity":2,"text":"Quelle est ta stratégie pour obtenir un baiser quand {autre} fait semblant de résister ?"}
+{"id":"ose-b-0278","category":"ose","mode":"verite","intensity":2,"text":"Quelle chanson d'amour un peu sensuelle évoque {autre} pour toi ?"}
+{"id":"ose-b-0279","category":"ose","mode":"verite","intensity":2,"text":"Quel est le meilleur endroit pour un tête-à-tête qui finit en séance de câlins ?"}
+{"id":"ose-b-0280","category":"ose","mode":"verite","intensity":2,"text":"Si tu avais un superpouvoir de séduction, lequel utiliserais-tu sur {autre} ?"}
+{"id":"ose-b-0281","category":"ose","mode":"verite","intensity":3,"text":"Dans quelle tenue brûlante aimerais-tu que {autre} t'attende ce soir ?"}
+{"id":"ose-b-0282","category":"ose","mode":"verite","intensity":3,"text":"Quelle envie te traverse quand {autre} se penche pour te murmurer quelque chose ?"}
+{"id":"ose-b-0283","category":"ose","mode":"verite","intensity":3,"text":"Quel lieu, chez nous, aimerais-tu enfin baptiser avec {autre} ?"}
+{"id":"ose-b-0284","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui fait monter ton impatience quand {autre} prend tout son temps ?"}
+{"id":"ose-b-0285","category":"ose","mode":"verite","intensity":3,"text":"Quelle partie de ton corps rêves-tu de sentir sous les mains de {autre} ce soir ?"}
+{"id":"ose-b-0286","category":"ose","mode":"verite","intensity":3,"text":"Quel est le message le plus brûlant que tu pourrais envoyer à {autre} maintenant ?"}
+{"id":"ose-b-0287","category":"ose","mode":"verite","intensity":3,"text":"Quel moment de nos soirées brûlantes aimerais-tu faire durer deux fois plus longtemps ?"}
+{"id":"ose-b-0288","category":"ose","mode":"verite","intensity":3,"text":"Quand tu repenses à notre dernière nuit ensemble, quelle image te vient en premier ?"}
+{"id":"ose-b-0289","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît dans le fait que {autre} connaisse si bien ton corps ?"}
+{"id":"ose-b-0290","category":"ose","mode":"verite","intensity":3,"text":"Si tu devais guider les mains de {autre} ce soir, par où commencerais-tu ?"}
+{"id":"ose-b-0291","category":"ose","mode":"verite","intensity":3,"text":"Quel compliment sur ton corps te ferait chavirer au moment de te glisser sous les draps ?"}
+{"id":"ose-b-0292","category":"ose","mode":"verite","intensity":3,"text":"Quel baiser de {autre} te donne la chair de poule de la tête aux pieds ?"}
+{"id":"ose-b-0293","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend une étreinte de {autre} absolument brûlante pour toi ?"}
+{"id":"ose-b-0294","category":"ose","mode":"verite","intensity":3,"text":"Quelle idée brûlante t'est déjà venue en regardant {autre} se changer ?"}
+{"id":"ose-b-0295","category":"ose","mode":"verite","intensity":3,"text":"Préfères-tu que {autre} t'avoue son désir avec des mots ou avec des gestes ?"}
+{"id":"ose-b-0296","category":"ose","mode":"verite","intensity":3,"text":"Quelle tension aimerais-tu faire monter toute une journée avant de retrouver {autre} le soir ?"}
+{"id":"ose-b-0297","category":"ose","mode":"verite","intensity":3,"text":"Que n'oses-tu pas encore demander à {autre} pour une nuit à deux ?"}
+{"id":"ose-b-0298","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait le plus d'effet : un regard brûlant, une main baladeuse ou un mot à l'oreille ?"}
+{"id":"ose-b-0299","category":"ose","mode":"verite","intensity":3,"text":"Quelle saison rend nos nuits les plus torrides, selon toi ?"}
+{"id":"ose-b-0300","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te donne envie de dire oui tout de suite quand {autre} te fait une proposition brûlante ?"}
+{"id":"ose-b-0301","category":"ose","mode":"verite","intensity":1,"text":"Quelle est la chose la plus romantique et un peu coquine qu'on ait faite au cinéma ?"}
+{"id":"ose-b-0302","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait le plus craquer quand {autre} se met sur son trente-et-un ?"}
+{"id":"ose-b-0303","category":"ose","mode":"verite","intensity":1,"text":"Quel est le compliment le plus drôle que {autre} t'ait fait sur ton physique ?"}
+{"id":"ose-b-0304","category":"ose","mode":"verite","intensity":1,"text":"Préfères-tu recevoir un mot doux écrit à la main ou un vocal tendre ?"}
+{"id":"ose-b-0305","category":"ose","mode":"verite","intensity":1,"text":"Quelle est la manière la plus mignonne dont {autre} réclame un câlin ?"}
+{"id":"ose-b-0306","category":"ose","mode":"verite","intensity":1,"text":"Quel est le premier mot qui te vient pour décrire notre premier baiser ?"}
+{"id":"ose-b-0307","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te plaît chez {autre} quand cette personne danse sans se soucier de rien ?"}
+{"id":"ose-b-0308","category":"ose","mode":"verite","intensity":1,"text":"Quel est le dernier moment où {autre} t'a fait la cour sans en avoir l'air ?"}
+{"id":"ose-b-0309","category":"ose","mode":"verite","intensity":1,"text":"Si tu pouvais revivre une seule minute de flirt de nos débuts, laquelle choisirais-tu ?"}
+{"id":"ose-b-0310","category":"ose","mode":"verite","intensity":1,"text":"Dans quelle langue étrangère aimerais-tu que {autre} te fasse un compliment ?"}
+{"id":"ose-b-0311","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te plaît dans la démarche de {autre} ?"}
+{"id":"ose-b-0312","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton souvenir le plus drôle d'une tentative de séduction ratée entre nous ?"}
+{"id":"ose-b-0313","category":"ose","mode":"verite","intensity":1,"text":"Te souviens-tu de ce que portait {autre} le jour de notre rencontre ?"}
+{"id":"ose-b-0314","category":"ose","mode":"verite","intensity":1,"text":"Quelle est la chose la plus touchante que {autre} t'ait dite sur ton sourire ?"}
+{"id":"ose-b-0315","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui rend {autre} irrésistible quand cette personne est de mauvaise foi ?"}
+{"id":"ose-b-0316","category":"ose","mode":"verite","intensity":1,"text":"Quel est ton geste préféré pour attirer {autre} contre toi ?"}
+{"id":"ose-b-0317","category":"ose","mode":"verite","intensity":1,"text":"Quel est l'endroit le plus romantique où tu aimerais flirter avec {autre} ?"}
+{"id":"ose-b-0318","category":"ose","mode":"verite","intensity":1,"text":"Quelle habitude de séduction de nos débuts aimerais-tu voir revenir ?"}
+{"id":"ose-b-0319","category":"ose","mode":"verite","intensity":1,"text":"Quel petit rituel te met dans l'ambiance pour une soirée à deux ?"}
+{"id":"ose-b-0320","category":"ose","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait rire et craquer en même temps chez {autre} ?"}
+{"id":"ose-b-0321","category":"ose","mode":"verite","intensity":1,"text":"Quel vêtement de {autre} aimerais-tu discrètement faire disparaître du placard ?"}
+{"id":"ose-b-0322","category":"ose","mode":"verite","intensity":1,"text":"Si tu devais donner une note de séduction à {autre} ce soir, laquelle et pourquoi ?"}
+{"id":"ose-b-0323","category":"ose","mode":"verite","intensity":1,"text":"Quel est le plus beau regard que {autre} t'ait lancé lors d'un événement important ?"}
+{"id":"ose-b-0324","category":"ose","mode":"verite","intensity":1,"text":"Quelle petite manie de {autre} devant le miroir t'amuse et te plaît ?"}
+{"id":"ose-b-0325","category":"ose","mode":"verite","intensity":2,"text":"Quand {autre} te dit non pour ce soir, qu'est-ce qui t'aide à garder la complicité intacte ?"}
+{"id":"ose-b-0326","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui refroidit instantanément ton envie, même quand le moment semblait parfait ?"}
+{"id":"ose-b-0327","category":"ose","mode":"verite","intensity":2,"text":"Quel geste, selon toi, transforme un simple slow en moment troublant ?"}
+{"id":"ose-b-0328","category":"ose","mode":"verite","intensity":2,"text":"Qu'aimerais-tu que {autre} te demande avant d'aller plus loin dans un jeu de séduction ?"}
+{"id":"ose-b-0329","category":"ose","mode":"verite","intensity":2,"text":"Comment décrirais-tu le désir entre nous aujourd'hui, comparé à nos débuts ?"}
+{"id":"ose-b-0330","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te fait te sentir désirable un jour où tu te trouves moins en forme ?"}
+{"id":"ose-b-0331","category":"ose","mode":"verite","intensity":2,"text":"Quelles retrouvailles après une absence t'ont laissé le souvenir le plus fiévreux ?"}
+{"id":"ose-b-0332","category":"ose","mode":"verite","intensity":2,"text":"Qu'aimerais-tu que {autre} te dise en appel vidéo quand on est loin l'un de l'autre ?"}
+{"id":"ose-b-0333","category":"ose","mode":"verite","intensity":2,"text":"Quel coin de nature te donne envie de t'éclipser avec {autre} pour un câlin ?"}
+{"id":"ose-b-0334","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te donne envie de flirter avec {autre} dans un musée ou une librairie ?"}
+{"id":"ose-b-0335","category":"ose","mode":"verite","intensity":2,"text":"Quel bain à deux te tente le plus : moussant, aux bougies ou sous les étoiles ?"}
+{"id":"ose-b-0336","category":"ose","mode":"verite","intensity":2,"text":"Quand {autre} joue avec tes cheveux, à quoi penses-tu ?"}
+{"id":"ose-b-0337","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît quand {autre} mordille ton oreille ?"}
+{"id":"ose-b-0338","category":"ose","mode":"verite","intensity":2,"text":"As-tu un vêtement porte-bonheur pour les soirées qui finissent bien ?"}
+{"id":"ose-b-0339","category":"ose","mode":"verite","intensity":2,"text":"Quelle photo de toi aimerais-tu que {autre} garde en secret ?"}
+{"id":"ose-b-0340","category":"ose","mode":"verite","intensity":2,"text":"Quel geste discret sous la table pourrait faire rougir {autre} ?"}
+{"id":"ose-b-0341","category":"ose","mode":"verite","intensity":2,"text":"Que ressens-tu quand tu croises le regard de {autre} dans un miroir, juste derrière toi ?"}
+{"id":"ose-b-0342","category":"ose","mode":"verite","intensity":2,"text":"Quel prénom de personnage inventerais-tu pour un rendez-vous de séduction avec {autre} ?"}
+{"id":"ose-b-0343","category":"ose","mode":"verite","intensity":2,"text":"Quand as-tu ressenti le plus de frissons en écoutant {autre} au téléphone ?"}
+{"id":"ose-b-0344","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus coquine que tu aies dite sans faire exprès ?"}
+{"id":"ose-b-0345","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît quand {autre} te fait languir avec des messages pendant la journée ?"}
+{"id":"ose-b-0346","category":"ose","mode":"verite","intensity":2,"text":"Le meilleur moment pour un baiser dans le cou : en cuisinant, en lisant ou en se brossant les dents ?"}
+{"id":"ose-b-0347","category":"ose","mode":"verite","intensity":2,"text":"Quel détail d'une soirée te fait comprendre que la nuit sera longue ?"}
+{"id":"ose-b-0348","category":"ose","mode":"verite","intensity":2,"text":"Quelle partie de ta routine du soir pourrait devenir un jeu de séduction ?"}
+{"id":"ose-b-0349","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu ressens quand {autre} te déshabille du regard ?"}
+{"id":"ose-b-0350","category":"ose","mode":"verite","intensity":2,"text":"Quel baiser échangé en cachette t'a fait vibrer le plus ?"}
+{"id":"ose-b-0351","category":"ose","mode":"verite","intensity":2,"text":"Quelle huile de massage te tente le plus : vanille, fleur d'oranger ou bois ?"}
+{"id":"ose-b-0352","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît dans un rendez-vous où l'on joue à ne pas se toucher ?"}
+{"id":"ose-b-0353","category":"ose","mode":"verite","intensity":2,"text":"Quelle chanson coquine pourrait devenir notre hymne secret ?"}
+{"id":"ose-b-0354","category":"ose","mode":"verite","intensity":2,"text":"Quel compliment physique de {autre} t'a donné le plus confiance en toi ?"}
+{"id":"ose-b-0355","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce qui te donne le plus envie de prendre l'initiative avec {autre} ?"}
+{"id":"ose-b-0356","category":"ose","mode":"verite","intensity":2,"text":"Quelle tenue de {autre} préfères-tu : celle qui suggère ou celle qui dévoile ?"}
+{"id":"ose-b-0357","category":"ose","mode":"verite","intensity":2,"text":"Quel est ton souvenir le plus fou d'un moment volé à deux ?"}
+{"id":"ose-b-0358","category":"ose","mode":"verite","intensity":2,"text":"Si tu devais envoyer un indice coquin à {autre} pour la soirée, lequel choisirais-tu ?"}
+{"id":"ose-b-0359","category":"ose","mode":"verite","intensity":2,"text":"Que fait {autre} de façon si sensuelle qu'on dirait que c'est exprès ?"}
+{"id":"ose-b-0360","category":"ose","mode":"verite","intensity":2,"text":"Quelle ambiance lumineuse te met le plus d'humeur à flirter ?"}
+{"id":"ose-b-0361","category":"ose","mode":"verite","intensity":2,"text":"Quel baiser n'oses-tu pas donner à {autre} en public ?"}
+{"id":"ose-b-0362","category":"ose","mode":"verite","intensity":2,"text":"Qu'est-ce que tu aimes dans les moments où l'on se cherche sans rien se dire ?"}
+{"id":"ose-b-0363","category":"ose","mode":"verite","intensity":2,"text":"Quelle est la chose la plus sexy que {autre} pourrait faire en pyjama ?"}
+{"id":"ose-b-0364","category":"ose","mode":"verite","intensity":2,"text":"Quel moment de la journée de {autre} aimerais-tu interrompre par un câlin coquin ?"}
+{"id":"ose-b-0365","category":"ose","mode":"verite","intensity":2,"text":"As-tu déjà eu envie de faire une surprise coquine à {autre} sans te lancer ? Laquelle ?"}
+{"id":"ose-b-0366","category":"ose","mode":"verite","intensity":2,"text":"Quelle phrase coquine pourrais-tu écrire sur le miroir embué de la salle de bain ?"}
+{"id":"ose-b-0367","category":"ose","mode":"verite","intensity":2,"text":"Que ressens-tu quand {autre} prononce ton prénom d'une voix plus grave que d'habitude ?"}
+{"id":"ose-b-0368","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait chavirer quand {autre} décrit à voix basse ce qui t'attend ?"}
+{"id":"ose-b-0369","category":"ose","mode":"verite","intensity":3,"text":"Quand la tension monte entre nous, qu'est-ce qui te fait céder en premier ?"}
+{"id":"ose-b-0370","category":"ose","mode":"verite","intensity":3,"text":"Quelle surprise brûlante aimerais-tu trouver en rentrant à la maison ?"}
+{"id":"ose-b-0371","category":"ose","mode":"verite","intensity":3,"text":"Quand as-tu senti le désir de {autre} au point d'en avoir les jambes coupées ?"}
+{"id":"ose-b-0372","category":"ose","mode":"verite","intensity":3,"text":"Qu'aimerais-tu que {autre} te fasse découvrir lors d'une nuit sans limite de temps ?"}
+{"id":"ose-b-0373","category":"ose","mode":"verite","intensity":3,"text":"Si on avait une heure volée en pleine semaine, quelle envie voudrais-tu combler avec {autre} ?"}
+{"id":"ose-b-0374","category":"ose","mode":"verite","intensity":3,"text":"Quel est ton fantasme de rendez-vous brûlant dans un lieu qu'on ne connaît pas encore ?"}
+{"id":"ose-b-0375","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend la peau de {autre} si irrésistible sous tes doigts ?"}
+{"id":"ose-b-0376","category":"ose","mode":"verite","intensity":3,"text":"Quelle limite voudrais-tu qu'on respecte toujours, même dans nos moments les plus brûlants ?"}
+{"id":"ose-b-0377","category":"ose","mode":"verite","intensity":3,"text":"Quelle audace aimerais-tu te permettre avec {autre}, à condition d'en parler d'abord ?"}
+{"id":"ose-b-0378","category":"ose","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît quand {autre} prend l'initiative au milieu de la nuit ?"}
+{"id":"ose-b-0379","category":"ose","mode":"verite","intensity":3,"text":"Quel détail d'une nuit avec {autre} te donne encore des frissons le lendemain ?"}
+{"id":"ose-b-0380","category":"ose","mode":"verite","intensity":3,"text":"Quel message brûlant de {autre} te ferait rentrer plus tôt ce soir ?"}
+{"id":"ose-b-0381","category":"ose","mode":"action","intensity":1,"text":"Regarde {autre} dans les yeux pendant trente secondes sans détourner le regard.","remote":false}
+{"id":"ose-b-0382","category":"ose","mode":"action","intensity":1,"text":"Fais trois compliments à {autre} sur son visage, un pour chaque détail que tu préfères.","remote":false}
+{"id":"ose-b-0383","category":"ose","mode":"action","intensity":1,"text":"Donne à {autre} un baiser papillon en effleurant sa joue avec tes cils.","remote":false}
+{"id":"ose-b-0384","category":"ose","mode":"action","intensity":1,"text":"Invite {autre} à danser un slow, même sans musique, pendant une minute.","remote":false}
+{"id":"ose-b-0385","category":"ose","mode":"action","intensity":1,"text":"Prends la main de {autre} et embrasse doucement l'intérieur de son poignet.","remote":false}
+{"id":"ose-b-0386","category":"ose","mode":"action","intensity":1,"text":"Murmure à l'oreille de {autre} ce qui t'a plu chez cette personne aujourd'hui.","remote":false}
+{"id":"ose-b-0387","category":"ose","mode":"action","intensity":1,"text":"Imite la façon dont tu as essayé de séduire {autre} au tout début.","remote":false}
+{"id":"ose-b-0388","category":"ose","mode":"action","intensity":1,"text":"Joue à {autre} la scène du coup de foudre : croise son regard, détourne les yeux, puis souris.","remote":false}
+{"id":"ose-b-0389","category":"ose","mode":"action","intensity":1,"text":"Fais un baiser esquimau à {autre}, nez contre nez, pendant dix secondes.","remote":false}
+{"id":"ose-b-0390","category":"ose","mode":"action","intensity":1,"text":"Choisis un vêtement dans l'armoire de {autre} et explique pourquoi tu le trouves sexy.","remote":false}
+{"id":"ose-b-0391","category":"ose","mode":"action","intensity":1,"text":"Offre à {autre} un massage des mains de deux minutes, doigt par doigt.","remote":false}
+{"id":"ose-b-0392","category":"ose","mode":"action","intensity":1,"text":"Raconte à {autre}, en trente secondes, le moment exact où tu as craqué.","remote":false}
+{"id":"ose-b-0393","category":"ose","mode":"action","intensity":1,"text":"Fais à {autre} ton plus beau regard de séduction, puis essaie de ne pas rire.","remote":false}
+{"id":"ose-b-0394","category":"ose","mode":"action","intensity":1,"text":"Prends {autre} dans tes bras et respire son parfum pendant dix secondes.","remote":false}
+{"id":"ose-b-0395","category":"ose","mode":"action","intensity":1,"text":"Fais un baisemain très cérémonieux à {autre} en déclamant un compliment.","remote":false}
+{"id":"ose-b-0396","category":"ose","mode":"action","intensity":1,"text":"Joue un premier rendez-vous avec {autre} : présente-toi comme si on ne se connaissait pas.","remote":false}
+{"id":"ose-b-0397","category":"ose","mode":"action","intensity":1,"text":"Recoiffe {autre} avec tes doigts, très lentement.","remote":false}
+{"id":"ose-b-0398","category":"ose","mode":"action","intensity":1,"text":"Pose ta tête contre le cou de {autre} et dis-lui ce que tu ressens.","remote":false}
+{"id":"ose-b-0399","category":"ose","mode":"action","intensity":1,"text":"Lance à {autre} ta meilleure phrase de drague, avec un sérieux absolu.","remote":false}
+{"id":"ose-b-0400","category":"ose","mode":"action","intensity":1,"text":"Commente la tenue du jour de {autre} comme une critique de mode totalement sous le charme.","remote":false}
+{"id":"ose-b-0401","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un message de trois émojis qui résument l'effet que cette personne te fait.","remote":true}
+{"id":"ose-b-0402","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal de dix secondes où tu prononces son prénom de ta voix la plus douce.","remote":true}
+{"id":"ose-b-0403","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un endroit où tu aimerais l'embrasser.","remote":true}
+{"id":"ose-b-0404","category":"ose","mode":"action","intensity":1,"text":"Écris à {autre} un compliment sur son sourire, sans utiliser le mot « sourire ».","remote":true}
+{"id":"ose-b-0405","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} la chanson qui te fait penser à notre premier rendez-vous.","remote":true}
+{"id":"ose-b-0406","category":"ose","mode":"action","intensity":1,"text":"Écris à {autre} un message qui commence par « Je n'arrête pas de penser à… ».","remote":true}
+{"id":"ose-b-0407","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un selfie avec ton regard de braise le plus convaincant.","remote":true}
+{"id":"ose-b-0408","category":"ose","mode":"action","intensity":1,"text":"Appelle {autre} juste pour lui dire une chose que tu trouves irrésistible chez cette personne.","remote":true}
+{"id":"ose-b-0409","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un poème de quatre vers improvisé sur ses yeux.","remote":true}
+{"id":"ose-b-0410","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui décrit notre premier baiser en une seule phrase.","remote":true}
+{"id":"ose-b-0411","category":"ose","mode":"action","intensity":2,"text":"Embrasse {autre} dans le cou pendant dix secondes, puis arrête-toi net.","remote":false}
+{"id":"ose-b-0412","category":"ose","mode":"action","intensity":2,"text":"Masse les épaules de {autre} pendant deux minutes en lui murmurant des compliments.","remote":false}
+{"id":"ose-b-0413","category":"ose","mode":"action","intensity":2,"text":"Choisis une chanson sensuelle et danse tout contre {autre} jusqu'à la fin du refrain.","remote":false}
+{"id":"ose-b-0414","category":"ose","mode":"action","intensity":2,"text":"Enlève une chaussette à {autre} de la façon la plus sensuelle possible.","remote":false}
+{"id":"ose-b-0415","category":"ose","mode":"action","intensity":2,"text":"Pendant un baiser, mordille tout doucement la lèvre de {autre}.","remote":false}
+{"id":"ose-b-0416","category":"ose","mode":"action","intensity":2,"text":"Souffle très doucement sur la nuque de {autre} pendant quelques secondes.","remote":false}
+{"id":"ose-b-0417","category":"ose","mode":"action","intensity":2,"text":"Écris un mot coquin sur un post-it et cache ce papier là où {autre} tombera dessus ce soir.","remote":false}
+{"id":"ose-b-0418","category":"ose","mode":"action","intensity":2,"text":"Fais un défilé improvisé pour {autre} avec la tenue la plus séduisante que tu trouves.","remote":false}
+{"id":"ose-b-0419","category":"ose","mode":"action","intensity":2,"text":"Bande les yeux de {autre} et dépose trois baisers à trois endroits différents : à {autre} de les retrouver.","remote":false}
+{"id":"ose-b-0420","category":"ose","mode":"action","intensity":2,"text":"Glisse à l'oreille de {autre} ce que tu aimerais faire après ce jeu.","remote":false}
+{"id":"ose-b-0421","category":"ose","mode":"action","intensity":2,"text":"Embrasse {autre} comme dans la scène finale d'un film romantique.","remote":false}
+{"id":"ose-b-0422","category":"ose","mode":"action","intensity":2,"text":"Retire lentement un accessoire de {autre} (montre, bijou, élastique) en soutenant son regard.","remote":false}
+{"id":"ose-b-0423","category":"ose","mode":"action","intensity":2,"text":"Fais glisser tes doigts très lentement le long du bras de {autre}, de l'épaule jusqu'à la main.","remote":false}
+{"id":"ose-b-0424","category":"ose","mode":"action","intensity":2,"text":"Joue les inconnus : aborde {autre} comme dans un bar et obtiens un baiser en moins d'une minute.","remote":false}
+{"id":"ose-b-0425","category":"ose","mode":"action","intensity":2,"text":"Choisis la tenue que {autre} portera à notre prochain rendez-vous et justifie ton choix d'un air coquin.","remote":false}
+{"id":"ose-b-0426","category":"ose","mode":"action","intensity":2,"text":"Donne à {autre} un baiser qui dure exactement le temps d'une respiration lente.","remote":false}
+{"id":"ose-b-0427","category":"ose","mode":"action","intensity":2,"text":"Assieds-toi sur les genoux de {autre} et raconte-lui ta journée d'une voix langoureuse.","remote":false}
+{"id":"ose-b-0428","category":"ose","mode":"action","intensity":2,"text":"Murmure à {autre} trois mots qui décrivent ton envie du moment.","remote":false}
+{"id":"ose-b-0429","category":"ose","mode":"action","intensity":2,"text":"Dépose un baiser sur l'épaule de {autre}, puis un autre un peu plus haut.","remote":false}
+{"id":"ose-b-0430","category":"ose","mode":"action","intensity":2,"text":"Masse les pieds de {autre} pendant deux minutes, chatouilles interdites.","remote":false}
+{"id":"ose-b-0431","category":"ose","mode":"action","intensity":2,"text":"Dis à {autre}, les yeux dans les yeux, ce qui te plaît le plus dans son corps.","remote":false}
+{"id":"ose-b-0432","category":"ose","mode":"action","intensity":2,"text":"Retire ton pull ou ton gilet devant {autre} comme dans un numéro de cabaret, avec humour.","remote":false}
+{"id":"ose-b-0433","category":"ose","mode":"action","intensity":2,"text":"Fais deviner à {autre} un mot coquin en l'écrivant du doigt sur son dos.","remote":false}
+{"id":"ose-b-0434","category":"ose","mode":"action","intensity":2,"text":"Caresse le visage de {autre} du bout des doigts, les yeux fermés, comme pour en apprendre chaque trait.","remote":false}
+{"id":"ose-b-0435","category":"ose","mode":"action","intensity":2,"text":"Prends {autre} par la taille et vole-lui un baiser comme si quelqu'un risquait de vous surprendre.","remote":false}
+{"id":"ose-b-0436","category":"ose","mode":"action","intensity":2,"text":"Choisis une pièce de la maison et emmène {autre} y échanger un baiser de dix secondes.","remote":false}
+{"id":"ose-b-0437","category":"ose","mode":"action","intensity":2,"text":"Raconte à {autre} un rêve coquin, réel ou inventé, en moins d'une minute.","remote":false}
+{"id":"ose-b-0438","category":"ose","mode":"action","intensity":2,"text":"Enfile ta tenue la plus élégante en moins de trois minutes et reviens séduire {autre}.","remote":false}
+{"id":"ose-b-0439","category":"ose","mode":"action","intensity":2,"text":"Déclare ton désir à {autre} façon bulletin météo : températures en hausse, risque d'orage…","remote":false}
+{"id":"ose-b-0440","category":"ose","mode":"action","intensity":2,"text":"Embrasse un à un les doigts d'une main de {autre}, lentement.","remote":false}
+{"id":"ose-b-0441","category":"ose","mode":"action","intensity":2,"text":"Effleure les lèvres de {autre} avec les tiennes sans l'embrasser, pendant cinq secondes.","remote":false}
+{"id":"ose-b-0442","category":"ose","mode":"action","intensity":2,"text":"Danse pour {autre} pendant trente secondes de la façon la plus séduisante possible.","remote":false}
+{"id":"ose-b-0443","category":"ose","mode":"action","intensity":2,"text":"Crée une ambiance tamisée en deux minutes (lumière douce, musique) et invite {autre} à te rejoindre.","remote":false}
+{"id":"ose-b-0444","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un message coquin qui ne contient que des sous-entendus.","remote":true}
+{"id":"ose-b-0445","category":"ose","mode":"action","intensity":2,"text":"Enregistre un vocal où tu chuchotes à {autre} ce que tu as prévu pour ce soir.","remote":true}
+{"id":"ose-b-0446","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de tes lèvres accompagnée d'un petit mot.","remote":true}
+{"id":"ose-b-0447","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} la liste des trois tenues que tu aimerais lui voir porter.","remote":true}
+{"id":"ose-b-0448","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une devinette coquine dont la réponse est « toi ».","remote":true}
+{"id":"ose-b-0449","category":"ose","mode":"action","intensity":2,"text":"Appelle {autre} et dis-lui, d'une voix suave, une seule phrase qui donne envie de rentrer.","remote":true}
+{"id":"ose-b-0450","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de la tenue que tu portes en ce moment, avec un défi à relever.","remote":true}
+{"id":"ose-b-0451","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} un message qui commence par « Ce soir, j'aimerais… » et laisse planer le suspense.","remote":true}
+{"id":"ose-b-0452","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un compte à rebours coquin jusqu'à vos retrouvailles.","remote":true}
+{"id":"ose-b-0453","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un vocal où tu décris le baiser que tu lui réserves.","remote":true}
+{"id":"ose-b-0454","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un émoji piment, puis la raison exacte de ce piment.","remote":true}
+{"id":"ose-b-0455","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} la photo en gros plan d'un détail de ta tenue, à deviner.","remote":true}
+{"id":"ose-b-0456","category":"ose","mode":"action","intensity":2,"text":"Décris par message à {autre} la tenue dans laquelle tu rêves de trouver cette personne en rentrant.","remote":true}
+{"id":"ose-b-0457","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une chanson sensuelle avec un seul mot en commentaire.","remote":true}
+{"id":"ose-b-0458","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} un compliment osé sur une partie de son corps que tu adores.","remote":true}
+{"id":"ose-b-0459","category":"ose","mode":"action","intensity":2,"text":"Lance un appel vidéo de trente secondes à {autre} sans dire un mot, juste avec un regard appuyé.","remote":true}
+{"id":"ose-b-0460","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un message codé : un chiffre de 1 à 10 pour ton envie du moment, et rien d'autre.","remote":true}
+{"id":"ose-b-0461","category":"ose","mode":"action","intensity":3,"text":"Embrasse {autre} lentement, du lobe de l'oreille jusqu'au creux du cou.","remote":false}
+{"id":"ose-b-0462","category":"ose","mode":"action","intensity":3,"text":"Murmure à {autre} ce que tu aimerais lui faire ce soir, en une seule phrase.","remote":false}
+{"id":"ose-b-0463","category":"ose","mode":"action","intensity":3,"text":"Défais un bouton ou une fermeture de la tenue de {autre}, puis arrête-toi et souris.","remote":false}
+{"id":"ose-b-0464","category":"ose","mode":"action","intensity":3,"text":"Ferme les yeux et laisse {autre} te couvrir de baisers pendant une minute, dans les limites que tu fixes.","remote":false}
+{"id":"ose-b-0465","category":"ose","mode":"action","intensity":3,"text":"Donne à {autre} le baiser le plus passionné de la soirée, puis retourne t'asseoir comme si de rien n'était.","remote":false}
+{"id":"ose-b-0466","category":"ose","mode":"action","intensity":3,"text":"Retire un vêtement de {autre}, très lentement, avec son accord.","remote":false}
+{"id":"ose-b-0467","category":"ose","mode":"action","intensity":3,"text":"Allonge-toi près de {autre} et décris-lui à l'oreille ton envie la plus brûlante du moment.","remote":false}
+{"id":"ose-b-0468","category":"ose","mode":"action","intensity":3,"text":"Masse le dos de {autre} avec de l'huile pendant trois minutes.","remote":false}
+{"id":"ose-b-0469","category":"ose","mode":"action","intensity":3,"text":"Adosse doucement {autre} contre un mur pour un baiser fougueux, si cette personne est d'accord.","remote":false}
+{"id":"ose-b-0470","category":"ose","mode":"action","intensity":3,"text":"Fais glisser un glaçon le long du bras de {autre}, puis réchauffe la zone avec tes lèvres.","remote":false}
+{"id":"ose-b-0471","category":"ose","mode":"action","intensity":3,"text":"Retire une pièce de ta tenue devant {autre}, en musique, avec ton regard le plus brûlant.","remote":false}
+{"id":"ose-b-0472","category":"ose","mode":"action","intensity":3,"text":"Guide la main de {autre} vers l'endroit où tu adores recevoir des caresses, par-dessus les vêtements.","remote":false}
+{"id":"ose-b-0473","category":"ose","mode":"action","intensity":3,"text":"Échange avec {autre} un baiser d'une minute entière, sans aucune pause.","remote":false}
+{"id":"ose-b-0474","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} un message brûlant qui décrit ton envie, sans un seul mot cru.","remote":true}
+{"id":"ose-b-0475","category":"ose","mode":"action","intensity":3,"text":"Enregistre un vocal sensuel pour {autre} où tu racontes la fin idéale de cette soirée.","remote":true}
+{"id":"ose-b-0476","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de ton épaule ou de ta nuque, suggestive mais pudique, avec un mot brûlant.","remote":true}
+{"id":"ose-b-0477","category":"ose","mode":"action","intensity":3,"text":"Écris à {autre} trois choses que tu aimerais lui faire ce soir, de la plus douce à la plus brûlante.","remote":true}
+{"id":"ose-b-0478","category":"ose","mode":"action","intensity":3,"text":"Appelle {autre} et décris-lui d'une voix basse le premier geste que tu feras à vos retrouvailles.","remote":true}
+{"id":"ose-b-0479","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} la photo du vêtement que tu comptes faire tomber ce soir.","remote":true}
+{"id":"ose-b-0480","category":"ose","mode":"action","intensity":3,"text":"Écris à {autre} un message brûlant qui tienne en exactement dix mots.","remote":true}
+{"id":"ose-b-0481","category":"ose","mode":"action","intensity":1,"text":"Fais un compliment à {autre} en chuchotant, puis le même d'une voix de stentor, et observe sa réaction.","remote":false}
+{"id":"ose-b-0482","category":"ose","mode":"action","intensity":1,"text":"Fredonne à l'oreille de {autre} la chanson de notre premier slow.","remote":false}
+{"id":"ose-b-0483","category":"ose","mode":"action","intensity":1,"text":"Prends la pose la plus séduisante possible sur le canapé et attends que {autre} réagisse.","remote":false}
+{"id":"ose-b-0484","category":"ose","mode":"action","intensity":1,"text":"Fais à {autre} un câlin de trente secondes sans rien dire.","remote":false}
+{"id":"ose-b-0485","category":"ose","mode":"action","intensity":1,"text":"Embrasse le bout du nez de {autre}, puis son front, puis sa joue.","remote":false}
+{"id":"ose-b-0486","category":"ose","mode":"action","intensity":1,"text":"Invente un surnom charmant pour {autre} et essaie-le à voix haute.","remote":false}
+{"id":"ose-b-0487","category":"ose","mode":"action","intensity":1,"text":"Échange un long regard avec {autre} : la première personne qui sourit doit un baiser à l'autre.","remote":false}
+{"id":"ose-b-0488","category":"ose","mode":"action","intensity":1,"text":"Mime à {autre} ce que tu as trouvé le plus sexy chez cette personne aujourd'hui.","remote":false}
+{"id":"ose-b-0489","category":"ose","mode":"action","intensity":1,"text":"Prends la main de {autre} et fais-lui faire une pirouette comme au bal.","remote":false}
+{"id":"ose-b-0490","category":"ose","mode":"action","intensity":1,"text":"Replace une mèche de cheveux de {autre} derrière son oreille, très lentement.","remote":false}
+{"id":"ose-b-0491","category":"ose","mode":"action","intensity":1,"text":"Lis à {autre} trois lignes d'un livre au hasard avec la voix la plus sensuelle possible.","remote":false}
+{"id":"ose-b-0492","category":"ose","mode":"action","intensity":1,"text":"Montre à {autre} ton pas de danse le plus séduisant et apprends-lui à le refaire.","remote":false}
+{"id":"ose-b-0493","category":"ose","mode":"action","intensity":1,"text":"Dépose un baiser sur chaque paupière fermée de {autre}.","remote":false}
+{"id":"ose-b-0494","category":"ose","mode":"action","intensity":1,"text":"Fais goûter à {autre} un fruit ou un carré de chocolat à la petite cuillère, les yeux dans les yeux.","remote":false}
+{"id":"ose-b-0495","category":"ose","mode":"action","intensity":1,"text":"Assieds-toi tout près de {autre} et frôle sa main pendant une minute sans jamais la prendre.","remote":false}
+{"id":"ose-b-0496","category":"ose","mode":"action","intensity":1,"text":"Fais une révérence à {autre} et demande-lui très poliment la permission de l'embrasser.","remote":false}
+{"id":"ose-b-0497","category":"ose","mode":"action","intensity":1,"text":"Imite la voix de séduction de {autre}, puis laisse cette personne imiter la tienne.","remote":false}
+{"id":"ose-b-0498","category":"ose","mode":"action","intensity":1,"text":"Applique un peu de crème sur les mains de {autre} en prenant tout ton temps.","remote":false}
+{"id":"ose-b-0499","category":"ose","mode":"action","intensity":1,"text":"Prends une photo de {autre} sous son meilleur angle et explique pourquoi c'est ton préféré.","remote":false}
+{"id":"ose-b-0500","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui commence par « Tu sais ce qui me plaît chez toi ? ».","remote":true}
+{"id":"ose-b-0501","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de toi avec un sourire qui lui est entièrement dédié.","remote":true}
+{"id":"ose-b-0502","category":"ose","mode":"action","intensity":1,"text":"Laisse à {autre} un vocal façon radio de nuit : voix douce et dédicace tendre.","remote":true}
+{"id":"ose-b-0503","category":"ose","mode":"action","intensity":1,"text":"Écris à {autre} trois raisons pour lesquelles cette personne est irrésistible aujourd'hui.","remote":true}
+{"id":"ose-b-0504","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet qui te fait penser à cette personne, avec un seul mot d'explication.","remote":true}
+{"id":"ose-b-0505","category":"ose","mode":"action","intensity":1,"text":"Raconte par message à {autre}, en deux phrases, un regard de cette personne qui t'a fait craquer.","remote":true}
+{"id":"ose-b-0506","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} une invitation officielle à un rendez-vous galant à la maison ce soir.","remote":true}
+{"id":"ose-b-0507","category":"ose","mode":"action","intensity":1,"text":"Écris à {autre} une phrase de drague ringarde et assume-la jusqu'au bout.","remote":true}
+{"id":"ose-b-0508","category":"ose","mode":"action","intensity":1,"text":"Appelle {autre} et termine l'appel par le compliment le plus doux que tu connais.","remote":true}
+{"id":"ose-b-0509","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta main tendue, comme une invitation à la saisir.","remote":true}
+{"id":"ose-b-0510","category":"ose","mode":"action","intensity":1,"text":"Écris à {autre} un acrostiche flatteur avec les lettres de son prénom.","remote":true}
+{"id":"ose-b-0511","category":"ose","mode":"action","intensity":2,"text":"Embrasse la clavicule de {autre}, puis remonte doucement jusqu'à sa mâchoire.","remote":false}
+{"id":"ose-b-0512","category":"ose","mode":"action","intensity":2,"text":"Offre à {autre} un massage du cuir chevelu pendant deux minutes.","remote":false}
+{"id":"ose-b-0513","category":"ose","mode":"action","intensity":2,"text":"Décris à {autre} la tenue dans laquelle tu l'imagines ce soir, en détail mais sans mot cru.","remote":false}
+{"id":"ose-b-0514","category":"ose","mode":"action","intensity":2,"text":"Dis à {autre} « ferme les yeux » et dépose un baiser là où cette personne ne s'y attend pas.","remote":false}
+{"id":"ose-b-0515","category":"ose","mode":"action","intensity":2,"text":"Joue au « chaud ou froid » : guide les lèvres de {autre} jusqu'à ton endroit préféré pour un baiser.","remote":false}
+{"id":"ose-b-0516","category":"ose","mode":"action","intensity":2,"text":"Assieds-toi face à {autre}, genoux contre genoux, et soutiens son regard jusqu'au premier baiser.","remote":false}
+{"id":"ose-b-0517","category":"ose","mode":"action","intensity":2,"text":"Chante à {autre} un couplet de chanson d'amour en y glissant une dédicace coquine.","remote":false}
+{"id":"ose-b-0518","category":"ose","mode":"action","intensity":2,"text":"Mets {autre} au défi de rester impassible pendant que tu embrasses sa nuque vingt secondes.","remote":false}
+{"id":"ose-b-0519","category":"ose","mode":"action","intensity":2,"text":"Choisis une partie du corps de {autre} et fais-en l'éloge comme dans un poème.","remote":false}
+{"id":"ose-b-0520","category":"ose","mode":"action","intensity":2,"text":"Donne à {autre} un baiser au goût de quelque chose de sucré.","remote":false}
+{"id":"ose-b-0521","category":"ose","mode":"action","intensity":2,"text":"Propose à {autre} un marché coquin, un baiser contre un service, et négocie le tarif.","remote":false}
+{"id":"ose-b-0522","category":"ose","mode":"action","intensity":2,"text":"Murmure à {autre} un compliment sur sa voix, tout près de son oreille.","remote":false}
+{"id":"ose-b-0523","category":"ose","mode":"action","intensity":2,"text":"Allonge-toi la tête sur les genoux de {autre} et réclame des caresses dans les cheveux d'une voix charmeuse.","remote":false}
+{"id":"ose-b-0524","category":"ose","mode":"action","intensity":2,"text":"Joue avec le col du haut de {autre} en murmurant ce que tu en penses.","remote":false}
+{"id":"ose-b-0525","category":"ose","mode":"action","intensity":2,"text":"Embrasse le creux du coude de {autre} et observe sa réaction.","remote":false}
+{"id":"ose-b-0526","category":"ose","mode":"action","intensity":2,"text":"Les yeux fermés, explore le visage de {autre} avec tes lèvres pendant trente secondes.","remote":false}
+{"id":"ose-b-0527","category":"ose","mode":"action","intensity":2,"text":"Fais trois pas de tango vers {autre} et termine par un regard brûlant.","remote":false}
+{"id":"ose-b-0528","category":"ose","mode":"action","intensity":2,"text":"Mime à {autre} ce que tu aimerais faire ce soir ; {autre} a trente secondes pour deviner.","remote":false}
+{"id":"ose-b-0529","category":"ose","mode":"action","intensity":2,"text":"Pose ta main sur le cœur de {autre} et dis-lui ce qui le fait battre plus vite, selon toi.","remote":false}
+{"id":"ose-b-0530","category":"ose","mode":"action","intensity":2,"text":"Offre à {autre} un baiser renversé, comme dans les grands films d'aventure.","remote":false}
+{"id":"ose-b-0531","category":"ose","mode":"action","intensity":2,"text":"Énumère à voix haute les cinq endroits de {autre} que tu préfères embrasser.","remote":false}
+{"id":"ose-b-0532","category":"ose","mode":"action","intensity":2,"text":"Invite {autre} à s'allonger et dessine des arabesques sur son dos du bout des doigts pendant une minute.","remote":false}
+{"id":"ose-b-0533","category":"ose","mode":"action","intensity":2,"text":"Embrasse {autre} sans les mains : interdiction de toucher autre chose que ses lèvres.","remote":false}
+{"id":"ose-b-0534","category":"ose","mode":"action","intensity":2,"text":"Lis la liste de courses à {autre} avec la voix la plus grave et sensuelle possible.","remote":false}
+{"id":"ose-b-0535","category":"ose","mode":"action","intensity":2,"text":"Mets une musique lente et fais tourner {autre} jusqu'à finir joue contre joue.","remote":false}
+{"id":"ose-b-0536","category":"ose","mode":"action","intensity":2,"text":"Dépose une touche de parfum dans le cou de {autre}, puis respire-la longuement.","remote":false}
+{"id":"ose-b-0537","category":"ose","mode":"action","intensity":2,"text":"Fais à {autre} trois compliments de plus en plus osés, sans jamais devenir vulgaire.","remote":false}
+{"id":"ose-b-0538","category":"ose","mode":"action","intensity":2,"text":"Place-toi derrière {autre} devant un miroir, enlace sa taille et murmure ce que tu y vois.","remote":false}
+{"id":"ose-b-0539","category":"ose","mode":"action","intensity":2,"text":"Joue au photographe et dirige une séance photo glamour de {autre}, compliments obligatoires.","remote":false}
+{"id":"ose-b-0540","category":"ose","mode":"action","intensity":2,"text":"Glisse ta main dans la poche arrière de {autre} pendant un baiser.","remote":false}
+{"id":"ose-b-0541","category":"ose","mode":"action","intensity":2,"text":"Récite à {autre} un « menu des câlins » de trois propositions coquines et laisse cette personne choisir.","remote":false}
+{"id":"ose-b-0542","category":"ose","mode":"action","intensity":2,"text":"Montre à {autre}, sur le dos de sa main, comment tu aimes qu'on t'embrasse.","remote":false}
+{"id":"ose-b-0543","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui décrit ta tenue actuelle comme dans un roman sensuel.","remote":true}
+{"id":"ose-b-0544","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de ta place sur le canapé avec « réservée pour toi, et plus si affinités ».","remote":true}
+{"id":"ose-b-0545","category":"ose","mode":"action","intensity":2,"text":"Laisse à {autre} un vocal où tu lis une phrase coquine avec ta voix la plus grave.","remote":true}
+{"id":"ose-b-0546","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} un message en trois temps : un compliment, une promesse, un sous-entendu.","remote":true}
+{"id":"ose-b-0547","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un indice coquin sur la surprise que tu lui prépares.","remote":true}
+{"id":"ose-b-0548","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui ne donne qu'une information : l'heure à laquelle tu veux ton baiser.","remote":true}
+{"id":"ose-b-0549","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de ton regard en gros plan avec « devine à quoi je pense ».","remote":true}
+{"id":"ose-b-0550","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une petite histoire coquine de trois phrases dont nous sommes les personnages.","remote":true}
+{"id":"ose-b-0551","category":"ose","mode":"action","intensity":2,"text":"Raconte en émojis à {autre} le baiser que tu lui donnerais là, maintenant.","remote":true}
+{"id":"ose-b-0552","category":"ose","mode":"action","intensity":2,"text":"Appelle {autre}, murmure trois mots coquins et raccroche sans explication.","remote":true}
+{"id":"ose-b-0553","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} la photo d'un recoin de la maison avec la légende « ici, ce soir ? ».","remote":true}
+{"id":"ose-b-0554","category":"ose","mode":"action","intensity":2,"text":"Propose par message à {autre} trois rendez-vous coquins et demande-lui de choisir.","remote":true}
+{"id":"ose-b-0555","category":"ose","mode":"action","intensity":2,"text":"Avoue par écrit à {autre} la dernière pensée coquine que tu as eue sur cette personne.","remote":true}
+{"id":"ose-b-0556","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une note vocale où tu ne fais que soupirer son prénom.","remote":true}
+{"id":"ose-b-0557","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} ce qui se passerait si un ascenseur nous bloquait dix minutes.","remote":true}
+{"id":"ose-b-0558","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un sondage coquin à deux choix pour décider de la soirée.","remote":true}
+{"id":"ose-b-0559","category":"ose","mode":"action","intensity":2,"text":"Décris par message à {autre} le massage que tu promets de lui offrir ce soir.","remote":true}
+{"id":"ose-b-0560","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} trois messages d'affilée, chacun un peu plus osé que le précédent.","remote":true}
+{"id":"ose-b-0561","category":"ose","mode":"action","intensity":3,"text":"Embrasse {autre} le long de la colonne vertébrale, de la nuque jusqu'au milieu du dos.","remote":false}
+{"id":"ose-b-0562","category":"ose","mode":"action","intensity":3,"text":"Danse lentement contre {autre} sur une musique sensuelle, sans que vos lèvres se touchent avant la fin.","remote":false}
+{"id":"ose-b-0563","category":"ose","mode":"action","intensity":3,"text":"Raconte à {autre} à voix basse, sans mot cru, la nuit que tu imagines pour ce soir.","remote":false}
+{"id":"ose-b-0564","category":"ose","mode":"action","intensity":3,"text":"Avec son accord, ouvre le haut de {autre} en déposant un baiser à chaque bouton.","remote":false}
+{"id":"ose-b-0565","category":"ose","mode":"action","intensity":3,"text":"Embrasse l'intérieur du poignet, puis du coude de {autre}, là où la peau est si fine.","remote":false}
+{"id":"ose-b-0566","category":"ose","mode":"action","intensity":3,"text":"Accueille {autre} dans la chambre avec ta tenue la plus audacieuse et une seule phrase brûlante.","remote":false}
+{"id":"ose-b-0567","category":"ose","mode":"action","intensity":3,"text":"Bande les yeux de {autre} et fais-lui découvrir trois sensations : une plume, un souffle, un baiser.","remote":false}
+{"id":"ose-b-0568","category":"ose","mode":"action","intensity":3,"text":"Allonge-toi près de {autre} et embrasse chaque centimètre de son visage, très lentement.","remote":false}
+{"id":"ose-b-0569","category":"ose","mode":"action","intensity":3,"text":"Avoue à {autre}, les yeux dans les yeux, ce dont tu as le plus envie là, tout de suite.","remote":false}
+{"id":"ose-b-0570","category":"ose","mode":"action","intensity":3,"text":"Place les mains de {autre} sur tes hanches et offre-lui un baiser qui promet la suite.","remote":false}
+{"id":"ose-b-0571","category":"ose","mode":"action","intensity":3,"text":"Glisse un mot brûlant dans la main de {autre} avec interdiction de le lire avant d'être dans la chambre.","remote":false}
+{"id":"ose-b-0572","category":"ose","mode":"action","intensity":3,"text":"Laisse {autre} choisir un endroit de son corps à couvrir de baisers, et exécute-toi.","remote":false}
+{"id":"ose-b-0573","category":"ose","mode":"action","intensity":3,"text":"Fais monter la tension : approche-toi de {autre} pour un baiser, recule trois fois, puis cède enfin.","remote":false}
+{"id":"ose-b-0574","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} un vocal où tu décris ce que tu ressens quand cette personne t'embrasse dans le cou.","remote":true}
+{"id":"ose-b-0575","category":"ose","mode":"action","intensity":3,"text":"Écris à {autre} le scénario brûlant de nos retrouvailles, en cinq phrases et sans mot cru.","remote":true}
+{"id":"ose-b-0576","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de tes draps défaits avec une invitation brûlante.","remote":true}
+{"id":"ose-b-0577","category":"ose","mode":"action","intensity":3,"text":"Appelle {autre} et, sans même dire bonjour, avoue d'une voix basse l'envie qui te trotte dans la tête.","remote":true}
+{"id":"ose-b-0578","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} un message qui commence par « Quand tu rentreras, je… » et termine-le de façon brûlante.","remote":true}
+{"id":"ose-b-0579","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} la photo de ta tenue la plus audacieuse, posée sur le lit, avec un point d'interrogation.","remote":true}
+{"id":"ose-b-0580","category":"ose","mode":"action","intensity":3,"text":"Écris à {autre} quel endroit de son corps tu embrasseras en premier ce soir, et pourquoi.","remote":true}
+{"id":"ose-b-0581","category":"ose","mode":"action","intensity":1,"text":"Dresse le portrait de {autre} en cinq qualités flatteuses, sans en répéter aucune.","remote":false}
+{"id":"ose-b-0582","category":"ose","mode":"action","intensity":1,"text":"Offre à {autre} une rose imaginaire et une déclaration de charme digne d'un roman.","remote":false}
+{"id":"ose-b-0583","category":"ose","mode":"action","intensity":1,"text":"Fais une entrée théâtrale dans la pièce, comme une star sur un tapis rouge, et va saluer {autre}.","remote":false}
+{"id":"ose-b-0584","category":"ose","mode":"action","intensity":1,"text":"Trace lentement les lignes de la paume de {autre} en lui prédisant un avenir coquin.","remote":false}
+{"id":"ose-b-0585","category":"ose","mode":"action","intensity":1,"text":"Raconte à {autre} la tenue de cette personne que tu n'as jamais oubliée.","remote":false}
+{"id":"ose-b-0586","category":"ose","mode":"action","intensity":1,"text":"Fais la cour à {autre} à l'ancienne, avec un vocabulaire du siècle dernier, pendant trente secondes.","remote":false}
+{"id":"ose-b-0587","category":"ose","mode":"action","intensity":1,"text":"Pose un genou à terre et déclare à {autre} que son charme mériterait une médaille.","remote":false}
+{"id":"ose-b-0588","category":"ose","mode":"action","intensity":1,"text":"Écris le prénom de {autre} dans la buée d'une vitre ou d'un miroir et signe d'un cœur.","remote":false}
+{"id":"ose-b-0589","category":"ose","mode":"action","intensity":1,"text":"Fais rire {autre} avec ta pire imitation d'une scène de séduction de film.","remote":false}
+{"id":"ose-b-0590","category":"ose","mode":"action","intensity":1,"text":"Ferme les yeux et décris le visage de {autre} de mémoire, avec un compliment par trait.","remote":false}
+{"id":"ose-b-0591","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de toi enfant avec la légende « déjà irrésistible ».","remote":true}
+{"id":"ose-b-0592","category":"ose","mode":"action","intensity":1,"text":"Écris à {autre} la phrase de cette personne qui t'a fait craquer, mot pour mot si possible.","remote":true}
+{"id":"ose-b-0593","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal de vingt secondes sur ce que tu aimes dans sa façon de s'habiller.","remote":true}
+{"id":"ose-b-0594","category":"ose","mode":"action","intensity":1,"text":"Renomme {autre} dans ton répertoire avec un surnom flatteur et envoie-lui une capture d'écran.","remote":true}
+{"id":"ose-b-0595","category":"ose","mode":"action","intensity":1,"text":"Envoie à {autre} une note sur 10 de son charme du jour, avec une justification détaillée.","remote":true}
+{"id":"ose-b-0596","category":"ose","mode":"action","intensity":2,"text":"Embrasse la tempe de {autre}, puis descends jusqu'au coin de ses lèvres sans les toucher.","remote":false}
+{"id":"ose-b-0597","category":"ose","mode":"action","intensity":2,"text":"Place-toi face à {autre}, à deux centimètres de ses lèvres : la personne qui craque la première a perdu.","remote":false}
+{"id":"ose-b-0598","category":"ose","mode":"action","intensity":2,"text":"Improvise pour {autre} une déclaration coquine en rimes, même maladroite.","remote":false}
+{"id":"ose-b-0599","category":"ose","mode":"action","intensity":2,"text":"Passe un de tes vêtements à {autre} et demande à cette personne de le garder toute la soirée.","remote":false}
+{"id":"ose-b-0600","category":"ose","mode":"action","intensity":2,"text":"Couvre de petits baisers la paume de la main de {autre}.","remote":false}
+{"id":"ose-b-0601","category":"ose","mode":"action","intensity":2,"text":"Approche lentement tes lèvres de celles de {autre}, puis attends que cette personne finisse le geste.","remote":false}
+{"id":"ose-b-0602","category":"ose","mode":"action","intensity":2,"text":"Regarde {autre} des pieds à la tête, très lentement, comme si tu découvrais cette personne pour la première fois.","remote":false}
+{"id":"ose-b-0603","category":"ose","mode":"action","intensity":2,"text":"Glisse-toi sous le plaid à côté de {autre} et réclame un baiser pour chaque minute passée là.","remote":false}
+{"id":"ose-b-0604","category":"ose","mode":"action","intensity":2,"text":"Embrasse la nuque de {autre} pendant que cette personne est occupée, puis fais comme si de rien n'était.","remote":false}
+{"id":"ose-b-0605","category":"ose","mode":"action","intensity":2,"text":"Lance un pari coquin à {autre} ; la personne qui perd offre un baiser à l'endroit choisi par l'autre.","remote":false}
+{"id":"ose-b-0606","category":"ose","mode":"action","intensity":2,"text":"Prends une pose de statue séduisante et laisse {autre} te « sculpter » à sa guise pendant une minute.","remote":false}
+{"id":"ose-b-0607","category":"ose","mode":"action","intensity":2,"text":"Donne à {autre} un baiser en trois temps : doux, appuyé, puis délicieusement frustrant.","remote":false}
+{"id":"ose-b-0608","category":"ose","mode":"action","intensity":2,"text":"Murmure à {autre} le souvenir le plus coquin que tu gardes de nos vacances.","remote":false}
+{"id":"ose-b-0609","category":"ose","mode":"action","intensity":2,"text":"Allonge-toi contre {autre} et respirez au même rythme pendant une minute, sans parler.","remote":false}
+{"id":"ose-b-0610","category":"ose","mode":"action","intensity":2,"text":"Pendant le prochain film, joue avec les cheveux ou la nuque de {autre} sans t'arrêter.","remote":false}
+{"id":"ose-b-0611","category":"ose","mode":"action","intensity":2,"text":"Dis à {autre} « interdiction de m'embrasser », puis tiens bon le plus longtemps possible.","remote":false}
+{"id":"ose-b-0612","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de ton oreiller avec une légende coquine.","remote":true}
+{"id":"ose-b-0613","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un vocal de trente secondes sur ton plus beau souvenir de baiser avec cette personne.","remote":true}
+{"id":"ose-b-0614","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un message « Interdit d'ouvrir avant ce soir » suivi d'un indice coquin.","remote":true}
+{"id":"ose-b-0615","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} une petite annonce coquine qui cherche la personne idéale pour ta soirée, à son portrait exact.","remote":true}
+{"id":"ose-b-0616","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} un selfie avec un vêtement de cette personne sur le dos.","remote":true}
+{"id":"ose-b-0617","category":"ose","mode":"action","intensity":2,"text":"Appelle {autre} et commente, façon match à la radio, la séance de baisers prévue ce soir.","remote":true}
+{"id":"ose-b-0618","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} une phrase d'une ligne capable de faire rougir cette personne en pleine réunion.","remote":true}
+{"id":"ose-b-0619","category":"ose","mode":"action","intensity":2,"text":"Envoie à {autre} le déroulé imaginaire de notre prochain rendez-vous, minute par minute.","remote":true}
+{"id":"ose-b-0620","category":"ose","mode":"action","intensity":2,"text":"Écris à {autre} un message coquin en langage très soutenu, digne d'une lettre d'un autre siècle.","remote":true}
+{"id":"ose-b-0621","category":"ose","mode":"action","intensity":3,"text":"Embrasse lentement le ventre de {autre} par-dessus son haut, puis remonte jusqu'à ses lèvres.","remote":false}
+{"id":"ose-b-0622","category":"ose","mode":"action","intensity":3,"text":"Si tu es d'accord, laisse {autre} te retirer un vêtement de son choix, sans un mot.","remote":false}
+{"id":"ose-b-0623","category":"ose","mode":"action","intensity":3,"text":"Murmure à {autre} trois mots brûlants, un sur chaque épaule et le dernier sur les lèvres.","remote":false}
+{"id":"ose-b-0624","category":"ose","mode":"action","intensity":3,"text":"Fais asseoir {autre} et danse pour cette personne sur une chanson sensuelle, sans contact avant le dernier refrain.","remote":false}
+{"id":"ose-b-0625","category":"ose","mode":"action","intensity":3,"text":"Embrasse {autre}, les mains derrière ton dos, jusqu'à ce que cette personne te réclame de les utiliser.","remote":false}
+{"id":"ose-b-0626","category":"ose","mode":"action","intensity":3,"text":"Demande « je continue ? » à {autre} entre chaque baiser dans le cou, et respecte la réponse.","remote":false}
+{"id":"ose-b-0627","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} un vocal où tu ne dis qu'une phrase brûlante, très lentement.","remote":true}
+{"id":"ose-b-0628","category":"ose","mode":"action","intensity":3,"text":"Écris à {autre} le rêve brûlant que tu aimerais faire cette nuit avec cette personne, sans mot cru.","remote":true}
+{"id":"ose-b-0629","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} la liste, dans l'ordre, de ce que tu comptes lui retirer ce soir.","remote":true}
+{"id":"ose-b-0630","category":"ose","mode":"action","intensity":3,"text":"Appelle {autre} et raconte à voix basse comment tu vas l'accueillir à la porte ce soir.","remote":true}

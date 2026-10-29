@@ -16,6 +16,7 @@ export type PushType =
   | "reaction"
   | "custom_question"
   | "nudge"
+  | "game"
   | "sync";
 
 export interface PushResult {

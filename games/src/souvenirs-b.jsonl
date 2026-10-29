@@ -1,0 +1,680 @@
+{"id":"sou-b-0001","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle est la toute première chose que tu as remarquée chez {autre} ?"}
+{"id":"sou-b-0002","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'as-tu raconté à tes proches juste après notre premier rendez-vous ?"}
+{"id":"sou-b-0003","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel détail de notre toute première conversation te fait encore sourire ?"}
+{"id":"sou-b-0004","category":"souvenirs","mode":"verite","intensity":1,"text":"À quel moment précis as-tu compris que {autre} allait compter pour toi ?"}
+{"id":"sou-b-0005","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle tenue portais-tu le jour de notre rencontre, et pourquoi celle-là ?"}
+{"id":"sou-b-0006","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel surnom secret donnais-tu à {autre} dans ta tête, avant de l'avouer ?"}
+{"id":"sou-b-0007","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'est-ce qui t'a fait hésiter avant d'envoyer ton premier message à {autre} ?"}
+{"id":"sou-b-0008","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de nos premières semaines aimerais-tu garder intact pour toujours ?"}
+{"id":"sou-b-0009","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle chanson associes-tu tout de suite à nos débuts ?"}
+{"id":"sou-b-0010","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle phrase de {autre}, au tout début, t'est restée en tête pendant des jours ?"}
+{"id":"sou-b-0011","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau de nos débuts garde encore une place spéciale chez toi ?"}
+{"id":"sou-b-0012","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle a été ta première impression en entrant chez {autre} ?"}
+{"id":"sou-b-0013","category":"souvenirs","mode":"verite","intensity":2,"text":"Qu'as-tu ressenti dans les secondes juste avant notre premier baiser ?"}
+{"id":"sou-b-0014","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel a été notre tout premier fou rire, d'après toi ?"}
+{"id":"sou-b-0015","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle de nos premières disputes te fait franchement rire aujourd'hui ?"}
+{"id":"sou-b-0016","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel défaut de {autre} as-tu repéré dès le départ, sans jamais rien dire ?"}
+{"id":"sou-b-0017","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle était ta plus grande peur au début de notre histoire ?"}
+{"id":"sou-b-0018","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel message de nos débuts aimerais-tu encadrer au-dessus du lit ?"}
+{"id":"sou-b-0019","category":"souvenirs","mode":"verite","intensity":1,"text":"Qui, dans ton entourage, a deviné avant toi que ça devenait sérieux entre nous ?"}
+{"id":"sou-b-0020","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'as-tu préparé avec le plus de soin pour notre premier rendez-vous ?"}
+{"id":"sou-b-0021","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est ton souvenir le plus net du premier repas qu'on a partagé ?"}
+{"id":"sou-b-0022","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle question n'as-tu jamais osé poser à {autre} au début, et que tu poserais maintenant ?"}
+{"id":"sou-b-0023","category":"souvenirs","mode":"verite","intensity":1,"text":"Raconte la première fois où {autre} t'a fait rire aux larmes."}
+{"id":"sou-b-0024","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment de nos débuts ferait une bonne scène de film ?"}
+{"id":"sou-b-0025","category":"souvenirs","mode":"verite","intensity":1,"text":"Comment résumerais-tu notre premier rendez-vous en trois mots ?"}
+{"id":"sou-b-0026","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle première fois avec {autre} te réchauffe encore le cœur rien que d'y penser ?"}
+{"id":"sou-b-0027","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel lieu de nos débuts n'as-tu jamais revu depuis ?"}
+{"id":"sou-b-0028","category":"souvenirs","mode":"verite","intensity":2,"text":"Qu'est-ce que {autre} faisait au début et ne fait plus du tout, et ça te manque ?"}
+{"id":"sou-b-0029","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle petite attention de {autre}, au début, a fait pencher la balance ?"}
+{"id":"sou-b-0030","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le premier plat que tu as cuisiné pour {autre}, et comment ça s'est passé ?"}
+{"id":"sou-b-0031","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel souvenir de notre première nuit ensemble te fait encore rougir ?"}
+{"id":"sou-b-0032","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier geste tendre de {autre} t'a fait fondre ?"}
+{"id":"sou-b-0033","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle était ta chanson du moment quand notre histoire a commencé ?"}
+{"id":"sou-b-0034","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu avais complètement compris de travers sur {autre} au début ?"}
+{"id":"sou-b-0035","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle personne a joué un rôle, même minuscule, dans notre rencontre ?"}
+{"id":"sou-b-0036","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel trajet de nos débuts te semblait toujours beaucoup trop court ?"}
+{"id":"sou-b-0037","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle image de notre premier été ensemble remonte en premier ?"}
+{"id":"sou-b-0038","category":"souvenirs","mode":"verite","intensity":1,"text":"Raconte notre premier « je t'aime » tel que tu t'en souviens : qui, où, comment ?"}
+{"id":"sou-b-0039","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bêtise as-tu faite pour impressionner {autre} au début ?"}
+{"id":"sou-b-0040","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel tout premier texto de {autre} pourrais-tu presque réciter par cœur ?"}
+{"id":"sou-b-0041","category":"souvenirs","mode":"verite","intensity":2,"text":"Qu'as-tu pensé de la façon dont {autre} embrassait, la toute première fois ?"}
+{"id":"sou-b-0042","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le premier objet de {autre} qui a atterri chez toi pour de bon ?"}
+{"id":"sou-b-0043","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel rendez-vous raté de nos débuts est devenu un bon souvenir ?"}
+{"id":"sou-b-0044","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel est le premier vrai secret que tu as confié à {autre} ?"}
+{"id":"sou-b-0045","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment de nos débuts aurais-tu adoré pouvoir filmer ?"}
+{"id":"sou-b-0046","category":"souvenirs","mode":"verite","intensity":1,"text":"Comment s'est passée, de ton point de vue, la première rencontre entre {autre} et tes amis ?"}
+{"id":"sou-b-0047","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'est-ce qui te faisait le plus peur avant ton premier repas dans la famille de {autre} ?"}
+{"id":"sou-b-0048","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel petit mensonge de séduction as-tu raconté au début pour briller ?"}
+{"id":"sou-b-0049","category":"souvenirs","mode":"verite","intensity":2,"text":"À quel moment as-tu arrêté de jouer un rôle devant {autre} ?"}
+{"id":"sou-b-0050","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier week-end à deux te revient avec le plus de détails ?"}
+{"id":"sou-b-0051","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel était ton jeu préféré dans la cour de récré ?"}
+{"id":"sou-b-0052","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle odeur te ramène directement dans la cuisine de ton enfance ?"}
+{"id":"sou-b-0053","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel dessin animé regardais-tu en boucle quand tu étais enfant ?"}
+{"id":"sou-b-0054","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle cabane as-tu construite enfant, et avec quoi ?"}
+{"id":"sou-b-0055","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel métier rêvais-tu de faire à sept ans ?"}
+{"id":"sou-b-0056","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jouet de tes huit ans aurais-tu emporté sur une île déserte ?"}
+{"id":"sou-b-0057","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle était ta cachette préférée dans la maison de ton enfance ?"}
+{"id":"sou-b-0058","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel goûter de ton enfance pourrait encore te consoler aujourd'hui ?"}
+{"id":"sou-b-0059","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bêtise d'enfance n'as-tu jamais avouée à tes parents ?"}
+{"id":"sou-b-0060","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel animal a partagé ton enfance, et quel était son nom ?"}
+{"id":"sou-b-0061","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle chanson te chantait-on pour t'endormir ?"}
+{"id":"sou-b-0062","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel était le plat que tu détestais le plus à la cantine ?"}
+{"id":"sou-b-0063","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle peur d'enfant te fait sourire aujourd'hui ?"}
+{"id":"sou-b-0064","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel surnom te donnait ta famille, et d'où sortait ce nom ?"}
+{"id":"sou-b-0065","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle était la plus belle pièce de ta collection d'enfance ?"}
+{"id":"sou-b-0066","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de tes grands-parents te fait le plus de bien ?"}
+{"id":"sou-b-0067","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel anniversaire de ton enfance reste ton préféré, et pourquoi ?"}
+{"id":"sou-b-0068","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'est-ce que tu croyais dur comme fer quand tu étais enfant ?"}
+{"id":"sou-b-0069","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel livre d'enfance as-tu lu et relu jusqu'à l'user ?"}
+{"id":"sou-b-0070","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel personnage voulais-tu devenir à six ans ?"}
+{"id":"sou-b-0071","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle injustice d'enfance te reste encore un peu en travers de la gorge ?"}
+{"id":"sou-b-0072","category":"souvenirs","mode":"verite","intensity":1,"text":"Que voyais-tu depuis la fenêtre de ta chambre d'enfant ?"}
+{"id":"sou-b-0073","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jeu de société finissait toujours en dispute chez toi ?"}
+{"id":"sou-b-0074","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel adulte de ton entourage te faisait le plus rire quand tu étais enfant ?"}
+{"id":"sou-b-0075","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel trésor gardais-tu dans ta boîte à secrets ?"}
+{"id":"sou-b-0076","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle tradition familiale attendais-tu toute l'année ?"}
+{"id":"sou-b-0077","category":"souvenirs","mode":"verite","intensity":1,"text":"À quoi ressemblait ton mercredi après-midi idéal, enfant ?"}
+{"id":"sou-b-0078","category":"souvenirs","mode":"verite","intensity":1,"text":"Raconte ton compagnon imaginaire d'enfance, ou celui que tu aurais rêvé d'avoir."}
+{"id":"sou-b-0079","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle activité extrascolaire as-tu abandonnée, et pourquoi ?"}
+{"id":"sou-b-0080","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle est la plus grosse colère dont tu te souviennes, enfant ?"}
+{"id":"sou-b-0081","category":"souvenirs","mode":"verite","intensity":1,"text":"Décris le trajet que tu faisais pour aller à l'école."}
+{"id":"sou-b-0082","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle était l'ambiance chez toi le dimanche matin ?"}
+{"id":"sou-b-0083","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle cicatrice d'enfance as-tu, et quelle histoire va avec ?"}
+{"id":"sou-b-0084","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau d'enfance a été une vraie déception, sans que tu oses le dire ?"}
+{"id":"sou-b-0085","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau d'enfance t'a fait sauter de joie ?"}
+{"id":"sou-b-0086","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel était ton talent caché à l'école primaire ?"}
+{"id":"sou-b-0087","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel poster trônait au mur de ta chambre d'ado ?"}
+{"id":"sou-b-0088","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle coupe de cheveux d'ado regrettes-tu le plus ?"}
+{"id":"sou-b-0089","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel a été ton tout premier concert, et avec qui ?"}
+{"id":"sou-b-0090","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel style vestimentaire avais-tu à quinze ans ?"}
+{"id":"sou-b-0091","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle chanson écoutais-tu en boucle à seize ans ?"}
+{"id":"sou-b-0092","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle phrase de ton journal intime d'ado aurais-tu honte de relire à voix haute ?"}
+{"id":"sou-b-0093","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel a été ton premier petit boulot, et qu'as-tu acheté avec ta paie ?"}
+{"id":"sou-b-0094","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle a été ta plus grande bêtise d'ado ?"}
+{"id":"sou-b-0095","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel premier amour d'adolescence te fait sourire aujourd'hui ?"}
+{"id":"sou-b-0096","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel examen t'a donné le plus de sueurs froides ?"}
+{"id":"sou-b-0097","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée d'ado est devenue une légende dans ta bande ?"}
+{"id":"sou-b-0098","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel était ton refuge quand tout allait mal, à quatorze ans ?"}
+{"id":"sou-b-0099","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle règle de tes parents trouvais-tu la plus injuste à l'adolescence ?"}
+{"id":"sou-b-0100","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel conseil donnerais-tu à la personne que tu étais à quinze ans ?"}
+{"id":"sou-b-0101","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle excuse inventais-tu pour rentrer plus tard le soir, à l'adolescence ?"}
+{"id":"sou-b-0102","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle personne, au collège ou au lycée, a vraiment cru en toi ?"}
+{"id":"sou-b-0103","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle matière te faisait le plus vibrer au lycée ?"}
+{"id":"sou-b-0104","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel film as-tu vu tant de fois ado que tu en connais encore les répliques ?"}
+{"id":"sou-b-0105","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle musique passait à ta première soirée sans parents ?"}
+{"id":"sou-b-0106","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel vêtement de ton adolescence aurais-tu voulu garder pour toujours ?"}
+{"id":"sou-b-0107","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle passion occupait tous tes week-ends à l'adolescence ?"}
+{"id":"sou-b-0108","category":"souvenirs","mode":"verite","intensity":2,"text":"Raconte ton tout premier slow : avec qui, et sur quelle chanson ?"}
+{"id":"sou-b-0109","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de ta vie d'ado aimerais-tu que {autre} puisse voir par le trou de la serrure ?"}
+{"id":"sou-b-0110","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle est la chose la plus rebelle que tu aies faite au lycée ?"}
+{"id":"sou-b-0111","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel voyage scolaire t'a laissé le plus de souvenirs ?"}
+{"id":"sou-b-0112","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel lieu servait de quartier général à ta bande d'ado ?"}
+{"id":"sou-b-0113","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle est la première chose que tu as achetée avec ton propre argent ?"}
+{"id":"sou-b-0114","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel était ton tout premier téléphone, et quelle sonnerie avais-tu choisie ?"}
+{"id":"sou-b-0115","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel pseudo utilisais-tu sur internet à l'adolescence ?"}
+{"id":"sou-b-0116","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle déclaration maladroite as-tu faite à quelqu'un à l'adolescence ?"}
+{"id":"sou-b-0117","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le premier livre qui t'a fait pleurer ?"}
+{"id":"sou-b-0118","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel été de ton adolescence a été le plus intense, et pourquoi ?"}
+{"id":"sou-b-0119","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel voyage ensemble aimerais-tu revivre jour pour jour ?"}
+{"id":"sou-b-0120","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le meilleur repas qu'on ait mangé en voyage, selon toi ?"}
+{"id":"sou-b-0121","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle galère de transport en vacances nous fait encore rire ?"}
+{"id":"sou-b-0122","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel paysage vu ensemble t'a littéralement coupé le souffle ?"}
+{"id":"sou-b-0123","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel hébergement de vacances était le pire, d'après toi ?"}
+{"id":"sou-b-0124","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir rapporté de voyage traîne encore quelque part chez nous ?"}
+{"id":"sou-b-0125","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle photo de voyage de nous deux préfères-tu, et pourquoi celle-là ?"}
+{"id":"sou-b-0126","category":"souvenirs","mode":"verite","intensity":2,"text":"À quel moment d'un voyage ensemble as-tu eu envie de ne jamais rentrer ?"}
+{"id":"sou-b-0127","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel mot étranger appris en voyage utilises-tu encore ?"}
+{"id":"sou-b-0128","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle rencontre faite en voyage te reste le plus en mémoire ?"}
+{"id":"sou-b-0129","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jour de vacances a viré à la catastrophe, et qu'est-ce qui l'a sauvé ?"}
+{"id":"sou-b-0130","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle spécialité locale goûtée ensemble refuserais-tu de remanger ?"}
+{"id":"sou-b-0131","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel trajet en voiture ensemble reste mémorable, et pour quelles raisons ?"}
+{"id":"sou-b-0132","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle plage, quel lac ou quelle rivière associes-tu à nous deux ?"}
+{"id":"sou-b-0133","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le voyage le plus spontané qu'on ait fait ?"}
+{"id":"sou-b-0134","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle chanson tournait en boucle pendant un de nos longs trajets en voiture ?"}
+{"id":"sou-b-0135","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel voyage d'avant notre rencontre aimerais-tu faire découvrir à {autre} ?"}
+{"id":"sou-b-0136","category":"souvenirs","mode":"verite","intensity":1,"text":"Dans quel endroit te sentais-tu le plus loin de chez toi ?"}
+{"id":"sou-b-0137","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de voyage as-tu trouvé le plus romantique entre nous ?"}
+{"id":"sou-b-0138","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle valise ou quel sac de voyage aurait une histoire à raconter ?"}
+{"id":"sou-b-0139","category":"souvenirs","mode":"verite","intensity":1,"text":"De quelles vacances en famille de ton enfance parles-tu le plus ?"}
+{"id":"sou-b-0140","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel lieu visité ensemble a été une déception totale ?"}
+{"id":"sou-b-0141","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle nuit de voyage a été la plus courte, et pour quelle raison ?"}
+{"id":"sou-b-0142","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel anniversaire fêté ensemble reste ton préféré ?"}
+{"id":"sou-b-0143","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel réveillon passé ensemble te revient en premier ?"}
+{"id":"sou-b-0144","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle fête dans la famille de {autre} t'a semblé la plus dépaysante ?"}
+{"id":"sou-b-0145","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel déguisement de soirée costumée assumes-tu encore aujourd'hui ?"}
+{"id":"sou-b-0146","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle danse ridicule as-tu faite à un mariage ?"}
+{"id":"sou-b-0147","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau de {autre} t'a mis les larmes aux yeux ?"}
+{"id":"sou-b-0148","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau as-tu offert à {autre} en croisant les doigts pour que ça plaise ?"}
+{"id":"sou-b-0149","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle fête de ton enfance avait l'odeur la plus reconnaissable ?"}
+{"id":"sou-b-0150","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le pire karaoké auquel tu aies participé ?"}
+{"id":"sou-b-0151","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée ensemble a fini bien plus tard que prévu ?"}
+{"id":"sou-b-0152","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jour férié passé à deux sur le canapé était parfait ?"}
+{"id":"sou-b-0153","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle surprise d'anniversaire a failli tomber à l'eau ?"}
+{"id":"sou-b-0154","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel gâteau d'anniversaire de ton enfance te fait encore saliver ?"}
+{"id":"sou-b-0155","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle fête chez des amis reste notre meilleur souvenir de soirée ?"}
+{"id":"sou-b-0156","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel Noël de ton enfance a été le plus magique ?"}
+{"id":"sou-b-0157","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle tradition de fin d'année as-tu emportée de ta famille dans notre couple ?"}
+{"id":"sou-b-0158","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel feu d'artifice regardé ensemble te reste en mémoire ?"}
+{"id":"sou-b-0159","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle galère vécue ensemble a le plus soudé notre couple, selon toi ?"}
+{"id":"sou-b-0160","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel meuble monté ensemble a failli nous fâcher pour de bon ?"}
+{"id":"sou-b-0161","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle panne nous a offert un souvenir inattendu ?"}
+{"id":"sou-b-0162","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel déménagement t'a laissé le plus de courbatures ?"}
+{"id":"sou-b-0163","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle fois où on a complètement perdu notre chemin te fait rire aujourd'hui ?"}
+{"id":"sou-b-0164","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle averse ou quelle canicule a gâché, puis sauvé, une de nos sorties ?"}
+{"id":"sou-b-0165","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel train, bus ou avion raté reste notre plus belle galère ?"}
+{"id":"sou-b-0166","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel plat raté à deux est devenu une blague entre nous ?"}
+{"id":"sou-b-0167","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle période difficile as-tu traversée en sentant {autre} vraiment là pour toi ?"}
+{"id":"sou-b-0168","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souci de logement nous a fait vivre une vraie aventure ?"}
+{"id":"sou-b-0169","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle clé perdue ou porte claquée nous a valu une drôle de soirée ?"}
+{"id":"sou-b-0170","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel gros rhume t'a valu les meilleurs soins de {autre} ?"}
+{"id":"sou-b-0171","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel bricolage raté de notre vie commune mériterait un prix ?"}
+{"id":"sou-b-0172","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée qui partait mal a fini en super souvenir ?"}
+{"id":"sou-b-0173","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment de stress partagé te fait aujourd'hui éclater de rire ?"}
+{"id":"sou-b-0174","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle phrase culte de ta famille utilises-tu sans t'en rendre compte ?"}
+{"id":"sou-b-0175","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel plat de ta famille aimerais-tu que {autre} apprenne à cuisiner ?"}
+{"id":"sou-b-0176","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle histoire de famille, racontée à chaque repas, connais-tu par cœur ?"}
+{"id":"sou-b-0177","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir avec ta fratrie ou tes cousins te fait encore rire ?"}
+{"id":"sou-b-0178","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel trait de caractère as-tu hérité de ta famille, un peu malgré toi ?"}
+{"id":"sou-b-0179","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel conseil familial t'a servi bien plus que tu ne l'aurais cru ?"}
+{"id":"sou-b-0180","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel objet de famille aimerais-tu garder toute ta vie ?"}
+{"id":"sou-b-0181","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle maison de famille a compté dans ton enfance, et pourquoi ?"}
+{"id":"sou-b-0182","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle dispute familiale mémorable fait rire tout le monde aujourd'hui ?"}
+{"id":"sou-b-0183","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle personne de ta famille ressemble le plus à {autre}, d'après toi ?"}
+{"id":"sou-b-0184","category":"souvenirs","mode":"verite","intensity":2,"text":"Qu'est-ce que ta famille t'a appris sans jamais le dire ?"}
+{"id":"sou-b-0185","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel est le souvenir le plus tendre que tu gardes de tes parents ?"}
+{"id":"sou-b-0186","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle recette familiale as-tu tenté de reproduire, et avec quel résultat ?"}
+{"id":"sou-b-0187","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel rituel du coucher avais-tu dans ta famille ?"}
+{"id":"sou-b-0188","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle amitié d'enfance aimerais-tu retrouver le temps d'un après-midi ?"}
+{"id":"sou-b-0189","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bande d'amis a façonné ton adolescence, et que sont devenus ses membres ?"}
+{"id":"sou-b-0190","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel fou rire de ta vieille bande pourrais-tu raconter à {autre} ?"}
+{"id":"sou-b-0191","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle colonie, quel camp ou quel stage d'été t'a laissé des amitiés ?"}
+{"id":"sou-b-0192","category":"souvenirs","mode":"verite","intensity":1,"text":"Avec qui faisais-tu les quatre cents coups à la récré ?"}
+{"id":"sou-b-0193","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle amitié perdue de vue te manque parfois ?"}
+{"id":"sou-b-0194","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel secret d'amitié d'enfance peux-tu enfin révéler à {autre} ?"}
+{"id":"sou-b-0195","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel surnom t'avaient donné tes camarades d'école ?"}
+{"id":"sou-b-0196","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée pyjama de ton enfance a été la plus mémorable ?"}
+{"id":"sou-b-0197","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel pacte d'amitié as-tu scellé enfant, et l'as-tu tenu ?"}
+{"id":"sou-b-0198","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle personne de ton passé aimerais-tu présenter à {autre} ?"}
+{"id":"sou-b-0199","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel mot doux ou quelle lettre d'enfance gardes-tu encore précieusement ?"}
+{"id":"sou-b-0200","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir d'amitié d'avant notre rencontre aimerais-tu partager avec {autre} ce soir ?"}
+{"id":"sou-b-0201","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est ton tout premier souvenir, le plus ancien qui te reste ?"}
+{"id":"sou-b-0202","category":"souvenirs","mode":"verite","intensity":1,"text":"Te souviens-tu de la première fois que tu as vu la mer ? Raconte."}
+{"id":"sou-b-0203","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle odeur te fait penser à {autre} depuis nos débuts ?"}
+{"id":"sou-b-0204","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel bruit de ton enfance te manque, comme un carillon ou un train au loin ?"}
+{"id":"sou-b-0205","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel goût de bonbon te projette directement à la sortie de l'école ?"}
+{"id":"sou-b-0206","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle saison de notre histoire aimes-tu revivre en pensée ?"}
+{"id":"sou-b-0207","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel appartement, le tien d'avant ou le nôtre, renferme le plus de souvenirs ?"}
+{"id":"sou-b-0208","category":"souvenirs","mode":"verite","intensity":1,"text":"Que retiens-tu de notre première nuit dans un nouveau chez-nous ?"}
+{"id":"sou-b-0209","category":"souvenirs","mode":"verite","intensity":1,"text":"Qu'as-tu ressenti la première fois que tu as vécu sans tes parents ?"}
+{"id":"sou-b-0210","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le premier objet qu'on a choisi à deux pour la maison ?"}
+{"id":"sou-b-0211","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de neige te revient, d'enfance ou avec {autre} ?"}
+{"id":"sou-b-0212","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle journée de pluie passée ensemble est devenue un souvenir doux ?"}
+{"id":"sou-b-0213","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est ton souvenir le plus drôle d'une kermesse ou d'une fête d'école ?"}
+{"id":"sou-b-0214","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel spectacle d'école t'a valu un rôle mémorable ?"}
+{"id":"sou-b-0215","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle chanson apprise à l'école peux-tu encore chanter en entier ?"}
+{"id":"sou-b-0216","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle récompense te faisait le plus plaisir quand tu étais enfant ?"}
+{"id":"sou-b-0217","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle punition d'enfance trouves-tu drôle aujourd'hui ?"}
+{"id":"sou-b-0218","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jeu inventé avec ta fratrie ou tes voisins avait les règles les plus absurdes ?"}
+{"id":"sou-b-0219","category":"souvenirs","mode":"verite","intensity":1,"text":"Qui vivait à côté de chez toi enfant, et quel souvenir gardes-tu de ce voisinage ?"}
+{"id":"sou-b-0220","category":"souvenirs","mode":"verite","intensity":1,"text":"Que te rappelles-tu de la première fois que tu as conduit ?"}
+{"id":"sou-b-0221","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle anecdote gardes-tu de ton examen du permis, réussi ou raté ?"}
+{"id":"sou-b-0222","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel entretien d'embauche t'a laissé un souvenir cocasse ?"}
+{"id":"sou-b-0223","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier jour de travail t'a laissé le souvenir le plus étrange ?"}
+{"id":"sou-b-0224","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de l'école primaire te paraît aujourd'hui complètement surréaliste ?"}
+{"id":"sou-b-0225","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le premier film qu'on a vu ensemble, et qu'en as-tu vraiment pensé ?"}
+{"id":"sou-b-0226","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle série a rythmé un de nos hivers ?"}
+{"id":"sou-b-0227","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier restaurant à deux te revient, et qu'avais-tu commandé ?"}
+{"id":"sou-b-0228","category":"souvenirs","mode":"verite","intensity":1,"text":"Combien de temps as-tu cherché le tout premier cadeau pour {autre} ?"}
+{"id":"sou-b-0229","category":"souvenirs","mode":"verite","intensity":1,"text":"Raconte la première fois où tu as pris la main de {autre}."}
+{"id":"sou-b-0230","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de nos débuts t'a fait comprendre que tu pouvais être toi-même ?"}
+{"id":"sou-b-0231","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel souvenir de notre rencontre a changé dans ta mémoire avec le temps ?"}
+{"id":"sou-b-0232","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel détail de nos débuts as-tu peur que {autre} ait oublié ?"}
+{"id":"sou-b-0233","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est ton souvenir préféré de {autre} en train de rire ?"}
+{"id":"sou-b-0234","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle photo d'enfance de {autre} t'attendrit le plus ?"}
+{"id":"sou-b-0235","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment passé t'a fait voir {autre} sous un jour complètement nouveau ?"}
+{"id":"sou-b-0236","category":"souvenirs","mode":"verite","intensity":2,"text":"Raconte une fois où {autre} a pris soin de toi sans que tu demandes rien."}
+{"id":"sou-b-0237","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de notre histoire te remplit le plus de fierté ?"}
+{"id":"sou-b-0238","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel conflit passé t'a appris quelque chose d'important sur nous ?"}
+{"id":"sou-b-0239","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle promesse qu'on s'est faite au début a été tenue haut la main ?"}
+{"id":"sou-b-0240","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel animal as-tu rêvé d'avoir enfant, sans jamais l'obtenir ?"}
+{"id":"sou-b-0241","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir avec un animal t'a fait le plus rire ?"}
+{"id":"sou-b-0242","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle expression de {autre} s'est glissée dans ton vocabulaire au fil du temps ?"}
+{"id":"sou-b-0243","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le jour le plus chaud ou le plus glacial vécu ensemble ?"}
+{"id":"sou-b-0244","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle nuit blanche à discuter avec {autre} te revient en premier ?"}
+{"id":"sou-b-0245","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle « dernière fois » de ton enfance as-tu vécue sans savoir que c'était la dernière ?"}
+{"id":"sou-b-0246","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel recoin de ta chambre d'ado aimerais-tu montrer à {autre} ?"}
+{"id":"sou-b-0247","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle compilation musicale d'ado avais-tu préparée avec amour, et pour qui ?"}
+{"id":"sou-b-0248","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jeu vidéo d'enfance pourrais-tu encore finir les yeux fermés ?"}
+{"id":"sou-b-0249","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle carte postale ou quelle lettre reçue t'a fait un bien fou ?"}
+{"id":"sou-b-0250","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de fête foraine te revient en premier ?"}
+{"id":"sou-b-0251","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel manège te terrifiait quand tu étais enfant ?"}
+{"id":"sou-b-0252","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est ton souvenir le plus précis de ta première rentrée des classes ?"}
+{"id":"sou-b-0253","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel objet de ta trousse d'école te tenait le plus à cœur ?"}
+{"id":"sou-b-0254","category":"souvenirs","mode":"verite","intensity":1,"text":"Raconte la fois où tu as séché les cours, ou celle où tu en as eu terriblement envie."}
+{"id":"sou-b-0255","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel anniversaire chez d'autres enfants t'a fait rêver ?"}
+{"id":"sou-b-0256","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée d'été de ton enfance sentait les vacances à plein nez ?"}
+{"id":"sou-b-0257","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle leçon t'ont transmise tes grands-parents ?"}
+{"id":"sou-b-0258","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel endroit de ton enfance a disparu et te manque ?"}
+{"id":"sou-b-0259","category":"souvenirs","mode":"verite","intensity":1,"text":"Que gardes-tu de ta toute première fois à l'étranger ?"}
+{"id":"sou-b-0260","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le premier voyage que tu as fait sans adultes ?"}
+{"id":"sou-b-0261","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle nuit sous la tente ou à la belle étoile te reste en tête ?"}
+{"id":"sou-b-0262","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel souvenir de nos premières vacances à deux aurais-tu envie de corriger ?"}
+{"id":"sou-b-0263","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle erreur a plombé la préparation de notre premier voyage ?"}
+{"id":"sou-b-0264","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel détour imprévu en voyage s'est révélé être le meilleur moment ?"}
+{"id":"sou-b-0265","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle ville visitée ensemble te donne encore envie d'y retourner ?"}
+{"id":"sou-b-0266","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle langue étrangère as-tu le plus massacrée en voyage ?"}
+{"id":"sou-b-0267","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel petit-déjeuner de vacances était le plus parfait ?"}
+{"id":"sou-b-0268","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment avec la famille de {autre} a brisé la glace pour de bon ?"}
+{"id":"sou-b-0269","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel anniversaire de {autre} as-tu eu le plus de plaisir à organiser ?"}
+{"id":"sou-b-0270","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle tenue de fête as-tu portée une seule et unique fois ?"}
+{"id":"sou-b-0271","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel mariage auquel tu as assisté reste le plus drôle, et pourquoi ?"}
+{"id":"sou-b-0272","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jeu de fête de ton enfance était absolument incontournable ?"}
+{"id":"sou-b-0273","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier anniversaire de couple te revient, et comment l'a-t-on fêté ?"}
+{"id":"sou-b-0274","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée as-tu quittée en douce, et pour quelle raison ?"}
+{"id":"sou-b-0275","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jeu de soirée a fini en fou rire collectif ?"}
+{"id":"sou-b-0276","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle période fauchée de nos débuts a donné les idées les plus créatives ?"}
+{"id":"sou-b-0277","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel repas improvisé avec trois fois rien reste mémorable ?"}
+{"id":"sou-b-0278","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de coupure de courant ou d'eau te fait sourire ?"}
+{"id":"sou-b-0279","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle nuit d'insomnie à deux s'est transformée en joli moment ?"}
+{"id":"sou-b-0280","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel voisinage pénible nous a donné une anecdote à raconter ?"}
+{"id":"sou-b-0281","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jour de déménagement aurais-tu aimé effacer du calendrier ?"}
+{"id":"sou-b-0282","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle dispute pour une broutille te fait un peu honte aujourd'hui ?"}
+{"id":"sou-b-0283","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle erreur de ta jeunesse t'a finalement rendu service ?"}
+{"id":"sou-b-0284","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le plus beau compliment qu'on t'ait fait dans ton enfance ?"}
+{"id":"sou-b-0285","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle phrase d'un parent t'a fait grandir d'un coup ?"}
+{"id":"sou-b-0286","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bagarre de fratrie ou de cousins est restée légendaire ?"}
+{"id":"sou-b-0287","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle personne âgée de ton enfance racontait les meilleures histoires ?"}
+{"id":"sou-b-0288","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de cuisine avec un adulte de ta famille te revient ?"}
+{"id":"sou-b-0289","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle chanson chantée en famille dans la voiture connais-tu encore ?"}
+{"id":"sou-b-0290","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel est le plus grand fou rire de ta vie, avant notre rencontre ?"}
+{"id":"sou-b-0291","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle amitié de lycée a survécu jusqu'à aujourd'hui, et comment ?"}
+{"id":"sou-b-0292","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle personne de ton ancienne classe aimerais-tu croiser par hasard ?"}
+{"id":"sou-b-0293","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel code ou langage secret partageais-tu avec tes amis d'enfance ?"}
+{"id":"sou-b-0294","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel banc ou quel recoin de ton ancien quartier connais-tu par cœur ?"}
+{"id":"sou-b-0295","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment d'amitié t'a appris ce qu'est vraiment la loyauté ?"}
+{"id":"sou-b-0296","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle aventure de ta vie d'avant {autre} n'a encore jamais entendue ?"}
+{"id":"sou-b-0297","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel lieu de ta vie d'avant aimerais-tu faire visiter à {autre} ?"}
+{"id":"sou-b-0298","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle photo de toi enfant résume le mieux ton caractère ?"}
+{"id":"sou-b-0299","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle réaction t'a fait le plus rire en racontant notre histoire à quelqu'un ?"}
+{"id":"sou-b-0300","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de nous deux racontes-tu le plus souvent aux autres ?"}
+{"id":"sou-b-0301","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir tout bête avec {autre} compte pourtant énormément pour toi ?"}
+{"id":"sou-b-0302","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment de notre histoire mériterait tout un chapitre dans un roman ?"}
+{"id":"sou-b-0303","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle journée ordinaire avec {autre} est restée gravée sans raison particulière ?"}
+{"id":"sou-b-0304","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel rituel d'hiver est né pendant nos débuts ?"}
+{"id":"sou-b-0305","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier achat commun nous a fait débattre pendant des heures ?"}
+{"id":"sou-b-0306","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle recette réussie à deux est devenue notre grand classique ?"}
+{"id":"sou-b-0307","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de complicité silencieuse avec {autre} te revient en mémoire ?"}
+{"id":"sou-b-0308","category":"souvenirs","mode":"verite","intensity":2,"text":"Raconte une fois où {autre} a pris ta défense, et ce que ça t'a fait."}
+{"id":"sou-b-0309","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de {autre} un jour de mauvaise humeur te fait sourire après coup ?"}
+{"id":"sou-b-0310","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bêtise faite à deux est devenue notre meilleure anecdote de soirée ?"}
+{"id":"sou-b-0311","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel fou rire a éclaté entre nous au pire moment possible ?"}
+{"id":"sou-b-0312","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de nos débuts te paraît aujourd'hui incroyablement naïf ?"}
+{"id":"sou-b-0313","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel message de {autre} as-tu relu des dizaines de fois en cachette ?"}
+{"id":"sou-b-0314","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier appel avec {autre} a duré bien plus longtemps que prévu ?"}
+{"id":"sou-b-0315","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle est la première photo de nous deux, et qui l'a prise ?"}
+{"id":"sou-b-0316","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de nos débuts aurais-tu voulu étirer encore un peu, et pourquoi ?"}
+{"id":"sou-b-0317","category":"souvenirs","mode":"verite","intensity":2,"text":"Qu'as-tu appris sur toi grâce à nos premières années ensemble ?"}
+{"id":"sou-b-0318","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle habitude d'enfance as-tu gardée sans jamais l'avouer ?"}
+{"id":"sou-b-0319","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel doudou ou quel objet fétiche t'accompagnait partout enfant ?"}
+{"id":"sou-b-0320","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel plat de ton enfance n'as-tu jamais retrouvé ailleurs ?"}
+{"id":"sou-b-0321","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle histoire du soir te faisait le plus d'effet avant de dormir ?"}
+{"id":"sou-b-0322","category":"souvenirs","mode":"verite","intensity":1,"text":"À quel jeu de plein air jouais-tu jusqu'à la nuit tombée ?"}
+{"id":"sou-b-0323","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle grande frayeur de ton enfance te fait encore frissonner ?"}
+{"id":"sou-b-0324","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel déguisement d'enfance voulais-tu porter tous les jours ?"}
+{"id":"sou-b-0325","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel endroit secret de ton enfance personne d'autre ne connaissait ?"}
+{"id":"sou-b-0326","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel premier séjour loin de ta famille t'a donné le mal du pays ?"}
+{"id":"sou-b-0327","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle personne de ton enfance aurais-tu voulu imiter en tout ?"}
+{"id":"sou-b-0328","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de vacances chez des proches sent encore l'herbe coupée ?"}
+{"id":"sou-b-0329","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle phrase drôle de ton enfance te ressort-on encore en famille ?"}
+{"id":"sou-b-0330","category":"souvenirs","mode":"verite","intensity":1,"text":"À quoi jouais-tu, enfant, quand personne ne te regardait ?"}
+{"id":"sou-b-0331","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel était ton plus grand rêve à dix ans ?"}
+{"id":"sou-b-0332","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle est la première chose que tu as su faire mieux que les adultes ?"}
+{"id":"sou-b-0333","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle victoire d'enfance savoures-tu encore aujourd'hui ?"}
+{"id":"sou-b-0334","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle rentrée scolaire a été la plus difficile pour toi, et pourquoi ?"}
+{"id":"sou-b-0335","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle remarque de bulletin scolaire te fait rire maintenant ?"}
+{"id":"sou-b-0336","category":"souvenirs","mode":"verite","intensity":1,"text":"Qui faisait rire toute ta classe, et quel était son secret ?"}
+{"id":"sou-b-0337","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bêtise d'ado aurais-tu adoré faire avec {autre} à tes côtés ?"}
+{"id":"sou-b-0338","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel vêtement as-tu supplié tes parents de t'acheter à l'adolescence ?"}
+{"id":"sou-b-0339","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel groupe de musique de ton adolescence assumes-tu encore en secret ?"}
+{"id":"sou-b-0340","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle série regardais-tu en cachette quand tu étais ado ?"}
+{"id":"sou-b-0341","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée d'ado tant attendue a été ta plus grosse déception ?"}
+{"id":"sou-b-0342","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel moment de ton adolescence t'a donné l'impression de devenir adulte ?"}
+{"id":"sou-b-0343","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel trajet en bus ou à vélo de ton adolescence pourrais-tu refaire sans carte ?"}
+{"id":"sou-b-0344","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle première lettre d'amour as-tu écrite, envoyée ou non ?"}
+{"id":"sou-b-0345","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel rendez-vous de ta vie d'avant {autre} a été un fiasco mémorable ?"}
+{"id":"sou-b-0346","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel voyage d'avant notre rencontre a changé ta façon de voir les choses ?"}
+{"id":"sou-b-0347","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel aéroport ou quelle gare garde un souvenir fort pour toi ?"}
+{"id":"sou-b-0348","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel retour de voyage a été le plus dur à encaisser ?"}
+{"id":"sou-b-0349","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle nuit dans un hébergement insolite reste mémorable ?"}
+{"id":"sou-b-0350","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de baignade ensemble te fait sourire ?"}
+{"id":"sou-b-0351","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel moment de randonnée ou de balade à deux a été le plus beau ?"}
+{"id":"sou-b-0352","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel coucher de soleil vu ensemble reste ton préféré, et où était-ce ?"}
+{"id":"sou-b-0353","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle visite ensemble a été la plus ennuyeuse, sans que tu oses le dire ?"}
+{"id":"sou-b-0354","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau rapporté de voyage pour quelqu'un a été un échec total ?"}
+{"id":"sou-b-0355","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle fête de village ou de quartier te rappelle l'été ?"}
+{"id":"sou-b-0356","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel anniversaire raté de ta vie te fait rire aujourd'hui ?"}
+{"id":"sou-b-0357","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel gâteau, quel plat ou quelle boisson de fête est lié à un souvenir précis ?"}
+{"id":"sou-b-0358","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle tradition de nos fêtes est née complètement par hasard ?"}
+{"id":"sou-b-0359","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle bonne résolution prise à deux a tenu plus d'une semaine ?"}
+{"id":"sou-b-0360","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel cadeau fait main reçu dans ta vie a le plus de valeur à tes yeux ?"}
+{"id":"sou-b-0361","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle surprise as-tu dû cacher à {autre} pendant longtemps, et comment ?"}
+{"id":"sou-b-0362","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle surprise de {autre} as-tu devinée à l'avance, sans rien laisser paraître ?"}
+{"id":"sou-b-0363","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle galère d'organisation a failli gâcher une fête ?"}
+{"id":"sou-b-0364","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel souvenir de nos premiers travaux de peinture ou de déco te revient ?"}
+{"id":"sou-b-0365","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle plante ou quel objet a survécu à toutes nos galères ?"}
+{"id":"sou-b-0366","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel jour où rien ne s'est passé comme prévu est devenu génial ?"}
+{"id":"sou-b-0367","category":"souvenirs","mode":"verite","intensity":1,"text":"Raconte la fois où {autre} a sauvé une situation désespérée."}
+{"id":"sou-b-0368","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle grosse frayeur, comme un passage aux urgences, avons-nous traversée ensemble ?"}
+{"id":"sou-b-0369","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée de ton passé aimerais-tu revivre avec {autre} à tes côtés ?"}
+{"id":"sou-b-0370","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel repas de famille du week-end te manque, ou t'agace encore ?"}
+{"id":"sou-b-0371","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel membre de ta famille élargie était ton modèle enfant ?"}
+{"id":"sou-b-0372","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle anecdote sur ta naissance ou tes premiers mois te raconte-t-on ?"}
+{"id":"sou-b-0373","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel prénom avait-on failli te donner ?"}
+{"id":"sou-b-0374","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle photo de famille te fait toujours rire ?"}
+{"id":"sou-b-0375","category":"souvenirs","mode":"verite","intensity":1,"text":"Quel objet de la maison de ton enfance pourrais-tu dessiner de mémoire ?"}
+{"id":"sou-b-0376","category":"souvenirs","mode":"verite","intensity":2,"text":"Quelle valeur de ta famille veux-tu garder dans notre couple ?"}
+{"id":"sou-b-0377","category":"souvenirs","mode":"verite","intensity":2,"text":"Quel souvenir d'enfance n'as-tu encore jamais raconté à personne ?"}
+{"id":"sou-b-0378","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle amitié est née le jour même d'une grosse galère ?"}
+{"id":"sou-b-0379","category":"souvenirs","mode":"verite","intensity":1,"text":"Quelle soirée avec une ancienne bande d'amis aimerais-tu revivre ?"}
+{"id":"sou-b-0380","category":"souvenirs","mode":"verite","intensity":1,"text":"Si tu pouvais revivre une seule journée de notre histoire, laquelle choisirais-tu ?"}
+{"id":"sou-b-0381","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue en mime, trente secondes chrono, la scène de notre rencontre.","remote":false}
+{"id":"sou-b-0382","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui raconte notre rencontre façon commentaire sportif.","remote":true}
+{"id":"sou-b-0383","category":"souvenirs","mode":"action","intensity":1,"text":"Imite la toute première phrase que {autre} t'a adressée, intonation comprise.","remote":false}
+{"id":"sou-b-0384","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} la plus vieille photo de toi stockée dans ton téléphone et raconte-la.","remote":false}
+{"id":"sou-b-0385","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de toi enfant et laisse deviner l'âge que tu avais.","remote":true}
+{"id":"sou-b-0386","category":"souvenirs","mode":"action","intensity":2,"text":"Reproduis avec {autre} la position de notre premier baiser, façon arrêt sur image.","remote":false}
+{"id":"sou-b-0387","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} trois mots qui résument notre premier rendez-vous, sans aucune explication.","remote":true}
+{"id":"sou-b-0388","category":"souvenirs","mode":"action","intensity":1,"text":"Danse trente secondes devant {autre} comme à tes soirées d'ado, sans aucune honte.","remote":false}
+{"id":"sou-b-0389","category":"souvenirs","mode":"action","intensity":1,"text":"Chante à {autre} le refrain d'une chanson de ton enfance, en y mettant le cœur.","remote":false}
+{"id":"sou-b-0390","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la chanson qui tournait en boucle au moment de notre rencontre.","remote":true}
+{"id":"sou-b-0391","category":"souvenirs","mode":"action","intensity":1,"text":"Dessine en une minute la maison de ton enfance et explique chaque pièce à {autre}.","remote":false}
+{"id":"sou-b-0392","category":"souvenirs","mode":"action","intensity":1,"text":"Prends la pose de ta photo de classe préférée et laisse {autre} deviner l'année.","remote":false}
+{"id":"sou-b-0393","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et raconte ton souvenir de vacances le plus drôle en moins d'une minute.","remote":true}
+{"id":"sou-b-0394","category":"souvenirs","mode":"action","intensity":1,"text":"Fais goûter à {autre} un aliment de la cuisine qui te rappelle ton enfance.","remote":false}
+{"id":"sou-b-0395","category":"souvenirs","mode":"action","intensity":2,"text":"Murmure à {autre} la toute première pensée que tu as eue à son sujet.","remote":false}
+{"id":"sou-b-0396","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une capture d'écran de notre plus vieux message encore enregistré.","remote":true}
+{"id":"sou-b-0397","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} notre première dispute, mais en version comédie musicale.","remote":false}
+{"id":"sou-b-0398","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment tu dansais aux mariages quand tu étais enfant.","remote":false}
+{"id":"sou-b-0399","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un emoji pour chaque grande étape de notre histoire, dans l'ordre.","remote":true}
+{"id":"sou-b-0400","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} la grimace que tu faisais sur toutes tes photos d'enfance.","remote":false}
+{"id":"sou-b-0401","category":"souvenirs","mode":"action","intensity":1,"text":"Imite pendant trente secondes un adulte de ton enfance, et {autre} devine qui c'est.","remote":false}
+{"id":"sou-b-0402","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu chantes la première comptine qui te revient.","remote":true}
+{"id":"sou-b-0403","category":"souvenirs","mode":"action","intensity":1,"text":"Prends {autre} dans tes bras exactement comme lors de notre toute première étreinte.","remote":false}
+{"id":"sou-b-0404","category":"souvenirs","mode":"action","intensity":1,"text":"Trouve dans la maison un objet lié à un souvenir commun et offre-le à {autre} pour la soirée.","remote":false}
+{"id":"sou-b-0405","category":"souvenirs","mode":"action","intensity":2,"text":"Écris à {autre} le message que tu aurais voulu envoyer juste après notre premier rendez-vous.","remote":true}
+{"id":"sou-b-0406","category":"souvenirs","mode":"action","intensity":1,"text":"Joue à {autre} la scène de ton premier jour d'école, avec ou sans les larmes.","remote":false}
+{"id":"sou-b-0407","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre}, en mime, le métier dont tu rêvais enfant.","remote":false}
+{"id":"sou-b-0408","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet qui a une histoire, puis raconte-la par message.","remote":true}
+{"id":"sou-b-0409","category":"souvenirs","mode":"action","intensity":1,"text":"Laisse à {autre} un vocal d'une minute bourré d'expressions de la région de ton enfance.","remote":true}
+{"id":"sou-b-0410","category":"souvenirs","mode":"action","intensity":1,"text":"Apprends à {autre} un jeu de mains de ta cour de récré, et faites-le une fois en entier.","remote":false}
+{"id":"sou-b-0411","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} trois photos de lieux qui comptent dans ton passé, sans légende.","remote":true}
+{"id":"sou-b-0412","category":"souvenirs","mode":"action","intensity":1,"text":"Refais avec {autre}, là tout de suite, la pose de notre premier selfie.","remote":false}
+{"id":"sou-b-0413","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment tu te coiffais au lycée, avec ce que tu as sous la main.","remote":false}
+{"id":"sou-b-0414","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui commence par « Te souviens-tu du jour où… » et termine l'histoire.","remote":true}
+{"id":"sou-b-0415","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} le signe secret que tu partageais avec ta bande d'enfance.","remote":false}
+{"id":"sou-b-0416","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte notre rencontre à {autre} comme si tu parlais à un enfant de cinq ans.","remote":false}
+{"id":"sou-b-0417","category":"souvenirs","mode":"action","intensity":2,"text":"Écris à {autre} cinq moments de notre histoire où tu as eu envie de dire merci.","remote":true}
+{"id":"sou-b-0418","category":"souvenirs","mode":"action","intensity":1,"text":"Joue à {autre} un extrait de ton spectacle ou de ta récitation d'école.","remote":false}
+{"id":"sou-b-0419","category":"souvenirs","mode":"action","intensity":2,"text":"Tiens la main de {autre} et raconte le moment où tu as eu envie de la prendre pour la première fois.","remote":false}
+{"id":"sou-b-0420","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une image de ton plat d'enfance préféré et décris son goût en une phrase.","remote":true}
+{"id":"sou-b-0421","category":"souvenirs","mode":"action","intensity":1,"text":"Prépare à {autre} une tartine ou un goûter comme ceux de ton enfance.","remote":false}
+{"id":"sou-b-0422","category":"souvenirs","mode":"action","intensity":1,"text":"Imite {autre} le jour de notre rencontre, pendant vingt secondes et avec tendresse.","remote":false}
+{"id":"sou-b-0423","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et décris ta chambre d'enfant dans les moindres détails pendant une minute.","remote":true}
+{"id":"sou-b-0424","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue ta toute première arrivée chez la famille de {autre}, sonnette comprise.","remote":false}
+{"id":"sou-b-0425","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} ta cicatrice préférée et raconte son origine comme une légende.","remote":false}
+{"id":"sou-b-0426","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} trois choses que tu ignorais à son sujet au début, et que tu adores aujourd'hui.","remote":true}
+{"id":"sou-b-0427","category":"souvenirs","mode":"action","intensity":1,"text":"Fais écouter à {autre} une musique de ton adolescence et invite {autre} à danser dessus.","remote":false}
+{"id":"sou-b-0428","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue en accéléré, avec {autre}, notre premier départ en vacances, valises comprises.","remote":false}
+{"id":"sou-b-0429","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui imite la sonnerie de ton école ou ton réveil d'ado.","remote":true}
+{"id":"sou-b-0430","category":"souvenirs","mode":"action","intensity":1,"text":"Reproduis sur ta propre tête la coiffure de {autre} au début de notre histoire.","remote":false}
+{"id":"sou-b-0431","category":"souvenirs","mode":"action","intensity":1,"text":"Ferme les yeux et fais visiter à {autre}, pièce par pièce, la maison de ton enfance.","remote":false}
+{"id":"sou-b-0432","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} un acrostiche avec son prénom, chaque ligne étant un souvenir commun.","remote":true}
+{"id":"sou-b-0433","category":"souvenirs","mode":"action","intensity":2,"text":"Offre à {autre} un câlin de trente secondes en pensant très fort à notre plus beau souvenir.","remote":false}
+{"id":"sou-b-0434","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue ton premier entretien d'embauche, avec {autre} dans le rôle de la personne qui recrute.","remote":false}
+{"id":"sou-b-0435","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo de toi ado la plus gênante que tu possèdes.","remote":true}
+{"id":"sou-b-0436","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} le talent ou le tour que tu faisais aux repas de famille quand tu étais enfant.","remote":false}
+{"id":"sou-b-0437","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} la première fête d'anniversaire dont tu te souviens, bruitages compris.","remote":false}
+{"id":"sou-b-0438","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui commence par « Je me souviens » et contient trois souvenirs.","remote":true}
+{"id":"sou-b-0439","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre} un souvenir commun en le dessinant, sans lettres ni chiffres.","remote":false}
+{"id":"sou-b-0440","category":"souvenirs","mode":"action","intensity":1,"text":"Enfile un vêtement de nos débuts, si tu l'as encore, et défile pour {autre}.","remote":false}
+{"id":"sou-b-0441","category":"souvenirs","mode":"action","intensity":1,"text":"Enregistre pour {autre} un vocal de trente secondes à la manière d'un documentaire animalier sur nos débuts.","remote":true}
+{"id":"sou-b-0442","category":"souvenirs","mode":"action","intensity":1,"text":"Trouve en deux minutes un objet de la maison qui a voyagé avec nous et montre-le à {autre}.","remote":false}
+{"id":"sou-b-0443","category":"souvenirs","mode":"action","intensity":2,"text":"Prends {autre} par la taille et refais notre premier slow, même sans musique.","remote":false}
+{"id":"sou-b-0444","category":"souvenirs","mode":"action","intensity":2,"text":"Appelle {autre} et rejoue notre premier coup de fil, comme si on ne se connaissait pas encore.","remote":true}
+{"id":"sou-b-0445","category":"souvenirs","mode":"action","intensity":1,"text":"Écris sur un papier la date d'un souvenir commun, et laisse {autre} retrouver l'événement.","remote":false}
+{"id":"sou-b-0446","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment tu faisais tes devoirs enfant, posture comprise.","remote":false}
+{"id":"sou-b-0447","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un lieu de nos débuts et écris ce qui te revient en la regardant.","remote":true}
+{"id":"sou-b-0448","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} ton premier voyage sans adultes en mimant chaque moyen de transport.","remote":false}
+{"id":"sou-b-0449","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue le moment où tu as reçu ton cadeau d'enfance préféré, réaction comprise.","remote":false}
+{"id":"sou-b-0450","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} un petit poème de quatre lignes sur notre première rencontre.","remote":true}
+{"id":"sou-b-0451","category":"souvenirs","mode":"action","intensity":2,"text":"Dis à {autre} le surnom que tu lui donnais en secret au début, et explique-le.","remote":false}
+{"id":"sou-b-0452","category":"souvenirs","mode":"action","intensity":2,"text":"Refais pour {autre} la tête que tu as faite en lisant notre premier message.","remote":false}
+{"id":"sou-b-0453","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu imites un membre de ta famille racontant son anecdote culte.","remote":true}
+{"id":"sou-b-0454","category":"souvenirs","mode":"action","intensity":1,"text":"Masse les épaules de {autre} pendant deux minutes en racontant notre pire déménagement.","remote":false}
+{"id":"sou-b-0455","category":"souvenirs","mode":"action","intensity":2,"text":"Rejoue avec {autre} l'au revoir maladroit de notre premier rendez-vous.","remote":false}
+{"id":"sou-b-0456","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} trois mots qui décrivent ton adolescence, puis réponds à trois de ses questions.","remote":true}
+{"id":"sou-b-0457","category":"souvenirs","mode":"action","intensity":1,"text":"Récite à {autre} une poésie ou une table de multiplication apprise à l'école.","remote":false}
+{"id":"sou-b-0458","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte notre premier voyage en utilisant des objets de la maison comme décor.","remote":false}
+{"id":"sou-b-0459","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo du premier objet acheté avec ton argent, ou d'un objet qui y ressemble.","remote":true}
+{"id":"sou-b-0460","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} ta grimace devant le plat que tu détestais à la cantine.","remote":false}
+{"id":"sou-b-0461","category":"souvenirs","mode":"action","intensity":1,"text":"Invente avec {autre} un check secret inspiré d'un souvenir commun, et faites-le trois fois.","remote":false}
+{"id":"sou-b-0462","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} la recette de ton gâteau d'anniversaire d'enfance, de mémoire.","remote":true}
+{"id":"sou-b-0463","category":"souvenirs","mode":"action","intensity":1,"text":"Construis en deux minutes une mini-cabane de coussins, comme enfant, et invite {autre} dedans.","remote":false}
+{"id":"sou-b-0464","category":"souvenirs","mode":"action","intensity":1,"text":"Imite la façon dont tes parents t'appelaient pour passer à table.","remote":false}
+{"id":"sou-b-0465","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui raconte ta plus grosse bêtise d'enfance, à voix basse comme un secret.","remote":true}
+{"id":"sou-b-0466","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} une de nos galères partagées, en version film d'action.","remote":false}
+{"id":"sou-b-0467","category":"souvenirs","mode":"action","intensity":1,"text":"Mets la chanson de notre premier été et chante le refrain en duo avec {autre}.","remote":false}
+{"id":"sou-b-0468","category":"souvenirs","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui décrit sa tenue le jour de notre rencontre, au détail près.","remote":true}
+{"id":"sou-b-0469","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre}, en trois bruitages, un de nos voyages.","remote":false}
+{"id":"sou-b-0470","category":"souvenirs","mode":"action","intensity":1,"text":"Joue pendant trente secondes ton personnage préféré d'enfance, et {autre} doit le reconnaître.","remote":false}
+{"id":"sou-b-0471","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et raconte en une minute le pire repas de ta vie.","remote":true}
+{"id":"sou-b-0472","category":"souvenirs","mode":"action","intensity":1,"text":"Écris trois souvenirs sur trois papiers, mélange-les et fais-en piocher un à {autre}.","remote":false}
+{"id":"sou-b-0473","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} ta meilleure roue ou ta meilleure galipette d'enfance, sans te faire mal.","remote":false}
+{"id":"sou-b-0474","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet qui a traversé toute ta vie, ta main posée dessus.","remote":true}
+{"id":"sou-b-0475","category":"souvenirs","mode":"action","intensity":2,"text":"Décris à {autre} l'effet que t'a fait sa voix la première fois que tu l'as entendue.","remote":false}
+{"id":"sou-b-0476","category":"souvenirs","mode":"action","intensity":1,"text":"Demande à {autre} de fermer les yeux, puis décris-lui le lieu exact de notre rencontre.","remote":false}
+{"id":"sou-b-0477","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un dessin rapide de notre premier rendez-vous.","remote":true}
+{"id":"sou-b-0478","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} ta première rencontre avec ses parents, en inversant les rôles.","remote":false}
+{"id":"sou-b-0479","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} un souvenir d'enfance uniquement avec des onomatopées.","remote":false}
+{"id":"sou-b-0480","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} un message comme si tu avais quinze ans, avec le style de l'époque.","remote":true}
+{"id":"sou-b-0481","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo du ciel de maintenant, avec le souvenir commun qu'évoque cette lumière.","remote":true}
+{"id":"sou-b-0482","category":"souvenirs","mode":"action","intensity":1,"text":"Retrouve la photo de nous deux la plus floue de ton téléphone et montre-la à {autre} en racontant ce moment.","remote":false}
+{"id":"sou-b-0483","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} une démonstration de ton cri de guerre de cour de récré.","remote":false}
+{"id":"sou-b-0484","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui décrit une odeur de ton enfance, sans la nommer, pour la faire deviner.","remote":true}
+{"id":"sou-b-0485","category":"souvenirs","mode":"action","intensity":2,"text":"Lève-toi et fais à {autre} le discours que tu aurais aimé prononcer pour notre premier anniversaire de couple.","remote":false}
+{"id":"sou-b-0486","category":"souvenirs","mode":"action","intensity":1,"text":"Offre à {autre} un objet de la maison en le présentant comme un précieux souvenir de voyage.","remote":false}
+{"id":"sou-b-0487","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} ton classement des cinq meilleurs repas qu'on a partagés.","remote":true}
+{"id":"sou-b-0488","category":"souvenirs","mode":"action","intensity":2,"text":"Dessine du bout du doigt, dans le dos de {autre}, la forme d'un lieu de nos souvenirs, et laisse deviner.","remote":false}
+{"id":"sou-b-0489","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue ta réaction le jour où tu as eu ton tout premier téléphone.","remote":false}
+{"id":"sou-b-0490","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une devinette sur un souvenir commun, en trois indices envoyés un par un.","remote":true}
+{"id":"sou-b-0491","category":"souvenirs","mode":"action","intensity":1,"text":"Mets en scène avec {autre} l'arrivée dans notre premier logement, porte d'entrée comprise.","remote":false}
+{"id":"sou-b-0492","category":"souvenirs","mode":"action","intensity":1,"text":"Sers un verre d'eau à {autre} comme dans le pire restaurant de nos vacances.","remote":false}
+{"id":"sou-b-0493","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et fais-lui écouter un bruit autour de toi qui rappelle un souvenir commun.","remote":true}
+{"id":"sou-b-0494","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} ton plus bel été d'enfance en marchant comme sur du sable brûlant.","remote":false}
+{"id":"sou-b-0495","category":"souvenirs","mode":"action","intensity":1,"text":"Retrouve le plus vieil objet que tu possèdes et présente-le à {autre} comme au musée.","remote":false}
+{"id":"sou-b-0496","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta signature d'ado, reconstituée de mémoire.","remote":true}
+{"id":"sou-b-0497","category":"souvenirs","mode":"action","intensity":2,"text":"Chuchote à {autre} le moment exact où tu as commencé à craquer.","remote":false}
+{"id":"sou-b-0498","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment on faisait la queue à la cantine de ton école.","remote":false}
+{"id":"sou-b-0499","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} trois mots étrangers appris en voyage, avec l'histoire de chacun.","remote":true}
+{"id":"sou-b-0500","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} la scène de notre premier repas, en échangeant les rôles.","remote":false}
+{"id":"sou-b-0501","category":"souvenirs","mode":"action","intensity":1,"text":"Trace en une minute le plan de ton quartier d'enfance et fais-en la visite guidée à {autre}.","remote":false}
+{"id":"sou-b-0502","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui raconte un rêve d'enfance qui te reste encore en tête.","remote":true}
+{"id":"sou-b-0503","category":"souvenirs","mode":"action","intensity":1,"text":"Fais pour {autre} une imitation de toi à seize ans découvrant ton bulletin scolaire.","remote":false}
+{"id":"sou-b-0504","category":"souvenirs","mode":"action","intensity":2,"text":"Pose un baiser sur le front de {autre} en lui rappelant une promesse de nos débuts.","remote":false}
+{"id":"sou-b-0505","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} les titres de trois chansons qui racontent notre histoire.","remote":true}
+{"id":"sou-b-0506","category":"souvenirs","mode":"action","intensity":1,"text":"Apprends à {autre} une danse de fête de famille, même ridicule, et dansez-la une fois.","remote":false}
+{"id":"sou-b-0507","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte un souvenir de voyage comme un conte qui commence par « Voilà bien longtemps ».","remote":false}
+{"id":"sou-b-0508","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} une critique gastronomique cinq étoiles d'un plat raté qu'on a cuisiné ensemble.","remote":true}
+{"id":"sou-b-0509","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre}, au ralenti, un moment de panique en voyage.","remote":false}
+{"id":"sou-b-0510","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre} trois de tes jouets d'enfance en les mimant.","remote":false}
+{"id":"sou-b-0511","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un selfie avec la même expression que sur une photo de toi bébé.","remote":true}
+{"id":"sou-b-0512","category":"souvenirs","mode":"action","intensity":2,"text":"Serre {autre} contre toi et décris un souvenir commun à travers les cinq sens.","remote":false}
+{"id":"sou-b-0513","category":"souvenirs","mode":"action","intensity":1,"text":"Imite pendant dix secondes le bruit de la voiture ou du bus de ton enfance.","remote":false}
+{"id":"sou-b-0514","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et raconte le meilleur anniversaire de ta vie en commençant par la fin.","remote":true}
+{"id":"sou-b-0515","category":"souvenirs","mode":"action","intensity":1,"text":"Dessine en trente secondes le portrait de {autre} au premier jour de notre histoire.","remote":false}
+{"id":"sou-b-0516","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue ta première leçon de conduite devant {autre}, avec un coussin en guise de volant.","remote":false}
+{"id":"sou-b-0517","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui raconte notre rencontre en exactement vingt mots.","remote":true}
+{"id":"sou-b-0518","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment tu dormais enfant, position et doudou imaginaire compris.","remote":false}
+{"id":"sou-b-0519","category":"souvenirs","mode":"action","intensity":2,"text":"Fais à {autre} une déclaration en reprenant les mots de notre premier « je t'aime ».","remote":false}
+{"id":"sou-b-0520","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu prends ta voix d'enfant pour raconter ta journée.","remote":true}
+{"id":"sou-b-0521","category":"souvenirs","mode":"action","intensity":2,"text":"Rejoue en silence, avec {autre}, nos retrouvailles après une longue absence.","remote":false}
+{"id":"sou-b-0522","category":"souvenirs","mode":"action","intensity":1,"text":"Retrouve un vieux billet, un ticket ou une carte gardée en souvenir, et raconte son histoire à {autre}.","remote":false}
+{"id":"sou-b-0523","category":"souvenirs","mode":"action","intensity":2,"text":"Écris à {autre} ce que tu dirais à la personne que tu étais la veille de notre rencontre.","remote":true}
+{"id":"sou-b-0524","category":"souvenirs","mode":"action","intensity":1,"text":"Fais goûter à {autre}, les yeux bandés, quelque chose qui évoque un de nos voyages.","remote":false}
+{"id":"sou-b-0525","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} une dictée de trois mots, avec la voix sévère d'une salle de classe d'autrefois.","remote":false}
+{"id":"sou-b-0526","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta fenêtre et décris en comparaison la vue de ta chambre d'enfant.","remote":true}
+{"id":"sou-b-0527","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} une anecdote de famille en prenant la voix de chaque personnage.","remote":false}
+{"id":"sou-b-0528","category":"souvenirs","mode":"action","intensity":1,"text":"Organise avec {autre} une course de lenteur comme dans la cour de récré, d'un bout à l'autre du salon.","remote":false}
+{"id":"sou-b-0529","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et chante-lui la chanson de notre premier voyage.","remote":true}
+{"id":"sou-b-0530","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} un geste que tu sais encore faire de tes anciennes années de sport ou de musique.","remote":false}
+{"id":"sou-b-0531","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} la première fois qu'on a cuisiné ensemble, ustensiles à la main.","remote":false}
+{"id":"sou-b-0532","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} cinq emojis qui racontent un voyage passé, et laisse deviner lequel.","remote":true}
+{"id":"sou-b-0533","category":"souvenirs","mode":"action","intensity":2,"text":"Lis à voix haute à {autre} le plus vieux message tendre que tu retrouves.","remote":false}
+{"id":"sou-b-0534","category":"souvenirs","mode":"action","intensity":1,"text":"Prends ton meilleur accent de vacances et commande à {autre} un plat imaginaire.","remote":false}
+{"id":"sou-b-0535","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} une carte postale imaginaire depuis le lieu de notre premier voyage.","remote":true}
+{"id":"sou-b-0536","category":"souvenirs","mode":"action","intensity":2,"text":"Pose ta tête sur l'épaule de {autre} et raconte une soirée de nos débuts.","remote":false}
+{"id":"sou-b-0537","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} le geste que faisaient tes parents quand tu exagérais.","remote":false}
+{"id":"sou-b-0538","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui raconte notre première galère, sur fond de musique de suspense fredonnée.","remote":true}
+{"id":"sou-b-0539","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue en trente secondes ta toute première journée de travail, du réveil au retour.","remote":false}
+{"id":"sou-b-0540","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} une photo de toi prise un an avant notre rencontre et raconte ta vie d'alors.","remote":false}
+{"id":"sou-b-0541","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'une chose qui te fait penser à nos débuts, sans explication.","remote":true}
+{"id":"sou-b-0542","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre} une fête vécue ensemble en imitant une personne présente ce jour-là.","remote":false}
+{"id":"sou-b-0543","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui raconte l'histoire de ton prénom en trois phrases.","remote":true}
+{"id":"sou-b-0544","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} le top trois de nos fous rires, avec un titre pour chacun.","remote":true}
+{"id":"sou-b-0545","category":"souvenirs","mode":"action","intensity":1,"text":"Danse avec {autre} sur la première chanson qui passe, comme à une fête de village.","remote":false}
+{"id":"sou-b-0546","category":"souvenirs","mode":"action","intensity":1,"text":"Prépare à {autre} une boisson chaude comme celles de ton enfance.","remote":false}
+{"id":"sou-b-0547","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un enregistrement où tu siffles ou fredonnes un générique de ton enfance.","remote":true}
+{"id":"sou-b-0548","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} un souvenir de vacances en ombres chinoises, avec une lampe et tes mains.","remote":false}
+{"id":"sou-b-0549","category":"souvenirs","mode":"action","intensity":1,"text":"Remets en scène avec {autre} la façon dont on s'est dit bonjour la toute première fois.","remote":false}
+{"id":"sou-b-0550","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un message avec le meilleur conseil que ta famille t'a donné.","remote":true}
+{"id":"sou-b-0551","category":"souvenirs","mode":"action","intensity":1,"text":"Écris le prénom de {autre} comme tu écrivais à huit ans, langue tirée comprise.","remote":false}
+{"id":"sou-b-0552","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} le moment où tu as appris une grande nouvelle de notre histoire.","remote":false}
+{"id":"sou-b-0553","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et décris notre premier logement comme dans une annonce immobilière.","remote":true}
+{"id":"sou-b-0554","category":"souvenirs","mode":"action","intensity":1,"text":"Joue avec {autre} une partie express d'un jeu de ton enfance, comme pierre-feuille-ciseaux ou pigeon vole.","remote":false}
+{"id":"sou-b-0555","category":"souvenirs","mode":"action","intensity":1,"text":"Prends une pose de super-héros et révèle à {autre} le pouvoir dont tu rêvais enfant.","remote":false}
+{"id":"sou-b-0556","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta tasse ou de ton bol, et raconte le petit-déjeuner de ton enfance.","remote":true}
+{"id":"sou-b-0557","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} la révérence que tu faisais à la fin des spectacles d'école.","remote":false}
+{"id":"sou-b-0558","category":"souvenirs","mode":"action","intensity":1,"text":"Improvise avec {autre} un pique-nique de souvenirs au milieu du salon, en cinq minutes.","remote":false}
+{"id":"sou-b-0559","category":"souvenirs","mode":"action","intensity":2,"text":"Écris à {autre} un message qui commence par « Avant toi, je… » et raconte une habitude disparue.","remote":true}
+{"id":"sou-b-0560","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} une chute mémorable de ton enfance en la rejouant au ralenti, prudemment.","remote":false}
+{"id":"sou-b-0561","category":"souvenirs","mode":"action","intensity":1,"text":"Refais à {autre} la grimace que tu as faite en goûtant une spécialité locale en voyage.","remote":false}
+{"id":"sou-b-0562","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} l'image d'un paysage qui ressemble à un lieu de ton enfance.","remote":true}
+{"id":"sou-b-0563","category":"souvenirs","mode":"action","intensity":1,"text":"Lève ton verre d'eau et porte un toast à un souvenir commun, comme à un grand repas de famille.","remote":false}
+{"id":"sou-b-0564","category":"souvenirs","mode":"action","intensity":1,"text":"Retrouve un tic ou un geste qu'avait {autre} au début et refais-le avec tendresse.","remote":false}
+{"id":"sou-b-0565","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} une note vocale qui raconte ta première nuit dans un nouveau logement.","remote":true}
+{"id":"sou-b-0566","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} un souvenir d'ado en reprenant ton expression blasée de l'époque.","remote":false}
+{"id":"sou-b-0567","category":"souvenirs","mode":"action","intensity":1,"text":"Dresse la table en deux minutes comme pour un dîner de fête de ton enfance, et installe {autre}.","remote":false}
+{"id":"sou-b-0568","category":"souvenirs","mode":"action","intensity":2,"text":"Écris à {autre} trois choses que tu as apprises grâce à nos galères.","remote":true}
+{"id":"sou-b-0569","category":"souvenirs","mode":"action","intensity":2,"text":"Prends {autre} par les épaules et raconte, les yeux dans les yeux, ton souvenir préféré de nous deux.","remote":false}
+{"id":"sou-b-0570","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre}, en dix secondes de mime, le sport que tu pratiquais enfant.","remote":false}
+{"id":"sou-b-0571","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un selfie où tu imites ta tête de photo d'identité d'ado.","remote":true}
+{"id":"sou-b-0572","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} une dispute de fratrie typique de ton enfance.","remote":false}
+{"id":"sou-b-0573","category":"souvenirs","mode":"action","intensity":1,"text":"Lis à {autre} une page d'un livre que tu aimais enfant, ou récite-la de mémoire.","remote":false}
+{"id":"sou-b-0574","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et décris dans le détail une tenue que tu portais au lycée.","remote":true}
+{"id":"sou-b-0575","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} ta façon de saluer tes grands-parents quand tu étais enfant.","remote":false}
+{"id":"sou-b-0576","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte notre rencontre à {autre} en commençant chaque phrase par la même lettre.","remote":false}
+{"id":"sou-b-0577","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui imagine ce que tes amis d'enfance diraient de notre couple.","remote":true}
+{"id":"sou-b-0578","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment tu faisais semblant d'être malade pour éviter l'école.","remote":false}
+{"id":"sou-b-0579","category":"souvenirs","mode":"action","intensity":1,"text":"Fais écouter à {autre} le son d'un objet de la maison qui te rappelle un voyage.","remote":false}
+{"id":"sou-b-0580","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} trois souvenirs d'enfance dont un faux, et laisse deviner lequel.","remote":true}
+{"id":"sou-b-0581","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal qui décrit, minute par minute, le début de notre premier rendez-vous.","remote":true}
+{"id":"sou-b-0582","category":"souvenirs","mode":"action","intensity":2,"text":"Regarde {autre} sans rien dire pendant vingt secondes, comme lors de notre premier vrai regard.","remote":false}
+{"id":"sou-b-0583","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} un souvenir de fête foraine en imitant la musique du manège.","remote":false}
+{"id":"sou-b-0584","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} la liste des surnoms qu'on s'est donnés depuis le début, du plus ancien au plus récent.","remote":true}
+{"id":"sou-b-0585","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} comment tu posais sur les photos de famille, sourire forcé compris.","remote":false}
+{"id":"sou-b-0586","category":"souvenirs","mode":"action","intensity":2,"text":"Masse les mains de {autre} en racontant la première fois que tu as remarqué les siennes.","remote":false}
+{"id":"sou-b-0587","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et décris la vue de la plus belle chambre de vacances de ta vie.","remote":true}
+{"id":"sou-b-0588","category":"souvenirs","mode":"action","intensity":1,"text":"Joue à {autre} un air de ton enfance sur un verre, une casserole ou le bord de la table.","remote":false}
+{"id":"sou-b-0589","category":"souvenirs","mode":"action","intensity":1,"text":"Recrée ta cachette d'enfance dans la maison en deux minutes, puis cachez-vous dedans.","remote":false}
+{"id":"sou-b-0590","category":"souvenirs","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui raconte notre premier baiser façon bulletin météo.","remote":true}
+{"id":"sou-b-0591","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre}, sous un plaid, notre nuit la plus insolite en voyage.","remote":false}
+{"id":"sou-b-0592","category":"souvenirs","mode":"action","intensity":1,"text":"Donne à {autre} un concert de flûte imaginaire avec le morceau appris à l'école.","remote":false}
+{"id":"sou-b-0593","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} ce que tu as pensé de son prénom la première fois que tu l'as entendu.","remote":true}
+{"id":"sou-b-0594","category":"souvenirs","mode":"action","intensity":2,"text":"Glisse à {autre} un mot doux plié comme en classe, avec les cases « oui », « non » et « peut-être ».","remote":false}
+{"id":"sou-b-0595","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue l'appel de tes parents pour rentrer le soir, pendant que {autre} joue l'enfant qui traîne.","remote":false}
+{"id":"sou-b-0596","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu racontes la plus belle nuit étoilée de ta vie.","remote":true}
+{"id":"sou-b-0597","category":"souvenirs","mode":"action","intensity":1,"text":"Assieds-toi dos à dos avec {autre} et racontez notre premier voyage, une phrase à tour de rôle.","remote":false}
+{"id":"sou-b-0598","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} le moment où on a reçu les clés de notre premier logement.","remote":false}
+{"id":"sou-b-0599","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un aliment qui te rappelle un pays visité ensemble.","remote":true}
+{"id":"sou-b-0600","category":"souvenirs","mode":"action","intensity":2,"text":"Prends {autre} par la main et fais le tour de la pièce comme lors de notre première balade.","remote":false}
+{"id":"sou-b-0601","category":"souvenirs","mode":"action","intensity":1,"text":"Mime à {autre} ton souvenir d'enfance le plus gourmand, de la première à la dernière bouchée.","remote":false}
+{"id":"sou-b-0602","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} la première phrase d'un livre qui raconterait notre histoire.","remote":true}
+{"id":"sou-b-0603","category":"souvenirs","mode":"action","intensity":1,"text":"Imite avec bienveillance un membre de la famille de {autre} lors d'un repas mémorable.","remote":false}
+{"id":"sou-b-0604","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} une démonstration de saut à la corde ou d'élastique, avec un fil imaginaire.","remote":false}
+{"id":"sou-b-0605","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et décris ton meilleur souvenir de repas de fête, sans dire qui était là.","remote":true}
+{"id":"sou-b-0606","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} la photo de groupe la plus ratée d'une fête passée.","remote":false}
+{"id":"sou-b-0607","category":"souvenirs","mode":"action","intensity":1,"text":"Raconte à {autre} un souvenir de colonie en chuchotant, comme après l'extinction des feux.","remote":false}
+{"id":"sou-b-0608","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} trois photos de nous à trois époques différentes, et écris ce qui a changé.","remote":true}
+{"id":"sou-b-0609","category":"souvenirs","mode":"action","intensity":1,"text":"Fais une haie d'honneur à {autre} jusqu'au canapé, comme à la fin d'un spectacle d'école.","remote":false}
+{"id":"sou-b-0610","category":"souvenirs","mode":"action","intensity":2,"text":"Raconte un voyage raté en dessinant l'itinéraire du bout du doigt dans la paume de {autre}.","remote":false}
+{"id":"sou-b-0611","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} une lettre de trois lignes signée par la personne que tu étais à dix ans.","remote":true}
+{"id":"sou-b-0612","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre} une galère où on a dû porter quelque chose de beaucoup trop lourd.","remote":false}
+{"id":"sou-b-0613","category":"souvenirs","mode":"action","intensity":1,"text":"Fais sentir à {autre} une épice, un savon ou un parfum de la maison lié à un souvenir.","remote":false}
+{"id":"sou-b-0614","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal avec la blague que tu ressortais à chaque repas quand tu étais enfant.","remote":true}
+{"id":"sou-b-0615","category":"souvenirs","mode":"action","intensity":2,"text":"Embrasse {autre} sur la joue comme lors de notre tout premier au revoir.","remote":false}
+{"id":"sou-b-0616","category":"souvenirs","mode":"action","intensity":1,"text":"Montre à {autre} la position dans laquelle tu lisais en cachette sous la couette.","remote":false}
+{"id":"sou-b-0617","category":"souvenirs","mode":"action","intensity":2,"text":"Écris à {autre} le souvenir de nous que tu montrerais à quelqu'un qui ne croit pas à l'amour.","remote":true}
+{"id":"sou-b-0618","category":"souvenirs","mode":"action","intensity":1,"text":"Fais deviner à {autre} un plat de fête de ton enfance en décrivant seulement sa texture.","remote":false}
+{"id":"sou-b-0619","category":"souvenirs","mode":"action","intensity":1,"text":"Imite pour {autre} le cri ou la démarche d'un animal de ton enfance.","remote":false}
+{"id":"sou-b-0620","category":"souvenirs","mode":"action","intensity":1,"text":"Appelle {autre} et rejoue la conversation de la veille de notre premier voyage.","remote":true}
+{"id":"sou-b-0621","category":"souvenirs","mode":"action","intensity":1,"text":"Prends le téléphone de {autre}, avec sa permission, et retrouvez ensemble la plus ancienne photo de nous deux.","remote":false}
+{"id":"sou-b-0622","category":"souvenirs","mode":"action","intensity":1,"text":"Offre à {autre} un bouquet improvisé avec ce qui traîne, comme les fleurs cueillies enfant.","remote":false}
+{"id":"sou-b-0623","category":"souvenirs","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui commence par « Le jour de notre rencontre, j'ai pensé… ».","remote":true}
+{"id":"sou-b-0624","category":"souvenirs","mode":"action","intensity":1,"text":"Fais à {autre} ton geste de victoire de l'époque où tu gagnais aux jeux de récré.","remote":false}
+{"id":"sou-b-0625","category":"souvenirs","mode":"action","intensity":1,"text":"Rejoue avec {autre}, en version film muet, notre premier repas chez des amis.","remote":false}
+{"id":"sou-b-0626","category":"souvenirs","mode":"action","intensity":2,"text":"Envoie à {autre} un vocal qui décrit sa voix telle que tu l'entendais lors de nos premiers appels.","remote":true}
+{"id":"sou-b-0627","category":"souvenirs","mode":"action","intensity":1,"text":"Pose trois objets sur la table et raconte à {autre} le souvenir commun qui les relie.","remote":false}
+{"id":"sou-b-0628","category":"souvenirs","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal de dix secondes qui fait tes adieux à un lieu que tu as quitté un jour.","remote":true}
+{"id":"sou-b-0629","category":"souvenirs","mode":"action","intensity":1,"text":"Écris à {autre} trois raisons pour lesquelles tu referais exactement le même premier rendez-vous.","remote":true}
+{"id":"sou-b-0630","category":"souvenirs","mode":"action","intensity":2,"text":"Remercie {autre} pour un souvenir précis en le racontant, tes mains dans les siennes.","remote":false}
+{"id":"sou-b-0631","category":"souvenirs","mode":"envie","intensity":1,"text":"Refaire notre premier rendez-vous à l'identique, au même endroit"}
+{"id":"sou-b-0632","category":"souvenirs","mode":"envie","intensity":1,"text":"Créer un vrai album photo papier de nos débuts"}
+{"id":"sou-b-0633","category":"souvenirs","mode":"envie","intensity":1,"text":"Visiter la ville d'enfance de {autre}, avec ses souvenirs pour seul guide"}
+{"id":"sou-b-0634","category":"souvenirs","mode":"envie","intensity":1,"text":"Refaire notre tout premier voyage, étape par étape"}
+{"id":"sou-b-0635","category":"souvenirs","mode":"envie","intensity":1,"text":"Une soirée projection avec nos photos d'enfance sur le mur du salon"}
+{"id":"sou-b-0636","category":"souvenirs","mode":"envie","intensity":1,"text":"Cuisiner ensemble les plats d'enfance de nos deux familles"}
+{"id":"sou-b-0637","category":"souvenirs","mode":"envie","intensity":1,"text":"Écrire à quatre mains le récit de notre rencontre"}
+{"id":"sou-b-0638","category":"souvenirs","mode":"envie","intensity":1,"text":"Revoir le tout premier film qu'on a regardé ensemble"}
+{"id":"sou-b-0639","category":"souvenirs","mode":"envie","intensity":1,"text":"Une boîte à souvenirs où glisser billets, tickets et petits mots"}
+{"id":"sou-b-0640","category":"souvenirs","mode":"envie","intensity":1,"text":"Passer un week-end dans une de nos régions d'enfance"}
+{"id":"sou-b-0641","category":"souvenirs","mode":"envie","intensity":2,"text":"Fêter chaque année l'anniversaire de notre premier baiser"}
+{"id":"sou-b-0642","category":"souvenirs","mode":"envie","intensity":1,"text":"Une soirée avec les jeux de société de notre enfance"}
+{"id":"sou-b-0643","category":"souvenirs","mode":"envie","intensity":1,"text":"Revoir les dessins animés de notre enfance sous un plaid"}
+{"id":"sou-b-0644","category":"souvenirs","mode":"envie","intensity":2,"text":"Une soirée à se raconter nos premières fois, sans tabou"}
+{"id":"sou-b-0645","category":"souvenirs","mode":"envie","intensity":1,"text":"Pique-niquer exactement là où on a pique-niqué à nos débuts"}
+{"id":"sou-b-0646","category":"souvenirs","mode":"envie","intensity":1,"text":"Retourner dîner dans le restaurant de notre premier tête-à-tête"}
+{"id":"sou-b-0647","category":"souvenirs","mode":"envie","intensity":1,"text":"Imprimer nos plus beaux messages des débuts et les relier en carnet"}
+{"id":"sou-b-0648","category":"souvenirs","mode":"envie","intensity":1,"text":"Une soirée karaoké avec les tubes de notre adolescence"}
+{"id":"sou-b-0649","category":"souvenirs","mode":"envie","intensity":1,"text":"Rencontrer les amis d'enfance de l'autre"}
+{"id":"sou-b-0650","category":"souvenirs","mode":"envie","intensity":1,"text":"Recréer une fête d'anniversaire d'enfance, avec gâteau, bougies et chapeaux pointus"}
+{"id":"sou-b-0651","category":"souvenirs","mode":"envie","intensity":1,"text":"Planter un arbre pour marquer un souvenir important"}
+{"id":"sou-b-0652","category":"souvenirs","mode":"envie","intensity":1,"text":"Fabriquer un carnet de voyage à partir de nos anciennes photos"}
+{"id":"sou-b-0653","category":"souvenirs","mode":"envie","intensity":1,"text":"Réécouter ensemble toute la musique de nos seize ans"}
+{"id":"sou-b-0654","category":"souvenirs","mode":"envie","intensity":1,"text":"Une nuit sous la tente, comme en colonie de vacances"}
+{"id":"sou-b-0655","category":"souvenirs","mode":"envie","intensity":1,"text":"Rejouer notre premier rendez-vous en inversant les rôles"}
+{"id":"sou-b-0656","category":"souvenirs","mode":"envie","intensity":1,"text":"Revoir ensemble la plage de nos premières vacances"}
+{"id":"sou-b-0657","category":"souvenirs","mode":"envie","intensity":1,"text":"Se raconter nos vies d'avant pendant une très longue balade"}
+{"id":"sou-b-0658","category":"souvenirs","mode":"envie","intensity":1,"text":"Dessiner notre arbre généalogique à deux, avec les anecdotes de famille"}
+{"id":"sou-b-0659","category":"souvenirs","mode":"envie","intensity":1,"text":"Organiser une soirée souvenirs avec nos amis de toujours"}
+{"id":"sou-b-0660","category":"souvenirs","mode":"envie","intensity":1,"text":"Préparer les goûters de notre enfance un dimanche après-midi"}
+{"id":"sou-b-0661","category":"souvenirs","mode":"envie","intensity":1,"text":"Tenir un journal de couple avec un souvenir noté chaque semaine"}
+{"id":"sou-b-0662","category":"souvenirs","mode":"envie","intensity":2,"text":"Une soirée à relire nos tout premiers messages, blottis sous la couette"}
+{"id":"sou-b-0663","category":"souvenirs","mode":"envie","intensity":2,"text":"Refaire une nuit blanche à discuter, comme au début"}
+{"id":"sou-b-0664","category":"souvenirs","mode":"envie","intensity":1,"text":"Retrouver le parc où on a passé tant de soirées à nos débuts"}
+{"id":"sou-b-0665","category":"souvenirs","mode":"envie","intensity":1,"text":"Une chasse au trésor à travers les lieux de notre histoire"}
+{"id":"sou-b-0666","category":"souvenirs","mode":"envie","intensity":1,"text":"Voir l'école primaire de l'autre, au moins de l'extérieur"}
+{"id":"sou-b-0667","category":"souvenirs","mode":"envie","intensity":1,"text":"Recréer une photo d'enfance de l'autre, en version couple"}
+{"id":"sou-b-0668","category":"souvenirs","mode":"envie","intensity":2,"text":"Un dîner aux chandelles avec le menu de notre premier repas"}
+{"id":"sou-b-0669","category":"souvenirs","mode":"envie","intensity":1,"text":"Écrire une lettre à ce que nous étions dix ans plus tôt"}
+{"id":"sou-b-0670","category":"souvenirs","mode":"envie","intensity":1,"text":"Se faire découvrir les musiques de nos premières soirées"}
+{"id":"sou-b-0671","category":"souvenirs","mode":"envie","intensity":1,"text":"Retourner sur le lieu d'une galère partagée, juste pour en rire"}
+{"id":"sou-b-0672","category":"souvenirs","mode":"envie","intensity":1,"text":"Un week-end retour aux sources dans une maison de famille"}
+{"id":"sou-b-0673","category":"souvenirs","mode":"envie","intensity":1,"text":"Encadrer une photo de nos débuts pour le salon"}
+{"id":"sou-b-0674","category":"souvenirs","mode":"envie","intensity":1,"text":"Une soirée chocolat chaud comme les hivers chez nos grands-parents"}
+{"id":"sou-b-0675","category":"souvenirs","mode":"envie","intensity":1,"text":"Rejouer en duo à un jeu vidéo de notre enfance"}
+{"id":"sou-b-0676","category":"souvenirs","mode":"envie","intensity":2,"text":"Un bain à deux pour se raconter notre premier été"}
+{"id":"sou-b-0677","category":"souvenirs","mode":"envie","intensity":2,"text":"Danser à nouveau, très lentement, sur la chanson de notre premier slow"}
+{"id":"sou-b-0678","category":"souvenirs","mode":"envie","intensity":1,"text":"Reprendre contact ensemble avec une amitié perdue de vue"}
+{"id":"sou-b-0679","category":"souvenirs","mode":"envie","intensity":1,"text":"Une balade à vélo dans le quartier de nos premiers rendez-vous"}
+{"id":"sou-b-0680","category":"souvenirs","mode":"envie","intensity":1,"text":"Une soirée costumée sur le thème de nos années lycée"}

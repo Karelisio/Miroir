@@ -18,6 +18,7 @@ class PairCrypto(masterKey: ByteArray, private val pairId: String) {
 
     private val encKey = SecretKeySpec(hkdf(masterKey, "miroir-enc-v1"), "AES")
     private val tagKey = SecretKeySpec(hkdf(masterKey, "miroir-tag-v1"), "HmacSHA256")
+    private val wishKey = SecretKeySpec(hkdf(masterKey, "miroir-wish-v1"), "HmacSHA256")
 
     /** [context] est lié au chiffré (AAD) : le serveur ne peut pas permuter deux réponses. */
     fun encrypt(plain: String, context: String): String {
@@ -49,6 +50,13 @@ class PairCrypto(masterKey: ByteArray, private val pairId: String) {
         val mac = Mac.getInstance("HmacSHA256")
         mac.init(tagKey)
         return b64(mac.doFinal("q:$questionId".toByteArray())).take(32)
+    }
+
+    /** Étiquette aveugle des envies communes (même longueur qu'une étiquette aléatoire). */
+    fun wishTag(input: String): String {
+        val mac = Mac.getInstance("HmacSHA256")
+        mac.init(wishKey)
+        return b64(mac.doFinal("w:$pairId:$input".toByteArray()).copyOf(24))
     }
 
     private fun aad(context: String) = "miroir:v1:$pairId:$context".toByteArray()

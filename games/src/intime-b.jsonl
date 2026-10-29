@@ -1,0 +1,580 @@
+{"id":"int-b-0001","category":"intime","mode":"verite","intensity":3,"text":"Quel moment de la journée réveille le plus souvent ton désir pour {autre} ?"}
+{"id":"int-b-0002","category":"intime","mode":"verite","intensity":3,"text":"Quel geste de {autre} suffit à te donner envie de faire l'amour, même au milieu d'une journée banale ?"}
+{"id":"int-b-0003","category":"intime","mode":"verite","intensity":2,"text":"Quelle tenue de {autre} te trouble à chaque fois ?"}
+{"id":"int-b-0004","category":"intime","mode":"verite","intensity":3,"text":"Quel fantasme n'as-tu encore jamais osé formuler à voix haute devant {autre} ?"}
+{"id":"int-b-0005","category":"intime","mode":"verite","intensity":3,"text":"Quelle partie de ton corps aimerais-tu que {autre} embrasse plus souvent ?"}
+{"id":"int-b-0006","category":"intime","mode":"verite","intensity":2,"text":"Quelle odeur sur la peau de {autre} te fait perdre le fil de tes pensées ?"}
+{"id":"int-b-0007","category":"intime","mode":"verite","intensity":3,"text":"Plutôt lenteur ou intensité : qu'est-ce qui te fait le plus d'effet dans nos moments à deux ?"}
+{"id":"int-b-0008","category":"intime","mode":"verite","intensity":3,"text":"Quelle est la meilleure nuit que nous ayons passée ensemble, et qu'est-ce qui l'a rendue si spéciale ?"}
+{"id":"int-b-0009","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te met le plus à l'aise pour dire ce dont tu as envie au lit ?"}
+{"id":"int-b-0010","category":"intime","mode":"verite","intensity":3,"text":"Comment aimes-tu que {autre} te fasse comprendre son envie, sans un mot ?"}
+{"id":"int-b-0011","category":"intime","mode":"verite","intensity":2,"text":"Quelle chanson te donne immédiatement envie de te rapprocher de {autre} ?"}
+{"id":"int-b-0012","category":"intime","mode":"verite","intensity":3,"text":"Quelle pièce de la maison n'avons-nous pas encore explorée, et te tente vraiment ?"}
+{"id":"int-b-0013","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que tu adores voir sur le visage de {autre} quand le plaisir monte ?"}
+{"id":"int-b-0014","category":"intime","mode":"verite","intensity":3,"text":"Quelle limite aimerais-tu que {autre} connaisse clairement, pour te sentir en totale confiance ?"}
+{"id":"int-b-0015","category":"intime","mode":"verite","intensity":2,"text":"Quel compliment de {autre} sur ton corps te revient encore en tête ?"}
+{"id":"int-b-0016","category":"intime","mode":"verite","intensity":3,"text":"À quel moment ton envie atteint son sommet : au réveil, l'après-midi ou tard le soir ?"}
+{"id":"int-b-0017","category":"intime","mode":"verite","intensity":3,"text":"Quelle caresse de {autre} te fait fondre à tous les coups ?"}
+{"id":"int-b-0018","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie gardes-tu pour toi, par peur de surprendre {autre} ?"}
+{"id":"int-b-0019","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui, dans la voix de {autre}, te fait de l'effet ?"}
+{"id":"int-b-0020","category":"intime","mode":"verite","intensity":3,"text":"Quels mots aimerais-tu entendre plus souvent de la bouche de {autre} pendant nos moments intimes ?"}
+{"id":"int-b-0021","category":"intime","mode":"verite","intensity":3,"text":"Comment préfères-tu qu'on se dise stop ou qu'on ralentisse, pour que ce soit simple et sans gêne ?"}
+{"id":"int-b-0022","category":"intime","mode":"verite","intensity":3,"text":"Quelle première fois avec {autre} te fait encore sourire quand tu y repenses ?"}
+{"id":"int-b-0023","category":"intime","mode":"verite","intensity":2,"text":"Quel vêtement de {autre} aimerais-tu lui retirer toi-même, très lentement ?"}
+{"id":"int-b-0024","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui rend un baiser vraiment brûlant, selon toi ?"}
+{"id":"int-b-0025","category":"intime","mode":"verite","intensity":3,"text":"Si on avait toute une nuit sans contrainte, par quoi aimerais-tu commencer ?"}
+{"id":"int-b-0026","category":"intime","mode":"verite","intensity":3,"text":"Quel scénario aimerais-tu jouer avec {autre}, juste entre nous, le temps d'une soirée ?"}
+{"id":"int-b-0027","category":"intime","mode":"verite","intensity":2,"text":"Quel est ton souvenir le plus troublant d'un regard échangé avec {autre} au milieu des autres ?"}
+{"id":"int-b-0028","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimes-tu le plus offrir à {autre} quand on fait l'amour ?"}
+{"id":"int-b-0029","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimes-tu le plus recevoir de {autre} dans nos moments les plus intimes ?"}
+{"id":"int-b-0030","category":"intime","mode":"verite","intensity":3,"text":"Préfères-tu les moments improvisés ou ceux qu'on a imaginés à l'avance ? Pourquoi ?"}
+{"id":"int-b-0031","category":"intime","mode":"verite","intensity":2,"text":"Quelle matière te donne des frissons sur la peau : soie, velours, coton doux, autre chose ?"}
+{"id":"int-b-0032","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait te sentir le plus désirable dans les bras de {autre} ?"}
+{"id":"int-b-0033","category":"intime","mode":"verite","intensity":3,"text":"Quel endroit de ton cou, de ta nuque ou de ton dos est ton vrai point faible ?"}
+{"id":"int-b-0034","category":"intime","mode":"verite","intensity":3,"text":"Après l'amour, qu'est-ce qui te fait le plus de bien : parler, rester peau contre peau ou t'endormir aussitôt ?"}
+{"id":"int-b-0035","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie as-tu découverte avec {autre}, que tu ne soupçonnais pas avant ?"}
+{"id":"int-b-0036","category":"intime","mode":"verite","intensity":2,"text":"Quel détail physique de {autre} regardes-tu en douce quand on est en public ?"}
+{"id":"int-b-0037","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on parle plus souvent de nos envies : au calme, par message, en plein câlin ?"}
+{"id":"int-b-0038","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui pourrait te couper l'envie, et que {autre} gagnerait à savoir ?"}
+{"id":"int-b-0039","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu que {autre} te réveille un matin de grasse matinée ?"}
+{"id":"int-b-0040","category":"intime","mode":"verite","intensity":2,"text":"Quel sous-vêtement aimerais-tu que {autre} porte un soir, rien que pour toi ?"}
+{"id":"int-b-0041","category":"intime","mode":"verite","intensity":3,"text":"Quel rythme te convient le mieux pour nos moments intimes : souvent et court, ou plus rare et long ?"}
+{"id":"int-b-0042","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te donne envie de prendre les devants avec {autre} ?"}
+{"id":"int-b-0043","category":"intime","mode":"verite","intensity":3,"text":"Aimes-tu quand {autre} prend les commandes, ou préfères-tu mener la danse ?"}
+{"id":"int-b-0044","category":"intime","mode":"verite","intensity":2,"text":"Quel moment de tendresse a déjà glissé, sans prévenir, vers quelque chose de plus brûlant ?"}
+{"id":"int-b-0045","category":"intime","mode":"verite","intensity":3,"text":"Quel fantasme lié à un lieu te trotte dans la tête depuis longtemps ?"}
+{"id":"int-b-0046","category":"intime","mode":"verite","intensity":3,"text":"Que ressens-tu quand {autre} te dit franchement ce qui lui fait plaisir ?"}
+{"id":"int-b-0047","category":"intime","mode":"verite","intensity":3,"text":"Quelle question sur ta sexualité aimerais-tu que {autre} te pose un jour ?"}
+{"id":"int-b-0048","category":"intime","mode":"verite","intensity":2,"text":"Quelle est la chose la plus sensuelle que {autre} fait sans même s'en rendre compte ?"}
+{"id":"int-b-0049","category":"intime","mode":"verite","intensity":3,"text":"Quel moment intime avec {autre} a dépassé toutes tes attentes ?"}
+{"id":"int-b-0050","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui t'aide à lâcher prise complètement dans nos moments à deux ?"}
+{"id":"int-b-0051","category":"intime","mode":"verite","intensity":3,"text":"Quelle pensée parasite te sort parfois de l'instant, et qu'est-ce qui t'y ramène ?"}
+{"id":"int-b-0052","category":"intime","mode":"verite","intensity":2,"text":"Quel baiser de {autre} reste gravé dans ta mémoire ?"}
+{"id":"int-b-0053","category":"intime","mode":"verite","intensity":3,"text":"Quel accessoire aimerais-tu essayer avec {autre} : foulard, plume, huile tiède, autre chose ?"}
+{"id":"int-b-0054","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui t'attire dans l'idée d'un massage qui dérape doucement ?"}
+{"id":"int-b-0055","category":"intime","mode":"verite","intensity":3,"text":"Quand te sens-tu le plus en confiance pour te montrer sans rien sur toi devant {autre} ?"}
+{"id":"int-b-0056","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie as-tu pour notre prochaine soirée à deux, sans filtre ?"}
+{"id":"int-b-0057","category":"intime","mode":"verite","intensity":2,"text":"Quel surnom murmuré par {autre} te fait de l'effet ?"}
+{"id":"int-b-0058","category":"intime","mode":"verite","intensity":2,"text":"Dans nos moments intimes, préfères-tu le silence, la musique ou le son de nos voix ?"}
+{"id":"int-b-0059","category":"intime","mode":"verite","intensity":3,"text":"Que fait {autre} au lit que tu aimerais lui voir faire plus souvent ?"}
+{"id":"int-b-0060","category":"intime","mode":"verite","intensity":3,"text":"Quelle nouveauté te tenterait, à condition d'y aller tout doucement ?"}
+{"id":"int-b-0061","category":"intime","mode":"verite","intensity":3,"text":"Comment sais-tu que {autre} a vraiment envie, au-delà des mots ?"}
+{"id":"int-b-0062","category":"intime","mode":"verite","intensity":2,"text":"Quel moment de la semaine trouves-tu le plus propice à un rendez-vous coquin à la maison ?"}
+{"id":"int-b-0063","category":"intime","mode":"verite","intensity":3,"text":"Quel est ton fantasme le plus tendre ?"}
+{"id":"int-b-0064","category":"intime","mode":"verite","intensity":3,"text":"Quel est ton fantasme le plus audacieux, à garder précieusement entre nous ?"}
+{"id":"int-b-0065","category":"intime","mode":"verite","intensity":2,"text":"Quel endroit d'un voyage passé aurait mérité une nuit plus brûlante ?"}
+{"id":"int-b-0066","category":"intime","mode":"verite","intensity":2,"text":"Quelle photo de {autre} te trouble le plus ?"}
+{"id":"int-b-0067","category":"intime","mode":"verite","intensity":3,"text":"Quel compliment intime te ferait le plus d'effet ce soir ?"}
+{"id":"int-b-0068","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend l'attente si délicieuse, selon toi ?"}
+{"id":"int-b-0069","category":"intime","mode":"verite","intensity":3,"text":"Quelle limite poses-tu fermement, celle qui ne bougera jamais ?"}
+{"id":"int-b-0070","category":"intime","mode":"verite","intensity":3,"text":"Quelle limite a déjà bougé avec le temps, grâce à la confiance entre nous ?"}
+{"id":"int-b-0071","category":"intime","mode":"verite","intensity":2,"text":"À quoi penses-tu quand {autre} te lance ce regard bien particulier ?"}
+{"id":"int-b-0072","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui fait la différence, pour toi, entre un bon moment et un moment inoubliable au lit ?"}
+{"id":"int-b-0073","category":"intime","mode":"verite","intensity":3,"text":"Aimes-tu qu'on prenne le temps des préliminaires, ou que tout s'enchaîne vite ?"}
+{"id":"int-b-0074","category":"intime","mode":"verite","intensity":3,"text":"Quelle sensation aimerais-tu découvrir pour la première fois avec {autre} ?"}
+{"id":"int-b-0075","category":"intime","mode":"verite","intensity":2,"text":"Quelle lumière préfères-tu pour nos moments à deux : pénombre, bougies ou plein jour ?"}
+{"id":"int-b-0076","category":"intime","mode":"verite","intensity":2,"text":"Quel message de {autre} t'a le plus donné envie de rentrer vite à la maison ?"}
+{"id":"int-b-0077","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plairait dans l'idée de faire semblant de se rencontrer pour la première fois, un soir ?"}
+{"id":"int-b-0078","category":"intime","mode":"verite","intensity":2,"text":"Quelle pensée liée à {autre} te fait rougir rien que d'y penser ?"}
+{"id":"int-b-0079","category":"intime","mode":"verite","intensity":3,"text":"Te sens-tu libre de dire non à {autre} sans te justifier ? Qu'est-ce qui t'y aide ?"}
+{"id":"int-b-0080","category":"intime","mode":"verite","intensity":3,"text":"Comment aimes-tu qu'on vérifie que tout va bien, pendant un moment intime ?"}
+{"id":"int-b-0081","category":"intime","mode":"verite","intensity":2,"text":"Quel geste discret en public te fait penser à ce qui pourrait se passer plus tard ?"}
+{"id":"int-b-0082","category":"intime","mode":"verite","intensity":3,"text":"Quelle saison réveille le plus ta sensualité, et pourquoi ?"}
+{"id":"int-b-0083","category":"intime","mode":"verite","intensity":2,"text":"Quel est ton meilleur souvenir de câlin sous la couette un jour de pluie ?"}
+{"id":"int-b-0084","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie te traverse quand tu vois {autre} sortir de la douche ?"}
+{"id":"int-b-0085","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît le plus dans le fait de faire durer le plaisir ?"}
+{"id":"int-b-0086","category":"intime","mode":"verite","intensity":2,"text":"Où aimes-tu poser tes mains en premier quand tu enlaces {autre} ?"}
+{"id":"int-b-0087","category":"intime","mode":"verite","intensity":3,"text":"Quelle partie du corps de {autre} pourrais-tu caresser pendant des heures ?"}
+{"id":"int-b-0088","category":"intime","mode":"verite","intensity":3,"text":"Quel mot ou quel signal aimerais-tu qu'on adopte pour dire « encore » ?"}
+{"id":"int-b-0089","category":"intime","mode":"verite","intensity":2,"text":"Comment aimes-tu qu'on se retrouve après une longue journée sans se voir ?"}
+{"id":"int-b-0090","category":"intime","mode":"verite","intensity":3,"text":"Qu'as-tu appris sur ton propre plaisir grâce à {autre} ?"}
+{"id":"int-b-0091","category":"intime","mode":"verite","intensity":2,"text":"Quelle est la pensée la plus coquine qui t'ait traversé l'esprit en plein repas de famille ?"}
+{"id":"int-b-0092","category":"intime","mode":"verite","intensity":3,"text":"Quelle position te fait te sentir le plus proche de {autre}, émotionnellement ?"}
+{"id":"int-b-0093","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te donne envie de ralentir et de savourer chaque seconde ?"}
+{"id":"int-b-0094","category":"intime","mode":"verite","intensity":3,"text":"Quel moment romantique a précédé l'une de nos nuits les plus brûlantes ?"}
+{"id":"int-b-0095","category":"intime","mode":"verite","intensity":3,"text":"Si tu écrivais une lettre très sensuelle à {autre}, quelle en serait la première phrase ?"}
+{"id":"int-b-0096","category":"intime","mode":"verite","intensity":2,"text":"Quel soupir de {autre} te fait le plus d'effet ?"}
+{"id":"int-b-0097","category":"intime","mode":"verite","intensity":3,"text":"Sur quoi aimerais-tu que {autre} prenne plus souvent l'initiative ?"}
+{"id":"int-b-0098","category":"intime","mode":"verite","intensity":3,"text":"Que t'inspire l'idée d'une soirée entière consacrée uniquement à ton plaisir ?"}
+{"id":"int-b-0099","category":"intime","mode":"verite","intensity":3,"text":"Quelle est la plus belle preuve de désir que {autre} t'ait donnée ?"}
+{"id":"int-b-0100","category":"intime","mode":"verite","intensity":2,"text":"Quel rêve coquin as-tu déjà fait à propos de {autre} ?"}
+{"id":"int-b-0101","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te manque le plus physiquement chez {autre} quand on est loin ?"}
+{"id":"int-b-0102","category":"intime","mode":"verite","intensity":3,"text":"Quel appel ou quel message à distance a déjà fait monter la température entre nous ?"}
+{"id":"int-b-0103","category":"intime","mode":"verite","intensity":2,"text":"Quelle partie de ton corps préfères-tu, et aimerais-tu que {autre} la célèbre davantage ?"}
+{"id":"int-b-0104","category":"intime","mode":"verite","intensity":3,"text":"En quoi le regard de {autre} a changé la façon dont tu vis ton corps dans l'intimité ?"}
+{"id":"int-b-0105","category":"intime","mode":"verite","intensity":3,"text":"Quel complexe aimerais-tu confier à {autre}, pour qu'on le désamorce ensemble ?"}
+{"id":"int-b-0106","category":"intime","mode":"verite","intensity":3,"text":"Que t'inspire un jeu avec un foulard sur les yeux, pour éveiller tous les autres sens ?"}
+{"id":"int-b-0107","category":"intime","mode":"verite","intensity":3,"text":"Chaud ou froid : quel contraste de température aimerais-tu sentir sur ta peau ?"}
+{"id":"int-b-0108","category":"intime","mode":"verite","intensity":2,"text":"Quel aliment trouves-tu étonnamment sensuel à partager à deux ?"}
+{"id":"int-b-0109","category":"intime","mode":"verite","intensity":2,"text":"Un bain à deux, pour toi, c'est plutôt détente pure ou début de quelque chose ?"}
+{"id":"int-b-0110","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît dans l'idée d'une chambre d'hôtel rien que pour nous deux ?"}
+{"id":"int-b-0111","category":"intime","mode":"verite","intensity":2,"text":"Quel costume aimerais-tu voir porter par {autre}, juste une fois ?"}
+{"id":"int-b-0112","category":"intime","mode":"verite","intensity":3,"text":"Que t'inspire l'idée d'un miroir pendant nos moments intimes ?"}
+{"id":"int-b-0113","category":"intime","mode":"verite","intensity":3,"text":"Serais-tu à l'aise d'offrir un effeuillage à {autre} ? Sur quelle musique ?"}
+{"id":"int-b-0114","category":"intime","mode":"verite","intensity":3,"text":"Quelle est la chose la plus osée que tu aies dite à {autre}, et que tu redirais volontiers ?"}
+{"id":"int-b-0115","category":"intime","mode":"verite","intensity":3,"text":"Comment vis-tu un « pas ce soir » de {autre}, honnêtement ?"}
+{"id":"int-b-0116","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on décline une invitation câline avec tendresse, sans blesser personne ?"}
+{"id":"int-b-0117","category":"intime","mode":"verite","intensity":3,"text":"Quand la fatigue ou le stress éteignent ton désir, qu'est-ce qui t'aide à le rallumer ?"}
+{"id":"int-b-0118","category":"intime","mode":"verite","intensity":3,"text":"Ton désir arrive plutôt d'un coup, ou monte petit à petit une fois les câlins commencés ?"}
+{"id":"int-b-0119","category":"intime","mode":"verite","intensity":3,"text":"Si nos envies n'ont pas le même rythme, comment aimerais-tu qu'on trouve notre équilibre ?"}
+{"id":"int-b-0120","category":"intime","mode":"verite","intensity":3,"text":"Quel est le moment express le plus mémorable qu'on ait vécu ?"}
+{"id":"int-b-0121","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu d'une journée entière à se taquiner, en attendant le soir ?"}
+{"id":"int-b-0122","category":"intime","mode":"verite","intensity":3,"text":"Préfères-tu déshabiller {autre}, ou que {autre} te déshabille ?"}
+{"id":"int-b-0123","category":"intime","mode":"verite","intensity":3,"text":"Pendant l'amour, aimes-tu plutôt te perdre dans le regard de {autre} ou fermer les yeux ?"}
+{"id":"int-b-0124","category":"intime","mode":"verite","intensity":2,"text":"Quel fou rire au lit avec {autre} te fait encore sourire ?"}
+{"id":"int-b-0125","category":"intime","mode":"verite","intensity":2,"text":"Quel moment raté entre nous est devenu un souvenir drôle et tendre ?"}
+{"id":"int-b-0126","category":"intime","mode":"verite","intensity":2,"text":"À quel moment de ta journée penses-tu à {autre} de façon pas très sage ?"}
+{"id":"int-b-0127","category":"intime","mode":"verite","intensity":3,"text":"Quel message de {autre} te ferait rougir en plein travail ?"}
+{"id":"int-b-0128","category":"intime","mode":"verite","intensity":3,"text":"Aimerais-tu que {autre} te séduise à nouveau comme au tout début ? Comment ?"}
+{"id":"int-b-0129","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'un jeu où l'un guide et l'autre se laisse guider, tout en douceur ?"}
+{"id":"int-b-0130","category":"intime","mode":"verite","intensity":3,"text":"Comment préfères-tu que {autre} te demande si tu as envie ?"}
+{"id":"int-b-0131","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qu'un « oui » enthousiaste représente pour toi dans notre intimité ?"}
+{"id":"int-b-0132","category":"intime","mode":"verite","intensity":3,"text":"Aimerais-tu qu'on choisisse un mot de sécurité, même pour nos jeux les plus doux ?"}
+{"id":"int-b-0133","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te rend vulnérable dans l'intimité, et qu'est-ce qui te rassure alors ?"}
+{"id":"int-b-0134","category":"intime","mode":"verite","intensity":3,"text":"Quelle émotion inattendue a déjà surgi chez toi après l'amour ?"}
+{"id":"int-b-0135","category":"intime","mode":"verite","intensity":3,"text":"Comment sais-tu que tu as vraiment fait plaisir à {autre} ?"}
+{"id":"int-b-0136","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimerais-tu que {autre} te dise juste après un moment intime ?"}
+{"id":"int-b-0137","category":"intime","mode":"verite","intensity":3,"text":"Comment préfères-tu recevoir une suggestion sur ce que {autre} aimerait au lit ?"}
+{"id":"int-b-0138","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui a le plus changé dans notre sexualité depuis nos débuts ?"}
+{"id":"int-b-0139","category":"intime","mode":"verite","intensity":3,"text":"Que voudrais-tu garder à tout prix dans notre façon de faire l'amour ?"}
+{"id":"int-b-0140","category":"intime","mode":"verite","intensity":3,"text":"Quelle nouvelle expérience intime aimerais-tu vivre avec {autre} cette année ?"}
+{"id":"int-b-0141","category":"intime","mode":"verite","intensity":2,"text":"Quel décor te fait rêver pour une nuit à deux : chalet, cabane perchée, maison au bord de l'eau ?"}
+{"id":"int-b-0142","category":"intime","mode":"verite","intensity":3,"text":"Que t'inspire l'idée d'un petit-déjeuner au lit qui finit par déraper ?"}
+{"id":"int-b-0143","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce que tu aimes dans les mains de {autre} ?"}
+{"id":"int-b-0144","category":"intime","mode":"verite","intensity":2,"text":"Quel détail du corps de {autre} connais-tu par cœur, les yeux fermés ?"}
+{"id":"int-b-0145","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu de dormir peau contre peau, sans pyjama ?"}
+{"id":"int-b-0146","category":"intime","mode":"verite","intensity":3,"text":"Ressens-tu plus de désir en vacances ? Qu'est-ce qui change, d'après toi ?"}
+{"id":"int-b-0147","category":"intime","mode":"verite","intensity":3,"text":"Serais-tu à l'aise de parler à {autre} de tes moments de plaisir en solo ?"}
+{"id":"int-b-0148","category":"intime","mode":"verite","intensity":3,"text":"Que ressens-tu quand tu regardes {autre} se déshabiller ?"}
+{"id":"int-b-0149","category":"intime","mode":"verite","intensity":2,"text":"Dans quelle tenue te trouves-tu le plus irrésistible ?"}
+{"id":"int-b-0150","category":"intime","mode":"verite","intensity":3,"text":"Si on voyageait dans le temps pour une nuit, dans quelle époque aimerais-tu séduire {autre} ?"}
+{"id":"int-b-0151","category":"intime","mode":"verite","intensity":2,"text":"Quel est le lieu le plus insolite de nos baisers ?"}
+{"id":"int-b-0152","category":"intime","mode":"verite","intensity":2,"text":"Quel genre de baiser préfères-tu au début d'un câlin : tendre, gourmand, très lent ?"}
+{"id":"int-b-0153","category":"intime","mode":"verite","intensity":3,"text":"Que ressens-tu quand {autre} souffle doucement dans ton cou ?"}
+{"id":"int-b-0154","category":"intime","mode":"verite","intensity":3,"text":"Quel massage aimerais-tu recevoir ce soir, et par où commencer ?"}
+{"id":"int-b-0155","category":"intime","mode":"verite","intensity":2,"text":"Plutôt câlin paresseux du dimanche ou passion du mardi soir ?"}
+{"id":"int-b-0156","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait sentir tout l'amour de {autre} pendant un moment intime ?"}
+{"id":"int-b-0157","category":"intime","mode":"verite","intensity":3,"text":"Quel moment intime t'a donné le sentiment d'une connexion parfaite avec {autre} ?"}
+{"id":"int-b-0158","category":"intime","mode":"verite","intensity":3,"text":"Quand {autre} prend tout son temps avec toi, à quoi penses-tu ?"}
+{"id":"int-b-0159","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te donne envie de dire « oui » sans même réfléchir ?"}
+{"id":"int-b-0160","category":"intime","mode":"verite","intensity":2,"text":"Quel parfum d'ambiance ou de bougie te met tout de suite dans l'humeur ?"}
+{"id":"int-b-0161","category":"intime","mode":"verite","intensity":2,"text":"Préfères-tu qu'un câlin commence par des mots, des regards ou des mains ?"}
+{"id":"int-b-0162","category":"intime","mode":"verite","intensity":3,"text":"Si {autre} te faisait une proposition coquine en pleine journée, quelle serait ta première réaction ?"}
+{"id":"int-b-0163","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie as-tu repoussée trop longtemps, faute d'occasion ?"}
+{"id":"int-b-0164","category":"intime","mode":"verite","intensity":3,"text":"Quelle partie de nos moments intimes aimerais-tu faire durer plus longtemps ?"}
+{"id":"int-b-0165","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te donne l'impression que le temps s'arrête quand on est ensemble au lit ?"}
+{"id":"int-b-0166","category":"intime","mode":"verite","intensity":2,"text":"Lequel de tes vêtements semble faire le plus d'effet à {autre} ?"}
+{"id":"int-b-0167","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'un câlin où le but n'est pas d'aller jusqu'au bout, juste de profiter ?"}
+{"id":"int-b-0168","category":"intime","mode":"verite","intensity":3,"text":"Quelle fantaisie aimerais-tu que {autre} t'offre pour ton anniversaire ?"}
+{"id":"int-b-0169","category":"intime","mode":"verite","intensity":3,"text":"Te sens-tu parfois pudique avec {autre} ? Dans quelles situations ?"}
+{"id":"int-b-0170","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît dans la façon dont {autre} t'embrasse ?"}
+{"id":"int-b-0171","category":"intime","mode":"verite","intensity":3,"text":"Qu'as-tu ressenti juste avant notre toute première nuit ensemble ?"}
+{"id":"int-b-0172","category":"intime","mode":"verite","intensity":3,"text":"Quel moment de nos préliminaires préfères-tu ?"}
+{"id":"int-b-0173","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu de faire l'amour en plein après-midi, à la lumière du jour ?"}
+{"id":"int-b-0174","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend une chambre vraiment propice au désir, selon toi ?"}
+{"id":"int-b-0175","category":"intime","mode":"verite","intensity":2,"text":"Quelle habitude du quotidien de {autre} trouves-tu étrangement sexy ?"}
+{"id":"int-b-0176","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimerais-tu que {autre} ose enfin te demander ?"}
+{"id":"int-b-0177","category":"intime","mode":"verite","intensity":3,"text":"Quelle confidence intime de {autre} t'a fait voir les choses autrement ?"}
+{"id":"int-b-0178","category":"intime","mode":"verite","intensity":2,"text":"Quelle est la plus jolie surprise sensuelle que {autre} t'ait préparée ?"}
+{"id":"int-b-0179","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu d'un rendez-vous intime inscrit à l'agenda, comme un vrai rendez-vous galant ?"}
+{"id":"int-b-0180","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui te trouble le plus quand {autre} danse ?"}
+{"id":"int-b-0181","category":"intime","mode":"verite","intensity":3,"text":"Si tu pouvais lire dans les pensées de {autre} pendant un câlin, que voudrais-tu découvrir ?"}
+{"id":"int-b-0182","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend {autre} irrésistible quand l'envie lui prend ?"}
+{"id":"int-b-0183","category":"intime","mode":"verite","intensity":3,"text":"Quelle part de toi aimerais-tu montrer davantage dans l'intimité : la tendresse, l'audace, le jeu ?"}
+{"id":"int-b-0184","category":"intime","mode":"verite","intensity":2,"text":"Comment aimerais-tu qu'on se prépare à une soirée intime : douche, tenue, musique ?"}
+{"id":"int-b-0185","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu de l'idée de se faire désirer pendant plusieurs jours ?"}
+{"id":"int-b-0186","category":"intime","mode":"verite","intensity":2,"text":"Quel endroit de la maison te rappelle un souvenir coquin ?"}
+{"id":"int-b-0187","category":"intime","mode":"verite","intensity":3,"text":"Quel est ton plus beau souvenir d'un câlin improvisé hors de la chambre ?"}
+{"id":"int-b-0188","category":"intime","mode":"verite","intensity":3,"text":"Dans l'intimité, quel comportement de {autre} te donne un sentiment de respect total ?"}
+{"id":"int-b-0189","category":"intime","mode":"verite","intensity":2,"text":"Quel jeu de société pourrait, selon toi, devenir très coquin entre nous ?"}
+{"id":"int-b-0190","category":"intime","mode":"verite","intensity":3,"text":"Que préfères-tu : parler de nos fantasmes, ou les vivre directement ?"}
+{"id":"int-b-0191","category":"intime","mode":"verite","intensity":3,"text":"Penses-tu que certains fantasmes sont plus beaux quand on les garde en rêve ?"}
+{"id":"int-b-0192","category":"intime","mode":"verite","intensity":3,"text":"Quel fantasme as-tu déjà réalisé avec {autre}, et comment l'as-tu vécu ?"}
+{"id":"int-b-0193","category":"intime","mode":"verite","intensity":2,"text":"Quel souvenir de vacances te donne encore chaud rien que d'y penser ?"}
+{"id":"int-b-0194","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que la confiance a changé dans notre façon de faire l'amour ?"}
+{"id":"int-b-0195","category":"intime","mode":"verite","intensity":3,"text":"Quand on essaie quelque chose de nouveau, préfères-tu en parler avant, pendant ou après ?"}
+{"id":"int-b-0196","category":"intime","mode":"verite","intensity":2,"text":"Si notre intimité avait une bande-son, quel morceau en serait le thème principal ?"}
+{"id":"int-b-0197","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce que tu trouves le plus beau chez {autre} au réveil ?"}
+{"id":"int-b-0198","category":"intime","mode":"verite","intensity":3,"text":"Quelle est ta plus grande envie de tendresse, là, maintenant ?"}
+{"id":"int-b-0199","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimerais-tu que {autre} comprenne mieux sur ton désir ?"}
+{"id":"int-b-0200","category":"intime","mode":"verite","intensity":3,"text":"Si tu devais résumer notre complicité au lit en trois mots, lesquels choisirais-tu ?"}
+{"id":"int-b-0201","category":"intime","mode":"verite","intensity":3,"text":"À quel moment as-tu compris, pour la première fois, que tu désirais {autre} ?"}
+{"id":"int-b-0202","category":"intime","mode":"verite","intensity":2,"text":"Quel goût aimerais-tu retrouver sur les lèvres de {autre} ?"}
+{"id":"int-b-0203","category":"intime","mode":"verite","intensity":3,"text":"Que ressens-tu quand {autre} effleure ta peau du bout des doigts, sans se presser ?"}
+{"id":"int-b-0204","category":"intime","mode":"verite","intensity":3,"text":"Que t'inspire l'idée d'un dessert dégusté directement sur la peau de {autre} ?"}
+{"id":"int-b-0205","category":"intime","mode":"verite","intensity":3,"text":"Le canapé, la cuisine ou le tapis du salon : lequel te tente le plus pour un moment volé ?"}
+{"id":"int-b-0206","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'une douche à deux qui prend tout son temps ?"}
+{"id":"int-b-0207","category":"intime","mode":"verite","intensity":2,"text":"Que t'inspire une soirée devant un feu de cheminée, rien que nous deux ?"}
+{"id":"int-b-0208","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu de jouer aux agents secrets en mission séduction, juste nous deux ?"}
+{"id":"int-b-0209","category":"intime","mode":"verite","intensity":3,"text":"Quel est ton signal préféré pour faire comprendre à {autre} que tu as envie ?"}
+{"id":"int-b-0210","category":"intime","mode":"verite","intensity":3,"text":"Qui de nous deux lance le plus souvent les câlins, et est-ce que ça te convient ?"}
+{"id":"int-b-0211","category":"intime","mode":"verite","intensity":3,"text":"Comment réagirais-tu si {autre} te confiait un fantasme qui te surprend ?"}
+{"id":"int-b-0212","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend une conversation sur le sexe facile entre nous ?"}
+{"id":"int-b-0213","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu de tenir un petit carnet secret de nos envies à deux ?"}
+{"id":"int-b-0214","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on fasse le point sur nos limites, de temps en temps ?"}
+{"id":"int-b-0215","category":"intime","mode":"verite","intensity":3,"text":"Que veut dire un « peut-être » pour toi, quand {autre} te propose quelque chose ?"}
+{"id":"int-b-0216","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on gère une pause en plein câlin, si l'un de nous en a besoin ?"}
+{"id":"int-b-0217","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait le plus plaisir dans le plaisir de {autre} ?"}
+{"id":"int-b-0218","category":"intime","mode":"verite","intensity":3,"text":"Plutôt chacun son tour ou tout en même temps : qu'est-ce qui te comble le plus ?"}
+{"id":"int-b-0219","category":"intime","mode":"verite","intensity":3,"text":"Lequel de tes sens est le plus en éveil quand on fait l'amour ?"}
+{"id":"int-b-0220","category":"intime","mode":"verite","intensity":2,"text":"Quel petit détail unique sur la peau de {autre} trouves-tu craquant ?"}
+{"id":"int-b-0221","category":"intime","mode":"verite","intensity":3,"text":"Aimes-tu sentir le regard de {autre} posé sur toi quand tu te déshabilles ?"}
+{"id":"int-b-0222","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend une réconciliation sous la couette si intense, selon toi ?"}
+{"id":"int-b-0223","category":"intime","mode":"verite","intensity":2,"text":"Une soirée de canicule ou une nuit d'hiver glaciale : laquelle t'inspire le plus côté câlins ?"}
+{"id":"int-b-0224","category":"intime","mode":"verite","intensity":3,"text":"La routine dans notre intimité : plutôt rassurante, ou à bousculer de temps en temps ?"}
+{"id":"int-b-0225","category":"intime","mode":"verite","intensity":3,"text":"Selon toi, qu'est-ce qui entretient le mieux la flamme après des années ensemble ?"}
+{"id":"int-b-0226","category":"intime","mode":"verite","intensity":2,"text":"Si on avait une pièce secrète rien que pour nous, comment la décorerais-tu ?"}
+{"id":"int-b-0227","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'un week-end entier sans quitter le lit, ou presque ?"}
+{"id":"int-b-0228","category":"intime","mode":"verite","intensity":2,"text":"Quel code secret aimerais-tu qu'on invente pour se dire « j'ai envie de toi » devant les autres ?"}
+{"id":"int-b-0229","category":"intime","mode":"verite","intensity":3,"text":"Quel détail de toi aimerais-tu envoyer en photo à {autre}, pour lui donner envie de rentrer ?"}
+{"id":"int-b-0230","category":"intime","mode":"verite","intensity":2,"text":"Lors d'une soirée entre amis, qu'est-ce qui te donne envie de t'éclipser avec {autre} ?"}
+{"id":"int-b-0231","category":"intime","mode":"verite","intensity":3,"text":"Te souviens-tu de la première fois où l'on a parlé ouvertement de nos envies ? Qu'as-tu ressenti ?"}
+{"id":"int-b-0232","category":"intime","mode":"verite","intensity":2,"text":"Quel est ton plus beau souvenir de réveil sensuel à deux ?"}
+{"id":"int-b-0233","category":"intime","mode":"verite","intensity":2,"text":"Quelle petite chose sensuelle fais-tu pour toi-même, que {autre} ne connaît peut-être pas ?"}
+{"id":"int-b-0234","category":"intime","mode":"verite","intensity":2,"text":"Quand te sens-tu le plus sexy au quotidien ?"}
+{"id":"int-b-0235","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que tu adores quand {autre} se laisse complètement aller ?"}
+{"id":"int-b-0236","category":"intime","mode":"verite","intensity":3,"text":"Quelle place donnes-tu à l'humour dans nos moments intimes ?"}
+{"id":"int-b-0237","category":"intime","mode":"verite","intensity":3,"text":"Lobes d'oreilles, creux des reins, intérieur des poignets : quel endroit oublié de toi mériterait plus d'attention ?"}
+{"id":"int-b-0238","category":"intime","mode":"verite","intensity":2,"text":"Que ressens-tu quand {autre} te caresse les cheveux pendant un câlin ?"}
+{"id":"int-b-0239","category":"intime","mode":"verite","intensity":2,"text":"Un sauna ou un jacuzzi privatisé pour nous deux, ça t'inspire quoi ?"}
+{"id":"int-b-0240","category":"intime","mode":"verite","intensity":3,"text":"Quelle douceur aimerais-tu recevoir le lendemain d'une nuit intense ?"}
+{"id":"int-b-0241","category":"intime","mode":"verite","intensity":2,"text":"D'après toi, les écrans nous volent des moments intimes ? Lesquels ?"}
+{"id":"int-b-0242","category":"intime","mode":"verite","intensity":3,"text":"Quelle attention de {autre}, en dehors du lit, réveille le plus ton désir ?"}
+{"id":"int-b-0243","category":"intime","mode":"verite","intensity":3,"text":"Pour toi, le désir naît plutôt dans la tête, dans le cœur ou dans le corps ?"}
+{"id":"int-b-0244","category":"intime","mode":"verite","intensity":2,"text":"Que pourrait faire {autre} dès le matin pour que tu y penses toute la journée ?"}
+{"id":"int-b-0245","category":"intime","mode":"verite","intensity":2,"text":"Quelle envie ressens-tu quand {autre} porte tes vêtements ?"}
+{"id":"int-b-0246","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que tu trouves le plus beau dans notre façon de nous désirer ?"}
+{"id":"int-b-0247","category":"intime","mode":"verite","intensity":3,"text":"Si tu pouvais changer une seule chose dans nos habitudes intimes, laquelle serait-ce ?"}
+{"id":"int-b-0248","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie de nouveauté te fait un peu peur, mais t'attire quand même ?"}
+{"id":"int-b-0249","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on se rassure mutuellement avant d'essayer quelque chose ?"}
+{"id":"int-b-0250","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te prouve que tu peux tout dire à {autre} dans ce domaine ?"}
+{"id":"int-b-0251","category":"intime","mode":"verite","intensity":3,"text":"Que t'évoque le mot « abandon » dans nos moments à deux ?"}
+{"id":"int-b-0252","category":"intime","mode":"verite","intensity":2,"text":"Si ton désir pour {autre} était une couleur, laquelle serait-ce ?"}
+{"id":"int-b-0253","category":"intime","mode":"verite","intensity":3,"text":"Où étais-tu la dernière fois qu'une envie soudaine de {autre} t'a traversé l'esprit ?"}
+{"id":"int-b-0254","category":"intime","mode":"verite","intensity":2,"text":"Quelle soirée à thème, juste entre nous, te ferait le plus envie ?"}
+{"id":"int-b-0255","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te plaît dans le fait de ne pas savoir ce que {autre} a prévu ?"}
+{"id":"int-b-0256","category":"intime","mode":"verite","intensity":3,"text":"Après avoir essayé une nouveauté, qu'est-ce qui te donne envie de recommencer ?"}
+{"id":"int-b-0257","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend un câlin du matin différent d'un câlin du soir, pour toi ?"}
+{"id":"int-b-0258","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait fondre dans la façon dont {autre} te regarde pendant l'amour ?"}
+{"id":"int-b-0259","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu des mots d'amour prononcés au moment le plus intense ?"}
+{"id":"int-b-0260","category":"intime","mode":"verite","intensity":3,"text":"Aimes-tu quand {autre} décrit à voix basse ce qui va se passer ?"}
+{"id":"int-b-0261","category":"intime","mode":"verite","intensity":3,"text":"Que t'inspire une soirée où l'on n'aurait le droit de se toucher qu'avec les lèvres ?"}
+{"id":"int-b-0262","category":"intime","mode":"verite","intensity":3,"text":"Si tu avais un vœu intime à faire ce soir, lequel serait-ce ?"}
+{"id":"int-b-0263","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui, chez toi, a besoin de temps pour s'éveiller, et que {autre} gagnerait à respecter ?"}
+{"id":"int-b-0264","category":"intime","mode":"verite","intensity":3,"text":"Quelle phrase rassurante aimerais-tu entendre avant de te dévoiler complètement ?"}
+{"id":"int-b-0265","category":"intime","mode":"verite","intensity":3,"text":"Quel fantasme de {autre} connais-tu, et te tenterait de réaliser ensemble ?"}
+{"id":"int-b-0266","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui distingue, pour toi, un câlin coquin d'un moment vraiment intime ?"}
+{"id":"int-b-0267","category":"intime","mode":"verite","intensity":2,"text":"Quelle partie de notre rituel du coucher préfères-tu ?"}
+{"id":"int-b-0268","category":"intime","mode":"verite","intensity":3,"text":"Quelle est la chose la plus attentionnée que {autre} ait faite pour ton plaisir ?"}
+{"id":"int-b-0269","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend le désir plus fort après quelques jours sans se voir ?"}
+{"id":"int-b-0270","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce que tu aimes dans l'instant juste avant le premier baiser d'une soirée ?"}
+{"id":"int-b-0271","category":"intime","mode":"verite","intensity":3,"text":"À quoi ressemblerait ta soirée idéale, du dîner jusqu'au bout de la nuit ?"}
+{"id":"int-b-0272","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie a grandi en toi depuis qu'on est ensemble ?"}
+{"id":"int-b-0273","category":"intime","mode":"verite","intensity":2,"text":"Quel geste de séduction de nos débuts aimerais-tu que {autre} refasse ?"}
+{"id":"int-b-0274","category":"intime","mode":"verite","intensity":2,"text":"Quel mot as-tu envie de murmurer à {autre} ce soir ?"}
+{"id":"int-b-0275","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'une nuit où l'on échange nos rôles habituels ?"}
+{"id":"int-b-0276","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui fait qu'une envie nouvelle devient, un jour, une évidence pour toi ?"}
+{"id":"int-b-0277","category":"intime","mode":"verite","intensity":3,"text":"Si tu pouvais offrir à {autre} une nuit parfaite, qu'y mettrais-tu ?"}
+{"id":"int-b-0278","category":"intime","mode":"verite","intensity":2,"text":"Quel est ton rapport au toucher : as-tu besoin de beaucoup de caresses pour te sentir proche ?"}
+{"id":"int-b-0279","category":"intime","mode":"verite","intensity":2,"text":"Selon toi, quelle est la chose la plus sensuelle qu'on puisse faire sans même se déshabiller ?"}
+{"id":"int-b-0280","category":"intime","mode":"verite","intensity":3,"text":"Quel petit rituel aimerais-tu instaurer avant nos moments intimes ?"}
+{"id":"int-b-0281","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te trouble le plus dans la peau de {autre} : sa douceur, sa chaleur, son odeur ?"}
+{"id":"int-b-0282","category":"intime","mode":"verite","intensity":2,"text":"Quand {autre} murmure ton prénom, qu'est-ce que ça réveille en toi ?"}
+{"id":"int-b-0283","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait le plus d'effet : sentir le désir de {autre}, ou lui montrer le tien ?"}
+{"id":"int-b-0284","category":"intime","mode":"verite","intensity":3,"text":"Si on écrivait ensemble la liste de nos envies, laquelle serait tout en haut pour toi ?"}
+{"id":"int-b-0285","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie de {autre} aimerais-tu mieux comprendre ?"}
+{"id":"int-b-0286","category":"intime","mode":"verite","intensity":2,"text":"Comment aimerais-tu qu'on célèbre nos petites premières fois, entre nous ?"}
+{"id":"int-b-0287","category":"intime","mode":"verite","intensity":2,"text":"Quel est le plus joli frisson que {autre} t'ait donné, sans même te toucher ?"}
+{"id":"int-b-0288","category":"intime","mode":"verite","intensity":3,"text":"Comment vis-tu les périodes où le désir est moins présent entre nous ?"}
+{"id":"int-b-0289","category":"intime","mode":"verite","intensity":3,"text":"Quel souvenir intime te sert de refuge quand {autre} te manque ?"}
+{"id":"int-b-0290","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu de l'idée de se lancer un petit défi coquin chaque semaine ?"}
+{"id":"int-b-0291","category":"intime","mode":"verite","intensity":3,"text":"Quelle surprise intime aurait le plus de chances de te faire craquer ?"}
+{"id":"int-b-0292","category":"intime","mode":"verite","intensity":3,"text":"Que ressens-tu quand tu sais que {autre} pense à toi de façon coquine ?"}
+{"id":"int-b-0293","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui t'émeut le plus dans notre intimité ?"}
+{"id":"int-b-0294","category":"intime","mode":"verite","intensity":3,"text":"Quel est le plus beau cadeau que {autre} t'ait fait dans ce domaine : confiance, patience, audace ?"}
+{"id":"int-b-0295","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui rend un « je t'aime » encore plus fort quand on est peau contre peau ?"}
+{"id":"int-b-0296","category":"intime","mode":"verite","intensity":2,"text":"Quelle scène de film romantique t'a déjà donné des idées pour nous deux ?"}
+{"id":"int-b-0297","category":"intime","mode":"verite","intensity":3,"text":"Quand tu imagines notre prochaine nuit, quelle est la première image qui te vient ?"}
+{"id":"int-b-0298","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu de garder certaines envies secrètes, pour mieux les révéler un jour ?"}
+{"id":"int-b-0299","category":"intime","mode":"verite","intensity":3,"text":"Quelle est l'envie la plus simple, presque timide, que tu aimerais voir exaucée ?"}
+{"id":"int-b-0300","category":"intime","mode":"verite","intensity":2,"text":"Si notre désir était un paysage, ce serait lequel ?"}
+{"id":"int-b-0301","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te permettrait de changer d'avis en cours de route, sans la moindre gêne ?"}
+{"id":"int-b-0302","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimerais-tu qu'on ne fasse plus, en toute franchise ?"}
+{"id":"int-b-0303","category":"intime","mode":"verite","intensity":3,"text":"Quelle facette de ta sensualité découvres-tu encore aujourd'hui ?"}
+{"id":"int-b-0304","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te semble le plus intime : un long regard, un baiser lent ou faire l'amour ?"}
+{"id":"int-b-0305","category":"intime","mode":"verite","intensity":2,"text":"Préfères-tu t'endormir dans les bras de {autre}, ou avec un peu d'espace ?"}
+{"id":"int-b-0306","category":"intime","mode":"verite","intensity":2,"text":"Quel bruit de fond rêverais-tu d'entendre pendant une nuit à deux : la pluie, les vagues, le feu ?"}
+{"id":"int-b-0307","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu d'un jeu de cartes coquin, à piocher ensemble un soir ?"}
+{"id":"int-b-0308","category":"intime","mode":"verite","intensity":2,"text":"Quel message vocal de {autre} aimerais-tu réécouter avant de t'endormir ?"}
+{"id":"int-b-0309","category":"intime","mode":"verite","intensity":3,"text":"Un appel vidéo coquin quand on est loin, ça te tente ou ça te gêne ?"}
+{"id":"int-b-0310","category":"intime","mode":"verite","intensity":3,"text":"À distance, qu'est-ce qui entretient le mieux ton désir pour {autre} ?"}
+{"id":"int-b-0311","category":"intime","mode":"verite","intensity":2,"text":"Aimes-tu les taquineries avant un câlin, ou préfères-tu aller droit au but ?"}
+{"id":"int-b-0312","category":"intime","mode":"verite","intensity":3,"text":"Repense à une fois où tu avais très envie de {autre} sans pouvoir le montrer : où étions-nous ?"}
+{"id":"int-b-0313","category":"intime","mode":"verite","intensity":2,"text":"Quel est ton endroit le plus chatouilleux, et est-ce bon signe ou mauvais signe pendant un câlin ?"}
+{"id":"int-b-0314","category":"intime","mode":"verite","intensity":2,"text":"Quelle histoire coquine aimerais-tu qu'on lise à deux voix ?"}
+{"id":"int-b-0315","category":"intime","mode":"verite","intensity":3,"text":"Quelle est ta plus belle découverte sur le corps de {autre} ?"}
+{"id":"int-b-0316","category":"intime","mode":"verite","intensity":2,"text":"Quand tu penses à la sensualité de {autre}, quel mot te vient en premier ?"}
+{"id":"int-b-0317","category":"intime","mode":"verite","intensity":3,"text":"Que voudrais-tu qu'on s'autorise davantage, toi et {autre} ?"}
+{"id":"int-b-0318","category":"intime","mode":"verite","intensity":3,"text":"Quel tabou aimerais-tu qu'on lève entre nous, en douceur ?"}
+{"id":"int-b-0319","category":"intime","mode":"verite","intensity":3,"text":"Quel geste aimerais-tu que {autre} ne fasse jamais sans te demander d'abord ?"}
+{"id":"int-b-0320","category":"intime","mode":"verite","intensity":3,"text":"Comment montres-tu un désaccord pendant un câlin, sans casser l'ambiance ?"}
+{"id":"int-b-0321","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que tu ne te lasses jamais de faire avec {autre}, au lit ?"}
+{"id":"int-b-0322","category":"intime","mode":"verite","intensity":2,"text":"Quel câlin te réconforte le plus après une mauvaise journée ?"}
+{"id":"int-b-0323","category":"intime","mode":"verite","intensity":3,"text":"Quand le désir est là mais pas l'énergie, que proposerais-tu ?"}
+{"id":"int-b-0324","category":"intime","mode":"verite","intensity":2,"text":"Quelle est ta position préférée pour t'endormir après l'amour ?"}
+{"id":"int-b-0325","category":"intime","mode":"verite","intensity":3,"text":"Si tu pouvais rendre une sensation éternelle, laquelle choisirais-tu ?"}
+{"id":"int-b-0326","category":"intime","mode":"verite","intensity":3,"text":"Que ressens-tu quand {autre} fait passer ton plaisir avant le sien ?"}
+{"id":"int-b-0327","category":"intime","mode":"verite","intensity":3,"text":"Quel est, pour toi, l'équilibre idéal entre donner et recevoir ?"}
+{"id":"int-b-0328","category":"intime","mode":"verite","intensity":3,"text":"Quelle est la plus grande différence entre nos désirs, et comment la vis-tu ?"}
+{"id":"int-b-0329","category":"intime","mode":"verite","intensity":3,"text":"Quel point commun dans nos envies te réjouit le plus ?"}
+{"id":"int-b-0330","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on parle de santé, de contraception et de confort intime ?"}
+{"id":"int-b-0331","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui te met en forme pour une soirée à deux : sieste, bain, balade ?"}
+{"id":"int-b-0332","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu de cacher des petits mots coquins dans la maison, pour {autre} ?"}
+{"id":"int-b-0333","category":"intime","mode":"verite","intensity":3,"text":"Quelle est ta zone de confort au lit, et as-tu envie d'en sortir un peu ?"}
+{"id":"int-b-0334","category":"intime","mode":"verite","intensity":2,"text":"À ton avis, combien de baisers suffisent à te faire fondre ?"}
+{"id":"int-b-0335","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que l'intimité avec {autre} t'a appris sur l'amour ?"}
+{"id":"int-b-0336","category":"intime","mode":"verite","intensity":2,"text":"Quel fruit associes-tu à la sensualité de {autre}, et pourquoi ?"}
+{"id":"int-b-0337","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te rend nostalgique de nos débuts, côté désir ?"}
+{"id":"int-b-0338","category":"intime","mode":"verite","intensity":3,"text":"Penses-tu qu'on se dit assez nos envies ? Qu'est-ce qui nous retient ?"}
+{"id":"int-b-0339","category":"intime","mode":"verite","intensity":3,"text":"Sur dix, quelle note donnerais-tu à notre communication au lit, et pourquoi ?"}
+{"id":"int-b-0340","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimes-tu dans le fait de faire l'amour après une longue discussion à cœur ouvert ?"}
+{"id":"int-b-0341","category":"intime","mode":"verite","intensity":2,"text":"Quelle est la plus belle phrase qu'on se soit dite au lit ?"}
+{"id":"int-b-0342","category":"intime","mode":"verite","intensity":2,"text":"Quelle tenue aimerais-tu porter un soir pour surprendre {autre} ?"}
+{"id":"int-b-0343","category":"intime","mode":"verite","intensity":3,"text":"Quelle est ta caresse préférée à donner à {autre} ?"}
+{"id":"int-b-0344","category":"intime","mode":"verite","intensity":3,"text":"Quel lien fais-tu entre ta forme du moment et ton désir ?"}
+{"id":"int-b-0345","category":"intime","mode":"verite","intensity":3,"text":"Quel compliment sur ta propre sensualité pourrais-tu te faire, là, maintenant ?"}
+{"id":"int-b-0346","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'éteindre toutes les lumières et de se découvrir à tâtons ?"}
+{"id":"int-b-0347","category":"intime","mode":"verite","intensity":2,"text":"Que penses-tu d'apprendre ensemble l'art du massage sensuel ?"}
+{"id":"int-b-0348","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui te donne envie de rester au lit le matin plutôt que de te lever ?"}
+{"id":"int-b-0349","category":"intime","mode":"verite","intensity":2,"text":"Un baiser d'une heure ou une nuit entière de câlins : que choisirais-tu ?"}
+{"id":"int-b-0350","category":"intime","mode":"verite","intensity":3,"text":"Quel petit geste de {autre}, juste avant un câlin, te fait déjà frissonner ?"}
+{"id":"int-b-0351","category":"intime","mode":"verite","intensity":3,"text":"Quand tu fermes les yeux et penses à {autre}, quelle sensation te revient en premier ?"}
+{"id":"int-b-0352","category":"intime","mode":"verite","intensity":3,"text":"Quel moment de nos nuits aimerais-tu revivre au ralenti ?"}
+{"id":"int-b-0353","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu que {autre} t'accompagne si tu veux essayer quelque chose qui t'intimide ?"}
+{"id":"int-b-0354","category":"intime","mode":"verite","intensity":3,"text":"Que penses-tu d'écrire nos fantasmes sur deux papiers, puis de les lire ensemble ?"}
+{"id":"int-b-0355","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait te sentir libre dans notre lit ?"}
+{"id":"int-b-0356","category":"intime","mode":"verite","intensity":3,"text":"Quand on va très lentement, tu savoures ou tu t'impatientes ?"}
+{"id":"int-b-0357","category":"intime","mode":"verite","intensity":2,"text":"Plutôt grand lit moelleux, ou petit lit serré pour mieux se coller ?"}
+{"id":"int-b-0358","category":"intime","mode":"verite","intensity":2,"text":"Quelle part de mystère aimerais-tu garder dans notre intimité ?"}
+{"id":"int-b-0359","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te donne envie d'oser davantage avec {autre} ?"}
+{"id":"int-b-0360","category":"intime","mode":"verite","intensity":3,"text":"Comment aimerais-tu qu'on fête le retour du désir après une période plus calme ?"}
+{"id":"int-b-0361","category":"intime","mode":"verite","intensity":3,"text":"Quel fantasme as-tu laissé tomber avec le temps, et pourquoi ?"}
+{"id":"int-b-0362","category":"intime","mode":"verite","intensity":3,"text":"Quelle envie de {autre} te fait sourire de tendresse ?"}
+{"id":"int-b-0363","category":"intime","mode":"verite","intensity":2,"text":"Quelle est la chose la plus romantique que tu aimerais entendre au creux de l'oreille ?"}
+{"id":"int-b-0364","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce que tu aimes chez {autre} juste après l'amour, quand tout retombe doucement ?"}
+{"id":"int-b-0365","category":"intime","mode":"verite","intensity":3,"text":"Quelle phrase de {autre}, dite au bon moment, te ferait tout lâcher ?"}
+{"id":"int-b-0366","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait le plus d'effet chez {autre} : son audace ou sa tendresse ?"}
+{"id":"int-b-0367","category":"intime","mode":"verite","intensity":3,"text":"Quelle chose sensuelle aimerais-tu qu'on fasse une fois par mois, comme un rituel ?"}
+{"id":"int-b-0368","category":"intime","mode":"verite","intensity":3,"text":"Te sens-tu parfois en décalage avec ton désir ? Comment aimerais-tu qu'on en parle ?"}
+{"id":"int-b-0369","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui t'aide à exprimer un besoin intime sans avoir peur de vexer {autre} ?"}
+{"id":"int-b-0370","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te rend irrésistible aux yeux de {autre}, d'après toi ?"}
+{"id":"int-b-0371","category":"intime","mode":"verite","intensity":3,"text":"Quelle est ta définition d'une nuit réussie ?"}
+{"id":"int-b-0372","category":"intime","mode":"verite","intensity":2,"text":"Quelle couleur de draps trouves-tu la plus sensuelle ?"}
+{"id":"int-b-0373","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait vibrer dans l'idée d'un rendez-vous secret à la maison, à heure fixe ?"}
+{"id":"int-b-0374","category":"intime","mode":"verite","intensity":3,"text":"Si {autre} t'offrait un bon pour une envie, que noterais-tu dessus ?"}
+{"id":"int-b-0375","category":"intime","mode":"verite","intensity":3,"text":"Qu'aimerais-tu essayer pour la première fois, sans pression et sans obligation d'aimer ?"}
+{"id":"int-b-0376","category":"intime","mode":"verite","intensity":3,"text":"Qu'est-ce qui te fait sentir que notre désir est encore bien vivant ?"}
+{"id":"int-b-0377","category":"intime","mode":"verite","intensity":2,"text":"Qu'est-ce qui te fait craquer quand les joues de {autre} rougissent ?"}
+{"id":"int-b-0378","category":"intime","mode":"verite","intensity":3,"text":"Quel est le plus beau compliment de {autre} sur ta façon de faire l'amour ?"}
+{"id":"int-b-0379","category":"intime","mode":"verite","intensity":3,"text":"Pour la suite de notre histoire, quelle promesse intime aimerais-tu qu'on se fasse ?"}
+{"id":"int-b-0380","category":"intime","mode":"verite","intensity":3,"text":"Quelle question intime aimerais-tu poser à {autre}, là, tout de suite ?"}
+{"id":"int-b-0381","category":"intime","mode":"action","intensity":3,"text":"Embrasse lentement la nuque de {autre} pendant trente secondes, sans te presser.","remote":false}
+{"id":"int-b-0382","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un message qui commence par « Ce soir, j'aimerais… » et termine-le sans un seul mot cru.","remote":true}
+{"id":"int-b-0383","category":"intime","mode":"action","intensity":3,"text":"Murmure à l'oreille de {autre}, en trois mots seulement, ce dont tu as envie ce soir.","remote":false}
+{"id":"int-b-0384","category":"intime","mode":"action","intensity":2,"text":"Masse les épaules de {autre} pendant deux minutes, puis descends doucement le long du dos.","remote":false}
+{"id":"int-b-0385","category":"intime","mode":"action","intensity":3,"text":"Enregistre un vocal de vingt secondes où tu chuchotes à {autre} ce qui te manque le plus de sa peau.","remote":true}
+{"id":"int-b-0386","category":"intime","mode":"action","intensity":3,"text":"Avec l'accord de {autre}, pose un foulard sur ses yeux et fais-lui deviner trois endroits où tu déposes tes lèvres.","remote":false}
+{"id":"int-b-0387","category":"intime","mode":"action","intensity":3,"text":"Retire un vêtement de {autre} très lentement, en guettant son sourire pour continuer.","remote":false}
+{"id":"int-b-0388","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une photo d'un détail de toi qui donnerait envie de rentrer vite : une épaule, une nuque, un sourire.","remote":true}
+{"id":"int-b-0389","category":"intime","mode":"action","intensity":2,"text":"Danse un slow tout contre {autre}, sur la chanson de son choix.","remote":false}
+{"id":"int-b-0390","category":"intime","mode":"action","intensity":3,"text":"Embrasse {autre} comme si c'était notre tout premier baiser.","remote":false}
+{"id":"int-b-0391","category":"intime","mode":"action","intensity":3,"text":"Appelle {autre}, dis-lui à voix basse une seule phrase brûlante, puis raccroche.","remote":true}
+{"id":"int-b-0392","category":"intime","mode":"action","intensity":2,"text":"Caresse le visage de {autre} du bout des doigts, les yeux fermés, pendant une minute.","remote":false}
+{"id":"int-b-0393","category":"intime","mode":"action","intensity":3,"text":"Offre à {autre} un effeuillage d'un seul vêtement, avec toute la lenteur dont tu es capable.","remote":false}
+{"id":"int-b-0394","category":"intime","mode":"action","intensity":3,"text":"Choisis un endroit du corps de {autre} et couvre-le de baisers pendant trente secondes.","remote":false}
+{"id":"int-b-0395","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} la description de ta tenue du moment, dans sa version la plus séduisante.","remote":true}
+{"id":"int-b-0396","category":"intime","mode":"action","intensity":3,"text":"Fais glisser un glaçon le long de la nuque de {autre}, puis réchauffe sa peau avec tes lèvres.","remote":false}
+{"id":"int-b-0397","category":"intime","mode":"action","intensity":3,"text":"Propose trois envies à {autre}, qui en choisit une pour plus tard… ou aucune.","remote":false}
+{"id":"int-b-0398","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} un petit poème sensuel de quatre vers et envoie-le.","remote":true}
+{"id":"int-b-0399","category":"intime","mode":"action","intensity":2,"text":"Dis à {autre}, les yeux dans les yeux, trois choses que tu trouves irrésistibles dans son allure.","remote":false}
+{"id":"int-b-0400","category":"intime","mode":"action","intensity":3,"text":"Écris avec ton doigt un mot coquin sur le dos de {autre}, qui doit le deviner.","remote":false}
+{"id":"int-b-0401","category":"intime","mode":"action","intensity":3,"text":"Enregistre un vocal où tu racontes à {autre}, en trente secondes, ton souvenir intime préféré.","remote":true}
+{"id":"int-b-0402","category":"intime","mode":"action","intensity":3,"text":"Embrasse l'intérieur du poignet de {autre}, puis remonte doucement jusqu'au creux du coude.","remote":false}
+{"id":"int-b-0403","category":"intime","mode":"action","intensity":3,"text":"Regarde {autre} dans les yeux sans parler pendant une minute, puis donne-lui le baiser que tu as en tête.","remote":false}
+{"id":"int-b-0404","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} trois choses que tu aimerais vivre ce soir, de la plus douce à la plus brûlante.","remote":true}
+{"id":"int-b-0405","category":"intime","mode":"action","intensity":3,"text":"Mordille tout doucement le lobe d'oreille de {autre}, puis murmure-lui un compliment.","remote":false}
+{"id":"int-b-0406","category":"intime","mode":"action","intensity":3,"text":"Retire un vêtement de ton choix, puis laisse {autre} décider si tu en retires un deuxième.","remote":false}
+{"id":"int-b-0407","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de l'endroit de la maison où tu aimerais qu'on se retrouve ce soir.","remote":true}
+{"id":"int-b-0408","category":"intime","mode":"action","intensity":3,"text":"Fais une déclaration de désir à {autre}, en une seule phrase, la plus brûlante possible sans un mot cru.","remote":false}
+{"id":"int-b-0409","category":"intime","mode":"action","intensity":3,"text":"Prends la main de {autre} et guide-la vers l'endroit où tu aimes les caresses.","remote":false}
+{"id":"int-b-0410","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} « Devine à quoi je pense… », avec un seul indice coquin.","remote":true}
+{"id":"int-b-0411","category":"intime","mode":"action","intensity":2,"text":"Promène une plume ou un foulard de soie sur les bras et la nuque de {autre}.","remote":false}
+{"id":"int-b-0412","category":"intime","mode":"action","intensity":2,"text":"Mets une musique sensuelle et offre à {autre} un petit show de danse de trente secondes.","remote":false}
+{"id":"int-b-0413","category":"intime","mode":"action","intensity":3,"text":"Envoie un vocal où tu prononces le prénom de {autre} de la façon la plus séduisante possible.","remote":true}
+{"id":"int-b-0414","category":"intime","mode":"action","intensity":3,"text":"Prépare un bain chaud aux bougies et invite {autre} à t'y rejoindre.","remote":false}
+{"id":"int-b-0415","category":"intime","mode":"action","intensity":2,"text":"Chuchote à {autre} le surnom le plus tendre et le plus coquin que tu puisses inventer.","remote":false}
+{"id":"int-b-0416","category":"intime","mode":"action","intensity":3,"text":"Couvre de baisers le visage de {autre}, partout sauf sur la bouche, pendant trente secondes.","remote":false}
+{"id":"int-b-0417","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une chanson qui t'évoque nos nuits, sans aucune explication.","remote":true}
+{"id":"int-b-0418","category":"intime","mode":"action","intensity":3,"text":"Embrasse {autre} sur la bouche le plus lentement possible, pendant au moins une minute.","remote":false}
+{"id":"int-b-0419","category":"intime","mode":"action","intensity":3,"text":"Enlace {autre} par derrière et souffle doucement dans son cou.","remote":false}
+{"id":"int-b-0420","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} ce que tu ressens quand tu imagines ses mains sur toi.","remote":true}
+{"id":"int-b-0421","category":"intime","mode":"action","intensity":3,"text":"Laisse {autre} guider tes mains pendant deux minutes, sans rien dire.","remote":false}
+{"id":"int-b-0422","category":"intime","mode":"action","intensity":3,"text":"Demande à {autre} où poser tes mains, et suis ses indications à la lettre.","remote":false}
+{"id":"int-b-0423","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de tes lèvres avec un seul mot : « bientôt ».","remote":true}
+{"id":"int-b-0424","category":"intime","mode":"action","intensity":2,"text":"Masse les pieds de {autre} pendant deux minutes, les yeux dans les yeux.","remote":false}
+{"id":"int-b-0425","category":"intime","mode":"action","intensity":3,"text":"Déboutonne le haut de {autre}, un bouton à la fois, avec un baiser entre chaque.","remote":false}
+{"id":"int-b-0426","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une invitation officielle pour un rendez-vous intime ce soir, avec l'heure et la tenue exigée.","remote":true}
+{"id":"int-b-0427","category":"intime","mode":"action","intensity":3,"text":"Enfile la tenue la plus sensuelle à ta disposition et reviens devant {autre}.","remote":false}
+{"id":"int-b-0428","category":"intime","mode":"action","intensity":3,"text":"Donne trois baisers à {autre} : un tendre, un gourmand, et un qui promet la suite.","remote":false}
+{"id":"int-b-0429","category":"intime","mode":"action","intensity":3,"text":"Décris à {autre}, par message, le massage que tu lui offriras ce soir, étape par étape.","remote":true}
+{"id":"int-b-0430","category":"intime","mode":"action","intensity":3,"text":"Fais un compliment à {autre} sur son corps, en posant la main à l'endroit concerné.","remote":false}
+{"id":"int-b-0431","category":"intime","mode":"action","intensity":3,"text":"Ferme les yeux et laisse {autre} déposer cinq baisers où bon lui semble.","remote":false}
+{"id":"int-b-0432","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un message d'un seul mot, celui qui résume ton désir du jour, et attends sa réponse.","remote":true}
+{"id":"int-b-0433","category":"intime","mode":"action","intensity":2,"text":"Mime à {autre} le baiser parfait, sans parler, puis laisse {autre} le reproduire.","remote":false}
+{"id":"int-b-0434","category":"intime","mode":"action","intensity":2,"text":"Enlace {autre} pendant deux minutes en accordant vos respirations.","remote":false}
+{"id":"int-b-0435","category":"intime","mode":"action","intensity":3,"text":"Appelle {autre} et décris-lui en une minute la soirée qu'on pourrait vivre à son retour.","remote":true}
+{"id":"int-b-0436","category":"intime","mode":"action","intensity":3,"text":"Écris sur un papier ton envie pour ce soir, plie-le et confie-le à {autre} pour plus tard.","remote":false}
+{"id":"int-b-0437","category":"intime","mode":"action","intensity":3,"text":"Approche-toi tout près de {autre}, frôle ses lèvres, et retiens ton baiser pendant dix secondes.","remote":false}
+{"id":"int-b-0438","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une question coquine, à laquelle {autre} doit répondre par un vocal.","remote":true}
+{"id":"int-b-0439","category":"intime","mode":"action","intensity":2,"text":"Passe tes doigts dans les cheveux de {autre}, puis embrasse son front et ses paupières.","remote":false}
+{"id":"int-b-0440","category":"intime","mode":"action","intensity":2,"text":"Mets une chanson et embrasse {autre} jusqu'à la fin du refrain.","remote":false}
+{"id":"int-b-0441","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} un message sensuel à la manière d'une lettre d'amour du siècle dernier.","remote":true}
+{"id":"int-b-0442","category":"intime","mode":"action","intensity":3,"text":"Raconte à {autre} un détail de notre dernière nuit qui te reste en tête.","remote":false}
+{"id":"int-b-0443","category":"intime","mode":"action","intensity":3,"text":"Dis à {autre} ce que tu aimerais qu'on essaie, en commençant par « Et si un soir… ».","remote":false}
+{"id":"int-b-0444","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un compte à rebours jusqu'à ce soir, avec une promesse différente à chaque heure.","remote":true}
+{"id":"int-b-0445","category":"intime","mode":"action","intensity":2,"text":"Pose la main de {autre} sur ton cœur et dis-lui ce qui le fait battre plus vite.","remote":false}
+{"id":"int-b-0446","category":"intime","mode":"action","intensity":3,"text":"Pose ta tête sur le ventre de {autre} et dépose une pluie de baisers légers tout autour.","remote":false}
+{"id":"int-b-0447","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} la photo du sous-vêtement que tu envisages de porter ce soir, posé sur le lit.","remote":true}
+{"id":"int-b-0448","category":"intime","mode":"action","intensity":3,"text":"Remonte la colonne vertébrale de {autre} de baisers, du bas du dos jusqu'à la nuque.","remote":false}
+{"id":"int-b-0449","category":"intime","mode":"action","intensity":2,"text":"Inventez ensemble un mot de passe qui voudra dire « j'ai envie de toi ».","remote":false}
+{"id":"int-b-0450","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} ton fantasme du moment, en une seule phrase, la plus élégante possible.","remote":true}
+{"id":"int-b-0451","category":"intime","mode":"action","intensity":2,"text":"Fixe {autre} avec ton regard le plus séducteur pendant vingt secondes, sans rire.","remote":false}
+{"id":"int-b-0452","category":"intime","mode":"action","intensity":3,"text":"Fais goûter à {autre}, les yeux fermés, un fruit ou un carré de chocolat, puis vole-lui un baiser.","remote":false}
+{"id":"int-b-0453","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} la description d'un lieu où tu aimerais l'emmener pour une nuit.","remote":true}
+{"id":"int-b-0454","category":"intime","mode":"action","intensity":2,"text":"Fredonne une chanson douce et danse un slow avec {autre}, sans autre musique que ta voix.","remote":false}
+{"id":"int-b-0455","category":"intime","mode":"action","intensity":2,"text":"Embrasse les paumes de {autre}, l'une après l'autre, très lentement.","remote":false}
+{"id":"int-b-0456","category":"intime","mode":"action","intensity":3,"text":"Envoie un vocal où tu inventes, pour {autre}, le début d'une histoire sensuelle.","remote":true}
+{"id":"int-b-0457","category":"intime","mode":"action","intensity":2,"text":"Fais semblant de rencontrer {autre} pour la première fois et tente de lui faire du charme pendant une minute.","remote":false}
+{"id":"int-b-0458","category":"intime","mode":"action","intensity":3,"text":"Installe-toi sur les genoux de {autre} et murmure-lui ta prochaine envie.","remote":false}
+{"id":"int-b-0459","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} les trois endroits de son corps que tu embrasseras en premier.","remote":true}
+{"id":"int-b-0460","category":"intime","mode":"action","intensity":2,"text":"Choisis la tenue que {autre} portera ce soir, et dis-lui pourquoi.","remote":false}
+{"id":"int-b-0461","category":"intime","mode":"action","intensity":3,"text":"Retire la montre ou les bijoux de {autre}, un à un, en embrassant chaque endroit libéré.","remote":false}
+{"id":"int-b-0462","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un message coquin codé, que personne d'autre ne pourrait comprendre.","remote":true}
+{"id":"int-b-0463","category":"intime","mode":"action","intensity":3,"text":"Propose à {autre} de lui appliquer de la crème dans le dos, avec des gestes très lents.","remote":false}
+{"id":"int-b-0464","category":"intime","mode":"action","intensity":2,"text":"Embrasse {autre} en tenant son visage entre tes mains, comme dans un film.","remote":false}
+{"id":"int-b-0465","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de ton regard le plus brûlant.","remote":true}
+{"id":"int-b-0466","category":"intime","mode":"action","intensity":3,"text":"Offre à {autre} un câlin de trente secondes peau contre peau, sans haut.","remote":false}
+{"id":"int-b-0467","category":"intime","mode":"action","intensity":2,"text":"Alterne dix secondes de chatouilles et dix secondes de caresses, puis demande à {autre} sa préférence.","remote":false}
+{"id":"int-b-0468","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} ce que tu as ressenti la dernière fois qu'on a fait l'amour.","remote":true}
+{"id":"int-b-0469","category":"intime","mode":"action","intensity":3,"text":"Laisse {autre} te proposer trois envies et réponds à chacune par oui, non ou peut-être, sans te justifier.","remote":false}
+{"id":"int-b-0470","category":"intime","mode":"action","intensity":3,"text":"Demande à {autre} la permission pour un geste précis, attends la réponse, et fais-le seulement si c'est oui.","remote":false}
+{"id":"int-b-0471","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} trois mots-clés de ce que tu imagines pour ce soir, et laisse deviner le reste.","remote":true}
+{"id":"int-b-0472","category":"intime","mode":"action","intensity":2,"text":"Dis à {autre} la phrase de séduction la plus ringarde que tu connaisses, le plus sérieusement possible.","remote":false}
+{"id":"int-b-0473","category":"intime","mode":"action","intensity":3,"text":"Pendant une minute, n'utilise que ton souffle pour faire frissonner {autre}.","remote":false}
+{"id":"int-b-0474","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une note vocale qui commence par « Si tu étais là, maintenant… ».","remote":true}
+{"id":"int-b-0475","category":"intime","mode":"action","intensity":3,"text":"Glisse une main sous le haut de {autre}, dans son dos, et dessine des cercles lents.","remote":false}
+{"id":"int-b-0476","category":"intime","mode":"action","intensity":3,"text":"Réchauffe une huile de massage entre tes mains et masse les mollets de {autre}.","remote":false}
+{"id":"int-b-0477","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} la photo d'un objet de la maison qui te fait penser à nos câlins.","remote":true}
+{"id":"int-b-0478","category":"intime","mode":"action","intensity":3,"text":"Embrasse {autre} derrière l'oreille, puis murmure ce que tu ressens à cet instant.","remote":false}
+{"id":"int-b-0479","category":"intime","mode":"action","intensity":2,"text":"Joue au miroir : imite chaque geste tendre de {autre} pendant une minute.","remote":false}
+{"id":"int-b-0480","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} la tenue que tu aimerais lui voir porter à ton retour.","remote":true}
+{"id":"int-b-0481","category":"intime","mode":"action","intensity":3,"text":"Caresse lentement le bras de {autre} et arrête-toi à l'instant même où {autre} dit « stop ».","remote":false}
+{"id":"int-b-0482","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un vocal avec le bruit d'un baiser, et rien d'autre.","remote":true}
+{"id":"int-b-0483","category":"intime","mode":"action","intensity":3,"text":"Masse {autre} pendant deux minutes en demandant à chaque geste : « plus doux, plus appuyé ou parfait ? »","remote":false}
+{"id":"int-b-0484","category":"intime","mode":"action","intensity":2,"text":"Emmène {autre} par la main dans la pièce de ton choix et explique pourquoi celle-ci.","remote":false}
+{"id":"int-b-0485","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} ce que tu ferais si tu pouvais te téléporter à ses côtés, maintenant.","remote":true}
+{"id":"int-b-0486","category":"intime","mode":"action","intensity":3,"text":"Pendant une minute, chaque phrase que tu adresses à {autre} doit être un compliment sur son corps.","remote":false}
+{"id":"int-b-0487","category":"intime","mode":"action","intensity":3,"text":"Défie {autre} de garder son sérieux pendant que tu embrasses son cou, trente secondes durant.","remote":false}
+{"id":"int-b-0488","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de toi au réveil, le drap remonté jusqu'aux épaules.","remote":true}
+{"id":"int-b-0489","category":"intime","mode":"action","intensity":3,"text":"Prends {autre} dans tes bras et glisse-lui à l'oreille l'endroit où tu aimerais faire l'amour la prochaine fois.","remote":false}
+{"id":"int-b-0490","category":"intime","mode":"action","intensity":3,"text":"Installe-toi dos à {autre} et laisse ses mains découvrir tes épaules pendant une minute.","remote":false}
+{"id":"int-b-0491","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} l'heure exacte à laquelle tu aimerais qu'on se retrouve sous la couette ce soir.","remote":true}
+{"id":"int-b-0492","category":"intime","mode":"action","intensity":2,"text":"Offre à {autre} un baiser papillon du bout des cils, puis un baiser esquimau du bout du nez.","remote":false}
+{"id":"int-b-0493","category":"intime","mode":"action","intensity":3,"text":"Raconte à {autre} l'un de tes fantasmes à la manière d'un conte, à voix basse.","remote":false}
+{"id":"int-b-0494","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} un message qui décrit, de mémoire, le parfum de sa peau.","remote":true}
+{"id":"int-b-0495","category":"intime","mode":"action","intensity":2,"text":"Mime ton envie de ce soir à {autre}, qui a une minute pour deviner.","remote":false}
+{"id":"int-b-0496","category":"intime","mode":"action","intensity":3,"text":"Glisse-toi sous la couette avec {autre} et décris-lui le plus beau câlin que tu imagines.","remote":false}
+{"id":"int-b-0497","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un vocal où tu chantes une phrase de chanson d'amour, de ta voix la plus sensuelle.","remote":true}
+{"id":"int-b-0498","category":"intime","mode":"action","intensity":3,"text":"Dis à {autre} l'effet que sa voix te fait, puis demande-lui de te chuchoter quelque chose.","remote":false}
+{"id":"int-b-0499","category":"intime","mode":"action","intensity":3,"text":"Embrasse {autre} sur la joue, puis dans le cou, puis sur la bouche, de plus en plus lentement.","remote":false}
+{"id":"int-b-0500","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un message qui commence par « J'ai repensé à cette nuit où… ».","remote":true}
+{"id":"int-b-0501","category":"intime","mode":"action","intensity":3,"text":"Propose trois caresses à {autre}, qui en choisit une, puis offre-la avec soin.","remote":false}
+{"id":"int-b-0502","category":"intime","mode":"action","intensity":3,"text":"Montre à {autre}, sur ton propre bras, la caresse que tu préfères recevoir.","remote":false}
+{"id":"int-b-0503","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de tes mains avec la légende « mes mains ont des projets pour ce soir ».","remote":true}
+{"id":"int-b-0504","category":"intime","mode":"action","intensity":3,"text":"Garde les mains dans le dos et embrasse {autre} pendant une minute.","remote":false}
+{"id":"int-b-0505","category":"intime","mode":"action","intensity":3,"text":"Fais promettre à {autre} une envie pour ce week-end, et scelle la promesse d'un baiser.","remote":false}
+{"id":"int-b-0506","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} trois adjectifs pour décrire notre dernière nuit ensemble.","remote":true}
+{"id":"int-b-0507","category":"intime","mode":"action","intensity":3,"text":"Déshabille {autre} uniquement du regard, en silence, pendant trente secondes.","remote":false}
+{"id":"int-b-0508","category":"intime","mode":"action","intensity":3,"text":"Allume une bougie, éteins les lumières et offre à {autre} cinq minutes de câlins sans parler.","remote":false}
+{"id":"int-b-0509","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} le menu de ce soir, version câlins : entrée, plat et dessert.","remote":true}
+{"id":"int-b-0510","category":"intime","mode":"action","intensity":2,"text":"Pose ta tête sur la poitrine de {autre}, écoute son cœur, et dis-lui ce que tu entends.","remote":false}
+{"id":"int-b-0511","category":"intime","mode":"action","intensity":2,"text":"Masse les tempes de {autre}, puis descends doucement vers la mâchoire et le cou.","remote":false}
+{"id":"int-b-0512","category":"intime","mode":"action","intensity":3,"text":"Demande par message à {autre} : « Plutôt lent ou intense, ce soir ? », et respecte la réponse.","remote":true}
+{"id":"int-b-0513","category":"intime","mode":"action","intensity":3,"text":"Cache un baiser quelque part sur toi : {autre} doit le trouver grâce à tes « tu chauffes » et « tu refroidis ».","remote":false}
+{"id":"int-b-0514","category":"intime","mode":"action","intensity":3,"text":"Laisse {autre} choisir une musique, et accorde le rythme de tes caresses à son tempo.","remote":false}
+{"id":"int-b-0515","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un message qui avoue une envie que tu n'as jamais dite à voix haute.","remote":true}
+{"id":"int-b-0516","category":"intime","mode":"action","intensity":3,"text":"Fais à {autre} un compliment sur son corps que tu n'avais encore jamais osé formuler.","remote":false}
+{"id":"int-b-0517","category":"intime","mode":"action","intensity":3,"text":"Offre à {autre} une minute pendant laquelle {autre} décide de tout, dans le respect de tes limites.","remote":false}
+{"id":"int-b-0518","category":"intime","mode":"action","intensity":3,"text":"Enregistre un vocal où tu décris lentement ce que tu ressens en pensant aux lèvres de {autre}.","remote":true}
+{"id":"int-b-0519","category":"intime","mode":"action","intensity":2,"text":"Inventez à deux trois règles pour une soirée coquine, et notez-les quelque part.","remote":false}
+{"id":"int-b-0520","category":"intime","mode":"action","intensity":2,"text":"Choisis la playlist de notre prochaine soirée intime et fais écouter le premier morceau à {autre}.","remote":false}
+{"id":"int-b-0521","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} un message « interdit au public », suivi d'un « oups, mauvaise conversation » très innocent.","remote":true}
+{"id":"int-b-0522","category":"intime","mode":"action","intensity":3,"text":"Enlace {autre} en cuillère pendant deux minutes en déposant des baisers sur son épaule.","remote":false}
+{"id":"int-b-0523","category":"intime","mode":"action","intensity":2,"text":"Prends {autre} par la taille, fais-lui faire un tour de danse, et termine par un baiser.","remote":false}
+{"id":"int-b-0524","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} la photo d'un lieu de rêve avec la légende « toi, moi, et une chambre avec vue ».","remote":true}
+{"id":"int-b-0525","category":"intime","mode":"action","intensity":3,"text":"Enfile un vêtement de {autre} et viens le lui montrer, avec ta démarche la plus séduisante.","remote":false}
+{"id":"int-b-0526","category":"intime","mode":"action","intensity":3,"text":"Demande à {autre} de décrire son baiser idéal, puis offre-le-lui.","remote":false}
+{"id":"int-b-0527","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un petit sondage : trois idées de soirée intime, à {autre} de voter.","remote":true}
+{"id":"int-b-0528","category":"intime","mode":"action","intensity":3,"text":"Embrasse les paupières de {autre}, puis chuchote « devine la suite ».","remote":false}
+{"id":"int-b-0529","category":"intime","mode":"action","intensity":3,"text":"Dis « j'ai envie de toi » à {autre} sur trois tons : tendre, malicieux, brûlant.","remote":false}
+{"id":"int-b-0530","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} ce que tu aimes le plus dans sa façon de faire l'amour.","remote":true}
+{"id":"int-b-0531","category":"intime","mode":"action","intensity":3,"text":"Masse {autre} avec un foulard sur tes propres yeux : cette fois, c'est toi qui ne vois rien.","remote":false}
+{"id":"int-b-0532","category":"intime","mode":"action","intensity":3,"text":"Choisis un endroit du corps de {autre} que tu n'embrasses presque jamais, et répare cet oubli.","remote":false}
+{"id":"int-b-0533","category":"intime","mode":"action","intensity":3,"text":"Appelle {autre} pour souhaiter bonne nuit, en décrivant le câlin que tu aimerais lui faire.","remote":true}
+{"id":"int-b-0534","category":"intime","mode":"action","intensity":3,"text":"Dépose une goutte de ton parfum dans ton cou et invite {autre} à la trouver.","remote":false}
+{"id":"int-b-0535","category":"intime","mode":"action","intensity":2,"text":"Raconte à {autre} la fois où tu as eu le plus de mal à cacher ton envie en public.","remote":false}
+{"id":"int-b-0536","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de ta tenue du soir, vue de dos.","remote":true}
+{"id":"int-b-0537","category":"intime","mode":"action","intensity":3,"text":"Chuchote à {autre} ton fantasme le plus tendre, avec des mots aussi poétiques que possible.","remote":false}
+{"id":"int-b-0538","category":"intime","mode":"action","intensity":3,"text":"Fais l'inventaire des grains de beauté sur un bras de {autre}, avec un baiser sur chacun.","remote":false}
+{"id":"int-b-0539","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} la liste de tes zones sensibles préférées, classées du tiède au brûlant.","remote":true}
+{"id":"int-b-0540","category":"intime","mode":"action","intensity":3,"text":"Retire un vêtement pour chaque compliment sincère que {autre} te fait, jusqu'à trois.","remote":false}
+{"id":"int-b-0541","category":"intime","mode":"action","intensity":3,"text":"Embrasse {autre} à l'endroit précis que tu rêves d'embrasser depuis ce matin.","remote":false}
+{"id":"int-b-0542","category":"intime","mode":"action","intensity":3,"text":"Décris à {autre}, par message, ton baiser idéal en trois étapes.","remote":true}
+{"id":"int-b-0543","category":"intime","mode":"action","intensity":3,"text":"Pose deux doigts sur les lèvres de {autre} et dis-lui ce que tu aimes dans sa bouche.","remote":false}
+{"id":"int-b-0544","category":"intime","mode":"action","intensity":2,"text":"Lis la liste de courses à {autre} de la voix la plus sensuelle possible.","remote":false}
+{"id":"int-b-0545","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un vocal où tu murmures « encore » de trois façons différentes.","remote":true}
+{"id":"int-b-0546","category":"intime","mode":"action","intensity":3,"text":"Masse la nuque de {autre} en décrivant chacun de tes gestes à voix basse.","remote":false}
+{"id":"int-b-0547","category":"intime","mode":"action","intensity":2,"text":"Glisse un petit mot coquin sur le miroir de la salle de bain, à l'attention de {autre}.","remote":false}
+{"id":"int-b-0548","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} le début d'une phrase sensuelle, et laisse {autre} écrire la suite.","remote":true}
+{"id":"int-b-0549","category":"intime","mode":"action","intensity":2,"text":"Enveloppe-toi avec {autre} dans une couverture toute douce pendant trois minutes.","remote":false}
+{"id":"int-b-0550","category":"intime","mode":"action","intensity":3,"text":"Dis à {autre} trois vérités brûlantes sur ton désir du moment.","remote":false}
+{"id":"int-b-0551","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} « j'ai envie de toi » dans une langue étrangère, avec une photo de ton sourire.","remote":true}
+{"id":"int-b-0552","category":"intime","mode":"action","intensity":2,"text":"Improvise pour {autre} un petit défilé dans ta tenue préférée, avec commentaires coquins.","remote":false}
+{"id":"int-b-0553","category":"intime","mode":"action","intensity":2,"text":"Embrasse {autre} en comptant jusqu'à dix, puis propose de recommencer jusqu'à vingt.","remote":false}
+{"id":"int-b-0554","category":"intime","mode":"action","intensity":3,"text":"Enregistre un vocal de dix secondes où tu annonces ce que tu retireras en premier en rentrant.","remote":true}
+{"id":"int-b-0555","category":"intime","mode":"action","intensity":3,"text":"Allonge-toi près de {autre} et décris-lui, sans aucun contact, tout ce que tu aimerais faire.","remote":false}
+{"id":"int-b-0556","category":"intime","mode":"action","intensity":3,"text":"Trace du bout du nez une ligne de l'épaule jusqu'au poignet de {autre}.","remote":false}
+{"id":"int-b-0557","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une photo de toi dans un vêtement que {autre} adore, avec la légende « à retirer ce soir ».","remote":true}
+{"id":"int-b-0558","category":"intime","mode":"action","intensity":3,"text":"Offre à {autre} trois minutes de caresses, sans aucune attente en retour.","remote":false}
+{"id":"int-b-0559","category":"intime","mode":"action","intensity":2,"text":"Joue au photographe : fais prendre à {autre} trois poses séduisantes, sans aucune photo.","remote":false}
+{"id":"int-b-0560","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une fausse alerte météo : « Ce soir, températures en forte hausse dans la chambre ».","remote":true}
+{"id":"int-b-0561","category":"intime","mode":"action","intensity":3,"text":"Effleure de tes lèvres la peau de {autre}, sans jamais vraiment l'embrasser, pendant une minute.","remote":false}
+{"id":"int-b-0562","category":"intime","mode":"action","intensity":3,"text":"Offre à {autre} un massage du cuir chevelu qui glisse peu à peu vers la nuque.","remote":false}
+{"id":"int-b-0563","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre} les trois choses dont tu as le plus envie cette semaine, côté intimité.","remote":true}
+{"id":"int-b-0564","category":"intime","mode":"action","intensity":3,"text":"Dépose un baiser dans le cou de {autre} chaque fois que {autre} prononce ton prénom, pendant deux minutes.","remote":false}
+{"id":"int-b-0565","category":"intime","mode":"action","intensity":2,"text":"Choisis une chanson et demande à {autre} de te faire danser comme au premier rendez-vous.","remote":false}
+{"id":"int-b-0566","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une note vocale qui commence par « Tu sais à quoi je pensais tout à l'heure ? ».","remote":true}
+{"id":"int-b-0567","category":"intime","mode":"action","intensity":3,"text":"Fais un long câlin à {autre} en silence, puis dis seulement : « Maintenant, à toi de choisir la suite. »","remote":false}
+{"id":"int-b-0568","category":"intime","mode":"action","intensity":3,"text":"Demande par message à {autre} une envie et une limite du moment, et réponds par un merci tendre.","remote":true}
+{"id":"int-b-0569","category":"intime","mode":"action","intensity":3,"text":"Écris trois envies coquines sur des papiers, plie-les, et fais-en piocher une à {autre}.","remote":false}
+{"id":"int-b-0570","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de notre lit fait avec soin, légendée « réservé pour nous deux ce soir ».","remote":true}
+{"id":"int-b-0571","category":"intime","mode":"action","intensity":3,"text":"Pose ta joue contre le dos de {autre} et laisse tes mains se promener sur son ventre.","remote":false}
+{"id":"int-b-0572","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un code pour ce soir : 🔥 pour la passion, 🕯 pour la douceur, et laisse {autre} choisir.","remote":true}
+{"id":"int-b-0573","category":"intime","mode":"action","intensity":3,"text":"Raconte à {autre}, comme une confidence, le moment de ta journée où ton esprit s'est égaré vers nous.","remote":false}
+{"id":"int-b-0574","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} un acrostiche sensuel avec les lettres de son prénom.","remote":true}
+{"id":"int-b-0575","category":"intime","mode":"action","intensity":3,"text":"Ferme les yeux et devine, rien qu'au toucher, quelle partie de toi {autre} est en train d'effleurer.","remote":false}
+{"id":"int-b-0576","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un vocal qui raconte ce que tu ressens quand {autre} t'embrasse dans le cou.","remote":true}
+{"id":"int-b-0577","category":"intime","mode":"action","intensity":3,"text":"Embrasse {autre} juste sous la mâchoire, puis attends sa réaction en silence.","remote":false}
+{"id":"int-b-0578","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre}, en cinq lignes, le scénario d'un film dont nous serions les héros, très romantique et un peu brûlant.","remote":true}
+{"id":"int-b-0579","category":"intime","mode":"action","intensity":2,"text":"Fais la révérence à {autre} et propose un rendez-vous galant dans la chambre, dans les règles de l'art.","remote":false}
+{"id":"int-b-0580","category":"intime","mode":"action","intensity":3,"text":"Appelle {autre} et pose-lui trois questions coquines en rafale, sans lui laisser le temps de réfléchir.","remote":true}
