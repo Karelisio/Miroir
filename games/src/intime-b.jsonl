@@ -798,7 +798,7 @@
 {"id":"int-b-0798","category":"intime","mode":"envie","intensity":3,"text":"Un week-end où chacun a le droit d'exiger trois câlins, et d'en refuser un"}
 {"id":"int-b-0799","category":"intime","mode":"envie","intensity":3,"text":"Un coup de fil surprise pour dire à l'autre ce qu'on imagine faire ce soir"}
 {"id":"int-b-0800","category":"intime","mode":"envie","intensity":2,"text":"Une lettre d'amour sensuelle, écrite à l'ancienne et glissée sous l'oreiller"}
-{"id":"int-b-0801","category":"intime","mode":"envie","intensity":3,"text":"Une histoire sensuelle écrite à deux, ligne après ligne, sans savoir où elle nous mène"}
+{"id":"int-b-0801","category":"intime","mode":"envie","intensity":3,"text":"Une histoire sensuelle écrite à deux, ligne après ligne, sans savoir où l'histoire nous mène"}
 {"id":"int-b-0802","category":"intime","mode":"envie","intensity":3,"text":"Une soirée où l'on se parle uniquement en chuchotant, du dîner jusqu'au coucher"}
 {"id":"int-b-0803","category":"intime","mode":"envie","intensity":2,"text":"Un réveil en douceur, avec une musique choisie et une main qui caresse le bras"}
 {"id":"int-b-0804","category":"intime","mode":"envie","intensity":3,"text":"Une nuit sous tente, les yeux dans les étoiles, avec un sac de couchage pour deux"}
@@ -842,10 +842,10 @@
 {"id":"int-b-0842","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, montrez-vous chacun un geste que vous aimez recevoir, avec démonstration sur la main de l'autre."}
 {"id":"int-b-0843","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, retournez dans un lieu de vos débuts et rejouez-y un baiser comme à l'époque."}
 {"id":"int-b-0844","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, choisissez un geste d'arrêt (main levée ou mot convenu) et vérifiez que chacun se sent à l'aise de s'en servir."}
-{"id":"int-b-0845","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, acceptez chacun une envie nouvelle proposée par l'autre, à condition qu'elle respecte vos limites."}
+{"id":"int-b-0845","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, acceptez chacun une envie nouvelle proposée par l'autre, à condition de respecter vos limites."}
 {"id":"int-b-0846","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, ne vous quittez jamais le matin sans un vrai baiser, même quand le temps manque."}
 {"id":"int-b-0847","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, consacrez une soirée entière au plaisir de l'un de vous, puis une autre à celui de l'autre."}
-{"id":"int-b-0848","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, composez chacun une petite liste de dix mots et images qui évoquent votre désir, et montrez-la dimanche."}
+{"id":"int-b-0848","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, composez chacun une petite liste de dix mots et images qui évoquent votre désir, et présentez le résultat dimanche."}
 {"id":"int-b-0849","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, parlez de ce qui vous met en confiance pour vous dévoiler, et ajoutez un geste rassurant à votre rituel."}
 {"id":"int-b-0850","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, cuisinez un dîner à la bougie dont chaque plat vous fait penser à l'autre."}
 {"id":"int-b-0851","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, transformez un coin de la maison en cocon pour deux, avec plaids, coussins et lumière douce."}
@@ -858,7 +858,7 @@
 {"id":"int-b-0858","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, inventez trois baisers à nom propre (le Matinal, le Gourmand, le Secret) et pratiquez-les."}
 {"id":"int-b-0859","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, imaginez votre soirée intime idéale dans trois ans et choisissez ce que vous pouvez en vivre dès maintenant."}
 {"id":"int-b-0860","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, organisez une soirée pyjama à deux, avec bonbons, film et bataille d'oreillers."}
-{"id":"int-b-0861","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, jouez la carte du mystère : chacun laisse un indice par jour sur ce qu'il a prévu pour samedi soir, sans rien révéler."}
+{"id":"int-b-0861","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, jouez la carte du mystère : chacun laisse un indice par jour sur ce qui est prévu pour samedi soir, sans rien révéler."}
 {"id":"int-b-0862","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, cuisinez à deux un dessert que vous mangerez au lit, avec une seule cuillère."}
 {"id":"int-b-0863","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, regardez un film sensuel ou romantique ensemble, puis dites quelle scène vous a fait vibrer le plus."}
 {"id":"int-b-0864","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, faites une activité nouvelle à deux (cours de danse, atelier, balade nocturne) et finissez la soirée rien qu'à vous deux."}
@@ -872,7 +872,7 @@
 {"id":"int-b-0872","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, dites-vous trois choses que vous aimez dans la manière dont l'autre vous désire."}
 {"id":"int-b-0873","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, dansez au moins une fois sur un morceau que vous n'avez jamais écouté ensemble."}
 {"id":"int-b-0874","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, ralentissez : doublez la durée de vos préliminaires habituels et notez ce que ça change."}
-{"id":"int-b-0875","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, parlez de ce qui réveille votre désir en pleine journée, et provoquez-le chacun une fois."}
+{"id":"int-b-0875","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, parlez de ce qui réveille votre désir en pleine journée, et déclenchez cette envie chacun une fois."}
 {"id":"int-b-0876","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, endormez-vous en vous racontant chacun trois bons moments de la journée, puis un moment de désir."}
 {"id":"int-b-0877","category":"intime","mode":"defi","intensity":3,"text":"Cette semaine, couchez-vous une heure plus tôt au moins trois soirs, pour avoir du temps à vous deux."}
 {"id":"int-b-0878","category":"intime","mode":"defi","intensity":2,"text":"Cette semaine, ne parlez ni de ménage ni d'argent après 21 h : cette plage horaire est réservée à vous deux."}
