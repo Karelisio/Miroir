@@ -162,6 +162,13 @@ class ScreenshotTest {
         )
     }
 
+    @Test fun reactions_status() = shot("06a_reactions_status") {
+        androidx.compose.foundation.layout.Column(Modifier.padding(20.dp), verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(32.dp)) {
+            com.karelisio.miroir.ui.today.ReactionsSection(ReactionPayload(null, "Je tâcherais de m'habiller plus comme ça ❤️", 0), null, "Sam", synced = true) { _, _ -> }
+            com.karelisio.miroir.ui.today.ReactionsSection(ReactionPayload("🔥", null, 0), null, "Sam", synced = false) { _, _ -> }
+        }
+    }
+
     /** Images clés de l'animation de révélation (horloge de test contrôlée). */
     @Test
     fun reveal_frames() {

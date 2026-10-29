@@ -136,7 +136,7 @@ fun DayDetailScreen(vm: HistoryViewModel, day: String, onBack: () -> Unit, onMes
                         onPlayed = { vm.markRevealSeen(day) },
                         modifier = Modifier.staggeredAppear(1, "d-reveal"),
                     )
-                    ReactionsSection(e.myReactionPayload(), e.partnerReactionPayload(), p.partnerDisplayName) { emoji, comment ->
+                    ReactionsSection(e.myReactionPayload(), e.partnerReactionPayload(), p.partnerDisplayName, e.myReactionSynced) { emoji, comment ->
                         vm.react(day, emoji, comment)
                     }
                 }

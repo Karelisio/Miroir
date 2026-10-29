@@ -2,6 +2,10 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [1.3.1]
+
+- Réactions : un état sous le champ indique si ton petit mot est envoyé ✓, en route (hors ligne) ou pas encore envoyé ; le clavier se ferme à l'envoi.
+
 ## [1.3.0]
 
 - Signaler un problème 🐞 : Miroir garde un petit journal technique (plantages, erreurs de synchro, de mise à jour…) et le partage en un toucher depuis Réglages › Application. Aucune réponse, aucun prénom ni aucune clé n'y figure.

@@ -43,6 +43,8 @@ data class TodayUi(
     val partnerAnswered: Boolean = false,
     val mySynced: Boolean = true,
     val myReaction: ReactionPayload? = null,
+    /** Ma réaction (emoji + petit mot) est arrivée sur le serveur. */
+    val myReactionSynced: Boolean = true,
     val partnerReaction: ReactionPayload? = null,
     val canSkip: Boolean = false,
     val streak: Int = 0,
@@ -130,6 +132,7 @@ class TodayViewModel(private val c: AppContainer) : ViewModel() {
             partnerAnswered = entity?.partnerAnswered == true,
             mySynced = entity?.mySynced ?: true,
             myReaction = entity?.myReactionPayload(),
+            myReactionSynced = entity?.myReactionSynced ?: true,
             partnerReaction = entity?.partnerReactionPayload(),
             canSkip = entity != null && entity.skips == 0 && mine == null && !entity.partnerAnswered,
             streak = streakOf(days, day),

@@ -42,6 +42,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.rounded.Send
+import androidx.compose.material.icons.rounded.CheckCircle
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.CloudOff
 import androidx.compose.material.icons.rounded.QrCode2
@@ -80,6 +81,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
@@ -486,7 +488,7 @@ private fun RevealSection(ui: TodayUi, onPlayed: () -> Unit, onReact: (String?, 
                 onPlayed = onPlayed,
             )
             AnimatedVisibility(ui.phase == Phase.REVEALED, enter = fadeIn(tween(400, 200)) + expandVertically()) {
-                ReactionsSection(ui.myReaction, ui.partnerReaction, ui.partnerName, onReact)
+                ReactionsSection(ui.myReaction, ui.partnerReaction, ui.partnerName, ui.myReactionSynced, onReact)
             }
         }
     }
@@ -524,8 +526,9 @@ private fun RevealPrompt(onReveal: () -> Unit) {
 }
 
 @Composable
-fun ReactionsSection(mine: ReactionPayload?, theirs: ReactionPayload?, partnerName: String, onReact: (String?, String?) -> Unit) {
+fun ReactionsSection(mine: ReactionPayload?, theirs: ReactionPayload?, partnerName: String, synced: Boolean = true, onReact: (String?, String?) -> Unit) {
     val haptics = rememberHaptics()
+    val focus = LocalFocusManager.current
     val colors = MaterialTheme.colorScheme
     var comment by rememberSaveable(mine?.at) { mutableStateOf(mine?.comment.orEmpty()) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -573,11 +576,55 @@ fun ReactionsSection(mine: ReactionPayload?, theirs: ReactionPayload?, partnerNa
             keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Sentences, imeAction = ImeAction.Send),
             trailingIcon = {
                 IconButton(
-                    onClick = { haptics.confirm(); onReact(mine?.emoji, comment) },
+                    onClick = { haptics.confirm(); focus.clearFocus(); onReact(mine?.emoji, comment) },
                     enabled = comment.trim() != (mine?.comment ?: ""),
                 ) { Icon(Icons.AutoMirrored.Rounded.Send, contentDescription = "Envoyer") }
             },
         )
+        ReactionStatus(
+            when {
+                comment.trim() != (mine?.comment ?: "") && comment.isNotBlank() -> SendStatus.UNSENT
+                mine == null -> SendStatus.NONE
+                !synced -> SendStatus.PENDING
+                else -> SendStatus.SENT
+            },
+            hasComment = !mine?.comment.isNullOrBlank(),
+            partnerName = partnerName,
+        )
+    }
+}
+
+private enum class SendStatus { NONE, UNSENT, PENDING, SENT }
+
+/** État d'envoi de ma réaction, sous le champ : pas encore envoyée, en route, ou arrivée. */
+@Composable
+private fun ReactionStatus(status: SendStatus, hasComment: Boolean, partnerName: String) {
+    val colors = MaterialTheme.colorScheme
+    AnimatedContent(
+        targetState = status,
+        transitionSpec = { (fadeIn() + scaleIn(spring(dampingRatio = 0.5f), initialScale = 0.8f)) togetherWith fadeOut() },
+        label = "reaction-status",
+    ) { s ->
+        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(start = 12.dp)) {
+            when (s) {
+                SendStatus.NONE -> Spacer(Modifier.height(0.dp))
+                SendStatus.UNSENT -> Text("Pas encore envoyé : touche ➤", style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
+                SendStatus.PENDING -> {
+                    Icon(Icons.Rounded.CloudOff, null, tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
+                    Spacer(Modifier.width(6.dp))
+                    Text("En route… envoi automatique dès que le réseau revient", style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
+                }
+                SendStatus.SENT -> {
+                    Icon(Icons.Rounded.CheckCircle, null, tint = colors.primary, modifier = Modifier.size(16.dp))
+                    Spacer(Modifier.width(6.dp))
+                    Text(
+                        if (hasComment) "Envoyé à $partnerName" else "Réaction envoyée à $partnerName",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = colors.primary,
+                    )
+                }
+            }
+        }
     }
 }
 
