@@ -628,3 +628,263 @@
 {"id":"ose-b-0628","category":"ose","mode":"action","intensity":3,"text":"Écris à {autre} le rêve brûlant que tu aimerais faire cette nuit avec cette personne, sans mot cru.","remote":true}
 {"id":"ose-b-0629","category":"ose","mode":"action","intensity":3,"text":"Envoie à {autre} la liste, dans l'ordre, de ce que tu comptes lui retirer ce soir.","remote":true}
 {"id":"ose-b-0630","category":"ose","mode":"action","intensity":3,"text":"Appelle {autre} et raconte à voix basse comment tu vas l'accueillir à la porte ce soir.","remote":true}
+{"id":"ose-b-0631","category":"ose","mode":"envie","intensity":1,"text":"Rejouer notre tout premier flirt, regards timides et maladresses compris"}
+{"id":"ose-b-0632","category":"ose","mode":"envie","intensity":1,"text":"Un dîner aux chandelles un soir de semaine, sans la moindre occasion"}
+{"id":"ose-b-0633","category":"ose","mode":"envie","intensity":1,"text":"Prendre des cours de tango à deux"}
+{"id":"ose-b-0634","category":"ose","mode":"envie","intensity":1,"text":"Danser un slow dans la cuisine pendant que le dîner mijote"}
+{"id":"ose-b-0635","category":"ose","mode":"envie","intensity":1,"text":"Un concert en plein air à danser tout près, sans quitter l'autre des yeux"}
+{"id":"ose-b-0636","category":"ose","mode":"envie","intensity":1,"text":"Une soirée valse dans le salon, pieds nus sur le tapis"}
+{"id":"ose-b-0637","category":"ose","mode":"envie","intensity":1,"text":"S'embrasser sous une averse d'été, sans parapluie"}
+{"id":"ose-b-0638","category":"ose","mode":"envie","intensity":1,"text":"Une balade en tandem jusqu'à un coin secret pour s'embrasser"}
+{"id":"ose-b-0639","category":"ose","mode":"envie","intensity":1,"text":"Une promenade en ville en se volant un baiser à chaque coin de rue"}
+{"id":"ose-b-0640","category":"ose","mode":"envie","intensity":1,"text":"Un baiser sur un pont au coucher du soleil"}
+{"id":"ose-b-0641","category":"ose","mode":"envie","intensity":1,"text":"Un rendez-vous express : cinq minutes chrono pour se séduire à nouveau"}
+{"id":"ose-b-0642","category":"ose","mode":"envie","intensity":1,"text":"Choisir un nouveau parfum pour l'autre en le testant sur sa peau"}
+{"id":"ose-b-0643","category":"ose","mode":"envie","intensity":1,"text":"Un tour de grande roue avec un baiser tout en haut"}
+{"id":"ose-b-0644","category":"ose","mode":"envie","intensity":1,"text":"Une séance de cinéma au dernier rang, main dans la main"}
+{"id":"ose-b-0645","category":"ose","mode":"envie","intensity":1,"text":"Un petit-déjeuner au lit servi avec un baiser en prime"}
+{"id":"ose-b-0646","category":"ose","mode":"envie","intensity":1,"text":"Flirter par petits papiers glissés sur la table d'un restaurant"}
+{"id":"ose-b-0647","category":"ose","mode":"envie","intensity":1,"text":"Un bal masqué où l'on doit se retrouver au milieu de la foule"}
+{"id":"ose-b-0648","category":"ose","mode":"envie","intensity":1,"text":"Un rendez-vous galant entièrement organisé par l'autre, surprise totale"}
+{"id":"ose-b-0649","category":"ose","mode":"envie","intensity":1,"text":"Un concours de compliments où la première personne qui rougit a perdu"}
+{"id":"ose-b-0650","category":"ose","mode":"envie","intensity":1,"text":"Une balade en barque avec un baiser au milieu du lac"}
+{"id":"ose-b-0651","category":"ose","mode":"envie","intensity":1,"text":"Choisir la tenue de l'autre pour une sortie en ville"}
+{"id":"ose-b-0652","category":"ose","mode":"envie","intensity":1,"text":"Une soirée où l'on se pomponne à tour de rôle avant de sortir"}
+{"id":"ose-b-0653","category":"ose","mode":"envie","intensity":1,"text":"Une longue sieste en cuillère un dimanche après-midi"}
+{"id":"ose-b-0654","category":"ose","mode":"envie","intensity":1,"text":"Un dîner sur un toit-terrasse, en tenue élégante"}
+{"id":"ose-b-0655","category":"ose","mode":"envie","intensity":1,"text":"Dessiner le portrait de l'autre en prenant le temps d'observer chaque trait"}
+{"id":"ose-b-0656","category":"ose","mode":"envie","intensity":1,"text":"Partager une glace à deux cuillères en terrasse"}
+{"id":"ose-b-0657","category":"ose","mode":"envie","intensity":1,"text":"Chanter un duo d'amour en se regardant dans les yeux, sans rire"}
+{"id":"ose-b-0658","category":"ose","mode":"envie","intensity":1,"text":"Se donner rendez-vous dans une librairie et repartir avec un roman d'amour choisi pour l'autre"}
+{"id":"ose-b-0659","category":"ose","mode":"envie","intensity":1,"text":"Se retrouver sur un banc public pour se bécoter comme au début"}
+{"id":"ose-b-0660","category":"ose","mode":"envie","intensity":1,"text":"Une balade nocturne à se raconter ce qui nous a fait craquer chez l'autre"}
+{"id":"ose-b-0661","category":"ose","mode":"envie","intensity":2,"text":"Jouer une rencontre de hasard dans le hall d'un hôtel, faux prénoms compris"}
+{"id":"ose-b-0662","category":"ose","mode":"envie","intensity":2,"text":"Une soirée massage à l'huile tiède, à tour de rôle"}
+{"id":"ose-b-0663","category":"ose","mode":"envie","intensity":2,"text":"Un bain à deux parsemé de pétales de rose"}
+{"id":"ose-b-0664","category":"ose","mode":"envie","intensity":2,"text":"Choisir ensemble des dessous à offrir à l'autre"}
+{"id":"ose-b-0665","category":"ose","mode":"envie","intensity":2,"text":"Une partie de cartes où chaque manche perdue coûte un vêtement"}
+{"id":"ose-b-0666","category":"ose","mode":"envie","intensity":2,"text":"Une séance de baisers sur le canapé comme deux ados, sans aller plus loin"}
+{"id":"ose-b-0667","category":"ose","mode":"envie","intensity":2,"text":"Un week-end à l'hôtel avec petit-déjeuner servi dans la chambre"}
+{"id":"ose-b-0668","category":"ose","mode":"envie","intensity":2,"text":"Une journée de messages coquins dont la température monte d'heure en heure"}
+{"id":"ose-b-0669","category":"ose","mode":"envie","intensity":2,"text":"Un dîner où l'on se fait du pied sous la table, de l'entrée au dessert"}
+{"id":"ose-b-0670","category":"ose","mode":"envie","intensity":2,"text":"Un cours de danse sensuelle, bachata ou kizomba"}
+{"id":"ose-b-0671","category":"ose","mode":"envie","intensity":2,"text":"Une dégustation les yeux bandés, à se faire goûter des saveurs surprises"}
+{"id":"ose-b-0672","category":"ose","mode":"envie","intensity":2,"text":"Une fondue au chocolat avec des fruits à se donner à la becquée"}
+{"id":"ose-b-0673","category":"ose","mode":"envie","intensity":2,"text":"Un slow interminable dans le salon, toutes lumières éteintes"}
+{"id":"ose-b-0674","category":"ose","mode":"envie","intensity":2,"text":"Se préparer dans deux pièces séparées et se découvrir au moment de partir"}
+{"id":"ose-b-0675","category":"ose","mode":"envie","intensity":2,"text":"Recevoir une invitation écrite pour un rendez-vous coquin, avec dress code imposé"}
+{"id":"ose-b-0676","category":"ose","mode":"envie","intensity":2,"text":"Une après-midi au spa, hammam et massage en duo"}
+{"id":"ose-b-0677","category":"ose","mode":"envie","intensity":2,"text":"Une soirée de séduction uniquement par regards, sans un mot"}
+{"id":"ose-b-0678","category":"ose","mode":"envie","intensity":2,"text":"Une séance photo en noir et blanc, regards de braise exigés"}
+{"id":"ose-b-0679","category":"ose","mode":"envie","intensity":2,"text":"Fabriquer nos propres dés coquins et les lancer un soir de pluie"}
+{"id":"ose-b-0680","category":"ose","mode":"envie","intensity":2,"text":"Passer une soirée en tenue de gala sans jamais sortir de chez nous"}
+{"id":"ose-b-0681","category":"ose","mode":"envie","intensity":2,"text":"Une soirée où chaque bonne réponse à un quiz sur l'autre rapporte un baiser"}
+{"id":"ose-b-0682","category":"ose","mode":"envie","intensity":2,"text":"S'envoyer des énigmes coquines toute la journée, solution livrée le soir"}
+{"id":"ose-b-0683","category":"ose","mode":"envie","intensity":2,"text":"Une séance de peinture corporelle, pinceaux doux et fous rires garantis"}
+{"id":"ose-b-0684","category":"ose","mode":"envie","intensity":2,"text":"Un bain de minuit dans un lac ou dans la mer, rien qu'à nous deux"}
+{"id":"ose-b-0685","category":"ose","mode":"envie","intensity":2,"text":"Un dîner où chaque bouchée se savoure en se regardant dans les yeux"}
+{"id":"ose-b-0686","category":"ose","mode":"envie","intensity":2,"text":"Un dimanche matin qui commence par des baisers dans le cou"}
+{"id":"ose-b-0687","category":"ose","mode":"envie","intensity":2,"text":"Porter une tenue très ajustée rien que pour voir l'effet produit"}
+{"id":"ose-b-0688","category":"ose","mode":"envie","intensity":2,"text":"Un baiser volé dans un ascenseur, entre deux étages"}
+{"id":"ose-b-0689","category":"ose","mode":"envie","intensity":2,"text":"Une chasse aux baisers dans la maison, avec des indices coquins cachés partout"}
+{"id":"ose-b-0690","category":"ose","mode":"envie","intensity":2,"text":"Un rendez-vous secret en pleine semaine, à l'heure du déjeuner"}
+{"id":"ose-b-0691","category":"ose","mode":"envie","intensity":2,"text":"Se faire désirer toute une soirée avant d'accorder le premier baiser"}
+{"id":"ose-b-0692","category":"ose","mode":"envie","intensity":2,"text":"Préparer le dîner pour l'autre en ne portant qu'un tablier"}
+{"id":"ose-b-0693","category":"ose","mode":"envie","intensity":2,"text":"Une soirée cabaret maison avec un numéro de charme à tour de rôle"}
+{"id":"ose-b-0694","category":"ose","mode":"envie","intensity":2,"text":"Passer une soirée dans les vêtements de l'autre"}
+{"id":"ose-b-0695","category":"ose","mode":"envie","intensity":2,"text":"Un week-end au chalet : plaid, cheminée et câlins pour se réchauffer"}
+{"id":"ose-b-0696","category":"ose","mode":"envie","intensity":2,"text":"Une halte en voiture face à la mer, juste pour s'embrasser"}
+{"id":"ose-b-0697","category":"ose","mode":"envie","intensity":2,"text":"Une soirée pyjama à deux qui ne reste pas sage très longtemps"}
+{"id":"ose-b-0698","category":"ose","mode":"envie","intensity":2,"text":"Un pique-nique dans un coin de nature caché qui se termine en sieste très rapprochée"}
+{"id":"ose-b-0699","category":"ose","mode":"envie","intensity":2,"text":"Écrire une lettre coquine et l'envoyer par la poste, timbre compris"}
+{"id":"ose-b-0700","category":"ose","mode":"envie","intensity":2,"text":"Une soirée lecture de poèmes sensuels, chuchotés à l'oreille"}
+{"id":"ose-b-0701","category":"ose","mode":"envie","intensity":2,"text":"Une nuit à la belle étoile dans un seul sac de couchage"}
+{"id":"ose-b-0702","category":"ose","mode":"envie","intensity":2,"text":"Un après-midi au soleil dans un coin tranquille, crème solaire étalée avec soin"}
+{"id":"ose-b-0703","category":"ose","mode":"envie","intensity":2,"text":"Un jeu de vérités coquines sous la couette, à la lampe de poche"}
+{"id":"ose-b-0704","category":"ose","mode":"envie","intensity":2,"text":"Un baiser à la dérobée dans le train fantôme d'une fête foraine"}
+{"id":"ose-b-0705","category":"ose","mode":"envie","intensity":2,"text":"Une soirée où l'on rejoue nos meilleures scènes de séduction, en version améliorée"}
+{"id":"ose-b-0706","category":"ose","mode":"envie","intensity":2,"text":"Une soirée sans électricité, juste des bougies et nos voix"}
+{"id":"ose-b-0707","category":"ose","mode":"envie","intensity":2,"text":"Un carnet de « bons pour » coquins à utiliser quand l'envie se présente"}
+{"id":"ose-b-0708","category":"ose","mode":"envie","intensity":2,"text":"Danser joue contre joue jusqu'à la fermeture d'une guinguette"}
+{"id":"ose-b-0709","category":"ose","mode":"envie","intensity":2,"text":"Un cours de cuisine aux saveurs réputées aphrodisiaques"}
+{"id":"ose-b-0710","category":"ose","mode":"envie","intensity":2,"text":"Une soirée glamour façon années folles : plumes, paillettes et charleston"}
+{"id":"ose-b-0711","category":"ose","mode":"envie","intensity":3,"text":"Une nuit entière à se redécouvrir, sans jamais regarder l'heure"}
+{"id":"ose-b-0712","category":"ose","mode":"envie","intensity":3,"text":"Un effeuillage en musique offert rien qu'à l'autre"}
+{"id":"ose-b-0713","category":"ose","mode":"envie","intensity":3,"text":"Une douche à deux qui prend tout son temps"}
+{"id":"ose-b-0714","category":"ose","mode":"envie","intensity":3,"text":"Une chambre d'hôtel réservée pour une seule nuit brûlante"}
+{"id":"ose-b-0715","category":"ose","mode":"envie","intensity":3,"text":"Un massage à l'huile de tout le corps, sans la moindre hâte"}
+{"id":"ose-b-0716","category":"ose","mode":"envie","intensity":3,"text":"Céder au milieu de la nuit à une envie soudaine"}
+{"id":"ose-b-0717","category":"ose","mode":"envie","intensity":3,"text":"Une soirée les yeux bandés, à se laisser guider par les mains de l'autre"}
+{"id":"ose-b-0718","category":"ose","mode":"envie","intensity":3,"text":"Un après-midi entier sous la couette, téléphones éteints"}
+{"id":"ose-b-0719","category":"ose","mode":"envie","intensity":3,"text":"Dresser la liste de nos envies brûlantes et en réaliser une le soir même"}
+{"id":"ose-b-0720","category":"ose","mode":"envie","intensity":3,"text":"Laisser l'autre mener toute la soirée, dans les limites posées ensemble"}
+{"id":"ose-b-0721","category":"ose","mode":"envie","intensity":3,"text":"Des draps de satin, une lumière tamisée et aucune envie de dormir"}
+{"id":"ose-b-0722","category":"ose","mode":"envie","intensity":3,"text":"Un réveil brûlant un samedi matin, sans aucune obligation ensuite"}
+{"id":"ose-b-0723","category":"ose","mode":"envie","intensity":3,"text":"Une séance photo boudoir rien que pour nos yeux"}
+{"id":"ose-b-0724","category":"ose","mode":"envie","intensity":3,"text":"Des retrouvailles brûlantes après plusieurs jours d'attente savamment entretenue"}
+{"id":"ose-b-0725","category":"ose","mode":"envie","intensity":3,"text":"Un jacuzzi privatif à deux, un soir d'hiver"}
+{"id":"ose-b-0726","category":"ose","mode":"envie","intensity":3,"text":"Se confier un fantasme de séduction autour d'un dîner, sans tabou"}
+{"id":"ose-b-0727","category":"ose","mode":"envie","intensity":3,"text":"Une soirée de séduction en trois actes : dîner, danse, puis la chambre"}
+{"id":"ose-b-0728","category":"ose","mode":"envie","intensity":3,"text":"Se laisser couvrir de baisers, de la nuque jusqu'aux chevilles"}
+{"id":"ose-b-0729","category":"ose","mode":"envie","intensity":3,"text":"Se déshabiller mutuellement, très lentement, à la lueur d'une bougie"}
+{"id":"ose-b-0730","category":"ose","mode":"envie","intensity":3,"text":"Un jeu de rôle brûlant préparé à l'avance, avec un mot pour tout arrêter"}
+{"id":"ose-b-0731","category":"ose","mode":"envie","intensity":1,"text":"Une séance de cinéma en plein air sous un plaid partagé"}
+{"id":"ose-b-0732","category":"ose","mode":"envie","intensity":1,"text":"Un baiser sous le gui, puis un autre juste pour le plaisir"}
+{"id":"ose-b-0733","category":"ose","mode":"envie","intensity":1,"text":"Immortaliser en photo instantanée chaque baiser d'une même journée"}
+{"id":"ose-b-0734","category":"ose","mode":"envie","intensity":1,"text":"Choisir ensemble « notre » chanson de séduction"}
+{"id":"ose-b-0735","category":"ose","mode":"envie","intensity":1,"text":"Visiter une roseraie et s'offrir un baiser parfumé dans chaque allée"}
+{"id":"ose-b-0736","category":"ose","mode":"envie","intensity":1,"text":"Un atelier de poterie à deux, mains glissantes et regards complices"}
+{"id":"ose-b-0737","category":"ose","mode":"envie","intensity":1,"text":"Apprendre à dire « tu me plais » dans dix langues et les essayer sur l'autre"}
+{"id":"ose-b-0738","category":"ose","mode":"envie","intensity":1,"text":"Regarder le lever du soleil sous la même couverture"}
+{"id":"ose-b-0739","category":"ose","mode":"envie","intensity":1,"text":"Une soirée cocooning avec plaid, chocolat chaud et pieds entremêlés"}
+{"id":"ose-b-0740","category":"ose","mode":"envie","intensity":1,"text":"Un dîner aux lumières tamisées, sur la même banquette plutôt que face à face"}
+{"id":"ose-b-0741","category":"ose","mode":"envie","intensity":1,"text":"Une partie de ping-pong où chaque point perdu se paie d'un baiser"}
+{"id":"ose-b-0742","category":"ose","mode":"envie","intensity":1,"text":"Un week-end à la mer, à marcher au bord des vagues en se tenant par la taille"}
+{"id":"ose-b-0743","category":"ose","mode":"envie","intensity":1,"text":"Une sortie à la patinoire, main dans la main et chutes dans les bras de l'autre"}
+{"id":"ose-b-0744","category":"ose","mode":"envie","intensity":1,"text":"Un rendez-vous dans un salon de thé chic, petit doigt levé et regards appuyés"}
+{"id":"ose-b-0745","category":"ose","mode":"envie","intensity":1,"text":"Un dîner sur le balcon à la seule lueur d'une guirlande"}
+{"id":"ose-b-0746","category":"ose","mode":"envie","intensity":1,"text":"Un baiser à minuit pile le soir du Nouvel An, rien qu'à nous deux à l'écart"}
+{"id":"ose-b-0747","category":"ose","mode":"envie","intensity":1,"text":"Trouver un mot doux sur l'oreiller en se réveillant"}
+{"id":"ose-b-0748","category":"ose","mode":"envie","intensity":1,"text":"Un tour en calèche, épaule contre épaule"}
+{"id":"ose-b-0749","category":"ose","mode":"envie","intensity":1,"text":"Un week-end dans une ville réputée romantique, juste pour flirter"}
+{"id":"ose-b-0750","category":"ose","mode":"envie","intensity":1,"text":"Une après-midi à flâner dans une brocante en se lançant des œillades"}
+{"id":"ose-b-0751","category":"ose","mode":"envie","intensity":1,"text":"Écouter de vieilles chansons d'amour, tête contre tête sur le tapis"}
+{"id":"ose-b-0752","category":"ose","mode":"envie","intensity":1,"text":"Voir un spectacle de danse et tenter d'en refaire les plus beaux portés à la maison"}
+{"id":"ose-b-0753","category":"ose","mode":"envie","intensity":1,"text":"Revoir nos photos des débuts et désigner celle où l'autre était le plus irrésistible"}
+{"id":"ose-b-0754","category":"ose","mode":"envie","intensity":1,"text":"Une journée où l'on dit oui à toutes les demandes de câlins"}
+{"id":"ose-b-0755","category":"ose","mode":"envie","intensity":1,"text":"Une course à pied qui se termine par un baiser sur la ligne d'arrivée"}
+{"id":"ose-b-0756","category":"ose","mode":"envie","intensity":1,"text":"Une balade sous les premiers flocons pour s'embrasser les lèvres glacées"}
+{"id":"ose-b-0757","category":"ose","mode":"envie","intensity":1,"text":"Inventer un langage de clins d'œil rien qu'à nous"}
+{"id":"ose-b-0758","category":"ose","mode":"envie","intensity":1,"text":"Choisir une étoile et lui donner le nom de notre baiser préféré"}
+{"id":"ose-b-0759","category":"ose","mode":"envie","intensity":1,"text":"Un baiser dans chaque pays traversé lors d'un prochain voyage"}
+{"id":"ose-b-0760","category":"ose","mode":"envie","intensity":1,"text":"Se donner rendez-vous sur un quai de gare comme dans un film, course et étreinte comprises"}
+{"id":"ose-b-0761","category":"ose","mode":"envie","intensity":2,"text":"Une nuit dans un refuge avec bain nordique sous la neige"}
+{"id":"ose-b-0762","category":"ose","mode":"envie","intensity":2,"text":"Passer une journée à se frôler sans jamais s'embrasser, jusqu'au soir"}
+{"id":"ose-b-0763","category":"ose","mode":"envie","intensity":2,"text":"Une séance de baisers sous un plaid pendant un orage"}
+{"id":"ose-b-0764","category":"ose","mode":"envie","intensity":2,"text":"Une soirée à tester des baisers différents : papillon, esquimau, langoureux"}
+{"id":"ose-b-0765","category":"ose","mode":"envie","intensity":2,"text":"Porter des dessous assortis en secret pendant une soirée entre amis"}
+{"id":"ose-b-0766","category":"ose","mode":"envie","intensity":2,"text":"Un dîner à la maison en tenue légère, bougies allumées"}
+{"id":"ose-b-0767","category":"ose","mode":"envie","intensity":2,"text":"Un baiser fougueux sous un porche, à l'abri des regards"}
+{"id":"ose-b-0768","category":"ose","mode":"envie","intensity":2,"text":"Rédiger ensemble notre règlement de séduction, articles coquins compris"}
+{"id":"ose-b-0769","category":"ose","mode":"envie","intensity":2,"text":"Une soirée où l'on retire un accessoire à chaque nouvelle chanson"}
+{"id":"ose-b-0770","category":"ose","mode":"envie","intensity":2,"text":"S'endormir en se murmurant des promesses coquines pour le lendemain"}
+{"id":"ose-b-0771","category":"ose","mode":"envie","intensity":2,"text":"Choisir le film le plus ennuyeux du monde pour s'embrasser du début à la fin"}
+{"id":"ose-b-0772","category":"ose","mode":"envie","intensity":2,"text":"Échanger des lettres anonymes coquines, comme si on se courtisait sans se connaître"}
+{"id":"ose-b-0773","category":"ose","mode":"envie","intensity":2,"text":"Une partie de « je n'ai jamais » version coquine, rien qu'à deux"}
+{"id":"ose-b-0774","category":"ose","mode":"envie","intensity":2,"text":"Réussir à faire rougir l'autre en plein dîner entre amis, sans que personne ne s'aperçoive de rien"}
+{"id":"ose-b-0775","category":"ose","mode":"envie","intensity":2,"text":"Un dîner sur une plage déserte, pieds dans le sable"}
+{"id":"ose-b-0776","category":"ose","mode":"envie","intensity":2,"text":"Un voyage en train de nuit, couchette pour deux"}
+{"id":"ose-b-0777","category":"ose","mode":"envie","intensity":2,"text":"S'envoyer des photos suggestives mais pudiques pendant un déplacement"}
+{"id":"ose-b-0778","category":"ose","mode":"envie","intensity":2,"text":"Un appel vidéo coquin avant de s'endormir, quand la distance nous sépare"}
+{"id":"ose-b-0779","category":"ose","mode":"envie","intensity":2,"text":"Un dimanche entier en peignoir, entre câlins et dîner commandé au lit"}
+{"id":"ose-b-0780","category":"ose","mode":"envie","intensity":2,"text":"Un tatouage éphémère au henné dessiné par l'autre, à un endroit choisi ensemble"}
+{"id":"ose-b-0781","category":"ose","mode":"envie","intensity":2,"text":"Une pause câline au beau milieu d'une journée de télétravail"}
+{"id":"ose-b-0782","category":"ose","mode":"envie","intensity":2,"text":"Une soirée où chaque pièce a son ambiance : jazz au salon, tango en cuisine, slow dans la chambre"}
+{"id":"ose-b-0783","category":"ose","mode":"envie","intensity":2,"text":"Un week-end en van aménagé, rideaux tirés"}
+{"id":"ose-b-0784","category":"ose","mode":"envie","intensity":2,"text":"Un hamac pour deux et une sieste qui s'éternise"}
+{"id":"ose-b-0785","category":"ose","mode":"envie","intensity":2,"text":"Une virée en décapotable, cheveux au vent et main sur le genou"}
+{"id":"ose-b-0786","category":"ose","mode":"envie","intensity":2,"text":"Un baiser sous une cascade, tant pis pour les vêtements mouillés"}
+{"id":"ose-b-0787","category":"ose","mode":"envie","intensity":2,"text":"Un sauna à deux, puis une douche fraîche pour faire retomber la température"}
+{"id":"ose-b-0788","category":"ose","mode":"envie","intensity":2,"text":"Un jeu de rôle d'espions qui doivent se séduire pour obtenir un secret"}
+{"id":"ose-b-0789","category":"ose","mode":"envie","intensity":2,"text":"Une nuit dans un lit à baldaquin, au fond d'une maison d'hôtes de campagne"}
+{"id":"ose-b-0790","category":"ose","mode":"envie","intensity":2,"text":"Un dîner dans un restaurant plongé dans le noir, à se chercher la main"}
+{"id":"ose-b-0791","category":"ose","mode":"envie","intensity":2,"text":"Un rendez-vous en tenue de soirée dans un endroit banal, comme une laverie"}
+{"id":"ose-b-0792","category":"ose","mode":"envie","intensity":2,"text":"Un week-end ponctué de rendez-vous coquins fixés à des heures précises"}
+{"id":"ose-b-0793","category":"ose","mode":"envie","intensity":2,"text":"Ressortir les tenues de notre premier rendez-vous et vérifier que l'effet est intact"}
+{"id":"ose-b-0794","category":"ose","mode":"envie","intensity":2,"text":"Un masque de beauté à deux qui finit en baisers collants"}
+{"id":"ose-b-0795","category":"ose","mode":"envie","intensity":2,"text":"Une soirée jeu du miroir : imiter chaque geste de l'autre jusqu'au baiser"}
+{"id":"ose-b-0796","category":"ose","mode":"envie","intensity":2,"text":"Recevoir un bouquet accompagné d'une promesse coquine pour le soir"}
+{"id":"ose-b-0797","category":"ose","mode":"envie","intensity":2,"text":"Une nuit dans une chambre face à la mer, fenêtres ouvertes sur les vagues"}
+{"id":"ose-b-0798","category":"ose","mode":"envie","intensity":2,"text":"Une heure de câlins chronométrée, sans téléphone ni distraction"}
+{"id":"ose-b-0799","category":"ose","mode":"envie","intensity":2,"text":"Une séance de yoga à deux, postures rapprochées et fou rire assuré"}
+{"id":"ose-b-0800","category":"ose","mode":"envie","intensity":2,"text":"Une soirée photomaton : quatre poses, de la plus sage à la plus coquine"}
+{"id":"ose-b-0801","category":"ose","mode":"envie","intensity":2,"text":"Une soirée où chaque phrase doit glisser un sous-entendu"}
+{"id":"ose-b-0802","category":"ose","mode":"envie","intensity":2,"text":"Un vocal coquin enregistré pour être écouté au casque avant de dormir"}
+{"id":"ose-b-0803","category":"ose","mode":"envie","intensity":2,"text":"Un road trip avec une halte câline à chaque belvédère"}
+{"id":"ose-b-0804","category":"ose","mode":"envie","intensity":2,"text":"Un week-end dans une maison isolée, sans voisins à des kilomètres"}
+{"id":"ose-b-0805","category":"ose","mode":"envie","intensity":2,"text":"Cuisiner un dîner en se volant un baiser à chaque étape de la recette"}
+{"id":"ose-b-0806","category":"ose","mode":"envie","intensity":2,"text":"Une soirée en club à ne danser qu'avec l'autre, jusqu'au bout de la nuit"}
+{"id":"ose-b-0807","category":"ose","mode":"envie","intensity":2,"text":"S'écrire des mots doux sur la peau au feutre lavable, à faire deviner"}
+{"id":"ose-b-0808","category":"ose","mode":"envie","intensity":2,"text":"Une soirée où l'on décide de tout à pile ou face, baisers compris"}
+{"id":"ose-b-0809","category":"ose","mode":"envie","intensity":2,"text":"Un dîner où l'on change de place à chaque plat pour s'asseoir toujours plus près"}
+{"id":"ose-b-0810","category":"ose","mode":"envie","intensity":2,"text":"Un après-midi à la piscine à se lancer des regards par-dessus les lunettes de soleil"}
+{"id":"ose-b-0811","category":"ose","mode":"envie","intensity":3,"text":"Un défilé de dessous rien que pour l'autre"}
+{"id":"ose-b-0812","category":"ose","mode":"envie","intensity":3,"text":"Un week-end sans programme, à part céder à chacune de nos envies"}
+{"id":"ose-b-0813","category":"ose","mode":"envie","intensity":3,"text":"Des baisers partout sauf sur les lèvres, jusqu'à ce qu'on craque"}
+{"id":"ose-b-0814","category":"ose","mode":"envie","intensity":3,"text":"Attendre l'autre dans la chambre dans une tenue qui ne laisse aucun doute"}
+{"id":"ose-b-0815","category":"ose","mode":"envie","intensity":3,"text":"Une soirée à se montrer, sans gêne, ce qu'on aime vraiment"}
+{"id":"ose-b-0816","category":"ose","mode":"envie","intensity":3,"text":"Jouer avec le chaud et le froid : glaçons, souffle tiède et baisers brûlants"}
+{"id":"ose-b-0817","category":"ose","mode":"envie","intensity":3,"text":"Une nuit à même le tapis, devant un feu qui crépite"}
+{"id":"ose-b-0818","category":"ose","mode":"envie","intensity":3,"text":"Choisir ensemble un petit accessoire coquin à découvrir à deux"}
+{"id":"ose-b-0819","category":"ose","mode":"envie","intensity":3,"text":"Baptiser enfin une autre pièce que la chambre"}
+{"id":"ose-b-0820","category":"ose","mode":"envie","intensity":3,"text":"Une nuit d'été, fenêtres ouvertes et draps envolés"}
+{"id":"ose-b-0821","category":"ose","mode":"envie","intensity":3,"text":"Se décrire à l'oreille, sans détour, l'effet que l'autre nous fait"}
+{"id":"ose-b-0822","category":"ose","mode":"envie","intensity":3,"text":"Une étreinte passionnée dès la porte franchie, sans même poser les clés"}
+{"id":"ose-b-0823","category":"ose","mode":"envie","intensity":3,"text":"Un dessert dégusté à même la peau de l'autre"}
+{"id":"ose-b-0824","category":"ose","mode":"envie","intensity":3,"text":"Une heure entière de baisers avant d'aller plus loin"}
+{"id":"ose-b-0825","category":"ose","mode":"envie","intensity":3,"text":"Une nuit où la tendresse et la fougue se relaient jusqu'au petit matin"}
+{"id":"ose-b-0826","category":"ose","mode":"envie","intensity":3,"text":"Dormir avec pour seul pyjama la chaleur de l'autre"}
+{"id":"ose-b-0827","category":"ose","mode":"envie","intensity":3,"text":"S'autoriser enfin une envie longtemps repoussée, après en avoir parlé"}
+{"id":"ose-b-0828","category":"ose","mode":"envie","intensity":3,"text":"Une séance de baisers dans le noir complet, à se trouver uniquement au toucher"}
+{"id":"ose-b-0829","category":"ose","mode":"envie","intensity":3,"text":"Un après-midi d'été à l'ombre des volets clos, peau contre peau"}
+{"id":"ose-b-0830","category":"ose","mode":"envie","intensity":3,"text":"Une tenue brûlante cachée sous une tenue sage, révélée au retour d'un dîner"}
+{"id":"ose-b-0831","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, échangez chaque jour un baiser d'au moins dix secondes, quoi qu'il arrive."}
+{"id":"ose-b-0832","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, glissez trois mots doux dans les poches ou le sac de l'autre, sans vous faire repérer."}
+{"id":"ose-b-0833","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, faites chaque matin un compliment sur l'allure de l'autre, jamais deux fois le même."}
+{"id":"ose-b-0834","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, inventez un surnom charmeur pour l'autre et réservez-le à vos moments de flirt."}
+{"id":"ose-b-0835","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, échangez vos parfums et portez celui de l'autre pendant toute une journée."}
+{"id":"ose-b-0836","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, tenez-vous la main à chaque trajet à pied, même pour aller chercher le pain."}
+{"id":"ose-b-0837","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, accueillez-vous à chaque retour à la maison comme après un long voyage."}
+{"id":"ose-b-0838","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, flirtez au moins une fois par jour par message, comme aux premiers jours."}
+{"id":"ose-b-0839","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, notez dans un carnet commun chaque détail de l'autre qui vous a fait craquer, puis lisez-le ensemble dimanche."}
+{"id":"ose-b-0840","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, montez au moins une fois un escalier en échangeant un baiser à chaque marche."}
+{"id":"ose-b-0841","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, embrassez-vous chaque jour dans un lieu différent et tenez-en la liste sur le frigo."}
+{"id":"ose-b-0842","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, portez au moins une fois le vêtement que l'autre préfère vous voir porter."}
+{"id":"ose-b-0843","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, choisissez un geste de tendresse discret qui deviendra votre salut secret."}
+{"id":"ose-b-0844","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, réveillez l'autre au moins une fois avec un baiser et une déclaration charmeuse."}
+{"id":"ose-b-0845","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, essayez une activité qui demande confiance et contact : escalade, acroyoga ou portés de danse."}
+{"id":"ose-b-0846","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, sortez au moins un soir dans une tenue que l'autre n'a encore jamais vue."}
+{"id":"ose-b-0847","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, écrivez-vous une déclaration de charme de dix lignes et lisez-la à voix haute vendredi."}
+{"id":"ose-b-0848","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, réservez-vous quinze minutes chaque soir, rien que pour flirter."}
+{"id":"ose-b-0849","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, prenez une photo de l'autre sous son meilleur jour et glissez-la dans votre portefeuille."}
+{"id":"ose-b-0850","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, offrez une fleur à l'autre chaque jour, avec un compliment accroché à la tige."}
+{"id":"ose-b-0851","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, faites durer chaque baiser d'au revoir trois secondes de plus que la veille."}
+{"id":"ose-b-0852","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, lancez chaque jour à l'autre une réplique de séduction tirée d'un film, au moment le plus inattendu."}
+{"id":"ose-b-0853","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, composez une playlist de dix chansons qui vous font penser à l'autre et échangez-les dimanche."}
+{"id":"ose-b-0854","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, envoyez-vous chaque jour un selfie au sourire différent, que l'autre devra légender."}
+{"id":"ose-b-0855","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, imitez chaque jour un geste de l'autre qui vous fait craquer, et faites-le deviner."}
+{"id":"ose-b-0856","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, apprenez par cœur un court poème de séduction et récitez-le à l'autre un soir."}
+{"id":"ose-b-0857","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, chaque tâche ménagère accomplie par l'autre mérite un baiser de remerciement."}
+{"id":"ose-b-0858","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, faites trois compliments charmeurs à l'autre devant des proches."}
+{"id":"ose-b-0859","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, envoyez à l'autre une carte postale de votre propre ville, avec un mot charmeur."}
+{"id":"ose-b-0860","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, demandez chaque baiser d'une façon différente : en chanson, par écrit, en mime…"}
+{"id":"ose-b-0861","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, faites une partie de « je te tiens par la barbichette » : la personne qui rit offre un baiser."}
+{"id":"ose-b-0862","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, apprenez un petit tour de magie et servez-vous-en pour faire apparaître un mot doux."}
+{"id":"ose-b-0863","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, choisissez chaque matin, à tour de rôle, une couleur que l'autre portera pour vous plaire."}
+{"id":"ose-b-0864","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, multipliez les gestes de galanterie : porte tenue, manteau présenté, chaise avancée."}
+{"id":"ose-b-0865","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, arrivez séparément à un rendez-vous et saluez-vous comme au premier soir."}
+{"id":"ose-b-0866","category":"ose","mode":"defi","intensity":1,"text":"Cette semaine, inventez une chanson de séduction sur l'air d'une comptine et chantez-la à l'autre."}
+{"id":"ose-b-0867","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, envoyez-vous chaque jour un message coquin un peu plus audacieux que la veille, jusqu'au rendez-vous de samedi."}
+{"id":"ose-b-0868","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, interdisez-vous tout câlin appuyé jusqu'à vendredi soir, regards et mots doux autorisés, puis rattrapez le temps perdu."}
+{"id":"ose-b-0869","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, apprenez une technique de massage et pratiquez-la sur l'autre trois soirs différents."}
+{"id":"ose-b-0870","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, flirtez par messages toute une soirée depuis deux pièces différentes de la maison."}
+{"id":"ose-b-0871","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, préparez en secret une surprise coquine pour l'autre et dévoilez-la dimanche."}
+{"id":"ose-b-0872","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, vouvoyez-vous pendant toute une soirée pour pimenter la séduction."}
+{"id":"ose-b-0873","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, indiquez chaque soir à l'autre un endroit où un baiser vous ferait plaisir, et laissez-vous surprendre par la manière."}
+{"id":"ose-b-0874","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, deux soirées, deux thèmes de séduction : chaque personne en organise une."}
+{"id":"ose-b-0875","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, enlacez l'autre par surprise une fois par jour, avec un baiser dans le cou en prime."}
+{"id":"ose-b-0876","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, laissez chaque midi un vocal chuchoté à l'autre, avec un indice sur votre humeur du soir."}
+{"id":"ose-b-0877","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, glissez chaque jour une envie coquine dans un bocal ; samedi, tirez-en une et réalisez-la."}
+{"id":"ose-b-0878","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, décrivez-vous par message la tenue que vous porterez au dîner de vendredi, sans aucune photo."}
+{"id":"ose-b-0879","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, préparez une boîte à frissons pour l'autre : une plume, un ruban, une bougie et un mot coquin."}
+{"id":"ose-b-0880","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, lisez-vous une page de roman sensuel au lit chaque soir avant d'éteindre."}
+{"id":"ose-b-0881","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, organisez un rendez-vous à la maison avec un mot de passe à donner à la porte de la chambre."}
+{"id":"ose-b-0882","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, faites-vous un compliment osé par jour, jamais deux fois sur le même sujet."}
+{"id":"ose-b-0883","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, aménagez un coin séduction à la maison, coussins, lumière douce et musique, et profitez-en deux soirs."}
+{"id":"ose-b-0884","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, choisissez ensemble une tenue « signal » : la voir sur l'autre voudra dire que l'envie est là."}
+{"id":"ose-b-0885","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, préparez en secret une petite chorégraphie de charme et dévoilez-la samedi soir."}
+{"id":"ose-b-0886","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, offrez-vous chaque soir une séance de baisers dans une pièce différente, de la cuisine au balcon."}
+{"id":"ose-b-0887","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, confiez-vous trois gestes de séduction que vous rêvez de recevoir, et offrez-en un par jour."}
+{"id":"ose-b-0888","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, préparez un dîner surprise dont l'autre doit deviner le thème coquin à partir des plats."}
+{"id":"ose-b-0889","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, chaque fois qu'une chanson d'amour passe, où que vous soyez, échangez un baiser."}
+{"id":"ose-b-0890","category":"ose","mode":"defi","intensity":2,"text":"Cette semaine, faites rougir l'autre au moins une fois par jour, d'un mot, d'un regard ou d'un geste."}

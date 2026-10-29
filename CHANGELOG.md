@@ -2,6 +2,16 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [2.0.0]
+
+- **De l'autre côté** 🪞 : un nouvel onglet Jeux pour vous deux, où l'on entre en traversant le miroir.
+  - 16 000 questions, dilemmes, gages et défis en 8 catégories, de Souvenirs à Intime 🌶🌶🌶, chacune avec une intensité de 1 à 3. Le jeu suit l'intensité la plus douce des deux et les catégories que l'un de vous a exclues.
+  - Devine-moi, Duel à distance, Mode canapé (un téléphone, hors ligne), Tu préfères, Envies communes, Action ou vérité, Défi de la semaine, Question surprise et « Défier l'autre ».
+  - Envies communes à l'aveugle : seuls vos points communs apparaissent, un « non » n'est jamais montré.
+  - Connivence par catégorie, séries, badges et « Nos révélations ».
+  - Discrétion : captures d'écran bloquées, Osé et Intime derrière l'empreinte (désactivable), notifications neutres.
+  - Questions perso, file d'envoi hors ligne et tout chiffré de bout en bout, comme le reste de Miroir.
+
 ## [1.3.1]
 
 - Réactions : un état sous le champ indique si ton petit mot est envoyé ✓, en route (hors ligne) ou pas encore envoyé ; le clavier se ferme à l'envoi.

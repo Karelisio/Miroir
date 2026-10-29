@@ -24,6 +24,18 @@ Application Android native (Kotlin, Jetpack Compose, Material 3 Expressive). La 
 - Hors ligne : les réponses partent dès le retour du réseau (WorkManager).
 - Mises à jour in-app depuis les GitHub Releases (vérification au lancement et toutes les 6 h).
 
+## De l'autre côté (jeux à deux)
+
+Un onglet **Jeux**, à part : on y entre en traversant le miroir (ondulation et palette plus chaude tirée des couleurs dynamiques).
+
+- **16 000 questions, dilemmes, gages et défis** écrits pour Miroir (`games/src`), en 8 catégories : Souvenirs, Nous deux, Futur, Valeurs, Fun et absurde, Romantique, Osé 🌶 et Intime 🌶🌶🌶. Chaque entrée a une intensité de 1 à 3.
+- **Réglages à deux** : chacun règle son intensité et ses catégories exclues ; le jeu suit l'intensité la plus basse des deux et l'union des exclusions. Pas de répétition tant qu'une catégorie n'est pas épuisée ; questions perso chiffrées et partagées.
+- **Modes** : Devine-moi (points de connivence), Duel à distance (5 à 10 questions, révélation simultanée), Mode canapé (un seul téléphone, écran de passage, minuteur optionnel, hors ligne), Tu préfères (% d'accord par catégorie), Envies communes (oui / non / peut-être), Action ou vérité (canapé ou à distance), Défi de la semaine (tiré chaque lundi, historique), Question surprise et « Défier l'autre ».
+- Indicateurs « En attente de toi / de l'autre », connivence globale et par catégorie, séries, badges et « Nos révélations » (réponses épinglées).
+- **Discrétion** : capture d'écran bloquée dans toute la section, Osé et Intime derrière l'empreinte ou le code du téléphone (désactivable), notifications toujours neutres (« C'est ton tour », « Nouveau point commun »…).
+- **Envies communes à l'aveugle** : chaque réponse part sous forme d'étiquettes HMAC (clé du couple) construites pour que seuls oui + oui et oui + peut-être coïncident. Le serveur ne renvoie que l'intersection : un « non » n'est jamais révélé, ni à l'autre ni au Worker.
+- Animations (cartes qui se retournent comme un reflet, réponses qui fusionnent ou se repoussent, piments, confettis, compteurs, retours haptiques) qui respectent le réglage système « supprimer les animations ».
+
 ## Confidentialité
 
 - L'appairage se fait par QR code, d'un téléphone à l'autre. Le QR contient l'identifiant de la paire, le secret d'authentification et la **clé AES-256 du couple**. Cette clé n'est jamais envoyée au serveur.
@@ -39,6 +51,7 @@ Application Android native (Kotlin, Jetpack Compose, Material 3 Expressive). La 
 | `app/` | Application Android (`com.karelisio.miroir`) |
 | `worker/` | Worker Cloudflare en TypeScript + migrations D1 |
 | `questions/` | Banque de questions (JSONL par catégorie), validateur et script d'assemblage |
+| `games/` | Banque des jeux « De l'autre côté » (JSONL par catégorie et par mode), consignes d'écriture, validateur, assemblage |
 | `.github/workflows/` | CI, release signée, déploiement du Worker |
 
 API du Worker (authentification : `Authorization: Bearer <secret de paire>`, `X-Pair-Id`, `X-Member`) :
@@ -55,6 +68,13 @@ API du Worker (authentification : `Authorization: Bearer <secret de paire>`, `X-
 | `POST /settings` | Réglages partagés chiffrés (catégories, packs, anniversaire, fuseau) |
 | `POST /profile` | Profil chiffré (prénom, anniversaire) |
 | `POST /token/update` | Jeton FCM du téléphone |
+| `POST /games/state` | Jeux : synchronisation incrémentale (parties, réponses visibles, réglages, questions perso, envies communes) |
+| `POST /games/session` | Création idempotente d'une partie chiffrée ; notifie l'autre (défi, surprise) |
+| `POST /games/session/status` | Partie terminée ou annulée |
+| `POST /games/answer` | Réponse chiffrée ; visible selon le mode (question par question, en fin de partie ou tout de suite) |
+| `POST /games/settings` | Intensité et catégories exclues (chiffrées) |
+| `POST /games/custom` | Question perso de jeu chiffrée (ajout, suppression par son auteur) |
+| `POST /games/wishes` | Étiquettes aveugles des envies ; renvoie uniquement les points communs |
 
 ## Mise en place
 
@@ -143,6 +163,7 @@ La vérification des mises à jour interroge `https://api.github.com/repos/karel
 ```bash
 node questions/build.mjs                 # régénère app/src/main/assets/questions.json
 node questions/validate.mjs questions/src/fun.jsonl
+node games/validate.mjs && node games/build.mjs   # banque des jeux → app/src/main/assets/games.json
 ./gradlew :app:assembleDebug             # sans google-services.json : FCM désactivé
 ./gradlew :app:testDebugUnitTest         # tirage, crypto, captures d'écran
 ```

@@ -578,3 +578,103 @@
 {"id":"int-b-0578","category":"intime","mode":"action","intensity":3,"text":"Écris à {autre}, en cinq lignes, le scénario d'un film dont nous serions les héros, très romantique et un peu brûlant.","remote":true}
 {"id":"int-b-0579","category":"intime","mode":"action","intensity":2,"text":"Fais la révérence à {autre} et propose un rendez-vous galant dans la chambre, dans les règles de l'art.","remote":false}
 {"id":"int-b-0580","category":"intime","mode":"action","intensity":3,"text":"Appelle {autre} et pose-lui trois questions coquines en rafale, sans lui laisser le temps de réfléchir.","remote":true}
+{"id":"int-b-0581","category":"intime","mode":"action","intensity":2,"text":"Dessine du bout du doigt une carte au trésor sur le dos de {autre}, avec une croix à l'endroit où un baiser est caché.","remote":false}
+{"id":"int-b-0582","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un ticket virtuel : « Valable ce soir pour dix minutes de massage, sans condition ».","remote":true}
+{"id":"int-b-0583","category":"intime","mode":"action","intensity":3,"text":"Pose ton front contre celui de {autre}, ferme les yeux et dis à voix basse ce que tu aimerais vivre cette nuit.","remote":false}
+{"id":"int-b-0584","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} les titres de cinq chapitres d'un livre qui raconterait notre vie intime.","remote":true}
+{"id":"int-b-0585","category":"intime","mode":"action","intensity":2,"text":"Brosse lentement les cheveux de {autre} pendant trois minutes, puis dépose un baiser sur chaque épaule.","remote":false}
+{"id":"int-b-0586","category":"intime","mode":"action","intensity":3,"text":"Frotte tes mains pour les réchauffer, pose-les sur les côtes de {autre} et demande si cette chaleur lui convient.","remote":false}
+{"id":"int-b-0587","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un message de bonne nuit en trois phrases : une tendre, une drôle, une brûlante.","remote":true}
+{"id":"int-b-0588","category":"intime","mode":"action","intensity":2,"text":"Interromps ce que fait {autre} pour un baiser surprise de dix secondes chrono, puis repars comme si de rien n'était.","remote":false}
+{"id":"int-b-0589","category":"intime","mode":"action","intensity":3,"text":"Passe tes cinq sens en revue à voix haute : ce que tu vois, entends, sens, goûtes et touches de {autre} à cet instant.","remote":false}
+{"id":"int-b-0590","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une promesse intime, avec jour et heure précis, à tenir cette semaine, rédigée comme un contrat officiel.","remote":true}
+{"id":"int-b-0591","category":"intime","mode":"action","intensity":3,"text":"Lance un dé : le chiffre obtenu est le nombre de baisers que tu offres à {autre}, à l'endroit de son choix.","remote":false}
+{"id":"int-b-0592","category":"intime","mode":"action","intensity":2,"text":"Appelle {autre} en jouant la réception d'un hôtel de luxe et réserve, très sérieusement, une chambre pour deux ce soir.","remote":true}
+{"id":"int-b-0593","category":"intime","mode":"action","intensity":3,"text":"Mets la table pour deux à la lueur d'une bougie, sers {autre} comme dans un grand restaurant et réclame un long baiser en guise de dessert.","remote":false}
+{"id":"int-b-0594","category":"intime","mode":"action","intensity":3,"text":"Fais glisser tes doigts entre ceux de {autre}, très lentement, un doigt après l'autre, en gardant ton regard dans le sien.","remote":false}
+{"id":"int-b-0595","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} un haïku sur la douceur de sa peau et envoie-le tel quel, sans te relire.","remote":true}
+{"id":"int-b-0596","category":"intime","mode":"action","intensity":3,"text":"Prépare le lit avec soin : draps lissés, oreillers moelleux, lumière douce, puis invite {autre} à s'y installer avec toi.","remote":false}
+{"id":"int-b-0597","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} trois questions : une sur sa journée, une sur son désir, une sur nos envies de ce soir.","remote":true}
+{"id":"int-b-0598","category":"intime","mode":"action","intensity":2,"text":"Joue au sculpteur : avec l'accord de {autre}, modèle une pose tendre à deux, puis donne un titre à votre œuvre.","remote":false}
+{"id":"int-b-0599","category":"intime","mode":"action","intensity":3,"text":"Éteins ton écran et consacre dix minutes entières à {autre} : regards, mains, baisers, selon l'envie du moment.","remote":false}
+{"id":"int-b-0600","category":"intime","mode":"action","intensity":3,"text":"Enregistre un vocal où tu remercies {autre} pour un moment d'intimité récent, en disant précisément ce que tu as ressenti.","remote":true}
+{"id":"int-b-0601","category":"intime","mode":"action","intensity":3,"text":"Invente avec {autre} un code feu vert, orange, rouge pour dire où vous en êtes pendant un câlin, puis testez-le avec trois caresses.","remote":false}
+{"id":"int-b-0602","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} un vocal où tu relis lentement le dernier message tendre reçu de sa part.","remote":true}
+{"id":"int-b-0603","category":"intime","mode":"action","intensity":3,"text":"Enveloppe {autre} dans une serviette chaude à la sortie de la douche et sèche-lui le dos lentement, en silence.","remote":false}
+{"id":"int-b-0604","category":"intime","mode":"action","intensity":3,"text":"Rédige pour {autre} un rapport d'espion qui se termine ainsi : « Mission du soir : te retrouver et te faire perdre la tête. »","remote":true}
+{"id":"int-b-0605","category":"intime","mode":"action","intensity":2,"text":"Raconte à {autre} la première fois où sa silhouette t'a fait tourner la tête, avec tous les détails.","remote":false}
+{"id":"int-b-0606","category":"intime","mode":"action","intensity":3,"text":"Pose une question brûlante à {autre}, qui doit répondre uniquement par des gestes pendant une minute.","remote":false}
+{"id":"int-b-0607","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} un message qui commence par « Ce que je préfère dans notre intimité, c'est… » et finis ta phrase sincèrement.","remote":true}
+{"id":"int-b-0608","category":"intime","mode":"action","intensity":3,"text":"Partage un écouteur avec {autre} et fais-lui écouter le morceau qui te donne le plus envie de vous retrouver, sans un mot.","remote":false}
+{"id":"int-b-0609","category":"intime","mode":"action","intensity":2,"text":"Envoie à {autre} une photo du ciel de ce soir avec la légende « Même ciel, mêmes envies ».","remote":true}
+{"id":"int-b-0610","category":"intime","mode":"action","intensity":3,"text":"Dis à {autre} trois choses que tu aimes dans notre intimité en ce moment, puis une seule que tu aimerais voir évoluer, sans reproche.","remote":false}
+{"id":"int-b-0611","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une photo d'un souvenir de nous deux, comme une carte postale, avec trois mots brûlants en légende.","remote":true}
+{"id":"int-b-0612","category":"intime","mode":"action","intensity":3,"text":"Ferme les yeux et demande à {autre} de te surprendre avec un seul geste tendre de son choix, pas plus, pas moins.","remote":false}
+{"id":"int-b-0613","category":"intime","mode":"action","intensity":2,"text":"Écris à {autre} la définition du mot « envie » comme la rédigerait un dictionnaire coquin, avec une phrase d'exemple.","remote":true}
+{"id":"int-b-0614","category":"intime","mode":"action","intensity":3,"text":"Allume une bougie, souffle-la en même temps que {autre}, puis embrassez-vous dans la pénombre.","remote":false}
+{"id":"int-b-0615","category":"intime","mode":"action","intensity":3,"text":"Appelle {autre} et raconte-lui un rêve, vrai ou inventé, où vous vous retrouviez enfin en tête à tête, avec les détails que tu oses.","remote":true}
+{"id":"int-b-0616","category":"intime","mode":"action","intensity":2,"text":"Demande à {autre} de fermer les yeux et fais-lui deviner trois matières passées sur sa main : soie, laine, coton. Chaque erreur se paie d'un baiser.","remote":false}
+{"id":"int-b-0617","category":"intime","mode":"action","intensity":3,"text":"Partage un en-cas avec {autre} en vous nourrissant à la main, sans couverts, regards accrochés.","remote":false}
+{"id":"int-b-0618","category":"intime","mode":"action","intensity":3,"text":"Lance par message un jeu à {autre} : chacun ajoute un mot à tour de rôle pour bâtir une phrase coquine à deux voix.","remote":true}
+{"id":"int-b-0619","category":"intime","mode":"action","intensity":2,"text":"Interviewe {autre} comme un journaliste, micro imaginaire en main : trois questions sur ce qui lui plaît chez toi, réponses détaillées exigées.","remote":false}
+{"id":"int-b-0620","category":"intime","mode":"action","intensity":3,"text":"Demande à {autre} de choisir un mot parmi lent, tendre ou intense, puis donne-lui un baiser fidèle à ce mot pendant trente secondes.","remote":false}
+{"id":"int-b-0621","category":"intime","mode":"action","intensity":2,"text":"Enregistre un slogan publicitaire pour vendre le plaisir d'une soirée à deux et envoie-le en vocal à {autre}.","remote":true}
+{"id":"int-b-0622","category":"intime","mode":"action","intensity":3,"text":"Cite à {autre} dix endroits où vous avez échangé un baiser, puis choisis-en un et rejouez la scène à la maison.","remote":false}
+{"id":"int-b-0623","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une note de service officielle : demain, six baisers obligatoires répartis dans la journée, dont un très long.","remote":true}
+{"id":"int-b-0624","category":"intime","mode":"action","intensity":3,"text":"Dis à {autre} quel endroit de son corps te donne l'impression d'être à la maison, et pose-y ta main.","remote":false}
+{"id":"int-b-0625","category":"intime","mode":"action","intensity":2,"text":"Ouvre ton agenda avec {autre} et bloque un créneau rien qu'à vous deux cette semaine, noté comme un vrai rendez-vous.","remote":false}
+{"id":"int-b-0626","category":"intime","mode":"action","intensity":3,"text":"Écris sur un papier un mot qui évoque le désir pour toi, échange-le avec {autre} et improvisez une phrase avec le mot reçu.","remote":false}
+{"id":"int-b-0627","category":"intime","mode":"action","intensity":3,"text":"Envoie à {autre} une devinette coquine dont la réponse est son prénom, avec un baiser en récompense.","remote":true}
+{"id":"int-b-0628","category":"intime","mode":"action","intensity":3,"text":"Dis à {autre} dix mots qui décrivent l'effet de sa présence sur toi, sans en répéter un seul.","remote":false}
+{"id":"int-b-0629","category":"intime","mode":"action","intensity":3,"text":"Cache un carré de chocolat dans la maison, donne trois indices à {autre} et partagez le butin dans les bras l'un de l'autre.","remote":false}
+{"id":"int-b-0630","category":"intime","mode":"action","intensity":3,"text":"Observe {autre} faire un geste banal du quotidien pendant cinq minutes, puis dis-lui ce que ce geste a de sensuel.","remote":false}
+{"id":"int-b-0631","category":"intime","mode":"envie","intensity":2,"text":"Une soirée aux bougies avec une playlist composée rien que pour nous"}
+{"id":"int-b-0632","category":"intime","mode":"envie","intensity":3,"text":"Une nuit d'hôtel improvisée en pleine semaine, sans prévenir personne"}
+{"id":"int-b-0633","category":"intime","mode":"envie","intensity":3,"text":"Un bain à deux, lumière tamisée, sans regarder l'heure"}
+{"id":"int-b-0634","category":"intime","mode":"envie","intensity":3,"text":"Un week-end dans une cabane perchée, où l'on sort à peine du lit"}
+{"id":"int-b-0635","category":"intime","mode":"envie","intensity":3,"text":"Un moment volé dans la cuisine pendant que le repas mijote"}
+{"id":"int-b-0636","category":"intime","mode":"envie","intensity":3,"text":"Un câlin passionné sur le canapé, en plein après-midi, volets mi-clos"}
+{"id":"int-b-0637","category":"intime","mode":"envie","intensity":2,"text":"Un matin de pluie sous la couette, sans aucune obligation avant midi"}
+{"id":"int-b-0638","category":"intime","mode":"envie","intensity":3,"text":"Une douche à deux, eau chaude, savon parfumé et zéro précipitation"}
+{"id":"int-b-0639","category":"intime","mode":"envie","intensity":3,"text":"Une chambre d'hôtel avec vue, réservée juste pour une nuit à nous"}
+{"id":"int-b-0640","category":"intime","mode":"envie","intensity":2,"text":"Un chalet en hiver, un feu de cheminée et rien d'autre au programme"}
+{"id":"int-b-0641","category":"intime","mode":"envie","intensity":3,"text":"Un rendez-vous dans une pièce de la maison que l'on n'a jamais utilisée pour ça"}
+{"id":"int-b-0642","category":"intime","mode":"envie","intensity":3,"text":"Des draps tout neufs, rien que pour inaugurer une soirée à deux"}
+{"id":"int-b-0643","category":"intime","mode":"envie","intensity":2,"text":"Un pique-nique sur le tapis du salon, comme en plein été"}
+{"id":"int-b-0644","category":"intime","mode":"envie","intensity":3,"text":"Une nuit d'été fenêtres ouvertes, avec le bruit de la ville au loin"}
+{"id":"int-b-0645","category":"intime","mode":"envie","intensity":2,"text":"Une journée entière sans écran, avec pour seule règle de rester ensemble"}
+{"id":"int-b-0646","category":"intime","mode":"envie","intensity":3,"text":"Un massage à tour de rôle, quinze minutes chacun, avec une crème qui sent bon"}
+{"id":"int-b-0647","category":"intime","mode":"envie","intensity":2,"text":"Un baiser interminable sur le pas de la porte avant de partir"}
+{"id":"int-b-0648","category":"intime","mode":"envie","intensity":3,"text":"Un câlin au réveil qui s'étire jusqu'à l'heure du déjeuner"}
+{"id":"int-b-0649","category":"intime","mode":"envie","intensity":3,"text":"Une soirée où l'on prend le temps de se redécouvrir, comme au tout début"}
+{"id":"int-b-0650","category":"intime","mode":"envie","intensity":3,"text":"Des baisers déposés partout où la peau est douce, un dimanche au calme"}
+{"id":"int-b-0651","category":"intime","mode":"envie","intensity":3,"text":"Une nuit entière consacrée aux préliminaires, sans se presser vers la suite"}
+{"id":"int-b-0652","category":"intime","mode":"envie","intensity":2,"text":"Une soirée peignoir, thé chaud et caresses sur le canapé"}
+{"id":"int-b-0653","category":"intime","mode":"envie","intensity":3,"text":"Une main dans les cheveux qui descend lentement le long du dos"}
+{"id":"int-b-0654","category":"intime","mode":"envie","intensity":3,"text":"Un réveil en cuillère, avec des baisers dans la nuque pour seul réveille-matin"}
+{"id":"int-b-0655","category":"intime","mode":"envie","intensity":3,"text":"Un jeu de séduction à la maison où personne n'a le droit de se toucher avant 22 h"}
+{"id":"int-b-0656","category":"intime","mode":"envie","intensity":2,"text":"Un rendez-vous galant à la maison, avec dîner préparé et tenue de gala"}
+{"id":"int-b-0657","category":"intime","mode":"envie","intensity":3,"text":"Un moment intime sans aucun objectif, juste le plaisir d'être tout près l'un de l'autre"}
+{"id":"int-b-0658","category":"intime","mode":"envie","intensity":2,"text":"Une soirée où l'on se coiffe, se parfume et s'habille l'un pour l'autre"}
+{"id":"int-b-0659","category":"intime","mode":"envie","intensity":3,"text":"Des caresses dans le dos pendant que l'autre raconte sa journée, jusqu'à ce que les mots se perdent"}
+{"id":"int-b-0660","category":"intime","mode":"envie","intensity":3,"text":"Des caresses données les yeux dans les yeux, sans un mot, pendant dix minutes"}
+{"id":"int-b-0661","category":"intime","mode":"envie","intensity":2,"text":"Un slow improvisé au milieu du salon, éclairé par la seule lumière du couloir"}
+{"id":"int-b-0662","category":"intime","mode":"envie","intensity":3,"text":"Un baiser très lent qui dure une chanson entière"}
+{"id":"int-b-0663","category":"intime","mode":"envie","intensity":3,"text":"Une sieste coquine un samedi après-midi, rideaux tirés"}
+{"id":"int-b-0664","category":"intime","mode":"envie","intensity":2,"text":"Un petit-déjeuner sur le lit, avec des croissants et des miettes dans les draps"}
+{"id":"int-b-0665","category":"intime","mode":"envie","intensity":3,"text":"Une soirée où l'un mène tout et l'autre se laisse guider, puis on échange les rôles"}
+{"id":"int-b-0666","category":"intime","mode":"envie","intensity":3,"text":"Une nuit d'amour à la lueur d'une seule bougie"}
+{"id":"int-b-0667","category":"intime","mode":"envie","intensity":3,"text":"Un jacuzzi ou un spa privatisé le temps d'une soirée"}
+{"id":"int-b-0668","category":"intime","mode":"envie","intensity":2,"text":"Un goûter de câlins dans la chambre, à l'heure du thé"}
+{"id":"int-b-0669","category":"intime","mode":"envie","intensity":3,"text":"Des baisers dans le cou en préparant le dîner, jusqu'à ce que le dîner attende"}
+{"id":"int-b-0670","category":"intime","mode":"envie","intensity":3,"text":"Un massage des jambes, des pieds jusqu'aux hanches, très lent"}
+{"id":"int-b-0671","category":"intime","mode":"envie","intensity":2,"text":"Une soirée cinéma sous un plaid, avec des caresses pour seule bande-annonce"}
+{"id":"int-b-0672","category":"intime","mode":"envie","intensity":3,"text":"Un bain de soleil à deux sur une terrasse, à l'abri des regards"}
+{"id":"int-b-0673","category":"intime","mode":"envie","intensity":2,"text":"Un dimanche pluvieux à faire un puzzle à deux, avec une pause baiser à chaque pièce posée"}
+{"id":"int-b-0674","category":"intime","mode":"envie","intensity":3,"text":"Un long câlin après l'amour, avec des caresses et des confidences murmurées"}
+{"id":"int-b-0675","category":"intime","mode":"envie","intensity":2,"text":"Une soirée où l'on danse chez soi sur les chansons de notre histoire"}
+{"id":"int-b-0676","category":"intime","mode":"envie","intensity":3,"text":"Un moment à deux au retour d'un long voyage, avant même de défaire les valises"}
+{"id":"int-b-0677","category":"intime","mode":"envie","intensity":3,"text":"Un jeu de piste de baisers à travers la maison"}
+{"id":"int-b-0678","category":"intime","mode":"envie","intensity":3,"text":"Une balade de nuit main dans la main, avec un détour par un banc à l'écart"}
+{"id":"int-b-0679","category":"intime","mode":"envie","intensity":3,"text":"Une heure entière à se regarder et à se caresser, sans téléphone ni horloge"}
+{"id":"int-b-0680","category":"intime","mode":"envie","intensity":3,"text":"Un week-end cocooning : couette, thé, caresses et aucune sortie prévue"}

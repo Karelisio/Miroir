@@ -598,3 +598,353 @@
 {"id":"fut-b-0598","category":"futur","mode":"action","intensity":1,"text":"Apprends à {autre} trois mots d'une langue étrangère pour notre prochain voyage.","remote":false}
 {"id":"fut-b-0599","category":"futur","mode":"action","intensity":1,"text":"Transforme un bocal en boîte à rêves et glisse dedans un premier papier avec {autre}.","remote":false}
 {"id":"fut-b-0600","category":"futur","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui imagine notre conversation de couple dans quarante ans, en trois répliques.","remote":true}
+{"id":"fut-b-0601","category":"futur","mode":"action","intensity":1,"text":"Choisis trois chansons pour la playlist de notre futur déménagement et fais écouter un extrait de chacune à {autre}.","remote":false}
+{"id":"fut-b-0602","category":"futur","mode":"action","intensity":1,"text":"Donne à {autre} un cours de gym express spécial vieux jours, deux exercices et beaucoup d'encouragements.","remote":false}
+{"id":"fut-b-0603","category":"futur","mode":"action","intensity":1,"text":"Laisse à {autre} un message vocal façon répondeur de notre future maison de vacances.","remote":true}
+{"id":"fut-b-0604","category":"futur","mode":"action","intensity":1,"text":"Rédige avec {autre} le règlement intérieur de notre futur animal, en cinq articles maximum.","remote":false}
+{"id":"fut-b-0605","category":"futur","mode":"action","intensity":1,"text":"Écris à {autre} la fiche de poste de ton futur toi, avec missions, horaires et avantages rêvés.","remote":true}
+{"id":"fut-b-0606","category":"futur","mode":"action","intensity":1,"text":"Envoie à {autre} un mini-sondage à deux choix sur notre prochaine sortie, et vote en premier.","remote":true}
+{"id":"fut-b-0607","category":"futur","mode":"action","intensity":1,"text":"Fais passer à {autre} un contrôle de douane imaginaire au retour de notre tour du monde, questions pointues comprises.","remote":false}
+{"id":"fut-b-0608","category":"futur","mode":"action","intensity":1,"text":"Prends un coussin et montre à {autre} comment tu porteras notre futur animal le jour de son arrivée.","remote":false}
+{"id":"fut-b-0609","category":"futur","mode":"action","intensity":1,"text":"Écris à {autre} trois lignes du journal de bord de notre futur grand voyage, datées du jour 1.","remote":true}
+{"id":"fut-b-0610","category":"futur","mode":"action","intensity":1,"text":"Envoie à {autre} la photo de tes chaussures et dis vers quelle aventure elles devraient nous emmener.","remote":true}
+{"id":"fut-b-0611","category":"futur","mode":"action","intensity":1,"text":"Ouvre l'agenda avec {autre} et inscris un premier pas concret vers un rêve commun, date comprise.","remote":false}
+{"id":"fut-b-0612","category":"futur","mode":"action","intensity":1,"text":"Fais deviner à {autre} une de tes ambitions avec seulement trois nombres comme indices.","remote":false}
+{"id":"fut-b-0613","category":"futur","mode":"action","intensity":1,"text":"Raconte à {autre} notre vie dans dix ans en six phrases qui commencent par A, B, C, D, E puis F.","remote":false}
+{"id":"fut-b-0614","category":"futur","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu commentes, comme un match, notre emménagement dans notre future maison.","remote":true}
+{"id":"fut-b-0615","category":"futur","mode":"action","intensity":1,"text":"Joue avec {autre} une négociation acharnée sur la taille de notre futur canapé.","remote":false}
+{"id":"fut-b-0616","category":"futur","mode":"action","intensity":1,"text":"Écris une destination sur une feuille, plie cette feuille en avion et lance l'avion vers {autre}.","remote":false}
+{"id":"fut-b-0617","category":"futur","mode":"action","intensity":1,"text":"Choisis une image qui représente notre prochain projet, mets-la en fond d'écran et envoie une capture à {autre}.","remote":true}
+{"id":"fut-b-0618","category":"futur","mode":"action","intensity":2,"text":"Donne à {autre} un baiser de « bon voyage » comme à la veille d'un long départ, puis un baiser de retrouvailles.","remote":false}
+{"id":"fut-b-0619","category":"futur","mode":"action","intensity":2,"text":"Envoie à {autre} un selfie avec ton regard le plus charmeur, légendé « Moi, dans quarante ans ».","remote":true}
+{"id":"fut-b-0620","category":"futur","mode":"action","intensity":2,"text":"Décris à {autre} la baignoire de nos rêves en te rapprochant un peu plus à chaque détail.","remote":false}
+{"id":"fut-b-0621","category":"futur","mode":"action","intensity":2,"text":"Fais à {autre} une promesse minuscule pour demain, puis une promesse immense pour dans vingt ans.","remote":false}
+{"id":"fut-b-0622","category":"futur","mode":"action","intensity":1,"text":"Écris à {autre} les trois petits plaisirs que tu veux qu'on s'offre chaque semaine dans notre future vie.","remote":true}
+{"id":"fut-b-0623","category":"futur","mode":"action","intensity":1,"text":"Imite les bruits de notre future maison la nuit, du parquet qui craque au frigo qui ronronne.","remote":false}
+{"id":"fut-b-0624","category":"futur","mode":"action","intensity":1,"text":"Emmène {autre} en voyage en une minute chrono : trois pays, un geste typique pour chacun.","remote":false}
+{"id":"fut-b-0625","category":"futur","mode":"action","intensity":1,"text":"Appelle {autre} pour annoncer, comme une grande nouvelle, une sortie que tu veux qu'on fasse le mois prochain.","remote":true}
+{"id":"fut-b-0626","category":"futur","mode":"action","intensity":1,"text":"Raconte à {autre} notre premier jour avec notre futur animal, de la rencontre jusqu'à sa première nuit.","remote":false}
+{"id":"fut-b-0627","category":"futur","mode":"action","intensity":1,"text":"Envoie à {autre} le lien d'une activité près de chez nous qu'on n'a jamais tentée, avec une date à proposer.","remote":true}
+{"id":"fut-b-0628","category":"futur","mode":"action","intensity":1,"text":"Mets un minuteur de deux minutes et dessine avec {autre}, à quatre mains, la carte de notre île imaginaire.","remote":false}
+{"id":"fut-b-0629","category":"futur","mode":"action","intensity":1,"text":"Entraîne-toi devant {autre} à dire « Bonjour, on vient d'emménager » dans trois langues différentes.","remote":false}
+{"id":"fut-b-0630","category":"futur","mode":"action","intensity":1,"text":"Choisis l'objet le plus indispensable pour un tour du monde et défends sa place dans la valise face à {autre}.","remote":false}
+{"id":"fut-b-0631","category":"futur","mode":"envie","intensity":1,"text":"Faire un tour du monde en prenant tout notre temps"}
+{"id":"fut-b-0632","category":"futur","mode":"envie","intensity":1,"text":"Traverser un pays entier en train de nuit"}
+{"id":"fut-b-0633","category":"futur","mode":"envie","intensity":1,"text":"Passer une nuit dans une cabane perchée au cœur d'une forêt"}
+{"id":"fut-b-0634","category":"futur","mode":"envie","intensity":1,"text":"Acheter une vieille maison et lui redonner vie de nos mains"}
+{"id":"fut-b-0635","category":"futur","mode":"envie","intensity":1,"text":"Adopter un chien dans un refuge"}
+{"id":"fut-b-0636","category":"futur","mode":"envie","intensity":1,"text":"Voir des aurores boréales sous la même couverture"}
+{"id":"fut-b-0637","category":"futur","mode":"envie","intensity":1,"text":"Un potager où pousseront nos propres légumes"}
+{"id":"fut-b-0638","category":"futur","mode":"envie","intensity":1,"text":"Lancer un projet professionnel à deux"}
+{"id":"fut-b-0639","category":"futur","mode":"envie","intensity":1,"text":"Partir en road trip sans aucun itinéraire fixé"}
+{"id":"fut-b-0640","category":"futur","mode":"envie","intensity":1,"text":"Vieillir dans une maison remplie de souvenirs"}
+{"id":"fut-b-0641","category":"futur","mode":"envie","intensity":2,"text":"Un week-end à deux dans un hôtel avec spa, chaque année"}
+{"id":"fut-b-0642","category":"futur","mode":"envie","intensity":1,"text":"Une bibliothèque du sol au plafond, avec une échelle qui glisse"}
+{"id":"fut-b-0643","category":"futur","mode":"envie","intensity":1,"text":"Louer un van aménagé pour tout un été"}
+{"id":"fut-b-0644","category":"futur","mode":"envie","intensity":1,"text":"Écrire un livre ensemble, même tout petit"}
+{"id":"fut-b-0645","category":"futur","mode":"envie","intensity":1,"text":"Adopter deux chats qui s'entendent à merveille"}
+{"id":"fut-b-0646","category":"futur","mode":"envie","intensity":1,"text":"Apprendre à plonger pour explorer des récifs coralliens"}
+{"id":"fut-b-0647","category":"futur","mode":"envie","intensity":1,"text":"Une balancelle sur la terrasse pour les soirs d'été"}
+{"id":"fut-b-0648","category":"futur","mode":"envie","intensity":1,"text":"Prendre des cours de danse de salon pour nos vieux jours"}
+{"id":"fut-b-0649","category":"futur","mode":"envie","intensity":1,"text":"Naviguer en voilier d'île en île pendant une semaine"}
+{"id":"fut-b-0650","category":"futur","mode":"envie","intensity":2,"text":"Se baigner de nuit dans une mer chaude"}
+{"id":"fut-b-0651","category":"futur","mode":"envie","intensity":1,"text":"Créer un podcast sur nos passions communes"}
+{"id":"fut-b-0652","category":"futur","mode":"envie","intensity":1,"text":"Vivre un jour dans une maison au bord de l'eau"}
+{"id":"fut-b-0653","category":"futur","mode":"envie","intensity":1,"text":"Vivre un mois dans une ville étrangère, loin des circuits touristiques"}
+{"id":"fut-b-0654","category":"futur","mode":"envie","intensity":1,"text":"Accueillir un animal âgé pour lui offrir une douce fin de vie"}
+{"id":"fut-b-0655","category":"futur","mode":"envie","intensity":1,"text":"Habiter quelque temps dans une mini-maison sur roues"}
+{"id":"fut-b-0656","category":"futur","mode":"envie","intensity":1,"text":"Gravir un volcan pour y voir le lever du soleil"}
+{"id":"fut-b-0657","category":"futur","mode":"envie","intensity":1,"text":"Reprendre des études, même sur le tard"}
+{"id":"fut-b-0658","category":"futur","mode":"envie","intensity":2,"text":"Renouveler nos promesses dans vingt ans, au même endroit"}
+{"id":"fut-b-0659","category":"futur","mode":"envie","intensity":1,"text":"Construire notre propre maison, du plan au dernier clou"}
+{"id":"fut-b-0660","category":"futur","mode":"envie","intensity":1,"text":"Dormir sous les étoiles en plein désert"}
+{"id":"fut-b-0661","category":"futur","mode":"envie","intensity":1,"text":"Installer une ruche et récolter notre propre miel"}
+{"id":"fut-b-0662","category":"futur","mode":"envie","intensity":1,"text":"Une cheminée qui crépite pour les soirées d'hiver"}
+{"id":"fut-b-0663","category":"futur","mode":"envie","intensity":1,"text":"Courir un semi-marathon côte à côte"}
+{"id":"fut-b-0664","category":"futur","mode":"envie","intensity":1,"text":"Un safari photo pour observer des animaux en liberté"}
+{"id":"fut-b-0665","category":"futur","mode":"envie","intensity":2,"text":"Partir quelques jours là où personne ne nous connaît"}
+{"id":"fut-b-0666","category":"futur","mode":"envie","intensity":1,"text":"Passer notre retraite au bord de la mer"}
+{"id":"fut-b-0667","category":"futur","mode":"envie","intensity":1,"text":"Un atelier rien que pour bricoler et créer"}
+{"id":"fut-b-0668","category":"futur","mode":"envie","intensity":1,"text":"Parcourir une grande route mythique, cheveux au vent"}
+{"id":"fut-b-0669","category":"futur","mode":"envie","intensity":1,"text":"Apprendre à piloter un petit avion"}
+{"id":"fut-b-0670","category":"futur","mode":"envie","intensity":1,"text":"Accueillir quelques poules et ramasser nos œufs le matin"}
+{"id":"fut-b-0671","category":"futur","mode":"envie","intensity":1,"text":"Faire le tour d'une île à vélo"}
+{"id":"fut-b-0672","category":"futur","mode":"envie","intensity":1,"text":"Parrainer un animal dans un refuge"}
+{"id":"fut-b-0673","category":"futur","mode":"envie","intensity":2,"text":"S'écrire des lettres d'amour toute notre vie"}
+{"id":"fut-b-0674","category":"futur","mode":"envie","intensity":1,"text":"Une grande cuisine où l'on cuisine à deux sans se marcher sur les pieds"}
+{"id":"fut-b-0675","category":"futur","mode":"envie","intensity":1,"text":"Un voyage gourmand de marché en marché"}
+{"id":"fut-b-0676","category":"futur","mode":"envie","intensity":1,"text":"Ouvrir une chambre d'hôtes une fois à la retraite"}
+{"id":"fut-b-0677","category":"futur","mode":"envie","intensity":1,"text":"Passer le permis bateau"}
+{"id":"fut-b-0678","category":"futur","mode":"envie","intensity":1,"text":"Découvrir un pays dont on ne parle pas un mot de la langue"}
+{"id":"fut-b-0679","category":"futur","mode":"envie","intensity":1,"text":"Une chambre d'amis où nos proches adorent revenir"}
+{"id":"fut-b-0680","category":"futur","mode":"envie","intensity":2,"text":"Apprendre à dire « je t'aime » dans la langue de chaque pays visité"}
+{"id":"fut-b-0681","category":"futur","mode":"envie","intensity":1,"text":"Partir un week-end sur un coup de tête, valise bouclée en dix minutes"}
+{"id":"fut-b-0682","category":"futur","mode":"envie","intensity":1,"text":"Un grand repas de famille chaque été dans le jardin"}
+{"id":"fut-b-0683","category":"futur","mode":"envie","intensity":1,"text":"Participer à un concours de cuisine amateur"}
+{"id":"fut-b-0684","category":"futur","mode":"envie","intensity":1,"text":"Repeindre à deux les murs de notre prochain logement"}
+{"id":"fut-b-0685","category":"futur","mode":"envie","intensity":1,"text":"Un séjour dans un chalet isolé sous la neige"}
+{"id":"fut-b-0686","category":"futur","mode":"envie","intensity":1,"text":"S'engager ensemble dans une association à la retraite"}
+{"id":"fut-b-0687","category":"futur","mode":"envie","intensity":1,"text":"Fêter le Nouvel An à l'autre bout de la planète"}
+{"id":"fut-b-0688","category":"futur","mode":"envie","intensity":2,"text":"Une douche assez grande pour deux"}
+{"id":"fut-b-0689","category":"futur","mode":"envie","intensity":1,"text":"Exposer nos photos dans un vrai lieu"}
+{"id":"fut-b-0690","category":"futur","mode":"envie","intensity":1,"text":"Une randonnée de refuge en refuge pendant une semaine"}
+{"id":"fut-b-0691","category":"futur","mode":"envie","intensity":1,"text":"Réunir nos deux familles le temps d'un week-end"}
+{"id":"fut-b-0692","category":"futur","mode":"envie","intensity":1,"text":"Une serre pour récolter des tomates presque toute l'année"}
+{"id":"fut-b-0693","category":"futur","mode":"envie","intensity":1,"text":"Apprendre un instrument à 70 ans, juste pour le plaisir"}
+{"id":"fut-b-0694","category":"futur","mode":"envie","intensity":1,"text":"Traverser un océan en bateau plutôt qu'en avion"}
+{"id":"fut-b-0695","category":"futur","mode":"envie","intensity":2,"text":"Un bain à remous sur la terrasse de notre future maison"}
+{"id":"fut-b-0696","category":"futur","mode":"envie","intensity":1,"text":"Monter sur les planches dans une troupe de théâtre amateur"}
+{"id":"fut-b-0697","category":"futur","mode":"envie","intensity":1,"text":"Planter un arbre fruitier le jour de notre emménagement"}
+{"id":"fut-b-0698","category":"futur","mode":"envie","intensity":1,"text":"Survoler des vignes en montgolfière au petit matin"}
+{"id":"fut-b-0699","category":"futur","mode":"envie","intensity":2,"text":"Prendre un moment calme pour parler de la question des enfants, sans pression"}
+{"id":"fut-b-0700","category":"futur","mode":"envie","intensity":1,"text":"Faire une croisière fluviale au fil de villes anciennes"}
+{"id":"fut-b-0701","category":"futur","mode":"envie","intensity":1,"text":"Enregistrer une chanson dans un vrai studio"}
+{"id":"fut-b-0702","category":"futur","mode":"envie","intensity":1,"text":"Découvrir un nouveau pays chaque année, choisi à tour de rôle"}
+{"id":"fut-b-0703","category":"futur","mode":"envie","intensity":1,"text":"Chiner et restaurer des meubles anciens pour notre intérieur"}
+{"id":"fut-b-0704","category":"futur","mode":"envie","intensity":1,"text":"Partir en vacances avec notre futur animal"}
+{"id":"fut-b-0705","category":"futur","mode":"envie","intensity":2,"text":"Parler sans tabou de nos peurs pour l'avenir"}
+{"id":"fut-b-0706","category":"futur","mode":"envie","intensity":1,"text":"Une escapade surprise entièrement organisée par l'un pour l'autre"}
+{"id":"fut-b-0707","category":"futur","mode":"envie","intensity":1,"text":"Écrire nos mémoires de couple à quatre mains"}
+{"id":"fut-b-0708","category":"futur","mode":"envie","intensity":1,"text":"Vivre quelques années au cœur d'une grande ville animée"}
+{"id":"fut-b-0709","category":"futur","mode":"envie","intensity":1,"text":"Tenir un stand sur un marché le temps d'un été"}
+{"id":"fut-b-0710","category":"futur","mode":"envie","intensity":1,"text":"Une semaine sur une île où les voitures n'existent pas"}
+{"id":"fut-b-0711","category":"futur","mode":"envie","intensity":1,"text":"Un jardin assez grand pour qu'un chien puisse y courir"}
+{"id":"fut-b-0712","category":"futur","mode":"envie","intensity":1,"text":"Un rituel annuel pour faire le point sur nos rêves"}
+{"id":"fut-b-0713","category":"futur","mode":"envie","intensity":1,"text":"S'installer un jour à la campagne, loin du bruit"}
+{"id":"fut-b-0714","category":"futur","mode":"envie","intensity":2,"text":"Une cérémonie d'engagement à notre façon, officielle ou non"}
+{"id":"fut-b-0715","category":"futur","mode":"envie","intensity":1,"text":"Marcher plusieurs jours sur un ancien chemin de pèlerinage"}
+{"id":"fut-b-0716","category":"futur","mode":"envie","intensity":1,"text":"Changer de métier pour un travail qui a plus de sens"}
+{"id":"fut-b-0717","category":"futur","mode":"envie","intensity":1,"text":"Habiter à l'étranger pendant quelques années"}
+{"id":"fut-b-0718","category":"futur","mode":"envie","intensity":1,"text":"Dessiner l'arbre généalogique de nos deux familles"}
+{"id":"fut-b-0719","category":"futur","mode":"envie","intensity":1,"text":"Passer une nuit dans un phare transformé en chambre"}
+{"id":"fut-b-0720","category":"futur","mode":"envie","intensity":1,"text":"Cultiver ensemble le même jardin jusqu'à nos 90 ans"}
+{"id":"fut-b-0721","category":"futur","mode":"envie","intensity":1,"text":"Une piscine naturelle au fond du jardin"}
+{"id":"fut-b-0722","category":"futur","mode":"envie","intensity":1,"text":"Épargner pour un grand projet commun"}
+{"id":"fut-b-0723","category":"futur","mode":"envie","intensity":2,"text":"Un bilan de couple chaque année, à cœur ouvert"}
+{"id":"fut-b-0724","category":"futur","mode":"envie","intensity":1,"text":"Traverser plusieurs pays en train avec un seul billet"}
+{"id":"fut-b-0725","category":"futur","mode":"envie","intensity":1,"text":"Un toit-terrasse pour dîner sous les étoiles"}
+{"id":"fut-b-0726","category":"futur","mode":"envie","intensity":1,"text":"Éduquer ensemble un chiot, de ses premières bêtises à ses premiers tours"}
+{"id":"fut-b-0727","category":"futur","mode":"envie","intensity":1,"text":"Prendre des cours de surf au bord de l'océan"}
+{"id":"fut-b-0728","category":"futur","mode":"envie","intensity":1,"text":"Sillonner notre pays en camping-car à la retraite"}
+{"id":"fut-b-0729","category":"futur","mode":"envie","intensity":1,"text":"Fonder une association autour d'une cause qui nous tient à cœur"}
+{"id":"fut-b-0730","category":"futur","mode":"envie","intensity":1,"text":"Un coin lecture baigné de lumière près d'une grande fenêtre"}
+{"id":"fut-b-0731","category":"futur","mode":"envie","intensity":2,"text":"Un dîner aux chandelles dans notre futur logement, avant même d'avoir des meubles"}
+{"id":"fut-b-0732","category":"futur","mode":"envie","intensity":1,"text":"Partir hors saison pour avoir les plages presque rien qu'à nous"}
+{"id":"fut-b-0733","category":"futur","mode":"envie","intensity":1,"text":"Un âne ou une chèvre dans un pré, juste pour le bonheur"}
+{"id":"fut-b-0734","category":"futur","mode":"envie","intensity":1,"text":"Fabriquer nos propres meubles"}
+{"id":"fut-b-0735","category":"futur","mode":"envie","intensity":1,"text":"Courir un marathon après 60 ans"}
+{"id":"fut-b-0736","category":"futur","mode":"envie","intensity":1,"text":"Un séjour sans écran dans un lieu où règne le silence"}
+{"id":"fut-b-0737","category":"futur","mode":"envie","intensity":1,"text":"Rendre notre logement plus économe en énergie"}
+{"id":"fut-b-0738","category":"futur","mode":"envie","intensity":1,"text":"Faire notre pain au levain chaque semaine"}
+{"id":"fut-b-0739","category":"futur","mode":"envie","intensity":2,"text":"Un massage en duo dans un pays lointain"}
+{"id":"fut-b-0740","category":"futur","mode":"envie","intensity":1,"text":"Participer aux vendanges dans une région inconnue"}
+{"id":"fut-b-0741","category":"futur","mode":"envie","intensity":1,"text":"Organiser une vraie crémaillère avec tout notre entourage"}
+{"id":"fut-b-0742","category":"futur","mode":"envie","intensity":1,"text":"Accueillir une personne en échange culturel pendant quelques mois"}
+{"id":"fut-b-0743","category":"futur","mode":"envie","intensity":1,"text":"Apprendre une nouvelle langue à chaque décennie"}
+{"id":"fut-b-0744","category":"futur","mode":"envie","intensity":1,"text":"Donner un coup de main dans une ferme lointaine contre le gîte et le couvert"}
+{"id":"fut-b-0745","category":"futur","mode":"envie","intensity":1,"text":"Un petit jardin zen pour se poser après le travail"}
+{"id":"fut-b-0746","category":"futur","mode":"envie","intensity":1,"text":"Organiser un petit festival entre amis"}
+{"id":"fut-b-0747","category":"futur","mode":"envie","intensity":2,"text":"Une nuit à la belle étoile dans un seul sac de couchage"}
+{"id":"fut-b-0748","category":"futur","mode":"envie","intensity":1,"text":"Une marche sur un glacier avec crampons et piolet"}
+{"id":"fut-b-0749","category":"futur","mode":"envie","intensity":1,"text":"Une maison de vacances partagée avec nos amis"}
+{"id":"fut-b-0750","category":"futur","mode":"envie","intensity":1,"text":"Inventer nos propres traditions de fin d'année"}
+{"id":"fut-b-0751","category":"futur","mode":"envie","intensity":1,"text":"Travailler à distance depuis un autre pays pendant quelques mois"}
+{"id":"fut-b-0752","category":"futur","mode":"envie","intensity":1,"text":"Une grande fête le jour où nos deux âges additionnés feront un siècle"}
+{"id":"fut-b-0753","category":"futur","mode":"envie","intensity":1,"text":"Descendre un grand fleuve en canoë pendant plusieurs jours"}
+{"id":"fut-b-0754","category":"futur","mode":"envie","intensity":1,"text":"Une porte secrète cachée derrière une étagère"}
+{"id":"fut-b-0755","category":"futur","mode":"envie","intensity":2,"text":"Une semaine de grasses matinées en tête-à-tête"}
+{"id":"fut-b-0756","category":"futur","mode":"envie","intensity":1,"text":"Faire d'une passion un revenu complémentaire"}
+{"id":"fut-b-0757","category":"futur","mode":"envie","intensity":1,"text":"Voir une éclipse totale de soleil, main dans la main"}
+{"id":"fut-b-0758","category":"futur","mode":"envie","intensity":1,"text":"Fêter l'anniversaire de notre animal avec un gâteau adapté"}
+{"id":"fut-b-0759","category":"futur","mode":"envie","intensity":1,"text":"Vivre quelques années sur une péniche"}
+{"id":"fut-b-0760","category":"futur","mode":"envie","intensity":1,"text":"Un café en terrasse chaque matin de notre retraite"}
+{"id":"fut-b-0761","category":"futur","mode":"envie","intensity":1,"text":"Apprendre la langue des signes"}
+{"id":"fut-b-0762","category":"futur","mode":"envie","intensity":1,"text":"Retourner chaque année au même endroit pour en faire notre tradition"}
+{"id":"fut-b-0763","category":"futur","mode":"envie","intensity":2,"text":"Une escapade chic : tenue élégante, dîner raffiné, chambre avec vue"}
+{"id":"fut-b-0764","category":"futur","mode":"envie","intensity":1,"text":"Transformer notre balcon en petite jungle"}
+{"id":"fut-b-0765","category":"futur","mode":"envie","intensity":1,"text":"Une table ouverte aux amis chaque dimanche"}
+{"id":"fut-b-0766","category":"futur","mode":"envie","intensity":1,"text":"Construire un petit bateau en bois"}
+{"id":"fut-b-0767","category":"futur","mode":"envie","intensity":1,"text":"Explorer chaque région de notre pays avant de partir loin"}
+{"id":"fut-b-0768","category":"futur","mode":"envie","intensity":1,"text":"Vieillir dans le même quartier que nos amis de toujours"}
+{"id":"fut-b-0769","category":"futur","mode":"envie","intensity":1,"text":"Un mur de cadres avec les photos de nos aventures"}
+{"id":"fut-b-0770","category":"futur","mode":"envie","intensity":1,"text":"Faire un stage de survie en forêt"}
+{"id":"fut-b-0771","category":"futur","mode":"envie","intensity":2,"text":"Danser un slow dans chaque pays visité"}
+{"id":"fut-b-0772","category":"futur","mode":"envie","intensity":1,"text":"S'envoyer une carte postale depuis chaque destination"}
+{"id":"fut-b-0773","category":"futur","mode":"envie","intensity":1,"text":"Être un vrai soutien pour nos parents dans les années à venir"}
+{"id":"fut-b-0774","category":"futur","mode":"envie","intensity":2,"text":"Faire de notre chambre un cocon aux lumières tamisées"}
+{"id":"fut-b-0775","category":"futur","mode":"envie","intensity":1,"text":"Faire nos confitures avec les fruits de notre jardin"}
+{"id":"fut-b-0776","category":"futur","mode":"envie","intensity":1,"text":"Partir sur les traces des origines de nos familles"}
+{"id":"fut-b-0777","category":"futur","mode":"envie","intensity":1,"text":"Prendre soin de notre forme pour randonner encore à 80 ans"}
+{"id":"fut-b-0778","category":"futur","mode":"envie","intensity":1,"text":"Désencombrer notre logement pour vivre avec l'essentiel"}
+{"id":"fut-b-0779","category":"futur","mode":"envie","intensity":1,"text":"Créer notre recette signature, à transmettre un jour"}
+{"id":"fut-b-0780","category":"futur","mode":"envie","intensity":1,"text":"Camper au bord d'un lac de montagne"}
+{"id":"fut-b-0781","category":"futur","mode":"envie","intensity":2,"text":"Un rendez-vous secret chaque année, dans un lieu différent"}
+{"id":"fut-b-0782","category":"futur","mode":"envie","intensity":1,"text":"Une vieille grange à transformer en lieu de vie"}
+{"id":"fut-b-0783","category":"futur","mode":"envie","intensity":1,"text":"Faire du parapente au-dessus d'une vallée"}
+{"id":"fut-b-0784","category":"futur","mode":"envie","intensity":1,"text":"Tenir un journal de couple qu'on relira dans trente ans"}
+{"id":"fut-b-0785","category":"futur","mode":"envie","intensity":1,"text":"Explorer une grande capitale uniquement de nuit"}
+{"id":"fut-b-0786","category":"futur","mode":"envie","intensity":1,"text":"Une liste de cent rêves à cocher au fil des années"}
+{"id":"fut-b-0787","category":"futur","mode":"envie","intensity":2,"text":"Continuer à se séduire comme au premier jour, à tout âge"}
+{"id":"fut-b-0788","category":"futur","mode":"envie","intensity":1,"text":"Un coin musique avec un vrai piano"}
+{"id":"fut-b-0789","category":"futur","mode":"envie","intensity":1,"text":"Fuir l'hiver d'ici pour passer une saison entière au soleil"}
+{"id":"fut-b-0790","category":"futur","mode":"envie","intensity":1,"text":"Un tableau de nos rêves accroché au mur, avec photos et mots-clés"}
+{"id":"fut-b-0791","category":"futur","mode":"envie","intensity":1,"text":"Faire la sieste au jardin chaque après-midi de nos vieux jours"}
+{"id":"fut-b-0792","category":"futur","mode":"envie","intensity":1,"text":"Visiter un pays grâce à un échange de maisons"}
+{"id":"fut-b-0793","category":"futur","mode":"envie","intensity":2,"text":"Une nuit dans une chambre au plafond vitré, ouverte sur le ciel"}
+{"id":"fut-b-0794","category":"futur","mode":"envie","intensity":1,"text":"Prendre un congé de plusieurs mois pour un projet personnel"}
+{"id":"fut-b-0795","category":"futur","mode":"envie","intensity":1,"text":"Apprendre à coudre nos propres vêtements"}
+{"id":"fut-b-0796","category":"futur","mode":"envie","intensity":1,"text":"Une cabane au fond du jardin, juste pour rêver"}
+{"id":"fut-b-0797","category":"futur","mode":"envie","intensity":1,"text":"Apprendre à cuisiner un plat typique dans chaque pays visité"}
+{"id":"fut-b-0798","category":"futur","mode":"envie","intensity":1,"text":"Faire un saut en parachute en tandem au-dessus de la mer"}
+{"id":"fut-b-0799","category":"futur","mode":"envie","intensity":1,"text":"Vivre dans un quartier où l'on salue tout le monde"}
+{"id":"fut-b-0800","category":"futur","mode":"envie","intensity":2,"text":"Fixer ensemble des limites pour que le travail n'empiète pas sur notre couple"}
+{"id":"fut-b-0801","category":"futur","mode":"envie","intensity":1,"text":"Peindre une fresque sur un mur de notre maison"}
+{"id":"fut-b-0802","category":"futur","mode":"envie","intensity":1,"text":"Garder un refuge de montagne le temps d'une saison"}
+{"id":"fut-b-0803","category":"futur","mode":"envie","intensity":1,"text":"Une semaine de raquettes dans une vallée enneigée"}
+{"id":"fut-b-0804","category":"futur","mode":"envie","intensity":1,"text":"Assister à un grand carnaval à l'étranger, costumes compris"}
+{"id":"fut-b-0805","category":"futur","mode":"envie","intensity":1,"text":"Voir les cerisiers en fleurs dans un pays lointain"}
+{"id":"fut-b-0806","category":"futur","mode":"envie","intensity":1,"text":"Observer des baleines depuis un petit bateau"}
+{"id":"fut-b-0807","category":"futur","mode":"envie","intensity":2,"text":"Se promettre de ne jamais arrêter de se surprendre"}
+{"id":"fut-b-0808","category":"futur","mode":"envie","intensity":1,"text":"Un jardin d'hiver plein de plantes pour le café du matin"}
+{"id":"fut-b-0809","category":"futur","mode":"envie","intensity":1,"text":"Un télescope sur le balcon pour suivre les planètes"}
+{"id":"fut-b-0810","category":"futur","mode":"envie","intensity":1,"text":"Passer un an sans acheter de vêtements neufs"}
+{"id":"fut-b-0811","category":"futur","mode":"envie","intensity":1,"text":"Faire une grande randonnée chaque mois"}
+{"id":"fut-b-0812","category":"futur","mode":"envie","intensity":1,"text":"Faire un don régulier à une cause choisie ensemble"}
+{"id":"fut-b-0813","category":"futur","mode":"envie","intensity":1,"text":"Changer de ville sur un coup de cœur"}
+{"id":"fut-b-0814","category":"futur","mode":"envie","intensity":1,"text":"Tester la vie en colocation avec des amis pendant un été"}
+{"id":"fut-b-0815","category":"futur","mode":"envie","intensity":2,"text":"Choisir ensemble le lieu où l'on aimerait finir nos jours"}
+{"id":"fut-b-0816","category":"futur","mode":"envie","intensity":2,"text":"Partager nos rêves les plus secrets pendant un voyage rien qu'à nous"}
+{"id":"fut-b-0817","category":"futur","mode":"envie","intensity":2,"text":"Tout plaquer quelques mois pour vivre une grande aventure"}
+{"id":"fut-b-0818","category":"futur","mode":"envie","intensity":2,"text":"Vivre chaque année une nouvelle première fois à deux"}
+{"id":"fut-b-0819","category":"futur","mode":"envie","intensity":2,"text":"Suivre ensemble un vrai cours de massage pour nos soirées futures"}
+{"id":"fut-b-0820","category":"futur","mode":"envie","intensity":2,"text":"Se faire tatouer un petit symbole commun"}
+{"id":"fut-b-0821","category":"futur","mode":"envie","intensity":1,"text":"Restaurer un vieux vélo pour partir en balade le dimanche"}
+{"id":"fut-b-0822","category":"futur","mode":"envie","intensity":1,"text":"Un week-end par saison rien qu'à nous, bloqué dans l'agenda"}
+{"id":"fut-b-0823","category":"futur","mode":"envie","intensity":1,"text":"Assister à un grand concert en plein air dans un autre pays"}
+{"id":"fut-b-0824","category":"futur","mode":"envie","intensity":1,"text":"Apprendre à se repérer grâce aux étoiles"}
+{"id":"fut-b-0825","category":"futur","mode":"envie","intensity":1,"text":"Une course à obstacles dans la boue"}
+{"id":"fut-b-0826","category":"futur","mode":"envie","intensity":1,"text":"Se lancer dans la photo argentique pour nos voyages"}
+{"id":"fut-b-0827","category":"futur","mode":"envie","intensity":1,"text":"Un aquarium apaisant dans le salon"}
+{"id":"fut-b-0828","category":"futur","mode":"envie","intensity":1,"text":"Une salle de cinéma maison avec de vrais fauteuils moelleux"}
+{"id":"fut-b-0829","category":"futur","mode":"envie","intensity":1,"text":"Gagner un concours, n'importe lequel, juste pour la fierté"}
+{"id":"fut-b-0830","category":"futur","mode":"envie","intensity":1,"text":"Voyager un jour en première classe, juste pour voir"}
+{"id":"fut-b-0831","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, choisissez le plus petit de vos rêves communs et réalisez-le avant dimanche."}
+{"id":"fut-b-0832","category":"futur","mode":"defi","intensity":1,"text":"Ouvrez une cagnotte pour votre prochain voyage et faites un premier dépôt cette semaine, même symbolique."}
+{"id":"fut-b-0833","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, baladez-vous dans un quartier où vous pourriez vous voir habiter un jour."}
+{"id":"fut-b-0834","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, cuisinez un plat d'un pays où vous rêvez d'aller, avec la musique locale en fond."}
+{"id":"fut-b-0835","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, apprenez à vous présenter et à commander un repas dans la langue d'un pays de rêve."}
+{"id":"fut-b-0836","category":"futur","mode":"defi","intensity":1,"text":"Semez des herbes aromatiques sur un rebord de fenêtre, premier pas vers votre futur potager."}
+{"id":"fut-b-0837","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites une longue promenade en racontant à voix haute votre vie dans vingt ans."}
+{"id":"fut-b-0838","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, demandez à un couple plus âgé de votre entourage son secret pour durer."}
+{"id":"fut-b-0839","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, videz un placard entier comme si vous déménagiez le mois prochain."}
+{"id":"fut-b-0840","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, testez une activité que vous aimeriez pratiquer encore à 80 ans."}
+{"id":"fut-b-0841","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, regardez un documentaire sur un pays de rêve et notez trois lieux à visiter."}
+{"id":"fut-b-0842","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, partagez chaque soir une petite ambition pour le lendemain, et faites le point le soir suivant."}
+{"id":"fut-b-0843","category":"futur","mode":"defi","intensity":1,"text":"Rendez visite à un refuge animalier cette semaine, juste pour rencontrer ses pensionnaires."}
+{"id":"fut-b-0844","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, choisissez un rêve commun, notez trois obstacles et trouvez une solution pour chacun."}
+{"id":"fut-b-0845","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, trouvez un atelier ou une formation à suivre ensemble dans les mois qui viennent."}
+{"id":"fut-b-0846","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, choisissez un lieu près de chez vous où prendre la même photo chaque année, et prenez la première."}
+{"id":"fut-b-0847","category":"futur","mode":"defi","intensity":1,"text":"Établissez votre top 5 des destinations et classez ces voyages du plus abordable au plus fou."}
+{"id":"fut-b-0848","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, essayez un nouveau rituel du matin à deux et décidez dimanche s'il mérite de rester."}
+{"id":"fut-b-0849","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, visitez une maison témoin ou une journée portes ouvertes, juste pour rêver."}
+{"id":"fut-b-0850","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites une sortie que vous n'auriez jamais choisie, pour élargir vos horizons futurs."}
+{"id":"fut-b-0851","category":"futur","mode":"defi","intensity":1,"text":"Organisez cette semaine un dîner où l'on ne parle que de projets, des plus petits aux plus fous."}
+{"id":"fut-b-0852","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, construisez la playlist de votre futur road trip en y ajoutant une chanson par jour."}
+{"id":"fut-b-0853","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, apprenez une recette d'un grand-parent pour la transmettre un jour."}
+{"id":"fut-b-0854","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites trois pas concrets vers un projet qui dort depuis trop longtemps."}
+{"id":"fut-b-0855","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, marchez au moins une heure par jour pour préparer une future grande randonnée."}
+{"id":"fut-b-0856","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, organisez une soirée « agence de voyage » : chaque personne présente une destination, puis vous votez."}
+{"id":"fut-b-0857","category":"futur","mode":"defi","intensity":1,"text":"Listez les compétences que vous voulez acquérir et commencez-en une ensemble avant la fin de la semaine."}
+{"id":"fut-b-0858","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, vivez une journée sans dépenser un centime et notez ce qui compte vraiment."}
+{"id":"fut-b-0859","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, parlez dix minutes chaque soir de vos rêves d'enfance et de ce qu'il en reste."}
+{"id":"fut-b-0860","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, adoptez un petit geste écolo que vous garderez dans votre futur quotidien."}
+{"id":"fut-b-0861","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, rencontrez quelqu'un qui exerce un métier qui vous fait rêver et posez-lui vos questions."}
+{"id":"fut-b-0862","category":"futur","mode":"defi","intensity":1,"text":"Affichez une carte du monde cette semaine et marquez d'une gommette chaque pays qui vous fait envie."}
+{"id":"fut-b-0863","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, partez à vélo jusqu'à un endroit des environs encore jamais exploré."}
+{"id":"fut-b-0864","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, échangez vos rôles pour une tâche du quotidien, en test pour votre futur partage des tâches."}
+{"id":"fut-b-0865","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, cuisinez ensemble un repas de fête comme si vous receviez dans votre future maison."}
+{"id":"fut-b-0866","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, vivez une journée « comme à la retraite » : lever tranquille, balade, sieste et long déjeuner."}
+{"id":"fut-b-0867","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, écrivez dix questions sur votre avenir et posez-vous-en deux chaque soir."}
+{"id":"fut-b-0868","category":"futur","mode":"defi","intensity":1,"text":"Ressortez un vieux rêve abandonné et réservez-lui une vraie place dans votre agenda de la semaine."}
+{"id":"fut-b-0869","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites l'inventaire de ce que vous aimeriez transmettre un jour : recettes, objets, histoires."}
+{"id":"fut-b-0870","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, dressez la liste des affaires indispensables pour un futur tour du monde, et rayez le superflu."}
+{"id":"fut-b-0871","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, explorez une ville voisine comme si vous alliez y emménager la semaine suivante."}
+{"id":"fut-b-0872","category":"futur","mode":"defi","intensity":2,"text":"Offrez-vous cette semaine un rendez-vous dans un lieu qui ressemble à la vie dont vous rêvez."}
+{"id":"fut-b-0873","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, fixez-vous un défi sportif commun et entraînez-vous au moins trois fois."}
+{"id":"fut-b-0874","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites une soirée diaporama de vos voyages rêvés, avec des images trouvées en ligne."}
+{"id":"fut-b-0875","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, nommez une peur liée à l'avenir et trouvez à deux une petite action pour l'apprivoiser."}
+{"id":"fut-b-0876","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, parlez sans détour de vos finances futures, autour d'un bon dessert."}
+{"id":"fut-b-0877","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites une nuit de camping, même dans le jardin ou le salon, pour tester vos futures aventures."}
+{"id":"fut-b-0878","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, choisissez une association où vous pourriez vous engager plus tard et prenez contact."}
+{"id":"fut-b-0879","category":"futur","mode":"defi","intensity":1,"text":"Posez cette semaine les bases de vos vacances de l'an prochain : dates, envies, budget."}
+{"id":"fut-b-0880","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, réparez vous-mêmes un objet cassé au lieu de le remplacer."}
+{"id":"fut-b-0881","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, achetez vos légumes directement chez un producteur, comme dans une future vie à la campagne."}
+{"id":"fut-b-0882","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, demandez à des proches quel rêve leur semble fait pour vous, et comparez leurs réponses."}
+{"id":"fut-b-0883","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, parcourez des annonces de maisons du monde entier et élisez votre préférée."}
+{"id":"fut-b-0884","category":"futur","mode":"defi","intensity":2,"text":"Inventez cette semaine un rituel annuel pour fêter votre couple et fixez déjà sa première date."}
+{"id":"fut-b-0885","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, levez-vous une fois pour regarder le lever du soleil, avant-goût d'une future vie au calme."}
+{"id":"fut-b-0886","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, pique-niquez dans un endroit où vous aimeriez vivre un jour."}
+{"id":"fut-b-0887","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, offrez-vous mutuellement un petit cadeau qui rapproche l'autre d'un de ses rêves."}
+{"id":"fut-b-0888","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, allez à un marché, une foire ou un événement en lien avec un de vos projets."}
+{"id":"fut-b-0889","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, passez deux soirées sans écran pour imaginer votre futur rythme idéal."}
+{"id":"fut-b-0890","category":"futur","mode":"defi","intensity":1,"text":"Apprenez ensemble trois gestes de premiers secours d'ici la fin de la semaine."}
+{"id":"fut-b-0891","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, notez ensemble trois choses de votre couple que vous voulez absolument emporter dans les dix prochaines années."}
+{"id":"fut-b-0892","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, notez dans un carnet commun chaque idée de projet qui vous traverse l'esprit."}
+{"id":"fut-b-0893","category":"futur","mode":"defi","intensity":1,"text":"Dénichez cette semaine une cabane ou un gîte pour une future escapade et gardez l'adresse précieusement."}
+{"id":"fut-b-0894","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, visitez un musée ou une exposition sur un pays que vous rêvez de découvrir."}
+{"id":"fut-b-0895","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, faites une séance de sport douce ensemble, version « on s'entraîne pour nos 90 ans »."}
+{"id":"fut-b-0896","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, entraînez-vous à faire tenir une semaine de vacances dans un seul petit sac."}
+{"id":"fut-b-0897","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, écrivez ce que vous ne voulez jamais perdre en vieillissant et affichez cette liste."}
+{"id":"fut-b-0898","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, demandez à un proche qui a changé de vie de vous raconter son parcours."}
+{"id":"fut-b-0899","category":"futur","mode":"defi","intensity":1,"text":"Renseignez-vous cette semaine sur les vrais besoins de l'animal dont vous rêvez : temps, place, budget."}
+{"id":"fut-b-0900","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, consacrez chaque soir à un thème d'avenir : maison, travail, voyages, amis, santé."}
+{"id":"fut-b-0901","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, dessinez séparément le plan de votre maison idéale, puis comparez vos versions pièce par pièce."}
+{"id":"fut-b-0902","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, écrivez une lettre à vous-mêmes dans cinq ans et cachez-la pour l'ouvrir le moment venu."}
+{"id":"fut-b-0903","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, dressez la liste de dix expériences à vivre ensemble dans les cinq prochaines années et cochez-en une."}
+{"id":"fut-b-0904","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, parlez sans filtre de ce que vous attendez l'un de l'autre pour vos vieux jours."}
+{"id":"fut-b-0905","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, imaginez le programme d'un samedi parfait dans cinq ans, du réveil au coucher."}
+{"id":"fut-b-0906","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, répétez ensemble une chanson à chanter en duo lors d'une future fête avec vos proches."}
+{"id":"fut-b-0907","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, testez une cuisine que vous n'avez jamais préparée et décidez si elle entre dans votre futur menu du dimanche."}
+{"id":"fut-b-0908","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, tracez la frise de vos dix prochaines années, avec une étape marquante par an."}
+{"id":"fut-b-0909","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, imaginez un voyage entier sans avion et tracez l'itinéraire, jour par jour."}
+{"id":"fut-b-0910","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, instaurez un rendez-vous « projets » de trente minutes et tenez-le au moins deux fois."}
+{"id":"fut-b-0911","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, avouez-vous un rêve que vous n'avez jamais osé dire à voix haute."}
+{"id":"fut-b-0912","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, choisissez une habitude de santé pour vos vieux jours, comme le sommeil, la marche ou les étirements, et tenez-la sept jours de suite."}
+{"id":"fut-b-0913","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, écrivez la liste de vos « plus jamais » et de vos « toujours encore » pour la prochaine décennie."}
+{"id":"fut-b-0914","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, visitez un lieu insolite de votre région que vous rêvez de découvrir depuis longtemps."}
+{"id":"fut-b-0915","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, rassemblez sur une page toutes les démarches nécessaires à un projet fou : grand départ, grand chantier ou grande aventure."}
+{"id":"fut-b-0916","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, apprenez à lire une carte et faites une balade sans GPS pour retrouver votre chemin."}
+{"id":"fut-b-0917","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, apprenez un savoir-faire utile à une vie plus autonome : faire une conserve, purger un radiateur ou tailler une haie."}
+{"id":"fut-b-0918","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, décrivez-vous la vie de couple idéale dans dix ans, jusqu'à la façon de vous réveiller le matin."}
+{"id":"fut-b-0919","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, écoutez un podcast ou lisez un article sur un mode de vie que vous aimeriez essayer, puis débattez-en."}
+{"id":"fut-b-0920","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, placez sur une carte vos lieux coups de cœur pour une seconde vie et cherchez ce qu'ils ont en commun."}
+{"id":"fut-b-0921","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, imaginez la fête idéale de vos soixante ans, avec invités, menu et musique."}
+{"id":"fut-b-0922","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, trouvez une idée d'escapade à moins de deux heures de chez vous et réservez-la pour le mois prochain."}
+{"id":"fut-b-0923","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, chiffrez ligne par ligne ce que coûterait réellement un de vos grands rêves."}
+{"id":"fut-b-0924","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, parlez de ce qui pourrait vous éloigner un jour et de ce qui vous rapprocherait."}
+{"id":"fut-b-0925","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, tenez un conseil de couple : ordre du jour, trois sujets d'avenir, décisions notées à la fin."}
+{"id":"fut-b-0926","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, initiez-vous aux échecs, au tarot ou à un autre jeu pour de futures longues soirées."}
+{"id":"fut-b-0927","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, listez les compétences que vous avez déjà et imaginez le projet commun qu'elles permettraient."}
+{"id":"fut-b-0928","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, photographiez cinq endroits qui évoquent la vie à laquelle vous aspirez et racontez-vous pourquoi."}
+{"id":"fut-b-0929","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, écrivez-vous une lettre de promesses pour les dix prochaines années, sincère et sans conditions."}
+{"id":"fut-b-0930","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, enregistrez en vocal la bande-annonce de votre vie dans dix ans et écoutez-la ensemble."}
+{"id":"fut-b-0931","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, vivez un dimanche entier comme dans votre vie rêvée : rythme, tenue, repas et activités."}
+{"id":"fut-b-0932","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, interviewez-vous comme pour un magazine, « Où vous voyez-vous dans dix ans ? », et enregistrez l'échange."}
+{"id":"fut-b-0933","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, apprenez à reconnaître trois arbres et trois oiseaux d'un coin de nature proche, pour vos futures randonnées."}
+{"id":"fut-b-0934","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, passez une journée loin de chez vous, dans un café ou une bibliothèque, à faire un brainstorming sur vos projets."}
+{"id":"fut-b-0935","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, dites-vous trois choses que vous espérez voir grandir dans votre intimité, version tendre."}
+{"id":"fut-b-0936","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, choisissez un livre sur l'avenir ou le voyage et lisez-en un chapitre par soir, à voix haute."}
+{"id":"fut-b-0937","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, comparez vos listes de souhaits pour les cinq prochaines années et entourez celles que vous partagez."}
+{"id":"fut-b-0938","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, cherchez un point commun surprenant entre vos deux rêves les plus fous."}
+{"id":"fut-b-0939","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, planifiez une journée de rêve à moins de cinquante euros et vivez-la ce week-end."}
+{"id":"fut-b-0940","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, racontez-vous la scène de vieillesse que vous espérez : lieu, gestes, habitudes de couple."}
+{"id":"fut-b-0941","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, écrivez séparément ce que vous refuseriez de sacrifier pour un projet, puis comparez."}
+{"id":"fut-b-0942","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, contactez une personne qui vit dans un endroit où vous rêvez d'aller et posez-lui des questions concrètes."}
+{"id":"fut-b-0943","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, inventez la devise de votre couple pour les dix prochaines années et affichez-la bien en vue."}
+{"id":"fut-b-0944","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, regardez un film ou une série qui montre un avenir que vous aimeriez, puis discutez-en."}
+{"id":"fut-b-0945","category":"futur","mode":"defi","intensity":2,"text":"Cette semaine, dites-vous ce que vous voulez que l'autre n'oublie jamais de vous dire en vieillissant."}
+{"id":"fut-b-0946","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, placez vos grands projets sur une ligne d'âges : que voudrez-vous avoir fait à 40, 50, 60 ans ?"}
+{"id":"fut-b-0947","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, baptisez votre future maison de rêve et créez son panneau d'entrée."}
+{"id":"fut-b-0948","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, dessinez la vue que vous aimeriez avoir depuis votre fenêtre dans vingt ans."}
+{"id":"fut-b-0949","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, trouvez un événement des six prochains mois, concert, festival ou salon, et réservez vos places."}
+{"id":"fut-b-0950","category":"futur","mode":"defi","intensity":1,"text":"Cette semaine, décidez à quoi ressemblerait votre premier mois après un gros gain, jour par jour."}

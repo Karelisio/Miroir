@@ -498,3 +498,453 @@
 {"id":"rom-b-0498","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} le récit en cinq phrases du rêve que tu aimerais faire cette nuit à ses côtés.","remote":true}
 {"id":"rom-b-0499","category":"romantique","mode":"action","intensity":3,"text":"Envoie à {autre} trois mots qui décrivent l'effet que sa peau te fait.","remote":true}
 {"id":"rom-b-0500","category":"romantique","mode":"action","intensity":2,"text":"Embrasse {autre} comme si tu partais pour un an.","remote":false}
+{"id":"rom-b-0501","category":"romantique","mode":"action","intensity":1,"text":"Écris sur un post-it trois mots qui décrivent {autre} et colle-le délicatement sur son front.","remote":false}
+{"id":"rom-b-0502","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui commence par « Bulletin météo de mon cœur : … ».","remote":true}
+{"id":"rom-b-0503","category":"romantique","mode":"action","intensity":2,"text":"Masse les épaules de {autre} pendant deux minutes en fredonnant une chanson douce.","remote":false}
+{"id":"rom-b-0504","category":"romantique","mode":"action","intensity":1,"text":"Prépare pour {autre} le menu de la soirée sur papier, avec des plats aux noms les plus romantiques possible.","remote":false}
+{"id":"rom-b-0505","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de toi au réveil, cheveux en bataille compris, avec un mot doux.","remote":true}
+{"id":"rom-b-0506","category":"romantique","mode":"action","intensity":1,"text":"Fabrique une fleur en papier ou en serviette et offre-la à {autre} avec une phrase digne d'un poète.","remote":false}
+{"id":"rom-b-0507","category":"romantique","mode":"action","intensity":3,"text":"Dépose des baisers très lents le long de la mâchoire de {autre}, jusqu'au coin de ses lèvres.","remote":false}
+{"id":"rom-b-0508","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} la toute première photo de nous deux que tu retrouves dans ton téléphone.","remote":true}
+{"id":"rom-b-0509","category":"romantique","mode":"action","intensity":2,"text":"Pose ta joue contre celle de {autre} et restez ainsi trente secondes, les yeux fermés.","remote":false}
+{"id":"rom-b-0510","category":"romantique","mode":"action","intensity":1,"text":"Rédige une petite annonce qui vante {autre} comme la perle rare du siècle, puis lis-la à voix haute.","remote":false}
+{"id":"rom-b-0511","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} trois petites choses de sa semaine qui t'ont fait sourire.","remote":true}
+{"id":"rom-b-0512","category":"romantique","mode":"action","intensity":2,"text":"Entrelace lentement tes doigts avec ceux de {autre}, un par un, sans quitter son regard.","remote":false}
+{"id":"rom-b-0513","category":"romantique","mode":"action","intensity":1,"text":"Remercie {autre} pour un geste précis de cette semaine, en le décrivant dans le moindre détail.","remote":false}
+{"id":"rom-b-0514","category":"romantique","mode":"action","intensity":2,"text":"Écris à {autre} la sensation exacte que t'a laissée notre dernier baiser.","remote":true}
+{"id":"rom-b-0515","category":"romantique","mode":"action","intensity":1,"text":"Prends un selfie avec {autre} façon affiche de comédie romantique, et invente le titre du film.","remote":false}
+{"id":"rom-b-0516","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta tasse de café ou de thé, avec la légende « il ne manque que toi ».","remote":true}
+{"id":"rom-b-0517","category":"romantique","mode":"action","intensity":2,"text":"Dépose un baiser au creux de la main de {autre}, puis referme ses doigts dessus comme sur un trésor.","remote":false}
+{"id":"rom-b-0518","category":"romantique","mode":"action","intensity":1,"text":"Fais à {autre} un câlin version ours, puis version koala, puis version pingouin.","remote":false}
+{"id":"rom-b-0519","category":"romantique","mode":"action","intensity":3,"text":"Envoie à {autre} trois lignes sur la caresse que tu lui réserves pour ce soir.","remote":true}
+{"id":"rom-b-0520","category":"romantique","mode":"action","intensity":1,"text":"Lis à {autre} un passage de livre en remplaçant le nom des personnages par nos deux prénoms.","remote":false}
+{"id":"rom-b-0521","category":"romantique","mode":"action","intensity":2,"text":"Dis à {autre}, à quelques centimètres de son visage, ce que tu aimes dans son regard.","remote":false}
+{"id":"rom-b-0522","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un bulletin de notes de l'amour, avec trois matières et une appréciation.","remote":true}
+{"id":"rom-b-0523","category":"romantique","mode":"action","intensity":1,"text":"Invente un pas de danse rien qu'à nous deux et apprends-le à {autre} en une minute.","remote":false}
+{"id":"rom-b-0524","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} la photo d'un vêtement que tu aimerais lui voir porter ce soir.","remote":true}
+{"id":"rom-b-0525","category":"romantique","mode":"action","intensity":2,"text":"Embrasse {autre} sur la tempe et murmure « merci d'être là ».","remote":false}
+{"id":"rom-b-0526","category":"romantique","mode":"action","intensity":1,"text":"Propose à {autre} cinq petites attentions pour demain : {autre} en choisit une, tu t'engages à la tenir.","remote":false}
+{"id":"rom-b-0527","category":"romantique","mode":"action","intensity":1,"text":"Joue la bande-annonce du film de notre histoire, voix grave et suspense compris.","remote":false}
+{"id":"rom-b-0528","category":"romantique","mode":"action","intensity":2,"text":"Blottis-toi sur les genoux de {autre}, ou invite {autre} sur les tiens, pendant une minute.","remote":false}
+{"id":"rom-b-0529","category":"romantique","mode":"action","intensity":1,"text":"Forme un cœur avec des objets autour de toi, prends-le en photo et envoie-le à {autre}.","remote":true}
+{"id":"rom-b-0530","category":"romantique","mode":"action","intensity":3,"text":"Masse le dos de {autre} avec une huile ou une crème, en descendant très lentement le long de la colonne.","remote":false}
+{"id":"rom-b-0531","category":"romantique","mode":"action","intensity":1,"text":"Écris le prénom de {autre} avec des objets posés sur la table : couverts, fruits, clés.","remote":false}
+{"id":"rom-b-0532","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} la photo de l'endroit de la maison où tu rêves d'un câlin dès son retour.","remote":true}
+{"id":"rom-b-0533","category":"romantique","mode":"action","intensity":2,"text":"Murmure à {autre} trois choses tendres que tu aimerais faire sous la couette ce soir.","remote":false}
+{"id":"rom-b-0534","category":"romantique","mode":"action","intensity":1,"text":"Appelle {autre} juste pour demander comment s'est passée sa journée, et écoute sans rien faire d'autre.","remote":true}
+{"id":"rom-b-0535","category":"romantique","mode":"action","intensity":1,"text":"Pose une couronne de papier sur la tête de {autre} et proclame son règne sur ton cœur.","remote":false}
+{"id":"rom-b-0536","category":"romantique","mode":"action","intensity":2,"text":"Allonge-toi, la tête sur les genoux de {autre}, et racontez-vous vos journées les yeux dans les yeux.","remote":false}
+{"id":"rom-b-0537","category":"romantique","mode":"action","intensity":1,"text":"Écris un mot doux au feutre sur une banane ou une clémentine, et offre le fruit à {autre}.","remote":false}
+{"id":"rom-b-0538","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} une photo de ta nuque, avec la légende « Ici, il manque tes lèvres ».","remote":true}
+{"id":"rom-b-0539","category":"romantique","mode":"action","intensity":1,"text":"Raconte notre histoire à {autre} en dix secondes, puis en une minute, puis en un seul mot.","remote":false}
+{"id":"rom-b-0540","category":"romantique","mode":"action","intensity":2,"text":"Joue à « chaud ou froid » pour guider {autre} jusqu'à l'endroit où tu veux un baiser.","remote":false}
+{"id":"rom-b-0541","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un lieu où tu rêves de lui donner rendez-vous.","remote":true}
+{"id":"rom-b-0542","category":"romantique","mode":"action","intensity":3,"text":"Glisse tes mains sous le pull de {autre}, à plat dans son dos, et laisse-les réchauffer sa peau.","remote":false}
+{"id":"rom-b-0543","category":"romantique","mode":"action","intensity":1,"text":"Écris une carte postale à {autre} depuis la pièce d'à côté, comme si tu étais à l'autre bout du monde.","remote":false}
+{"id":"rom-b-0544","category":"romantique","mode":"action","intensity":2,"text":"Confie à l'oreille de {autre} ce que tu aimerais vivre demain matin au réveil, avant même le café.","remote":false}
+{"id":"rom-b-0545","category":"romantique","mode":"action","intensity":1,"text":"Remets à {autre} une médaille en papier pour son plus bel exploit tendre de la semaine.","remote":false}
+{"id":"rom-b-0546","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} un message de trois mots seulement, pour lui donner envie de rentrer au plus vite.","remote":true}
+{"id":"rom-b-0547","category":"romantique","mode":"action","intensity":1,"text":"Fabrique un avion en papier, écris un mot doux sur ses ailes et fais-le atterrir près de {autre}.","remote":false}
+{"id":"rom-b-0548","category":"romantique","mode":"action","intensity":2,"text":"Masse la nuque de {autre} avec des gestes lents, le temps d'une chanson entière.","remote":false}
+{"id":"rom-b-0549","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un message qui complète la phrase « Avec toi, j'ai l'impression de… ».","remote":true}
+{"id":"rom-b-0550","category":"romantique","mode":"action","intensity":1,"text":"Apprends à {autre} un signe secret qui voudra dire « je t'aime » quand on est en public.","remote":false}
+{"id":"rom-b-0551","category":"romantique","mode":"action","intensity":3,"text":"Murmure à {autre} ce que tu préfères dans nos nuits, en trois mots seulement.","remote":false}
+{"id":"rom-b-0552","category":"romantique","mode":"action","intensity":2,"text":"Enlace {autre} et décris-lui tout bas notre prochaine escapade à deux.","remote":false}
+{"id":"rom-b-0553","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} trois idées de rendez-vous et laisse-lui choisir le prochain.","remote":true}
+{"id":"rom-b-0554","category":"romantique","mode":"action","intensity":1,"text":"Écris une note d'amour en forme de liste de courses et laisse-la sur le frigo pour {autre}.","remote":false}
+{"id":"rom-b-0555","category":"romantique","mode":"action","intensity":2,"text":"Embrasse {autre} une fois tendrement, une fois passionnément, puis demande lequel l'emporte.","remote":false}
+{"id":"rom-b-0556","category":"romantique","mode":"action","intensity":2,"text":"Écris à {autre} un message qui commence par « Ce qui me trouble chez toi, c'est… ».","remote":true}
+{"id":"rom-b-0557","category":"romantique","mode":"action","intensity":1,"text":"Pose ta main sur le cœur de {autre} et fais-lui une petite promesse pour cette semaine.","remote":false}
+{"id":"rom-b-0558","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu joues l'animateur radio qui lui dédie une chanson d'amour.","remote":true}
+{"id":"rom-b-0559","category":"romantique","mode":"action","intensity":2,"text":"Respire l'odeur des cheveux de {autre} et décris-la comme un parfumeur : notes de tête, de cœur et de fond.","remote":false}
+{"id":"rom-b-0560","category":"romantique","mode":"action","intensity":1,"text":"Écris au stylo un mot doux sur le dos de la main de {autre}.","remote":false}
+{"id":"rom-b-0561","category":"romantique","mode":"action","intensity":3,"text":"Écris à {autre} le programme d'une soirée sensuelle en trois étapes, de l'apéritif à la couette.","remote":true}
+{"id":"rom-b-0562","category":"romantique","mode":"action","intensity":1,"text":"Fais un compte à rebours de dix avant un câlin, avec la voix d'une fusée qui décolle.","remote":false}
+{"id":"rom-b-0563","category":"romantique","mode":"action","intensity":2,"text":"Invente un baiser signature rien qu'à nous, donne-lui un nom et fais-le découvrir à {autre}.","remote":false}
+{"id":"rom-b-0564","category":"romantique","mode":"action","intensity":1,"text":"Rédige un contrat d'amour en trois clauses et fais-le signer à {autre}.","remote":false}
+{"id":"rom-b-0565","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} un selfie avec ton regard le plus charmeur, sans un mot.","remote":true}
+{"id":"rom-b-0566","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} une photo de ta tenue du jour avec la question « Validé pour notre prochain rendez-vous ? ».","remote":true}
+{"id":"rom-b-0567","category":"romantique","mode":"action","intensity":2,"text":"Glisse-toi dans les bras de {autre} et dis ce que tu y trouves que tu ne trouves nulle part ailleurs.","remote":false}
+{"id":"rom-b-0568","category":"romantique","mode":"action","intensity":1,"text":"Borde {autre} sous un plaid comme le bien le plus précieux de la maison.","remote":false}
+{"id":"rom-b-0569","category":"romantique","mode":"action","intensity":3,"text":"Approche tes lèvres de celles de {autre} et arrête-toi à un souffle pendant cinq secondes avant le baiser.","remote":false}
+{"id":"rom-b-0570","category":"romantique","mode":"action","intensity":1,"text":"Fais trois vœux pour {autre} à voix haute, puis souffle sur une bougie imaginaire.","remote":false}
+{"id":"rom-b-0571","category":"romantique","mode":"action","intensity":2,"text":"Embrasse {autre} derrière l'oreille, puis murmure un mot doux exactement au même endroit.","remote":false}
+{"id":"rom-b-0572","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu lis à voix haute le premier message que tu lui as écrit.","remote":true}
+{"id":"rom-b-0573","category":"romantique","mode":"action","intensity":1,"text":"Mets une musique douce, sers un verre à {autre} et annonce : « Ce soir, c'est notre premier rendez-vous. »","remote":false}
+{"id":"rom-b-0574","category":"romantique","mode":"action","intensity":2,"text":"Écris à {autre} la liste des pièces de la maison où tu comptes lui voler un baiser aujourd'hui.","remote":true}
+{"id":"rom-b-0575","category":"romantique","mode":"action","intensity":2,"text":"Donne à {autre} un baiser au goût de miel, de chocolat ou de fruit, selon ce que cache le placard.","remote":false}
+{"id":"rom-b-0576","category":"romantique","mode":"action","intensity":1,"text":"Présente {autre} à une plante de la maison comme « l'amour de ma vie », avec toutes les politesses.","remote":false}
+{"id":"rom-b-0577","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu chantes une déclaration sur l'air de « Joyeux anniversaire ».","remote":true}
+{"id":"rom-b-0578","category":"romantique","mode":"action","intensity":3,"text":"Fais glisser un glaçon le long du bras de {autre}, puis réchauffe l'endroit d'un baiser.","remote":false}
+{"id":"rom-b-0579","category":"romantique","mode":"action","intensity":2,"text":"Rejoue avec {autre} des retrouvailles après dix ans d'absence, course au ralenti comprise.","remote":false}
+{"id":"rom-b-0580","category":"romantique","mode":"action","intensity":1,"text":"Dessine une bague au stylo autour d'un doigt de {autre} et fais ta grande demande… de câlin.","remote":false}
+{"id":"rom-b-0581","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} la photo en gros plan d'un détail de toi que {autre} adore, sans légende.","remote":true}
+{"id":"rom-b-0582","category":"romantique","mode":"action","intensity":1,"text":"Ouvre la porte, tire la chaise ou tends le plaid à {autre} avec les manières d'un grand hôtel.","remote":false}
+{"id":"rom-b-0583","category":"romantique","mode":"action","intensity":2,"text":"Yeux fermés, retrouve les lèvres de {autre} en te laissant guider par sa voix.","remote":false}
+{"id":"rom-b-0584","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} trois petits bonheurs que tu veux vivre à deux avant la fin du mois.","remote":true}
+{"id":"rom-b-0585","category":"romantique","mode":"action","intensity":1,"text":"Lis une recette de cuisine à {autre} comme s'il s'agissait d'un poème d'amour.","remote":false}
+{"id":"rom-b-0586","category":"romantique","mode":"action","intensity":3,"text":"Écris à {autre} quel vêtement tu lui retireras en premier ce soir, et avec quelle lenteur.","remote":true}
+{"id":"rom-b-0587","category":"romantique","mode":"action","intensity":2,"text":"Caresse la joue de {autre} du dos de la main, puis du bout du nez.","remote":false}
+{"id":"rom-b-0588","category":"romantique","mode":"action","intensity":1,"text":"Garde la main de {autre} dans la tienne jusqu'à la fin de la partie.","remote":false}
+{"id":"rom-b-0589","category":"romantique","mode":"action","intensity":2,"text":"Raconte par message à {autre} le moment de la journée où tu as eu le plus envie de ses bras.","remote":true}
+{"id":"rom-b-0590","category":"romantique","mode":"action","intensity":1,"text":"Écris à {autre} un faux horoscope du jour, entièrement consacré à notre amour.","remote":true}
+{"id":"rom-b-0591","category":"romantique","mode":"action","intensity":2,"text":"Prépare une douche ou un bain chaud pour {autre} et propose de lui savonner le dos.","remote":false}
+{"id":"rom-b-0592","category":"romantique","mode":"action","intensity":1,"text":"Invente un slogan pour notre couple et scandez-le ensemble, poing levé.","remote":false}
+{"id":"rom-b-0593","category":"romantique","mode":"action","intensity":3,"text":"Pose un baiser au creux des reins de {autre}, par-dessus le tissu, sans dire un mot.","remote":false}
+{"id":"rom-b-0594","category":"romantique","mode":"action","intensity":1,"text":"Murmure un compliment à {autre} dans une langue inventée, puis traduis-le.","remote":false}
+{"id":"rom-b-0595","category":"romantique","mode":"action","intensity":2,"text":"Allume une bougie et partage un en-cas avec {autre} à sa seule lumière, même cinq minutes.","remote":false}
+{"id":"rom-b-0596","category":"romantique","mode":"action","intensity":1,"text":"Écris à {autre} une critique cinq étoiles de sa présence dans ta vie.","remote":true}
+{"id":"rom-b-0597","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} trois mots pour décrire sa voix, et un quatrième pour l'effet qu'elle te fait.","remote":true}
+{"id":"rom-b-0598","category":"romantique","mode":"action","intensity":1,"text":"Présente un tutoriel express : « Comment craquer pour {autre} en trois étapes ».","remote":false}
+{"id":"rom-b-0599","category":"romantique","mode":"action","intensity":2,"text":"Embrasse {autre} sous un plaid tendu comme une tente, comme deux ados qui se cachent.","remote":false}
+{"id":"rom-b-0600","category":"romantique","mode":"action","intensity":1,"text":"Serre la main de {autre} trois fois pour dire « je t'aime », et invente la réponse en quatre pressions.","remote":false}
+{"id":"rom-b-0601","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} la photo d'un objet de ta journée en expliquant en une phrase pourquoi il lui ressemble.","remote":true}
+{"id":"rom-b-0602","category":"romantique","mode":"action","intensity":1,"text":"Trouve un compliment pour chaque lettre du mot « tendresse » et lis-les à {autre}.","remote":false}
+{"id":"rom-b-0603","category":"romantique","mode":"action","intensity":2,"text":"Fais sentir à {autre}, les yeux fermés, trois odeurs de la cuisine, et offre un baiser pour chaque bonne réponse.","remote":false}
+{"id":"rom-b-0604","category":"romantique","mode":"action","intensity":1,"text":"Enregistre pour {autre} un vocal de dix secondes où l'on t'entend seulement sourire.","remote":true}
+{"id":"rom-b-0605","category":"romantique","mode":"action","intensity":1,"text":"Dessine le plan de votre maison de rêve et présente-le à {autre} comme un architecte devant son chef-d'œuvre.","remote":false}
+{"id":"rom-b-0606","category":"romantique","mode":"action","intensity":2,"text":"Chuchote à {autre} une histoire de trois phrases où deux personnes se retrouvent après une longue tempête.","remote":false}
+{"id":"rom-b-0607","category":"romantique","mode":"action","intensity":3,"text":"Fais glisser lentement la fermeture du pull ou de la veste de {autre}, sans quitter son regard.","remote":false}
+{"id":"rom-b-0608","category":"romantique","mode":"action","intensity":1,"text":"Noue un fil ou un ruban autour du poignet de {autre} et dis ce que ce lien représente pour toi.","remote":false}
+{"id":"rom-b-0609","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} la première pensée qui te vient quand son nom s'affiche sur ton écran.","remote":true}
+{"id":"rom-b-0610","category":"romantique","mode":"action","intensity":1,"text":"Choisis une chanson et envoie-la à {autre} avec un vocal de dédicace aussi solennel que possible.","remote":true}
+{"id":"rom-b-0611","category":"romantique","mode":"action","intensity":2,"text":"Propose à {autre} un marché : un compliment bien tourné contre un baiser à l'endroit de son choix.","remote":false}
+{"id":"rom-b-0612","category":"romantique","mode":"action","intensity":1,"text":"Écris à {autre} trois mots qui commencent par la première lettre de son prénom et disent ce que tu ressens.","remote":true}
+{"id":"rom-b-0613","category":"romantique","mode":"action","intensity":2,"text":"Prends {autre} par la taille et lancez-vous dans trois pas de tango, avec baiser à la clé.","remote":false}
+{"id":"rom-b-0614","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} un vocal où tu décris sa démarche, son rire et sa façon de te regarder.","remote":true}
+{"id":"rom-b-0615","category":"romantique","mode":"action","intensity":1,"text":"Prépare pour {autre} une assiette en forme de cœur ou de sourire avec ce que contient le frigo.","remote":false}
+{"id":"rom-b-0616","category":"romantique","mode":"action","intensity":2,"text":"Chuchote à {autre} les trois premiers mots d'une phrase tendre, puis laisse {autre} inventer la suite.","remote":false}
+{"id":"rom-b-0617","category":"romantique","mode":"action","intensity":3,"text":"Allonge-toi contre {autre} et suis du bout des doigts la ligne de son bras, de l'épaule à la main.","remote":false}
+{"id":"rom-b-0618","category":"romantique","mode":"action","intensity":1,"text":"Cherche l'objet le plus doux du salon et offre-le à {autre} pour la soirée, avec un petit mot de présentation.","remote":false}
+{"id":"rom-b-0619","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} le souvenir d'un de ses regards qui t'a fait baisser les yeux.","remote":true}
+{"id":"rom-b-0620","category":"romantique","mode":"action","intensity":1,"text":"Organise un concours de grimaces avec {autre} et récompense la plus belle d'un baiser.","remote":false}
+{"id":"rom-b-0621","category":"romantique","mode":"action","intensity":3,"text":"Envoie à {autre} quatre mots qui disent ce qui se passera quand la porte sera fermée ce soir.","remote":true}
+{"id":"rom-b-0622","category":"romantique","mode":"action","intensity":2,"text":"Assieds-toi dos à dos avec {autre} et dites-vous tour à tour une chose tendre, sans vous retourner.","remote":false}
+{"id":"rom-b-0623","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} une fausse alerte info : « Urgent, quelqu'un pense très fort à toi en ce moment ».","remote":true}
+{"id":"rom-b-0624","category":"romantique","mode":"action","intensity":2,"text":"Danse avec {autre} à dix centimètres de distance, sans te toucher, jusqu'à ce que l'envie de vous rapprocher soit trop forte.","remote":false}
+{"id":"rom-b-0625","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} le récit en quatre phrases d'une journée imaginaire sur une île à deux, heure par heure.","remote":true}
+{"id":"rom-b-0626","category":"romantique","mode":"action","intensity":1,"text":"Envoie à {autre} la liste de trois choses que tu feras demain pour lui faire plaisir.","remote":true}
+{"id":"rom-b-0627","category":"romantique","mode":"action","intensity":2,"text":"Pose ton oreille contre le dos de {autre} et demande-lui de parler pour sentir sa voix résonner.","remote":false}
+{"id":"rom-b-0628","category":"romantique","mode":"action","intensity":1,"text":"Joue un spectacle de marionnettes où deux chaussettes se déclarent leur flamme devant {autre}.","remote":false}
+{"id":"rom-b-0629","category":"romantique","mode":"action","intensity":2,"text":"Envoie à {autre} un message qui décrit votre rendez-vous idéal sous la pluie, baiser compris, en cinq lignes.","remote":true}
+{"id":"rom-b-0630","category":"romantique","mode":"action","intensity":2,"text":"Murmure à {autre} un secret tendre qui commence par « Ne le répète à personne, mais… ».","remote":false}
+{"id":"rom-b-0631","category":"romantique","mode":"envie","intensity":1,"text":"Un petit-déjeuner au lit improvisé un dimanche matin"}
+{"id":"rom-b-0632","category":"romantique","mode":"envie","intensity":1,"text":"Un pique-nique au lever du soleil avec une thermos de café"}
+{"id":"rom-b-0633","category":"romantique","mode":"envie","intensity":1,"text":"Passer une soirée entière à cuisiner un plat compliqué à deux"}
+{"id":"rom-b-0634","category":"romantique","mode":"envie","intensity":1,"text":"Une balade main dans la main sous la pluie, sans parapluie"}
+{"id":"rom-b-0635","category":"romantique","mode":"envie","intensity":1,"text":"Observer les étoiles filantes sur un plaid, en pleine nuit d'été"}
+{"id":"rom-b-0636","category":"romantique","mode":"envie","intensity":1,"text":"Écrire chacun une lettre d'amour à ouvrir dans un an"}
+{"id":"rom-b-0637","category":"romantique","mode":"envie","intensity":1,"text":"Un échange de cadeaux faits main, sans rien acheter"}
+{"id":"rom-b-0638","category":"romantique","mode":"envie","intensity":1,"text":"Faire une série de photos en cabine, avec des poses de plus en plus tendres"}
+{"id":"rom-b-0639","category":"romantique","mode":"envie","intensity":1,"text":"Passer une journée sans écran, rien que nous deux"}
+{"id":"rom-b-0640","category":"romantique","mode":"envie","intensity":1,"text":"Danser dans la cuisine en préparant le dîner"}
+{"id":"rom-b-0641","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée jeux de société avec un baiser pour chaque victoire"}
+{"id":"rom-b-0642","category":"romantique","mode":"envie","intensity":1,"text":"Un tour de grande roue au coucher du soleil"}
+{"id":"rom-b-0643","category":"romantique","mode":"envie","intensity":1,"text":"Se raconter un souvenir d'enfance chacun son tour, sous la couette"}
+{"id":"rom-b-0644","category":"romantique","mode":"envie","intensity":1,"text":"Se dessiner mutuellement, même très mal, et accrocher les portraits au mur"}
+{"id":"rom-b-0645","category":"romantique","mode":"envie","intensity":1,"text":"Écrire une chanson à deux, même sans savoir chanter"}
+{"id":"rom-b-0646","category":"romantique","mode":"envie","intensity":1,"text":"Une glace partagée sur un banc, face au coucher du soleil"}
+{"id":"rom-b-0647","category":"romantique","mode":"envie","intensity":1,"text":"Un marché le samedi matin, panier au bras, pour choisir le repas du soir"}
+{"id":"rom-b-0648","category":"romantique","mode":"envie","intensity":1,"text":"Rester au lit jusqu'à midi sans aucune culpabilité"}
+{"id":"rom-b-0649","category":"romantique","mode":"envie","intensity":1,"text":"Planter ensemble quelque chose qui poussera avec le temps"}
+{"id":"rom-b-0650","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée karaoké maison avec uniquement des chansons d'amour"}
+{"id":"rom-b-0651","category":"romantique","mode":"envie","intensity":1,"text":"Un cours de danse à deux, même avec deux pieds gauches"}
+{"id":"rom-b-0652","category":"romantique","mode":"envie","intensity":1,"text":"Un album de nos plus beaux moments, fabriqué à la main"}
+{"id":"rom-b-0653","category":"romantique","mode":"envie","intensity":1,"text":"Passer une soirée à lire côte à côte, les pieds mêlés"}
+{"id":"rom-b-0654","category":"romantique","mode":"envie","intensity":1,"text":"Un week-end dans une cabane perchée au milieu des arbres"}
+{"id":"rom-b-0655","category":"romantique","mode":"envie","intensity":1,"text":"Une nuit dans un lieu insolite : yourte, roulotte ou péniche"}
+{"id":"rom-b-0656","category":"romantique","mode":"envie","intensity":1,"text":"Faire du vélo à deux jusqu'à un endroit que personne ne connaît"}
+{"id":"rom-b-0657","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée crêpes où chacun invente la garniture de l'autre"}
+{"id":"rom-b-0658","category":"romantique","mode":"envie","intensity":1,"text":"Un rendez-vous surprise par mois, organisé chacun son tour"}
+{"id":"rom-b-0659","category":"romantique","mode":"envie","intensity":1,"text":"Se promener dans une ville inconnue sans plan ni destination"}
+{"id":"rom-b-0660","category":"romantique","mode":"envie","intensity":1,"text":"Un moment de silence complice au bord d'un lac ou d'un étang"}
+{"id":"rom-b-0661","category":"romantique","mode":"envie","intensity":1,"text":"Écrire nos souhaits pour l'année sur des papiers à ouvrir ensemble"}
+{"id":"rom-b-0662","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée comme au premier rendez-vous, tenue de sortie incluse"}
+{"id":"rom-b-0663","category":"romantique","mode":"envie","intensity":1,"text":"Chanter à tue-tête dans la voiture sur nos chansons préférées"}
+{"id":"rom-b-0664","category":"romantique","mode":"envie","intensity":1,"text":"Passer un après-midi en librairie à se choisir un livre l'un à l'autre"}
+{"id":"rom-b-0665","category":"romantique","mode":"envie","intensity":1,"text":"Un bouquet de fleurs sauvages cueillies un dimanche, offert sans raison"}
+{"id":"rom-b-0666","category":"romantique","mode":"envie","intensity":2,"text":"Un bain à deux avec des bougies et de la musique douce"}
+{"id":"rom-b-0667","category":"romantique","mode":"envie","intensity":2,"text":"Un dîner aux chandelles où l'on se donne la becquée"}
+{"id":"rom-b-0668","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée entière où l'on ne se parle qu'à voix basse"}
+{"id":"rom-b-0669","category":"romantique","mode":"envie","intensity":2,"text":"Un massage à tour de rôle avec une huile qui sent bon, sans un mot, sur une playlist douce"}
+{"id":"rom-b-0670","category":"romantique","mode":"envie","intensity":2,"text":"Un bain de minuit dans un lac ou à la mer en été"}
+{"id":"rom-b-0671","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée devant un feu de cheminée, avec couvertures et chocolat chaud"}
+{"id":"rom-b-0672","category":"romantique","mode":"envie","intensity":2,"text":"Passer une nuit entière à discuter dans le noir, sans regarder l'heure"}
+{"id":"rom-b-0673","category":"romantique","mode":"envie","intensity":2,"text":"Un week-end au lit avec repas livrés et aucune obligation"}
+{"id":"rom-b-0674","category":"romantique","mode":"envie","intensity":2,"text":"S'endormir l'un contre l'autre, front contre front"}
+{"id":"rom-b-0675","category":"romantique","mode":"envie","intensity":2,"text":"Se réveiller en douceur, avec des baisers pour seul réveil"}
+{"id":"rom-b-0676","category":"romantique","mode":"envie","intensity":2,"text":"Se lire à voix haute des poèmes d'amour sous la couette"}
+{"id":"rom-b-0677","category":"romantique","mode":"envie","intensity":2,"text":"Une douche à deux, savon et fous rires inclus"}
+{"id":"rom-b-0678","category":"romantique","mode":"envie","intensity":2,"text":"Se déguiser pour une soirée à thème rien que pour nous deux"}
+{"id":"rom-b-0679","category":"romantique","mode":"envie","intensity":2,"text":"Un cours de salsa ou de tango pour sentir le rythme de l'autre"}
+{"id":"rom-b-0680","category":"romantique","mode":"envie","intensity":2,"text":"Un jeu de cartes où chaque manche perdue se paie d'un baiser"}
+{"id":"rom-b-0681","category":"romantique","mode":"envie","intensity":2,"text":"Une nuit d'hôtel dans notre propre ville, juste pour le dépaysement"}
+{"id":"rom-b-0682","category":"romantique","mode":"envie","intensity":2,"text":"Un week-end spa avec bains chauds, massages et grasses matinées"}
+{"id":"rom-b-0683","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée où l'on se fait la cour comme à l'époque des bals et des lettres"}
+{"id":"rom-b-0684","category":"romantique","mode":"envie","intensity":2,"text":"Un jeu de regards complices pendant un repas entre amis, sans un mot"}
+{"id":"rom-b-0685","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser interminable devant un coucher de soleil"}
+{"id":"rom-b-0686","category":"romantique","mode":"envie","intensity":2,"text":"Un matin entier de câlins avec les téléphones éteints"}
+{"id":"rom-b-0687","category":"romantique","mode":"envie","intensity":2,"text":"Un marathon de films d'amour en pyjama, entre câlins et popcorn"}
+{"id":"rom-b-0688","category":"romantique","mode":"envie","intensity":2,"text":"Un pique-nique dans le salon, sur une nappe et à la bougie, en plein hiver"}
+{"id":"rom-b-0689","category":"romantique","mode":"envie","intensity":2,"text":"Une séance photo en noir et blanc rien que pour nous, qu'on ne montrera à personne"}
+{"id":"rom-b-0690","category":"romantique","mode":"envie","intensity":2,"text":"S'embrasser dans chaque lieu qui compte dans notre histoire"}
+{"id":"rom-b-0691","category":"romantique","mode":"envie","intensity":2,"text":"Se chanter une berceuse à l'oreille, le temps de s'endormir"}
+{"id":"rom-b-0692","category":"romantique","mode":"envie","intensity":2,"text":"Se choisir mutuellement la tenue avant une sortie chic"}
+{"id":"rom-b-0693","category":"romantique","mode":"envie","intensity":2,"text":"Une heure de caresses sans but ni programme, juste pour le plaisir de se toucher"}
+{"id":"rom-b-0694","category":"romantique","mode":"envie","intensity":3,"text":"Un massage lent à l'huile parfumée, à la bougie, de la nuque jusqu'aux chevilles"}
+{"id":"rom-b-0695","category":"romantique","mode":"envie","intensity":3,"text":"Une soirée en peignoir et en silence, où chaque geste devient une invitation"}
+{"id":"rom-b-0696","category":"romantique","mode":"envie","intensity":3,"text":"Se déshabiller mutuellement avec une lenteur calculée"}
+{"id":"rom-b-0697","category":"romantique","mode":"envie","intensity":3,"text":"Une nuit entière où l'on prend tout son temps, sans montre ni programme"}
+{"id":"rom-b-0698","category":"romantique","mode":"envie","intensity":3,"text":"Redécouvrir le corps de l'autre du bout des lèvres, centimètre par centimètre"}
+{"id":"rom-b-0699","category":"romantique","mode":"envie","intensity":3,"text":"Une soirée où chacun dit à l'autre, tout bas, où poser les mains"}
+{"id":"rom-b-0700","category":"romantique","mode":"envie","intensity":3,"text":"Un matin de week-end qui commence par des caresses et finit à l'heure du déjeuner"}
+{"id":"rom-b-0701","category":"romantique","mode":"envie","intensity":1,"text":"Un week-end surprise dont l'autre ne connaît que l'heure du départ"}
+{"id":"rom-b-0702","category":"romantique","mode":"envie","intensity":1,"text":"Une nuit à la belle étoile au sommet d'une colline"}
+{"id":"rom-b-0703","category":"romantique","mode":"envie","intensity":1,"text":"Une visite de musée où l'on choisit chacun l'œuvre qui ressemble à l'autre"}
+{"id":"rom-b-0704","category":"romantique","mode":"envie","intensity":1,"text":"Un voyage en train sans réservation de retour"}
+{"id":"rom-b-0705","category":"romantique","mode":"envie","intensity":1,"text":"Un week-end à la mer en plein hiver, avec une longue marche sur la plage déserte"}
+{"id":"rom-b-0706","category":"romantique","mode":"envie","intensity":1,"text":"Un road trip de trois jours en laissant la route décider"}
+{"id":"rom-b-0707","category":"romantique","mode":"envie","intensity":1,"text":"Une randonnée jusqu'à un point de vue, avec une tablette de chocolat pour récompense"}
+{"id":"rom-b-0708","category":"romantique","mode":"envie","intensity":1,"text":"Un dîner sur le balcon ou la terrasse, la première soirée douce du printemps"}
+{"id":"rom-b-0709","category":"romantique","mode":"envie","intensity":1,"text":"Un cadeau-surprise caché dans le quotidien : une poche, un sac, un tiroir"}
+{"id":"rom-b-0710","category":"romantique","mode":"envie","intensity":1,"text":"Une boîte à souvenirs où l'on glisse un objet pour chaque moment fort vécu à deux"}
+{"id":"rom-b-0711","category":"romantique","mode":"envie","intensity":1,"text":"Un calendrier de mots doux, un par jour pendant un mois"}
+{"id":"rom-b-0712","category":"romantique","mode":"envie","intensity":1,"text":"Un coffret de lettres à ouvrir les jours de cafard"}
+{"id":"rom-b-0713","category":"romantique","mode":"envie","intensity":1,"text":"Un jour où l'on dit oui à toutes les idées de l'autre"}
+{"id":"rom-b-0714","category":"romantique","mode":"envie","intensity":1,"text":"Un rendez-vous dans un endroit qu'on n'a jamais exploré"}
+{"id":"rom-b-0715","category":"romantique","mode":"envie","intensity":1,"text":"Un jour de congé volé en pleine semaine pour une balade improvisée"}
+{"id":"rom-b-0716","category":"romantique","mode":"envie","intensity":1,"text":"Cuisiner le plat préféré de l'autre sans rien lui dire"}
+{"id":"rom-b-0717","category":"romantique","mode":"envie","intensity":1,"text":"Un repas du monde à la maison, avec un nouveau pays à chaque rendez-vous"}
+{"id":"rom-b-0718","category":"romantique","mode":"envie","intensity":1,"text":"Un atelier de poterie ou de peinture à deux, en riant du résultat"}
+{"id":"rom-b-0719","category":"romantique","mode":"envie","intensity":1,"text":"Un concert en plein air, avec une couverture étendue dans l'herbe"}
+{"id":"rom-b-0720","category":"romantique","mode":"envie","intensity":1,"text":"Un cinéma en plein air sous les étoiles"}
+{"id":"rom-b-0721","category":"romantique","mode":"envie","intensity":1,"text":"Une chasse aux antiquités le dimanche pour dénicher un objet qui nous ressemble"}
+{"id":"rom-b-0722","category":"romantique","mode":"envie","intensity":1,"text":"Une escapade en canoë ou en pédalo sur un lac calme"}
+{"id":"rom-b-0723","category":"romantique","mode":"envie","intensity":1,"text":"Un escape game à deux, où chacun doit compter sur l'autre"}
+{"id":"rom-b-0724","category":"romantique","mode":"envie","intensity":1,"text":"Un cours de cuisine pour apprendre à faire des pâtes ou du pain ensemble"}
+{"id":"rom-b-0725","category":"romantique","mode":"envie","intensity":1,"text":"Une playlist de nos souvenirs, avec un morceau pour chaque année passée ensemble"}
+{"id":"rom-b-0726","category":"romantique","mode":"envie","intensity":1,"text":"Un petit rituel du soir : trois choses pour lesquelles on dit merci"}
+{"id":"rom-b-0727","category":"romantique","mode":"envie","intensity":1,"text":"Une journée de remerciements, des plus petits détails aux plus grands"}
+{"id":"rom-b-0728","category":"romantique","mode":"envie","intensity":1,"text":"Un pèlerinage dans la ville où tout a commencé"}
+{"id":"rom-b-0729","category":"romantique","mode":"envie","intensity":1,"text":"Un déjeuner surprise apporté sur le lieu de travail de l'autre"}
+{"id":"rom-b-0730","category":"romantique","mode":"envie","intensity":1,"text":"Un mot doux collé sur le miroir de la salle de bain chaque matin pendant une semaine"}
+{"id":"rom-b-0731","category":"romantique","mode":"envie","intensity":1,"text":"Une carte postale envoyée à l'autre depuis chaque ville où l'on passe"}
+{"id":"rom-b-0732","category":"romantique","mode":"envie","intensity":1,"text":"Une bougie allumée à chaque dîner à deux, comme un petit rituel"}
+{"id":"rom-b-0733","category":"romantique","mode":"envie","intensity":1,"text":"Un câlin de dix minutes aux retrouvailles du soir, avant toute conversation"}
+{"id":"rom-b-0734","category":"romantique","mode":"envie","intensity":1,"text":"Une capsule temporelle à cacher, à rouvrir dans dix ans"}
+{"id":"rom-b-0735","category":"romantique","mode":"envie","intensity":1,"text":"Un week-end dans un phare, un moulin ou un château, comme dans un conte"}
+{"id":"rom-b-0736","category":"romantique","mode":"envie","intensity":1,"text":"Un feu de camp avec des guimauves et des histoires à voix basse"}
+{"id":"rom-b-0737","category":"romantique","mode":"envie","intensity":1,"text":"Un tournoi maison avec trophée et cérémonie de remise des médailles"}
+{"id":"rom-b-0738","category":"romantique","mode":"envie","intensity":1,"text":"Apprendre à se dire « je t'aime » dans une langue qu'on ne parle pas"}
+{"id":"rom-b-0739","category":"romantique","mode":"envie","intensity":1,"text":"Un mur de nos photos préférées, à compléter chaque mois"}
+{"id":"rom-b-0740","category":"romantique","mode":"envie","intensity":1,"text":"Un coucher de soleil vu depuis un toit ou un point haut de la ville"}
+{"id":"rom-b-0741","category":"romantique","mode":"envie","intensity":1,"text":"Une journée à jouer les touristes dans notre propre ville"}
+{"id":"rom-b-0742","category":"romantique","mode":"envie","intensity":1,"text":"Une promenade en forêt pour ramasser feuilles et marrons, et en faire un cadre"}
+{"id":"rom-b-0743","category":"romantique","mode":"envie","intensity":1,"text":"Une écharpe ou un bonnet tricoté de nos mains pour l'autre"}
+{"id":"rom-b-0744","category":"romantique","mode":"envie","intensity":1,"text":"Un livre lu à voix haute, un chapitre chaque soir"}
+{"id":"rom-b-0745","category":"romantique","mode":"envie","intensity":1,"text":"Un dessin fait à quatre mains sur la même feuille"}
+{"id":"rom-b-0746","category":"romantique","mode":"envie","intensity":1,"text":"Cuisiner à l'aveugle en suivant seulement les instructions de l'autre"}
+{"id":"rom-b-0747","category":"romantique","mode":"envie","intensity":1,"text":"Une journée où l'on choisit chacun la moitié du programme"}
+{"id":"rom-b-0748","category":"romantique","mode":"envie","intensity":1,"text":"Un déjeuner sur l'herbe avec nappe à carreaux et panier en osier"}
+{"id":"rom-b-0749","category":"romantique","mode":"envie","intensity":1,"text":"Une escapade dans un village de montagne, avec de la neige et une cheminée"}
+{"id":"rom-b-0750","category":"romantique","mode":"envie","intensity":1,"text":"Un spectacle découvert au hasard d'une promenade, sans rien avoir réservé"}
+{"id":"rom-b-0751","category":"romantique","mode":"envie","intensity":2,"text":"Un message coquin laissé sur le miroir de la chambre pour la fin de soirée"}
+{"id":"rom-b-0752","category":"romantique","mode":"envie","intensity":2,"text":"Une lettre d'amour franche, qui dit sans détour ce qui nous attire"}
+{"id":"rom-b-0753","category":"romantique","mode":"envie","intensity":2,"text":"Un rendez-vous où l'on s'habille pour faire tourner la tête de l'autre"}
+{"id":"rom-b-0754","category":"romantique","mode":"envie","intensity":2,"text":"Un dîner aux chandelles où personne ne parle de travail ni d'organisation"}
+{"id":"rom-b-0755","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser langoureux sur le quai d'une gare, comme dans les films"}
+{"id":"rom-b-0756","category":"romantique","mode":"envie","intensity":2,"text":"Un jeu de séduction à distance : un message mystérieux par heure pendant la journée"}
+{"id":"rom-b-0757","category":"romantique","mode":"envie","intensity":2,"text":"Un compliment piquant glissé en public, codé pour que l'autre comprenne et personne d'autre"}
+{"id":"rom-b-0758","category":"romantique","mode":"envie","intensity":2,"text":"Un week-end où l'on vit comme en lune de miel, dans la ville de notre choix"}
+{"id":"rom-b-0759","category":"romantique","mode":"envie","intensity":2,"text":"Une chambre d'hôtel réservée à l'heure du déjeuner, pour le plaisir de se retrouver"}
+{"id":"rom-b-0760","category":"romantique","mode":"envie","intensity":2,"text":"Un cours de massage à deux, pour apprendre à se faire du bien"}
+{"id":"rom-b-0761","category":"romantique","mode":"envie","intensity":2,"text":"Une nuit sous la tente, à se serrer fort pour avoir chaud"}
+{"id":"rom-b-0762","category":"romantique","mode":"envie","intensity":2,"text":"Un jeu de devinettes tendres : deviner où l'autre rêve d'être embrassé"}
+{"id":"rom-b-0763","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser par heure pendant toute une soirée"}
+{"id":"rom-b-0764","category":"romantique","mode":"envie","intensity":2,"text":"Un apéritif en tête-à-tête, avec des regards qui en disent long"}
+{"id":"rom-b-0765","category":"romantique","mode":"envie","intensity":2,"text":"Une journée de petits frôlements pour faire monter l'attente jusqu'au soir"}
+{"id":"rom-b-0766","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée d'aveux où l'on dit à voix haute ce qu'on n'a jamais osé dire"}
+{"id":"rom-b-0767","category":"romantique","mode":"envie","intensity":2,"text":"Un tango à la maison, avec une rose entre les dents ou une carotte à défaut"}
+{"id":"rom-b-0768","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser sur chaque marche de l'escalier"}
+{"id":"rom-b-0769","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser sur un banc de parc, à l'heure où le soir tombe"}
+{"id":"rom-b-0770","category":"romantique","mode":"envie","intensity":2,"text":"Une promenade nocturne avec un baiser à chaque lampadaire"}
+{"id":"rom-b-0771","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée soins : masques pour le visage, peignoirs et fous rires"}
+{"id":"rom-b-0772","category":"romantique","mode":"envie","intensity":2,"text":"Une sieste à deux sur une plage presque déserte, la peau tiède de soleil"}
+{"id":"rom-b-0773","category":"romantique","mode":"envie","intensity":2,"text":"Un tête-à-tête où l'on dit tour à tour ce qui nous plaît chez l'autre, des pieds à la tête"}
+{"id":"rom-b-0774","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser dans un ascenseur, entre deux étages"}
+{"id":"rom-b-0775","category":"romantique","mode":"envie","intensity":2,"text":"Une nuit d'été, fenêtres ouvertes, avec pour seule couverture la brise"}
+{"id":"rom-b-0776","category":"romantique","mode":"envie","intensity":2,"text":"Une chasse aux mots doux cachés dans la maison, avec un baiser pour chaque trouvaille"}
+{"id":"rom-b-0777","category":"romantique","mode":"envie","intensity":2,"text":"Un cocktail sans alcool inventé ensemble et baptisé du nom de notre couple"}
+{"id":"rom-b-0778","category":"romantique","mode":"envie","intensity":2,"text":"Un quart d'heure pour dire à l'autre tout ce qu'on admire, sans être interrompu"}
+{"id":"rom-b-0779","category":"romantique","mode":"envie","intensity":2,"text":"Un week-end sans rien planifier, où l'on suit uniquement les envies du moment"}
+{"id":"rom-b-0780","category":"romantique","mode":"envie","intensity":2,"text":"Un slow improvisé sur le sable, les pieds dans l'eau"}
+{"id":"rom-b-0781","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée où l'on échange nos pulls ou nos chemises pour se voir autrement"}
+{"id":"rom-b-0782","category":"romantique","mode":"envie","intensity":2,"text":"Un dîner de Saint-Valentin en plein mois de juillet, avec roses et chandelles"}
+{"id":"rom-b-0783","category":"romantique","mode":"envie","intensity":2,"text":"Attendre l'autre à la sortie du travail avec un bouquet ou un mot doux"}
+{"id":"rom-b-0784","category":"romantique","mode":"envie","intensity":2,"text":"Crier « je t'aime » depuis le haut d'une colline, face à la vallée"}
+{"id":"rom-b-0785","category":"romantique","mode":"envie","intensity":2,"text":"Un shampoing massant à tour de rôle, avec toute la douceur du monde"}
+{"id":"rom-b-0786","category":"romantique","mode":"envie","intensity":2,"text":"Un défilé privé où chacun présente à l'autre ses plus belles tenues, avec commentaire de star"}
+{"id":"rom-b-0787","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser de bonne nuit qui s'éternise"}
+{"id":"rom-b-0788","category":"romantique","mode":"envie","intensity":2,"text":"Un après-midi au cinéma, au dernier rang, avec des câlins plutôt que du pop-corn"}
+{"id":"rom-b-0789","category":"romantique","mode":"envie","intensity":2,"text":"Un dîner où l'on ne se parle que par compliments"}
+{"id":"rom-b-0790","category":"romantique","mode":"envie","intensity":2,"text":"Un massage de nuque surprise pour commencer la journée"}
+{"id":"rom-b-0791","category":"romantique","mode":"envie","intensity":3,"text":"Une soirée entière consacrée à la douceur : bougies, huile, musique lente, aucun écran"}
+{"id":"rom-b-0792","category":"romantique","mode":"envie","intensity":3,"text":"Se laisser guider les yeux bandés vers une surprise sensuelle préparée par l'autre"}
+{"id":"rom-b-0793","category":"romantique","mode":"envie","intensity":3,"text":"Un long baiser contre un mur, qui n'en finit pas"}
+{"id":"rom-b-0794","category":"romantique","mode":"envie","intensity":3,"text":"Des caresses sous les draps, dans la lumière du matin"}
+{"id":"rom-b-0795","category":"romantique","mode":"envie","intensity":3,"text":"Un long moment de caresses sous une couverture, en laissant tomber les vêtements un à un"}
+{"id":"rom-b-0796","category":"romantique","mode":"envie","intensity":3,"text":"Des regards brûlants pendant tout un dîner, avant de filer vers la chambre"}
+{"id":"rom-b-0797","category":"romantique","mode":"envie","intensity":3,"text":"Un week-end où l'on met le monde de côté pour ne s'occuper que de nous"}
+{"id":"rom-b-0798","category":"romantique","mode":"envie","intensity":3,"text":"Un massage des épaules qui glisse peu à peu vers des gestes plus audacieux"}
+{"id":"rom-b-0799","category":"romantique","mode":"envie","intensity":3,"text":"Une danse très proche, peau contre peau, dans la semi-obscurité"}
+{"id":"rom-b-0800","category":"romantique","mode":"envie","intensity":3,"text":"Murmurer à l'oreille de l'autre ce dont on a envie ce soir"}
+{"id":"rom-b-0801","category":"romantique","mode":"envie","intensity":1,"text":"Une séance de yoga à deux au salon, avec des postures où l'on se tient l'un à l'autre"}
+{"id":"rom-b-0802","category":"romantique","mode":"envie","intensity":1,"text":"Un petit-déjeuner de campagne : pain frais, beurre, confiture maison et aucun rendez-vous"}
+{"id":"rom-b-0803","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée en tenues d'une autre époque, avec la musique qui va avec"}
+{"id":"rom-b-0804","category":"romantique","mode":"envie","intensity":1,"text":"Une partie de badminton dans le jardin ou le parc, sans compter les points"}
+{"id":"rom-b-0805","category":"romantique","mode":"envie","intensity":1,"text":"Un après-midi au bord d'une rivière, les pieds dans l'eau"}
+{"id":"rom-b-0806","category":"romantique","mode":"envie","intensity":1,"text":"Une lecture à la lampe torche sous les draps, comme à douze ans"}
+{"id":"rom-b-0807","category":"romantique","mode":"envie","intensity":1,"text":"Un gâteau complètement raté qu'on mange quand même, avec le plus grand sérieux"}
+{"id":"rom-b-0808","category":"romantique","mode":"envie","intensity":1,"text":"Un cerf-volant lancé à deux par une journée de grand vent"}
+{"id":"rom-b-0809","category":"romantique","mode":"envie","intensity":1,"text":"Un duel de châteaux de sable ou de bonshommes de neige, selon la saison"}
+{"id":"rom-b-0810","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée à inventer nos propres constellations en reliant les étoiles"}
+{"id":"rom-b-0811","category":"romantique","mode":"envie","intensity":1,"text":"Une journée où l'on se parle comme dans un roman d'époque"}
+{"id":"rom-b-0812","category":"romantique","mode":"envie","intensity":1,"text":"Un cahier de nos premières fois à deux, à compléter au fil des années"}
+{"id":"rom-b-0813","category":"romantique","mode":"envie","intensity":1,"text":"Une bouteille à la mer avec un message d'amour pour l'avenir"}
+{"id":"rom-b-0814","category":"romantique","mode":"envie","intensity":1,"text":"Un trajet en tandem, ou à deux sur le même vélo"}
+{"id":"rom-b-0815","category":"romantique","mode":"envie","intensity":1,"text":"Une journée de bénévolat à deux, pour faire du bien ensemble"}
+{"id":"rom-b-0816","category":"romantique","mode":"envie","intensity":2,"text":"Un dîner où chaque plat est choisi pour son goût de séduction : chocolat, fraises, épices"}
+{"id":"rom-b-0817","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée où l'on s'exprime uniquement par regards et par gestes, avec interdiction de parler"}
+{"id":"rom-b-0818","category":"romantique","mode":"envie","intensity":2,"text":"Une soirée sur le canapé, jambes emmêlées, à ne rien faire d'autre qu'être proches"}
+{"id":"rom-b-0819","category":"romantique","mode":"envie","intensity":2,"text":"Un baiser volé entre deux rayons du supermarché"}
+{"id":"rom-b-0820","category":"romantique","mode":"envie","intensity":2,"text":"Un jeu de piste nocturne dans la maison, avec des indices à trouver à la lueur d'une bougie"}
+{"id":"rom-b-0821","category":"romantique","mode":"envie","intensity":2,"text":"Un massage express de dix minutes chaque soir pendant une semaine"}
+{"id":"rom-b-0822","category":"romantique","mode":"envie","intensity":2,"text":"Une promenade main dans la main sans un mot, juste pour sentir la chaleur de l'autre"}
+{"id":"rom-b-0823","category":"romantique","mode":"envie","intensity":2,"text":"Une matinée à se préparer lentement, en s'aidant à choisir parfums et vêtements"}
+{"id":"rom-b-0824","category":"romantique","mode":"envie","intensity":2,"text":"Rejouer la scène d'amour d'un film qu'on adore, avec décor et costumes maison"}
+{"id":"rom-b-0825","category":"romantique","mode":"envie","intensity":2,"text":"Un dimanche de lenteur où tout se fait deux fois plus doucement, baisers compris"}
+{"id":"rom-b-0826","category":"romantique","mode":"envie","intensity":2,"text":"Un lit refait avec des draps frais, des pétales de fleurs et rien d'autre au programme"}
+{"id":"rom-b-0827","category":"romantique","mode":"envie","intensity":2,"text":"Autant de baisers que d'années passées ensemble, comptés à voix haute"}
+{"id":"rom-b-0828","category":"romantique","mode":"envie","intensity":3,"text":"Un rendez-vous sans un mot, où seules les mains racontent"}
+{"id":"rom-b-0829","category":"romantique","mode":"envie","intensity":3,"text":"Une nuit où l'on se redit tout ce qu'on aime chez l'autre, les lèvres contre la peau"}
+{"id":"rom-b-0830","category":"romantique","mode":"envie","intensity":3,"text":"Un dessert partagé à la cuillère, les yeux dans les yeux, qui devient très vite autre chose"}
+{"id":"rom-b-0831","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, laissez chaque jour un mot doux dans un endroit où l'autre tombera dessus."}
+{"id":"rom-b-0832","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, terminez chaque journée en nommant le moment où vous avez été le plus proches."}
+{"id":"rom-b-0833","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, organisez un dîner à la bougie, même un mardi soir, même devant un plat de pâtes."}
+{"id":"rom-b-0834","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, trouvez chaque jour un nouveau surnom tendre et utilisez-le toute la journée."}
+{"id":"rom-b-0835","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, écrivez chacun une lettre d'amour à la main et échangez-les samedi."}
+{"id":"rom-b-0836","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, sortez une fois sans téléphone, juste pour marcher et parler."}
+{"id":"rom-b-0837","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, offrez-vous à tour de rôle une surprise à moins de trois euros."}
+{"id":"rom-b-0838","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, cuisinez chacun un repas pour l'autre, sans rien révéler du menu."}
+{"id":"rom-b-0839","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, dites merci chaque jour pour une chose précise, la plus petite possible."}
+{"id":"rom-b-0840","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, regardez ensemble le film d'amour préféré de l'un, puis celui de l'autre."}
+{"id":"rom-b-0841","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, prenez dix minutes chaque soir pour raconter votre journée en vous tenant la main."}
+{"id":"rom-b-0842","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, envoyez-vous chaque matin la photo de ce qui vous fait sourire dehors."}
+{"id":"rom-b-0843","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, créez une playlist à deux et ajoutez-y une chanson par jour, avec une dédicace."}
+{"id":"rom-b-0844","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, faites une balade du soir de vingt minutes, quelle que soit la météo."}
+{"id":"rom-b-0845","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, inventez un rituel du matin qui n'appartient qu'à vous deux."}
+{"id":"rom-b-0846","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, apprenez ensemble une phrase d'amour dans une langue que vous ne parlez pas."}
+{"id":"rom-b-0847","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, préparez à tour de rôle le petit-déjeuner de l'autre, façon grand hôtel."}
+{"id":"rom-b-0848","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, retrouvez-vous une heure dans un café ou un parc pour raconter vos rêves du moment."}
+{"id":"rom-b-0849","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, tenez un carnet partagé où chacun note chaque soir un moment précieux de la journée."}
+{"id":"rom-b-0850","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, cachez trois petits cadeaux symboliques dans la maison pour l'autre."}
+{"id":"rom-b-0851","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, dansez ensemble une chanson par jour, même dans la cuisine ou le couloir."}
+{"id":"rom-b-0852","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, choisissez un jour pour tout faire à deux, des courses à la vaisselle."}
+{"id":"rom-b-0853","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, écrivez-vous une carte postale et glissez-la dans la boîte aux lettres."}
+{"id":"rom-b-0854","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, dessinez ensemble le plan d'un week-end rêvé, avec un budget réaliste."}
+{"id":"rom-b-0855","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, apprenez-vous mutuellement une habitude de l'enfance : un jeu, une chanson, un plat."}
+{"id":"rom-b-0856","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, réglez le réveil dix minutes plus tôt pour un câlin avant de vous lever."}
+{"id":"rom-b-0857","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, apportez à l'autre un café ou un thé au lit, deux fois au moins."}
+{"id":"rom-b-0858","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, faites le tour de votre ville comme des touristes, appareil photo en main."}
+{"id":"rom-b-0859","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, relisez ensemble vos tout premiers messages et choisissez votre préféré."}
+{"id":"rom-b-0860","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, fabriquez un petit objet à la main pour l'autre : carte, bracelet, dessin ou poème."}
+{"id":"rom-b-0861","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, cuisinez ensemble une recette que vous n'avez jamais tentée."}
+{"id":"rom-b-0862","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, imaginez chacun un rendez-vous surprise pour le week-end, et tirez au sort celui qu'on vivra."}
+{"id":"rom-b-0863","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, triez ensemble un coin de la maison en écoutant la musique de vos débuts."}
+{"id":"rom-b-0864","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, repérez chaque jour un petit détail à améliorer pour l'autre : un tiroir rangé, un plein d'essence fait."}
+{"id":"rom-b-0865","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, passez une soirée sans écran, avec jeux, musique et histoires."}
+{"id":"rom-b-0866","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, embrassez-vous au moins dix secondes avant de quitter la maison chaque matin."}
+{"id":"rom-b-0867","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, envoyez-vous chaque jour un message qui commence par « Ce que j'aime en toi ce soir… »."}
+{"id":"rom-b-0868","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, organisez une soirée en tenue de sortie à la maison, avec musique et bougies."}
+{"id":"rom-b-0869","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, offrez-vous un massage de dix minutes à tour de rôle, trois soirs au choix."}
+{"id":"rom-b-0870","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, flirtez comme au premier mois : regards appuyés, messages piquants, mains qui s'attardent."}
+{"id":"rom-b-0871","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, prenez un bain à deux, lumières basses et téléphones hors de portée."}
+{"id":"rom-b-0872","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, listez chacun trois choses que vous aimeriez refaire de vos débuts, puis refaites-en une."}
+{"id":"rom-b-0873","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, couchez-vous une heure plus tôt, une fois, pour rien d'autre que parler et vous câliner."}
+{"id":"rom-b-0874","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, remplacez le bonsoir habituel par un vrai baiser de cinéma."}
+{"id":"rom-b-0875","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, glissez dans le sac de l'autre un petit défi tendre par jour, du genre « Embrasse-moi avant midi »."}
+{"id":"rom-b-0876","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, faites une soirée de questions franches : chacun pose trois questions qu'on n'ose pas poser d'habitude."}
+{"id":"rom-b-0877","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, offrez-vous un rendez-vous à l'heure du déjeuner, juste pour un moment à deux."}
+{"id":"rom-b-0878","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, habillez-vous l'un pour l'autre un soir à la maison, sans raison particulière."}
+{"id":"rom-b-0879","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, chuchotez-vous un mot doux à l'oreille chaque soir avant de dormir."}
+{"id":"rom-b-0880","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, apprenez ensemble un pas de danse à deux grâce à une vidéo, et dansez-le samedi soir."}
+{"id":"rom-b-0881","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, envoyez-vous en milieu d'après-midi un message d'avant-goût de la soirée."}
+{"id":"rom-b-0882","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, imposez une règle : chaque retrouvaille commence par un vrai baiser, avant même de poser les sacs."}
+{"id":"rom-b-0883","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, racontez-vous chacun un souvenir troublant de vos débuts, en détail et avec le sourire."}
+{"id":"rom-b-0884","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, jouez chaque soir à un jeu de séduction : une règle, un regard, une promesse."}
+{"id":"rom-b-0885","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, créez un coin cocooning dans le salon, avec coussins, plaids et lumières douces, et utilisez-le tous les soirs."}
+{"id":"rom-b-0886","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, rangez vos téléphones dès 21 h et profitez de la soirée pour vous retrouver."}
+{"id":"rom-b-0887","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, offrez à l'autre un bon pour un baiser n'importe où, n'importe quand, valable jusqu'à dimanche."}
+{"id":"rom-b-0888","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, donnez-vous rendez-vous un soir dans un coin de la maison où vous ne dînez jamais."}
+{"id":"rom-b-0889","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, soignez le sommeil de l'autre : tisane, oreiller bien calé, lumière tamisée, musique douce."}
+{"id":"rom-b-0890","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, faites chaque jour un compliment sur l'allure de l'autre, sans jamais répéter le même."}
+{"id":"rom-b-0891","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, choisissez ensemble une escapade d'une nuit et réservez-la avant dimanche."}
+{"id":"rom-b-0892","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, trouvez le parfum, la musique ou la lumière qui deviendra l'ambiance de vos soirées à deux."}
+{"id":"rom-b-0893","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, terminez chaque soirée par dix minutes de caresses douces, sans écran et sans autre but."}
+{"id":"rom-b-0894","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, gardez une soirée entière pour prendre votre temps l'un avec l'autre, sans écran ni horloge."}
+{"id":"rom-b-0895","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, offrez-vous chacun un massage sensuel à l'huile, bougie allumée, sur la musique de votre choix."}
+{"id":"rom-b-0896","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, écrivez chacun une lettre sur ce qui vous trouble chez l'autre, et lisez-la à voix basse."}
+{"id":"rom-b-0897","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, rejouez un rendez-vous comme au tout début, avec le trouble des premières fois."}
+{"id":"rom-b-0898","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, confiez-vous à l'oreille une envie à réaliser avant dimanche, chacun son tour."}
+{"id":"rom-b-0899","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, vivez une soirée sans parole : seuls les regards, les mains et les lèvres ont le droit de s'exprimer."}
+{"id":"rom-b-0900","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, dédiez un matin entier à la lenteur : réveil sans alarme, caresses, petit-déjeuner au lit."}
+{"id":"rom-b-0901","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, plantez ou rempotez une plante à deux, et donnez-lui un prénom commun."}
+{"id":"rom-b-0902","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, écrivez chacun la liste de vos dix endroits préférés au monde, puis comparez-les."}
+{"id":"rom-b-0903","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, faites un pique-nique, même dans le salon, avec un menu choisi par l'autre."}
+{"id":"rom-b-0904","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, prenez une photo de vous deux façon pochette d'album, et choisissez le titre."}
+{"id":"rom-b-0905","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, essayez une activité que vous n'avez jamais pratiquée : escalade, poterie, aviron, tir à l'arc."}
+{"id":"rom-b-0906","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, apprenez par cœur un poème court ou un couplet de chanson, et récitez-le à l'autre."}
+{"id":"rom-b-0907","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, inventez chaque soir une histoire à deux voix, trois phrases chacun à tour de rôle."}
+{"id":"rom-b-0908","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, goûtez ensemble trois aliments que vous n'avez jamais mangés, et notez-les sur dix."}
+{"id":"rom-b-0909","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, testez votre mémoire : chacun écrit cinq dates marquantes de votre histoire, l'autre raconte ce qui s'est passé."}
+{"id":"rom-b-0910","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, ménagez-vous une heure de calme à deux : lecture côte à côte, tisane, aucun bruit."}
+{"id":"rom-b-0911","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, lisez le même article ou le même chapitre et débattez-en comme dans un club de lecture à deux."}
+{"id":"rom-b-0912","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, dessinez au stylo un petit symbole commun sur vos poignets, et voyez combien de jours il tient."}
+{"id":"rom-b-0913","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, remplissez un bocal de petits papiers, un projet à deux par papier, et tirez-en un au sort dimanche."}
+{"id":"rom-b-0914","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, échangez vos rôles pendant un jour : chacun fait les tâches habituelles de l'autre, avec le sourire."}
+{"id":"rom-b-0915","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, repérez un endroit de la ville que vous n'avez jamais visité, et prévoyez d'y aller samedi."}
+{"id":"rom-b-0916","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, filmez une vidéo de trente secondes qui résume votre semaine à deux, et gardez-la précieusement."}
+{"id":"rom-b-0917","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, écrivez ensemble un petit mot de remerciement à quelqu'un qui a compté dans votre histoire de couple."}
+{"id":"rom-b-0918","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, retrouvez le plus vieil objet qui vous relie encore, ticket, bracelet ou carte, et rangez-le à une place d'honneur."}
+{"id":"rom-b-0919","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, pratiquez ensemble dix minutes d'étirements ou de respiration chaque matin."}
+{"id":"rom-b-0920","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, redécorez un coin de la maison pour qu'il vous ressemble davantage à tous les deux."}
+{"id":"rom-b-0921","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, imaginez un surnom pour chaque objet du salon, et n'appelez plus rien autrement."}
+{"id":"rom-b-0922","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, apprenez à vous dire bonne nuit de dix façons différentes."}
+{"id":"rom-b-0923","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, visez quinze minutes de câlins par jour, sans rien faire d'autre en même temps."}
+{"id":"rom-b-0924","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, réécrivez les paroles d'une chanson connue pour qu'elles parlent de vous deux, et chantez-la samedi."}
+{"id":"rom-b-0925","category":"romantique","mode":"defi","intensity":1,"text":"Cette semaine, dressez la liste de trente envies communes, puis cochez-en une avant dimanche."}
+{"id":"rom-b-0926","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, recréez votre premier baiser : même ambiance, même geste, mais au ralenti."}
+{"id":"rom-b-0927","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, dites-vous chaque soir ce que vous avez remarqué de nouveau chez l'autre : un geste, une expression, une mèche."}
+{"id":"rom-b-0928","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, portez une fois la tenue qui fait fondre l'autre, sans le dire à l'avance."}
+{"id":"rom-b-0929","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, offrez-vous chacun un quart d'heure d'attentions à la demande, un soir : l'autre s'y plie avec plaisir."}
+{"id":"rom-b-0930","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, embrassez-vous chaque jour dans une pièce différente de la maison, sans refaire deux fois la même."}
+{"id":"rom-b-0931","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, instaurez un rendez-vous fixe, par exemple jeudi à 20 h, que rien ne pourra déplacer."}
+{"id":"rom-b-0932","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, essayez une nouvelle façon de vous embrasser chaque jour, et notez celle qui l'emporte."}
+{"id":"rom-b-0933","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, inventez un code couleur pour dire votre humeur du soir : doux, joueur, calme ou passionné."}
+{"id":"rom-b-0934","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, proposez à l'autre une heure de réconfort : plaid, thé, caresses dans les cheveux, aucune obligation."}
+{"id":"rom-b-0935","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, retrouvez la galanterie des débuts : un geste attentionné par jour, porte tenue, plat servi, manteau tendu."}
+{"id":"rom-b-0936","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, faites un bilan tendre à voix basse : trois choses qui vous ont manqué, trois choses à refaire."}
+{"id":"rom-b-0937","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, faites une déclaration d'amour dans un endroit inattendu : à la boulangerie, au téléphone, dans le métro."}
+{"id":"rom-b-0938","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, testez trois façons de vous endormir ensemble, et gardez celle où vous vous sentez le mieux."}
+{"id":"rom-b-0939","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, réveillez l'autre un matin par un baiser dans la nuque et un mot sur l'oreiller."}
+{"id":"rom-b-0940","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, organisez une soirée jeux de société où chaque manche gagnée donne droit à un gage tendre."}
+{"id":"rom-b-0941","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, enregistrez-vous chacun un vocal de bonne nuit à garder pour les soirs de séparation."}
+{"id":"rom-b-0942","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, demandez à l'autre quels sont ses trois endroits préférés pour un baiser, et notez-les."}
+{"id":"rom-b-0943","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, donnez à une soirée ordinaire l'allure d'un rendez-vous : parfum, musique, regard appuyé."}
+{"id":"rom-b-0944","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, goûtez ensemble des chocolats, des fruits ou des fromages les yeux fermés, et devinez ce que l'autre savoure."}
+{"id":"rom-b-0945","category":"romantique","mode":"defi","intensity":2,"text":"Cette semaine, parfumez la chambre avant le coucher avec un détail nouveau chaque soir : lavande, bougie, huile."}
+{"id":"rom-b-0946","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, dites à l'autre, trois fois dans la semaine, un endroit de son corps que vous adorez, avec les mots qui vont avec."}
+{"id":"rom-b-0947","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, créez ensemble une playlist pour vos soirées les plus sensuelles, et testez-la au moins une fois."}
+{"id":"rom-b-0948","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, écrivez l'un pour l'autre le scénario d'une soirée sensuelle en trois actes, et jouez-le samedi."}
+{"id":"rom-b-0949","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, laissez vos mains parler chaque soir : une minute de peau contre peau avant de dormir, sans un mot."}
+{"id":"rom-b-0950","category":"romantique","mode":"defi","intensity":3,"text":"Cette semaine, avouez à l'autre le geste, la parole ou le regard qui fait battre votre cœur le plus fort, et proposez de le refaire."}

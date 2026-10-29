@@ -598,3 +598,453 @@
 {"id":"ose-a-0598","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Qu'est-ce qui te donne envie de prolonger un câlin bien au-delà de l'innocent ?"}
 {"id":"ose-a-0599","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Le dimanche matin idéal à deux, c'est…","options":["Grasse matinée et câlins","Petit-déjeuner au lit","Balade puis sieste","Douche à deux"]}
 {"id":"ose-a-0600","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Après une journée difficile, quel geste de ma part réveille ton désir ?","options":["Un massage","Un bain coulé pour toi","Un baiser dans le cou","Un dîner préparé"]}
+{"id":"ose-a-0601","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Qu'est-ce qui te fait rire et te charme à la fois chez moi ?","options":["Mes grimaces","Mes imitations","Mon autodérision","Mes fous rires contagieux"]}
+{"id":"ose-a-0602","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point l'humour fait partie de ta façon de flirter ?","min":"Jamais de blagues","max":"Que des blagues"}
+{"id":"ose-a-0603","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel fruit trouves-tu le plus coquin à croquer sous mes yeux ?"}
+{"id":"ose-a-0604","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Quand l'envie de me séduire te prend, tu fais le premier pas…","options":["Sans attendre","Après quelques signaux","Rarement, tu préfères attendre","Seulement si l'ambiance est propice"]}
+{"id":"ose-a-0605","category":"ose","mode":"devine","format":"scale","intensity":3,"text":"À quel point l'idée de passer toute une journée au lit avec moi te tente ?","min":"L'ennui assuré","max":"Annule tout"}
+{"id":"ose-a-0606","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quelle langue trouves-tu la plus sensuelle à l'oreille ?","options":["L'italien","L'espagnol","Le portugais","Le français, tout simplement"]}
+{"id":"ose-a-0607","category":"ose","mode":"devine","format":"text","intensity":1,"text":"À quel moment de la journée te sens-tu au sommet de ton charme ?"}
+{"id":"ose-a-0608","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Quel dessert aimerais-tu partager avec moi, une seule cuillère pour deux ?","options":["Une mousse au chocolat","Des fraises à la chantilly","Une glace qui fond trop vite","Un fondant encore tiède"]}
+{"id":"ose-a-0609","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimes-tu qu'on se donne à manger à la main, juste pour jouer ?","min":"Très peu pour moi","max":"Bouchée après bouchée"}
+{"id":"ose-a-0610","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Le plus brûlant, pour toi, c'est…","options":["Le moment juste avant","Le premier contact","Les regards qui se cherchent","Le souffle d'après"]}
+{"id":"ose-a-0611","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Me passer de la crème solaire dans le dos, pour toi, c'est…","options":["Une corvée","Un prétexte à caresses","Un moment de tendresse","Le début d'une bataille de crème"]}
+{"id":"ose-a-0612","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel grain de beauté ou petit détail de ma peau connais-tu par cœur ?"}
+{"id":"ose-a-0613","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Devant le miroir, quand je viens t'enlacer, tu regardes…","options":["Ton reflet","Le mien","Nos regards qui se croisent","Rien, tu fermes les yeux"]}
+{"id":"ose-a-0614","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point rougis-tu facilement quand je flirte avec toi ?","min":"Jamais","max":"Tomate instantanée"}
+{"id":"ose-a-0615","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quelle envie gardes-tu pour toi, faute d'avoir trouvé le bon moment ?"}
+{"id":"ose-a-0616","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Faire du sport ensemble, chez nous, ça finit plutôt par…","options":["Un défi acharné","Une douche partagée","Une sieste bien méritée","Des regards en coin pendant l'effort"]}
+{"id":"ose-a-0617","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point mon allure après le sport te fait de l'effet ?","min":"Va te doucher","max":"Reste comme ça"}
+{"id":"ose-a-0618","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Qu'est-ce qui te plaît le plus dans mes mains ?","options":["Leur douceur","Leur chaleur","Leur assurance","Leur maladresse touchante"]}
+{"id":"ose-a-0619","category":"ose","mode":"devine","format":"text","intensity":1,"text":"Quel petit plat cuisiné par moi te met d'humeur câline ?"}
+{"id":"ose-a-0620","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Quelle saveur aimerais-tu goûter sur ma peau ?","options":["Le chocolat","Le miel","La fraise","Le sel de la mer"]}
+{"id":"ose-a-0621","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Quel endroit de mon corps a été le plus négligé par tes baisers ?","options":["Mes poignets","Mes chevilles","Mes clavicules","L'arrière de mes genoux"]}
+{"id":"ose-a-0622","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point regardes-tu vraiment le film quand on se blottit au cinéma ?","min":"Je n'en rate rien","max":"Quel film ?"}
+{"id":"ose-a-0623","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Au cinéma, ta place idéale à mes côtés ?","options":["Tout au fond","Au milieu, bien en face","Sur le côté, plus discret","Peu importe, si on se tient la main"]}
+{"id":"ose-a-0624","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quelle ville te semble faite pour une escapade coquine à deux ?"}
+{"id":"ose-a-0625","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"En voiture, quand je conduis, tu as tendance à…","options":["Poser ta main sur ma cuisse","Contempler mon profil","Choisir la chanson qui met l'ambiance","Me distraire exprès"]}
+{"id":"ose-a-0626","category":"ose","mode":"devine","format":"scale","intensity":3,"text":"À quel point repenser à notre dernière nuit te trouble en pleine journée ?","min":"Je n'y pense pas","max":"Impossible de bosser"}
+{"id":"ose-a-0627","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Si on se croisait pour la première fois aujourd'hui, tu me draguerais ?","options":["Oui, sur-le-champ","Après une longue observation","Seulement si je fais le premier pas","Après un signe du destin"]}
+{"id":"ose-a-0628","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quel moment récent t'a donné envie de m'entraîner dans une autre pièce ?"}
+{"id":"ose-a-0629","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Une nuit à l'hôtel rien que pour nous, ce que tu attends le plus ?","options":["Le lit immense","Les peignoirs moelleux","Ne pas quitter la chambre","Le petit-déjeuner servi au lit"]}
+{"id":"ose-a-0630","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point est-ce facile pour toi de dire ce qui ne te plaît pas, côté séduction ?","min":"Très difficile","max":"Aucun souci"}
+{"id":"ose-a-0631","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Sur quelle photo de moi t'arrêtes-tu toujours un peu trop longtemps ?"}
+{"id":"ose-a-0632","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quelle taquinerie de ta part finit le plus souvent en câlin ?","options":["Me voler ma place au lit","Me piquer le plaid","Imiter ma voix","Me chatouiller en traître"]}
+{"id":"ose-a-0633","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimerais-tu poser pour une séance photo sensuelle, rien que pour moi ?","min":"Jamais de la vie","max":"Sors l'appareil"}
+{"id":"ose-a-0634","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Quand je défais lentement un de tes boutons, tu…","options":["Me laisses faire en me regardant","Défais les miens en retour","Ris un peu nerveusement","Me supplies d'accélérer"]}
+{"id":"ose-a-0635","category":"ose","mode":"devine","format":"text","intensity":1,"text":"Quel serait le titre du film de notre histoire de séduction ?"}
+{"id":"ose-a-0636","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Qu'est-ce qui pimenterait le plus notre quotidien, selon toi ?","options":["Plus de rendez-vous surprises","Plus de messages coquins","Plus de soirées sans écrans","Plus de compliments inattendus"]}
+{"id":"ose-a-0637","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimes-tu que je te fasse du charme quand tu es de mauvaise humeur ?","min":"Laisse-moi bouder","max":"Ça marche toujours"}
+{"id":"ose-a-0638","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quel est ton style de séduction ?","options":["Le charme discret","L'humour ravageur","L'audace assumée","La tendresse désarmante"]}
+{"id":"ose-a-0639","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quelle limite aimerais-tu que je respecte toujours, même dans nos jeux les plus fous ?"}
+{"id":"ose-a-0640","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Pendant un jeu coquin, comment préfères-tu qu'on vérifie que tout va bien ?","options":["Une question à voix basse","Un regard complice","Un mot-code convenu","Une pause câline"]}
+{"id":"ose-a-0641","category":"ose","mode":"devine","format":"scale","intensity":3,"text":"À quel point le trajet du retour te paraît long quand tu as envie de moi ?","min":"Il passe vite","max":"Une éternité"}
+{"id":"ose-a-0642","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Selon toi, qu'est-ce que je trouve le plus craquant chez toi ?","options":["Ton rire","Ta démarche","Tes yeux quand tu mens mal","Ta voix du matin"]}
+{"id":"ose-a-0643","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel geste de ma part aimerais-tu voir au ralenti ?"}
+{"id":"ose-a-0644","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Combien de temps te faut-il pour céder à mes avances ?","options":["Une seconde","Quelques minutes","Le temps d'un dîner","Toute la soirée, par fierté"]}
+{"id":"ose-a-0645","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu que je te fasse la cour comme au premier jour ?","min":"Plus besoin","max":"Tous les jours"}
+{"id":"ose-a-0646","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quel fantasme de séduction te trotte dans la tête depuis un moment ?"}
+{"id":"ose-a-0647","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quel geste complice en public préfères-tu ?","options":["Ma main au creux de ton dos","Un clin d'œil de loin","Mon bras autour de tes épaules","Un baiser sur la tempe"]}
+{"id":"ose-a-0648","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Le lit idéal pour une nuit coquine, c'est…","options":["Des draps de soie","Un lit immense","Un matelas devant la cheminée","Notre lit, tout simplement"]}
+{"id":"ose-a-0649","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel plat aimerais-tu qu'on cuisine à deux pour une soirée séduction ?"}
+{"id":"ose-a-0650","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point te laisses-tu distraire quand je passe derrière toi pendant que tu travailles ?","min":"Concentration totale","max":"Travail abandonné"}
+{"id":"ose-a-0651","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Pour toi, une nuit réussie se termine…","options":["Au lever du soleil","Sur un fou rire","Peau contre peau jusqu'au matin","Par une promesse de recommencer"]}
+{"id":"ose-a-0652","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Le flirt idéal au supermarché, c'est…","options":["Un clin d'œil au rayon fromages","Un baiser au rayon surgelés","Une course de chariots","Un mot doux sur la liste"]}
+{"id":"ose-a-0653","category":"ose","mode":"devine","format":"text","intensity":1,"text":"Quelle pâtisserie résume le mieux ton charme ?"}
+{"id":"ose-a-0654","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Une soirée sans écrans, tu la remplirais…","options":["De jeux coquins","D'un long bain","D'une danse lente","De confidences sur l'oreiller"]}
+{"id":"ose-a-0655","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu qu'on marche en se tenant par la taille ?","min":"Pas pratique","max":"Tout le temps"}
+{"id":"ose-a-0656","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel geste ferais-tu pour me séduire sans dire un seul mot ?"}
+{"id":"ose-a-0657","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Dans un rendez-vous, quel moment te trouble le plus ?","options":["Le premier regard en arrivant","Les mains qui se frôlent à table","Le trajet du retour","Le dernier baiser devant la porte"]}
+{"id":"ose-a-0658","category":"ose","mode":"devine","format":"scale","intensity":3,"text":"À quel point l'idée de nous regarder dans un miroir en plein câlin te trouble ?","min":"Trop gênant","max":"Fascinant"}
+{"id":"ose-a-0659","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quand je te fais un clin d'œil de loin, tu…","options":["Rougis","Me le rends aussitôt","Fais mine de ne pas voir","Traverses la pièce pour me rejoindre"]}
+{"id":"ose-a-0660","category":"ose","mode":"devine","format":"text","intensity":1,"text":"Quel animal décrirait le mieux ta façon de séduire ?"}
+{"id":"ose-a-0661","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Une séance de cuisine à deux, ça dégénère plutôt en…","options":["Bataille de farine","Baisers entre deux casseroles","Dégustation sur le bout des doigts","Dîner brûlé, câlin réussi"]}
+{"id":"ose-a-0662","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point un week-end loin de tout réveille ton envie de séduire ?","min":"Rien ne change","max":"Séduction à fond"}
+{"id":"ose-a-0663","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Quand la maison est rien qu'à nous tout un week-end, tu imagines…","options":["Ne pas s'habiller de la journée","Des câlins dans chaque pièce","Un programme coquin heure par heure","Une longue nuit, puis une grasse matinée"]}
+{"id":"ose-a-0664","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel soin du soir aimerais-tu que je t'applique moi-même ?"}
+{"id":"ose-a-0665","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Quand je m'assois sur tes genoux sans prévenir, tu…","options":["M'enlaces aussitôt","Fais semblant de râler","En profites pour un baiser","Oublies ce que tu faisais"]}
+{"id":"ose-a-0666","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu que je te réchauffe les pieds sous la couette ?","min":"Pas touche","max":"Bouillotte officielle"}
+{"id":"ose-a-0667","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quel mot résume ton désir pour moi, là, tout de suite ?"}
+{"id":"ose-a-0668","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quand je te prends en photo, tu…","options":["Prends la pose","Te caches derrière tes mains","Me fais une grimace","M'embrasses pour m'en empêcher"]}
+{"id":"ose-a-0669","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Ton excuse préférée pour te rapprocher de moi sur le canapé ?","options":["« J'ai froid »","« Je ne vois pas bien l'écran »","« Il reste de la place contre toi »","Aucune, tu viens, c'est tout"]}
+{"id":"ose-a-0670","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel mot tout bête prend un air sensuel quand c'est moi qui le prononce ?"}
+{"id":"ose-a-0671","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimes-tu qu'on garde un petit secret coquin pendant une soirée entre amis ?","min":"Ça me stresse","max":"Délicieux"}
+{"id":"ose-a-0672","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Qu'est-ce qui te fait perdre le fil de ta phrase quand on est tout près ?","options":["Ma main sur ta nuque","Mon regard sur ta bouche","Mon souffle sur ta joue","Mon silence soudain"]}
+{"id":"ose-a-0673","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quel lieu de rendez-vous te donne des papillons ?","options":["Un toit-terrasse au coucher du soleil","Une guinguette","Une librairie","Un marché de nuit"]}
+{"id":"ose-a-0674","category":"ose","mode":"devine","format":"text","intensity":1,"text":"Quel détail d'un rendez-vous te fait comprendre que je cherche à te séduire ?"}
+{"id":"ose-a-0675","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Pendant une balade, ton geste coquin préféré ?","options":["Glisser ta main dans ma poche arrière","M'attirer sous un porche pour un baiser","Me chuchoter un compliment","Marcher derrière moi pour la vue"]}
+{"id":"ose-a-0676","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point un slow improvisé au milieu du salon te met d'humeur coquine ?","min":"Ça me fait rire","max":"Ça m'enflamme"}
+{"id":"ose-a-0677","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quelle caresse anodine en public te fait penser à tout autre chose ?"}
+{"id":"ose-a-0678","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Un orage éclate pendant une soirée à la maison, tu proposes…","options":["D'allumer des bougies","De se blottir sous un plaid","De s'embrasser à chaque éclair","De danser sous la pluie"]}
+{"id":"ose-a-0679","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel compliment physique n'oses-tu pas encore me faire ?"}
+{"id":"ose-a-0680","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quand je chante faux sous la douche, tu…","options":["Me rejoins pour le duo","Ris derrière la porte","Trouves ça craquant","Coupes l'eau chaude par vengeance"]}
+{"id":"ose-a-0681","category":"ose","mode":"devine","format":"scale","intensity":3,"text":"À quel point l'attente d'un rendez-vous coquin fixé à l'avance fait monter ton désir ?","min":"Pas plus que ça","max":"Je compte les heures"}
+{"id":"ose-a-0682","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Quel prétexte inventerais-tu pour m'attirer dans la salle de bain ?","options":["Un bain qui coule","Une étiquette à vérifier dans mon dos","Un massage du cuir chevelu","Aucun, un simple regard"]}
+{"id":"ose-a-0683","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel détail de ton propre corps aimes-tu en secret ?"}
+{"id":"ose-a-0684","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Pour me faire du charme, tu imites plutôt…","options":["Une star de cinéma","Un personnage de dessin animé","Une parade nuptiale d'oiseau","Moi, en exagérant"]}
+{"id":"ose-a-0685","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimes-tu que ce soit moi qui ouvre le bal des taquineries coquines ?","min":"Je préfère mener","max":"Toujours toi"}
+{"id":"ose-a-0686","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Quelle tension t'électrise le plus ?","options":["Celle d'un dîner où l'on se dévore des yeux","Celle d'un ascenseur bondé","Celle d'une fin de soirée qui s'étire","Celle d'une porte qui se referme"]}
+{"id":"ose-a-0687","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel moment de séduction de nos débuts te donne encore des frissons ?"}
+{"id":"ose-a-0688","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Si tu pouvais m'offrir une expérience sensorielle, ce serait…","options":["Un massage aux pierres chaudes","Un dîner dans le noir","Un bain aux pétales","Une dégustation les yeux fermés"]}
+{"id":"ose-a-0689","category":"ose","mode":"devine","format":"text","intensity":1,"text":"Quelle activité aimerais-tu me voir faire, juste pour le plaisir de me regarder ?"}
+{"id":"ose-a-0690","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point ta journée est meilleure quand elle commence par un câlin coquin ?","min":"Aucune différence","max":"Journée en or"}
+{"id":"ose-a-0691","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Qu'est-ce qui rend une étreinte inoubliable, selon toi ?","options":["Sa force","Sa durée","Le silence qui l'accompagne","Le moment choisi"]}
+{"id":"ose-a-0692","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quelle réplique de film romantique aimerais-tu que je te dise un soir ?"}
+{"id":"ose-a-0693","category":"ose","mode":"devine","format":"scale","intensity":3,"text":"À quel point mon parfum resté sur ta peau, le lendemain, te rappelle la nuit d'avant ?","min":"Pas du tout","max":"Toute la journée"}
+{"id":"ose-a-0694","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quelle partie de moi aimerais-tu masser ce soir, si je te le demandais ?"}
+{"id":"ose-a-0695","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel personnage de fiction t'inspire en matière de charme ?"}
+{"id":"ose-a-0696","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimes-tu qu'on flirte encore comme si rien n'était acquis ?","min":"On est bien au calme","max":"Chaque jour, on rejoue"}
+{"id":"ose-a-0697","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quel geste de tes mains me dirait, sans un mot, que tu as envie de moi ?"}
+{"id":"ose-a-0698","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Quand je chuchote « pas encore » au moment où tu veux m'embrasser, tu…","options":["Patientes en me dévorant des yeux","Te venges en me faisant attendre","Obéis, le cœur battant","Négocies avec un sourire"]}
+{"id":"ose-a-0699","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quelle est la chose la plus audacieuse que tu aies faite pour me plaire ?"}
+{"id":"ose-a-0700","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point l'idée d'un rendez-vous secret en pleine semaine t'émoustille ?","min":"Bof","max":"Agenda bloqué"}
+{"id":"ose-a-0701","category":"ose","mode":"preferes","intensity":1,"text":"Pour te séduire en soirée, tu préfères que je mise sur…","options":["Un regard appuyé depuis l'autre bout de la pièce","Un sourire complice en passant tout près"]}
+{"id":"ose-a-0702","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères me surprendre en train de te dévorer des yeux…","options":["Pendant que tu t'habilles","Pendant que tu parles à quelqu'un d'autre"]}
+{"id":"ose-a-0703","category":"ose","mode":"preferes","intensity":1,"text":"Côté compliment, tu préfères en recevoir un…","options":["Sur ton charme naturel","Sur l'effort mis dans ta tenue"]}
+{"id":"ose-a-0704","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un regard qui…","options":["Te déshabille lentement","Te promet la suite pour plus tard"]}
+{"id":"ose-a-0705","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que mon regard te dise…","options":["« Viens ici, tout de suite »","« J'ai toute la nuit devant moi »"]}
+{"id":"ose-a-0706","category":"ose","mode":"preferes","intensity":1,"text":"En public, tu préfères qu'on se lance…","options":["Des clins d'œil complices","Des regards qui en disent long"]}
+{"id":"ose-a-0707","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un compliment coquin…","options":["Chuchoté à l'oreille au milieu de la foule","Dit droit dans les yeux, en tête-à-tête"]}
+{"id":"ose-a-0708","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te trouve irrésistible…","options":["Au saut du lit, les cheveux en bataille","Sur ton trente-et-un, avant de sortir"]}
+{"id":"ose-a-0709","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères gagner un concours de regards…","options":["En me faisant rire","En me faisant rougir"]}
+{"id":"ose-a-0710","category":"ose","mode":"preferes","intensity":2,"text":"Pour flirter en silence, tu préfères…","options":["Un regard qui descend lentement","Un regard qui ne lâche plus le mien"]}
+{"id":"ose-a-0711","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je remarque d'abord…","options":["Ta nouvelle coupe de cheveux","Ton nouveau parfum"]}
+{"id":"ose-a-0712","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un regard entre nous…","options":["Suffise à nous faire quitter la soirée","Fasse monter la tension pendant des heures"]}
+{"id":"ose-a-0713","category":"ose","mode":"preferes","intensity":2,"text":"Pendant un dîner, tu préfères…","options":["Me fixer jusqu'à ce que je rougisse","M'ignorer exprès pour mieux me troubler"]}
+{"id":"ose-a-0714","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on te complimente sur…","options":["Ton sourire","Ta façon de bouger"]}
+{"id":"ose-a-0715","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te dise que tu es sexy…","options":["Au réveil, quand tu ne t'y attends pas","Juste avant une soirée, pour te donner de l'assurance"]}
+{"id":"ose-a-0716","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères recevoir un compliment…","options":["Écrit dans un petit mot","Dit à voix haute devant nos amis"]}
+{"id":"ose-a-0717","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te regarde…","options":["Comme au premier jour","Comme si c'était notre dernière nuit"]}
+{"id":"ose-a-0718","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un long regard silencieux finisse…","options":["Par un baiser fougueux","Par une main qui t'entraîne vers la chambre"]}
+{"id":"ose-a-0719","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères avoir un regard…","options":["Qui fait rire","Qui fait frissonner"]}
+{"id":"ose-a-0720","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'observe en douce…","options":["Pendant que tu danses","Pendant que tu sors de la douche"]}
+{"id":"ose-a-0721","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un compliment sur…","options":["Tes lèvres","Tes mains"]}
+{"id":"ose-a-0722","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se dévisage…","options":["Les yeux dans les yeux, sans rire","En se faisant des grimaces"]}
+{"id":"ose-a-0723","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères flirter avec moi…","options":["Comme si on venait de se rencontrer","Comme si on se connaissait par cœur"]}
+{"id":"ose-a-0724","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères lire le désir dans mes yeux…","options":["En plein milieu d'un dîner chic","En pleine nuit, à la lueur d'une bougie"]}
+{"id":"ose-a-0725","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on craque pour…","options":["Ton humour","Ton charme"]}
+{"id":"ose-a-0726","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te fasse les yeux doux…","options":["Pour obtenir un baiser","Pour obtenir bien plus qu'un baiser"]}
+{"id":"ose-a-0727","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que mes yeux s'attardent…","options":["Sur ta bouche","Sur ta nuque"]}
+{"id":"ose-a-0728","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un compliment coquin te fasse…","options":["Rougir jusqu'aux oreilles","Sourire toute la journée"]}
+{"id":"ose-a-0729","category":"ose","mode":"preferes","intensity":2,"text":"Quand je te regarde avec envie en public, tu préfères…","options":["Soutenir mon regard","Me répondre d'un clin d'œil discret"]}
+{"id":"ose-a-0730","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je te regarde avec envie…","options":["Pendant que tu te déshabilles","Pendant que je t'embrasse"]}
+{"id":"ose-a-0731","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on te remarque pour…","options":["Ton allure","Ton rire"]}
+{"id":"ose-a-0732","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un regard en coin…","options":["Par-dessus une tasse de café","Dans le reflet d'une vitrine"]}
+{"id":"ose-a-0733","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je te complimente…","options":["Sur ce que tu portes","Sur ce que tu ne portes pas"]}
+{"id":"ose-a-0734","category":"ose","mode":"preferes","intensity":2,"text":"Pour te dire que je te trouve sexy, tu préfères…","options":["Un mot","Un regard"]}
+{"id":"ose-a-0735","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères me séduire…","options":["Avec tes yeux","Avec ta voix"]}
+{"id":"ose-a-0736","category":"ose","mode":"preferes","intensity":1,"text":"Pour se dire bonjour, tu préfères…","options":["Un baiser sur la bouche","Un bisou dans le cou"]}
+{"id":"ose-a-0737","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un baiser…","options":["Lent et profond","Rapide et volé"]}
+{"id":"ose-a-0738","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'embrasse…","options":["Sous la pluie","Sous la neige"]}
+{"id":"ose-a-0739","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un baiser qui…","options":["Commence doucement et s'enflamme","Commence fougueux et finit tendre"]}
+{"id":"ose-a-0740","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un baiser brûlant ait lieu…","options":["Contre la porte d'entrée, manteaux encore sur le dos","Au milieu du salon, la musique à fond"]}
+{"id":"ose-a-0741","category":"ose","mode":"preferes","intensity":1,"text":"Le baiser du matin, tu le préfères…","options":["Avant le brossage de dents, tant pis","Après, avec un goût de menthe"]}
+{"id":"ose-a-0742","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'embrasse…","options":["Dans le cou","Derrière l'oreille"]}
+{"id":"ose-a-0743","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un baiser volé…","options":["Dans un ascenseur","Dans une cabine d'essayage"]}
+{"id":"ose-a-0744","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères recevoir…","options":["Un seul baiser de cinéma","Cent petits bisous"]}
+{"id":"ose-a-0745","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un baiser qui descend…","options":["Le long de ton cou","Le long de ton dos"]}
+{"id":"ose-a-0746","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on s'embrasse en cachette…","options":["Dans la cuisine pendant un repas de famille","Dans la voiture avant de descendre"]}
+{"id":"ose-a-0747","category":"ose","mode":"preferes","intensity":1,"text":"Pour dire au revoir le matin, tu préfères…","options":["Un baiser express sur le pas de la porte","Un long baiser qui te met en retard"]}
+{"id":"ose-a-0748","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te mordille…","options":["La lèvre","Le lobe de l'oreille"]}
+{"id":"ose-a-0749","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères embrasser…","options":["Les yeux fermés","Les yeux ouverts, pour me voir"]}
+{"id":"ose-a-0750","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un baiser…","options":["Dure dix minutes sans rien d'autre","Mène très vite à autre chose"]}
+{"id":"ose-a-0751","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on rejoue…","options":["Notre premier baiser","Notre baiser le plus fou"]}
+{"id":"ose-a-0752","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'embrasse en tenant…","options":["Ton visage entre mes mains","Ta taille serrée contre moi"]}
+{"id":"ose-a-0753","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un baiser au goût de…","options":["Chocolat","Fraise"]}
+{"id":"ose-a-0754","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les baisers…","options":["En plein soleil sur une plage","Dans le noir d'une salle de cinéma"]}
+{"id":"ose-a-0755","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que mes baisers s'aventurent…","options":["Sur ton ventre","Au creux de tes reins"]}
+{"id":"ose-a-0756","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un bisou…","options":["Sur le bout du nez","Sur le front"]}
+{"id":"ose-a-0757","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on s'embrasse comme…","options":["Des ados à l'arrière d'un bus","Des stars sur un tapis rouge"]}
+{"id":"ose-a-0758","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un baiser qui te coupe…","options":["Le souffle","La parole"]}
+{"id":"ose-a-0759","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'un baiser surprise arrive…","options":["En pleine dispute","En plein fou rire"]}
+{"id":"ose-a-0760","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un baiser te fasse comprendre…","options":["Que j'ai envie de toi maintenant","Que j'aurai envie de toi toute la nuit"]}
+{"id":"ose-a-0761","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on s'embrasse en dansant…","options":["Un slow langoureux","Un rock endiablé"]}
+{"id":"ose-a-0762","category":"ose","mode":"preferes","intensity":1,"text":"Côté baisers, tu préfères…","options":["La quantité","La qualité"]}
+{"id":"ose-a-0763","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'embrasse pour…","options":["Te faire taire au milieu d'une phrase","Te réveiller d'une sieste"]}
+{"id":"ose-a-0764","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un baiser sur…","options":["L'épaule nue","Le creux du poignet"]}
+{"id":"ose-a-0765","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'on s'embrasse jusqu'à…","options":["Ne plus pouvoir respirer","Ne plus pouvoir attendre"]}
+{"id":"ose-a-0766","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'embrasse au sommet…","options":["D'une grande roue","D'une montagne"]}
+{"id":"ose-a-0767","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les baisers interdits…","options":["Au milieu d'une fête","Dans un musée silencieux"]}
+{"id":"ose-a-0768","category":"ose","mode":"preferes","intensity":1,"text":"Pour te réconcilier, tu préfères…","options":["Un baiser qui demande pardon","Un câlin qui dit tout"]}
+{"id":"ose-a-0769","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un baiser soit…","options":["Promis toute la journée","Volé sans prévenir"]}
+{"id":"ose-a-0770","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un baiser te laisse…","options":["Le souffle court","Les jambes en coton"]}
+{"id":"ose-a-0771","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'embrasse sur…","options":["Un banc public","Un pont au coucher du soleil"]}
+{"id":"ose-a-0772","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les baisers du soir…","options":["Au coin du feu","Sous les draps"]}
+{"id":"ose-a-0773","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te vole un baiser…","options":["Pendant que tu cuisines","Pendant que tu te brosses les dents"]}
+{"id":"ose-a-0774","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'embrasse façon…","options":["Bisou esquimau","Bisou papillon, du bout des cils"]}
+{"id":"ose-a-0775","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je t'embrasse lentement…","options":["De la nuque jusqu'au bas du dos","Du poignet jusqu'à l'épaule"]}
+{"id":"ose-a-0776","category":"ose","mode":"preferes","intensity":1,"text":"Pour un câlin du soir, tu préfères…","options":["La cuillère","Face à face, nez contre nez"]}
+{"id":"ose-a-0777","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'enlace…","options":["Par derrière, sans prévenir","De face, en te regardant"]}
+{"id":"ose-a-0778","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un câlin…","options":["Debout dans la cuisine","Sous la couette"]}
+{"id":"ose-a-0779","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un câlin devienne coquin…","options":["Lentement, sans qu'on s'en rende compte","D'un coup, sur un simple regard"]}
+{"id":"ose-a-0780","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'on passe une nuit…","options":["Sans fermer l'œil une seconde","À se réveiller de baisers toutes les heures"]}
+{"id":"ose-a-0781","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un câlin qui dure…","options":["Dix secondes, très fort","Dix minutes, tout doux"]}
+{"id":"ose-a-0782","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se colle…","options":["Sur le canapé devant un film","Dans un hamac trop petit"]}
+{"id":"ose-a-0783","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères sentir…","options":["Mon souffle dans ton cou","Mes doigts dans tes cheveux"]}
+{"id":"ose-a-0784","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je me glisse contre toi…","options":["Au milieu de la nuit","Au petit matin, avant le réveil"]}
+{"id":"ose-a-0785","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se tienne…","options":["Par la main","Par la taille"]}
+{"id":"ose-a-0786","category":"ose","mode":"preferes","intensity":2,"text":"Quand je m'approche tout près, tu préfères…","options":["Que je te frôle sans t'embrasser","Que je t'embrasse sans un mot"]}
+{"id":"ose-a-0787","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un câlin collé-serré…","options":["Après une longue journée","Au milieu d'une fête"]}
+{"id":"ose-a-0788","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on danse…","options":["Joue contre joue","Front contre front"]}
+{"id":"ose-a-0789","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que mes mains se posent…","options":["Sur tes hanches","Au creux de ton dos"]}
+{"id":"ose-a-0790","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on partage…","options":["Un plaid trop petit","Un bain trop chaud"]}
+{"id":"ose-a-0791","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères une bataille…","options":["De chatouilles","D'oreillers"]}
+{"id":"ose-a-0792","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que la chaleur monte…","options":["Sous une couette en plein hiver","Dans la chaleur moite d'une nuit d'été"]}
+{"id":"ose-a-0793","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te serre fort…","options":["Pour te consoler","Pour te faire comprendre mes envies"]}
+{"id":"ose-a-0794","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on fasse la sieste…","options":["Dans un hamac","Sur une plage"]}
+{"id":"ose-a-0795","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères t'asseoir…","options":["Sur mes genoux","Entre mes jambes, dos contre moi"]}
+{"id":"ose-a-0796","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'une étreinte…","options":["S'éternise jusqu'à l'aube","Se transforme très vite en autre chose"]}
+{"id":"ose-a-0797","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un câlin de bienvenue…","options":["Avec un saut dans les bras","Avec un long soupir de soulagement"]}
+{"id":"ose-a-0798","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se frôle…","options":["Sous la table","Dans un couloir étroit"]}
+{"id":"ose-a-0799","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères sentir ma peau…","options":["Chaude au sortir du bain","Fraîche au retour d'une balade"]}
+{"id":"ose-a-0800","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'on se retrouve…","options":["Peau contre peau sous les draps","Peau contre peau dans un bain chaud"]}
+{"id":"ose-a-0801","category":"ose","mode":"preferes","intensity":1,"text":"Pour un rendez-vous, tu préfères me voir en…","options":["Tenue chic et élégante","Jean et t-shirt tout simple"]}
+{"id":"ose-a-0802","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je porte…","options":["Ta chemise trop grande","Un peignoir en soie"]}
+{"id":"ose-a-0803","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'habille…","options":["En tenues assorties","En tenues totalement dépareillées"]}
+{"id":"ose-a-0804","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les vêtements qui…","options":["Montrent un peu","Cachent tout mais suggèrent"]}
+{"id":"ose-a-0805","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères m'enlever…","options":["Une chemise, bouton par bouton","Un pull, d'un seul geste"]}
+{"id":"ose-a-0806","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je sente…","options":["Un parfum boisé","Ma peau, sans aucun parfum"]}
+{"id":"ose-a-0807","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères découvrir ma tenue du soir…","options":["En photo dans la journée","En direct, en rentrant"]}
+{"id":"ose-a-0808","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on parte en week-end avec…","options":["Une valise pleine de tenues","Un sac presque vide"]}
+{"id":"ose-a-0809","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je dorme…","options":["En pyjama de soie","Dans un de tes t-shirts"]}
+{"id":"ose-a-0810","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je t'attende…","options":["En peignoir entrouvert","Avec ton parfum préféré pour seule tenue"]}
+{"id":"ose-a-0811","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on aille faire du shopping…","options":["Pour me choisir une tenue","Pour que je t'en choisisse une"]}
+{"id":"ose-a-0812","category":"ose","mode":"preferes","intensity":2,"text":"En cabine d'essayage, tu préfères…","options":["Que je donne mon avis à travers le rideau","Que je te rejoigne pour juger de près"]}
+{"id":"ose-a-0813","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les sous-vêtements…","options":["En dentelle","En coton tout doux"]}
+{"id":"ose-a-0814","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères me voir porter…","options":["Du noir","Du rouge"]}
+{"id":"ose-a-0815","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'une tenue…","options":["Tombe à tes pieds en un geste","S'enlève très lentement, pièce par pièce"]}
+{"id":"ose-a-0816","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je sorte de la douche…","options":["Avec une serviette nouée à la hâte","Avec un peignoir mal fermé"]}
+{"id":"ose-a-0817","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'échange…","options":["Nos pulls","Nos parfums"]}
+{"id":"ose-a-0818","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères deviner ce que je porte en dessous…","options":["En me le demandant par message","En le découvrant ce soir"]}
+{"id":"ose-a-0819","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un look…","options":["Décontracté chic","Rock et audacieux"]}
+{"id":"ose-a-0820","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que ma tenue soit…","options":["Moulante","Fluide et légère"]}
+{"id":"ose-a-0821","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je garde sur moi…","options":["Seulement ta chemise","Seulement mes chaussettes, pour rire"]}
+{"id":"ose-a-0822","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères sentir mon odeur…","options":["Sur ton oreiller","Sur ton écharpe"]}
+{"id":"ose-a-0823","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se prépare pour sortir…","options":["Dans la même pièce, en se regardant","Séparément, pour garder la surprise"]}
+{"id":"ose-a-0824","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les tenues…","options":["Qui épousent la silhouette","Qui laissent deviner une épaule"]}
+{"id":"ose-a-0825","category":"ose","mode":"preferes","intensity":1,"text":"Côté accessoire, tu préfères…","options":["Une montre élégante","Un foulard noué au cou"]}
+{"id":"ose-a-0826","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je déboutonne ta chemise…","options":["Du bas vers le haut","Du haut vers le bas"]}
+{"id":"ose-a-0827","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères une tenue de soirée…","options":["Avec un col largement ouvert","Fermée jusqu'au cou, toute en mystère"]}
+{"id":"ose-a-0828","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on porte…","options":["Des pyjamas assortis","Des chaussettes rigolotes"]}
+{"id":"ose-a-0829","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je me change…","options":["Devant toi","Derrière un paravent, en ombre chinoise"]}
+{"id":"ose-a-0830","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un déshabillage…","options":["Lent comme un spectacle","Pressé comme une urgence"]}
+{"id":"ose-a-0831","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je te prête…","options":["Mon pull préféré","Mon écharpe qui sent bon"]}
+{"id":"ose-a-0832","category":"ose","mode":"preferes","intensity":2,"text":"Pour un tête-à-tête à la maison, tu préfères…","options":["Une tenue de gala","Une tenue de nuit en soie"]}
+{"id":"ose-a-0833","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un parfum…","options":["Qu'on remarque dès que j'entre","Qu'on ne sent qu'en m'embrassant dans le cou"]}
+{"id":"ose-a-0834","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je porte des lunettes…","options":["De soleil, façon star","De vue, façon intello"]}
+{"id":"ose-a-0835","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'on se déshabille…","options":["À tour de rôle, une pièce à la fois","En même temps, dans la précipitation"]}
+{"id":"ose-a-0836","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un vêtement glisse…","options":["Sur une épaule","Le long d'une jambe"]}
+{"id":"ose-a-0837","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères une tenue cocooning…","options":["Gros pull en laine","Sweat à capuche"]}
+{"id":"ose-a-0838","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères recevoir en cadeau…","options":["Une tenue coquine","Un parfum envoûtant"]}
+{"id":"ose-a-0839","category":"ose","mode":"preferes","intensity":2,"text":"Sur ta peau, tu préfères…","options":["La soie","Le velours"]}
+{"id":"ose-a-0840","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un vêtement retiré finisse…","options":["Sur le sol de l'entrée","Accroché à la lampe de chevet"]}
+{"id":"ose-a-0841","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se déguise…","options":["En stars de cinéma","En personnages de conte"]}
+{"id":"ose-a-0842","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je porte une tenue…","options":["Que tu as choisie","Que tu n'as jamais vue"]}
+{"id":"ose-a-0843","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères me voir en tenue…","options":["De sport","De soirée"]}
+{"id":"ose-a-0844","category":"ose","mode":"preferes","intensity":1,"text":"À la maison, tu préfères…","options":["Les chaussettes douillettes","Les pieds nus sur le parquet"]}
+{"id":"ose-a-0845","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je me déshabille…","options":["En musique","En silence, les yeux dans les tiens"]}
+{"id":"ose-a-0846","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on choisisse nos tenues…","options":["À tour de rôle, pour l'autre","Ensemble, devant le miroir"]}
+{"id":"ose-a-0847","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères mes cheveux…","options":["Ébouriffés par tes mains","Impeccables, pour mieux les décoiffer"]}
+{"id":"ose-a-0848","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un parfum te rappelle…","options":["Notre premier rendez-vous","Notre dernière nuit"]}
+{"id":"ose-a-0849","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te surprenne…","options":["Dans une tenue que tu adores","Dans un de tes vêtements"]}
+{"id":"ose-a-0850","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se prenne en photo…","options":["En tenue de soirée","En pyjama du dimanche"]}
+{"id":"ose-a-0851","category":"ose","mode":"preferes","intensity":2,"text":"Pour un message du matin, tu préfères…","options":["Un mot doux","Une promesse pour ce soir"]}
+{"id":"ose-a-0852","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'envoie…","options":["Un message coquin écrit","Un vocal chuchoté"]}
+{"id":"ose-a-0853","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se laisse…","options":["Des post-it sur le miroir","Des petits mots dans les poches"]}
+{"id":"ose-a-0854","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un sous-entendu…","options":["Subtil, compris de nous deux uniquement","Énorme, qui fait rire toute la table"]}
+{"id":"ose-a-0855","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je te décrive mes envies…","options":["Par message, en pleine journée","À l'oreille, juste avant de rentrer"]}
+{"id":"ose-a-0856","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un petit nom…","options":["Tendre","Rigolo"]}
+{"id":"ose-a-0857","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te taquine par message…","options":["Pendant une réunion","Pendant un dîner de famille"]}
+{"id":"ose-a-0858","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on ait un mot-code coquin…","options":["Complètement banal","Totalement absurde"]}
+{"id":"ose-a-0859","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères entendre ma voix…","options":["Au réveil, toute ensommeillée","Le soir, un peu plus grave"]}
+{"id":"ose-a-0860","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères trouver sur ton téléphone…","options":["Une photo suggestive de moi","Un message qui annonce le programme de la nuit"]}
+{"id":"ose-a-0861","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te murmure…","options":["Un compliment","Une promesse"]}
+{"id":"ose-a-0862","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se parle…","options":["En chuchotant dans le noir","En riant aux éclats"]}
+{"id":"ose-a-0863","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les messages…","options":["Longs et brûlants","Courts et énigmatiques"]}
+{"id":"ose-a-0864","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères une lettre…","options":["Écrite à la main","Lue à voix haute"]}
+{"id":"ose-a-0865","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'une conversation coquine…","options":["Dure toute la journée avant qu'on se voie","Commence et finisse dans la même pièce"]}
+{"id":"ose-a-0866","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je dise ton prénom…","options":["En chuchotant","En soupirant"]}
+{"id":"ose-a-0867","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'envoie…","options":["Des chansons","Des photos de nos journées"]}
+{"id":"ose-a-0868","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se dise bonne nuit…","options":["Par un vocal un brin coquin","Par un message qui fait rêver"]}
+{"id":"ose-a-0869","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les jeux de mots…","options":["Gourmands","Météo : attention, ça chauffe"]}
+{"id":"ose-a-0870","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je t'avoue une envie…","options":["Par écrit, pour que tu la relises","À voix basse, pour que tu la sentes"]}
+{"id":"ose-a-0871","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères recevoir un mot doux…","options":["Dans ta boîte aux lettres","Glissé dans ton sac"]}
+{"id":"ose-a-0872","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un message te fasse…","options":["Rougir au travail","Rentrer plus tôt"]}
+{"id":"ose-a-0873","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères un mot doux…","options":["Dans une langue étrangère","Inventé rien que pour toi"]}
+{"id":"ose-a-0874","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les appels…","options":["En vidéo","En audio seulement, pour imaginer"]}
+{"id":"ose-a-0875","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères entendre au creux de l'oreille…","options":["« J'ai envie de toi »","« Je pense à toi depuis ce matin »"]}
+{"id":"ose-a-0876","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je réponde à ton message coquin…","options":["Du tac au tac","En te faisant languir"]}
+{"id":"ose-a-0877","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se donne des surnoms…","options":["Gourmands","D'animaux"]}
+{"id":"ose-a-0878","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un compte à rebours…","options":["Par messages jusqu'au soir","En post-it semés dans la maison"]}
+{"id":"ose-a-0879","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'écrive…","options":["Un poème coquin","La liste de ce que j'aime chez toi"]}
+{"id":"ose-a-0880","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un message qui dit…","options":["« Devine ce que je ne porte pas »","« Ce soir, c'est toi qui décides de tout »"]}
+{"id":"ose-a-0881","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on garde…","options":["Nos premiers messages","Nos lettres papier"]}
+{"id":"ose-a-0882","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un vocal coquin soit…","options":["Chuchoté","Chanté"]}
+{"id":"ose-a-0883","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je t'appelle…","options":["Juste pour entendre ta voix","Pour te raconter ma journée"]}
+{"id":"ose-a-0884","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un sous-entendu glissé…","options":["Au supermarché","Au restaurant"]}
+{"id":"ose-a-0885","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je te raconte…","options":["Un rêve coquin à ton sujet","Ce que j'imagine pour ce soir"]}
+{"id":"ose-a-0886","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on s'invente…","options":["Un langage de gestes","Un langage de mots-codes"]}
+{"id":"ose-a-0887","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères les messages avec…","options":["Plein d'émojis","Zéro émoji, que des mots"]}
+{"id":"ose-a-0888","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères recevoir une photo…","options":["De mes lèvres","De mon regard"]}
+{"id":"ose-a-0889","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères jouer au « devine à quoi je pense »…","options":["Par messages","Les yeux dans les yeux"]}
+{"id":"ose-a-0890","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'on se décrive nos envies…","options":["Avec plein de détails","Par petites allusions"]}
+{"id":"ose-a-0891","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on rie…","options":["De nos sous-entendus ratés","De nos surnoms ridicules"]}
+{"id":"ose-a-0892","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un mot à double sens…","options":["Te fasse rire","Te fasse rougir"]}
+{"id":"ose-a-0893","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se souhaite bonne journée…","options":["Par un baiser","Par un petit mot"]}
+{"id":"ose-a-0894","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que ma voix soit…","options":["Grave et lente","Joueuse et rieuse"]}
+{"id":"ose-a-0895","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un vocal…","options":["Où je murmure ton prénom","Où je détaille mes projets pour ce soir"]}
+{"id":"ose-a-0896","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères les messages programmés…","options":["Pour l'heure de ton réveil","Pour la fin de ta journée"]}
+{"id":"ose-a-0897","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on se lise…","options":["Un roman d'amour à voix haute","Nos vieux messages en riant"]}
+{"id":"ose-a-0898","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on parle…","options":["Avec des mots doux","Avec des sous-entendus"]}
+{"id":"ose-a-0899","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un appel tard le soir…","options":["Pour se dire des secrets","Pour s'endormir au téléphone"]}
+{"id":"ose-a-0900","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je t'écrive sur la peau…","options":["Un mot, du bout du doigt","Une phrase, du bout des lèvres"]}
+{"id":"ose-a-0901","category":"ose","mode":"preferes","intensity":1,"text":"Pour une danse à deux, tu préfères…","options":["Une valse élégante qui nous fait tournoyer","Un déhanché de club au rythme de la basse"]}
+{"id":"ose-a-0902","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on danse dans le salon…","options":["Les lumières éteintes, à la lueur d'une bougie","Les rideaux grands ouverts, avec la ville pour public"]}
+{"id":"ose-a-0903","category":"ose","mode":"preferes","intensity":1,"text":"Sur la piste de danse, tu préfères…","options":["Que je t'y entraîne par la main","Que tu m'y entraînes par la main"]}
+{"id":"ose-a-0904","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te séduise en musique…","options":["En te chantant une chanson à l'oreille","En te faisant danser sans un mot"]}
+{"id":"ose-a-0905","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que ma danse devienne…","options":["Un spectacle privé, rien que pour toi","Un corps-à-corps qui te laisse sans voix"]}
+{"id":"ose-a-0906","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se serre en dansant…","options":["Au milieu de la foule, sans se soucier des regards","Au fond de la salle, à l'abri des regards"]}
+{"id":"ose-a-0907","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères danser avec moi…","options":["Pieds nus dans la cuisine","En tenue de bal dans un grand salon"]}
+{"id":"ose-a-0908","category":"ose","mode":"preferes","intensity":2,"text":"Pendant un slow, tu préfères que ta main se pose…","options":["Bien bas dans mon dos","Dans ma nuque, au creux de mes cheveux"]}
+{"id":"ose-a-0909","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'une danse très serrée nous fasse…","options":["Rentrer en courant à la maison","Rester sur place à nous dévorer des yeux, la tension à son comble"]}
+{"id":"ose-a-0910","category":"ose","mode":"preferes","intensity":2,"text":"Pour mettre l'ambiance, tu préfères une playlist de…","options":["Slows qui donnent des idées","Rythmes latins qui font bouger les hanches"]}
+{"id":"ose-a-0911","category":"ose","mode":"preferes","intensity":1,"text":"Pour un dîner en tête-à-tête, tu préfères…","options":["Un restaurant aux bougies","Un pique-nique au bord de l'eau"]}
+{"id":"ose-a-0912","category":"ose","mode":"preferes","intensity":2,"text":"Au restaurant, tu préfères qu'on s'installe…","options":["Face à face, les yeux dans les yeux","Côte à côte, genou contre genou"]}
+{"id":"ose-a-0913","category":"ose","mode":"preferes","intensity":2,"text":"À une table pleine de monde, tu préfères que je te fasse passer…","options":["Un petit mot plié en quatre","Un message coquin sur ton téléphone"]}
+{"id":"ose-a-0914","category":"ose","mode":"preferes","intensity":1,"text":"Pour finir une soirée, tu préfères…","options":["Une marche tranquille, bras dessus bras dessous","Un taxi où l'on se serre très fort"]}
+{"id":"ose-a-0915","category":"ose","mode":"preferes","intensity":2,"text":"À une fête, tu préfères qu'on s'éclipse…","options":["Pour s'embrasser derrière un rideau","Pour rentrer plus tôt, rien que nous deux"]}
+{"id":"ose-a-0916","category":"ose","mode":"preferes","intensity":3,"text":"Au retour d'une belle soirée, tu préfères que l'envie éclate…","options":["Dès la porte refermée, sans un mot","Après une dernière tisane, en faisant semblant de rien"]}
+{"id":"ose-a-0917","category":"ose","mode":"preferes","intensity":2,"text":"Au cinéma, tu préfères…","options":["Qu'on partage le pop-corn en se frôlant les doigts","Qu'on prenne la dernière rangée pour être tranquilles"]}
+{"id":"ose-a-0918","category":"ose","mode":"preferes","intensity":1,"text":"Pour une pause à deux en fin de journée, tu préfères…","options":["Un salon de thé à l'ambiance feutrée","Notre balcon, sous les étoiles"]}
+{"id":"ose-a-0919","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères rentrer à pied après une sortie…","options":["En se tenant la main sans rien dire","En s'embrassant à chaque coin de rue"]}
+{"id":"ose-a-0920","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que ma surprise de fin de soirée soit…","options":["Une chambre d'hôtel réservée rien que pour nous","Un bain à deux qui nous attend à la maison"]}
+{"id":"ose-a-0921","category":"ose","mode":"preferes","intensity":1,"text":"Pour rejouer notre premier rendez-vous, tu préfères…","options":["Qu'on recommence comme deux inconnus","Qu'on y retourne avec tout ce qu'on sait déjà"]}
+{"id":"ose-a-0922","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te séduise…","options":["Avec la maladresse du premier soir","Avec l'audace gagnée au fil du temps"]}
+{"id":"ose-a-0923","category":"ose","mode":"preferes","intensity":1,"text":"Pour un rendez-vous, tu préfères que j'arrive…","options":["Un peu en avance, pour t'attendre avec un sourire","Un peu en retard, pour te laisser languir"]}
+{"id":"ose-a-0924","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un rendez-vous commence par…","options":["Une main tendue et un compliment","Un baiser sans un mot"]}
+{"id":"ose-a-0925","category":"ose","mode":"preferes","intensity":3,"text":"De notre première nuit, tu préfères te souvenir…","options":["Des fous rires","Des silences pleins de promesses"]}
+{"id":"ose-a-0926","category":"ose","mode":"preferes","intensity":2,"text":"Pour un deuxième rendez-vous, tu préfères passer la soirée…","options":["À se regarder dans les yeux sans rien dire","À s'embrasser jusqu'à en perdre la notion du temps"]}
+{"id":"ose-a-0927","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je te donne rendez-vous…","options":["Là où a eu lieu notre premier baiser","Dans un endroit inconnu, choisi au hasard"]}
+{"id":"ose-a-0928","category":"ose","mode":"preferes","intensity":3,"text":"Après un beau rendez-vous, tu préfères qu'on se dise au revoir…","options":["Devant ta porte, avec un baiser qui dure","Pas du tout : on rentre ensemble"]}
+{"id":"ose-a-0929","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un rendez-vous se termine par…","options":["Une promesse de se revoir très vite","Une invitation à monter prendre un dernier thé"]}
+{"id":"ose-a-0930","category":"ose","mode":"preferes","intensity":2,"text":"Pour me faire craquer, tu préfères une entrée en matière…","options":["Mystérieuse, avec un long regard","Franche, avec un compliment appuyé"]}
+{"id":"ose-a-0931","category":"ose","mode":"preferes","intensity":2,"text":"Pour une escapade à deux, tu préfères…","options":["Un chalet isolé avec un feu de cheminée","Une chambre d'hôtel avec vue sur la mer"]}
+{"id":"ose-a-0932","category":"ose","mode":"preferes","intensity":1,"text":"En vacances, tu préfères qu'on se retrouve…","options":["Sur une plage déserte au lever du jour","Sur une terrasse au coucher du soleil"]}
+{"id":"ose-a-0933","category":"ose","mode":"preferes","intensity":2,"text":"À la plage, tu préfères que je te mette de la crème solaire…","options":["Doucement, en prenant mon temps","Vite fait, en riant de nos chatouilles"]}
+{"id":"ose-a-0934","category":"ose","mode":"preferes","intensity":3,"text":"Dans une chambre d'hôtel, tu préfères accrocher le « ne pas déranger »…","options":["Dès notre arrivée","Après un dîner en ville"]}
+{"id":"ose-a-0935","category":"ose","mode":"preferes","intensity":1,"text":"En voyage, tu préfères partager…","options":["Un lit immense et moelleux","Un tout petit lit où il faut se serrer"]}
+{"id":"ose-a-0936","category":"ose","mode":"preferes","intensity":2,"text":"Sur une plage au clair de lune, tu préfères…","options":["Un bain de minuit rien que nous deux","Une couverture sur le sable pour regarder les étoiles"]}
+{"id":"ose-a-0937","category":"ose","mode":"preferes","intensity":1,"text":"Dans un train de nuit, tu préfères une couchette…","options":["Juste au-dessus de la mienne, pour chuchoter","En face de la mienne, pour se regarder dormir"]}
+{"id":"ose-a-0938","category":"ose","mode":"preferes","intensity":2,"text":"Pour un week-end sans téléphone, tu préfères…","options":["Une cabane avec un poêle à bois et un seul lit","Un hôtel avec une baignoire à remous"]}
+{"id":"ose-a-0939","category":"ose","mode":"preferes","intensity":2,"text":"Sur une île déserte, tu préfères que je prenne soin de toi…","options":["En te cuisinant au feu de bois","En te massant les épaules au coucher du soleil"]}
+{"id":"ose-a-0940","category":"ose","mode":"preferes","intensity":3,"text":"Dans un hôtel, tu préfères que la nuit commence…","options":["Par un bain à deux","Par un baiser contre la porte de la chambre"]}
+{"id":"ose-a-0941","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères recevoir un massage…","options":["De la nuque, après une longue journée","Des pieds, après une longue marche"]}
+{"id":"ose-a-0942","category":"ose","mode":"preferes","intensity":2,"text":"Pour un massage, tu préfères…","options":["Une huile tiède qui sent bon","Des mains nues et un peu de silence"]}
+{"id":"ose-a-0943","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un bain…","options":["Aux bougies, avec de la mousse jusqu'au menton","Dans le noir, avec la lune pour seule lumière"]}
+{"id":"ose-a-0944","category":"ose","mode":"preferes","intensity":2,"text":"Dans un bain à deux, tu préfères…","options":["Que tu te blottisses contre moi","Que je me blottisse contre toi"]}
+{"id":"ose-a-0945","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te caresse le dos…","options":["Du bout des ongles, à peine","Avec la paume, bien à plat"]}
+{"id":"ose-a-0946","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je te lave les cheveux…","options":["Avec un gobelet d'eau tiède dans le bain","Sous la douche, avec plein de mousse"]}
+{"id":"ose-a-0947","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères une douche à deux…","options":["Brûlante, dans un nuage de vapeur","Tiède, avec une chanson chantée à tue-tête"]}
+{"id":"ose-a-0948","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que mes mains te massent…","options":["Le bas du dos, lentement","Les cuisses, après une journée debout"]}
+{"id":"ose-a-0949","category":"ose","mode":"preferes","intensity":1,"text":"Pour un moment de détente, tu préfères…","options":["Un masque de beauté pour deux, fous rires garantis","Une séance de lecture, ta tête sur mes genoux"]}
+{"id":"ose-a-0950","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un massage se transforme…","options":["Doucement en sieste partagée","Sans prévenir en nuit enflammée"]}
+{"id":"ose-a-0951","category":"ose","mode":"preferes","intensity":2,"text":"Pour un goûter coquin, tu préfères…","options":["Des fraises à croquer à deux","Du chocolat fondu à picorer du bout des doigts"]}
+{"id":"ose-a-0952","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te donne à manger…","options":["À la cuillère, comme à un bébé","Du bout des doigts, un morceau à la fois"]}
+{"id":"ose-a-0953","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères partager une glace…","options":["À la même cuillère, en se regardant","Du même cornet, en se disputant chaque bouchée"]}
+{"id":"ose-a-0954","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je te prépare un dîner…","options":["Aux chandelles, avec une musique douce","En pyjama, dans la cuisine en désordre"]}
+{"id":"ose-a-0955","category":"ose","mode":"preferes","intensity":2,"text":"Pour partager un fruit, tu préfères…","options":["Une pêche juteuse, le jus au coin des lèvres","Une grenade, graine après graine"]}
+{"id":"ose-a-0956","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un petit-déjeuner au lit…","options":["Avec des croissants et des baisers sucrés","Avec du café et la nuit à se raconter"]}
+{"id":"ose-a-0957","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que le dessert se déguste…","options":["Sur ma peau, du bout des doigts","Sur la tienne, du bout des lèvres"]}
+{"id":"ose-a-0958","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je prépare le dîner…","options":["Pendant que tu m'embrasses dans le cou","Pendant que tu me regardes depuis la table"]}
+{"id":"ose-a-0959","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères boire un chocolat chaud…","options":["Dans la même grande tasse, nez contre nez","Dans deux tasses, mais sous le même plaid"]}
+{"id":"ose-a-0960","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que la fin du repas ressemble…","options":["À des assiettes laissées en plan pour filer au lit","À des assiettes débarrassées en nous frôlant sans cesse"]}
+{"id":"ose-a-0961","category":"ose","mode":"preferes","intensity":1,"text":"Pour une soirée à la maison, tu préfères…","options":["Des bougies partout","Des guirlandes lumineuses"]}
+{"id":"ose-a-0962","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères flirter…","options":["Sur le canapé, sous un plaid","Dans le lit, la lampe de chevet allumée"]}
+{"id":"ose-a-0963","category":"ose","mode":"preferes","intensity":2,"text":"Pour une ambiance sensuelle, tu préfères…","options":["Une pluie de pétales sur les draps","Une lumière rouge tamisée"]}
+{"id":"ose-a-0964","category":"ose","mode":"preferes","intensity":3,"text":"Pour un tête-à-tête sans interruption, tu préfères nous retrouver…","options":["Dans la chambre, la porte fermée à clé","Dans le salon, avec tout un après-midi devant nous"]}
+{"id":"ose-a-0965","category":"ose","mode":"preferes","intensity":1,"text":"Pour une soirée tendre, tu préfères une maison…","options":["Au parfum d'encens","Au parfum de vanille"]}
+{"id":"ose-a-0966","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je t'accueille en rentrant…","options":["Au salon, bougies et musique déjà prêtes","Dans la chambre, avec un mot sur la porte"]}
+{"id":"ose-a-0967","category":"ose","mode":"preferes","intensity":2,"text":"Pour un moment à nous, tu préfères…","options":["Le balcon, la nuit tombée","Le tapis du salon, devant la cheminée"]}
+{"id":"ose-a-0968","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on décore notre chambre…","options":["De photos de nous","De fleurs fraîches"]}
+{"id":"ose-a-0969","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que la lumière soit…","options":["Éteinte, pour tout ressentir","Allumée, pour tout voir"]}
+{"id":"ose-a-0970","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que la tension monte…","options":["Dans le silence d'une pièce sombre","Dans une pièce pleine de musique"]}
+{"id":"ose-a-0971","category":"ose","mode":"preferes","intensity":2,"text":"Pour un jeu de rôle d'un soir, tu préfères qu'on joue…","options":["Deux inconnus qui se draguent dans un bar","Deux voyageurs qui se rencontrent dans un train"]}
+{"id":"ose-a-0972","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on joue à…","options":["Chaud ou froid, avec un baiser pour récompense","Un-deux-trois soleil, avec un baiser pour victoire"]}
+{"id":"ose-a-0973","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un jeu où la personne qui perd…","options":["Retire un vêtement","Réalise un souhait de l'autre"]}
+{"id":"ose-a-0974","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères jouer aux cartes en pariant…","options":["Des baisers","Des massages"]}
+{"id":"ose-a-0975","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un jeu de devinettes où chaque erreur…","options":["Se paie d'un long baiser","Se paie d'un vêtement de moins"]}
+{"id":"ose-a-0976","category":"ose","mode":"preferes","intensity":1,"text":"Au jeu du « je te défie », tu préfères relever…","options":["Un défi drôle et un peu ridicule","Un défi tendre et un peu osé"]}
+{"id":"ose-a-0977","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on invente un geste de ralliement…","options":["Un frôlement de nuque pour dire « viens »","Un clin d'œil pour dire « ce soir »"]}
+{"id":"ose-a-0978","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères jouer à cache-cache…","options":["Dans la maison, avec un baiser pour la personne trouvée","Dans un parc, avec une étreinte pour la personne trouvée"]}
+{"id":"ose-a-0979","category":"ose","mode":"preferes","intensity":2,"text":"Dans un jeu de rôle, tu préfères que j'incarne…","options":["Une personne mystérieuse croisée à une soirée","Une personne timide qui se lâche petit à petit"]}
+{"id":"ose-a-0980","category":"ose","mode":"preferes","intensity":3,"text":"Les yeux bandés, tu préfères deviner…","options":["Où je pose mes lèvres","Ce que je te fais goûter"]}
+{"id":"ose-a-0981","category":"ose","mode":"preferes","intensity":1,"text":"Pour se retrouver, tu préfères…","options":["Que ce soit toi qui fasses le premier pas","Que ce soit moi qui fasse le premier pas"]}
+{"id":"ose-a-0982","category":"ose","mode":"preferes","intensity":2,"text":"Pour te surprendre, tu préfères que je…","options":["Te porte dans mes bras jusqu'au lit","T'entraîne par la main vers la chambre"]}
+{"id":"ose-a-0983","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères une séduction…","options":["Qui prend son temps, étape par étape","Qui fonce, sans détour"]}
+{"id":"ose-a-0984","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que le désir nous prenne…","options":["Un matin tranquille, sans rien d'autre à faire","Une nuit tardive, quand tout le monde dort"]}
+{"id":"ose-a-0985","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se fasse désirer…","options":["Un jour entier avant de se retrouver","Une heure entière à se chercher sans se toucher"]}
+{"id":"ose-a-0986","category":"ose","mode":"preferes","intensity":1,"text":"Pour séduire, tu préfères…","options":["Mener la danse","Te laisser mener"]}
+{"id":"ose-a-0987","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que l'envie se déclare…","options":["Par un geste simple, comme éteindre la télé","Par un mot choisi, glissé au creux de l'oreille"]}
+{"id":"ose-a-0988","category":"ose","mode":"preferes","intensity":1,"text":"Pour un geste de tendresse inattendu, tu préfères…","options":["Un baiser sur la joue","Une main dans les cheveux"]}
+{"id":"ose-a-0989","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères prendre notre temps…","options":["Pour un vrai tête-à-tête sans montre","Pour un petit moment volé entre deux obligations"]}
+{"id":"ose-a-0990","category":"ose","mode":"preferes","intensity":2,"text":"Quand tu me plais très fort, tu préfères que je te le dise…","options":["Tout de suite, sans réfléchir","Au bon moment, en choisissant mes mots"]}
+{"id":"ose-a-0991","category":"ose","mode":"preferes","intensity":1,"text":"Pour te faire craquer, tu préfères que je mise sur…","options":["Une blague nulle mais irrésistible","Un compliment bien senti"]}
+{"id":"ose-a-0992","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on flirte…","options":["En se lançant des défis ridicules","En se murmurant des mots doux"]}
+{"id":"ose-a-0993","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je te fasse rire…","options":["Avec une imitation ratée de ta voix","Avec une danse ridicule"]}
+{"id":"ose-a-0994","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te fasse un clin d'œil…","options":["Au milieu d'une réunion de famille","Au milieu d'une soirée entre amis"]}
+{"id":"ose-a-0995","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que notre complicité se voie…","options":["Dans nos blagues cachées aux autres","Dans nos gestes qui se répondent sans un mot"]}
+{"id":"ose-a-0996","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on se lance des piques charmantes…","options":["Devant des amis, pour jouer","À deux, pour mieux se réconcilier"]}
+{"id":"ose-a-0997","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un bisou volé…","options":["Pendant que tu me racontes quelque chose de sérieux","Pendant que je suis en pleine concentration"]}
+{"id":"ose-a-0998","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'un fou rire se termine…","options":["Par un silence brûlant","Par un baiser qu'on n'avait pas prévu"]}
+{"id":"ose-a-0999","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on invente un surnom coquin…","options":["Que nous seuls comprenons","Que tout le monde entend sans se douter de rien"]}
+{"id":"ose-a-1000","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que nos plaisanteries coquines nous mènent…","options":["Droit à la chambre","Au fou rire, puis à la chambre"]}
+{"id":"ose-a-1001","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je remarque…","options":["La façon dont tu mords ta lèvre en réfléchissant","La façon dont tu relèves tes cheveux"]}
+{"id":"ose-a-1002","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que mes doigts suivent…","options":["La ligne de ta mâchoire","Le dessin de ta clavicule"]}
+{"id":"ose-a-1003","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je te prenne la main…","options":["En la serrant fort pour te rassurer","En traçant des cercles sur ta paume"]}
+{"id":"ose-a-1004","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que mes mains explorent…","options":["Ton dos, vertèbre après vertèbre","Tes épaules, muscle après muscle"]}
+{"id":"ose-a-1005","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que ce qui te trouble chez moi soit…","options":["Ma façon de te regarder","Ma façon de te toucher"]}
+{"id":"ose-a-1006","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je joue avec tes cheveux…","options":["Pendant que tu lis","Pendant que tu t'endors"]}
+{"id":"ose-a-1007","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un effleurement…","options":["À peine perceptible","Qui laisse une traînée de frissons"]}
+{"id":"ose-a-1008","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je te couvre de baisers…","options":["De la tête aux pieds, sans rien oublier","Seulement là où ça te fait frissonner"]}
+{"id":"ose-a-1009","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères sentir mon souffle…","options":["Contre ton oreille quand je chuchote","Contre tes lèvres juste avant le baiser"]}
+{"id":"ose-a-1010","category":"ose","mode":"preferes","intensity":2,"text":"Pour te réveiller en douceur, tu préfères…","options":["Mes doigts qui dessinent des cercles dans ton dos","Ma voix qui te susurre une promesse"]}
+{"id":"ose-a-1011","category":"ose","mode":"preferes","intensity":1,"text":"Pour flirter, tu préfères les moments…","options":["Au petit matin, la tête encore sur l'oreiller","À la tombée de la nuit, les lumières basses"]}
+{"id":"ose-a-1012","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que le désir nous surprenne…","options":["Au milieu d'un dimanche pluvieux","Au milieu d'un après-midi ensoleillé"]}
+{"id":"ose-a-1013","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères les soirées de flirt…","options":["En hiver, sous une grosse couverture","En été, fenêtres grandes ouvertes"]}
+{"id":"ose-a-1014","category":"ose","mode":"preferes","intensity":3,"text":"Pendant un orage, tu préfères…","options":["Qu'on se blottisse au chaud en écoutant le tonnerre","Qu'on ferme les volets et qu'on fasse notre propre tempête"]}
+{"id":"ose-a-1015","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères les matins de week-end…","options":["Paresseux, à traîner au lit","Actifs, avec une balade main dans la main"]}
+{"id":"ose-a-1016","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'une nuit d'été nous trouve…","options":["Sur le balcon, à voix basse","Sous un simple drap, la fenêtre grande ouverte"]}
+{"id":"ose-a-1017","category":"ose","mode":"preferes","intensity":2,"text":"Pour entamer le week-end, tu préfères…","options":["Un baiser dès que j'ouvre la porte","Un long câlin sans un mot"]}
+{"id":"ose-a-1018","category":"ose","mode":"preferes","intensity":2,"text":"La veille d'un jour férié, tu préfères…","options":["Qu'on veille tard à se raconter des secrets","Qu'on s'endorme tôt dans les bras l'un de l'autre"]}
+{"id":"ose-a-1019","category":"ose","mode":"preferes","intensity":2,"text":"Un soir de pleine lune, tu préfères…","options":["Qu'on sorte une couverture sur le balcon","Qu'on ferme les rideaux sur le reste du monde"]}
+{"id":"ose-a-1020","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères les réveils…","options":["À deux, quand personne ne nous attend","À deux, quand l'envie nous réveille avant le soleil"]}
+{"id":"ose-a-1021","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que je te fasse patienter…","options":["Avec des indices sur ma surprise","Avec une promesse murmurée à ton oreille"]}
+{"id":"ose-a-1022","category":"ose","mode":"preferes","intensity":1,"text":"Quand tu rentres, tu préfères trouver…","options":["Un petit mot sur la table","Une musique douce dans la maison"]}
+{"id":"ose-a-1023","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères un rendez-vous fixé par…","options":["Une carte avec une heure et un lieu","Une clé et un numéro de chambre d'hôtel"]}
+{"id":"ose-a-1024","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'un baiser s'interrompe…","options":["Juste avant le meilleur, pour te faire languir","Quand la tension est à son comble, pour mieux reprendre"]}
+{"id":"ose-a-1025","category":"ose","mode":"preferes","intensity":1,"text":"Pour te donner envie de rentrer, tu préfères…","options":["Un message qui annonce un bon dîner","Un message qui annonce une soirée de détente"]}
+{"id":"ose-a-1026","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on garde une envie en réserve…","options":["Pour un soir de la semaine prochaine","Pour une journée entière de ce week-end"]}
+{"id":"ose-a-1027","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que j'écrive mon envie sur un billet…","options":["Plié dans ta poche","Glissé dans ton livre"]}
+{"id":"ose-a-1028","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères patienter derrière une porte close…","options":["Pour découvrir ma tenue du soir","Pour découvrir une surprise préparée avec soin"]}
+{"id":"ose-a-1029","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères qu'une promesse murmurée le matin se réalise…","options":["Dans l'heure qui suit","Le soir, derrière une porte close"]}
+{"id":"ose-a-1030","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères qu'on s'écrive une lettre à ouvrir…","options":["Dans un an","Demain matin"]}
+{"id":"ose-a-1031","category":"ose","mode":"preferes","intensity":1,"text":"Pour un cadeau de séduction, tu préfères…","options":["Un bouquet de fleurs de saison","Une boîte de chocolats fins"]}
+{"id":"ose-a-1032","category":"ose","mode":"preferes","intensity":2,"text":"Comme cadeau surprise, tu préfères recevoir…","options":["Une nuit d'hôtel offerte","Un week-end de câlins à la maison"]}
+{"id":"ose-a-1033","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères que je t'offre…","options":["Un livre avec un mot doux glissé dedans","Un disque avec notre chanson"]}
+{"id":"ose-a-1034","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères un cadeau qui…","options":["Se porte sur la peau","Se déguste à deux"]}
+{"id":"ose-a-1035","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que mon cadeau soit emballé…","options":["Dans un joli papier, avec un ruban","Dans un ruban noué autour de moi, à défaire doucement"]}
+{"id":"ose-a-1036","category":"ose","mode":"preferes","intensity":1,"text":"Tu préfères une surprise…","options":["Au réveil, sur la table de nuit","En rentrant, dans l'entrée"]}
+{"id":"ose-a-1037","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères recevoir une invitation…","options":["Écrite à la main et glissée sous la porte","Chuchotée dans un vocal à l'improviste"]}
+{"id":"ose-a-1038","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères qu'on s'offre…","options":["Un coffret de soins à partager","Un jeu de cartes coquin à découvrir ce soir"]}
+{"id":"ose-a-1039","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères que j'achète pour toi…","options":["Un joli ensemble de nuit","Un livre sensuel qu'on lira à deux"]}
+{"id":"ose-a-1040","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères que je t'offre une soirée où tu choisis tout…","options":["Du dîner jusqu'à la musique","De ma tenue jusqu'à nos jeux"]}
+{"id":"ose-a-1041","category":"ose","mode":"preferes","intensity":1,"text":"Pour s'amuser à deux, tu préfères…","options":["Un cours de danse de salon","Un cours de cuisine"]}
+{"id":"ose-a-1042","category":"ose","mode":"preferes","intensity":2,"text":"Pendant une partie de fléchettes, tu préfères…","options":["Que je me place derrière toi pour t'aider à viser","Que je te regarde viser depuis l'autre bout de la pièce"]}
+{"id":"ose-a-1043","category":"ose","mode":"preferes","intensity":1,"text":"Au bord d'une piscine, tu préfères…","options":["Qu'on se lance dans une course de longueurs","Que tu me regardes bronzer au soleil"]}
+{"id":"ose-a-1044","category":"ose","mode":"preferes","intensity":2,"text":"Pendant une séance de sport à deux, tu préfères…","options":["Qu'on se lance des regards complices entre deux séries","Qu'on se motive avec des petits baisers"]}
+{"id":"ose-a-1045","category":"ose","mode":"preferes","intensity":1,"text":"Pour une balade en forêt, tu préfères…","options":["Un baiser derrière chaque grand arbre","Un pique-nique sur une souche"]}
+{"id":"ose-a-1046","category":"ose","mode":"preferes","intensity":3,"text":"Après le sport, tu préfères…","options":["Une douche brûlante à deux","Le canapé, la peau encore chaude"]}
+{"id":"ose-a-1047","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères une séance de yoga à deux…","options":["Où chaque posture nous rapproche","Où chaque posture se finit en fou rire"]}
+{"id":"ose-a-1048","category":"ose","mode":"preferes","intensity":2,"text":"Tu préfères une course dans le jardin…","options":["Avec un baiser pour trophée","Avec une soirée sur mesure pour trophée"]}
+{"id":"ose-a-1049","category":"ose","mode":"preferes","intensity":2,"text":"Après une randonnée, tu préfères…","options":["Un bain moussant à deux","Une sieste dans les bras l'un de l'autre"]}
+{"id":"ose-a-1050","category":"ose","mode":"preferes","intensity":3,"text":"Tu préfères une course-poursuite dans la maison qui finit…","options":["Par un fou rire sur le canapé","Par une étreinte passionnée sur le tapis"]}
