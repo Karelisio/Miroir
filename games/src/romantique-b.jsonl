@@ -13,7 +13,7 @@
 {"id":"rom-b-0013","category":"romantique","mode":"verite","intensity":1,"text":"Quel film romantique aimerais-tu revoir sous un plaid avec {autre} ?"}
 {"id":"rom-b-0014","category":"romantique","mode":"verite","intensity":3,"text":"Quelle caresse de {autre} te donne des frissons à coup sûr ?"}
 {"id":"rom-b-0015","category":"romantique","mode":"verite","intensity":1,"text":"Qu'est-ce qui te fait sourire quand tu repenses à notre premier baiser ?"}
-{"id":"rom-b-0016","category":"romantique","mode":"verite","intensity":2,"text":"Quelle odeur de {autre} pourrais-tu reconnaître les yeux fermés ?"}
+{"id":"rom-b-0016","category":"romantique","mode":"verite","intensity":2,"text":"Quel parfum, sur {autre}, te fait encore tourner la tête ?"}
 {"id":"rom-b-0017","category":"romantique","mode":"verite","intensity":2,"text":"Quelle déclaration n'as-tu encore jamais osé faire à {autre} ?"}
 {"id":"rom-b-0018","category":"romantique","mode":"verite","intensity":1,"text":"Quel moment banal avec {autre} t'a soudain semblé magique ?"}
 {"id":"rom-b-0019","category":"romantique","mode":"verite","intensity":2,"text":"Où aimerais-tu que {autre} t'embrasse par surprise ?"}
@@ -245,7 +245,7 @@
 {"id":"rom-b-0245","category":"romantique","mode":"verite","intensity":1,"text":"Quel est le premier cadeau que {autre} t'a fait, et l'as-tu encore ?"}
 {"id":"rom-b-0246","category":"romantique","mode":"verite","intensity":2,"text":"Quel est ton moment préféré pour un câlin surprise par derrière ?"}
 {"id":"rom-b-0247","category":"romantique","mode":"verite","intensity":1,"text":"Quelle activité à deux te détend le plus après une semaine chargée ?"}
-{"id":"rom-b-0248","category":"romantique","mode":"verite","intensity":2,"text":"Qu'est-ce qui te plaît dans la façon dont {autre} t'embrasse ?"}
+{"id":"rom-b-0248","category":"romantique","mode":"verite","intensity":2,"text":"Quel baiser de {autre} gardes-tu précieusement en mémoire ?"}
 {"id":"rom-b-0249","category":"romantique","mode":"verite","intensity":1,"text":"Quel rituel du café ou du thé partagé aimes-tu le plus ?"}
 {"id":"rom-b-0250","category":"romantique","mode":"verite","intensity":3,"text":"Si tu écrivais une lettre sensuelle à {autre}, par quel souvenir commencerais-tu ?"}
 {"id":"rom-b-0251","category":"romantique","mode":"verite","intensity":1,"text":"Quel souvenir d'enfance de {autre} t'attendrit le plus ?"}
@@ -263,7 +263,7 @@
 {"id":"rom-b-0263","category":"romantique","mode":"verite","intensity":1,"text":"Où a eu lieu notre premier baiser, et aimerais-tu y retourner ?"}
 {"id":"rom-b-0264","category":"romantique","mode":"verite","intensity":2,"text":"Qu'aimerais-tu chuchoter à {autre} pendant un dîner entre amis ?"}
 {"id":"rom-b-0265","category":"romantique","mode":"verite","intensity":1,"text":"Quand tu étais malade, quelle attention de {autre} t'a fait le plus de bien ?"}
-{"id":"rom-b-0266","category":"romantique","mode":"verite","intensity":2,"text":"Quel fou rire au lit avec {autre} te fait encore sourire ?"}
+{"id":"rom-b-0266","category":"romantique","mode":"verite","intensity":2,"text":"Quel moment de tendresse imprévu avec {autre} te fait encore sourire ?"}
 {"id":"rom-b-0267","category":"romantique","mode":"verite","intensity":1,"text":"Quel pays aimerais-tu explorer avec {autre}, sac sur le dos ?"}
 {"id":"rom-b-0268","category":"romantique","mode":"verite","intensity":2,"text":"Qu'est-ce qui te donne l'impression d'être unique aux yeux de {autre} ?"}
 {"id":"rom-b-0269","category":"romantique","mode":"verite","intensity":1,"text":"Quel objet un peu ridicule as-tu gardé de nos débuts ?"}
@@ -273,7 +273,7 @@
 {"id":"rom-b-0273","category":"romantique","mode":"verite","intensity":1,"text":"Quelle citation sur l'amour trouves-tu complètement fausse, d'après notre histoire ?"}
 {"id":"rom-b-0274","category":"romantique","mode":"verite","intensity":2,"text":"Quel moment de la journée te donne envie de couvrir {autre} de baisers ?"}
 {"id":"rom-b-0275","category":"romantique","mode":"verite","intensity":1,"text":"Quelle est la scène la plus romantique que tu aies surprise dans la rue ?"}
-{"id":"rom-b-0276","category":"romantique","mode":"verite","intensity":2,"text":"Qu'est-ce qui, chez {autre}, te remplit de fierté ?"}
+{"id":"rom-b-0276","category":"romantique","mode":"verite","intensity":2,"text":"Qu'est-ce que {autre} fait pour toi que personne d'autre n'a jamais fait ?"}
 {"id":"rom-b-0277","category":"romantique","mode":"verite","intensity":1,"text":"Si on plantait un arbre pour notre couple, lequel choisirais-tu ?"}
 {"id":"rom-b-0278","category":"romantique","mode":"verite","intensity":2,"text":"Quel souvenir d'une sieste à deux t'a laissé une douceur particulière ?"}
 {"id":"rom-b-0279","category":"romantique","mode":"verite","intensity":1,"text":"Quelle est ta meilleure idée de rendez-vous qui ne coûte rien ?"}
@@ -648,7 +648,7 @@
 {"id":"rom-b-0648","category":"romantique","mode":"envie","intensity":1,"text":"Rester au lit jusqu'à midi sans aucune culpabilité"}
 {"id":"rom-b-0649","category":"romantique","mode":"envie","intensity":1,"text":"Planter ensemble quelque chose qui poussera avec le temps"}
 {"id":"rom-b-0650","category":"romantique","mode":"envie","intensity":1,"text":"Une soirée karaoké maison avec uniquement des chansons d'amour"}
-{"id":"rom-b-0651","category":"romantique","mode":"envie","intensity":1,"text":"Un cours de danse à deux, même avec deux pieds gauches"}
+{"id":"rom-b-0651","category":"romantique","mode":"envie","intensity":1,"text":"Réapprendre ensemble le slow de notre première soirée"}
 {"id":"rom-b-0652","category":"romantique","mode":"envie","intensity":1,"text":"Un album de nos plus beaux moments, fabriqué à la main"}
 {"id":"rom-b-0653","category":"romantique","mode":"envie","intensity":1,"text":"Passer une soirée à lire côte à côte, les pieds mêlés"}
 {"id":"rom-b-0654","category":"romantique","mode":"envie","intensity":1,"text":"Un week-end dans une cabane perchée au milieu des arbres"}

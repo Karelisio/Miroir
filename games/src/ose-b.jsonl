@@ -10,7 +10,7 @@
 {"id":"ose-b-0010","category":"ose","mode":"verite","intensity":1,"text":"Quelle couleur aimerais-tu que {autre} porte plus souvent ?"}
 {"id":"ose-b-0011","category":"ose","mode":"verite","intensity":1,"text":"Quelle partie du visage de {autre} pourrais-tu contempler pendant des heures ?"}
 {"id":"ose-b-0012","category":"ose","mode":"verite","intensity":1,"text":"À quel moment banal du quotidien aimerais-tu recevoir un baiser surprise ?"}
-{"id":"ose-b-0013","category":"ose","mode":"verite","intensity":1,"text":"Quelle chanson te donne immédiatement envie de te rapprocher de {autre} ?"}
+{"id":"ose-b-0013","category":"ose","mode":"verite","intensity":1,"text":"Quelle chanson mettrais-tu pour faire passer à {autre}, sans un mot, un message très clair ?"}
 {"id":"ose-b-0014","category":"ose","mode":"verite","intensity":1,"text":"Quel baiser de {autre} te revient encore en mémoire dans les moindres détails ?"}
 {"id":"ose-b-0015","category":"ose","mode":"verite","intensity":1,"text":"Combien de secondes peux-tu soutenir le regard de {autre} sans sourire ?"}
 {"id":"ose-b-0016","category":"ose","mode":"verite","intensity":1,"text":"Quelle habitude de {autre} au réveil te fait craquer ?"}
@@ -698,7 +698,7 @@
 {"id":"ose-b-0698","category":"ose","mode":"envie","intensity":2,"text":"Un pique-nique dans un coin de nature caché qui se termine en sieste très rapprochée"}
 {"id":"ose-b-0699","category":"ose","mode":"envie","intensity":2,"text":"Écrire une lettre coquine et l'envoyer par la poste, timbre compris"}
 {"id":"ose-b-0700","category":"ose","mode":"envie","intensity":2,"text":"Une soirée lecture de poèmes sensuels, chuchotés à l'oreille"}
-{"id":"ose-b-0701","category":"ose","mode":"envie","intensity":2,"text":"Une nuit à la belle étoile dans un seul sac de couchage"}
+{"id":"ose-b-0701","category":"ose","mode":"envie","intensity":2,"text":"Un bain à deux, bougies allumées et téléphones éteints"}
 {"id":"ose-b-0702","category":"ose","mode":"envie","intensity":2,"text":"Un après-midi au soleil dans un coin tranquille, crème solaire étalée avec soin"}
 {"id":"ose-b-0703","category":"ose","mode":"envie","intensity":2,"text":"Un jeu de vérités coquines sous la couette, à la lampe de poche"}
 {"id":"ose-b-0704","category":"ose","mode":"envie","intensity":2,"text":"Un baiser à la dérobée dans le train fantôme d'une fête foraine"}

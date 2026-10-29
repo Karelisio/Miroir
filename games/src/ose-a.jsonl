@@ -569,7 +569,7 @@
 {"id":"ose-a-0569","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Quel est ton meilleur moment pour flirter avec moi ?","options":["Le matin","Au déjeuner","Le soir","La nuit"]}
 {"id":"ose-a-0570","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quelle pensée coquine à mon sujet a déjà troublé ton sommeil ?"}
 {"id":"ose-a-0571","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"À quel moment ta peau est-elle la plus sensible à mes caresses ?","options":["Le matin, au réveil","Après une douche","En fin de journée","Tard dans la nuit"]}
-{"id":"ose-a-0572","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu me regarder dormir ?","min":"Bizarre","max":"Attendrissant"}
+{"id":"ose-a-0572","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu que je te regarde quand tu te prépares ?","min":"Ça me gêne","max":"Continue, j'adore"}
 {"id":"ose-a-0573","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel détail de mon corps te manque le plus quand tu pars en voyage ?"}
 {"id":"ose-a-0574","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Qu'est-ce qui te fait le plus craquer chez moi en été ?","options":["Ma peau dorée","Mes épaules nues","Mes tenues légères","Mon odeur de crème solaire"]}
 {"id":"ose-a-0575","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Quel lieu de vacances aimerais-tu pour une nuit inoubliable à deux ?","options":["Une villa avec piscine","Un riad aux mille bougies","Un bateau au mouillage","Une cabane au fond des bois"]}
@@ -609,7 +609,7 @@
 {"id":"ose-a-0609","category":"ose","mode":"devine","format":"scale","intensity":2,"text":"À quel point aimes-tu qu'on se donne à manger à la main, juste pour jouer ?","min":"Très peu pour moi","max":"Bouchée après bouchée"}
 {"id":"ose-a-0610","category":"ose","mode":"devine","format":"choice","intensity":3,"text":"Le plus brûlant, pour toi, c'est…","options":["Le moment juste avant","Le premier contact","Les regards qui se cherchent","Le souffle d'après"]}
 {"id":"ose-a-0611","category":"ose","mode":"devine","format":"choice","intensity":1,"text":"Me passer de la crème solaire dans le dos, pour toi, c'est…","options":["Une corvée","Un prétexte à caresses","Un moment de tendresse","Le début d'une bataille de crème"]}
-{"id":"ose-a-0612","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel grain de beauté ou petit détail de ma peau connais-tu par cœur ?"}
+{"id":"ose-a-0612","category":"ose","mode":"devine","format":"text","intensity":2,"text":"Quel endroit de mon cou préfères-tu embrasser ?"}
 {"id":"ose-a-0613","category":"ose","mode":"devine","format":"choice","intensity":2,"text":"Devant le miroir, quand je viens t'enlacer, tu regardes…","options":["Ton reflet","Le mien","Nos regards qui se croisent","Rien, tu fermes les yeux"]}
 {"id":"ose-a-0614","category":"ose","mode":"devine","format":"scale","intensity":1,"text":"À quel point rougis-tu facilement quand je flirte avec toi ?","min":"Jamais","max":"Tomate instantanée"}
 {"id":"ose-a-0615","category":"ose","mode":"devine","format":"text","intensity":3,"text":"Quelle envie gardes-tu pour toi, faute d'avoir trouvé le bon moment ?"}
