@@ -543,7 +543,7 @@
 {"id":"int-a-0543","category":"intime","mode":"devine","format":"text","intensity":2,"text":"Quel détail transformerait notre chambre en nid douillet et coquin ?"}
 {"id":"int-a-0544","category":"intime","mode":"devine","format":"choice","intensity":3,"text":"Si je te lisais quelque chose à voix basse, tu choisirais…","options":["Un poème","Un extrait de roman","Une liste de compliments","Nos tout premiers messages"]}
 {"id":"int-a-0545","category":"intime","mode":"devine","format":"choice","intensity":2,"text":"Quelle danse à deux te donne le plus envie de moi ?","options":["Un tango serré","Une salsa chaude","Un slow lent","Une valse élégante"]}
-{"id":"int-a-0546","category":"intime","mode":"devine","format":"choice","intensity":2,"text":"Quand l'un de nous est enrhumé, quelle forme prend ton envie de tendresse ?","options":["Un câlin à distance raisonnable","Une main posée sur le front","Un baiser sur la joue seulement","Je te chouchoute au maximum"]}
+{"id":"int-a-0546","category":"intime","mode":"devine","format":"choice","intensity":2,"text":"Quand un rhume nous tombe dessus, quelle forme prend ton envie de tendresse ?","options":["Un câlin à distance raisonnable","Une main posée sur le front","Un baiser sur la joue seulement","Je te chouchoute au maximum"]}
 {"id":"int-a-0547","category":"intime","mode":"devine","format":"text","intensity":3,"text":"Quelle chose que tu n'aurais jamais dite avant moi me dis-tu aujourd'hui sans hésiter ?"}
 {"id":"int-a-0548","category":"intime","mode":"devine","format":"scale","intensity":2,"text":"À quel point t'endormir la tête sur mon épaule te convient-il ?","min":"Mal au cou garanti","max":"Mon oreiller préféré"}
 {"id":"int-a-0549","category":"intime","mode":"devine","format":"text","intensity":3,"text":"Quelle serait la bande-annonce de notre nuit idéale, en trois mots ?"}
@@ -579,7 +579,7 @@
 {"id":"int-a-0579","category":"intime","mode":"devine","format":"scale","intensity":3,"text":"À quel point imagines-tu notre désir intact dans cinquante ans ?","min":"Il s'apaisera","max":"Plus fort encore"}
 {"id":"int-a-0580","category":"intime","mode":"devine","format":"choice","intensity":2,"text":"Quand tu me regardes dormir, tu ressens surtout…","options":["De la tendresse","De l'envie","De la gratitude","De l'amusement"]}
 {"id":"int-a-0581","category":"intime","mode":"devine","format":"choice","intensity":3,"text":"Pour apprendre de nouvelles choses sur l'intimité à deux, tu préfères…","options":["Lire un livre ensemble","Écouter un podcast","En parler entre nous","Suivre un atelier"]}
-{"id":"int-a-0582","category":"intime","mode":"devine","format":"scale","intensity":3,"text":"À quel point peux-tu parler du plaisir que chacun se donne en solo sans te sentir mal à l'aise ?","min":"Gênant","max":"Aucun tabou"}
+{"id":"int-a-0582","category":"intime","mode":"devine","format":"scale","intensity":3,"text":"À quel point peux-tu parler du plaisir qu'on se donne en solo sans te sentir mal à l'aise ?","min":"Gênant","max":"Aucun tabou"}
 {"id":"int-a-0583","category":"intime","mode":"devine","format":"choice","intensity":3,"text":"Pour commencer une soirée très câline, que mettrais-tu en place d'abord ?","options":["La lumière douce","La musique","Un parfum","Rien, on improvise"]}
 {"id":"int-a-0584","category":"intime","mode":"devine","format":"choice","intensity":3,"text":"Quand tu veux me faire plaisir, qu'espères-tu voir sur moi ?","options":["Mon sourire","Mon frisson","Mon soupir","Ma surprise"]}
 {"id":"int-a-0585","category":"intime","mode":"devine","format":"choice","intensity":3,"text":"Quand je te manque, qu'est-ce qui te revient en premier ?","options":["Mon odeur","Ma voix","Ma chaleur","Mon rire"]}
@@ -844,7 +844,7 @@
 {"id":"int-a-0844","category":"intime","mode":"preferes","intensity":2,"text":"Pour un rendez-vous à distance, tu préfères…","options":["Se parler chaque soir à la même heure","Se surprendre à toute heure"]}
 {"id":"int-a-0845","category":"intime","mode":"preferes","intensity":2,"text":"Pour un petit matin de rêve, tu préfères…","options":["Un lever de soleil regardé depuis le lit","Un lever de soleil regardé depuis un balcon"]}
 {"id":"int-a-0846","category":"intime","mode":"preferes","intensity":3,"text":"Pour un dîner à la maison, tu préfères…","options":["Une table dressée à deux avec soin","Un menu surprise préparé par l'autre"]}
-{"id":"int-a-0847","category":"intime","mode":"preferes","intensity":3,"text":"Pour un dessert, tu préfères…","options":["Une même cuillère pour deux","Un dessert chacun et on goûte celui de l'autre"]}
+{"id":"int-a-0847","category":"intime","mode":"preferes","intensity":3,"text":"Pour un dessert, tu préfères…","options":["Une même cuillère pour deux","Un dessert à soi, et on goûte celui de l'autre"]}
 {"id":"int-a-0848","category":"intime","mode":"preferes","intensity":3,"text":"Pour une douceur sensuelle, tu préfères…","options":["Des framboises cueillies à la main","Un chocolat chaud épicé"]}
 {"id":"int-a-0849","category":"intime","mode":"preferes","intensity":2,"text":"Pour un soir de fête, tu préfères…","options":["Un dîner improvisé en pyjama sur le canapé","Un restaurant puis un retour à pied sous les étoiles"]}
 {"id":"int-a-0850","category":"intime","mode":"preferes","intensity":2,"text":"Pour finir un repas, tu choisis…","options":["Un fondant au chocolat tiède","Une tarte aux fruits rouges"]}
@@ -925,7 +925,7 @@
 {"id":"int-a-0925","category":"intime","mode":"preferes","intensity":3,"text":"Pour te comprendre sans parler, tu préfères avoir le pouvoir de…","options":["Deviner toutes les envies de l'autre","Faire deviner les tiennes sans un mot"]}
 {"id":"int-a-0926","category":"intime","mode":"preferes","intensity":3,"text":"Pour une soirée hors du temps, tu préfères…","options":["Un soir où tout est permis dans le respect de nos limites","Un soir où tout est pensé pour te détendre"]}
 {"id":"int-a-0927","category":"intime","mode":"preferes","intensity":3,"text":"Pour le coucher, tu préfères…","options":["Un rituel du soir immuable","Un coucher qui change chaque soir"]}
-{"id":"int-a-0928","category":"intime","mode":"preferes","intensity":2,"text":"Pour inviter l'autre, tu préfères…","options":["Un mot secret qui nous est propre","Un geste que nous seuls comprenons"]}
+{"id":"int-a-0928","category":"intime","mode":"preferes","intensity":2,"text":"Pour inviter l'autre, tu préfères…","options":["Un mot secret qui nous est propre","Un geste que personne d'autre ne comprend"]}
 {"id":"int-a-0929","category":"intime","mode":"preferes","intensity":3,"text":"Pour nos habitudes, tu préfères…","options":["Une routine qu'on connaît par cœur","Une expérience nouvelle à chaque fois"]}
 {"id":"int-a-0930","category":"intime","mode":"preferes","intensity":2,"text":"Pour changer d'air à la maison, tu préfères…","options":["Réarranger la chambre","Dormir ailleurs dans la maison le temps d'une nuit"]}
 {"id":"int-a-0931","category":"intime","mode":"preferes","intensity":3,"text":"Pour le mois à venir, tu préfères…","options":["Essayer une nouveauté inédite","Approfondir une habitude qu'on aime"]}
@@ -978,15 +978,15 @@
 {"id":"int-a-0978","category":"intime","mode":"preferes","intensity":2,"text":"Pour un geste de soin, tu préfères…","options":["Une couverture remontée sur tes épaules","Un café préparé pour toi au réveil"]}
 {"id":"int-a-0979","category":"intime","mode":"preferes","intensity":3,"text":"Avant de partir, tu préfères…","options":["Un câlin qui dure un peu trop","Un baiser sur le front"]}
 {"id":"int-a-0980","category":"intime","mode":"preferes","intensity":3,"text":"En marchant, tu préfères…","options":["Se tenir la main","S'embrasser en traversant la rue"]}
-{"id":"int-a-0981","category":"intime","mode":"preferes","intensity":3,"text":"À table, tu préfères…","options":["Un regard complice par-dessus les verres","Un sourire en coin qui en dit long"]}
+{"id":"int-a-0981","category":"intime","mode":"preferes","intensity":3,"text":"À table, tu préfères…","options":["Un regard complice par-dessus la table","Un sourire en coin qui en dit long"]}
 {"id":"int-a-0982","category":"intime","mode":"preferes","intensity":3,"text":"Pendant la journée, tu préfères…","options":["Un compliment glissé à l'oreille","Un petit défi lancé en passant"]}
-{"id":"int-a-0983","category":"intime","mode":"preferes","intensity":3,"text":"Pour te livrer, tu préfères…","options":["Parler le premier","Écouter l'autre d'abord"]}
+{"id":"int-a-0983","category":"intime","mode":"preferes","intensity":3,"text":"Pour te livrer, tu préfères…","options":["Prendre la parole en premier","Écouter l'autre d'abord"]}
 {"id":"int-a-0984","category":"intime","mode":"preferes","intensity":3,"text":"Pour prouver ton amour, tu préfères…","options":["Un geste qui se passe de mots","Une phrase qui dit tout"]}
 {"id":"int-a-0985","category":"intime","mode":"preferes","intensity":3,"text":"Pour une promesse, tu préfères…","options":["La chuchoter dans le noir","L'écrire dans une lettre"]}
 {"id":"int-a-0986","category":"intime","mode":"preferes","intensity":3,"text":"Pour partager un moment fort, tu préfères…","options":["Un silence que l'on partage","Une confidence que l'on partage"]}
 {"id":"int-a-0987","category":"intime","mode":"preferes","intensity":3,"text":"Pour dire ce que tu ressens, tu préfères…","options":["Un long regard","Une main qui serre la tienne"]}
 {"id":"int-a-0988","category":"intime","mode":"preferes","intensity":2,"text":"Pour partager une émotion, tu préfères…","options":["Pleurer de rire ensemble","S'attendrir ensemble sur un souvenir"]}
-{"id":"int-a-0989","category":"intime","mode":"preferes","intensity":3,"text":"Pour te montrer tel que tu es, tu préfères…","options":["Te montrer vulnérable en premier","Attendre que l'autre ose le faire"]}
+{"id":"int-a-0989","category":"intime","mode":"preferes","intensity":3,"text":"Pour te montrer au naturel, tu préfères…","options":["Te montrer vulnérable en premier","Attendre que l'autre ose le faire"]}
 {"id":"int-a-0990","category":"intime","mode":"preferes","intensity":3,"text":"Pour dire merci, tu préfères…","options":["Le dire avec des mots","Le dire avec un geste tendre"]}
 {"id":"int-a-0991","category":"intime","mode":"preferes","intensity":3,"text":"Entre un slow et un rythme, tu préfères…","options":["Une chanson lente et enveloppante","Une chanson rythmée qui donne envie de bouger"]}
 {"id":"int-a-0992","category":"intime","mode":"preferes","intensity":3,"text":"Pour une ambiance sonore, tu préfères…","options":["Un morceau instrumental","Une chanson avec des paroles qui parlent d'amour"]}
@@ -998,3 +998,53 @@
 {"id":"int-a-0998","category":"intime","mode":"preferes","intensity":3,"text":"Pour une chanson dédiée, tu préfères…","options":["Une chanson d'amour qui nous ressemble","Une chanson-surprise glissée dans ton casque"]}
 {"id":"int-a-0999","category":"intime","mode":"preferes","intensity":3,"text":"Pour une sortie, tu préfères…","options":["Un concert à deux sous les étoiles","Une soirée dansante jusqu'à l'aube"]}
 {"id":"int-a-1000","category":"intime","mode":"preferes","intensity":3,"text":"Pour accompagner un silence, tu préfères…","options":["Un air qu'on fredonne ensemble","Un silence rempli de nos souffles"]}
+{"id":"int-a-1001","category":"intime","mode":"preferes","intensity":3,"text":"Pour jouer un personnage, tu préfères…","options":["Un personnage de roman","Un personnage de film"]}
+{"id":"int-a-1002","category":"intime","mode":"preferes","intensity":3,"text":"Pour un jeu de rôle, tu préfères incarner…","options":["Un personnage mystérieux croisé dans un bar","Une célébrité qui se cache sous un chapeau"]}
+{"id":"int-a-1003","category":"intime","mode":"preferes","intensity":3,"text":"Avant de jouer un rôle, tu préfères…","options":["Improviser sans préparation","Préparer accessoires et costumes"]}
+{"id":"int-a-1004","category":"intime","mode":"preferes","intensity":2,"text":"Pour camper un personnage, tu préfères…","options":["Un accent exagéré qui fait rire","Un silence de statue qui intrigue"]}
+{"id":"int-a-1005","category":"intime","mode":"preferes","intensity":3,"text":"Pour une rencontre imaginaire, tu préfères jouer…","options":["Deux voyageurs qui se croisent dans une gare","Deux vieilles connaissances qui se retrouvent par hasard"]}
+{"id":"int-a-1006","category":"intime","mode":"preferes","intensity":3,"text":"Pour un lieu de jeu, tu préfères…","options":["Un restaurant chic où l'on feint de se découvrir","Un hall d'hôtel où l'on se donne rendez-vous en secret"]}
+{"id":"int-a-1007","category":"intime","mode":"preferes","intensity":2,"text":"Pour un nom d'emprunt, tu préfères…","options":["Un nom chic et mystérieux","Un nom drôle qui fait rire"]}
+{"id":"int-a-1008","category":"intime","mode":"preferes","intensity":3,"text":"Pour entrer dans la peau d'un autre, tu préfères…","options":["Changer de voix","Changer de démarche"]}
+{"id":"int-a-1009","category":"intime","mode":"preferes","intensity":3,"text":"Pour la durée d'un jeu, tu préfères…","options":["Un scénario en un seul acte","Une saga qui dure plusieurs soirs"]}
+{"id":"int-a-1010","category":"intime","mode":"preferes","intensity":2,"text":"Pour une aventure imaginaire, tu préfères…","options":["Une enquête menée à deux","Une expédition menée à deux"]}
+{"id":"int-a-1011","category":"intime","mode":"preferes","intensity":2,"text":"Pour ta place dans le lit, tu préfères…","options":["Au centre du lit, bras ouverts","Au bord du lit, pour laisser de la place"]}
+{"id":"int-a-1012","category":"intime","mode":"preferes","intensity":3,"text":"Pour une nuit, tu préfères…","options":["Parler jusqu'à l'aube","Dormir d'une traite côte à côte"]}
+{"id":"int-a-1013","category":"intime","mode":"preferes","intensity":2,"text":"Pour un dimanche matin, tu préfères…","options":["Se rendormir ensemble","Se lever tôt pour profiter de la journée"]}
+{"id":"int-a-1014","category":"intime","mode":"preferes","intensity":3,"text":"Pour un réveil à deux, tu préfères…","options":["Se réveiller en même temps","Se réveiller l'un après l'autre en douceur"]}
+{"id":"int-a-1015","category":"intime","mode":"preferes","intensity":3,"text":"Pour sortir du sommeil, tu préfères…","options":["Des caresses lentes","Une chanson douce fredonnée"]}
+{"id":"int-a-1016","category":"intime","mode":"preferes","intensity":2,"text":"Pour la couette, tu préfères…","options":["Une grande couette pour deux","Une couette par personne, mais un seul lit"]}
+{"id":"int-a-1017","category":"intime","mode":"preferes","intensity":3,"text":"Pour la température du lit, tu préfères…","options":["Un lit tout chaud grâce à l'autre","Un lit tout frais pour l'été"]}
+{"id":"int-a-1018","category":"intime","mode":"preferes","intensity":3,"text":"Pour la dernière image avant de dormir, tu préfères…","options":["Le visage de l'autre dans la pénombre","Les étoiles par la fenêtre"]}
+{"id":"int-a-1019","category":"intime","mode":"preferes","intensity":2,"text":"Pour un rendez-vous coquin, tu préfères…","options":["Celui de l'aube","Celui du crépuscule"]}
+{"id":"int-a-1020","category":"intime","mode":"preferes","intensity":3,"text":"Pour un baiser volé, tu préfères…","options":["Sous un parapluie en pleine averse","Dans le noir d'une salle de cinéma"]}
+{"id":"int-a-1021","category":"intime","mode":"preferes","intensity":3,"text":"Pour un réveil tendre, tu préfères…","options":["Un petit mot posé près de ton oreiller","Un baiser déposé sur ton épaule"]}
+{"id":"int-a-1022","category":"intime","mode":"preferes","intensity":3,"text":"Pour jouer à reconnaître l'autre, tu préfères…","options":["Reconnaître son parfum, les yeux fermés","Reconnaître sa voix, dans le noir"]}
+{"id":"int-a-1023","category":"intime","mode":"preferes","intensity":2,"text":"Pour se retrouver dans une foule, tu préfères…","options":["Un signal secret convenu","Le hasard et un regard"]}
+{"id":"int-a-1024","category":"intime","mode":"preferes","intensity":3,"text":"Pour un moment volé, tu préfères…","options":["Pendant une fête animée","Pendant un long repas à table"]}
+{"id":"int-a-1025","category":"intime","mode":"preferes","intensity":2,"text":"Pour un geste du quotidien, tu préfères…","options":["Une danse lente au milieu de la cuisine","Un baiser volé pendant la vaisselle"]}
+{"id":"int-a-1026","category":"intime","mode":"preferes","intensity":3,"text":"Pour une pause à deux, tu préfères…","options":["Un instant pour se regarder","Un instant de folie pour s'attraper"]}
+{"id":"int-a-1027","category":"intime","mode":"preferes","intensity":2,"text":"Pour une soirée calme, tu préfères…","options":["Un bar à cocktails sans alcool, ambiance jazz","Un salon de thé feutré"]}
+{"id":"int-a-1028","category":"intime","mode":"preferes","intensity":2,"text":"Pour un retour de soirée, tu préfères…","options":["Rentrer par le dernier train de la nuit","Partir par le premier train du matin"]}
+{"id":"int-a-1029","category":"intime","mode":"preferes","intensity":3,"text":"Pour un tête-à-tête, tu préfères…","options":["Une conversation de trois heures","Un silence de trois heures"]}
+{"id":"int-a-1030","category":"intime","mode":"preferes","intensity":3,"text":"Pour un câlin improvisé, tu préfères…","options":["Debout, au détour d'un couloir","Sur le lit, sans aucune hâte"]}
+{"id":"int-a-1031","category":"intime","mode":"preferes","intensity":3,"text":"Pour une semaine à deux, tu préfères…","options":["Une semaine de petits mots","Une semaine de petits gestes"]}
+{"id":"int-a-1032","category":"intime","mode":"preferes","intensity":3,"text":"Pour un compliment précis, tu préfères…","options":["Sur ton corps","Sur ton style"]}
+{"id":"int-a-1033","category":"intime","mode":"preferes","intensity":3,"text":"Pour fixer un rendez-vous, tu préfères…","options":["Choisir toi-même la date","Laisser l'autre choisir la date"]}
+{"id":"int-a-1034","category":"intime","mode":"preferes","intensity":3,"text":"Pour une escapade nocturne, tu préfères…","options":["Une marche au clair de lune","Une danse sous la pluie"]}
+{"id":"int-a-1035","category":"intime","mode":"preferes","intensity":3,"text":"Pour un baiser symbolique, tu préfères…","options":["Un baiser de réconciliation après un petit désaccord","Un baiser de retrouvailles après une absence"]}
+{"id":"int-a-1036","category":"intime","mode":"preferes","intensity":3,"text":"Pour un lien secret, tu préfères…","options":["Une blague codée entre nous","Un secret gardé entre nous"]}
+{"id":"int-a-1037","category":"intime","mode":"preferes","intensity":3,"text":"Pour un souvenir sensoriel, tu préfères…","options":["Une odeur de mer","Une odeur de forêt"]}
+{"id":"int-a-1038","category":"intime","mode":"preferes","intensity":3,"text":"Pour nos envies, tu préfères…","options":["Des envies identiques qu'on partage","Des envies différentes qui se complètent"]}
+{"id":"int-a-1039","category":"intime","mode":"preferes","intensity":3,"text":"Pour désarmer l'autre, tu préfères…","options":["Un regard qui désarme","Un sourire qui désarme"]}
+{"id":"int-a-1040","category":"intime","mode":"preferes","intensity":3,"text":"Pour un dîner, tu préfères…","options":["Un dîner où l'on se lance des défis","Un dîner où l'on s'offre des confidences"]}
+{"id":"int-a-1041","category":"intime","mode":"preferes","intensity":3,"text":"Pour une escale, tu préfères…","options":["Une nuit dans une ville inconnue","Une heure dans un lieu secret"]}
+{"id":"int-a-1042","category":"intime","mode":"preferes","intensity":3,"text":"Pour garder l'autre près de toi, tu préfères…","options":["Un vêtement qui garde son odeur","Un bijou qui garde sa chaleur"]}
+{"id":"int-a-1043","category":"intime","mode":"preferes","intensity":3,"text":"Pour une journée à deux, tu préfères…","options":["Ne pas se quitter une seconde","Se séparer le jour pour mieux se retrouver"]}
+{"id":"int-a-1044","category":"intime","mode":"preferes","intensity":2,"text":"Pour une pause à la maison, tu préfères…","options":["Un bain de soleil sur le balcon","Une sieste sous un plaid"]}
+{"id":"int-a-1045","category":"intime","mode":"preferes","intensity":3,"text":"Pour un baiser qui dit tout, tu préfères…","options":["Un baiser en plein jour","Un baiser dans l'obscurité"]}
+{"id":"int-a-1046","category":"intime","mode":"preferes","intensity":3,"text":"Pour nos promesses, tu préfères…","options":["Les tenir toujours","Les renouveler souvent"]}
+{"id":"int-a-1047","category":"intime","mode":"preferes","intensity":3,"text":"Pour terminer une soirée, tu préfères…","options":["Un dernier verre d'eau fraîche partagé","Un dernier baiser avant d'éteindre la lumière"]}
+{"id":"int-a-1048","category":"intime","mode":"preferes","intensity":3,"text":"Pour une dernière image, tu préfères…","options":["Un fou rire qui s'étire","Un long regard qui dit tout"]}
+{"id":"int-a-1049","category":"intime","mode":"preferes","intensity":3,"text":"Pour la suite de nous deux, tu préfères…","options":["Garder notre équilibre actuel","Continuer à s'inventer chaque jour"]}
+{"id":"int-a-1050","category":"intime","mode":"preferes","intensity":3,"text":"Pour notre histoire, tu préfères…","options":["Une page blanche à écrire à deux","Un chapitre déjà écrit à relire ensemble"]}
