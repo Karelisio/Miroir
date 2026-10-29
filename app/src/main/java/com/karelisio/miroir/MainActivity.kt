@@ -43,6 +43,7 @@ import com.karelisio.miroir.ui.lock.LockScreen
 import com.karelisio.miroir.ui.AppViewModel
 import com.karelisio.miroir.ui.components.LocalHapticsEnabled
 import com.karelisio.miroir.ui.navigation.DayRoute
+import com.karelisio.miroir.ui.navigation.GameRoute
 import com.karelisio.miroir.ui.navigation.MainRoute
 import com.karelisio.miroir.ui.navigation.MiroirNavHost
 import com.karelisio.miroir.ui.navigation.OnboardingRoute
@@ -167,6 +168,10 @@ class MainActivity : FragmentActivity() {
                             "custom" -> nav.navigate(MainRoute(Tabs.QUESTIONS)) { popUpTo(nav.graph.id) { inclusive = true } }
                             "today" -> nav.navigate(MainRoute(Tabs.TODAY)) { popUpTo(nav.graph.id) { inclusive = true } }
                             "history" -> nav.navigate(MainRoute(Tabs.HISTORY)) { popUpTo(nav.graph.id) { inclusive = true } }
+                            "games" -> {
+                                nav.navigate(MainRoute(Tabs.GAMES)) { popUpTo(nav.graph.id) { inclusive = true } }
+                                i.getStringExtra(Notifier.EXTRA_SESSION)?.let { nav.navigate(GameRoute(it)) }
+                            }
                         }
                     }
                 }

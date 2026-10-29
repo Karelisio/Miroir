@@ -11,9 +11,19 @@ import kotlinx.serialization.Serializable
 @Serializable data object CategoriesRoute
 @Serializable data object PermissionsRoute
 
+// De l'autre côté (jeux)
+@Serializable data class GameRoute(val id: String)
+@Serializable data object CanapeRoute
+@Serializable data object EnviesRoute
+@Serializable data object DefisRoute
+@Serializable data object GameStatsRoute
+@Serializable data object RevelationsRoute
+@Serializable data object GameSettingsRoute
+
 object Tabs {
     const val TODAY = 0
     const val HISTORY = 1
-    const val QUESTIONS = 2
-    const val SETTINGS = 3
+    const val GAMES = 2
+    const val QUESTIONS = 3
+    const val SETTINGS = 4
 }

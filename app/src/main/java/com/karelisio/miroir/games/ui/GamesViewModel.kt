@@ -43,6 +43,7 @@ data class GamesUi(
     val ongoing: List<SessionCard> = emptyList(),
     val history: List<SessionCard> = emptyList(),
     val defi: DefiCard? = null,
+    val defis: List<DefiCard> = emptyList(),
     val matches: Int = 0,
     val newMatches: Int = 0,
     val stats: GameStats? = null,
@@ -86,11 +87,12 @@ class GamesViewModel(private val c: AppContainer) : ViewModel() {
         }
         val today = c.repository.today()
         val week = com.karelisio.miroir.games.data.GameRepository.isoWeek(today)
-        val defi = views.firstOrNull { it.kind == GameKind.DEFI && it.payload.week == week }?.let { v ->
+        val defis = views.filter { it.kind == GameKind.DEFI && it.payload.week != null }.map { v ->
             val item = v.payload.items.firstOrNull()?.let { items[it] }
             val doneBy = listOf("A", "B").firstOrNull { v.answer(it, DEFI_DONE)?.ok == true }
-            DefiCard(v.entity.id, week, item?.render(partner) ?: "", item?.intensity ?: 1, doneBy != null, doneBy)
-        }
+            DefiCard(v.entity.id, v.payload.week!!, item?.render(partner) ?: "", item?.intensity ?: 1, doneBy != null, doneBy)
+        }.sortedByDescending { it.week }
+        val defi = defis.firstOrNull { it.week == week }
         GamesUi(
             loading = false,
             onboardingDone = prefs.gamesOnboardingDone,
@@ -101,6 +103,7 @@ class GamesViewModel(private val c: AppContainer) : ViewModel() {
             ongoing = cards.filter { it.status != SessionStatus.DONE }.sortedWith(compareBy<SessionCard> { it.status.ordinal }.thenByDescending { it.updatedAt }),
             history = cards.filter { it.status == SessionStatus.DONE }.sortedByDescending { it.updatedAt },
             defi = defi,
+            defis = defis,
             matches = matches.size,
             newMatches = matches.count { !it.seen },
             stats = GameStatsCalculator.compute(views, items, matches.size, today, c.repository.zone(prefs)),

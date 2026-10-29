@@ -19,6 +19,22 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.AutoStories
+import androidx.compose.material.icons.outlined.Casino
+import androidx.compose.material.icons.rounded.Casino
+import androidx.compose.runtime.remember
+import com.karelisio.miroir.games.ui.DefisScreen
+import com.karelisio.miroir.games.ui.GameSettingsScreen
+import com.karelisio.miroir.games.ui.GamesNavigator
+import com.karelisio.miroir.games.ui.GamesTab
+import com.karelisio.miroir.games.ui.GamesViewModel
+import com.karelisio.miroir.games.ui.RevelationsScreen
+import com.karelisio.miroir.games.ui.SessionViewModel
+import com.karelisio.miroir.games.ui.StatsScreen
+import com.karelisio.miroir.games.ui.canape.CanapeScreen
+import com.karelisio.miroir.games.ui.canape.CanapeViewModel
+import com.karelisio.miroir.games.ui.envies.EnviesScreen
+import com.karelisio.miroir.games.ui.envies.EnviesViewModel
+import com.karelisio.miroir.games.ui.session.SessionScreen
 import androidx.compose.material.icons.outlined.EditNote
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.outlined.WbSunny
@@ -151,6 +167,29 @@ fun MiroirNavHost(
                     val vm: RecapViewModel = viewModel { RecapViewModel(container, month.takeIf { it.isNotBlank() }?.let { java.time.YearMonth.parse(it) }) }
                     RecapScreen(vm, onBack = { navController.popBackStack() })
                 }
+                composable<GameRoute> { entry ->
+                    val id = entry.toRoute<GameRoute>().id
+                    val vm: SessionViewModel = viewModel(key = "game-$id") { SessionViewModel(container, id) }
+                    SessionScreen(vm, onBack = { navController.popBackStack() })
+                }
+                composable<CanapeRoute> {
+                    CanapeScreen(viewModel { CanapeViewModel(container) }, onBack = { navController.popBackStack() })
+                }
+                composable<EnviesRoute> {
+                    EnviesScreen(viewModel { EnviesViewModel(container) }, onBack = { navController.popBackStack() })
+                }
+                composable<DefisRoute> {
+                    DefisScreen(viewModel { GamesViewModel(container) }, onBack = { navController.popBackStack() })
+                }
+                composable<GameStatsRoute> {
+                    StatsScreen(viewModel { GamesViewModel(container) }, onBack = { navController.popBackStack() }, onRevelations = { navController.navigate(RevelationsRoute) })
+                }
+                composable<RevelationsRoute> {
+                    RevelationsScreen(viewModel { GamesViewModel(container) }, onBack = { navController.popBackStack() })
+                }
+                composable<GameSettingsRoute> {
+                    GameSettingsScreen(viewModel { GamesViewModel(container) }, onBack = { navController.popBackStack() }, onMessage = message)
+                }
                 composable<CategoriesRoute> {
                     CategoriesScreen(container, onBack = { navController.popBackStack() })
                 }
@@ -167,6 +206,7 @@ private data class TabItem(val label: String, val selected: ImageVector, val uns
 private val tabs = listOf(
     TabItem("Aujourd'hui", Icons.Rounded.WbSunny, Icons.Outlined.WbSunny),
     TabItem("Historique", Icons.Rounded.AutoStories, Icons.Outlined.AutoStories),
+    TabItem("Jeux", Icons.Rounded.Casino, Icons.Outlined.Casino),
     TabItem("Questions", Icons.Rounded.EditNote, Icons.Outlined.EditNote),
     TabItem("Réglages", Icons.Rounded.Settings, Icons.Outlined.Settings),
 )
@@ -187,6 +227,18 @@ private fun MainScaffold(
     val historyVm: HistoryViewModel = viewModel { HistoryViewModel(container) }
     val customVm: CustomQuestionsViewModel = viewModel { CustomQuestionsViewModel(container) }
     val settingsVm: SettingsViewModel = viewModel { SettingsViewModel(container) }
+    val gamesVm: GamesViewModel = viewModel { GamesViewModel(container) }
+    val gamesNav = remember(navController) {
+        GamesNavigator(
+            session = { navController.navigate(GameRoute(it)) },
+            canape = { navController.navigate(CanapeRoute) },
+            envies = { navController.navigate(EnviesRoute) },
+            defis = { navController.navigate(DefisRoute) },
+            stats = { navController.navigate(GameStatsRoute) },
+            revelations = { navController.navigate(RevelationsRoute) },
+            settings = { navController.navigate(GameSettingsRoute) },
+        )
+    }
 
     Scaffold(
         contentWindowInsets = WindowInsets.miroirSafe,
@@ -232,6 +284,7 @@ private fun MainScaffold(
                         onOpenDay = { navController.navigate(DayRoute(it)) },
                         onOpenRecap = { navController.navigate(RecapRoute()) },
                     )
+                    Tabs.GAMES -> GamesTab(gamesVm, padding, gamesNav, onMessage)
                     Tabs.QUESTIONS -> CustomQuestionsScreen(customVm, padding, onMessage)
                     else -> SettingsScreen(
                         vm = settingsVm,
