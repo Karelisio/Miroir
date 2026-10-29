@@ -37,6 +37,11 @@ jobs:
         run: |
           node questions/build.mjs
           git diff --exit-code app/src/main/assets/questions.json
+      - name: Banque des jeux à jour
+        run: |
+          node games/validate.mjs
+          node games/build.mjs
+          git diff --exit-code app/src/main/assets/games.json
       - name: Tests et build debug
         run: ./gradlew :app:testDebugUnitTest :app:assembleDebug --stacktrace
       - name: Captures d'écran
