@@ -52,6 +52,18 @@ class GamesTest {
     }
 
     @Test
+    fun `la banque embarquée se charge en entier`() = kotlinx.coroutines.runBlocking {
+        val items = com.karelisio.miroir.games.data.GameBank(androidx.test.core.app.ApplicationProvider.getApplicationContext()).all()
+        assertEquals(16_000, items.size)
+        GameCategory.entries.forEach { c -> assertEquals(c.key, 2_000, items.count { it.category == c }) }
+        assertTrue(items.all { it.text.isNotBlank() && it.intensity in 1..3 })
+        assertTrue(items.filter { it.kind == ItemKind.DEVINE }.all { it.format != null })
+        assertTrue(items.filter { it.kind == ItemKind.PREFERES || it.format == ItemFormat.CHOICE }.all { it.options.size >= 2 })
+        assertTrue(items.none { it.kind in setOf(ItemKind.DEVINE, ItemKind.PREFERES) && "{autre}" in it.text })
+        assertTrue(items.any { it.kind == ItemKind.ACTION && it.remote })
+    }
+
+    @Test
     fun `le tirage respecte l'intensité commune et l'union des exclusions`() {
         val f = DrawFilter(setOf(ItemKind.DEVINE), intensity = 2, excluded = setOf("intime", "fun"))
         val drawn = GameDraw.draw(bank, f, emptyMap(), 200, Random(1))
