@@ -27,6 +27,7 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
+import androidx.compose.material.icons.rounded.BugReport
 import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.rounded.PictureAsPdf
 import androidx.compose.material.icons.rounded.Widgets
@@ -63,6 +64,7 @@ import androidx.compose.material3.TimePicker
 import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -124,6 +126,8 @@ fun SettingsScreen(
     val missingPermissions = permissions.count { (perm, granted) -> !granted && !perm.optional }
     val lockAvailable = remember { AppLock.available(context) }
     val exporting by vm.exporting.collectAsState()
+    val logEntries by vm.logEntries.collectAsState()
+    LaunchedEffect(Unit) { vm.refreshLogCount() }
     val exportLauncher = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/pdf")) { uri ->
         uri?.let { vm.exportPdf(context.applicationContext, it, onMessage) }
     }
@@ -209,6 +213,14 @@ fun SettingsScreen(
                 ) {
                     haptics.press()
                     vm.checkUpdates { msg -> msg?.let(onMessage) }
+                }
+                link(
+                    Icons.Rounded.BugReport, "Signaler un problème",
+                    if (logEntries == 0) "Partager un rapport technique, sans vos réponses"
+                    else "$logEntries événement${if (logEntries > 1) "s" else ""} enregistré${if (logEntries > 1) "s" else ""} · partager le rapport",
+                ) {
+                    haptics.press()
+                    vm.shareReport(context)
                 }
                 if (p.ignoredVersion != null) link(Icons.Rounded.SystemUpdate, "Ne plus ignorer la version ${p.ignoredVersion}", null) { vm.resetIgnoredVersion() }
             }

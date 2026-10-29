@@ -15,6 +15,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.Dispatchers
 import com.karelisio.miroir.export.MemoriesPdf
+import com.karelisio.miroir.diagnostics.Diagnostics
 
 class SettingsViewModel(private val c: AppContainer) : ViewModel() {
     val prefs: StateFlow<AppPrefs> = c.prefs.data.stateIn(viewModelScope, SharingStarted.Eagerly, AppPrefs())
@@ -88,11 +89,22 @@ class SettingsViewModel(private val c: AppContainer) : ViewModel() {
                 }
             }.fold(
                 onSuccess = { n -> if (n == 0) "PDF créé : vos souvenirs s'y ajouteront 💜" else "PDF enregistré : $n souvenir${if (n > 1) "s" else ""} ✨" },
-                onFailure = { "Impossible d'écrire le PDF." },
+                onFailure = { e -> Diagnostics.record("pdf", "export impossible", e); "Impossible d'écrire le PDF." },
             )
             exporting.value = false
             onResult(message)
         }
+    }
+
+    /** Événements du journal technique (affichés sous « Signaler un problème »). */
+    val logEntries = MutableStateFlow(0)
+
+    fun refreshLogCount() {
+        viewModelScope.launch { logEntries.value = withContext(Dispatchers.IO) { Diagnostics.entryCount() } }
+    }
+
+    fun shareReport(context: android.content.Context) {
+        viewModelScope.launch { Diagnostics.share(context) }
     }
 
     fun unpair(onDone: () -> Unit, onError: (String) -> Unit) {

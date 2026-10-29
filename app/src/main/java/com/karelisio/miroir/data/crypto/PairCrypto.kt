@@ -1,6 +1,7 @@
 package com.karelisio.miroir.data.crypto
 
 import android.util.Base64
+import com.karelisio.miroir.diagnostics.Diagnostics
 import java.security.SecureRandom
 import javax.crypto.Cipher
 import javax.crypto.Mac
@@ -37,7 +38,12 @@ class PairCrypto(masterKey: ByteArray, private val pairId: String) {
     }
 
     fun decryptOrNull(payload: String?, context: String): String? =
-        payload?.let { runCatching { decrypt(it, context) }.getOrNull() }
+        payload?.let {
+            runCatching { decrypt(it, context) }
+                // Seul le type de donnée est noté (pas l'identifiant de paire ni le contenu).
+                .onFailure { e -> Diagnostics.record("chiffrement", "déchiffrement impossible (${context.substringBefore(':')})", e) }
+                .getOrNull()
+        }
 
     fun tag(questionId: String): String {
         val mac = Mac.getInstance("HmacSHA256")

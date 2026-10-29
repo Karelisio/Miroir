@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.karelisio.miroir.AppContainer
 import com.karelisio.miroir.BuildConfig
 import com.karelisio.miroir.data.remote.ApiException
+import com.karelisio.miroir.diagnostics.Diagnostics
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -92,6 +93,7 @@ class PairingViewModel(private val c: AppContainer, showInvite: Boolean, recover
                 _state.update { it.copy(step = PairStep.SHOW_QR, invite = invite.uri) }
                 waitForPartner()
             } catch (e: Exception) {
+                Diagnostics.record("appairage", "création impossible", e)
                 _state.update { it.copy(step = PairStep.CHOOSE, error = errorText(e)) }
             }
         }
@@ -115,6 +117,7 @@ class PairingViewModel(private val c: AppContainer, showInvite: Boolean, recover
                 repo.joinPair(invite)
                 _state.update { it.copy(step = PairStep.DONE) }
             } catch (e: Exception) {
+                Diagnostics.record("appairage", if (invite.rejoin) "reconnexion impossible" else "connexion impossible", e)
                 _state.update { it.copy(step = PairStep.SCAN, error = errorText(e)) }
             }
         }

@@ -2,6 +2,11 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [1.3.0]
+
+- Signaler un problème 🐞 : Miroir garde un petit journal technique (plantages, erreurs de synchro, de mise à jour…) et le partage en un toucher depuis Réglages › Application. Aucune réponse, aucun prénom ni aucune clé n'y figure.
+- Après un plantage, Miroir propose d'envoyer le rapport au lancement suivant.
+
 ## [1.2.0]
 
 - Et selon toi ? 🔮 : après avoir répondu, devine la réponse de l'autre. Le verdict tombe à la révélation, et l'historique affiche « On se connaît à X % ».

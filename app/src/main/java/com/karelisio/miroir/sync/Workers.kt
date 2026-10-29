@@ -8,6 +8,7 @@ import androidx.work.ForegroundInfo
 import androidx.work.WorkerParameters
 import com.karelisio.miroir.container
 import com.karelisio.miroir.data.remote.ApiException
+import com.karelisio.miroir.diagnostics.Diagnostics
 import com.karelisio.miroir.notifications.Notifier
 import java.io.IOException
 
@@ -15,14 +16,22 @@ import java.io.IOException
 class SendWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {
     override suspend fun doWork(): Result {
         val repo = applicationContext.container.repository
-        if (!repo.flushPending()) return Result.retry()
+        if (!repo.flushPending()) {
+            Diagnostics.record("envoi", "file hors ligne non vidée, nouvel essai plus tard")
+            return Result.retry()
+        }
         return try {
             repo.sync()
             Result.success()
         } catch (e: ApiException) {
+            Diagnostics.record("synchro", "erreur serveur ${e.status}", e)
             if (e.status >= 500) Result.retry() else Result.success()
         } catch (e: IOException) {
+            Diagnostics.record("synchro", "réseau indisponible (${e.javaClass.simpleName})")
             Result.retry()
+        } catch (e: Exception) {
+            Diagnostics.record("synchro", "erreur inattendue", e)
+            throw e
         }
     }
 
@@ -37,9 +46,14 @@ class SyncWorker(context: Context, params: WorkerParameters) : CoroutineWorker(c
             repo.sync()
             Result.success()
         } catch (e: ApiException) {
+            Diagnostics.record("synchro", "erreur serveur ${e.status}", e)
             if (e.status >= 500) Result.retry() else Result.success()
         } catch (e: IOException) {
+            Diagnostics.record("synchro", "réseau indisponible (${e.javaClass.simpleName})")
             Result.retry()
+        } catch (e: Exception) {
+            Diagnostics.record("synchro", "erreur inattendue", e)
+            throw e
         }
     }
 

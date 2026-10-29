@@ -13,6 +13,7 @@ import androidx.work.WorkerParameters
 import com.karelisio.miroir.BuildConfig
 import com.karelisio.miroir.container
 import com.karelisio.miroir.data.prefs.Prefs
+import com.karelisio.miroir.diagnostics.Diagnostics
 import com.karelisio.miroir.notifications.Notifier
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -110,6 +111,7 @@ class UpdateManager(private val context: Context, private val http: OkHttpClient
                 else -> { _state.value = UpdateState.Available(info); info }
             }
         } catch (e: Exception) {
+            Diagnostics.record("maj", "vérification impossible", e)
             _state.value = if (manual) UpdateState.Failed("Impossible de joindre GitHub. Vérifie ta connexion.") else UpdateState.Idle
             null
         }
@@ -128,6 +130,7 @@ class UpdateManager(private val context: Context, private val http: OkHttpClient
         val apk = try {
             download(info)
         } catch (e: Exception) {
+            Diagnostics.record("maj", "téléchargement de ${info.version} échoué", e)
             _state.value = UpdateState.Failed("Le téléchargement a échoué.", info)
             return
         }
@@ -148,6 +151,7 @@ class UpdateManager(private val context: Context, private val http: OkHttpClient
         try {
             install(apk)
         } catch (e: Exception) {
+            Diagnostics.record("maj", "installation de ${info.version} impossible", e)
             _state.value = UpdateState.Failed("L'installation n'a pas pu démarrer.", info)
         }
     }

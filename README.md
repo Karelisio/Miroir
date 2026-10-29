@@ -20,6 +20,7 @@ Application Android native (Kotlin, Jetpack Compose, Material 3 Expressive). La 
 - Widget Glance aux couleurs dynamiques : question du jour, état (« À toi ! », « En attente de sa réponse », « Révélé 💜 ») et réponse directe aux « qui de nous deux » et petits choix (taille 3×2 ou plus).
 - Raccourcis (appui long sur l'icône) et tuile des réglages rapides.
 - Verrouillage par empreinte, visage ou code du téléphone ; export PDF « livre souvenir » ; QR de secours pour relier un nouveau téléphone.
+- « Signaler un problème » : journal technique local (plantages, erreurs avalées), partagé seulement à la demande et sans données du couple.
 - Hors ligne : les réponses partent dès le retour du réseau (WorkManager).
 - Mises à jour in-app depuis les GitHub Releases (vérification au lancement et toutes les 6 h).
 

@@ -20,7 +20,10 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.material3.SnackbarDuration
 import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
+import com.karelisio.miroir.diagnostics.Diagnostics
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -114,6 +117,19 @@ class MainActivity : FragmentActivity() {
                     MiroirNavHost(container, nav, start, snackbar)
                     UpdateSheet(appVm.updates)
 
+                    // Après un plantage : proposer d'envoyer le rapport.
+                    LaunchedEffect(Unit) {
+                        if (Diagnostics.consumeCrash()) {
+                            val result = snackbar.showSnackbar(
+                                "Miroir s'est fermé de façon inattendue.",
+                                actionLabel = "Signaler",
+                                withDismissAction = true,
+                                duration = SnackbarDuration.Long,
+                            )
+                            if (result == SnackbarResult.ActionPerformed) Diagnostics.share(this@MainActivity)
+                        }
+                    }
+
                     LaunchedEffect(p.appLock) {
                         lockEnabled = p.appLock
                         if (!p.appLock) lockRequested.value = false
@@ -199,7 +215,12 @@ class MainActivity : FragmentActivity() {
         SpecialPermissionLauncher.stopWatching()
         // Les canaux "prioritaires" n'existent qu'une fois l'accès Ne pas déranger accordé.
         Notifier.createChannels(this)
-        lifecycleScope.launch { runCatching { container.repository.sync() } }
+        lifecycleScope.launch {
+            runCatching { container.repository.sync() }.onFailure { e ->
+                // Hors ligne : normal ; le reste mérite d'être noté.
+                if (e !is java.io.IOException || e is com.karelisio.miroir.data.remote.ApiException) Diagnostics.record("synchro", "au retour dans l'appli", e)
+            }
+        }
     }
 
     private companion object {

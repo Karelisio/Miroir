@@ -7,6 +7,7 @@ import com.karelisio.miroir.data.local.MiroirDatabase
 import com.karelisio.miroir.data.prefs.Prefs
 import com.karelisio.miroir.data.questions.QuestionBank
 import com.karelisio.miroir.data.remote.MiroirApi
+import com.karelisio.miroir.diagnostics.Diagnostics
 import com.karelisio.miroir.notifications.DailyReminder
 import com.karelisio.miroir.notifications.Notifier
 import com.karelisio.miroir.sync.SyncScheduler
@@ -36,6 +37,7 @@ open class MiroirApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        Diagnostics.install(this)
         container = AppContainer(this)
         startBackgroundWork()
     }
