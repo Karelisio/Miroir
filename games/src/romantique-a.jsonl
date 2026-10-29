@@ -67,7 +67,7 @@
 {"id":"rom-a-0067","category":"romantique","mode":"devine","format":"choice","intensity":2,"text":"Comment aimes-tu qu'on te réveille ?","options":["Avec des bisous","Avec un café","Avec des caresses dans le dos","Pas du tout, laisse-moi dormir"]}
 {"id":"rom-a-0068","category":"romantique","mode":"devine","format":"text","intensity":1,"text":"Quel est ton rendez-vous préféré parmi tous ceux qu'on a vécus ?"}
 {"id":"rom-a-0069","category":"romantique","mode":"devine","format":"choice","intensity":1,"text":"Ton romantisme, c'est plutôt…","options":["Le grand spectacle","Les petites attentions","Les mots tendres","Les gestes discrets"]}
-{"id":"rom-a-0070","category":"romantique","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu recevoir des fleurs ?","min":"Bof, ça fane","max":"Toujours une joie"}
+{"id":"rom-a-0070","category":"romantique","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu recevoir une lettre d'amour écrite à la main ?","min":"Un texto suffit","max":"Je la garderais toute ma vie"}
 {"id":"rom-a-0071","category":"romantique","mode":"devine","format":"text","intensity":2,"text":"Quelle est la chose la plus folle que tu aies faite par amour ?"}
 {"id":"rom-a-0072","category":"romantique","mode":"devine","format":"choice","intensity":1,"text":"Après une dispute, qu'est-ce qui te réconcilie le plus vite ?","options":["Un câlin sans parler","Des excuses sincères","Un fou rire","Un baiser"]}
 {"id":"rom-a-0073","category":"romantique","mode":"devine","format":"choice","intensity":1,"text":"Quel cliché romantique te plaît en secret ?","options":["Les pétales de rose sur le lit","La sérénade sous la fenêtre","Le bouquet livré au bureau","Courir l'un vers l'autre sur un quai"]}
@@ -600,7 +600,7 @@
 {"id":"rom-a-0600","category":"romantique","mode":"devine","format":"choice","intensity":1,"text":"Pour une photo souvenir de nous, ton décor serait…","options":["Un champ de lavande","Une ruelle pavée","Un mur de graffitis","Un coucher de soleil sur l'eau"]}
 {"id":"rom-a-0601","category":"romantique","mode":"devine","format":"choice","intensity":2,"text":"Quand l'autre prononce ton prénom tout bas, tu…","options":["Frissonnes","Souris","Te retournes","Te demandes ce que tu as fait"]}
 {"id":"rom-a-0602","category":"romantique","mode":"devine","format":"choice","intensity":1,"text":"Sur l'écran de verrouillage de ton téléphone, tu mets…","options":["Une photo de nous","Un paysage","Un mot doux","Une image drôle"]}
-{"id":"rom-a-0603","category":"romantique","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu les baisers déposés dans tes cheveux ?","min":"Bof","max":"Je fonds"}
+{"id":"rom-a-0603","category":"romantique","mode":"devine","format":"scale","intensity":1,"text":"À quel point aimes-tu qu'on se tienne la main en marchant dans la rue ?","min":"Pas trop","max":"Tout le temps"}
 {"id":"rom-a-0604","category":"romantique","mode":"devine","format":"text","intensity":1,"text":"Quelle serait la première phrase de la lettre d'amour que tu écrirais à l'autre ce soir ?"}
 {"id":"rom-a-0605","category":"romantique","mode":"devine","format":"choice","intensity":1,"text":"Pour que l'autre pense à toi toute la journée, tu glisses dans sa poche…","options":["Un petit mot","Un chocolat","Ton écharpe","Un galet"]}
 {"id":"rom-a-0606","category":"romantique","mode":"devine","format":"text","intensity":2,"text":"Quelle pensée coquine t'est venue en regardant l'autre récemment ?"}
