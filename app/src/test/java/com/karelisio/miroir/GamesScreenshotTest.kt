@@ -121,6 +121,7 @@ class GamesScreenshotTest {
             SessionCard("d2", GameKind.DEVINE, SessionStatus.WAITING, "Devine-moi", "En attente de Sam", 0),
         ),
         defi = DefiCard("defi-week-2026-W44", "2026-W44", "Glissez un mot doux quelque part où l'autre le trouvera par hasard.", 1, false, null),
+        history = listOf(SessionCard("h1", GameKind.PREFERES, SessionStatus.DONE, "Terminée", "8 dilemmes", 0)),
         matches = 11, newMatches = 2, stats = stats, intensity = 2, myIntensity = 2, partnerIntensity = 3, bankSize = 16000,
     )
 

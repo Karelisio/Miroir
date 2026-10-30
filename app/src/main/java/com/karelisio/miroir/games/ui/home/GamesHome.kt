@@ -35,6 +35,7 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.pulltorefresh.PullToRefreshBox
 import androidx.compose.material3.SheetValue
 import androidx.compose.material3.rememberBottomSheetState
@@ -81,10 +82,13 @@ class GamesActions(
     val challenge: suspend (GameKind, Int, Boolean, String?) -> String? = { _, _, _, _ -> null },
 )
 
+private const val HISTORY_PREVIEW = 3
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GamesHome(ui: GamesUi, refreshing: Boolean, contentPadding: PaddingValues, actions: GamesActions) {
     var sheet by rememberSaveable { mutableStateOf(false) }
+    var allHistory by rememberSaveable { mutableStateOf(false) }
     val haptics = rememberHaptics()
     Box(Modifier.fillMaxSize().gamesBackground()) {
         PullToRefreshBox(isRefreshing = refreshing, onRefresh = actions.refresh, modifier = Modifier.fillMaxSize()) {
@@ -136,6 +140,16 @@ fun GamesHome(ui: GamesUi, refreshing: Boolean, contentPadding: PaddingValues, a
                                     ModeTile(t.first, t.second, t.third, Modifier.weight(1f).staggeredAppear(4 + row * 2 + i, "g-m-${t.second}"), onClick = onClick)
                                 }
                             }
+                        }
+                    }
+                }
+                if (ui.history.isNotEmpty()) {
+                    item(key = "history-t") { Text("Terminées", style = MaterialTheme.typography.titleMedium) }
+                    val shown = if (allHistory) ui.history else ui.history.take(HISTORY_PREVIEW)
+                    items(shown, key = { "h-${it.id}" }) { card -> OngoingCard(card, Modifier.animateItem()) { actions.openSession(card.id) } }
+                    if (ui.history.size > HISTORY_PREVIEW) item(key = "history-more") {
+                        TextButton(onClick = { allHistory = !allHistory }) {
+                            Text(if (allHistory) "Voir moins" else "Voir les ${ui.history.size} parties")
                         }
                     }
                 }

@@ -12,6 +12,7 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -54,6 +55,14 @@ class SessionViewModel(private val c: AppContainer, private val id: String) : Vi
             lockSpicy = prefs.gamesLockSpicy,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    init {
+        // Révélation affichée : la partie quitte « Parties en cours » (localement, l'autre garde la sienne).
+        viewModelScope.launch {
+            state.first { it?.status == SessionStatus.REVEAL }
+            c.prefs.update { gamesRevealSeen(id) }
+        }
+    }
 
     /** Réponse sur moi-même et/ou pronostic sur l'autre, pour la question [index]. */
     fun answer(index: Int, self: GameValue?, guess: GameValue?) = viewModelScope.launch {

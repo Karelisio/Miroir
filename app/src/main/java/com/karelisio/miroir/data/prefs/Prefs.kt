@@ -78,6 +78,8 @@ data class AppPrefs(
     /** Chrono du mode canapé, en secondes (0 = sans). */
     val gamesTimer: Int = 0,
     val gamesBadges: Set<String> = emptySet(),
+    /** Parties dont j'ai vu la révélation : elles passent dans l'historique. */
+    val gamesRevealSeen: Set<String> = emptySet(),
 ) {
     /** Le jeu n'utilise jamais une intensité supérieure au minimum des deux réglages. */
     val gamesIntensity: Int get() = minOf(gamesSettings.intensity, partnerGamesSettings?.intensity ?: 1).coerceIn(1, 3)
@@ -128,6 +130,7 @@ class Prefs(private val context: Context) {
         val gamesLockSpicy = booleanPreferencesKey("games_lock_spicy")
         val gamesTimer = intPreferencesKey("games_timer")
         val gamesBadges = stringSetPreferencesKey("games_badges")
+        val gamesRevealSeen = stringSetPreferencesKey("games_reveal_seen")
     }
 
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
@@ -170,6 +173,7 @@ class Prefs(private val context: Context) {
             gamesLockSpicy = p[K.gamesLockSpicy] ?: false,
             gamesTimer = p[K.gamesTimer] ?: 0,
             gamesBadges = p[K.gamesBadges] ?: emptySet(),
+            gamesRevealSeen = p[K.gamesRevealSeen] ?: emptySet(),
         )
     }
 
@@ -192,7 +196,7 @@ class Prefs(private val context: Context) {
     suspend fun clearPairing() = context.dataStore.edit {
         listOf(
             K.creds, K.member, K.partnerJoined, K.partnerName, K.partnerBirthday, K.shared, K.sharedVersion, K.sharedDirty, K.rev, K.fcmTokenSent,
-            K.partnerGamesSettings, K.gamesRev, K.gamesWishesRev, K.gamesBadges,
+            K.partnerGamesSettings, K.gamesRev, K.gamesWishesRev, K.gamesBadges, K.gamesRevealSeen,
         )
             .forEach { k -> it.remove(k) }
     }
@@ -258,6 +262,7 @@ class Prefs(private val context: Context) {
         fun gamesWishesRev(rev: Long) { p[K.gamesWishesRev] = rev }
         fun gamesTimer(seconds: Int) { p[K.gamesTimer] = seconds }
         fun gamesBadges(ids: Set<String>) { p[K.gamesBadges] = ids }
+        fun gamesRevealSeen(id: String) { p[K.gamesRevealSeen] = (p[K.gamesRevealSeen] ?: emptySet()) + id }
 
         private fun bool(key: Preferences.Key<Boolean>, default: Boolean = false) =
             object : kotlin.properties.ReadWriteProperty<Any?, Boolean> {

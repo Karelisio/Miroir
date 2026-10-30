@@ -2,6 +2,10 @@
 
 Les notes de chaque GitHub Release sont extraites de la section correspondant au tag.
 
+## [2.0.2]
+
+- Jeux : une partie dont tu as vu la révélation passe dans « Terminées » (sur l'accueil des jeux) au lieu de rester dans « Parties en cours ». Une révélation laissée de côté plus de 3 jours y passe aussi.
+
 ## [2.0.1]
 
 - Retour depuis une partie, un jour de l'historique ou un écran des jeux : on revient sur l'onglet d'où l'on venait, plus sur Aujourd'hui.

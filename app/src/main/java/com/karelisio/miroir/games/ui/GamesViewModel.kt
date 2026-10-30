@@ -63,6 +63,8 @@ data class GamesUi(
         get() = GameCategory.entries.any { it.spicy && it.key !in excluded && it.key !in partnerExcluded } && intensity >= 1
 }
 
+private const val REVEAL_EXPIRY_MS = 3L * 24 * 3600 * 1000
+
 /** Accueil de « De l'autre côté » : parties en cours, défi de la semaine, stats, réglages. */
 class GamesViewModel(private val c: AppContainer) : ViewModel() {
     private val games = c.games
@@ -81,8 +83,12 @@ class GamesViewModel(private val c: AppContainer) : ViewModel() {
         val views = sessions.map { SessionView(it, byId[it.id].orEmpty(), me) }
         val items = games.items(views.flatMap { it.payload.items }.distinct()).associateBy { it.id }
         val partner = prefs.partnerDisplayName
+        val now = System.currentTimeMillis()
         val cards = views.filter { it.kind != null && it.kind != GameKind.DEFI && it.kind != GameKind.CANAPE }.map { v ->
-            val status = v.status(items)
+            val status = v.status(items).let { st ->
+                // Une révélation vue (ou laissée de côté plus de 3 jours) n'est plus « en cours ».
+                if (st == SessionStatus.REVEAL && (v.entity.id in prefs.gamesRevealSeen || now - v.entity.updatedAt > REVEAL_EXPIRY_MS)) SessionStatus.DONE else st
+            }
             SessionCard(v.entity.id, v.kind!!, status, statusLabel(status, partner), subtitle(v, prefs), v.entity.updatedAt)
         }
         val today = c.repository.today()
